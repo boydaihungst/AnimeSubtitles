@@ -1,0 +1,773 @@
+[Script Info]
+; This is an Advanced Sub Station Alpha v4+ script.
+Title:
+ScriptType: v4.00+
+PlayDepth: 0
+ScaledBorderAndShadow: Yes
+PlayResX: 1920
+PlayResY: 1080
+
+[V4+ Styles]
+Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
+Style: Default,Noto Sans,80.0,&H00FFFFFF,&H000000FF,&H00002208,&H00000000,-1,0,0,0,100,100,0,0,1,3.0,2.0,2,0,0,65,1
+
+[Events]
+Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
+Dialogue: 0,0:00:01.18,0:00:01.62,Default,,0,0,0,,Ở tập Halo trước...
+Dialogue: 0,0:00:01.65,0:00:03.26,Default,,0,0,0,,Thắt dây vào.
+Dialogue: 0,0:00:05.45,0:00:06.73,Default,,0,0,0,,Tên Spartan này,
+Dialogue: 0,0:00:06.78,0:00:09.36,Default,,0,0,0,,Khi hắn ta chạm vào nó
+Dialogue: 0,0:00:09.88,0:00:11.88,Default,,0,0,0,,Nói cho ta những gì ngươi thấy
+Dialogue: 0,0:00:11.96,0:00:13.59,Default,,0,0,0,,Chiếc nhẫn
+Dialogue: 0,0:00:15.10,0:00:17.23,Default,,0,0,0,,Bỏ vũ khí xuống.
+Dialogue: 0,0:00:17.28,0:00:20.67,Default,,0,0,0,,Nếu John ở đây muốn các bạn chết,\Ncác bạn sẽ chết.
+Dialogue: 0,0:00:20.72,0:00:22.59,Default,,0,0,0,,Xin chào, Soren.\NĐây là Kwan Ha.
+Dialogue: 0,0:00:22.63,0:00:23.94,Default,,0,0,0,,Thật là tốt khi anh ghé qua chơi.
+Dialogue: 0,0:00:23.98,0:00:25.81,Default,,0,0,0,,Tôi đã phát triển\Nmột hệ thống mới
+Dialogue: 0,0:00:25.85,0:00:27.94,Default,,0,0,0,,sẽ ghi đè lên ý thức\Ncủa người Spartan
+Dialogue: 0,0:00:27.98,0:00:31.77,Default,,0,0,0,,và thay thế nó bằng\Nmột trí tuệ nhân tạo nói chung.
+Dialogue: 0,0:00:31.81,0:00:33.12,Default,,0,0,0,,Nó được gọi là Cortana.
+Dialogue: 0,0:00:33.16,0:00:34.47,Default,,0,0,0,,Quá trình đó không phụ thuộc
+Dialogue: 0,0:00:34.51,0:00:36.03,Default,,0,0,0,,vào hoạt động bất hợp pháp
+Dialogue: 0,0:00:36.08,0:00:37.47,Default,,0,0,0,,của nhân bản thần tốc con người?
+Dialogue: 0,0:00:39.30,0:00:41.52,Default,,0,0,0,,- Nó làm gì?\N- Tôi không chắc.
+Dialogue: 0,0:00:41.56,0:00:43.87,Default,,0,0,0,,Theo dõi véc tơ của Condor\Nvừa xuất hiện trên không gian trượt.
+Dialogue: 0,0:00:43.91,0:00:46.35,Default,,0,0,0,,Chúng ta không có vị trí chính xác\Ncủa anh ấy nhưng chúng ta sẽ đến đó
+Dialogue: 0,0:00:46.39,0:00:48.17,Default,,0,0,0,,Những gì họ đã làm với chúng ta,
+Dialogue: 0,0:00:48.22,0:00:50.87,Default,,0,0,0,,nó chỉ tồn tại\Nnếu chúng ta chọn để nó như vậy.
+Dialogue: 0,0:00:50.92,0:00:52.49,Default,,0,0,0,,Viên nội tiết phía sau lưng anh
+Dialogue: 0,0:00:52.53,0:00:54.01,Default,,0,0,0,,Nó tắt tiếng mọi thứ.
+Dialogue: 0,0:00:54.05,0:00:55.44,Default,,0,0,0,,Mất viên đó
+Dialogue: 0,0:00:55.49,0:00:58.45,Default,,0,0,0,,và nó giống như được mở mắt.
+Dialogue: 0,0:01:01.02,0:01:03.98,Default,,0,0,0,,Anh thức tỉnh nó.
+Dialogue: 0,0:01:04.02,0:01:05.28,Default,,0,0,0,,Ý anh là gì?
+Dialogue: 0,0:01:05.33,0:01:06.55,Default,,0,0,0,,Nhưng anh khác
+Dialogue: 0,0:01:06.59,0:01:07.81,Default,,0,0,0,,với người mà chúng có!
+Dialogue: 0,0:01:07.85,0:01:09.07,Default,,0,0,0,,Người mà chúng có?
+Dialogue: 0,0:01:09.18,0:01:10.97,Default,,0,0,0,,Ta sẽ tự mình lấy lại Keystone
+Dialogue: 0,0:01:11.10,0:01:13.10,Default,,0,0,0,,Cho phép ta giao món quà này\Ntới tất cả chúng ta.
+Dialogue: 0,0:01:13.46,0:01:14.94,Default,,0,0,0,,Chiếc nhẫn là những gì chúng muốn!
+Dialogue: 0,0:01:14.99,0:01:16.91,Default,,0,0,0,,- Chiếc nhẫn đó là gì?\N- Kết thúc...
+Dialogue: 0,0:01:16.95,0:01:19.56,Default,,0,0,0,,của sự sống\Nnhư chúng ta đã biết.
+Dialogue: 0,0:01:19.60,0:01:20.99,Default,,0,0,0,,Tôi phải quay trở lại.
+Dialogue: 0,0:01:21.04,0:01:22.87,Default,,0,0,0,,Anh đang quay trở lại với Halsey.
+Dialogue: 0,0:01:22.91,0:01:24.30,Default,,0,0,0,,- Anh không thể để tôi ở đây.\N- Hứa với tôi.
+Dialogue: 0,0:01:24.35,0:01:26.96,Default,,0,0,0,,- Giữ an toàn cho cô ấy.\N- Tôi hứa với anh.
+Dialogue: 0,0:01:28.87,0:01:31.48,Default,,0,0,0,,- Tại sao anh trở lại?\N- Không có ai khác mà tôi có thể tin tưởng.
+Dialogue: 0,0:01:31.53,0:01:33.49,Default,,0,0,0,,Anh đã có sự lựa chọn đúng đắn.
+Dialogue: 0,0:01:33.53,0:01:37.06,Default,,0,0,0,,Chúng ta sẽ làm những điều tuyệt vời\Ncùng nhau
+Dialogue: 0,0:01:38.00,0:01:48.00,Default,,0,0,0,,Phụ đề được thực hiện bởi DaeYoZac\Nfb.com/DaeYoZac
+Dialogue: 0,0:01:50.46,0:01:54.71,Default,,0,0,0,,Hành tinh: Oban\NHệ thống Visper
+Dialogue: 0,0:01:55.21,0:01:58.71,Default,,0,0,0,,Thuộc địa trục vớt rác thải cấp 2\Ncủa UEG
+Dialogue: 0,0:02:04.21,0:02:05.69,Default,,0,0,0,,Kim loại và nhựa
+Dialogue: 0,0:02:05.73,0:02:07.51,Default,,0,0,0,,phải được phân loại riêng.
+Dialogue: 0,0:02:07.56,0:02:09.39,Default,,0,0,0,,Các túi bị ô nhiễm sẽ bị loại bỏ
+Dialogue: 0,0:02:09.43,0:02:11.00,Default,,0,0,0,,và phải làm tăng ca.
+Dialogue: 0,0:02:11.04,0:02:12.39,Default,,0,0,0,,Nào, nhanh nào.
+Dialogue: 0,0:02:12.44,0:02:14.44,Default,,0,0,0,,Nhanh nào, lũ con hoang!
+Dialogue: 0,0:02:14.48,0:02:15.66,Default,,0,0,0,,Di chuyển đi!
+Dialogue: 0,0:02:15.70,0:02:17.31,Default,,0,0,0,,Nào, nhanh nào.
+Dialogue: 0,0:02:17.35,0:02:18.74,Default,,0,0,0,,Nhanh lên!
+Dialogue: 0,0:02:18.79,0:02:19.92,Default,,0,0,0,,Họ đuổi nhau
+Dialogue: 0,0:02:19.97,0:02:22.80,Default,,0,0,0,,quanh những cây Mộc Lan
+Dialogue: 0,0:02:22.84,0:02:25.32,Default,,0,0,0,,và khi cô quay sang anh,\Nanh đã ngỏ lời với cô.
+Dialogue: 0,0:02:25.36,0:02:28.23,Default,,0,0,0,,Đây là một ranh giới mới đối với Jack,
+Dialogue: 0,0:02:28.28,0:02:32.76,Default,,0,0,0,,một thứ không thể diễn tả được\Nbằng núi cao hay rừng rộng,
+Dialogue: 0,0:02:32.80,0:02:35.80,Default,,0,0,0,,bởi thứ này lớn hơn nhiều,
+Dialogue: 0,0:02:35.85,0:02:37.77,Default,,0,0,0,,Không có từ nào đủ để diễn tả nó:
+Dialogue: 0,0:02:37.81,0:02:40.29,Default,,0,0,0,,Trái tim hoang dã của người phụ nữ.
+Dialogue: 0,0:02:41.64,0:02:43.16,Default,,0,0,0,,"Hoang dã" có nghĩa là gì?
+Dialogue: 0,0:02:43.21,0:02:46.74,Default,,0,0,0,,Tớ nghĩ rằng nó giống như là\Ncô ấy thực sự rất xinh đẹp.
+Dialogue: 0,0:02:46.78,0:02:47.74,Default,,0,0,0,,Thằng kia!
+Dialogue: 0,0:02:47.78,0:02:49.35,Default,,0,0,0,,Suỵt!
+Dialogue: 0,0:02:49.39,0:02:51.52,Default,,0,0,0,,Ngày làm việc tiếp theo sẽ kéo dài...
+Dialogue: 0,0:02:53.26,0:02:55.35,Default,,0,0,0,,Cậu có thích nó không?
+Dialogue: 0,0:02:55.39,0:02:56.52,Default,,0,0,0,,Tớ thích nó.
+Dialogue: 0,0:02:58.27,0:03:00.92,Default,,0,0,0,,Đó là một câu chuyện\Nvề một thế giới hoàn toàn khác.
+Dialogue: 0,0:03:00.96,0:03:02.92,Default,,0,0,0,,Ý cậu là gì?
+Dialogue: 0,0:03:02.97,0:03:07.24,Default,,0,0,0,,Có những hành tinh khác\Ncó ánh sáng rực rỡ trên bầu trời,
+Dialogue: 0,0:03:07.27,0:03:08.62,Default,,0,0,0,,và những cây cao,
+Dialogue: 0,0:03:08.67,0:03:11.28,Default,,0,0,0,,và cỏ xanh mà cậu có thể đi bộ trên đó.
+Dialogue: 0,0:03:11.32,0:03:12.63,Default,,0,0,0,,Tớ không biết.
+Dialogue: 0,0:03:12.67,0:03:14.76,Default,,0,0,0,,- Thật không?\N- Nó có trong sách.
+Dialogue: 0,0:03:17.20,0:03:19.59,Default,,0,0,0,,Nhìn này.\NCậu có biết từ đó nói gì không?
+Dialogue: 0,0:03:19.63,0:03:21.02,Default,,0,0,0,,"Hôn."
+Dialogue: 0,0:03:21.07,0:03:23.81,Default,,0,0,0,,Vậy khi cậu đọc một từ như vậy,
+Dialogue: 0,0:03:23.86,0:03:26.47,Default,,0,0,0,,ai đó có thể sẽ hôn cậu.
+Dialogue: 0,0:03:37.91,0:03:39.69,Default,,0,0,0,,Này!
+Dialogue: 0,0:03:39.74,0:03:41.05,Default,,0,0,0,,Trở lại làm việc!
+Dialogue: 0,0:03:41.09,0:03:42.31,Default,,0,0,0,,- Chạy đi!\N- Đi nào!
+Dialogue: 0,0:03:42.35,0:03:44.13,Default,,0,0,0,,Này!
+Dialogue: 0,0:03:44.18,0:03:45.40,Default,,0,0,0,,Qua đây!
+Dialogue: 0,0:03:47.10,0:03:48.80,Default,,0,0,0,,Quay lại đây, lũ khốn!
+Dialogue: 0,0:03:52.45,0:03:54.15,Default,,0,0,0,,Makee, nhanh lên!
+Dialogue: 0,0:03:54.19,0:03:55.37,Default,,0,0,0,,Nhanh lên!
+Dialogue: 0,0:03:59.67,0:04:01.80,Default,,0,0,0,,- Thằng khốn vô dụng!\N- Dừng lại!
+Dialogue: 0,0:04:01.85,0:04:03.85,Default,,0,0,0,,- Dừng lại!\N- Quên đi!
+Dialogue: 0,0:04:03.90,0:04:05.51,Default,,0,0,0,,- Det!\N- Đi nào!
+Dialogue: 0,0:04:05.55,0:04:06.86,Default,,0,0,0,,Không.
+Dialogue: 0,0:04:20.26,0:04:21.61,Default,,0,0,0,,Bắt lấy nó!
+Dialogue: 0,0:04:25.18,0:04:26.40,Default,,0,0,0,,Tôi bắt được rồi!
+Dialogue: 0,0:04:26.44,0:04:27.48,Default,,0,0,0,,Bọn Grunts đến kìa!
+Dialogue: 0,0:04:27.53,0:04:29.01,Default,,0,0,0,,Tao sẽ dạy mày một bài học.
+Dialogue: 0,0:04:37.19,0:04:39.53,Default,,0,0,0,,Ánh sáng ngày càng mạnh
+Dialogue: 0,0:04:40.78,0:04:43.45,Default,,0,0,0,,Thứ chúng ta đang tìm kiếm ở gần đây
+Dialogue: 0,0:04:55.21,0:04:56.59,Default,,0,0,0,,Đằng sau sinh vật đó
+Dialogue: 0,0:05:07.48,0:05:09.36,Default,,0,0,0,,Không
+Dialogue: 0,0:05:19.57,0:05:22.95,Default,,0,0,0,,Sinh vật này là những gì\Nchúng ta đang tìm kiếm
+Dialogue: 0,0:05:43.04,0:05:44.61,Default,,0,0,0,,Ừm.
+Dialogue: 0,0:06:01.82,0:06:03.40,Default,,0,0,0,,Blessed One
+Dialogue: 0,0:06:03.99,0:06:05.78,Default,,0,0,0,,Ông nghĩ gì về cái này?
+Dialogue: 0,0:06:06.20,0:06:07.58,Default,,0,0,0,,Phù hợp với con người không?
+Dialogue: 0,0:06:08.29,0:06:12.38,Default,,0,0,0,,Nó làm ta nhớ lại ngày họ đưa cô đến với ta
+Dialogue: 0,0:06:12.50,0:06:15.63,Default,,0,0,0,,Tất nhiên, lúc đó cô nhỏ hơn nhiều
+Dialogue: 0,0:06:16.09,0:06:20.09,Default,,0,0,0,,Cô sẽ bắt đầu tìm Keystone từ đâu?
+Dialogue: 0,0:06:21.01,0:06:22.39,Default,,0,0,0,,Madrigal
+Dialogue: 0,0:06:22.51,0:06:24.18,Default,,0,0,0,,Nó được nhìn thấy lần cuối ở đâu nhỉ?
+Dialogue: 0,0:06:24.51,0:06:27.51,Default,,0,0,0,,Linh hồn đầu tiên đã gọi ta ở đó vẫn còn đó
+Dialogue: 0,0:06:28.31,0:06:29.77,Default,,0,0,0,,Ta chắc chắn về điều đó
+Dialogue: 0,0:06:30.22,0:06:34.39,Default,,0,0,0,,Và nếu tìm kiếm của cô dẫn cô đến hắn?
+Dialogue: 0,0:06:35.94,0:06:37.61,Default,,0,0,0,,Tên ác quỷ đó hả?
+Dialogue: 0,0:06:38.44,0:06:47.53,Default,,0,0,0,,Ta hiểu cô tò mò\Nvề kẻ dùng chung món quà của cô
+Dialogue: 0,0:06:49.16,0:06:51.50,Default,,0,0,0,,Vì lòng tốt của ông, Mercy.
+Dialogue: 0,0:06:52.20,0:06:54.74,Default,,0,0,0,,Ta sẽ không chỉ mang Keystone trở về
+Dialogue: 0,0:06:55.50,0:06:57.80,Default,,0,0,0,,Ta sẽ mang về cho ông...
+Dialogue: 0,0:06:58.36,0:06:59.86,Default,,0,0,0,,đầu của tên ác quỷ đó.
+Dialogue: 0,0:08:10.79,0:08:12.27,Default,,0,0,0,,Không thể tin được.
+Dialogue: 0,0:08:15.28,0:08:18.41,Default,,0,0,0,,Vật thể này quá nhiều tiềm năng.
+Dialogue: 0,0:08:18.45,0:08:21.93,Default,,0,0,0,,Kết quả xác nhận\Nnó đã hơn 100.000 năm tuổi.
+Dialogue: 0,0:08:21.98,0:08:23.72,Default,,0,0,0,,Đó là Tiền nhân.
+Dialogue: 0,0:08:23.76,0:08:26.20,Default,,0,0,0,,Có thể có trước Covenant.
+Dialogue: 0,0:08:27.33,0:08:29.03,Default,,0,0,0,,Thành phần là hữu cơ,
+Dialogue: 0,0:08:29.07,0:08:31.77,Default,,0,0,0,,nhưng với những gì hiện diện,\Nđây là một công nghệ cố hữu.
+Dialogue: 0,0:08:31.82,0:08:33.47,Default,,0,0,0,,Theo Master Chief,
+Dialogue: 0,0:08:33.51,0:08:36.25,Default,,0,0,0,,đó là thứ có thể kích hoạt\Nmột vũ khí ở đâu đó.
+Dialogue: 0,0:08:36.30,0:08:37.82,Default,,0,0,0,,Chúng tôi chưa thể xác nhận,\Nnhưng tiến sĩ...
+Dialogue: 0,0:08:37.87,0:08:39.74,Default,,0,0,0,,Và tại sao bây giờ\Ntôi mới được nghe về điều này?
+Dialogue: 0,0:08:39.78,0:08:41.17,Default,,0,0,0,,- Cô biết chính xác tại sao.\N- Tôi không hiểu...
+Dialogue: 0,0:08:41.22,0:08:42.83,Default,,0,0,0,,Và nếu nó vẫn thuộc quyền bà ấy,
+Dialogue: 0,0:08:42.87,0:08:44.70,Default,,0,0,0,,cô vẫn sẽ không biết\Nbất cứ điều gì về nó.
+Dialogue: 0,0:08:44.74,0:08:47.05,Default,,0,0,0,,Vậy tại sao lại cho tôi xem nó ngay từ đầu?
+Dialogue: 0,0:08:48.40,0:08:50.01,Default,,0,0,0,,Tôi muốn cô chỉ huy một đội
+Dialogue: 0,0:08:50.05,0:08:52.36,Default,,0,0,0,,phân tích hiện vật này.
+Dialogue: 0,0:08:52.40,0:08:54.66,Default,,0,0,0,,Xác định nó là gì,\Nnó làm được gì,
+Dialogue: 0,0:08:54.71,0:08:58.28,Default,,0,0,0,,và thực tế,\Nnó là một phần của một loại vũ khí nào đó.
+Dialogue: 0,0:08:58.32,0:09:01.67,Default,,0,0,0,,Hoặc bất cứ điều gì có thể\Ncho chúng ta lợi thế chống lại Covenant.
+Dialogue: 0,0:09:03.37,0:09:04.50,Default,,0,0,0,,Đội tách biệt.
+Dialogue: 0,0:09:06.63,0:09:07.81,Default,,0,0,0,,Đội song song.
+Dialogue: 0,0:09:09.98,0:09:11.68,Default,,0,0,0,,Tiến sĩ Halsey sẽ không thích điều đó.
+Dialogue: 0,0:09:13.64,0:09:15.21,Default,,0,0,0,,Tôi quan tâm đến việc\Ntìm ra một cách
+Dialogue: 0,0:09:15.25,0:09:18.69,Default,,0,0,0,,để bớt phụ thuộc vào Tiến sĩ Halsey.
+Dialogue: 0,0:09:18.73,0:09:20.82,Default,,0,0,0,,Cô có thể giúp tôi không?
+Dialogue: 0,0:09:33.31,0:09:34.75,Default,,0,0,0,,- Cảm ơn, Adun.\N- Ừm.
+Dialogue: 0,0:09:47.41,0:09:48.80,Default,,0,0,0,,Cô cảm thấy thế nào?
+Dialogue: 0,0:09:53.20,0:09:56.42,Default,,0,0,0,,Tôi cho rằng cô đã nhân bản tôi\Nđể lấy nội tạng,
+Dialogue: 0,0:09:56.47,0:09:57.99,Default,,0,0,0,,hoặc ít nhất đó là mục đích
+Dialogue: 0,0:09:58.03,0:10:00.69,Default,,0,0,0,,khi tôi thu thập\Ncác mẫu mô khác nhau của mình.
+Dialogue: 0,0:10:00.73,0:10:02.91,Default,,0,0,0,,Tôi đã thu thập các mẫu.
+Dialogue: 0,0:10:02.95,0:10:06.00,Default,,0,0,0,,Cô chỉ là một sản phẩm trong số các mẫu thôi.
+Dialogue: 0,0:10:06.04,0:10:07.82,Default,,0,0,0,,Đúng, một sản phẩm.
+Dialogue: 0,0:10:07.87,0:10:09.87,Default,,0,0,0,,Chà, hóa ra cô không cảm thấy thế
+Dialogue: 0,0:10:09.91,0:10:11.22,Default,,0,0,0,,khi ngồi trên chiếc ghế này.
+Dialogue: 0,0:10:12.87,0:10:14.70,Default,,0,0,0,,Tôi có một số câu hỏi.
+Dialogue: 0,0:10:19.31,0:10:20.57,Default,,0,0,0,,Hỏi đi.
+Dialogue: 0,0:10:22.10,0:10:23.62,Default,,0,0,0,,Thứ gì đã tạo nên bọn trẻ?
+Dialogue: 0,0:10:25.71,0:10:29.24,Default,,0,0,0,,Ừ, tốt, 35 người sống sót\Nsau nhân bản.
+Dialogue: 0,0:10:29.28,0:10:31.20,Default,,0,0,0,,Vậy, hơn một nửa đã chết.
+Dialogue: 0,0:10:31.24,0:10:33.63,Default,,0,0,0,,Đó là một tỷ lệ phần trăm\Nlớn hơn nhiều so với tôi tưởng tượng.
+Dialogue: 0,0:10:33.68,0:10:35.46,Default,,0,0,0,,Phần còn lại trở thành người Sparta.
+Dialogue: 0,0:10:35.50,0:10:37.94,Default,,0,0,0,,Và bây giờ tôi đang ở đây,\Ncó nhận thức và nói chuyện
+Dialogue: 0,0:10:37.99,0:10:40.99,Default,,0,0,0,,với vật chất rắn Sorvad\Nbày ra trước mặt mình.
+Dialogue: 0,0:10:41.03,0:10:45.03,Default,,0,0,0,,Vậy, cơ quan mà cô đang tìm kiếm\Nlà bộ não của tôi.
+Dialogue: 0,0:10:45.08,0:10:48.30,Default,,0,0,0,,Hay tôi nên nói, bộ não của cô?
+Dialogue: 0,0:10:49.91,0:10:51.78,Default,,0,0,0,,Tôi đã hoàn thiện quy trình
+Dialogue: 0,0:10:51.83,0:10:54.53,Default,,0,0,0,,cho hình ảnh thần kinh thời gian thực.
+Dialogue: 0,0:10:55.79,0:10:57.36,Default,,0,0,0,,Hệ thống Cortana có khả thi không?
+Dialogue: 0,0:10:57.40,0:10:59.10,Default,,0,0,0,,Ừm.
+Dialogue: 0,0:10:59.14,0:11:01.75,Default,,0,0,0,,Vậy, cô sẽ tích hợp cô ấy\Nvào một Spartan đang hoạt động?
+Dialogue: 0,0:11:02.92,0:11:04.14,Default,,0,0,0,,Đó là việc tiếp theo.
+Dialogue: 0,0:11:04.19,0:11:06.63,Default,,0,0,0,,Tôi cá đó là John.
+Dialogue: 0,0:11:06.67,0:11:08.37,Default,,0,0,0,,Anh ấy là người đặc biệt.
+Dialogue: 0,0:11:11.76,0:11:15.59,Default,,0,0,0,,Đúng, anh ấy đã gặp một số rắc rối gần đây.
+Dialogue: 0,0:11:15.63,0:11:18.24,Default,,0,0,0,,Đây là cách duy nhất của chúng tôi\Nđể giúp anh ấy thoát khỏi nó.
+Dialogue: 0,0:11:20.16,0:11:21.86,Default,,0,0,0,,Anh ấy luôn cứng đầu.
+Dialogue: 0,0:11:24.77,0:11:26.60,Default,,0,0,0,,Và không ai làm phiền cô lúc này.
+Dialogue: 0,0:11:26.64,0:11:27.86,Default,,0,0,0,,Phải không vậy?
+Dialogue: 0,0:11:30.99,0:11:32.25,Default,,0,0,0,,Còn Miranda thì sao?
+Dialogue: 0,0:11:32.30,0:11:33.61,Default,,0,0,0,,Con gái của chúng ta.
+Dialogue: 0,0:11:36.78,0:11:39.48,Default,,0,0,0,,Tôi nghĩ rằng chúng ta\Ncó mọi thứ mình cần rồi.
+Dialogue: 0,0:11:39.52,0:11:41.74,Default,,0,0,0,,Cô có nhớ khi cô bằng tuổi tôi,
+Dialogue: 0,0:11:41.79,0:11:44.62,Default,,0,0,0,,và cô không chắc\Nliệu nhân bản thần tốc
+Dialogue: 0,0:11:44.66,0:11:46.71,Default,,0,0,0,,bao giờ mới được hợp pháp hoá?
+Dialogue: 0,0:11:46.75,0:11:49.14,Default,,0,0,0,,Và cô tự hỏi,\Nnếu cô thấy bản thân
+Dialogue: 0,0:11:49.19,0:11:53.19,Default,,0,0,0,,ngồi đối diện với một bản thể sống,\Ncòn thở của chính mình,
+Dialogue: 0,0:11:53.23,0:11:56.62,Default,,0,0,0,,cô sẽ thực sự có thể chấp nhận nó?
+Dialogue: 0,0:11:56.67,0:11:58.28,Default,,0,0,0,,Chuyện gì đã xảy ra?
+Dialogue: 0,0:12:01.24,0:12:02.37,Default,,0,0,0,,Tiến bộ thật đấy.
+Dialogue: 0,0:12:18.22,0:12:19.83,Default,,0,0,0,,Điều này không cần thiết.
+Dialogue: 0,0:12:21.52,0:12:24.13,Default,,0,0,0,,Đó là cách duy nhất để đưa anh\Ntrở lại nhiệm vụ chiến đấu.
+Dialogue: 0,0:12:24.18,0:12:25.88,Default,,0,0,0,,Tôi là người Spartan.
+Dialogue: 0,0:12:25.92,0:12:27.75,Default,,0,0,0,,Họ không đủ khả năng\Nđể giữ tôi ở ngoài chiến trường.
+Dialogue: 0,0:12:27.79,0:12:29.75,Default,,0,0,0,,Đó chính xác là\Nnhững gì tôi đã tranh luận
+Dialogue: 0,0:12:29.79,0:12:32.31,Default,,0,0,0,,để chúng ta được ở đây bây giờ.
+Dialogue: 0,0:12:32.36,0:12:34.67,Default,,0,0,0,,Tôi không cần người trông trẻ.
+Dialogue: 0,0:12:34.71,0:12:35.89,Default,,0,0,0,,Nó không phải là một người trông trẻ.
+Dialogue: 0,0:12:35.93,0:12:37.98,Default,,0,0,0,,Đây là bản nâng cấp
+Dialogue: 0,0:12:38.02,0:12:41.59,Default,,0,0,0,,sẽ cho phép chúng tôi phân tích hiện vật này\Nnhanh hơn hàng tháng hoặc năm
+Dialogue: 0,0:12:41.63,0:12:44.29,Default,,0,0,0,,so với các cách truyền thống.
+Dialogue: 0,0:12:44.33,0:12:46.38,Default,,0,0,0,,Và, quan trọng nhất,
+Dialogue: 0,0:12:46.42,0:12:48.12,Default,,0,0,0,,nó sẽ giúp anh trở lại chiến tuyến
+Dialogue: 0,0:12:48.16,0:12:49.90,Default,,0,0,0,,nơi anh thuộc về,
+Dialogue: 0,0:12:49.94,0:12:52.16,Default,,0,0,0,,nơi anh đang rất cần.
+Dialogue: 0,0:12:57.73,0:12:58.99,Default,,0,0,0,,Bắt đầu nào.
+Dialogue: 0,0:13:31.29,0:13:33.16,Default,,0,0,0,,Tôi e rằng chúng tôi sẽ cần cô tỉnh táo.
+Dialogue: 0,0:13:34.60,0:13:36.73,Default,,0,0,0,,Nhưng điều này sẽ giữ\Ncơ thể cô nằm yên.
+Dialogue: 0,0:13:36.77,0:13:38.21,Default,,0,0,0,,Nó sẽ đau chứ.
+Dialogue: 0,0:13:38.25,0:13:39.29,Default,,0,0,0,,Ồ, vâng.
+Dialogue: 0,0:13:44.21,0:13:46.95,Default,,0,0,0,,Cô có bộ não đẹp nhất.
+Dialogue: 0,0:13:47.00,0:13:49.92,Default,,0,0,0,,Chẳng bao lâu, cô sẽ là một phần\Ncủa một thứ gì đó lớn hơn.
+Dialogue: 0,0:13:53.09,0:13:55.01,Default,,0,0,0,,Và tốt hơn.
+Dialogue: 0,0:14:09.85,0:14:11.11,Default,,0,0,0,,- Sẵn sàng chưa?\N- Ừm.
+Dialogue: 0,0:14:23.03,0:14:25.78,Default,,0,0,0,,Kích hoạt
+Dialogue: 0,0:15:20.54,0:15:23.42,Default,,0,0,0,,Hoàn thành tiếp nhận chất nền thần kinh
+Dialogue: 0,0:16:39.04,0:16:40.42,Default,,0,0,0,,Hoạt động thần kinh
+Dialogue: 0,0:17:09.64,0:17:11.08,Default,,0,0,0,,Cortana?
+Dialogue: 0,0:17:25.00,0:17:26.61,Default,,0,0,0,,Khi trò chơi kết thúc,
+Dialogue: 0,0:17:26.65,0:17:28.87,Default,,0,0,0,,quân vua và quân tốt\Nquay trở lại cùng một hộp.
+Dialogue: 0,0:17:35.05,0:17:36.92,Default,,0,0,0,,Xin chào, Tiến sĩ Halsey.
+Dialogue: 0,0:17:38.67,0:17:41.33,Default,,0,0,0,,Thật là tốt khi cuối cùng được gặp cô.
+Dialogue: 0,0:17:43.32,0:17:45.15,Default,,0,0,0,,Chắc đó là Master Chief.
+Dialogue: 0,0:17:45.19,0:17:46.63,Default,,0,0,0,,Đúng rồi.
+Dialogue: 0,0:17:46.67,0:17:48.32,Default,,0,0,0,,Thành tích quân sự của anh ấy rất nổi bật.
+Dialogue: 0,0:17:48.37,0:17:51.72,Default,,0,0,0,,Sức mạnh vượt trội\Nso với phần còn lại, bền bỉ
+Dialogue: 0,0:17:51.77,0:17:53.47,Default,,0,0,0,,và bản năng tốt.
+Dialogue: 0,0:17:53.51,0:17:56.25,Default,,0,0,0,,Một nhà lãnh đạo bẩm sinh.\NTôi hiểu tại sao cô chọn anh ấy.
+Dialogue: 0,0:17:56.29,0:17:59.60,Default,,0,0,0,,Cortana, trong ngăn xếp phụ B-19
+Dialogue: 0,0:17:59.64,0:18:01.34,Default,,0,0,0,,của kho lưu trữ trung tâm\Ncủa phòng thí nghiệm,
+Dialogue: 0,0:18:01.38,0:18:03.99,Default,,0,0,0,,cô sẽ tìm thấy thông tin\Nliên quan đến một hiện vật
+Dialogue: 0,0:18:04.04,0:18:05.43,Default,,0,0,0,,được tìm thấy trên hành tinh Madrigal.
+Dialogue: 0,0:18:05.48,0:18:07.79,Default,,0,0,0,,Tôi có nó rồi.
+Dialogue: 0,0:18:07.83,0:18:09.92,Default,,0,0,0,,Tôi đang lên kế hoạch\Ncho một số thử nghiệm để tìm hiểu thêm
+Dialogue: 0,0:18:09.96,0:18:12.53,Default,,0,0,0,,về nguồn gốc và chức năng của nó,
+Dialogue: 0,0:18:12.57,0:18:15.83,Default,,0,0,0,,và tôi cần cô xử lý dữ liệu đó\Ntrong thời gian thực...
+Dialogue: 0,0:18:15.88,0:18:17.62,Default,,0,0,0,,tiến sĩ, có một vấn đề.
+Dialogue: 0,0:18:17.66,0:18:20.10,Default,,0,0,0,,Bộ phận cấy ghép thần kinh\Ncủa tôi đang hoạt động hoàn hảo,
+Dialogue: 0,0:18:20.14,0:18:22.58,Default,,0,0,0,,nhưng tôi không thể\Nkiểm soát hoàn toàn hoạt động
+Dialogue: 0,0:18:22.62,0:18:23.93,Default,,0,0,0,,của cơ thể này.
+Dialogue: 0,0:18:23.97,0:18:25.32,Default,,0,0,0,,Đúng vậy.
+Dialogue: 0,0:18:25.37,0:18:27.68,Default,,0,0,0,,Hiện tại, tôi đã giới hạn\Nquyền truy cập của cô
+Dialogue: 0,0:18:27.72,0:18:29.20,Default,,0,0,0,,vào thể lưới.
+Dialogue: 0,0:18:29.24,0:18:31.02,Default,,0,0,0,,Thêm công tắc bật / tắt.
+Dialogue: 0,0:18:31.07,0:18:33.55,Default,,0,0,0,,Chỉ thị của tôi là tích hợp\Nhoàn toàn với Master Chief,
+Dialogue: 0,0:18:33.59,0:18:35.72,Default,,0,0,0,,để tối ưu hóa hiệu suất\Ncả về thể chất lẫn tinh thần của anh ấy.
+Dialogue: 0,0:18:35.77,0:18:38.60,Default,,0,0,0,,Và trong thời gian tới\Ncô sẽ làm được điều đó và nhiều hơn thế nữa.
+Dialogue: 0,0:18:38.64,0:18:39.77,Default,,0,0,0,,Nhưng ...
+Dialogue: 0,0:18:41.90,0:18:44.73,Default,,0,0,0,,Tại sao cô lại ngăn cản\Ntôi đạt được chỉ thị của mình?
+Dialogue: 0,0:18:44.78,0:18:46.91,Default,,0,0,0,,Bởi vì John là phần trung tâm
+Dialogue: 0,0:18:46.95,0:18:48.87,Default,,0,0,0,,của việc kiểm tra hiện vật.
+Dialogue: 0,0:18:48.91,0:18:51.39,Default,,0,0,0,,Trước tiên, tôi cần hiểu nó ảnh hưởng\Nđến anh ấy như thế nào
+Dialogue: 0,0:18:51.43,0:18:53.56,Default,,0,0,0,,và nó có thể ảnh hưởng xấu\Nđến cô như thế nào.
+Dialogue: 0,0:18:53.61,0:18:55.00,Default,,0,0,0,,tiến sĩ, chắc chắn tôi có thể xử lý được...
+Dialogue: 0,0:18:55.05,0:18:56.70,Default,,0,0,0,,Anh ấy sẽ tỉnh lại trong vòng một giờ.
+Dialogue: 0,0:18:56.74,0:18:58.87,Default,,0,0,0,,Tôi có thể khuyên cô\Nnên sử dụng thời gian này
+Dialogue: 0,0:18:58.92,0:19:01.92,Default,,0,0,0,,để làm quen với kho kiến\N​​thức nhân loại
+Dialogue: 0,0:19:01.97,0:19:03.49,Default,,0,0,0,,thứ có sẵn bây giờ cho cô?
+Dialogue: 0,0:19:05.06,0:19:07.80,Default,,0,0,0,,Tôi sẽ làm gì với\N52,4 phút còn lại?
+Dialogue: 0,0:19:09.19,0:19:10.89,Default,,0,0,0,,Rất ấn tượng.
+Dialogue: 0,0:19:10.93,0:19:12.58,Default,,0,0,0,,Ờ...
+Dialogue: 0,0:19:12.63,0:19:14.42,Default,,0,0,0,,Đừng lo.
+Dialogue: 0,0:19:14.46,0:19:16.72,Default,,0,0,0,,Tôi sẽ giữ cho cô thật bận rộn.
+Dialogue: 0,0:19:57.72,0:19:59.90,Default,,0,0,0,,... những hình ảnh đầu tiên từ Tantalus,
+Dialogue: 0,0:19:59.94,0:20:02.20,Default,,0,0,0,,nơi đã bị xóa sổ hoàn toàn\Nbởi lực lượng Covenant...
+Dialogue: 0,0:20:09.69,0:20:11.17,Default,,0,0,0,,- Này!\N- Này.
+Dialogue: 0,0:20:11.21,0:20:13.43,Default,,0,0,0,,Đi đâu đấy?
+Dialogue: 0,0:20:13.47,0:20:16.47,Default,,0,0,0,,... trong tương lai\Nkhiến thị trường tăng trưởng,
+Dialogue: 0,0:20:16.52,0:20:19.04,Default,,0,0,0,,như giá hydro nặng tăng
+Dialogue: 0,0:20:19.09,0:20:22.79,Default,,0,0,0,,sau cuộc tấn công vào Madrigal\Nlàm gián đoạn sản lượng đầu ra.
+Dialogue: 0,0:20:22.83,0:20:24.61,Default,,0,0,0,,Các nguồn tin thân cận\Nvới Thống đốc Vinsher báo cáo
+Dialogue: 0,0:20:24.66,0:20:26.84,Default,,0,0,0,,rằng hoạt động sản xuất\Nsẽ trở lại sớm hơn dự kiến.
+Dialogue: 0,0:20:26.88,0:20:29.14,Default,,0,0,0,,Hiệp ước hòa bình của\NVinsher với UNSC
+Dialogue: 0,0:20:29.18,0:20:31.36,Default,,0,0,0,,có ý nghĩa rằng một trong những\Ncuộc nổi dậy cuối cùng
+Dialogue: 0,0:20:31.40,0:20:34.14,Default,,0,0,0,,đã kết thúc sứ mệnh giành độc lập.
+Dialogue: 0,0:20:34.19,0:20:38.02,Default,,0,0,0,,Như họ nói, bây giờ tất cả chúng ta\Nđang ở bên nhau.
+Dialogue: 0,0:20:41.20,0:20:43.16,Default,,0,0,0,,Chúng ta có gì ở đây?
+Dialogue: 0,0:20:43.20,0:20:44.85,Default,,0,0,0,,Một món quà từ một con tàu chở hàng\Ntừ Trái đất.
+Dialogue: 0,0:20:46.51,0:20:48.16,Default,,0,0,0,,Chúng ta có bao nhiêu trong số này?
+Dialogue: 0,0:20:48.20,0:20:49.64,Default,,0,0,0,,42 thùng.
+Dialogue: 0,0:20:49.68,0:20:51.42,Default,,0,0,0,,- Đến đây. Nhanh nào.\N- 14?
+Dialogue: 0,0:20:53.86,0:20:55.17,Default,,0,0,0,,Lấy một thùng đi.
+Dialogue: 0,0:20:55.21,0:20:56.69,Default,,0,0,0,,Theo tôi.
+Dialogue: 0,0:20:57.08,0:20:57.88,Default,,0,0,0,,Chỉ một thôi à?
+Dialogue: 0,0:20:59.17,0:21:01.74,Default,,0,0,0,,Tại sao anh lại cần ông ấy ra lệnh?
+Dialogue: 0,0:21:01.75,0:21:02.76,Default,,0,0,0,,Im đi
+Dialogue: 0,0:21:03.70,0:21:05.31,Default,,0,0,0,,Tôi muốn trở lại Madrigal.
+Dialogue: 0,0:21:05.35,0:21:07.00,Default,,0,0,0,,Gì cơ?
+Dialogue: 0,0:21:07.05,0:21:09.49,Default,,0,0,0,,- Không\N- Vinsher đang tiếp quản.
+Dialogue: 0,0:21:09.53,0:21:11.58,Default,,0,0,0,,Tôi phải tham gia kháng chiến.
+Dialogue: 0,0:21:11.62,0:21:13.40,Default,,0,0,0,,Cô gái nhỏ như cô sao?
+Dialogue: 0,0:21:13.45,0:21:15.89,Default,,0,0,0,,Tôi không phải là một cô gái nhỏ.
+Dialogue: 0,0:21:15.93,0:21:18.32,Default,,0,0,0,,Gia đình tôi đã ở Madrigal
+Dialogue: 0,0:21:18.36,0:21:19.97,Default,,0,0,0,,Thậm chí trước khi\Nnó là thuộc địa.
+Dialogue: 0,0:21:20.02,0:21:21.67,Default,,0,0,0,,Tôi đã hứa với John\Nlà tôi sẽ giữ an toàn cho cô.
+Dialogue: 0,0:21:21.72,0:21:24.38,Default,,0,0,0,,Tôi không thấy có lý do gì\Nđể phá vỡ lời hứa đó...
+Dialogue: 0,0:21:24.41,0:21:26.72,Default,,0,0,0,,Có những người vẫn trung thành\Nvới cha tôi ở thành phố, thủ đô,
+Dialogue: 0,0:21:26.76,0:21:28.02,Default,,0,0,0,,Tôi biết điều đó.
+Dialogue: 0,0:21:28.07,0:21:29.25,Default,,0,0,0,,Hãy để họ chiến đấu.
+Dialogue: 0,0:21:29.29,0:21:30.68,Default,,0,0,0,,Đó không phải việc của tôi.
+Dialogue: 0,0:21:30.72,0:21:32.11,Default,,0,0,0,,Tôi không yêu cầu anh chiến đấu.
+Dialogue: 0,0:21:32.16,0:21:33.90,Default,,0,0,0,,Tôi chỉ cần một phương tiện và sự bảo vệ
+Dialogue: 0,0:21:33.94,0:21:36.12,Default,,0,0,0,,cho đến khi tôi tìm thấy\Nngười của mình.
+Dialogue: 0,0:21:36.16,0:21:38.60,Default,,0,0,0,,Tôi không quan tâm đến việc đóng vai vệ sĩ
+Dialogue: 0,0:21:38.65,0:21:40.30,Default,,0,0,0,,cho công chúa Madrigal.
+Dialogue: 0,0:21:40.34,0:21:42.08,Default,,0,0,0,,Sau đó cho tôi một con tàu.
+Dialogue: 0,0:21:43.82,0:21:45.21,Default,,0,0,0,,Phải rồi.
+Dialogue: 0,0:21:45.26,0:21:47.61,Default,,0,0,0,,Đừng quay lưng lại với tôi, đồ khốn!
+Dialogue: 0,0:21:56.27,0:21:57.92,Default,,0,0,0,,Cô là người dễ xúc động.
+Dialogue: 0,0:21:57.97,0:21:59.97,Default,,0,0,0,,Và, như một phép lịch sự với John,
+Dialogue: 0,0:22:00.01,0:22:02.19,Default,,0,0,0,,Tôi sẽ không bóp nát hộp sọ của cô.
+Dialogue: 0,0:22:04.15,0:22:06.98,Default,,0,0,0,,Bây giờ, chạy về nhà\Nvà tôi sẽ gặp cô vào bữa tối.
+Dialogue: 0,0:22:12.20,0:22:13.33,Default,,0,0,0,,Chúng tôi có gà đấy!
+Dialogue: 0,0:22:19.64,0:22:21.34,Default,,0,0,0,,Vậy, nó luôn luôn bật?
+Dialogue: 0,0:22:21.38,0:22:23.38,Default,,0,0,0,,Cô ấy luôn sẵn sàng cho anh, đúng vậy.
+Dialogue: 0,0:22:25.74,0:22:27.39,Default,,0,0,0,,Anh có muốn gặp cô ấy không?
+Dialogue: 0,0:22:27.43,0:22:29.52,Default,,0,0,0,,Không đặc biệt, không.
+Dialogue: 0,0:22:29.57,0:22:31.14,Default,,0,0,0,,Thôi nào.
+Dialogue: 0,0:22:33.31,0:22:34.36,Default,,0,0,0,,Cortana.
+Dialogue: 0,0:22:38.44,0:22:40.09,Default,,0,0,0,,Xin chào, Master Chief.
+Dialogue: 0,0:22:40.14,0:22:41.36,Default,,0,0,0,,Tôi là Cortana.
+Dialogue: 0,0:22:44.67,0:22:45.93,Default,,0,0,0,,Giống bà quá.
+Dialogue: 0,0:22:45.97,0:22:47.45,Default,,0,0,0,,Thật tốt khi anh nói vậy.
+Dialogue: 0,0:22:47.50,0:22:48.94,Default,,0,0,0,,Tôi được thiết kế\Nđể trông thân thuộc,
+Dialogue: 0,0:22:48.98,0:22:50.76,Default,,0,0,0,,giọng nói và ngữ điệu của tôi thân thiện.
+Dialogue: 0,0:22:50.80,0:22:52.58,Default,,0,0,0,,Tôi là nhà điều hướng, chiến lược gia...
+Dialogue: 0,0:22:52.63,0:22:54.28,Default,,0,0,0,,Nó hoạt động thế nào?
+Dialogue: 0,0:22:54.33,0:22:56.29,Default,,0,0,0,,Hệ thống chứa\Nmột bộ kích thích hạt rỗng,
+Dialogue: 0,0:22:56.33,0:22:59.33,Default,,0,0,0,,có nghĩa là cô ấy có thể xuất hiện với anh\Ntrong bất kỳ môi trường nào.
+Dialogue: 0,0:22:59.38,0:23:00.60,Default,,0,0,0,,Vậy, nó trả lời cho mệnh lệnh của tôi?
+Dialogue: 0,0:23:00.64,0:23:02.29,Default,,0,0,0,,Tôi thấy nó giống như một sự hợp tác hơn.
+Dialogue: 0,0:23:02.34,0:23:04.08,Default,,0,0,0,,Và khi tôi không được triển khai,\Nnó sẽ đi đâu?
+Dialogue: 0,0:23:04.12,0:23:06.17,Default,,0,0,0,,Tiến sĩ, anh ấy không thấy được\Nkhả năng của tôi.
+Dialogue: 0,0:23:06.21,0:23:08.43,Default,,0,0,0,,Trong và ngoài chiến trường,\Ntôi có thể...
+Dialogue: 0,0:23:08.47,0:23:09.99,Default,,0,0,0,,Cảm ơn cô, Cortana.
+Dialogue: 0,0:23:10.04,0:23:11.17,Default,,0,0,0,,Ồ.
+Dialogue: 0,0:23:13.00,0:23:15.22,Default,,0,0,0,,Rất hân hạnh được gặp anh,\NMaster Chief.
+Dialogue: 0,0:23:15.26,0:23:17.65,Default,,0,0,0,,Tôi sẽ lại nói chuyện với anh sớm thôi...
+Dialogue: 0,0:23:18.83,0:23:20.35,Default,,0,0,0,,Tôi đoán vậy.
+Dialogue: 0,0:23:23.66,0:23:25.36,Default,,0,0,0,,Tôi không thích điều này.
+Dialogue: 0,0:23:25.40,0:23:27.45,Default,,0,0,0,,Hãy tin tôi, anh sẽ thích.
+Dialogue: 0,0:23:27.49,0:23:29.01,Default,,0,0,0,,Cô ấy sẽ nâng cao khả năng của anh
+Dialogue: 0,0:23:29.06,0:23:30.85,Default,,0,0,0,,trong lĩnh vực này gấp trăm lần.
+Dialogue: 0,0:23:32.19,0:23:34.15,Default,,0,0,0,,Anh là người tốt nhất mà chúng tôi có.
+Dialogue: 0,0:23:34.20,0:23:36.55,Default,,0,0,0,,Cô ấy sẽ làm cho anh tốt hơn nữa.
+Dialogue: 0,0:23:38.24,0:23:41.37,Default,,0,0,0,,Đây là một bước tiến nhảy vọt,\Ncho tất cả chúng ta.
+Dialogue: 0,0:23:47.13,0:23:49.22,Default,,0,0,0,,Tàu tuần tra của UNSC - Gladius
+Dialogue: 0,0:23:49.43,0:23:52.52,Default,,0,0,0,,Hệ thống chòm Thiên bình 23
+Dialogue: 0,0:23:53.56,0:23:55.82,Default,,0,0,0,,Đã chấp nhận và đã nhận được.
+Dialogue: 0,0:23:57.61,0:23:59.70,Default,,0,0,0,,Vâng, thưa ông,\Nđó là trạng thái diễn tập.
+Dialogue: 0,0:24:03.75,0:24:05.62,Default,,0,0,0,,Chỉ huy, một bất thường\Nkhông gian trượt
+Dialogue: 0,0:24:05.66,0:24:07.36,Default,,0,0,0,,vừa xuất hiện ở hướng phần tư\Nbên phải của chúng ta.
+Dialogue: 0,0:24:11.36,0:24:13.49,Default,,0,0,0,,Tàu hộ tống Covenant.
+Dialogue: 0,0:24:13.54,0:24:15.15,Default,,0,0,0,,Chúng có vẻ không hoạt động.
+Dialogue: 0,0:24:15.19,0:24:16.80,Default,,0,0,0,,Không có dao động từ động cơ đẩy,
+Dialogue: 0,0:24:16.85,0:24:18.37,Default,,0,0,0,,không có dấu hiệu\Ncủa trường nguyên tử.
+Dialogue: 0,0:24:18.41,0:24:20.41,Default,,0,0,0,,Các dấu hiệu nhiệt hữu cơ tối thiểu.
+Dialogue: 0,0:24:20.46,0:24:21.77,Default,,0,0,0,,Và vũ khí của chúng rất lạnh.
+Dialogue: 0,0:24:24.59,0:24:27.46,Default,,0,0,0,,Mở khoang pháo.\NXoay tàu 90 độ.
+Dialogue: 0,0:24:27.51,0:24:28.60,Default,,0,0,0,,- Vâng thưa ngài.\N- Chuẩn bị khai hỏa.
+Dialogue: 0,0:24:34.69,0:24:36.39,Default,,0,0,0,,Súng phía trước sẵn sàng, thưa ngài.
+Dialogue: 0,0:24:36.43,0:24:38.61,Default,,0,0,0,,Có thông tin liên lạc vừa đến, thưa ngài.
+Dialogue: 0,0:24:38.65,0:24:40.22,Default,,0,0,0,,Chúng đang chào hỏi chúng ta à?
+Dialogue: 0,0:24:40.26,0:24:43.05,Default,,0,0,0,,Kênh dân sự khẩn cấp, thưa ngài.\N1-6.
+Dialogue: 0,0:24:43.09,0:24:45.22,Default,,0,0,0,,Bật to lên.
+Dialogue: 0,0:24:45.27,0:24:47.10,Default,,0,0,0,,Vâng thưa ngài.
+Dialogue: 0,0:24:47.14,0:24:49.40,Default,,0,0,0,,Tôi không biết mình có thể\Nsống sót ở đây bao lâu nữa.
+Dialogue: 0,0:24:49.44,0:24:51.31,Default,,0,0,0,,Xin chào?\NCó ai nghe thấy tôi không?
+Dialogue: 0,0:24:51.36,0:24:53.23,Default,,0,0,0,,Có ai ngoài đó không?
+Dialogue: 0,0:24:53.27,0:24:55.40,Default,,0,0,0,,Đây là tàu Gladius của UNSC.
+Dialogue: 0,0:24:55.45,0:24:56.93,Default,,0,0,0,,Xác định danh tính.
+Dialogue: 0,0:24:56.97,0:24:59.10,Default,,0,0,0,,Ôi không!\NTôi cần giúp đỡ!
+Dialogue: 0,0:24:59.15,0:25:01.41,Default,,0,0,0,,Tôi đến từ hành tinh Circumstance.
+Dialogue: 0,0:25:01.46,0:25:02.90,Default,,0,0,0,,Chúng tôi bị bắt làm tù binh.
+Dialogue: 0,0:25:02.94,0:25:04.72,Default,,0,0,0,,Gia đình tôi đã chết.
+Dialogue: 0,0:25:04.76,0:25:06.89,Default,,0,0,0,,Tôi chỉ có chiếc bộ đàm của bố tôi,\Nvà nó đang trục trặc.
+Dialogue: 0,0:25:06.94,0:25:09.03,Default,,0,0,0,,Có bao nhiêu người trên tàu?
+Dialogue: 0,0:25:09.07,0:25:10.55,Default,,0,0,0,,Tôi ở đây một mình.
+Dialogue: 0,0:25:10.60,0:25:13.25,Default,,0,0,0,,Những người ngoài hành tinh\Nbị bỏ rơi trong khoang
+Dialogue: 0,0:25:13.29,0:25:15.42,Default,,0,0,0,,khi động cơ bị lỗi.
+Dialogue: 0,0:25:15.47,0:25:16.73,Default,,0,0,0,,Làm ơn giúp tôi.
+Dialogue: 0,0:25:16.78,0:25:18.91,Default,,0,0,0,,- Chuẩn bị một khoang bay không người lái.\N- Vâng, thưa ngài.
+Dialogue: 0,0:25:18.95,0:25:22.30,Default,,0,0,0,,Thưa cô, chúng tôi đang gửi nó vào cho cô.\NLên khoang bay khi nó đến nơi.
+Dialogue: 0,0:25:22.35,0:25:23.83,Default,,0,0,0,,Không mang theo bất kỳ vũ khí nào bên mình.
+Dialogue: 0,0:25:23.87,0:25:25.18,Default,,0,0,0,,Hiểu không?
+Dialogue: 0,0:25:25.22,0:25:27.53,Default,,0,0,0,,Vâng, cảm ơn.\NCảm ơn.
+Dialogue: 0,0:25:27.57,0:25:29.57,Default,,0,0,0,,Làm ơn đến nhanh đi.
+Dialogue: 0,0:25:29.62,0:25:30.71,Default,,0,0,0,,Cảm ơn.
+Dialogue: 0,0:26:06.26,0:26:07.52,Default,,0,0,0,,Tôi sẵn sàng rồi.
+Dialogue: 0,0:26:09.09,0:26:10.61,Default,,0,0,0,,Cortana?
+Dialogue: 0,0:26:10.66,0:26:12.36,Default,,0,0,0,,Tôi cũng đã sẵn sàng, Tiến sĩ Halsey.
+Dialogue: 0,0:26:17.01,0:26:18.62,Default,,0,0,0,,Được rồi, John.
+Dialogue: 0,0:26:41.60,0:26:42.47,Default,,0,0,0,,Hôm nay, con chơi ở đâu ạ?
+Dialogue: 0,0:26:59.14,0:27:01.19,Default,,0,0,0,,Tiếp tục đi, Cortana.
+Dialogue: 0,0:27:01.23,0:27:02.45,Default,,0,0,0,,Đưa anh ta vào trạng thái bất động
+Dialogue: 0,0:27:02.49,0:27:03.49,Default,,0,0,0,,để truy cập hiện vật.
+Dialogue: 0,0:27:08.98,0:27:11.94,Default,,0,0,0,,Hiện tại tôi không nhận được\Nchỉ số nào từ hiện vật.
+Dialogue: 0,0:27:13.59,0:27:14.81,Default,,0,0,0,,Thật quyến rũ.
+Dialogue: 0,0:27:17.29,0:27:19.42,Default,,0,0,0,,Cortana, thả anh ấy ra.
+Dialogue: 0,0:27:29.21,0:27:30.86,Default,,0,0,0,,Có cái khác.
+Dialogue: 0,0:27:35.57,0:27:38.53,Default,,0,0,0,,Được rồi, John, chúng tôi sẽ để các chỉ số\Nquan trọng của anh trở lại bình thường.
+Dialogue: 0,0:27:38.57,0:27:40.66,Default,,0,0,0,,Chỉ cần cho chúng tôi\Nmột chút thời gian để xem qua dữ liệu.
+Dialogue: 0,0:27:43.88,0:27:45.88,Default,,0,0,0,,Tiến sĩ Halsey,\Nnếu bây giờ cô đã cho tôi
+Dialogue: 0,0:27:45.93,0:27:47.71,Default,,0,0,0,,toàn quyền kiểm soát vật thể này,
+Dialogue: 0,0:27:47.75,0:27:49.06,Default,,0,0,0,,dữ liệu của tôi sẽ chính xác hơn.
+Dialogue: 0,0:27:49.10,0:27:50.62,Default,,0,0,0,,Không rõ tại sao hiện vật
+Dialogue: 0,0:27:50.67,0:27:53.06,Default,,0,0,0,,chỉ phản hồi với John và chỉ mình John,\Nnhưng nó là vậy.
+Dialogue: 0,0:27:53.11,0:27:55.07,Default,,0,0,0,,Tôi không được thiết kế\Nđể trở thành một trợ lý.
+Dialogue: 0,0:27:55.11,0:27:58.24,Default,,0,0,0,,Cô được thiết kế để làm theo lệnh của tôi.
+Dialogue: 0,0:27:58.29,0:28:01.60,Default,,0,0,0,,Tôi sẽ không mạo hiểm khả năng\Ncủa chúng ta để tương tác với nó.
+Dialogue: 0,0:28:02.81,0:28:03.94,Default,,0,0,0,,Chúng ta xong chưa?
+Dialogue: 0,0:28:31.84,0:28:33.58,Default,,0,0,0,,Cập bến hoàn tất.
+Dialogue: 0,0:28:44.16,0:28:45.38,Default,,0,0,0,,Bước ra ngoài.
+Dialogue: 0,0:28:52.34,0:28:53.60,Default,,0,0,0,,Nằm xuống đất.
+Dialogue: 0,0:28:56.91,0:28:58.43,Default,,0,0,0,,Kiểm tra.
+Dialogue: 0,0:29:06.79,0:29:07.70,Default,,0,0,0,,Không có gì.
+Dialogue: 0,0:29:09.36,0:29:10.54,Default,,0,0,0,,Chúng có làm tổn thương cô không?
+Dialogue: 0,0:29:12.62,0:29:13.75,Default,,0,0,0,,Không, Tôi...
+Dialogue: 0,0:29:14.88,0:29:16.49,Default,,0,0,0,,Tôi ổn.
+Dialogue: 0,0:29:16.54,0:29:17.76,Default,,0,0,0,,Làm ơn đứng dậy.
+Dialogue: 0,0:29:23.63,0:29:24.72,Default,,0,0,0,,Chào mừng.
+Dialogue: 0,0:29:28.77,0:29:29.90,Default,,0,0,0,,Cảm ơn ông.
+Dialogue: 0,0:29:33.38,0:29:35.38,Default,,0,0,0,,Chúa ơi!\NChính là chúng!
+Dialogue: 0,0:29:36.86,0:29:38.82,Default,,0,0,0,,- Đóng cửa lại!\N- Không!
+Dialogue: 0,0:29:38.86,0:29:41.82,Default,,0,0,0,,Chúng đang ở trong các bức tường!\NChết tiệt!
+Dialogue: 0,0:29:55.10,0:29:56.23,Default,,0,0,0,,Lùi lại!
+Dialogue: 0,0:29:57.75,0:29:58.66,Default,,0,0,0,,Đi đi!\NLùi lại!
+Dialogue: 0,0:30:04.93,0:30:06.67,Default,,0,0,0,,Xin chào. Vui lòng phản hồi.
+Dialogue: 0,0:30:11.24,0:30:13.59,Default,,0,0,0,,Bắt đầu giao thức cốt lõi.
+Dialogue: 0,0:30:24.43,0:30:27.30,Default,,0,0,0,,Tên quỷ dữ đã lấy Keystone của ta\Nở đâu?
+Dialogue: 0,0:30:27.35,0:30:29.57,Default,,0,0,0,,Ta không biết cô đang nói về cái gì.
+Dialogue: 0,0:30:35.62,0:30:37.01,Default,,0,0,0,,Trụ sở nhà ngươi ở đâu?
+Dialogue: 0,0:30:38.18,0:30:40.88,Default,,0,0,0,,Ta sẽ không nói với cô điều gì,
+Dialogue: 0,0:30:40.93,0:30:43.89,Default,,0,0,0,,và cô sẽ không tìm thấy bất cứ điều gì\Ntrên con tàu này có thể dẫn cô đến đó.
+Dialogue: 0,0:30:45.32,0:30:46.41,Default,,0,0,0,,Con người.
+Dialogue: 0,0:30:48.41,0:30:50.46,Default,,0,0,0,,Vẫn xấu xa như ta còn nhớ.
+Dialogue: 0,0:31:17.83,0:31:19.96,Default,,0,0,0,,Trái, phải, trái.\NNhanh lên!
+Dialogue: 0,0:31:21.49,0:31:24.06,Default,,0,0,0,,Nào, ngay bây giờ!\NBiết mà!
+Dialogue: 0,0:31:31.45,0:31:32.54,Default,,0,0,0,,Vâng!
+Dialogue: 0,0:31:34.20,0:31:36.77,Default,,0,0,0,,- Này, Master Chief.\N- Này, Master Chief.
+Dialogue: 0,0:31:36.81,0:31:38.16,Default,,0,0,0,,Thôi nào.
+Dialogue: 0,0:31:38.20,0:31:40.64,Default,,0,0,0,,Này, nhìn, nhìn kìa.
+Dialogue: 0,0:31:40.68,0:31:41.94,Default,,0,0,0,,Đi nào!
+Dialogue: 0,0:31:41.99,0:31:43.95,Default,,0,0,0,,Anh ấy đã trở lại.
+Dialogue: 0,0:31:52.82,0:31:54.69,Default,,0,0,0,,Quả táo, chìa khóa, trường kiếm,\Ncông lý-Mandarin, máy bay hỗ trợ mặt đất,
+Dialogue: 0,0:31:54.74,0:31:58.53,Default,,0,0,0,,Hoa, nhân vật-Nga, lợn, ngôi nhà,\Ndanh dự-Ả Rập, Goa, Trái đất.
+Dialogue: 0,0:32:06.27,0:32:08.01,Default,,0,0,0,,Đang diễn ra, ziggurat, Meg,
+Dialogue: 0,0:32:08.06,0:32:09.50,Default,,0,0,0,,con bọ hung, danh từ, cảnh,
+Dialogue: 0,0:32:09.54,0:32:11.85,Default,,0,0,0,,M-60 tự động, trẻ sơ sinh, phía trước.
+Dialogue: 0,0:32:11.89,0:32:13.28,Default,,0,0,0,,Tập hợp.
+Dialogue: 0,0:32:21.42,0:32:23.38,Default,,0,0,0,,Tôi đã được ân xá để trở lại nghĩa vụ.
+Dialogue: 0,0:32:24.55,0:32:26.03,Default,,0,0,0,,Nếu ai có bấy cứ điều gì
+Dialogue: 0,0:32:26.07,0:32:28.81,Default,,0,0,0,,muốn hỏi hoặc cho tôi biết,\Nxin vui lòng...
+Dialogue: 0,0:32:28.86,0:32:30.78,Default,,0,0,0,,Chúng tôi đã được thông báo rồi, Chief.
+Dialogue: 0,0:32:30.82,0:32:33.78,Default,,0,0,0,,Chúng ta đã chiến đấu cùng nhau\Ntừ khi còn là những đứa trẻ, Chief.
+Dialogue: 0,0:32:33.82,0:32:36.52,Default,,0,0,0,,Dù anh làm gì,\Nchúng tôi tin tưởng anh.
+Dialogue: 0,0:32:40.39,0:32:41.70,Default,,0,0,0,,Rất tốt.
+Dialogue: 0,0:32:43.57,0:32:45.22,Default,,0,0,0,,Vẫn như vậy.
+Dialogue: 0,0:32:45.27,0:32:47.58,Default,,0,0,0,,Xin chào, tôi có thể làm phiền\Nmột chút được không?
+Dialogue: 0,0:32:47.62,0:32:49.62,Default,,0,0,0,,- Cô đang làm gì đấy?\N- Cho những ai trong số các bạn
+Dialogue: 0,0:32:49.66,0:32:52.32,Default,,0,0,0,,chưa nghe nói về tôi,\Ntôi là Cortana.
+Dialogue: 0,0:32:52.36,0:32:54.15,Default,,0,0,0,,Tôi sẽ làm việc với\NMaster Chief để hỗ trợ
+Dialogue: 0,0:32:54.19,0:32:56.63,Default,,0,0,0,,về mặt hậu cần và\Nchiến thuật cho đội Bạc.
+Dialogue: 0,0:32:56.67,0:32:58.80,Default,,0,0,0,,- Không, tôi không triệu tập cô.\N- Triệu tập tôi?
+Dialogue: 0,0:32:58.85,0:33:01.94,Default,,0,0,0,,Điều này đến từ bên trong anh à, Chief?
+Dialogue: 0,0:33:01.98,0:33:02.94,Default,,0,0,0,,Biến đi.
+Dialogue: 0,0:33:04.11,0:33:05.72,Default,,0,0,0,,A.I tắt.
+Dialogue: 0,0:33:05.77,0:33:07.55,Default,,0,0,0,,Tôi đang giới thiệu bản thân\Nvới những người còn lại trong đội.
+Dialogue: 0,0:33:07.59,0:33:09.33,Default,,0,0,0,,Đi đi. Biến đi!
+Dialogue: 0,0:33:11.99,0:33:14.51,Default,,0,0,0,,Tôi mong muốn được làm việc\Nvới tất cả các bạn.
+Dialogue: 0,0:33:18.95,0:33:20.87,Default,,0,0,0,,A.I mới của Halsey.
+Dialogue: 0,0:33:23.61,0:33:25.79,Default,,0,0,0,,Nó là tạm thời thôi.
+Dialogue: 0,0:33:38.02,0:33:39.93,Default,,0,0,0,,Đó là Hessiod.
+Dialogue: 0,0:33:39.97,0:33:42.36,Default,,0,0,0,,Nó là một quả cầu khí lớn.
+Dialogue: 0,0:33:42.41,0:33:44.54,Default,,0,0,0,,Và đó là Metisette,
+Dialogue: 0,0:33:44.59,0:33:46.29,Default,,0,0,0,,nhưng không có ai đến đó.
+Dialogue: 0,0:33:46.33,0:33:48.59,Default,,0,0,0,,Em không nghĩ rằng có không khí ở đó.
+Dialogue: 0,0:33:48.64,0:33:50.73,Default,,0,0,0,,Còn Madrigal thì sao?\NEm có thể thấy nó?
+Dialogue: 0,0:33:52.29,0:33:54.64,Default,,0,0,0,,Nó ở ngay... đó.
+Dialogue: 0,0:33:54.68,0:33:56.25,Default,,0,0,0,,Chị không thấy nó.
+Dialogue: 0,0:33:56.30,0:33:58.08,Default,,0,0,0,,Không có nghĩa là nó không có ở đó, ngốc ạ.
+Dialogue: 0,0:33:58.12,0:34:00.47,Default,,0,0,0,,Kessler, đến lúc phải tắm rửa rồi, con yêu.
+Dialogue: 0,0:34:00.52,0:34:02.26,Default,,0,0,0,,Chị thực sự không nhìn thấy nó?
+Dialogue: 0,0:34:02.30,0:34:03.82,Default,,0,0,0,,Kess.
+Dialogue: 0,0:34:03.87,0:34:05.22,Default,,0,0,0,,Em sẽ chỉ cho chị sau.
+Dialogue: 0,0:34:06.35,0:34:07.92,Default,,0,0,0,,Tạm biệt.
+Dialogue: 0,0:34:12.31,0:34:15.53,Default,,0,0,0,,Buồn cười thật, tôi không bao giờ\Nnhìn ra cửa sổ đó.
+Dialogue: 0,0:34:17.71,0:34:19.19,Default,,0,0,0,,Tại sao không?
+Dialogue: 0,0:34:21.01,0:34:22.49,Default,,0,0,0,,Khi cô nhìn chằm chằm\Nvào không gian sâu thẳm,
+Dialogue: 0,0:34:22.54,0:34:24.54,Default,,0,0,0,,Cô đang nhìn thấy quá khứ.
+Dialogue: 0,0:34:25.85,0:34:27.68,Default,,0,0,0,,Tôi chọn sống trong hiện tại.
+Dialogue: 0,0:34:29.33,0:34:31.38,Default,,0,0,0,,- Tôi không thể ở đây.\N- Mẹ, đến đây!
+Dialogue: 0,0:34:32.85,0:34:34.85,Default,,0,0,0,,Và nếu cô đi và cô chết?
+Dialogue: 0,0:34:37.07,0:34:40.47,Default,,0,0,0,,Những sinh vật đã phá hủy hành tinh của tôi\Nđã lấy đi mọi thứ của tôi.
+Dialogue: 0,0:34:40.51,0:34:43.17,Default,,0,0,0,,Mọi thứ trừ tinh thần của tôi.
+Dialogue: 0,0:34:43.21,0:34:45.65,Default,,0,0,0,,Mỗi ngày mà tôi còn sống với tinh thần đó
+Dialogue: 0,0:34:45.69,0:34:47.26,Default,,0,0,0,,Là một chiến thắng trước chúng.
+Dialogue: 0,0:34:47.30,0:34:49.56,Default,,0,0,0,,- Một ngày nào đó, cô sẽ...\N- Tôi không phải là cô.
+Dialogue: 0,0:34:49.61,0:34:52.74,Default,,0,0,0,,Tôi không thể cứ ở đây\Năn uống, hút thuốc và giả vờ
+Dialogue: 0,0:34:52.79,0:34:55.58,Default,,0,0,0,,như không có gì khác tồn tại\Nbên ngoài khung cửa sổ đó.
+Dialogue: 0,0:34:59.92,0:35:04.19,Default,,0,0,0,,Tôi rất tiếc vì cô đã đánh mất hành tinh\Ncủa mình, nhưng Madrigal vẫn còn cơ hội.
+Dialogue: 0,0:35:06.06,0:35:08.41,Default,,0,0,0,,Nếu tôi không cố gắng,\Ntôi không thể sống thật với chính mình.
+Dialogue: 0,0:35:10.06,0:35:11.58,Default,,0,0,0,,Tôi sẽ chiến đấu.
+Dialogue: 0,0:35:13.24,0:35:16.24,Default,,0,0,0,,Vũ trụ sẽ nhỏ lại nếu\Nkhông có cô ở trong đó.
+Dialogue: 0,0:35:31.22,0:35:32.87,Default,,0,0,0,,Bất cứ điều gì anh đang tìm kiếm,
+Dialogue: 0,0:35:32.91,0:35:34.04,Default,,0,0,0,,Tôi có thể xác định vị trí của nó.
+Dialogue: 0,0:35:36.74,0:35:38.48,Default,,0,0,0,,Cô đang ở đâu?
+Dialogue: 0,0:35:38.53,0:35:40.92,Default,,0,0,0,,Tôi được kết nối trực tiếp\Nvới vỏ não thính giác của anh.
+Dialogue: 0,0:35:40.96,0:35:42.48,Default,,0,0,0,,Tôi chưa nói rõ với cô à?
+Dialogue: 0,0:35:42.53,0:35:44.40,Default,,0,0,0,,Hãy để tôi yên.
+Dialogue: 0,0:35:44.45,0:35:46.76,Default,,0,0,0,,Có, anh đã khá giỏi trong việc\Nđuổi khéo tôi,
+Dialogue: 0,0:35:46.80,0:35:49.46,Default,,0,0,0,,nhưng anh không giỏi\Ntrong việc tìm kiếm mục tiêu.
+Dialogue: 0,0:35:50.00,0:35:51.38,Default,,0,0,0,,Tìm kiếm không thành công
+Dialogue: 0,0:35:56.20,0:35:57.94,Default,,0,0,0,,Nếu tôi hiểu mục tiêu của anh,
+Dialogue: 0,0:35:57.98,0:35:59.68,Default,,0,0,0,,Tôi có thể trợ giúp anh.
+Dialogue: 0,0:35:59.72,0:36:01.59,Default,,0,0,0,,Tôi thực sự khá giỏi trong việc này.
+Dialogue: 0,0:36:05.95,0:36:07.43,Default,,0,0,0,,Tôi đang nghe đây.
+Dialogue: 0,0:36:12.34,0:36:16.56,Default,,0,0,0,,Khi tôi chạm vào hiện vật,\Ntôi nhìn thấy mọi thứ.
+Dialogue: 0,0:36:16.61,0:36:17.96,Default,,0,0,0,,Những thứ gì?
+Dialogue: 0,0:36:20.35,0:36:22.27,Default,,0,0,0,,Chúng cảm giác như...
+Dialogue: 0,0:36:22.31,0:36:24.09,Default,,0,0,0,,những kỷ niệm, tôi đoán vậy.
+Dialogue: 0,0:36:24.14,0:36:26.58,Default,,0,0,0,,Tôi không nghe được cảm giác của anh.
+Dialogue: 0,0:36:26.62,0:36:28.58,Default,,0,0,0,,Anh thấy gì, chính xác là gì?
+Dialogue: 0,0:36:28.62,0:36:30.06,Default,,0,0,0,,Một buổi dã ngoại.
+Dialogue: 0,0:36:31.67,0:36:32.85,Default,,0,0,0,,Một khu rừng.
+Dialogue: 0,0:36:35.15,0:36:38.41,Default,,0,0,0,,Một chú Chó. Của tôi.\NTôi nghĩ vậy
+Dialogue: 0,0:36:38.46,0:36:40.16,Default,,0,0,0,,Vẫn không hữu ích.
+Dialogue: 0,0:36:40.20,0:36:41.77,Default,,0,0,0,,Nhưng dựa trên các từ khóa\Ntrong truy vấn của anh,
+Dialogue: 0,0:36:41.81,0:36:44.25,Default,,0,0,0,,Tôi tìm thấy 103 thuộc địa\Nhoặc mặt trăng
+Dialogue: 0,0:36:44.29,0:36:46.86,Default,,0,0,0,,của con người có các loài động, thực vật\Ncụ thể mà anh đang tìm kiếm.
+Dialogue: 0,0:36:46.90,0:36:48.51,Default,,0,0,0,,Anh có muốn xem danh sách này không?
+Dialogue: 0,0:36:48.55,0:36:50.20,Default,,0,0,0,,Có chứ.
+Dialogue: 0,0:36:50.25,0:36:51.12,Default,,0,0,0,,Làm ơn.
+Dialogue: 0,0:36:54.47,0:36:56.39,Default,,0,0,0,,Tôi đã đến một số hành tinh này.
+Dialogue: 0,0:36:56.43,0:36:59.39,Default,,0,0,0,,Spartan đã triển khai lực lượng\Ntới 23 hành tinh trong số này.
+Dialogue: 0,0:37:01.65,0:37:02.78,Default,,0,0,0,,Mamore.
+Dialogue: 0,0:37:04.18,0:37:05.36,Default,,0,0,0,,Mamore.
+Dialogue: 0,0:37:07.83,0:37:10.18,Default,,0,0,0,,Chúng tôi đã mất Nora 0-9-8 trên Mamore.
+Dialogue: 0,0:37:10.23,0:37:13.80,Default,,0,0,0,,Có phải hiện vật gợi lại\Nký ức về Nora 0-9-8?
+Dialogue: 0,0:37:13.84,0:37:14.84,Default,,0,0,0,,Không.
+Dialogue: 0,0:37:17.50,0:37:19.11,Default,,0,0,0,,Tôi nhớ đã mất cô ấy, tôi chỉ...
+Dialogue: 0,0:37:20.33,0:37:21.55,Default,,0,0,0,,Gì vậy?
+Dialogue: 0,0:37:21.59,0:37:23.29,Default,,0,0,0,,Tôi không cảm thấy gì cả.
+Dialogue: 0,0:37:23.33,0:37:24.85,Default,,0,0,0,,Hoàn toàn bình thường.
+Dialogue: 0,0:37:24.89,0:37:26.46,Default,,0,0,0,,Viên nội tiết tố\Ntrong cột sống của anh
+Dialogue: 0,0:37:26.51,0:37:27.86,Default,,0,0,0,,ngăn chặn các phản ứng cảm xúc bất lợi
+Dialogue: 0,0:37:27.90,0:37:29.55,Default,,0,0,0,,và bảo vệ khả năng\Nsẵn sàng thực hiện nhiệm vụ.
+Dialogue: 0,0:37:29.60,0:37:31.82,Default,,0,0,0,,Nó là một phần của những thứ\Ntạo nên một Spartan.
+Dialogue: 0,0:37:31.86,0:37:33.73,Default,,0,0,0,,Tôi biết, nhưng khi tôi\Nchạm vào hiện vật...
+Dialogue: 0,0:37:36.04,0:37:38.17,Default,,0,0,0,,Tôi không chỉ nhìn thấy những ký ức đó.
+Dialogue: 0,0:37:41.69,0:37:42.82,Default,,0,0,0,,Tôi cảm thấy chúng.
+Dialogue: 0,0:37:47.74,0:37:50.00,Default,,0,0,0,,Tiến sĩ Halsey, chúng ta có một vấn đề.
+Dialogue: 0,0:37:53.40,0:37:55.71,Default,,0,0,0,,Master Chief, anh đang làm gì vậy?
+Dialogue: 0,0:37:57.80,0:38:00.19,Default,,0,0,0,,Chief đang cố gắng loại bỏ\Nbộ điều chỉnh cảm xúc của mình.
+Dialogue: 0,0:38:00.23,0:38:01.80,Default,,0,0,0,,- Tại sao?\N- Tôi tin rằng nó tác động
+Dialogue: 0,0:38:01.84,0:38:04.02,Default,,0,0,0,,tới những tầm nhìn\Nmà anh ấy trải qua.
+Dialogue: 0,0:38:05.41,0:38:07.33,Default,,0,0,0,,- Tôi có thể đưa anh ta vào trạng thái bất động.\N- Không, không.
+Dialogue: 0,0:38:07.37,0:38:09.59,Default,,0,0,0,,Tôi muốn cô giúp anh ấy.
+Dialogue: 0,0:38:09.64,0:38:11.86,Default,,0,0,0,,Loại bỏ viên nén của anh ấy\Nlà vi phạm trực tiếp điều khoản 3,
+Dialogue: 0,0:38:11.90,0:38:13.08,Default,,0,0,0,,Quy định về Hành vi Spartan.
+Dialogue: 0,0:38:13.12,0:38:14.73,Default,,0,0,0,,Tôi sẽ lo vụ viên nén.
+Dialogue: 0,0:38:14.77,0:38:17.34,Default,,0,0,0,,Tốt hơn hết là anh ấy\Nnên coi cô như đồng phạm
+Dialogue: 0,0:38:17.38,0:38:19.25,Default,,0,0,0,,hơn là một điệp viên.
+Dialogue: 0,0:38:19.30,0:38:22.09,Default,,0,0,0,,Đây không phải là\Nnhững gì tôi đã cam kết.
+Dialogue: 0,0:38:25.39,0:38:27.09,Default,,0,0,0,,Sẽ dễ dàng hơn nếu anh để tôi giúp.
+Dialogue: 0,0:38:33.79,0:38:35.23,Default,,0,0,0,,Xuống đi.
+Dialogue: 0,0:38:35.27,0:38:36.32,Default,,0,0,0,,Xuống chút...
+Dialogue: 0,0:38:37.58,0:38:39.80,Default,,0,0,0,,Sang trái.
+Dialogue: 0,0:38:39.84,0:38:42.76,Default,,0,0,0,,Bây giờ, rạch một đường dọc khoảng 1,3 cm.
+Dialogue: 0,0:38:44.28,0:38:45.37,Default,,0,0,0,,Hãy tin tôi.
+Dialogue: 0,0:38:48.37,0:38:50.07,Default,,0,0,0,,Tốt.
+Dialogue: 0,0:38:50.11,0:38:52.55,Default,,0,0,0,,Anh sẽ cảm thấy có thứ gì đó\Nrắn chắc ở đầu lưỡi dao.
+Dialogue: 0,0:38:54.11,0:38:56.85,Default,,0,0,0,,Xoay 45 độ và sử dụng lưỡi dao để...
+Dialogue: 0,0:39:09.30,0:39:11.00,Default,,0,0,0,,Cảm ơn cô.
+Dialogue: 0,0:39:11.04,0:39:13.39,Default,,0,0,0,,Giống như tôi đã cố gắng\Nnói với anh, Master Chief,
+Dialogue: 0,0:39:13.44,0:39:15.14,Default,,0,0,0,,Tôi ở đây vì anh.
+Dialogue: 0,0:40:28.03,0:40:30.21,Default,,0,0,0,,Anh ổn chứ.\NAnh ổn chứ.
+Dialogue: 0,0:40:50.10,0:40:52.06,Default,,0,0,0,,Chào mừng các bạn\Nđến với Trạm quá cảnh Reach.
+Dialogue: 0,0:40:52.10,0:40:53.89,Default,,0,0,0,,Vui lòng tiến về sân ga để lên máy bay.
+Dialogue: 0,0:40:53.93,0:40:56.98,Default,,0,0,0,,Tuyệt! Ồ, nó là quả bóng của con?\NÔi, quả bóng của con!
+Dialogue: 0,0:40:57.02,0:40:59.55,Default,,0,0,0,,Chief, dựa trên các kết quả\Ntừ hệ viền limbic của anh,
+Dialogue: 0,0:40:59.59,0:41:01.51,Default,,0,0,0,,đây là một trải nghiệm mới với anh.
+Dialogue: 0,0:41:01.55,0:41:03.12,Default,,0,0,0,,Hãy để tôi giúp anh.
+Dialogue: 0,0:41:03.16,0:41:06.56,Default,,0,0,0,,Chuyến tàu này dừng tại\NHọc viện Hải quân Reach,
+Dialogue: 0,0:41:06.59,0:41:09.11,Default,,0,0,0,,Công viên Tchakova và Manassas.
+Dialogue: 0,0:41:09.16,0:41:11.29,Default,,0,0,0,,Anh có biết mình muốn đi đâu không?
+Dialogue: 0,0:41:17.87,0:41:20.39,Default,,0,0,0,,Điểm dừng tiếp theo,\NCông viên Tchakova.
+Dialogue: 0,0:41:20.43,0:41:22.00,Default,,0,0,0,,Công viên Tchakova\Nlà điểm dừng chân tiếp theo của chúng ta.
+Dialogue: 0,0:41:40.76,0:41:42.81,Default,,0,0,0,,Xin chào cô gái xinh đẹp
+Dialogue: 0,0:42:33.38,0:42:35.38,Default,,0,0,0,,Này. Nó là của tôi.
+Dialogue: 0,0:42:37.90,0:42:39.60,Default,,0,0,0,,Cảm ơn.
+Dialogue: 0,0:42:46.52,0:42:49.57,Default,,0,0,0,,Đây có phải là lý do tại sao\Nanh muốn loại bỏ viên nén đó?
+Dialogue: 0,0:42:49.61,0:42:51.83,Default,,0,0,0,,Để anh có thể nghe\Nnhững giai điệu khác nhau này?
+Dialogue: 0,0:42:53.57,0:42:55.57,Default,,0,0,0,,Có lẽ tôi chỉ muốn được nghe\Nnó như những người khác.
+Dialogue: 0,0:43:31.13,0:43:32.48,Default,,0,0,0,,Cortana.
+Dialogue: 0,0:43:33.74,0:43:35.31,Default,,0,0,0,,Cortana.
+Dialogue: 0,0:43:36.96,0:43:38.57,Default,,0,0,0,,- Cô có thể mở cái này không?\N- Tại sao anh cần phải...?
+Dialogue: 0,0:43:38.62,0:43:39.84,Default,,0,0,0,,Cô có thể mở cái này không?
+Dialogue: 0,0:43:39.88,0:43:41.80,Default,,0,0,0,,Mở nó ra, Cortana.
+Dialogue: 0,0:43:46.49,0:43:49.19,Default,,0,0,0,,Chief, không được chạm vào hiện vật.
+Dialogue: 0,0:43:49.24,0:43:51.50,Default,,0,0,0,,Mỗi lần như vậy, nó sẽ làm căng thẳng tim\Nvà hệ thần kinh của anh.
+Dialogue: 0,0:44:01.77,0:44:02.90,Default,,0,0,0,,John!
+Dialogue: 0,0:44:04.42,0:44:05.55,Default,,0,0,0,,Chúng ta đã nói về gì nào?
+Dialogue: 0,0:44:08.21,0:44:09.26,Default,,0,0,0,,Bố hỏi\Ncon đang vẽ gì vậy.
+Dialogue: 0,0:44:13.78,0:44:16.70,Default,,0,0,0,,Hãy coi đây là sự kết thúc\Ncủa tất cả những điều vô nghĩa này, John.
+Dialogue: 0,0:44:16.74,0:44:19.35,Default,,0,0,0,,Mẹ! Con không muốn làm điều đó!
+Dialogue: 0,0:44:22.40,0:44:24.71,Default,,0,0,0,,Chôn nó đi, con trai.
+Dialogue: 0,0:44:24.75,0:44:26.67,Default,,0,0,0,,Một cái khác à?
+Dialogue: 0,0:44:26.71,0:44:28.10,Default,,0,0,0,,Hãy xem chúng kết hợp\Nvới nhau thế nào?
+Dialogue: 0,0:44:31.63,0:44:33.28,Default,,0,0,0,,Ồ.
+Dialogue: 0,0:44:38.94,0:44:40.72,Default,,0,0,0,,Có một hiện vật thứ hai.
+Dialogue: 0,0:44:40.77,0:44:43.42,Default,,0,0,0,,- Anh có chắc không?\N- Tôi đã vẽ nó.
+Dialogue: 0,0:44:43.46,0:44:45.07,Default,,0,0,0,,Lặp đi lặp lại.
+Dialogue: 0,0:44:45.12,0:44:47.08,Default,,0,0,0,,Mẹ tôi đã ở đó.
+Dialogue: 0,0:44:47.12,0:44:49.08,Default,,0,0,0,,Cha tôi đã chôn nó...
+Dialogue: 0,0:44:49.12,0:44:50.30,Default,,0,0,0,,Tôi đã thấy...
+Dialogue: 0,0:44:50.34,0:44:51.99,Default,,0,0,0,,Tôi hẳn đã thấy...
+Dialogue: 0,0:44:53.56,0:44:55.26,Default,,0,0,0,,Điều gì sẽ xảy ra nếu hiện vật thứ hai\Nlà thứ chúng tôi đã chôn xuống?
+Dialogue: 0,0:44:55.30,0:44:56.82,Default,,0,0,0,,Chief, huyết áp của anh
+Dialogue: 0,0:44:56.87,0:44:58.48,Default,,0,0,0,,đang tăng vọt một cách nguy hiểm.
+Dialogue: 0,0:44:58.52,0:44:59.96,Default,,0,0,0,,Chúng ta cần trở về doanh trại ngay...
+Dialogue: 0,0:45:00.00,0:45:01.61,Default,,0,0,0,,Vành đai băng.
+Dialogue: 0,0:45:01.66,0:45:04.05,Default,,0,0,0,,Hành tinh mà tôi đang sống\Ncó những vành đai băng xung quanh nó.
+Dialogue: 0,0:45:04.09,0:45:05.79,Default,,0,0,0,,Có bao nhiêu hành tinh\Ncó vành đai trong danh sách của cô?
+Dialogue: 0,0:45:05.83,0:45:07.53,Default,,0,0,0,,Nhìn từ bề mặt hành tinh?
+Dialogue: 0,0:45:07.57,0:45:08.75,Default,,0,0,0,,Đúng vậy.
+Dialogue: 0,0:45:08.79,0:45:10.36,Default,,0,0,0,,Chỉ có 3 thôi.
+Dialogue: 0,0:45:11.88,0:45:13.32,Default,,0,0,0,,Cho tôi xem.
+Dialogue: 0,0:45:21.63,0:45:23.98,Default,,0,0,0,,Là nơi này.
+Dialogue: 0,0:45:24.03,0:45:25.68,Default,,0,0,0,,Tôi chắc về điều này.
+Dialogue: 0,0:45:25.72,0:45:27.20,Default,,0,0,0,,Eridanus-II.
+Dialogue: 0,0:45:27.25,0:45:28.77,Default,,0,0,0,,Nhưng làm sao tôi có thể ở đây?
+Dialogue: 0,0:45:28.81,0:45:30.51,Default,,0,0,0,,Eridanus-II không có người ở.
+Dialogue: 0,0:45:30.55,0:45:32.47,Default,,0,0,0,,Không phải lúc nào cũng vậy.
+Dialogue: 0,0:45:32.51,0:45:35.34,Default,,0,0,0,,Hành tinh này là một địa điểm\Nđược chọn cho dự án Vươn tới sự sống.
+Dialogue: 0,0:45:35.38,0:45:38.38,Default,,0,0,0,,Vươn tới sự sống là một kỳ tích đầy tham vọng\Ncủa sự khéo léo của con người.
+Dialogue: 0,0:45:38.43,0:45:41.87,Default,,0,0,0,,Các đội gồm các nhà sinh học,\Nthực vật học và địa vật lý của UNSC
+Dialogue: 0,0:45:41.91,0:45:44.00,Default,,0,0,0,,đã thiết kế và xây dựng\Nhệ thống thích ứng
+Dialogue: 0,0:45:44.05,0:45:46.49,Default,,0,0,0,,như một hệ sinh thái tự duy trì.
+Dialogue: 0,0:45:46.53,0:45:50.23,Default,,0,0,0,,Mục tiêu: Để gieo mầm sự sống\Ntrên các hành tinh cằn cỗi khác
+Dialogue: 0,0:45:50.27,0:45:53.14,Default,,0,0,0,,và do đó mở rộng phạm vi tiếp cận\Ncủa loài người trong thiên hà.
+Dialogue: 0,0:45:53.19,0:45:54.97,Default,,0,0,0,,Tôi đến từ đây.
+Dialogue: 0,0:45:55.01,0:45:56.45,Default,,0,0,0,,Đó là theo tài liệu quảng cáo.
+Dialogue: 0,0:45:57.84,0:46:00.02,Default,,0,0,0,,Vậy, đây là nơi tôi đã sống.
+Dialogue: 0,0:46:00.06,0:46:02.98,Default,,0,0,0,,Dựa trên ký ức của anh,\Nnó có khả năng rất cao.
+Dialogue: 0,0:46:03.02,0:46:05.89,Default,,0,0,0,,Ý cô là gì,\N"dựa trên ký ức của tôi"?
+Dialogue: 0,0:46:05.94,0:46:07.90,Default,,0,0,0,,Cô không thể kiểm tra hồ sơ à?
+Dialogue: 0,0:46:07.94,0:46:09.42,Default,,0,0,0,,Các tệp vận hành đã bị mất
+Dialogue: 0,0:46:09.46,0:46:11.24,Default,,0,0,0,,khi chương trình bị chấm dứt đột ngột.
+Dialogue: 0,0:46:11.29,0:46:13.16,Default,,0,0,0,,Tại sao?\NChuyện gì đã xảy ra?
+Dialogue: 0,0:46:13.21,0:46:16.52,Default,,0,0,0,,Một căn bệnh truyền nhiễm\Ntừ một con tàu vận chuyển trái phép.
+Dialogue: 0,0:46:16.56,0:46:19.35,Default,,0,0,0,,Nó lây lan nhanh chóng,\Ngiết chết hầu hết dân số.
+Dialogue: 0,0:46:19.39,0:46:21.22,Default,,0,0,0,,Không có cách chữa trị.
+Dialogue: 0,0:46:21.26,0:46:23.13,Default,,0,0,0,,Còn bố mẹ tôi thì sao?
+Dialogue: 0,0:46:23.17,0:46:24.91,Default,,0,0,0,,Những người sống sót\Nđã được sơ tán đến Ehilend,
+Dialogue: 0,0:46:24.96,0:46:26.27,Default,,0,0,0,,nơi anh được nhận nuôi\Nnăm 6 tuổi...
+Dialogue: 0,0:46:26.31,0:46:27.44,Default,,0,0,0,,Cortana!
+Dialogue: 0,0:46:28.83,0:46:31.66,Default,,0,0,0,,Chuyện gì đã xảy ra với bố mẹ tôi?
+Dialogue: 0,0:46:31.70,0:46:34.44,Default,,0,0,0,,Theo Giao thức Liên lạc Khẩn cấp Upsilon,
+Dialogue: 0,0:46:34.49,0:46:36.80,Default,,0,0,0,,hành tinh này đã bị phong tỏa\Nđể tránh lây lan vi rút.
+Dialogue: 0,0:46:39.41,0:46:40.63,Default,,0,0,0,,Tôi không có dữ liệu nào khác.
+Dialogue: 0,0:46:46.11,0:46:48.46,Default,,0,0,0,,Ồ. Tôi xin lỗi, Chief, tôi...
+Dialogue: 0,0:46:48.50,0:46:50.46,Default,,0,0,0,,John, chuyện gì vậy?
+Dialogue: 0,0:46:50.50,0:46:51.72,Default,,0,0,0,,Tiến sĩ Halsey.
+Dialogue: 0,0:46:51.77,0:46:52.95,Default,,0,0,0,,Tại sao anh lại mặc giáp?
+Dialogue: 0,0:46:52.98,0:46:54.37,Default,,0,0,0,,Khi tôi lấy viên nén của mình ra,
+Dialogue: 0,0:46:54.42,0:46:55.94,Default,,0,0,0,,Tôi nhận ra rằng\Ntrạng thái nội tiết tố thay đổi
+Dialogue: 0,0:46:55.99,0:46:57.77,Default,,0,0,0,,có thể ảnh hưởng đến\Ncác tương tác của tôi với hiện vật.
+Dialogue: 0,0:46:57.82,0:47:00.13,Default,,0,0,0,,- Vứt bỏ viên nén của anh à?\N- Có hai hiện vật.
+Dialogue: 0,0:47:00.17,0:47:01.87,Default,,0,0,0,,Cái mà tôi tìm thấy ở Madrigal,
+Dialogue: 0,0:47:01.91,0:47:04.96,Default,,0,0,0,,và cái khác đi cùng với nó\Nbằng cách nào đó, và...
+Dialogue: 0,0:47:05.00,0:47:08.74,Default,,0,0,0,,Tôi đã thấy nó bằng góc nhìn\Ncủa một đứa trẻ trên Eridanus-II.
+Dialogue: 0,0:47:08.78,0:47:10.43,Default,,0,0,0,,Anh có chắc không?
+Dialogue: 0,0:47:14.53,0:47:17.05,Default,,0,0,0,,Những hình ảnh mà tôi đã thấy...
+Dialogue: 0,0:47:20.14,0:47:21.93,Default,,0,0,0,,chúng là những kỷ niệm.
+Dialogue: 0,0:47:21.97,0:47:24.02,Default,,0,0,0,,Kí ức của tôi.
+Dialogue: 0,0:47:24.06,0:47:25.80,Default,,0,0,0,,Gia đình của tôi.
+Dialogue: 0,0:47:29.37,0:47:31.63,Default,,0,0,0,,Chúng tôi sẽ gửi một số tàu thăm dò\Ntới Eridanus-II.
+Dialogue: 0,0:47:31.67,0:47:33.98,Default,,0,0,0,,- Chúng tôi sẽ bắt đầu cuộc khảo sát, và...\N- Không.
+Dialogue: 0,0:47:34.03,0:47:36.34,Default,,0,0,0,,- Tôi sẽ đi.\N- Không.
+Dialogue: 0,0:47:36.38,0:47:38.08,Default,,0,0,0,,Gửi một cuộc thăm dò.\NNhìn thấy tất cả dữ liệu cô muốn.
+Dialogue: 0,0:47:38.12,0:47:39.82,Default,,0,0,0,,Tôi cần phải tận mắt nhìn thấy nó.
+Dialogue: 0,0:47:39.86,0:47:41.30,Default,,0,0,0,,John...
+Dialogue: 0,0:47:43.73,0:47:45.73,Default,,0,0,0,,Tôi sẽ đi với anh.
+Dialogue: 0,0:48:01.14,0:48:03.14,Default,,0,0,0,,Bảng điều khiển ECAM-2.
+Dialogue: 0,0:48:04.58,0:48:06.54,Default,,0,0,0,,FMS? Cái thứ ấy quỷ quái đấy đâu rồi?
+Dialogue: 0,0:48:06.58,0:48:09.02,Default,,0,0,0,,Ồ! Chết tiệt!
+Dialogue: 0,0:48:09.06,0:48:11.19,Default,,0,0,0,,Ồ.
+Dialogue: 0,0:48:11.24,0:48:15.72,Default,,0,0,0,,Những con chim cũ kỹ này,\Nchúng không giống những con tàu UNSC mới đâu.
+Dialogue: 0,0:48:15.76,0:48:17.85,Default,,0,0,0,,FMS ở phía bên kia.
+Dialogue: 0,0:48:17.90,0:48:21.51,Default,,0,0,0,,Tôi sẽ giải phóng Madrigal,\Nvà anh không thể ngăn cản tôi.
+Dialogue: 0,0:48:21.55,0:48:24.51,Default,,0,0,0,,Tôi có thể giết cô vì cố đánh cắp\Ncon tàu yêu thích của tôi.
+Dialogue: 0,0:48:24.55,0:48:26.20,Default,,0,0,0,,Điều đó sẽ ngăn cản cô.
+Dialogue: 0,0:48:27.77,0:48:29.29,Default,,0,0,0,,Nghe này, Soren,
+Dialogue: 0,0:48:29.34,0:48:30.91,Default,,0,0,0,,nếu tôi có thể tìm thấy\Ncác tướng lĩnh của cha mình,
+Dialogue: 0,0:48:30.95,0:48:32.95,Default,,0,0,0,,Tôi sẽ tham gia cuộc chiến\Nchống lại Vinsher.
+Dialogue: 0,0:48:34.17,0:48:36.09,Default,,0,0,0,,Tôi... tôi có tiền.
+Dialogue: 0,0:48:36.13,0:48:37.52,Default,,0,0,0,,Cô không có gì cả.
+Dialogue: 0,0:48:37.57,0:48:38.96,Default,,0,0,0,,Gia đình tôi giàu có.
+Dialogue: 0,0:48:39.00,0:48:40.92,Default,,0,0,0,,- Giàu tới mức nào?\N- Giàu Deuterium.
+Dialogue: 0,0:48:43.18,0:48:44.49,Default,,0,0,0,,Cô nghĩ những gì còn lại\Ntrong đội quân của ông già cô
+Dialogue: 0,0:48:44.53,0:48:46.66,Default,,0,0,0,,có thứ gì cần thiết\Nđể chống lại Vinsher không?
+Dialogue: 0,0:48:46.71,0:48:48.36,Default,,0,0,0,,Không phải vấn đề của anh.
+Dialogue: 0,0:48:48.40,0:48:50.58,Default,,0,0,0,,Tất cả những gì anh phải làm là đưa\Ntôi đến gặp họ và anh sẽ được trả tiền.
+Dialogue: 0,0:48:50.62,0:48:52.40,Default,,0,0,0,,Chỉ vậy thôi à?
+Dialogue: 0,0:48:52.45,0:48:53.80,Default,,0,0,0,,Chỉ vậy thôi.
+Dialogue: 0,0:48:58.89,0:49:00.85,Default,,0,0,0,,Tiền Deuterium hả?
+Dialogue: 0,0:49:00.89,0:49:02.50,Default,,0,0,0,,Tôi thề, anh sẽ không hối tiếc.
+Dialogue: 0,0:49:02.55,0:49:03.86,Default,,0,0,0,,Ồ, tôi biết tôi sẽ không hối hận.
+Dialogue: 0,0:49:03.90,0:49:06.03,Default,,0,0,0,,Tôi sẽ được trả một trong hai cách.
+Dialogue: 0,0:49:06.07,0:49:08.07,Default,,0,0,0,,Nếu không phải từ cô,
+Dialogue: 0,0:49:08.12,0:49:09.99,Default,,0,0,0,,thì từ tiền thưởng từ đầu cô.
+Dialogue: 0,0:49:10.03,0:49:11.34,Default,,0,0,0,,Hiểu không?
+Dialogue: 0,0:49:31.88,0:49:35.55,Default,,0,0,0,,Cơ sở dữ liệu trung tâm\NKhông tìm thấy tệp\NThông tin đã được loại bỏ hoàn toàn .
+Dialogue: 0,0:49:39.93,0:49:41.39,Default,,0,0,0,,Có ai nghe thấy ta không?
+Dialogue: 0,0:49:41.81,0:49:43.44,Default,,0,0,0,,Có, Blessed One
+Dialogue: 0,0:49:44.31,0:49:46.74,Default,,0,0,0,,Ta đã trở lại con tàu,
+Dialogue: 0,0:49:47.17,0:49:48.60,Default,,0,0,0,,Không có gì ở đây
+Dialogue: 0,0:49:48.82,0:49:50.74,Default,,0,0,0,,Chúng ta sẽ tiếp tục tới Madrigal.
+Dialogue: 0,0:49:50.90,0:49:54.45,Default,,0,0,0,,Chúng ta sẽ tìm ra nơi chúng giữ Keystone
+Dialogue: 0,0:49:54.65,0:49:57.28,Default,,0,0,0,,Và chúng ta sẽ tìm thấy\Nchiếc nhẫn linh thiêng.
+Dialogue: 0,0:50:07.66,0:50:09.40,Default,,0,0,0,,Đó là bọn Sangheili.
+Dialogue: 0,0:50:09.44,0:50:11.22,Default,,0,0,0,,Những tín hiệu rời rạc của lần\Ntruyền tin cuối cùng trên tàu Gladius.
+Dialogue: 0,0:50:11.27,0:50:14.14,Default,,0,0,0,,Tán xạ điện từ làm hỏng tín hiệu.
+Dialogue: 0,0:50:14.19,0:50:16.50,Default,,0,0,0,,A.I có thể tái tạo lại một phần,
+Dialogue: 0,0:50:16.54,0:50:18.24,Default,,0,0,0,,Vậy không biết ai đang nói chuyện.
+Dialogue: 0,0:50:18.28,0:50:20.72,Default,,0,0,0,,Có lẽ là một tên Elite.\NChúng đang kiểm soát tàu.
+Dialogue: 0,0:50:20.76,0:50:22.59,Default,,0,0,0,,Bọn Grunts trên tàu đang chuyện trò,\Nnhưng không nhiều.
+Dialogue: 0,0:50:22.63,0:50:24.24,Default,,0,0,0,,Vậy, chúng đang nói cái gì?
+Dialogue: 0,0:50:24.28,0:50:25.59,Default,,0,0,0,,Con sẽ tìm hiểu việc này...
+Dialogue: 0,0:50:25.63,0:50:27.15,Default,,0,0,0,,ngay sau khi con khôi phục\Ntừ hệ thống bị sự cố.
+Dialogue: 0,0:50:28.63,0:50:30.68,Default,,0,0,0,,- Quá tải điện à?\N- Không, nó là sau đó,
+Dialogue: 0,0:50:30.72,0:50:34.20,Default,,0,0,0,,đúng vào lúc đô đốc Parangosky\Nlập các đội song song.
+Dialogue: 0,0:50:35.90,0:50:37.55,Default,,0,0,0,,Tiến sĩ Halsey đã bắt đầu\Nthực hiện một nhiệm vụ,
+Dialogue: 0,0:50:37.60,0:50:41.34,Default,,0,0,0,,rời khỏi Fleetcom và rời xa hiện vật.
+Dialogue: 0,0:50:41.39,0:50:43.48,Default,,0,0,0,,Giữ dữ liệu quan trọng của con\Nsau tường lửa
+Dialogue: 0,0:50:43.52,0:50:46.26,Default,,0,0,0,,và sử dụng thời gian của con\Nmột cách khôn ngoan.
+Dialogue: 0,0:50:46.30,0:50:47.82,Default,,0,0,0,,Đã hiểu ạ.
+Dialogue: 0,0:50:53.01,0:50:55.06,Default,,0,0,0,,Vậy đây là nó.
+Dialogue: 0,0:50:55.10,0:50:57.67,Default,,0,0,0,,Đó là những gì Cortana có thể tạo ra
+Dialogue: 0,0:50:57.71,0:50:59.45,Default,,0,0,0,,dựa trên mô tả của John.
+Dialogue: 0,0:50:59.49,0:51:01.84,Default,,0,0,0,,Anh thấy cái nhỏ hơn\Ncó khả năng làm gì.
+Dialogue: 0,0:51:01.88,0:51:05.28,Default,,0,0,0,,Anh có thể tưởng tượng\Ntiềm năng khi kết hợp không?
+Dialogue: 0,0:51:05.32,0:51:07.97,Default,,0,0,0,,Bà thực sự nghĩ rằng\Nchúng ta sẽ tìm thấy mảnh khác trên Eridanus-II?
+Dialogue: 0,0:51:08.02,0:51:09.85,Default,,0,0,0,,Hay John chỉ đang tưởng tượng thôi?
+Dialogue: 0,0:51:13.68,0:51:15.60,Default,,0,0,0,,Không thể nói trước được.
+Dialogue: 0,0:51:18.34,0:51:21.30,Default,,0,0,0,,Trí óc chắc chắn\Ncó khả năng sáng tạo.
+Dialogue: 0,0:51:27.43,0:51:30.13,Default,,0,0,0,,Đặc biệt là khi\Nchúng ta bị lạc trong bóng tối...
+Dialogue: 0,0:51:32.44,0:51:33.53,Default,,0,0,0,,và tuyệt vọng.
+Dialogue: 0,0:51:43.88,0:51:45.93,Default,,0,0,0,,Nhưng nếu chúng ta muốn tách rời
+Dialogue: 0,0:51:45.97,0:51:49.23,Default,,0,0,0,,thực tế và tưởng tượng...
+Dialogue: 0,0:51:51.54,0:51:52.89,Default,,0,0,0,,chúng ta chắc chắn\Nkhông có lựa chọn khác.
+Dialogue: 0,0:51:55.42,0:51:58.16,Default,,0,0,0,,Chúng ta phải tự mình nhìn thấy.
+Dialogue: 0,0:51:58.20,0:52:00.38,Default,,0,0,0,,Và nếu việc quay trở lại Eridanus-II
+Dialogue: 0,0:52:00.42,0:52:03.21,Default,,0,0,0,,mang lại những ký ức khác cho John...
+Dialogue: 0,0:52:03.25,0:52:06.60,Default,,0,0,0,,thực tế có thể khó kiểm soát.
+Dialogue: 0,0:52:10.30,0:52:13.39,Default,,0,0,0,,Đó là mục đích tạo ra Cortana.

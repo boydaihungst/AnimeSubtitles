@@ -1,0 +1,501 @@
+[Script Info]
+; This is an Advanced Sub Station Alpha v4+ script.
+Title: 
+ScriptType: v4.00+
+PlayDepth: 0
+ScaledBorderAndShadow: Yes
+PlayResX: 1920
+PlayResY: 1080
+[V4+ Styles]
+Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
+Style: Default,Noto Sans,80.0,&H00FFFFFF,&H000000FF,&H00002208,&H00000000,-1,0,0,0,100,100,0,0,1,3.0,2.0,2,0,0,65,1
+
+[Events]
+Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
+Dialogue: 0,0:00:16.66,0:00:19.56,Default,,0,0,0,,{\fad(500,500)\bord4\fs55\pos(643,560)}Vương quốc Liones
+Dialogue: 0,0:00:26.38,0:00:28.69,Default,,0,0,0,,{\fad(500,500)\bord4\fs55\pos(652,561)}Bên ngoài vương đô
+Dialogue: 0,0:02:19.82,0:02:22.29,Default,,0,0,0,,{\fad(0,500)\bord4\fs55\pos(638,568)}10 năm sau
+Dialogue: 0,0:02:23.38,0:02:27.25,Default,,0,0,0,,{\fad(500,500)\bord4\fs55\pos(650,568)}Gần làng Kaynes
+Dialogue: 0,0:02:46.93,0:02:49.94,Default,,0,0,0,,{\pos(640,210)\fs45\fscy120\\b1\c&H1A1E22&\blur5.5\3c&H0B2534&}Tập 1
+Dialogue: 0,0:02:46.93,0:02:49.94,Default,,0,0,0,,{\pos(640,210)\fs45\fscy120\\b1\c&HFBFDFC&\blur0.6}Tập 1
+Dialogue: 0,0:02:46.93,0:02:49.94,Default,,0,0,0,,{\pos(640,516.286)\fscy120\\b1\c&H1A1E22&\blur5.5\fs70}Thất Đại Tội
+Dialogue: 0,0:02:46.93,0:02:49.94,Default,,0,0,0,,{\pos(640,516.286)\fscy120\\b1\c&HFBFDFC&\blur0.65\fs70}Thất Đại Tội
+Dialogue: 0,0:23:32.18,0:23:34.60,Default,,0,0,0,,{\fad(500,500)\bord4\fs55\pos(636,567)}Cách làng Kaynes 30 dặm về phía Đông
+Dialogue: 0,0:23:37.02,0:23:40.78,Default,,0,0,0,,{\fad(500,500)\bord4\fs55\pos(648,565)}Pháo đài Solgales
+Dialogue: 0,0:24:11.01,0:24:13.01,Default,,0,0,0,,{\pos(646.476,608.001)\bord4.5\shad0\\fs65\fscy120\3c&H1F1F1F&\c&H20201F&\blur0.4}GIỚI THIỆU TẬP TỚI
+Dialogue: 0,0:24:11.01,0:24:13.01,Default,,0,0,0,,{\pos(646.476,608.001)\bord0\shad0\\fs65\fscy120\3c&H232626&\blur0.6\c&HFFFFFF&}GIỚI THIỆU TẬP TỚI
+Dialogue: 0,0:24:38.04,0:24:41.04,Default,,0,0,0,,{\pos(640,210)\fs45\fscy120\\b1\c&H1A1E22&\blur5.5\3c&H0B2534&}Tập 2
+Dialogue: 0,0:24:38.04,0:24:41.04,Default,,0,0,0,,{\pos(640,210)\fs45\fscy120\\b1\c&HFBFDFC&\blur0.6}Tập 2
+Dialogue: 0,0:24:38.04,0:24:41.04,Default,,0,0,0,,{\pos(640,516.286)\fscy120\\b1\c&H1A1E22&\blur5.5\fs70}Kiếm của Thánh Kỵ Sĩ
+Dialogue: 0,0:24:38.04,0:24:41.04,Default,,0,0,0,,{\pos(640,516.286)\fscy120\\b1\c&HFBFDFC&\blur0.65\fs70}Kiếm của Thánh Kỵ Sĩ
+Dialogue: 0,0:00:41.58,0:00:42.29,Default,,0,0,0,,Này!
+Dialogue: 0,0:00:42.89,0:00:45.57,Default,,0,0,0,,{You busy? Help me over here!}Có bận gì không?\N Lại giúp ta một tay nào!
+Dialogue: 0,0:00:46.07,0:00:47.13,Default,,0,0,0,,Vâng!
+Dialogue: 0,0:00:49.93,0:00:50.93,Default,,0,0,0,,{Where are you from?}Nhóc từ đâu tới?
+Dialogue: 0,0:00:51.59,0:00:52.37,Default,,0,0,0,,Kaynes ạ.
+Dialogue: 0,0:00:52.97,0:00:58.80,Default,,0,0,0,,{Kaynes? I've served this kingdom for 40 years, and I've never heard of such a place.}Kaynes? Ta phục vụ vương quốc 40 năm rồi\Nmà chưa lần nào nghe thấy cái tên này đấy.
+Dialogue: 0,0:00:58.80,0:01:01.71,Default,,0,0,0,,{Well, it's deep inside the kingdom...}Thì tại nó là vùng nông thôn hẻo lánh mà...
+Dialogue: 0,0:01:02.51,0:01:05.51,Default,,0,0,0,,{Apparently, you're not even an apprentice of the Sacred Knights...}Bộ dạng của nhóc có vẻ\Nkhông giống với Thánh Kỵ Sĩ tập sự lắm.
+Dialogue: 0,0:01:07.13,0:01:09.19,Default,,0,0,0,,{I was never planning on getting knighted...}Thánh Kỵ Sĩ thì cháu không dám mơ...
+Dialogue: 0,0:01:09.19,0:01:12.39,Default,,0,0,0,,{Just to warn you, this task can be quite difficult for people like you.}Ta cảnh báo trước, nhiệm vụ này sẽ\Nhơi khó nhằn với nhóc đấy.
+Dialogue: 0,0:01:17.61,0:01:18.41,Default,,0,0,0,,{What the hell?}Thế này là...
+Dialogue: 0,0:01:19.25,0:01:21.38,Default,,0,0,0,,{These are all Sacred Knights.}Tất cả đều là Thánh Kỵ Sĩ đấy.
+Dialogue: 0,0:01:25.33,0:01:27.27,Default,,0,0,0,,{Wh-what happened to them?}Đ-Đã xảy ra chuyện gì vậy ạ?
+Dialogue: 0,0:01:27.79,0:01:28.95,Default,,0,0,0,,{Well...}"Chuyện gì"?
+Dialogue: 0,0:01:29.63,0:01:31.25,Default,,0,0,0,,{They were murdered.}Dĩ nhiên là thảm sát rồi.
+Dialogue: 0,0:01:32.03,0:01:33.89,Default,,0,0,0,,{Not only that, but instantly.}Hơn nữa, chỉ trong tích tắc.
+Dialogue: 0,0:01:35.59,0:01:37.11,Default,,0,0,0,,{Only seven remain.}Bởi đúng bảy người.
+Dialogue: 0,0:01:44.61,0:01:49.61,Default,,0,0,0,,{In a story of when the world had no barrier between humans and non-humans.}Đây là câu chuyện về thế giới không có rào cản\Ngiữa nhân loại và phi nhân loại.
+Dialogue: 0,0:01:50.47,0:01:51.61,Default,,0,0,0,,{A story of ancient times...}Câu chuyện về thời xa xưa...
+Dialogue: 0,0:01:52.99,0:01:56.77,Default,,0,0,0,,{The Sacred Knights would protect the kingdom with powerful spells.}Nơi những Thánh Kỵ Sĩ bảo vệ vương quốc\Nbằng pháp thuật quyền năng.
+Dialogue: 0,0:01:57.07,0:01:58.87,Default,,0,0,0,,{They were honored and feared.}Họ được tôn sùng và kính sợ.
+Dialogue: 0,0:02:00.35,0:02:05.87,Default,,0,0,0,,{a faction arose who betrayed their country and turned their blades against the remaining Knights.}Nhưng rồi, một nhóm hiệp sĩ phản loạn\Nđã chĩa mũi gươm về phía Thánh Kỵ Sị.
+Dialogue: 0,0:02:06.69,0:02:10.63,Default,,0,0,0,,{People would start to call them The Seven Deadly Sins.}Mọi người gọi chúng là Thất Đại Tội.
+Dialogue: 0,0:02:52.89,0:02:56.02,Default,,0,0,0,,{Sorry for being about five minutes late.}Đây! Năm cốc lớn!\NXin lỗi đã để đợi lâu!
+Dialogue: 0,0:02:56.43,0:02:57.57,Default,,0,0,0,,{Can I get a seat?}Quán này còn chỗ chứ?
+Dialogue: 0,0:02:57.84,0:02:58.86,Default,,0,0,0,,{Well, the place is packed...}Mời vào!
+Dialogue: 0,0:02:59.09,0:03:00.89,Default,,0,0,0,,{Well, the place is packed...}Xin lỗi nhưng quý khách chịu khó chật chút nhé.{nghĩa gốc là nhồi nhét, dịch thế này chắc k sai}
+Dialogue: 0,0:03:02.64,0:03:05.10,Default,,0,0,0,,{This kid may be small, but he sure works well.}Thằng nhóc này còn nhỏ \Nmà đã đi làm phục vụ rồi à.
+Dialogue: 0,0:03:05.49,0:03:07.63,Default,,0,0,0,,{I don't work here, I own this place.}Tôi không phải phục vụ đâu, chủ quán đấy.
+Dialogue: 0,0:03:08.03,0:03:09.39,Default,,0,0,0,,{This is my bar.}Đây là quán của tôi.
+Dialogue: 0,0:03:10.01,0:03:12.52,Default,,0,0,0,,{The owner's... a kid?'}Chủ quán... là một thằng nhóc?
+Dialogue: 0,0:03:13.11,0:03:14.87,Default,,0,0,0,,{Here you go!}Đến rồi đây!
+Dialogue: 0,0:03:15.31,0:03:17.31,Default,,0,0,0,,{One special pork pie!}Bánh thịt heo đặc biệt của tiệm Mũ Heo!
+Dialogue: 0,0:03:17.70,0:03:18.95,Default,,0,0,0,,Ồ! Trông bắt mắt đấy!
+Dialogue: 0,0:03:18.95,0:03:20.45,Default,,0,0,0,,{Itadakimasu!}Chúc ngon miệng!
+Dialogue: 0,0:03:25.97,0:03:26.91,Default,,0,0,0,,{I knew it...}Quả nhiên...
+Dialogue: 0,0:03:26.99,0:03:30.43,Default,,0,0,0,,{Our reputation for our food's never been good. But our reputation for beer has always been great.}Rượu bia thì ngon,\Nnhưng đồ ăn tôi nấu thì chả thể nuốt nổi.
+Dialogue: 0,0:03:30.59,0:03:32.14,Default,,0,0,0,,{You could've said that to us beforehand!!!}Sao không nói trước!
+Dialogue: 0,0:03:32.35,0:03:34.17,Default,,0,0,0,,Nhờn với tao hả thằng nhãi?
+Dialogue: 0,0:03:34.67,0:03:36.87,Default,,0,0,0,,{Hey... the kid's got a sword!}Ê... Nó có kiếm kìa...
+Dialogue: 0,0:03:37.21,0:03:40.45,Default,,0,0,0,,{My, my, you're quite the asshole...}Thật là, thật là... Quý khách nhiễu sự quá...
+Dialogue: 0,0:03:40.75,0:03:41.46,Default,,0,0,0,,{Clean.}Dọn dẹp đi.
+Dialogue: 0,0:03:42.91,0:03:44.81,Default,,0,0,0,,T-Thiệt là...
+Dialogue: 0,0:03:46.75,0:03:48.38,Default,,0,0,0,,{What do you want with me?}Muốn tôi làm gì nữa đây?
+Dialogue: 0,0:03:48.91,0:03:50.87,Default,,0,0,0,,{The pig's talking...}Con heo biết nói...
+Dialogue: 0,0:03:50.87,0:03:54.63,Default,,0,0,0,,{Don't be scared, I won't bite.}Đừng có mà sợ, đúng là bọn nhà quê.
+Dialogue: 0,0:03:54.87,0:03:56.85,Default,,0,0,0,,{Hawk, clean the floor.}Hawk, dọn sàn nhà đi.
+Dialogue: 0,0:03:57.41,0:03:59.14,Default,,0,0,0,,{You sluggish-}Xì, rõ phiền phức.
+Dialogue: 0,0:03:59.67,0:04:02.79,Default,,0,0,0,,{Cleaning food from the floor isn't easy, you know.}Dọn thức ăn vương vãi trên sàn\Nkhông có dễ đâu ha!
+Dialogue: 0,0:04:05.09,0:04:08.83,Default,,0,0,0,,{Next time, be less messy.}Thật là! Lần sau mà có đồ ăn thừa\N thì cố mà nuốt hết đi.
+Dialogue: 0,0:04:09.07,0:04:13.61,Default,,0,0,0,,Có khi mình làm được\N món heo quay nguyên con ấy nhỉ.
+Dialogue: 0,0:04:13.61,0:04:16.92,Default,,0,0,0,,{Wow! That food that was on the floor hit the spot!}Ngon quá! Thức ăn rớt trên sàn nhà là ngon nhất!
+Dialogue: 0,0:04:21.22,0:04:23.05,Default,,0,0,0,,{I-it came!}H-Hắn đến rồi!
+Dialogue: 0,0:04:23.05,0:04:25.88,Default,,0,0,0,,{I saw it with my own eyes!}Tôi nói thật! Chính mắt tôi thấy mà!
+Dialogue: 0,0:04:26.45,0:04:29.73,Default,,0,0,0,,{No doubt that it was one of the Rusty Knights.}Đó chắc chắn là tên Kỵ Sĩ lang thang mặc giáp rỉ sét!
+Dialogue: 0,0:04:30.37,0:04:32.21,Default,,0,0,0,,{Of course it doesn't exist.}Đời nào có chuyện đó.
+Dialogue: 0,0:04:32.21,0:04:36.26,Default,,0,0,0,,{It's only a story made to scare children.}Nó chỉ là chuyện bịa để dọa bọn con nít thôi.
+Dialogue: 0,0:04:36.77,0:04:42.91,Default,,0,0,0,,{"If you make a mess, one of the Seven Deadly Sins will appear in rusty armor!"}"Nếu nghịch ngợm, thì một trong Thất Đại Tội sẽ vận giáp rỉ xuất hiện đấy!"
+Dialogue: 0,0:04:43.67,0:04:44.73,Default,,0,0,0,,{Seven Deadly Sins?}Thất Đại Tội?
+Dialogue: 0,0:04:45.11,0:04:45.47,Default,,0,0,0,,Ừ.
+Dialogue: 0,0:04:46.20,0:04:48.35,Default,,0,0,0,,{You're just a kid, so you don't know what we're talking about.}Chủ quán nhỏ không biết đến nó sao?
+Dialogue: 0,0:04:48.85,0:04:51.66,Default,,0,0,0,,{But you'll see wanted posters here and there...}Nhìn đống tờ truy nã ở kia kìa...
+Dialogue: 0,0:04:51.85,0:04:54.24,Default,,0,0,0,,Mười năm trước,
+Dialogue: 0,0:04:54.24,0:05:00.76,Default,,0,0,0,,một sự kiện lớn đã khiến hàng chục Thánh Kỵ Sĩ\N được triệu tập trên toàn quốc bị thảm sát.
+Dialogue: 0,0:05:00.76,0:05:03.92,Default,,0,0,0,,{The culprits were the Seven Deadly Sins.}Thủ phạm của vụ đó chính là Thất Đại Tội.
+Dialogue: 0,0:05:04.68,0:05:09.05,Default,,0,0,0,,{The leader of the Knights said they were killed so brutally,}Thủ lĩnh của các Thánh Kỵ Sĩ kể rằng\Ncuộc thảm sát rất tàn nhẫn,
+Dialogue: 0,0:05:09.05,0:05:12.27,Default,,0,0,0,,{that they could no longer be recognized.}đến mức không nhận diện được nhân dạng.
+Dialogue: 0,0:05:12.27,0:05:15.63,Default,,0,0,0,,{And their leader, Meliodas, is a terrible guy.}Tên thủ lĩnh Meliodas đáng sợ lắm.
+Dialogue: 0,0:05:15.76,0:05:19.20,Default,,0,0,0,,{Claims he destroyed an entire community.}Nghe bảo hắn từng hủy diệt cả một đất nước nữa.
+Dialogue: 0,0:05:19.20,0:05:21.99,Default,,0,0,0,,{We still haven't captured 'em, right?}Bọn này vẫn chưa bị bắt phải không?
+Dialogue: 0,0:05:21.99,0:05:24.56,Default,,0,0,0,,{Yep, none of them.}Ừ, không một ai trong số chúng cả.
+Dialogue: 0,0:05:24.56,0:05:27.50,Default,,0,0,0,,Tôi thì nghe đồn rằng chúng chết sạch rồi.
+Dialogue: 0,0:05:27.79,0:05:30.19,Default,,0,0,0,,{Pretty sure they're all the same.}Chết là phải thôi.
+Dialogue: 0,0:05:30.19,0:05:33.33,Default,,0,0,0,,{The Sacred Knights would never forgive them.}Làm sao các Thánh Kỵ Sĩ \Ncó thể bỏ qua cho chúng được.
+Dialogue: 0,0:05:33.33,0:05:37.49,Default,,0,0,0,,{It's true. Now that the King's died from disease,}Đúng thật. Giờ đức vua đã ngã bệnh,{clgt... lão vẫn sống cơ mà}
+Dialogue: 0,0:05:37.49,0:05:41.76,Default,,0,0,0,,{the Sacred Knights are protecting the country.}các Thánh Kỵ Sĩ phải ra tay \Nđể bảo vệ vương quốc thôi.
+Dialogue: 0,0:05:42.36,0:05:46.48,Default,,0,0,0,,{But every year these wanted posters are distributed.}Nhưng những lệnh truy nã này\Nnăm nào cũng được làm mới mà.
+Dialogue: 0,0:05:46.48,0:05:49.15,Default,,0,0,0,,Như vậy chẳng phải là \Nchúng vẫn chưa chết sao?
+Dialogue: 0,0:05:51.43,0:05:57.66,Default,,0,0,0,,{Anyway, it's kinda overkill that a knight in rusty armor would be wandering around.}N-Nhưng mà chuyện Kỵ Sĩ lang thang mặc giáp rỉ sét ở quanh đây vẫn là hoang đường nhỉ?
+Dialogue: 0,0:05:57.85,0:05:58.91,Default,,0,0,0,,{Must be a lie.}Không thể, không thể.
+Dialogue: 0,0:06:08.76,0:06:10.80,Default,,0,0,0,,{What's that rusty smell?}Cái mùi rỉ sét gì vậy?
+Dialogue: 0,0:06:21.53,0:06:27.80,Default,,0,0,0,,{The Seven Sins... Capital...}T-Thất...Đại...Tội....
+Dialogue: 0,0:06:27.80,0:06:29.84,Default,,0,0,0,,Xuất hiện thật kìa!
+Dialogue: 0,0:06:41.22,0:06:42.69,Default,,0,0,0,,Ngươi là ai?
+Dialogue: 0,0:06:58.87,0:07:00.99,Default,,0,0,0,,Cô gái này là một trong Thất Đại Tội à?
+Dialogue: 0,0:07:04.59,0:07:07.14,Default,,0,0,0,,{It's a girl!}Là con gái!
+Dialogue: 0,0:07:09.68,0:07:10.99,Default,,0,0,0,,Khuôn mặt lúc ngủ này...
+Dialogue: 0,0:07:11.73,0:07:12.95,Default,,0,0,0,,Đường cong này...
+Dialogue: 0,0:07:13.73,0:07:14.47,Default,,0,0,0,,{That smell...}Mùi hương này...
+Dialogue: 0,0:07:15.87,0:07:16.72,Default,,0,0,0,,Lực đàn hồi này...
+Dialogue: 0,0:07:19.29,0:07:20.51,Default,,0,0,0,,{She's a woman.}Quả thật là con gái.
+Dialogue: 0,0:07:20.63,0:07:21.57,Default,,0,0,0,,{You can tell that just by looking!}Nhìn là đủ biết rồi mà!
+Dialogue: 0,0:07:25.16,0:07:27.13,Default,,0,0,0,,Ư-Ừm...
+Dialogue: 0,0:07:28.99,0:07:30.96,Default,,0,0,0,,{Nothing wrong with the heartbeat.}Nhịp tim không có gì bất thường cả.
+Dialogue: 0,0:07:30.96,0:07:33.49,Default,,0,0,0,,C-Cảm ơn cậu.
+Dialogue: 0,0:07:34.21,0:07:35.25,Default,,0,0,0,,Nơi đây là?
+Dialogue: 0,0:07:35.93,0:07:38.21,Default,,0,0,0,,{Why am I here?}Ừm... Sao tôi lại...
+Dialogue: 0,0:07:38.53,0:07:42.83,Default,,0,0,0,,{You walked into the bar and fell suddenly!}Tự nhiên cô đến quán rượu này rồi ngất xỉu.
+Dialogue: 0,0:07:43.63,0:07:44.59,Default,,0,0,0,,Quán rượu?
+Dialogue: 0,0:07:44.59,0:07:47.32,Default,,0,0,0,,Mũ Heo - Quán rượu của tôi. {recommend Mũ Heo}
+Dialogue: 0,0:07:47.32,0:07:50.08,Default,,0,0,0,,{Are you the owner?}Cậu là chủ quán?
+Dialogue: 0,0:07:50.08,0:07:51.08,Default,,0,0,0,,{You find it strange?}Lạ lắm à?
+Dialogue: 0,0:07:51.08,0:07:52.13,Default,,0,0,0,,K-Không.
+Dialogue: 0,0:07:52.13,0:07:55.39,Default,,0,0,0,,Là bởi có thanh kiếm đằng sau lưng cậu.
+Dialogue: 0,0:07:55.39,0:07:56.74,Default,,0,0,0,,A, cái này à?
+Dialogue: 0,0:08:00.90,0:08:02.25,Default,,0,0,0,,{It's sacred.}Hết hồn không? {engsub sucks}
+Dialogue: 0,0:08:02.25,0:08:05.66,Default,,0,0,0,,{I show it off in public.}Chỉ còn mỗi cán kiếm thôi\Nnhưng trông cũng giống thật nhỉ?
+Dialogue: 0,0:08:05.81,0:08:09.22,Default,,0,0,0,,{I do it to scare anyone who eats and tries to leave without paying.}Tôi dùng nó để dọa mấy tay ăn quịt ấy mà.
+Dialogue: 0,0:08:09.22,0:08:14.13,Default,,0,0,0,,Đồ thì bị ăn, tiền thì bị cướp...\N Rõ ràng là phía khách có lỗi rồi.
+Dialogue: 0,0:08:16.73,0:08:18.53,Default,,0,0,0,,{A talking pig!}Một chú heo biết nói!
+Dialogue: 0,0:08:18.53,0:08:20.62,Default,,0,0,0,,Tôi là Hawk. Hân hạnh.
+Dialogue: 0,0:08:20.62,0:08:24.73,Default,,0,0,0,,Trước đây tôi cũng đã từng xin \Nphụ hoàng một chú vào dịp sinh nhật.
+Dialogue: 0,0:08:24.73,0:08:26.51,Default,,0,0,0,,Thế cô có nhận được con heo đó không?
+Dialogue: 0,0:08:29.36,0:08:30.27,Default,,0,0,0,,{No...}Không...
+Dialogue: 0,0:08:30.71,0:08:32.74,Default,,0,0,0,,{I know. Are you hungry?}Phải rồi! Cô đói chưa?
+Dialogue: 0,0:08:33.02,0:08:34.27,Default,,0,0,0,,{If you want, I can give you food.}Nếu muốn thì để tôi nấu cho.
+Dialogue: 0,0:08:36.30,0:08:37.26,Default,,0,0,0,,Ăn thịt heo-chan à?
+Dialogue: 0,0:08:35.71,0:08:39.56,Default,,0,0,0,,{\an8\fs40\fad(300,0)}Trong tiếng Nhật: Pork(thịt heo) và Hawk đọc khá giống nhau
+Dialogue: 0,0:08:37.26,0:08:39.56,Default,,0,0,0,,Không phải thịt heo mà là Hawk!
+Dialogue: 0,0:08:48.47,0:08:49.39,Default,,0,0,0,,{It's quite soon but,}Xong rồi đây...
+Dialogue: 0,0:08:50.94,0:08:54.16,Default,,0,0,0,,{I mean you helped me and even gave me food.}Cậu không những chăm sóc tôi\Nmà còn đãi tôi ăn nữa...
+Dialogue: 0,0:08:54.45,0:08:56.49,Default,,0,0,0,,{How can I thank you?}Tôi phải cảm ơn thế nào đây?
+Dialogue: 0,0:08:56.85,0:08:59.68,Default,,0,0,0,,{It is best to eat before thanking.}Ăn đi rồi quyết định cảm ơn cũng chưa muộn.
+Dialogue: 0,0:08:59.68,0:09:00.13,Default,,0,0,0,,Vâng...
+Dialogue: 0,0:09:00.48,0:09:01.37,Default,,0,0,0,,{I'll eat.}Chúc ngon miệng.
+Dialogue: 0,0:09:04.92,0:09:06.75,Default,,0,0,0,,{What's up? Is the food bad?}Sao? Tệ lắm phải không?
+Dialogue: 0,0:09:08.08,0:09:09.09,Default,,0,0,0,,Vâng...
+Dialogue: 0,0:09:09.08,0:09:09.84,Default,,0,0,0,,Quả nhiên.
+Dialogue: 0,0:09:12.45,0:09:13.01,Default,,0,0,0,,Nhưng...
+Dialogue: 0,0:09:14.26,0:09:16.80,Default,,0,0,0,,{It's very tasty.}Nhưng... Nó lại vô cùng ngon...
+Dialogue: 0,0:09:17.93,0:09:21.77,Default,,0,0,0,,{What were you doing with that armor?}Nè, cô tính làm gì với bộ giáp đó vậy?
+Dialogue: 0,0:09:22.77,0:09:25.60,Default,,0,0,0,,{I'm looking for the Seven Deadly Sins.}Tôi đang tìm kiếm, Thất Đại Tội.
+Dialogue: 0,0:09:27.29,0:09:31.61,Default,,0,0,0,,{Why?  We don't even know if they're alive or dead.}Để làm gì? Chúng ta còn chẳng biết\Nchúng có còn sống hay không.
+Dialogue: 0,0:09:31.78,0:09:33.11,Default,,0,0,0,,{They're great villains.}Chúng là đại ác ma đấy.{đại ác đầu}
+Dialogue: 0,0:09:35.65,0:09:38.74,Default,,0,0,0,,{Open the door! We have important business.}Mở cửa ra! Bọn ta đã nhận được báo cáo từ dân làng.
+Dialogue: 0,0:09:39.37,0:09:45.16,Default,,0,0,0,,Bọn ta là bộ hạ dưới quyền Thánh Kỵ Sĩ \Nthuộc Râu Mèo Núi Kỵ Sĩ Đoàn.
+Dialogue: 0,0:09:45.16,0:09:48.75,Default,,0,0,0,,{We came to arrest the Rusty Knight, which we believe is one of the Seven Deadly Sins.}Đến đây để bắt giữ Kỵ Sĩ Rỉ Sét,\Nkẻ được cho là một trong Thất Đại Tội.
+Dialogue: 0,0:09:49.04,0:09:50.21,Default,,0,0,0,,Mau thành khẩn ra đây.
+Dialogue: 0,0:09:50.46,0:09:52.30,Default,,0,0,0,,{What an asshole.}Bọn nào nhiễu sự thế?
+Dialogue: 0,0:09:52.80,0:09:53.84,Default,,0,0,0,,Thánh Kỵ Sĩ...
+Dialogue: 0,0:09:55.63,0:09:56.97,Default,,0,0,0,,{They're not coming out.}Chúng không mở cửa rồi.
+Dialogue: 0,0:09:57.34,0:10:01.97,Default,,0,0,0,,{Since when was there a bar at the top of this hill?}Cơ mà quán rượu trên ngọn đồi này\Nxuất hiện từ bao giờ thế?
+Dialogue: 0,0:10:01.97,0:10:05.98,Default,,0,0,0,,Nếu không nhầm thì lúc đi qua đây ba hôm trước,\N tôi có thấy cái gì đâu.
+Dialogue: 0,0:10:06.06,0:10:09.65,Default,,0,0,0,,{Don't lower your guards. Although it was 10 years ago,}Đừng khinh suất. Dù 10 năm đã trôi qua,
+Dialogue: 0,0:10:09.65,0:10:12.02,Default,,0,0,0,,{our opponent was a Holy Knight who served the King directly.}nhưng kẻ địch của ta vẫn từng là\NThánh Kỵ Sĩ phục vụ đức vua đấy.
+Dialogue: 0,0:10:12.02,0:10:14.32,Default,,0,0,0,,Đừng lo nghĩ quá, ngài Alioni.
+Dialogue: 0,0:10:14.32,0:10:15.69,Default,,0,0,0,,Chỉ là một lão già thôi mà.
+Dialogue: 0,0:10:15.69,0:10:20.70,Default,,0,0,0,,Phải, phải. Hắn sao có thể địch lại\N người được ngài Twigo chỉ dẫn.
+Dialogue: 0,0:10:20.70,0:10:26.00,Default,,0,0,0,,{Do not underestimate them! We talked about the incident from 10 years ago.}Đừng xem thường chúng!\N Ta đã kể chuyện 10 năm trước rồi cơ mà.
+Dialogue: 0,0:10:26.00,0:10:28.59,Default,,0,0,0,,{Dozens of Sacred Knights died in an instant!}Hàng tá Thánh Kỵ Sĩ đã chết trong tích tắc đấy!
+Dialogue: 0,0:10:28.75,0:10:29.75,Default,,0,0,0,,Chuyện đó...
+Dialogue: 0,0:10:30.17,0:10:31.33,Default,,0,0,0,,Sao?
+Dialogue: 0,0:10:31.33,0:10:34.71,Default,,0,0,0,,{Well, I guess it's kind of overkill ...}À, tôi nghĩ đó chỉ là đồn thổi thôi...
+Dialogue: 0,0:10:34.71,0:10:36.34,Default,,0,0,0,,{What do you mean?}Hả? Ý ngươi là sao?
+Dialogue: 0,0:10:36.63,0:10:44.10,Default,,0,0,0,,Người ta nói cần đến binh lực của một nước mới giết nổi Thánh Kỵ Sĩ, mà lại tới hàng chục người như thế thì...
+Dialogue: 0,0:10:44.10,0:10:46.35,Default,,0,0,0,,{I saw with my own eyes!}Chính mắt ta đã thấy đây!
+Dialogue: 0,0:10:46.35,0:10:50.06,Default,,0,0,0,,Nào, nào, xin hãy bình tĩnh đi, ngài Alioni.
+Dialogue: 0,0:10:50.06,0:10:52.44,Default,,0,0,0,,{We'll take it from here.}Từ giờ, bọn tôi sẽ lo chỗ này.
+Dialogue: 0,0:10:52.86,0:10:54.90,Default,,0,0,0,,Ê! Ra đây mau!
+Dialogue: 0,0:10:55.32,0:10:56.40,Default,,0,0,0,,Gọi tôi à?
+Dialogue: 0,0:10:56.40,0:10:57.74,Default,,0,0,0,,Chú mày là ai?
+Dialogue: 0,0:10:58.03,0:10:59.70,Default,,0,0,0,,{I am the owner of this bar.}Tôi là chủ của quán này.
+Dialogue: 0,0:11:00.03,0:11:02.62,Default,,0,0,0,,{Where is Rusty Knight? We saw him come towards here.}Kỵ Sĩ Rỉ Sét đâu?\NGiao nộp hắn ra đây.
+Dialogue: 0,0:11:04.37,0:11:05.41,Default,,0,0,0,,Ra đây đi.
+Dialogue: 0,0:11:07.75,0:11:11.71,Default,,0,0,0,,{You called me? Hawk, the Rusty Knight!}Gọi ta hả? Kỵ Sĩ Rỉ Sét Hawk?
+Dialogue: 0,0:11:12.13,0:11:15.34,Default,,0,0,0,,{This pig is one of the Seven Deadly Sins?}C-Con heo này là một trong Thất Đại Tội ư?
+Dialogue: 0,0:11:15.34,0:11:16.46,Default,,0,0,0,,Dĩ nhiên là không rồi!
+Dialogue: 0,0:11:16.76,0:11:21.13,Default,,0,0,0,,{I'm the captain of the Knights of Cleaning.}Ta là đội trưởng đội Kỵ Sĩ Ăn Cơm Thừa Canh Cặn đây.
+Dialogue: 0,0:11:21.13,0:11:22.43,Default,,0,0,0,,Lấy quái đâu ra đội kỵ sĩ đấy hả!
+Dialogue: 0,0:11:23.14,0:11:26.18,Default,,0,0,0,,{If you want that pig, take him, and cook-}Nếu thích thì cứ mang nó đi, nấu gì cũng-
+Dialogue: 0,0:11:26.18,0:11:27.14,Default,,0,0,0,,Cho tôi xin!
+Dialogue: 0,0:11:27.14,0:11:29.03,Default,,0,0,0,,Thằng nhãi...
+Dialogue: 0,0:11:29.03,0:11:32.15,Default,,0,0,0,,Gan ngươi to lắm \Nmới giám giỡn mặt với các Kỵ Sĩ đấy nhỉ{iidokyou tạm dịch là gan to chắc k sai vì ngực to chả có ngĩa mịa gì}?
+Dialogue: 0,0:11:35.86,0:11:38.07,Default,,0,0,0,,{Alioni! A girl ran out the back!}Ngài Alioni! Có một đứa con gái chạy từ phía sau!
+Dialogue: 0,0:11:38.07,0:11:40.57,Default,,0,0,0,,{What? Notify Twigo right away.}Cái gì? Mau báo ngài Twigo mau!
+Dialogue: 0,0:11:40.57,0:11:42.57,Default,,0,0,0,,{She is probably the Rusty Knight!}Rất có thể con nhỏ đó là Kỵ Sĩ Rỉ Sét!
+Dialogue: 0,0:11:42.57,0:11:43.20,Default,,0,0,0,,Đuổi theo!
+Dialogue: 0,0:11:43.20,0:11:43.95,Default,,0,0,0,,Rõ!
+Dialogue: 0,0:11:43.95,0:11:45.00,Default,,0,0,0,,Đứng lại mau!
+Dialogue: 0,0:11:48.02,0:11:54.03,Default,,0,0,0,,{\c&H000000&\bord3\fs60\pos(947,609)}Dịch thuật:                Tamio
+Dialogue: 0,0:11:48.02,0:11:54.03,Default,,0,0,0,,{\c&H000000&\bord3\fs60\pos(950,659)}Biên dịch:                Chym
+Dialogue: 0,0:11:48.02,0:11:54.03,Default,,0,0,0,,{\c&H000000&\bord3\fs60\pos(948,709)}Mã Hóa + Đăng tải:                namtuocaoden
+Dialogue: 0,0:11:48.02,0:11:54.03,Default,,0,0,0,,{\c&H000000&\bord3\fs60\1vc(&H057AF2&,&H057AF2&,&H0300E8&,&H0300E8&)\fscx110\pos(1111,380)}Vietsub bởi VNFS - Clip-sub
+Dialogue: 0,0:11:56.67,0:11:58.17,Default,,0,0,0,,Bắt lấy ả!
+Dialogue: 0,0:12:04.14,0:12:08.39,Default,,0,0,0,,{If we capture one of the Seven Deadly Sins, the reward will be huge!}Bắt được một trong Thất Đại Tội\N là được trọng thưởng đấy!
+Dialogue: 0,0:12:08.39,0:12:11.85,Default,,0,0,0,,{If this happens, I can finally become an apprentice Sacred Knight!}Nếu thành công, \Nta sẽ trở thành Thánh Kỵ Sĩ tập sự!
+Dialogue: 0,0:12:13.39,0:12:15.06,Default,,0,0,0,,{What? What happened?}Cái gì? Sao vậy?
+Dialogue: 0,0:12:15.06,0:12:17.15,Default,,0,0,0,,{The pig is following us!}C-Có con heo đang đuổi theo chúng ta!
+Dialogue: 0,0:12:22.40,0:12:24.86,Default,,0,0,0,,Đừng lại đây! Đừng lại đây! Đừng lại đây!
+Dialogue: 0,0:12:28.91,0:12:29.62,Default,,0,0,0,,{She's gone!}Cô ta đâu rồi...
+Dialogue: 0,0:12:29.83,0:12:30.75,Default,,0,0,0,,Đi chết đi!
+Dialogue: 0,0:12:32.91,0:12:37.00,Default,,0,0,0,,Tuy ta không có ân oán gì với ngươi cả,\N tất cả chỉ vì được thưởng khẩu phần ăn gấp đôi thôi.
+Dialogue: 0,0:12:37.85,0:12:43.75,Default,,0,0,0,,{How can I thank you for saving me twice?}Ừm... Tôi phải trả ơn thế nào\Nsau hai lần cứu mạng đây?
+Dialogue: 0,0:12:45.80,0:12:48.68,Default,,0,0,0,,{Girl,  kick that pervert's ass.}Nói nghe nè chị gái,\N đấm chết tên đó đi cũng được.
+Dialogue: 0,0:12:50.01,0:12:53.72,Default,,0,0,0,,{So you're looking for the Seven Deadly Sins?}Thế, tại sao cô lại đi tìm Thất Đại Tội vậy?
+Dialogue: 0,0:12:54.27,0:12:56.48,Default,,0,0,0,,Để ngăn chặn... {\alpha&HFF&}Những Thánh Kỵ Sĩ.
+Dialogue: 0,0:12:56.48,0:12:58.28,Default,,0,0,0,,{The... Holy and Sacred Knights.}Để ngăn chặn... Những Thánh Kỵ Sĩ.
+Dialogue: 0,0:12:58.28,0:13:01.04,Default,,0,0,0,,{To prevent the Holy Knights, too?}Ngăn chặn những Thánh Kỵ Sĩ là sao?
+Dialogue: 0,0:13:01.32,0:13:06.70,Default,,0,0,0,,{Sacred and Holy Knights are the heroes among the knights that protect the kingdom of Liones.}Thánh Kỵ Sĩ là những Kỵ Sĩ trong Kỵ Sĩ\Nbảo vệ vương quốc Liones này, là anh hùng cơ mà.
+Dialogue: 0,0:13:06.71,0:13:12.11,Default,,0,0,0,,{But what if they were trying to bring war to this country?}Nhưng nếu họ đang cố mang lại chiến tranh thì sao?
+Dialogue: 0,0:13:13.29,0:13:16.37,Default,,0,0,0,,Vài ngày trước, những Thánh Kỵ Sĩ đã...
+Dialogue: 0,0:13:16.37,0:13:21.52,Default,,0,0,0,,liên tiếp bắt giam rất nhiều thành viên hoàng tộc.
+Dialogue: 0,0:13:21.52,0:13:24.44,Default,,0,0,0,,{So the king wasn't sick?}Vậy đức vua không phải bị bệnh à?
+Dialogue: 0,0:13:25.34,0:13:28.03,Default,,0,0,0,,{That's what the Holy Knights made up and spread.}Đó chỉ là điều các Thánh Kỵ Sĩ \Nxuyên tạc rồi lan truyền thôi.
+Dialogue: 0,0:13:28.60,0:13:33.06,Default,,0,0,0,,Tuy tôi không hiểu tại sao \Nhọ lại muốn khơi dậy chiến tranh...
+Dialogue: 0,0:13:33.06,0:13:38.90,Default,,0,0,0,,Nhưng họ đang cưỡng chế dân chúng vương quốc,\N khu phụ cận, thành thị và làng mạc.
+Dialogue: 0,0:13:38.90,0:13:41.94,Default,,0,0,0,,{And increasingly preparing for it.}Tất cả nhằm đốc thúc chuẩn bị việc này.
+Dialogue: 0,0:13:41.94,0:13:45.96,Default,,0,0,0,,Có lẽ ảnh hưởng của việc đó\N đã lan tới tận vùng này rồi.
+Dialogue: 0,0:13:45.96,0:13:47.39,Default,,0,0,0,,Thật à?
+Dialogue: 0,0:13:47.41,0:13:48.87,Default,,0,0,0,,Tình hình gay quá ha.
+Dialogue: 0,0:13:48.87,0:13:51.34,Default,,0,0,0,,{You still carefree as always.}Nè, anh lúc nào cũng vô tư lự thế.
+Dialogue: 0,0:13:51.59,0:13:55.99,Default,,0,0,0,,{But what does this have to do with the Seven Deadly Sins?}Nhưng chuyện này thì \Ndính dáng gì đến Thất Đại Tội?
+Dialogue: 0,0:13:56.00,0:14:00.67,Default,,0,0,0,,Nếu như... có tia hi vọng để\N ngăn chặn Thánh Kỵ Sĩ...
+Dialogue: 0,0:14:00.67,0:14:02.70,Default,,0,0,0,,thì đó chính là Thất Đại Tội.
+Dialogue: 0,0:14:04.05,0:14:09.08,Default,,0,0,0,,{You know what kind of people they are?}Này, bộ cô biết Thất Đại Tội\N là loại người như thế nào ư?
+Dialogue: 0,0:14:09.09,0:14:14.31,Default,,0,0,0,,{The Seven Deadly Sins, those have the symbol of the seven beasts on their bodies.}Thất Đại Tội là những người\Nmang bảy biểu tượng dã thú trên người.
+Dialogue: 0,0:14:14.31,0:14:17.44,Default,,0,0,0,,{Declared as the most terrible criminals...}Được biết đến như bảy tội đồ hung ác...
+Dialogue: 0,0:14:17.44,0:14:20.40,Default,,0,0,0,,{the strongest and most terrible knights of this kingdom.}Những Kỵ Sĩ mạnh nhất\N và tàn độc nhất vương quốc.
+Dialogue: 0,0:14:20.40,0:14:25.05,Default,,0,0,0,,{Ten years ago, under suspicion of plotting against the kingdom,}10 năm trước, vì bị nghi ngờ mưu phản lại vương quốc,
+Dialogue: 0,0:14:25.05,0:14:29.67,Default,,0,0,0,,{they were attacked by all the Holy Knights of the Kingdom and disappeared.}họ đã bị Thánh Kỵ Sĩ \Ncủa vương quốc tấn công và biến mất.
+Dialogue: 0,0:14:29.67,0:14:32.87,Default,,0,0,0,,{Rumors are that they're all dead.}Nhưng tin đồn bảo họ chết cả rồi mà.
+Dialogue: 0,0:14:33.20,0:14:36.07,Default,,0,0,0,,Những người tài giỏi như thế \N sẽ không thể chết dễ dàng được.
+Dialogue: 0,0:14:37.25,0:14:39.15,Default,,0,0,0,,{But they're criminals, are they not?}Nhưng họ vẫn là tội đồ, đúng không?
+Dialogue: 0,0:14:39.54,0:14:43.25,Default,,0,0,0,,Thánh Kỵ Sĩ mà lại khiến\N dân chúng lầm than thì cũng vậy thôi!
+Dialogue: 0,0:14:44.22,0:14:50.59,Default,,0,0,0,,Trước đây, khi tôi mới lên 5, \Nphụ hoàng đã kể rằng...
+Dialogue: 0,0:14:50.59,0:14:54.26,Default,,0,0,0,,{They, the Seven Deadly Sins, were the strongest!}Họ... Thất Đại Tội là những người mạnh nhất!
+Dialogue: 0,0:14:59.52,0:15:01.09,Default,,0,0,0,,{Give me a break!}Tha dùm tôi cái đi!
+Dialogue: 0,0:15:05.82,0:15:07.61,Default,,0,0,0,,Ối chết. {:| vcl}
+Dialogue: 0,0:15:07.61,0:15:11.48,Default,,0,0,0,,{I forgot to check if they were the same people that were on the report.}Quên kiểm tra xem chúng có phải là\Nbọn đã được đề cập trong báo cáo hay không rồi.
+Dialogue: 0,0:15:11.85,0:15:13.42,Default,,0,0,0,,Kết quả:
+Dialogue: 0,0:15:13.63,0:15:16.17,Default,,0,0,0,,{Two unidentified dead.}2 thi thể vô danh.
+Dialogue: 0,0:15:16.42,0:15:18.38,Default,,0,0,0,,{That's good, is it not?}Như vậy là ổn nhỉ?
+Dialogue: 0,0:15:18.53,0:15:21.36,Default,,0,0,0,,{But Alioni was at the bottom of the cliff...}N-Nhưng ngài Alioni cũng đang ở dưới vách đá...
+Dialogue: 0,0:15:21.37,0:15:24.79,Default,,0,0,0,,{Then put it in the report as three dead.}Vậy thì báo cáo là 3 thi thể là được.
+Dialogue: 0,0:15:24.82,0:15:25.76,Default,,0,0,0,,Không thể nào!
+Dialogue: 0,0:15:25.76,0:15:27.74,Default,,0,0,0,,Ngài Twigo! Chuyện này đi quá xa rồi đấy!
+Dialogue: 0,0:15:28.11,0:15:30.48,Default,,0,0,0,,Thế để ta biến nó thành 7 thi thể nhé?
+Dialogue: 0,0:15:31.08,0:15:34.00,Default,,0,0,0,,{Please forgive us... it doesn't have to go like this...}Xin ngài tha lỗi... \NChúng tôi không dám...
+Dialogue: 0,0:15:35.70,0:15:37.52,Default,,0,0,0,,N-Ngài Alioni!
+Dialogue: 0,0:15:37.85,0:15:41.14,Default,,0,0,0,,{You there! Why are you still alive?}Bọn kia! Sao các ngươi dám tự tiện sống sót hả?
+Dialogue: 0,0:15:41.14,0:15:44.23,Default,,0,0,0,,{You dare change my death count?}Dám thay đổi số thi thể mà ta đã quyết định à?
+Dialogue: 0,0:15:44.23,0:15:46.00,Default,,0,0,0,,Đừng có mà tự tiện quyết định!
+Dialogue: 0,0:15:46.31,0:15:47.96,Default,,0,0,0,,{Hey, you agree?}Ê, tỉnh dậy chưa đấy?
+Dialogue: 0,0:15:48.71,0:15:49.33,Default,,0,0,0,,A, vâng!
+Dialogue: 0,0:15:49.33,0:15:50.05,Default,,0,0,0,,Tốt.
+Dialogue: 0,0:15:50.05,0:15:53.20,Default,,0,0,0,,{When I give the signal, run to the forest. Got it?}Khi tôi ra dấu thì \Ntrốn vào rừng ngay nhé, rõ chứ?
+Dialogue: 0,0:15:53.20,0:15:54.24,Default,,0,0,0,,V-Vâng.
+Dialogue: 0,0:15:54.24,0:15:58.77,Default,,0,0,0,,{Which one of them is a Seven Deadly Sin?}Thế, ai trong số chúng thuộc Thất Đại Tội?
+Dialogue: 0,0:15:59.43,0:16:02.57,Default,,0,0,0,,{None of them seem to be on the wanted posters.}Chẳng đứa nào giống với lệnh truy nã cả.
+Dialogue: 0,0:16:09.71,0:16:12.18,Default,,0,0,0,,Đúng là đại may mắn.
+Dialogue: 0,0:16:12.45,0:16:16.02,Default,,0,0,0,,{This symbol on your earring is of the royal family.}Ký hiệu trên đôi bông tai đó là của hoàng tộc.
+Dialogue: 0,0:16:16.02,0:16:20.48,Default,,0,0,0,,{In other words, it's decided! Princess Elizabeth!}Nói cách khác, đã xác định \Nđây là công chúa Elizabeth!
+Dialogue: 0,0:16:20.89,0:16:23.42,Default,,0,0,0,,Elizabeth... Công chúa?
+Dialogue: 0,0:16:23.42,0:16:25.42,Default,,0,0,0,,Công chúa Elizabeth tức là...
+Dialogue: 0,0:16:25.42,0:16:27.66,Default,,0,0,0,,Tam công chúa của vương quốc này á?
+Dialogue: 0,0:16:27.90,0:16:31.74,Default,,0,0,0,,{The Kingdom issued a warrant for you.}Vương quốc có ban lệnh áp giải người.
+Dialogue: 0,0:16:31.74,0:16:35.06,Default,,0,0,0,,Tuy lệnh là phải dẫn người sống sót trở về,
+Dialogue: 0,0:16:35.06,0:16:38.23,Default,,0,0,0,,{but an accidental case is beyond my control, is it not?}nhưng nếu xảy ra tai nạn \Nthì cũng đành chịu thôi nhỉ?
+Dialogue: 0,0:16:38.23,0:16:39.31,Default,,0,0,0,,Chạy mau!
+Dialogue: 0,0:16:40.54,0:16:42.75,Default,,0,0,0,,{I can't be caught!}Mình không thể bị bắt và bỏ cuộc được!
+Dialogue: 0,0:16:42.75,0:16:44.44,Default,,0,0,0,,{I can't give up!}Tuyệt đối không thể bỏ cuộc!
+Dialogue: 0,0:16:45.33,0:16:46.90,Default,,0,0,0,,{It's determined!}Xác định rồi!
+Dialogue: 0,0:16:46.90,0:16:49.11,Default,,0,0,0,,{Death by accident!}Chết bởi tai nạn!
+Dialogue: 0,0:16:59.59,0:17:02.65,Default,,0,0,0,,{Seems you're OK, too, Hawk.}Hawk cũng an toàn nhỉ, nhìn có vẻ như vậy.
+Dialogue: 0,0:17:02.65,0:17:05.45,Default,,0,0,0,,{I'm just as good as skewer pork right about now...}Suýt trở thành lợn xiên que mà "an toàn" á?
+Dialogue: 0,0:17:07.31,0:17:09.53,Default,,0,0,0,,Mẹ ơi!
+Dialogue: 0,0:17:10.79,0:17:12.78,Default,,0,0,0,,Một con heo? Mà kệ.
+Dialogue: 0,0:17:18.18,0:17:19.17,Default,,0,0,0,,Elizabeth?
+Dialogue: 0,0:17:19.93,0:17:21.44,Default,,0,0,0,,Này, cô đi đâu vậy?
+Dialogue: 0,0:17:22.63,0:17:23.75,Default,,0,0,0,,Tôi đâu thể thoát được.
+Dialogue: 0,0:17:24.36,0:17:29.03,Default,,0,0,0,,{Wait, didn't you say that you wouldn't give up?}Cô... ban nãy còn bảo sẽ không bỏ cuộc kia mà?
+Dialogue: 0,0:17:29.36,0:17:34.98,Default,,0,0,0,,{If I turn myself in, you won't be killed.}Nếu tôi tự giao nộp, anh sẽ không bị giết.
+Dialogue: 0,0:17:41.31,0:17:44.31,Default,,0,0,0,,{Please... at least make a run for it!}Làm ơn... Dù chỉ mình anh cũng được, xin hãy chạy đi!
+Dialogue: 0,0:17:46.07,0:17:48.87,Default,,0,0,0,,{He intends to kill both of us anyway.}Dù sao thì hắn cũng sẽ giết cả hai ta thôi.
+Dialogue: 0,0:17:49.36,0:17:50.45,Default,,0,0,0,,Tại sao?
+Dialogue: 0,0:17:51.67,0:17:53.93,Default,,0,0,0,,Tôi... đã rất mừng...
+Dialogue: 0,0:17:54.99,0:17:58.57,Default,,0,0,0,,{For coming out to look for the Seven Deadly Sins alone.}Vì rốt cuộc đã có thể \Nđi tìm kiếm Thất Đại Tội.
+Dialogue: 0,0:17:58.57,0:18:02.65,Default,,0,0,0,,Tôi đã rất bất an vì không được du hành.
+Dialogue: 0,0:18:03.45,0:18:08.00,Default,,0,0,0,,Để không bị lộ danh tính, tôi đã đi bộ đến kiệt sức \Nvới bộ giáp mình chưa từng mặc.
+Dialogue: 0,0:18:08.00,0:18:11.75,Default,,0,0,0,,Nhưng... vẫn không thể nhờ cậy được bọn họ...
+Dialogue: 0,0:18:12.63,0:18:16.62,Default,,0,0,0,,{But you were kind to me, not knowing who I am.}Tuy không biết tôi là ai\N nhưng anh vẫn đối xử tốt bụng.
+Dialogue: 0,0:18:17.59,0:18:23.71,Default,,0,0,0,,Vậy nên tôi không muốn liên lụy tới anh,\N người mà tôi chưa kịp biết cả tên gọi.
+Dialogue: 0,0:18:30.02,0:18:32.26,Default,,0,0,0,,Meliodas. Đó là tên của tôi.
+Dialogue: 0,0:18:35.62,0:18:37.42,Default,,0,0,0,,Không lẽ nào...
+Dialogue: 0,0:18:38.62,0:18:39.86,Default,,0,0,0,,Sao có thể...
+Dialogue: 0,0:18:40.96,0:18:42.97,Default,,0,0,0,,Anh chính là...
+Dialogue: 0,0:18:43.96,0:18:45.11,Default,,0,0,0,,Tên đó đâu rồi?
+Dialogue: 0,0:18:45.11,0:18:45.91,Default,,0,0,0,,Ngài Alioni!
+Dialogue: 0,0:18:46.53,0:18:48.42,Default,,0,0,0,,{That guy with the sword!}Tên mang thanh kiếm đâu?
+Dialogue: 0,0:18:48.42,0:18:50.42,Default,,0,0,0,,Bình tĩnh đi ngài Alioni.
+Dialogue: 0,0:18:50.42,0:18:52.51,Default,,0,0,0,,Hiện ngài Twigo đang đuổi theo chúng rồi.
+Dialogue: 0,0:18:52.50,0:18:56.84,Default,,0,0,0,,{Dumbass! If you're not alert, they can destroy the whole country!}Đồ đần! Nếu không ngăn lại\Nlà vương quốc này sụp đổ đấy!
+Dialogue: 0,0:18:57.82,0:18:59.88,Default,,0,0,0,,{I saw when he saved me...}Lúc hắn cứu mạng, ta đã thấy...
+Dialogue: 0,0:19:00.53,0:19:04.04,Default,,0,0,0,,{It's true... he's the most dangerous of all.}Hắn là một trong số chúng... \NVả lại còn là tên nguy hiểm nhất...
+Dialogue: 0,0:19:04.04,0:19:07.27,Default,,0,0,0,,{The symbol on his body... it's...}Biểu tượng trên người hắn... Đó là...
+Dialogue: 0,0:19:09.23,0:19:14.53,Default,,0,0,0,,{This is the symbol of the beast... no, the Dragon!}Biểu tượng đó... một con dã thú? \NKhông, là một con rồng!
+Dialogue: 0,0:19:23.79,0:19:25.59,Default,,0,0,0,,{What does that mean?}Vậy là sao?
+Dialogue: 0,0:19:26.08,0:19:29.12,Default,,0,0,0,,Kiếm của ta đã chém vào các ngươi rồi mà?
+Dialogue: 0,0:19:29.37,0:19:31.92,Default,,0,0,0,,Nhưng kẻ bị nhận đòn...
+Dialogue: 0,0:19:31.92,0:19:33.74,Default,,0,0,0,,Lại là ta sao...
+Dialogue: 0,0:19:33.74,0:19:35.91,Default,,0,0,0,,Thứ kia là sao?
+Dialogue: 0,0:19:35.91,0:19:38.09,Default,,0,0,0,,Một thanh kiếm gãy?
+Dialogue: 0,0:19:39.33,0:19:42.91,Default,,0,0,0,,{Meliodas! Are you really that...}Meliodas! Ngài là người đó thật ư...
+Dialogue: 0,0:19:43.26,0:19:46.60,Default,,0,0,0,,{Wait! I remember your face!}Khoan đã! Ta nhớ ra khuôn mặt này rồi!
+Dialogue: 0,0:19:46.60,0:19:51.17,Default,,0,0,0,,{No! His appearance hasn't change since that time!}Không! Nếu đúng là ngươi thì tại sao \Nchừng ấy thời gian rồi mà ngươi vẫn không hề thay đổi?
+Dialogue: 0,0:19:52.40,0:19:54.72,Default,,0,0,0,,Ngươi đã biết ta là ai rồi sao?
+Dialogue: 0,0:19:55.39,0:19:57.26,Default,,0,0,0,,K-Không thể nào!
+Dialogue: 0,0:19:57.65,0:20:00.60,Default,,0,0,0,,{Is this for real?}Là thật ư?
+Dialogue: 0,0:20:06.74,0:20:11.37,Default,,0,0,0,,Đã xác định. Thứ sức mạnh phi thường này...
+Dialogue: 0,0:20:11.37,0:20:15.38,Default,,0,0,0,,Chính là của kẻ trong huyền thoại...
+Dialogue: 0,0:20:21.65,0:20:27.12,Default,,0,0,0,,{The Seven Deadly Sins, the Sin of anger, the Dragon, Meliodas!}Thất Đại Tội, tội đồ phẫn nộ,\N Dragon's Sin, Meliodas!
+Dialogue: 0,0:22:02.51,0:22:06.39,Default,,0,0,0,,{Now you found the first of the Sins, Elizabeth.}Thế là cô tìm thấy tội đồ đầu tiên rồi đấy, Elizabeth.
+Dialogue: 0,0:22:08.12,0:22:10.73,Default,,0,0,0,,{But the other six...}Còn 6 người kia thì...
+Dialogue: 0,0:22:10.73,0:22:14.87,Default,,0,0,0,,{I started looking for them recently as I had an issue that I needed to handle with them.}Gần đây tôi cũng có việc\N nên đã bắt đầu đi tìm kiếm họ.
+Dialogue: 0,0:22:15.01,0:22:17.94,Default,,0,0,0,,{I opened a bar to gather information.s}Quán rượu mở ra cũng là để tìm kiếm thông tin.
+Dialogue: 0,0:22:18.28,0:22:23.07,Default,,0,0,0,,{With a poster girl like you, we can gather more customers and information.}Với một cô gái như cô thì chúng ta\Nsẽ có thêm được nhiều khách và thông tin hơn.
+Dialogue: 0,0:22:25.19,0:22:26.87,Default,,0,0,0,,{You coming with me?}Đi cùng với tôi nhé?
+Dialogue: 0,0:22:29.96,0:22:30.41,Default,,0,0,0,,Vâng!
+Dialogue: 0,0:22:32.13,0:22:34.02,Default,,0,0,0,,{Lord Twigo! Hang in there!}Ngài Twigo! Cố gắng lên!
+Dialogue: 0,0:22:36.43,0:22:38.98,Default,,0,0,0,,Gọi viện binh từ vương quốc mau!
+Dialogue: 0,0:22:38.99,0:22:41.84,Default,,0,0,0,,Đây là t-tình huống khẩn cấp!
+Dialogue: 0,0:22:48.31,0:22:50.06,Default,,0,0,0,,Đúng thời điểm chứ hả?
+Dialogue: 0,0:22:50.73,0:22:51.89,Default,,0,0,0,,Đúng là mẹ Hawk có khác!
+Dialogue: 0,0:22:52.12,0:22:53.37,Default,,0,0,0,,Tôi là người đi gọi đấy nhé!
+Dialogue: 0,0:22:53.79,0:22:56.45,Default,,0,0,0,,Nào, đến thị trấn tiếp theo thôi!
+Dialogue: 0,0:22:56.45,0:22:58.69,Default,,0,0,0,,Xuất phát nào, mẹ Hawk!
+Dialogue: 0,0:23:13.36,0:23:16.28,Default,,0,0,0,,{I do not know if that meeting was coincidence or fate,}Tôi không rõ cuộc gặp gỡ này là\Ntrùng hợp hay định mệnh...
+Dialogue: 0,0:23:16.28,0:23:20.84,Default,,0,0,0,,{or if what awaits me is either hope or despair.}Những thứ đang chờ ở phía trước là\Ntuyệt vọng hay hi vọng...
+Dialogue: 0,0:23:20.84,0:23:28.19,Default,,0,0,0,,{So our adventure to find the Seven Deadly Sins began.}Nhưng cuộc mạo hiểm đi tìm Thất Đại Tội\Ncủa tôi cùng ngài Meliodas đã bắt đầu.
+Dialogue: 0,0:23:47.61,0:23:49.74,Default,,0,0,0,,Thất Đại Tội...
+Dialogue: 0,0:23:55.87,0:23:58.17,Default,,0,0,0,,Hi vọng lần này là người thật.
+Dialogue: 0,0:23:59.19,0:24:05.13,Default,,0,0,0,,{I've waited 10 years for the day I destroy them.}Ta đã chờ đợi 10 năm cho cái ngày tiêu diệt chúng rồi.
+Dialogue: 0,0:24:13.48,0:24:17.93,Default,,0,0,0,,{A new companion to help on Meliodias' journey.}Đã xuất hiện bạn đồng hành mới của Meliodas\Ntrên cuộc hành trình tìm kiếm Thất Đại Tội.
+Dialogue: 0,0:24:17.93,0:24:19.45,Default,,0,0,0,,Tên cô ấy là Elizabeth!
+Dialogue: 0,0:24:19.45,0:24:23.00,Default,,0,0,0,,{I'm Elizabeth. I'm still inexperienced, but count me in!}Tôi là Elizabeth, vẫn còn thiếu kinh nghiệm.\N Mong được giúp đỡ!
+Dialogue: 0,0:24:23.02,0:24:27.39,Default,,0,0,0,,{It will be a pleasure. And you know what that means inexperienced?}Hân hạnh. Mà "thiếu kinh nghiệm" là sao ấy nhỉ?
+Dialogue: 0,0:24:27.39,0:24:28.68,Default,,0,0,0,,{Uh, I dunno about this.}Ừ-Ừm, t-tôi cũng không biết.
+Dialogue: 0,0:24:28.68,0:24:29.79,Default,,0,0,0,,{Shut it.}Thôi vậy.
+Dialogue: 0,0:24:29.79,0:24:30.93,Default,,0,0,0,,{So until next time,}Hẹn lần tới nhé!
+Dialogue: 0,0:24:30.93,0:24:33.04,Default,,0,0,0,,{the adventure continues!}Cuộc phiêu lưu vẫn còn tiếp tục!
+Dialogue: 0,0:24:33.04,0:24:34.79,Default,,0,0,0,,Kì tới, Thất Đại Tội:
+Dialogue: 0,0:24:34.79,0:24:36.39,Default,,0,0,0,,{The Knight of the Sacred Sword.}Kiếm của Thánh Kỵ Sĩ.
+Dialogue: 0,0:24:36.39,0:24:38.79,Default,,0,0,0,,{By the way, it's fat and strong.}Nhân tiện, nó to và nặng lắm đấy. {heo hay kiếm???}
+Dialogue: 0,0:24:38.79,0:24:41.04,Default,,0,0,0,,T-Thật vậy ạ?
+Dialogue: 0,0:20:27.12,0:20:28.79,Default,,0,0,0,,{\fs45\c&HB9C6F7&\bord2\shad0\fnUTM Centur\b1\pos(975.746,42.223)\3c&HB9C6F7&\blur1.1}Thất Đại Tội
+Dialogue: 0,0:20:27.12,0:20:28.79,Default,,0,0,0,,{\fs32\c&HB9C6F7&\bord2\shad0\fnFootlight MT Light\b1\fscy220\pos(819.657,42.628)\3c&HB9C6F7&\blur1.1}<
+Dialogue: 0,0:20:27.12,0:20:28.79,Default,,0,0,0,,{\fs32\c&HB9C6F7&\bord2\shad0\fnFootlight MT Light\b1\fscy220\frz180\pos(1129.333,40)\3c&HB9C6F7&\blur1.1}<
+Dialogue: 0,0:20:27.12,0:20:28.79,Default,,0,0,0,,{\clip(808,26,1140,27)\pos(975.746,42.223)\fs45\bord0\shad0\fnUTM Centur\b1\blur0.5\c&H4027F8&}Thất Đại Tội
+Dialogue: 0,0:20:27.12,0:20:28.79,Default,,0,0,0,,{\clip(813,26,1140,27)\pos(975.746,42.223)\fs45\bord0\shad0\fnUTM Centur\b1\blur0.5\c&H3D43EF&}Thất Đại Tội
+Dialogue: 0,0:20:27.12,0:20:28.79,Default,,0,0,0,,{\clip(813,27,1140,28)\pos(975.746,42.223)\fs45\bord0\shad0\fnUTM Centur\b1\blur0.5\c&H3D43EC&}Thất Đại Tội
+Dialogue: 0,0:20:27.12,0:20:28.79,Default,,0,0,0,,{\clip(813,28,1140,29)\pos(975.746,42.223)\fs45\bord0\shad0\fnUTM Centur\b1\blur0.5\c&H3D43E9&}Thất Đại Tội
+Dialogue: 0,0:20:27.12,0:20:28.79,Default,,0,0,0,,{\clip(813,29,1140,30)\pos(975.746,42.223)\fs45\bord0\shad0\fnUTM Centur\b1\blur0.5\c&H3D43E7&}Thất Đại Tội
+Dialogue: 0,0:20:27.12,0:20:28.79,Default,,0,0,0,,{\clip(813,30,1140,31)\pos(975.746,42.223)\fs45\bord0\shad0\fnUTM Centur\b1\blur0.5\c&H3D43E4&}Thất Đại Tội
+Dialogue: 0,0:20:27.12,0:20:28.79,Default,,0,0,0,,{\clip(813,31,1140,32)\pos(975.746,42.223)\fs45\bord0\shad0\fnUTM Centur\b1\blur0.5\c&H3D44E1&}Thất Đại Tội
+Dialogue: 0,0:20:27.12,0:20:28.79,Default,,0,0,0,,{\clip(813,32,1140,33)\pos(975.746,42.223)\fs45\bord0\shad0\fnUTM Centur\b1\blur0.5\c&H3D44DE&}Thất Đại Tội
+Dialogue: 0,0:20:27.12,0:20:28.79,Default,,0,0,0,,{\clip(813,33,1140,34)\pos(975.746,42.223)\fs45\bord0\shad0\fnUTM Centur\b1\blur0.5\c&H3D44DC&}Thất Đại Tội
+Dialogue: 0,0:20:27.12,0:20:28.79,Default,,0,0,0,,{\clip(813,34,1140,35)\pos(975.746,42.223)\fs45\bord0\shad0\fnUTM Centur\b1\blur0.5\c&H3D44D9&}Thất Đại Tội
+Dialogue: 0,0:20:27.12,0:20:28.79,Default,,0,0,0,,{\clip(813,35,1140,36)\pos(975.746,42.223)\fs45\bord0\shad0\fnUTM Centur\b1\blur0.5\c&H3E44D6&}Thất Đại Tội
+Dialogue: 0,0:20:27.12,0:20:28.79,Default,,0,0,0,,{\clip(813,36,1140,37)\pos(975.746,42.223)\fs45\bord0\shad0\fnUTM Centur\b1\blur0.5\c&H3E44D3&}Thất Đại Tội
+Dialogue: 0,0:20:27.12,0:20:28.79,Default,,0,0,0,,{\clip(813,37,1140,38)\pos(975.746,42.223)\fs45\bord0\shad0\fnUTM Centur\b1\blur0.5\c&H3E44D1&}Thất Đại Tội
+Dialogue: 0,0:20:27.12,0:20:28.79,Default,,0,0,0,,{\clip(813,38,1140,39)\pos(975.746,42.223)\fs45\bord0\shad0\fnUTM Centur\b1\blur0.5\c&H3E44CE&}Thất Đại Tội
+Dialogue: 0,0:20:27.12,0:20:28.79,Default,,0,0,0,,{\clip(813,39,1140,40)\pos(975.746,42.223)\fs45\bord0\shad0\fnUTM Centur\b1\blur0.5\c&H3E45CB&}Thất Đại Tội
+Dialogue: 0,0:20:27.12,0:20:28.79,Default,,0,0,0,,{\clip(813,40,1140,41)\pos(975.746,42.223)\fs45\bord0\shad0\fnUTM Centur\b1\blur0.5\c&H3E45C8&}Thất Đại Tội
+Dialogue: 0,0:20:27.12,0:20:28.79,Default,,0,0,0,,{\clip(813,41,1140,42)\pos(975.746,42.223)\fs45\bord0\shad0\fnUTM Centur\b1\blur0.5\c&H3E45C6&}Thất Đại Tội
+Dialogue: 0,0:20:27.12,0:20:28.79,Default,,0,0,0,,{\clip(813,42,1140,43)\pos(975.746,42.223)\fs45\bord0\shad0\fnUTM Centur\b1\blur0.5\c&H3E45C3&}Thất Đại Tội
+Dialogue: 0,0:20:27.12,0:20:28.79,Default,,0,0,0,,{\clip(813,43,1140,44)\pos(975.746,42.223)\fs45\bord0\shad0\fnUTM Centur\b1\blur0.5\c&H3E45C0&}Thất Đại Tội
+Dialogue: 0,0:20:27.12,0:20:28.79,Default,,0,0,0,,{\clip(813,44,1140,45)\pos(975.746,42.223)\fs45\bord0\shad0\fnUTM Centur\b1\blur0.5\c&H3E45BD&}Thất Đại Tội
+Dialogue: 0,0:20:27.12,0:20:28.79,Default,,0,0,0,,{\clip(813,45,1140,46)\pos(975.746,42.223)\fs45\bord0\shad0\fnUTM Centur\b1\blur0.5\c&H3E45BA&}Thất Đại Tội
+Dialogue: 0,0:20:27.12,0:20:28.79,Default,,0,0,0,,{\clip(813,46,1140,47)\pos(975.746,42.223)\fs45\bord0\shad0\fnUTM Centur\b1\blur0.5\c&H3E45B8&}Thất Đại Tội
+Dialogue: 0,0:20:27.12,0:20:28.79,Default,,0,0,0,,{\clip(813,47,1140,48)\pos(975.746,42.223)\fs45\bord0\shad0\fnUTM Centur\b1\blur0.5\c&H3E45B5&}Thất Đại Tội
+Dialogue: 0,0:20:27.12,0:20:28.79,Default,,0,0,0,,{\clip(813,48,1140,49)\pos(975.746,42.223)\fs45\bord0\shad0\fnUTM Centur\b1\blur0.5\c&H3E46B2&}Thất Đại Tội
+Dialogue: 0,0:20:27.12,0:20:28.79,Default,,0,0,0,,{\clip(813,49,1140,50)\pos(975.746,42.223)\fs45\bord0\shad0\fnUTM Centur\b1\blur0.5\c&H3E46AF&}Thất Đại Tội
+Dialogue: 0,0:20:27.12,0:20:28.79,Default,,0,0,0,,{\clip(813,50,1140,51)\pos(975.746,42.223)\fs45\bord0\shad0\fnUTM Centur\b1\blur0.5\c&H3E46AD&}Thất Đại Tội
+Dialogue: 0,0:20:27.12,0:20:28.79,Default,,0,0,0,,{\clip(813,51,1140,52)\pos(975.746,42.223)\fs45\bord0\shad0\fnUTM Centur\b1\blur0.5\c&H3E46AA&}Thất Đại Tội
+Dialogue: 0,0:20:27.12,0:20:28.79,Default,,0,0,0,,{\clip(813,52,1140,53)\pos(975.746,42.223)\fs45\bord0\shad0\fnUTM Centur\b1\blur0.5\c&H3F46A7&}Thất Đại Tội
+Dialogue: 0,0:20:27.12,0:20:28.79,Default,,0,0,0,,{\clip(813,53,1140,54)\pos(975.746,42.223)\fs45\bord0\shad0\fnUTM Centur\b1\blur0.5\c&H3F46A4&}Thất Đại Tội
+Dialogue: 0,0:20:27.12,0:20:28.79,Default,,0,0,0,,{\clip(813,54,1140,55)\pos(975.746,42.223)\fs45\bord0\shad0\fnUTM Centur\b1\blur0.5\c&H3F46A2&}Thất Đại Tội
+Dialogue: 0,0:20:27.12,0:20:28.79,Default,,0,0,0,,{\clip(813,55,1140,56)\pos(975.746,42.223)\fs45\bord0\shad0\fnUTM Centur\b1\blur0.5\c&H3F469F&}Thất Đại Tội
+Dialogue: 0,0:20:27.12,0:20:28.79,Default,,0,0,0,,{\clip(813,56,1140,57)\pos(975.746,42.223)\fs45\bord0\shad0\fnUTM Centur\b1\blur0.5\c&H3F479C&}Thất Đại Tội
+Dialogue: 0,0:20:27.12,0:20:28.79,Default,,0,0,0,,{\clip(813,57,1140,58)\pos(975.746,42.223)\fs45\bord0\shad0\fnUTM Centur\b1\blur0.5\c&H3F4799&}Thất Đại Tội
+Dialogue: 0,0:20:27.12,0:20:28.79,Default,,0,0,0,,{\clip(813,58,1140,59)\pos(975.746,42.223)\fs45\bord0\shad0\fnUTM Centur\b1\blur0.5\c&H3F4797&}Thất Đại Tội
+Dialogue: 0,0:20:27.12,0:20:28.79,Default,,0,0,0,,{\clip(813,59,1140,60)\pos(975.746,42.223)\fs45\bord0\shad0\fnUTM Centur\b1\blur0.5\c&H3F4794&}Thất Đại Tội
+Dialogue: 0,0:20:27.12,0:20:28.79,Default,,0,0,0,,{\clip(813,60,1140,61)\pos(975.746,42.223)\fs45\bord0\shad0\fnUTM Centur\b1\blur0.5\c&H3F4791&}Thất Đại Tội
+Dialogue: 0,0:20:27.12,0:20:28.79,Default,,0,0,0,,{\clip(808,19,1140,20)\pos(819.657,42.628)\fs32\bord0\shad0\fnFootlight MT Light\b1\fscy220\blur0.5\c&H3320F1&}<
+Dialogue: 0,0:20:27.12,0:20:28.79,Default,,0,0,0,,{\clip(808,20,1140,21)\pos(819.657,42.628)\fs32\bord0\shad0\fnFootlight MT Light\b1\fscy220\blur0.5\c&H3321EF&}<
+Dialogue: 0,0:20:27.12,0:20:28.79,Default,,0,0,0,,{\clip(808,21,1140,22)\pos(819.657,42.628)\fs32\bord0\shad0\fnFootlight MT Light\b1\fscy220\blur0.5\c&H3421ED&}<
+Dialogue: 0,0:20:27.12,0:20:28.79,Default,,0,0,0,,{\clip(808,22,1140,23)\pos(819.657,42.628)\fs32\bord0\shad0\fnFootlight MT Light\b1\fscy220\blur0.5\c&H3422EA&}<
+Dialogue: 0,0:20:27.12,0:20:28.79,Default,,0,0,0,,{\clip(808,23,1140,24)\pos(819.657,42.628)\fs32\bord0\shad0\fnFootlight MT Light\b1\fscy220\blur0.5\c&H3423E8&}<
+Dialogue: 0,0:20:27.12,0:20:28.79,Default,,0,0,0,,{\clip(808,24,1140,25)\pos(819.657,42.628)\fs32\bord0\shad0\fnFootlight MT Light\b1\fscy220\blur0.5\c&H3424E6&}<
+Dialogue: 0,0:20:27.12,0:20:28.79,Default,,0,0,0,,{\clip(808,25,1140,26)\pos(819.657,42.628)\fs32\bord0\shad0\fnFootlight MT Light\b1\fscy220\blur0.5\c&H3524E4&}<
+Dialogue: 0,0:20:27.12,0:20:28.79,Default,,0,0,0,,{\clip(808,26,1140,27)\pos(819.657,42.628)\fs32\bord0\shad0\fnFootlight MT Light\b1\fscy220\blur0.5\c&H3525E2&}<
+Dialogue: 0,0:20:27.12,0:20:28.79,Default,,0,0,0,,{\clip(808,27,1140,28)\pos(819.657,42.628)\fs32\bord0\shad0\fnFootlight MT Light\b1\fscy220\blur0.5\c&H3526DF&}<
+Dialogue: 0,0:20:27.12,0:20:28.79,Default,,0,0,0,,{\clip(808,28,1140,29)\pos(819.657,42.628)\fs32\bord0\shad0\fnFootlight MT Light\b1\fscy220\blur0.5\c&H3627DD&}<
+Dialogue: 0,0:20:27.12,0:20:28.79,Default,,0,0,0,,{\clip(808,29,1140,30)\pos(819.657,42.628)\fs32\bord0\shad0\fnFootlight MT Light\b1\fscy220\blur0.5\c&H3627DB&}<
+Dialogue: 0,0:20:27.12,0:20:28.79,Default,,0,0,0,,{\clip(808,30,1140,31)\pos(819.657,42.628)\fs32\bord0\shad0\fnFootlight MT Light\b1\fscy220\blur0.5\c&H3628D9&}<
+Dialogue: 0,0:20:27.12,0:20:28.79,Default,,0,0,0,,{\clip(808,31,1140,32)\pos(819.657,42.628)\fs32\bord0\shad0\fnFootlight MT Light\b1\fscy220\blur0.5\c&H3729D7&}<
+Dialogue: 0,0:20:27.12,0:20:28.79,Default,,0,0,0,,{\clip(808,32,1140,33)\pos(819.657,42.628)\fs32\bord0\shad0\fnFootlight MT Light\b1\fscy220\blur0.5\c&H3729D4&}<
+Dialogue: 0,0:20:27.12,0:20:28.79,Default,,0,0,0,,{\clip(808,33,1140,34)\pos(819.657,42.628)\fs32\bord0\shad0\fnFootlight MT Light\b1\fscy220\blur0.5\c&H372AD2&}<
+Dialogue: 0,0:20:27.12,0:20:28.79,Default,,0,0,0,,{\clip(808,34,1140,35)\pos(819.657,42.628)\fs32\bord0\shad0\fnFootlight MT Light\b1\fscy220\blur0.5\c&H372BD0&}<
+Dialogue: 0,0:20:27.12,0:20:28.79,Default,,0,0,0,,{\clip(808,35,1140,36)\pos(819.657,42.628)\fs32\bord0\shad0\fnFootlight MT Light\b1\fscy220\blur0.5\c&H382CCE&}<
+Dialogue: 0,0:20:27.12,0:20:28.79,Default,,0,0,0,,{\clip(808,36,1140,37)\pos(819.657,42.628)\fs32\bord0\shad0\fnFootlight MT Light\b1\fscy220\blur0.5\c&H382CCC&}<
+Dialogue: 0,0:20:27.12,0:20:28.79,Default,,0,0,0,,{\clip(808,37,1140,38)\pos(819.657,42.628)\fs32\bord0\shad0\fnFootlight MT Light\b1\fscy220\blur0.5\c&H382DC9&}<
+Dialogue: 0,0:20:27.12,0:20:28.79,Default,,0,0,0,,{\clip(808,38,1140,39)\pos(819.657,42.628)\fs32\bord0\shad0\fnFootlight MT Light\b1\fscy220\blur0.5\c&H392EC7&}<
+Dialogue: 0,0:20:27.12,0:20:28.79,Default,,0,0,0,,{\clip(808,39,1140,40)\pos(819.657,42.628)\fs32\bord0\shad0\fnFootlight MT Light\b1\fscy220\blur0.5\c&H392FC5&}<
+Dialogue: 0,0:20:27.12,0:20:28.79,Default,,0,0,0,,{\clip(808,40,1140,41)\pos(819.657,42.628)\fs32\bord0\shad0\fnFootlight MT Light\b1\fscy220\blur0.5\c&H392FC3&}<
+Dialogue: 0,0:20:27.12,0:20:28.79,Default,,0,0,0,,{\clip(808,41,1140,42)\pos(819.657,42.628)\fs32\bord0\shad0\fnFootlight MT Light\b1\fscy220\blur0.5\c&H3A30C0&}<
+Dialogue: 0,0:20:27.12,0:20:28.79,Default,,0,0,0,,{\clip(808,42,1140,43)\pos(819.657,42.628)\fs32\bord0\shad0\fnFootlight MT Light\b1\fscy220\blur0.5\c&H3A31BE&}<
+Dialogue: 0,0:20:27.12,0:20:28.79,Default,,0,0,0,,{\clip(808,43,1140,44)\pos(819.657,42.628)\fs32\bord0\shad0\fnFootlight MT Light\b1\fscy220\blur0.5\c&H3A31BC&}<
+Dialogue: 0,0:20:27.12,0:20:28.79,Default,,0,0,0,,{\clip(808,44,1140,45)\pos(819.657,42.628)\fs32\bord0\shad0\fnFootlight MT Light\b1\fscy220\blur0.5\c&H3A32BA&}<
+Dialogue: 0,0:20:27.12,0:20:28.79,Default,,0,0,0,,{\clip(808,45,1140,46)\pos(819.657,42.628)\fs32\bord0\shad0\fnFootlight MT Light\b1\fscy220\blur0.5\c&H3B33B8&}<
+Dialogue: 0,0:20:27.12,0:20:28.79,Default,,0,0,0,,{\clip(808,46,1140,47)\pos(819.657,42.628)\fs32\bord0\shad0\fnFootlight MT Light\b1\fscy220\blur0.5\c&H3B34B5&}<
+Dialogue: 0,0:20:27.12,0:20:28.79,Default,,0,0,0,,{\clip(808,47,1140,48)\pos(819.657,42.628)\fs32\bord0\shad0\fnFootlight MT Light\b1\fscy220\blur0.5\c&H3B34B3&}<
+Dialogue: 0,0:20:27.12,0:20:28.79,Default,,0,0,0,,{\clip(808,48,1140,49)\pos(819.657,42.628)\fs32\bord0\shad0\fnFootlight MT Light\b1\fscy220\blur0.5\c&H3C35B1&}<
+Dialogue: 0,0:20:27.12,0:20:28.79,Default,,0,0,0,,{\clip(808,49,1140,50)\pos(819.657,42.628)\fs32\bord0\shad0\fnFootlight MT Light\b1\fscy220\blur0.5\c&H3C36AF&}<
+Dialogue: 0,0:20:27.12,0:20:28.79,Default,,0,0,0,,{\clip(808,50,1140,51)\pos(819.657,42.628)\fs32\bord0\shad0\fnFootlight MT Light\b1\fscy220\blur0.5\c&H3C37AD&}<
+Dialogue: 0,0:20:27.12,0:20:28.79,Default,,0,0,0,,{\clip(808,51,1140,52)\pos(819.657,42.628)\fs32\bord0\shad0\fnFootlight MT Light\b1\fscy220\blur0.5\c&H3C37AA&}<
+Dialogue: 0,0:20:27.12,0:20:28.79,Default,,0,0,0,,{\clip(808,52,1140,53)\pos(819.657,42.628)\fs32\bord0\shad0\fnFootlight MT Light\b1\fscy220\blur0.5\c&H3D38A8&}<
+Dialogue: 0,0:20:27.12,0:20:28.79,Default,,0,0,0,,{\clip(808,53,1140,54)\pos(819.657,42.628)\fs32\bord0\shad0\fnFootlight MT Light\b1\fscy220\blur0.5\c&H3D39A6&}<
+Dialogue: 0,0:20:27.12,0:20:28.79,Default,,0,0,0,,{\clip(808,54,1140,55)\pos(819.657,42.628)\fs32\bord0\shad0\fnFootlight MT Light\b1\fscy220\blur0.5\c&H3D39A4&}<
+Dialogue: 0,0:20:27.12,0:20:28.79,Default,,0,0,0,,{\clip(808,55,1140,56)\pos(819.657,42.628)\fs32\bord0\shad0\fnFootlight MT Light\b1\fscy220\blur0.5\c&H3E3AA2&}<
+Dialogue: 0,0:20:27.12,0:20:28.79,Default,,0,0,0,,{\clip(808,56,1140,57)\pos(819.657,42.628)\fs32\bord0\shad0\fnFootlight MT Light\b1\fscy220\blur0.5\c&H3E3B9F&}<
+Dialogue: 0,0:20:27.12,0:20:28.79,Default,,0,0,0,,{\clip(808,57,1140,58)\pos(819.657,42.628)\fs32\bord0\shad0\fnFootlight MT Light\b1\fscy220\blur0.5\c&H3E3C9D&}<
+Dialogue: 0,0:20:27.12,0:20:28.79,Default,,0,0,0,,{\clip(808,58,1140,59)\pos(819.657,42.628)\fs32\bord0\shad0\fnFootlight MT Light\b1\fscy220\blur0.5\c&H3F3C9B&}<
+Dialogue: 0,0:20:27.12,0:20:28.79,Default,,0,0,0,,{\clip(808,59,1140,60)\pos(819.657,42.628)\fs32\bord0\shad0\fnFootlight MT Light\b1\fscy220\blur0.5\c&H3F3D99&}<
+Dialogue: 0,0:20:27.12,0:20:28.79,Default,,0,0,0,,{\clip(808,60,1140,61)\pos(819.657,42.628)\fs32\bord0\shad0\fnFootlight MT Light\b1\fscy220\blur0.5\c&H3F3E97&}<
+Dialogue: 0,0:20:27.12,0:20:28.79,Default,,0,0,0,,{\clip(808,61,1140,62)\pos(819.657,42.628)\fs32\bord0\shad0\fnFootlight MT Light\b1\fscy220\blur0.5\c&H3F3F94&}<
+Dialogue: 0,0:20:27.12,0:20:28.79,Default,,0,0,0,,{\clip(808,20,1140,21)\pos(1129.333,40)\fs32\bord0\shad0\fnFootlight MT Light\b1\fscy220\frz180\blur0.5\c&H3F28EC&}<
+Dialogue: 0,0:20:27.12,0:20:28.79,Default,,0,0,0,,{\clip(808,21,1140,22)\pos(1129.333,40)\fs32\bord0\shad0\fnFootlight MT Light\b1\fscy220\frz180\blur0.5\c&H3F29EA&}<
+Dialogue: 0,0:20:27.12,0:20:28.79,Default,,0,0,0,,{\clip(808,22,1140,23)\pos(1129.333,40)\fs32\bord0\shad0\fnFootlight MT Light\b1\fscy220\frz180\blur0.5\c&H3F29E8&}<
+Dialogue: 0,0:20:27.12,0:20:28.79,Default,,0,0,0,,{\clip(808,23,1140,24)\pos(1129.333,40)\fs32\bord0\shad0\fnFootlight MT Light\b1\fscy220\frz180\blur0.5\c&H3F2AE5&}<
+Dialogue: 0,0:20:27.12,0:20:28.79,Default,,0,0,0,,{\clip(808,24,1140,25)\pos(1129.333,40)\fs32\bord0\shad0\fnFootlight MT Light\b1\fscy220\frz180\blur0.5\c&H3F2AE3&}<
+Dialogue: 0,0:20:27.12,0:20:28.79,Default,,0,0,0,,{\clip(808,25,1140,26)\pos(1129.333,40)\fs32\bord0\shad0\fnFootlight MT Light\b1\fscy220\frz180\blur0.5\c&H3F2BE1&}<
+Dialogue: 0,0:20:27.12,0:20:28.79,Default,,0,0,0,,{\clip(808,26,1140,27)\pos(1129.333,40)\fs32\bord0\shad0\fnFootlight MT Light\b1\fscy220\frz180\blur0.5\c&H3F2CDF&}<
+Dialogue: 0,0:20:27.12,0:20:28.79,Default,,0,0,0,,{\clip(808,27,1140,28)\pos(1129.333,40)\fs32\bord0\shad0\fnFootlight MT Light\b1\fscy220\frz180\blur0.5\c&H3F2CDC&}<
+Dialogue: 0,0:20:27.12,0:20:28.79,Default,,0,0,0,,{\clip(808,28,1140,29)\pos(1129.333,40)\fs32\bord0\shad0\fnFootlight MT Light\b1\fscy220\frz180\blur0.5\c&H3F2DDA&}<
+Dialogue: 0,0:20:27.12,0:20:28.79,Default,,0,0,0,,{\clip(808,29,1140,30)\pos(1129.333,40)\fs32\bord0\shad0\fnFootlight MT Light\b1\fscy220\frz180\blur0.5\c&H3F2DD8&}<
+Dialogue: 0,0:20:27.12,0:20:28.79,Default,,0,0,0,,{\clip(808,30,1140,31)\pos(1129.333,40)\fs32\bord0\shad0\fnFootlight MT Light\b1\fscy220\frz180\blur0.5\c&H3F2ED6&}<
+Dialogue: 0,0:20:27.12,0:20:28.79,Default,,0,0,0,,{\clip(808,31,1140,32)\pos(1129.333,40)\fs32\bord0\shad0\fnFootlight MT Light\b1\fscy220\frz180\blur0.5\c&H3F2ED3&}<
+Dialogue: 0,0:20:27.12,0:20:28.79,Default,,0,0,0,,{\clip(808,32,1140,33)\pos(1129.333,40)\fs32\bord0\shad0\fnFootlight MT Light\b1\fscy220\frz180\blur0.5\c&H3F2FD1&}<
+Dialogue: 0,0:20:27.12,0:20:28.79,Default,,0,0,0,,{\clip(808,33,1140,34)\pos(1129.333,40)\fs32\bord0\shad0\fnFootlight MT Light\b1\fscy220\frz180\blur0.5\c&H3F30CF&}<
+Dialogue: 0,0:20:27.12,0:20:28.79,Default,,0,0,0,,{\clip(808,34,1140,35)\pos(1129.333,40)\fs32\bord0\shad0\fnFootlight MT Light\b1\fscy220\frz180\blur0.5\c&H3F30CD&}<
+Dialogue: 0,0:20:27.12,0:20:28.79,Default,,0,0,0,,{\clip(808,35,1140,36)\pos(1129.333,40)\fs32\bord0\shad0\fnFootlight MT Light\b1\fscy220\frz180\blur0.5\c&H3F31CA&}<
+Dialogue: 0,0:20:27.12,0:20:28.79,Default,,0,0,0,,{\clip(808,36,1140,37)\pos(1129.333,40)\fs32\bord0\shad0\fnFootlight MT Light\b1\fscy220\frz180\blur0.5\c&H3F31C8&}<
+Dialogue: 0,0:20:27.12,0:20:28.79,Default,,0,0,0,,{\clip(808,37,1140,38)\pos(1129.333,40)\fs32\bord0\shad0\fnFootlight MT Light\b1\fscy220\frz180\blur0.5\c&H3F32C6&}<
+Dialogue: 0,0:20:27.12,0:20:28.79,Default,,0,0,0,,{\clip(808,38,1140,39)\pos(1129.333,40)\fs32\bord0\shad0\fnFootlight MT Light\b1\fscy220\frz180\blur0.5\c&H3F33C4&}<
+Dialogue: 0,0:20:27.12,0:20:28.79,Default,,0,0,0,,{\clip(808,39,1140,40)\pos(1129.333,40)\fs32\bord0\shad0\fnFootlight MT Light\b1\fscy220\frz180\blur0.5\c&H3F33C1&}<
+Dialogue: 0,0:20:27.12,0:20:28.79,Default,,0,0,0,,{\clip(808,40,1140,41)\pos(1129.333,40)\fs32\bord0\shad0\fnFootlight MT Light\b1\fscy220\frz180\blur0.5\c&H3F34BF&}<
+Dialogue: 0,0:20:27.12,0:20:28.79,Default,,0,0,0,,{\clip(808,41,1140,42)\pos(1129.333,40)\fs32\bord0\shad0\fnFootlight MT Light\b1\fscy220\frz180\blur0.5\c&H4034BD&}<
+Dialogue: 0,0:20:27.12,0:20:28.79,Default,,0,0,0,,{\clip(808,42,1140,43)\pos(1129.333,40)\fs32\bord0\shad0\fnFootlight MT Light\b1\fscy220\frz180\blur0.5\c&H4035BB&}<
+Dialogue: 0,0:20:27.12,0:20:28.79,Default,,0,0,0,,{\clip(808,43,1140,44)\pos(1129.333,40)\fs32\bord0\shad0\fnFootlight MT Light\b1\fscy220\frz180\blur0.5\c&H4035B8&}<
+Dialogue: 0,0:20:27.12,0:20:28.79,Default,,0,0,0,,{\clip(808,44,1140,45)\pos(1129.333,40)\fs32\bord0\shad0\fnFootlight MT Light\b1\fscy220\frz180\blur0.5\c&H4036B6&}<
+Dialogue: 0,0:20:27.12,0:20:28.79,Default,,0,0,0,,{\clip(808,45,1140,46)\pos(1129.333,40)\fs32\bord0\shad0\fnFootlight MT Light\b1\fscy220\frz180\blur0.5\c&H4037B4&}<
+Dialogue: 0,0:20:27.12,0:20:28.79,Default,,0,0,0,,{\clip(808,46,1140,47)\pos(1129.333,40)\fs32\bord0\shad0\fnFootlight MT Light\b1\fscy220\frz180\blur0.5\c&H4037B2&}<
+Dialogue: 0,0:20:27.12,0:20:28.79,Default,,0,0,0,,{\clip(808,47,1140,48)\pos(1129.333,40)\fs32\bord0\shad0\fnFootlight MT Light\b1\fscy220\frz180\blur0.5\c&H4038AF&}<
+Dialogue: 0,0:20:27.12,0:20:28.79,Default,,0,0,0,,{\clip(808,48,1140,49)\pos(1129.333,40)\fs32\bord0\shad0\fnFootlight MT Light\b1\fscy220\frz180\blur0.5\c&H4038AD&}<
+Dialogue: 0,0:20:27.12,0:20:28.79,Default,,0,0,0,,{\clip(808,49,1140,50)\pos(1129.333,40)\fs32\bord0\shad0\fnFootlight MT Light\b1\fscy220\frz180\blur0.5\c&H4039AB&}<
+Dialogue: 0,0:20:27.12,0:20:28.79,Default,,0,0,0,,{\clip(808,50,1140,51)\pos(1129.333,40)\fs32\bord0\shad0\fnFootlight MT Light\b1\fscy220\frz180\blur0.5\c&H403AA9&}<
+Dialogue: 0,0:20:27.12,0:20:28.79,Default,,0,0,0,,{\clip(808,51,1140,52)\pos(1129.333,40)\fs32\bord0\shad0\fnFootlight MT Light\b1\fscy220\frz180\blur0.5\c&H403AA6&}<
+Dialogue: 0,0:20:27.12,0:20:28.79,Default,,0,0,0,,{\clip(808,52,1140,53)\pos(1129.333,40)\fs32\bord0\shad0\fnFootlight MT Light\b1\fscy220\frz180\blur0.5\c&H403BA4&}<
+Dialogue: 0,0:20:27.12,0:20:28.79,Default,,0,0,0,,{\clip(808,53,1140,54)\pos(1129.333,40)\fs32\bord0\shad0\fnFootlight MT Light\b1\fscy220\frz180\blur0.5\c&H403BA2&}<
+Dialogue: 0,0:20:27.12,0:20:28.79,Default,,0,0,0,,{\clip(808,54,1140,55)\pos(1129.333,40)\fs32\bord0\shad0\fnFootlight MT Light\b1\fscy220\frz180\blur0.5\c&H403CA0&}<
+Dialogue: 0,0:20:27.12,0:20:28.79,Default,,0,0,0,,{\clip(808,55,1140,56)\pos(1129.333,40)\fs32\bord0\shad0\fnFootlight MT Light\b1\fscy220\frz180\blur0.5\c&H403C9D&}<
+Dialogue: 0,0:20:27.12,0:20:28.79,Default,,0,0,0,,{\clip(808,56,1140,57)\pos(1129.333,40)\fs32\bord0\shad0\fnFootlight MT Light\b1\fscy220\frz180\blur0.5\c&H403D9B&}<
+Dialogue: 0,0:20:27.12,0:20:28.79,Default,,0,0,0,,{\clip(808,57,1140,58)\pos(1129.333,40)\fs32\bord0\shad0\fnFootlight MT Light\b1\fscy220\frz180\blur0.5\c&H403E99&}<
+Dialogue: 0,0:20:27.12,0:20:28.79,Default,,0,0,0,,{\clip(808,58,1140,59)\pos(1129.333,40)\fs32\bord0\shad0\fnFootlight MT Light\b1\fscy220\frz180\blur0.5\c&H403E97&}<
+Dialogue: 0,0:20:27.12,0:20:28.79,Default,,0,0,0,,{\clip(808,59,1140,60)\pos(1129.333,40)\fs32\bord0\shad0\fnFootlight MT Light\b1\fscy220\frz180\blur0.5\c&H403F94&}<
+Dialogue: 0,0:20:27.12,0:20:28.79,Default,,0,0,0,,{\clip(808,60,1140,61)\pos(1129.333,40)\fs32\bord0\shad0\fnFootlight MT Light\b1\fscy220\frz180\blur0.5\c&H403F92&}<
+Dialogue: 0,0:20:27.12,0:20:28.79,Default,,0,0,0,,{\clip(808,61,1140,62)\pos(1129.333,40)\fs32\bord0\shad0\fnFootlight MT Light\b1\fscy220\frz180\blur0.5\c&H404090&}<
+Dialogue: 0,0:20:27.12,0:20:28.79,Default,,0,0,0,,{\c&H2D2FFD&\bord0\shad0\fnUTM Azuki\b1\blur0.5\fs30\pos(903,256)}D{*\c&H2F31F2&}r{*\c&H3234E6&}a{*\c&H3436DA&}g{*\c&H3638CF&}on{*\c&H393BC4&}'s {*\c&H3B3DB8&}S{*\c&H3E40AC&}i{\c&H4042A1&}n
+Dialogue: 0,0:20:27.12,0:20:28.79,Default,,0,0,0,,{\c&H3C31C0&\bord0\shad0\pos(1093.111,261)\fnUTM Azuki\b1\blur0.7}
+Dialogue: 0,0:20:27.12,0:20:28.79,Default,,0,0,0,,{\c&HDEE2FF&\fnUTM Azuki\b1\fs70\bord1.5\3c&HDEE2FF&\blur2.2\pos(1123,416)\1vc(&H1200BE&,&H1200BE&,&H161744&,&H161744&)}Meliodas

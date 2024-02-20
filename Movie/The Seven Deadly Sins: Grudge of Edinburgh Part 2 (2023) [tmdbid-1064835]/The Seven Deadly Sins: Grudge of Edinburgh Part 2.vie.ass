@@ -1,0 +1,630 @@
+[Script Info]
+; This is an Advanced Sub Station Alpha v4+ script.
+Title:
+ScriptType: v4.00+
+PlayDepth: 0
+ScaledBorderAndShadow: Yes
+PlayResX: 1920
+PlayResY: 1080
+
+[V4+ Styles]
+Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
+Style: Default,Noto Sans,80.0,&H00FFFFFF,&H000000FF,&H00002208,&H00000000,-1,0,0,0,100,100,0,0,1,3.0,2.0,2,0,0,65,1
+
+[Events]
+Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
+Dialogue: 0,0:00:13.29,0:00:14.83,Default,,0,0,0,,Cậu ta đang làm cái quái gì vậy?
+Dialogue: 0,0:00:38.83,0:00:40.29,Default,,0,0,0,,Cậu!
+Dialogue: 0,0:00:42.33,0:00:45.04,Default,,0,0,0,,Chắc mấy mũi tên\Nkhông đủ để hạ thứ to xác này rồi!
+Dialogue: 0,0:00:45.13,0:00:47.96,Default,,0,0,0,,Chạy đi! Cậu không phải\Nđối thủ của hắn ta đâu!
+Dialogue: 0,0:00:49.17,0:00:51.17,Default,,0,0,0,,Ta đấu không lại hắn ư?
+Dialogue: 0,0:00:51.92,0:00:55.09,Default,,0,0,0,,Cậu thì biết gì về ta?
+Dialogue: 0,0:00:56.13,0:00:56.96,Default,,0,0,0,,Hả?
+Dialogue: 0,0:01:15.33,0:01:16.54,Default,,0,0,0,,Cậu là…
+Dialogue: 0,0:01:19.67,0:01:20.50,Default,,0,0,0,,{\i1}Không thể nào!{\i0}
+Dialogue: 0,0:01:27.25,0:01:28.58,Default,,0,0,0,,Lancelot?
+Dialogue: 0,0:01:34.96,0:01:40.04,Default,,0,0,0,,THẤT HÌNH ĐẠI TỘI:\NMỐI THÙ EDINBURGH – PHẦN 2
+Dialogue: 0,0:01:43.75,0:01:44.96,Default,,0,0,0,,Lancelot.
+Dialogue: 0,0:01:46.13,0:01:47.17,Default,,0,0,0,,Là cậu sao?
+Dialogue: 0,0:01:55.50,0:01:57.83,Default,,0,0,0,,Chuyện gì đã xảy ra với chúng ta vậy?
+Dialogue: 0,0:01:58.92,0:02:01.42,Default,,0,0,0,,Điều cuối cùng tôi nhớ là\Ncon người đã làm phép.
+Dialogue: 0,0:02:01.50,0:02:03.92,Default,,0,0,0,,Có chuyện gì ở đây vậy? Người Khổng Lồ?
+Dialogue: 0,0:02:04.63,0:02:06.71,Default,,0,0,0,,Cả tộc Quỷ nữa sao?
+Dialogue: 0,0:02:06.79,0:02:10.79,Default,,0,0,0,,Chắc có kẻ đã dùng họ\Nlàm nguyên liệu để tạo ra con quái vật đó.
+Dialogue: 0,0:02:11.54,0:02:13.67,Default,,0,0,0,,Con còn lại được làm từ Yêu Tinh.
+Dialogue: 0,0:02:15.67,0:02:18.71,Default,,0,0,0,,Cảm ơn! Các cậu đã cứu chúng tôi!
+Dialogue: 0,0:02:19.79,0:02:22.62,Default,,0,0,0,,Chúng tôi phải cảm ơn loài người mới đúng.
+Dialogue: 0,0:02:23.42,0:02:25.80,Default,,0,0,0,,Chúng tôi nợ các bạn mạng sống này.
+Dialogue: 0,0:02:26.38,0:02:29.55,Default,,0,0,0,,Khỏi cần cảm ơn.\NĐó là lẽ thường nên làm thôi.
+Dialogue: 0,0:02:29.63,0:02:33.09,Default,,0,0,0,,Các người mau rời khỏi đây đi,\Nkẻo lại bị bắt nữa đấy.
+Dialogue: 0,0:02:34.42,0:02:38.17,Default,,0,0,0,,Có vẻ chúng nhắm vào\Nmọi chủng tộc ngoài con người.
+Dialogue: 0,0:02:38.92,0:02:40.13,Default,,0,0,0,,Vậy sao?
+Dialogue: 0,0:02:41.13,0:02:43.63,Default,,0,0,0,,Được. Bọn tôi sẽ không quên\Nlòng tốt này đâu, con người.
+Dialogue: 0,0:02:46.75,0:02:48.75,Default,,0,0,0,,Lúc nào đó, bọn tôi sẽ trả ơn!
+Dialogue: 0,0:02:50.75,0:02:52.25,Default,,0,0,0,,Đã bảo họ khỏi cảm ơn rồi…
+Dialogue: 0,0:02:53.63,0:02:54.59,Default,,0,0,0,,Ta hiểu rồi.
+Dialogue: 0,0:02:55.33,0:02:57.25,Default,,0,0,0,,Vậy chúng nhắm vào các tộc phi nhân loại?
+Dialogue: 0,0:02:57.96,0:03:01.59,Default,,0,0,0,,Nên cậu hóa thành Yêu Tinh\Nđể biến mình thành mục tiêu.
+Dialogue: 0,0:03:03.08,0:03:07.41,Default,,0,0,0,,Ta hoàn toàn quên mất\Nmẹ cậu là Nữ Hoàng Yêu Tinh.
+Dialogue: 0,0:03:15.92,0:03:16.92,Default,,0,0,0,,Lancelot…
+Dialogue: 0,0:03:17.83,0:03:19.37,Default,,0,0,0,,Tại ta mà cậu…
+Dialogue: 0,0:03:19.46,0:03:20.79,Default,,0,0,0,,Này Tristan.
+Dialogue: 0,0:03:32.67,0:03:35.46,Default,,0,0,0,,Lâu ngày gặp lại bạn cũ\Nmà cậu chào đón thế này đây hả?
+Dialogue: 0,0:03:35.54,0:03:37.46,Default,,0,0,0,,Cha mẹ chúng ta là bạn bè.
+Dialogue: 0,0:03:37.54,0:03:39.42,Default,,0,0,0,,Không có nghĩa là chúng ta cũng vậy.
+Dialogue: 0,0:03:40.63,0:03:43.88,Default,,0,0,0,,Nhưng cậu vẫn không có quyền đánh ta!
+Dialogue: 0,0:03:43.96,0:03:45.88,Default,,0,0,0,,Lại còn đánh rất mạnh nữa! Đau quá!
+Dialogue: 0,0:03:45.96,0:03:48.38,Default,,0,0,0,,Đau đớn là một phần của cuộc sống.
+Dialogue: 0,0:03:49.63,0:03:53.38,Default,,0,0,0,,Và nếu ta không cứu cậu,\Ngiờ cậu đã chết rồi.
+Dialogue: 0,0:03:54.83,0:03:57.12,Default,,0,0,0,,Sao lúc ấy cậu lại chết đứng ở đó vậy?
+Dialogue: 0,0:03:57.21,0:03:58.04,Default,,0,0,0,,Cái gì?
+Dialogue: 0,0:03:58.13,0:04:00.38,Default,,0,0,0,,Sao cậu lại kiềm chế?
+Dialogue: 0,0:04:01.00,0:04:03.13,Default,,0,0,0,,Giống như trước đây cậu từng làm.
+Dialogue: 0,0:04:05.00,0:04:05.88,Default,,0,0,0,,Đôi khi…
+Dialogue: 0,0:04:06.83,0:04:08.71,Default,,0,0,0,,ta thấy sợ chính mình.
+Dialogue: 0,0:04:09.54,0:04:12.04,Default,,0,0,0,,Như thể ta không còn là chính mình nữa.
+Dialogue: 0,0:04:13.08,0:04:16.16,Default,,0,0,0,,Dù sao thì cậu cũng không hiểu đâu.
+Dialogue: 0,0:04:16.67,0:04:17.50,Default,,0,0,0,,Đúng vậy.
+Dialogue: 0,0:04:18.13,0:04:19.88,Default,,0,0,0,,Cậu thì biết gì về ta chứ?
+Dialogue: 0,0:04:19.96,0:04:21.00,Default,,0,0,0,,Ta không biết về cậu.
+Dialogue: 0,0:04:21.58,0:04:23.04,Default,,0,0,0,,Và cũng chả muốn biết, đồ ngốc.
+Dialogue: 0,0:04:23.13,0:04:23.96,Default,,0,0,0,,Cái gì?
+Dialogue: 0,0:04:25.63,0:04:28.71,Default,,0,0,0,,Cậu muốn chết cũng được thôi.
+Dialogue: 0,0:04:29.46,0:04:31.63,Default,,0,0,0,,Nhưng còn mẹ cậu thì sao?
+Dialogue: 0,0:04:33.17,0:04:36.13,Default,,0,0,0,,Không phải cậu nói bà ấy gặp chuyện sao?
+Dialogue: 0,0:04:38.79,0:04:40.92,Default,,0,0,0,,Ta không thù oán gì với mẹ cậu.
+Dialogue: 0,0:04:41.63,0:04:43.63,Default,,0,0,0,,Bà ấy cũng là bạn tốt của mẹ ta.
+Dialogue: 0,0:05:09.38,0:05:10.88,Default,,0,0,0,,Nàng hạ sốt rồi!
+Dialogue: 0,0:05:11.75,0:05:13.88,Default,,0,0,0,,Sắc mặt cũng đã khá hơn!
+Dialogue: 0,0:05:14.54,0:05:17.37,Default,,0,0,0,,Có vẻ thuốc của anh có tác dụng rồi, King!
+Dialogue: 0,0:05:17.46,0:05:21.63,Default,,0,0,0,,Thần dược cổ xưa chỉ có các Yêu Tinh biết…
+Dialogue: 0,0:05:22.33,0:05:26.25,Default,,0,0,0,,Là mật hoa hiếm được chiết xuất\Ntừ một loài hoa mọc trên cây thần.
+Dialogue: 0,0:05:26.33,0:05:27.91,Default,,0,0,0,,- Cho tôi uống đi!\N- Không.
+Dialogue: 0,0:05:28.79,0:05:31.96,Default,,0,0,0,,Nhưng e là tôi chỉ làm được thế này.
+Dialogue: 0,0:05:32.67,0:05:35.05,Default,,0,0,0,,Chỉ gỡ bỏ được có lớp ngoài của bùa chú.
+Dialogue: 0,0:05:35.54,0:05:39.67,Default,,0,0,0,,Cốt lõi của căn bệnh này\Nvẫn nằm trong tâm trí Nữ hoàng Elizabeth.
+Dialogue: 0,0:05:40.88,0:05:43.09,Default,,0,0,0,,Nếu loại bỏ được\Ntác dụng của nó dù chỉ một lát,
+Dialogue: 0,0:05:43.79,0:05:46.50,Default,,0,0,0,,cô ấy chắc chắn có thể tự chữa lành.
+Dialogue: 0,0:05:50.17,0:05:51.21,Default,,0,0,0,,Đội trưởng.
+Dialogue: 0,0:05:52.25,0:05:56.67,Default,,0,0,0,,Anh biết ai có thể làm ra việc này không?
+Dialogue: 0,0:05:56.75,0:05:58.17,Default,,0,0,0,,Tôi biết.
+Dialogue: 0,0:05:58.92,0:06:01.63,Default,,0,0,0,,Nhưng có quá nhiều nghi phạm,\Ntôi không biết bắt đầu từ đâu.
+Dialogue: 0,0:06:02.33,0:06:04.71,Default,,0,0,0,,Ừ. Nghe có vẻ đúng.
+Dialogue: 0,0:06:06.79,0:06:08.46,Default,,0,0,0,,Mà này, Tristan đâu rồi?
+Dialogue: 0,0:06:09.25,0:06:11.92,Default,,0,0,0,,Tôi không thấy thằng bé. Có chuyện gì à?
+Dialogue: 0,0:06:12.00,0:06:13.29,Default,,0,0,0,,Vâng.
+Dialogue: 0,0:06:13.88,0:06:17.38,Default,,0,0,0,,Khi cậu ấy không hóa giải được\Nbùa chú trên người Mẫu hậu
+Dialogue: 0,0:06:17.46,0:06:21.42,Default,,0,0,0,,thì bất thình lình lao ra khỏi đây,\Nkể từ đó chúng tôi chưa gặp lại nữa.
+Dialogue: 0,0:06:22.04,0:06:24.04,Default,,0,0,0,,Chắc mọi thứ quá sức chịu đựng của cậu ấy.
+Dialogue: 0,0:06:25.96,0:06:28.54,Default,,0,0,0,,Không lẽ… Nó tìm ra nguồn ma lực rồi sao?
+Dialogue: 0,0:06:33.29,0:06:37.08,Default,,0,0,0,,Ước gì Elizabeth mau khỏe lại.
+Dialogue: 0,0:06:37.58,0:06:38.46,Default,,0,0,0,,Diane.
+Dialogue: 0,0:06:38.96,0:06:42.88,Default,,0,0,0,,Cô dùng hết Thuốc thu nhỏ Merlin đưa chưa?
+Dialogue: 0,0:06:43.38,0:06:45.01,Default,,0,0,0,,Rồi, hết sạch rồi.
+Dialogue: 0,0:06:45.08,0:06:47.12,Default,,0,0,0,,Tôi gặp nhiều tình huống cần dùng đến lắm.
+Dialogue: 0,0:06:48.29,0:06:52.46,Default,,0,0,0,,Dù sao thì, Gowther, cậu không cần\Nđợi ở đây để bầu bạn với tôi đâu.
+Dialogue: 0,0:06:53.04,0:06:54.12,Default,,0,0,0,,Thật tiếc là
+Dialogue: 0,0:06:54.71,0:06:56.54,Default,,0,0,0,,lời nguyền nằm ngoài khả năng của tôi.
+Dialogue: 0,0:06:57.08,0:06:59.33,Default,,0,0,0,,Nó đã ở sâu trong tâm trí cô ấy,
+Dialogue: 0,0:06:59.88,0:07:01.63,Default,,0,0,0,,và tôi không thể giúp gì được.
+Dialogue: 0,0:07:02.83,0:07:06.62,Default,,0,0,0,,Tôi cũng không thể làm gì\Nđể giúp các bạn mình.
+Dialogue: 0,0:07:07.29,0:07:10.92,Default,,0,0,0,,Nhưng Đội trưởng\Nvà Tristan còn khó chịu hơn.
+Dialogue: 0,0:07:13.13,0:07:14.96,Default,,0,0,0,,Tristan đã trở thành chàng trai tốt nhỉ?
+Dialogue: 0,0:07:15.04,0:07:15.87,Default,,0,0,0,,Chắc chắn rồi.
+Dialogue: 0,0:07:15.96,0:07:18.13,Default,,0,0,0,,Ngài ấy tốt bụng như mẹ
+Dialogue: 0,0:07:18.21,0:07:19.71,Default,,0,0,0,,và mạnh mẽ như bố.
+Dialogue: 0,0:07:20.88,0:07:23.88,Default,,0,0,0,,Nhưng có một điều\Nngài ấy còn thiếu, đó là…
+Dialogue: 0,0:07:23.96,0:07:25.29,Default,,0,0,0,,Diane! Gowther!
+Dialogue: 0,0:07:25.96,0:07:27.84,Default,,0,0,0,,Đội trưởng!
+Dialogue: 0,0:07:29.83,0:07:31.04,Default,,0,0,0,,Elizabeth?
+Dialogue: 0,0:07:33.04,0:07:34.33,Default,,0,0,0,,- Gowther.\N- Hả?
+Dialogue: 0,0:07:34.88,0:07:37.26,Default,,0,0,0,,Tôi cần cậu lần theo\Ndấu vết ma thuật của Tristan.
+Dialogue: 0,0:07:37.33,0:07:38.16,Default,,0,0,0,,Đã rõ.
+Dialogue: 0,0:07:38.83,0:07:41.62,Default,,0,0,0,,Hướng và khoảng cách\Nchính xác nhất có thể.
+Dialogue: 0,0:07:41.71,0:07:42.79,Default,,0,0,0,,Và Diane!
+Dialogue: 0,0:07:43.92,0:07:45.80,Default,,0,0,0,,Đến lúc thực hiện chiêu cũ của em rồi.
+Dialogue: 0,0:07:46.96,0:07:48.54,Default,,0,0,0,,Chiêu cũ ư?
+Dialogue: 0,0:07:52.17,0:07:53.50,Default,,0,0,0,,Mà này,
+Dialogue: 0,0:07:54.13,0:07:56.42,Default,,0,0,0,,nếu sợ chiến đấu đến thế,
+Dialogue: 0,0:07:56.96,0:07:59.50,Default,,0,0,0,,sao cậu lại ra đây một mình?
+Dialogue: 0,0:08:00.08,0:08:03.00,Default,,0,0,0,,Sao không để bố cậu giải quyết cho rồi?
+Dialogue: 0,0:08:03.08,0:08:06.29,Default,,0,0,0,,Ông ấy có phải thủ lĩnh\Nmột nhóm kỵ sĩ huyền thoại đâu.
+Dialogue: 0,0:08:07.75,0:08:09.04,Default,,0,0,0,,Chắc vậy.
+Dialogue: 0,0:08:10.38,0:08:13.80,Default,,0,0,0,,Chỉ cần nói với Phụ hoàng\Nnhững gì ta thấy trong tim Mẫu hậu,
+Dialogue: 0,0:08:13.88,0:08:16.05,Default,,0,0,0,,vậy cũng đủ rồi.
+Dialogue: 0,0:08:17.17,0:08:20.88,Default,,0,0,0,,Phụ hoàng đã có thể cứu Mẫu hậu\Nmà không đổ một giọt mồ hôi.
+Dialogue: 0,0:08:21.96,0:08:22.79,Default,,0,0,0,,Nhưng mà…
+Dialogue: 0,0:08:27.38,0:08:28.30,Default,,0,0,0,,Nhưng mà
+Dialogue: 0,0:08:28.83,0:08:33.87,Default,,0,0,0,,cậu muốn tự mình cứu Mẫu hậu\Nnên một mình trốn khỏi lâu đài, đúng chứ?
+Dialogue: 0,0:08:35.33,0:08:37.12,Default,,0,0,0,,Đúng rồi!
+Dialogue: 0,0:08:37.21,0:08:38.54,Default,,0,0,0,,Sao cậu biết?
+Dialogue: 0,0:08:38.63,0:08:41.67,Default,,0,0,0,,Vì cũng như trước đây,\Nta đi guốc trong bụng cậu mà.
+Dialogue: 0,0:08:42.92,0:08:46.34,Default,,0,0,0,,Không như ta, cậu đã thay đổi rất nhiều.
+Dialogue: 0,0:08:49.33,0:08:50.21,Default,,0,0,0,,Lancelot?
+Dialogue: 0,0:08:53.13,0:08:55.21,Default,,0,0,0,,Cái gì? Nhìn lâu đài ư?
+Dialogue: 0,0:08:57.29,0:08:59.29,Default,,0,0,0,,Cậu đang nói chuyện với ai vậy?
+Dialogue: 0,0:08:59.38,0:09:00.21,Default,,0,0,0,,Này!
+Dialogue: 0,0:09:13.25,0:09:15.63,Default,,0,0,0,,Chết tiệt! Có hai đứa nhóc thôi
+Dialogue: 0,0:09:15.71,0:09:17.34,Default,,0,0,0,,mà làm quá vậy.
+Dialogue: 0,0:09:18.13,0:09:19.71,Default,,0,0,0,,Này, chúng đông quá.
+Dialogue: 0,0:09:19.79,0:09:20.62,Default,,0,0,0,,Ta rút lui thôi.
+Dialogue: 0,0:09:20.71,0:09:22.13,Default,,0,0,0,,Đến đây, Escanor!
+Dialogue: 0,0:09:28.71,0:09:29.54,Default,,0,0,0,,Này!
+Dialogue: 0,0:09:32.13,0:09:33.96,Default,,0,0,0,,Cho qua nào!
+Dialogue: 0,0:09:36.83,0:09:39.75,Default,,0,0,0,,{\i1}Không đời nào\Nta quay lại khi đã sắp tìm ra{\i0}
+Dialogue: 0,0:09:39.83,0:09:41.54,Default,,0,0,0,,{\i1}kẻ đã nguyền rủa Mẫu hậu ta!{\i0}
+Dialogue: 0,0:09:41.63,0:09:43.26,Default,,0,0,0,,Nhảy đi, Escanor!
+Dialogue: 0,0:09:52.79,0:09:55.08,Default,,0,0,0,,Cái gì? Không phải chứ!
+Dialogue: 0,0:09:56.08,0:09:56.91,Default,,0,0,0,,Lợi hại quá!
+Dialogue: 0,0:09:57.96,0:09:59.92,Default,,0,0,0,,Mình… đang bay ư?
+Dialogue: 0,0:10:00.42,0:10:03.38,Default,,0,0,0,,Không, cậu không hề bay được, đồ hề!
+Dialogue: 0,0:10:03.46,0:10:06.25,Default,,0,0,0,,Ồ, ra là cậu à, Lancelot?
+Dialogue: 0,0:10:06.33,0:10:09.41,Default,,0,0,0,,Đừng có không thèm suy nghĩ\Nmà xông vào đội quân như thế!
+Dialogue: 0,0:10:15.92,0:10:18.34,Default,,0,0,0,,Cố lên, Lancelot!
+Dialogue: 0,0:10:20.00,0:10:21.88,Default,,0,0,0,,Chúng đang làm gì vậy?
+Dialogue: 0,0:10:26.96,0:10:28.04,Default,,0,0,0,,Thật là…
+Dialogue: 0,0:10:28.13,0:10:30.46,Default,,0,0,0,,Đúng là hai hoàng tử khó chiều.
+Dialogue: 0,0:10:35.63,0:10:37.92,Default,,0,0,0,,Cao hơn nữa! Cao hơn nữa được không?
+Dialogue: 0,0:10:38.00,0:10:40.29,Default,,0,0,0,,Không cõng cậu\Nvà con ngựa chết tiệt này thì được!
+Dialogue: 0,0:10:42.75,0:10:43.58,Default,,0,0,0,,Không ổn rồi!
+Dialogue: 0,0:10:50.21,0:10:51.34,Default,,0,0,0,,Chuyện gì vậy?
+Dialogue: 0,0:10:51.88,0:10:53.59,Default,,0,0,0,,Bục băng hình thành giữa không trung…
+Dialogue: 0,0:10:54.21,0:10:55.38,Default,,0,0,0,,Không, đây là…
+Dialogue: 0,0:10:56.42,0:10:57.75,Default,,0,0,0,,một cây cầu băng!
+Dialogue: 0,0:10:58.58,0:11:01.75,Default,,0,0,0,,Tuyệt quá! Là cậu làm sao, Lancelot?
+Dialogue: 0,0:11:02.92,0:11:06.42,Default,,0,0,0,,Hãy vào trong lâu đài\Nvà tiêu diệt nguồn gốc của con quỷ này!
+Dialogue: 0,0:11:07.00,0:11:08.08,Default,,0,0,0,,Được!
+Dialogue: 0,0:11:11.29,0:11:13.67,Default,,0,0,0,,{\i1}Chết tiệt. Lại một khoản nợ nữa.{\i0}
+Dialogue: 0,0:11:22.83,0:11:24.29,Default,,0,0,0,,Phản Đòn Toàn Phần!
+Dialogue: 0,0:11:38.75,0:11:40.00,Default,,0,0,0,,Một chút nữa thôi!
+Dialogue: 0,0:11:40.71,0:11:41.96,Default,,0,0,0,,Đâm xuyên qua đi!
+Dialogue: 0,0:11:53.13,0:11:53.96,Default,,0,0,0,,Xin lỗi.
+Dialogue: 0,0:11:54.46,0:11:56.96,Default,,0,0,0,,Cậu mạo hiểm tính mạng như vậy, chỉ vì ta…
+Dialogue: 0,0:11:58.08,0:12:01.96,Default,,0,0,0,,- Này! Đau quá!\N- Ai nói là vì cậu chứ?
+Dialogue: 0,0:12:02.04,0:12:04.71,Default,,0,0,0,,Dù sao ta cũng định đến lâu đài này.
+Dialogue: 0,0:12:04.79,0:12:06.96,Default,,0,0,0,,Chỉ là ta sẽ làm\Nbằng cách thông minh hơn nhiều.
+Dialogue: 0,0:12:07.54,0:12:08.96,Default,,0,0,0,,Lancelot.
+Dialogue: 0,0:12:09.04,0:12:12.37,Default,,0,0,0,,Cậu cũng đến cứu ai ở đây sao?
+Dialogue: 0,0:12:12.46,0:12:15.63,Default,,0,0,0,,Sao ta phải có cùng lý do với cậu chứ?
+Dialogue: 0,0:12:17.13,0:12:18.55,Default,,0,0,0,,Vậy thì tại sao?
+Dialogue: 0,0:12:19.54,0:12:20.54,Default,,0,0,0,,Đến cho vui.
+Dialogue: 0,0:12:21.13,0:12:22.05,Default,,0,0,0,,Cái gì?
+Dialogue: 0,0:12:31.04,0:12:34.62,Default,,0,0,0,,Trời ạ, đúng là một cặp dũng cảm\Nvà thích phiêu lưu.
+Dialogue: 0,0:12:35.88,0:12:38.51,Default,,0,0,0,,Chào mừng đến\NLâu đài Edinburgh, nhà của ta,
+Dialogue: 0,0:12:39.17,0:12:42.25,Default,,0,0,0,,Hoàng tử Tristan của Vương quốc Liones,
+Dialogue: 0,0:12:42.33,0:12:46.00,Default,,0,0,0,,và Hoàng tử Lancelot\Ncủa Vương quốc Benwick.
+Dialogue: 0,0:12:46.08,0:12:47.00,Default,,0,0,0,,Ồ, xin lỗi.
+Dialogue: 0,0:12:47.63,0:12:50.09,Default,,0,0,0,,Ta vẫn chưa tự giới thiệu.
+Dialogue: 0,0:12:51.50,0:12:53.88,Default,,0,0,0,,Ta là vua của Tân Edinburgh,
+Dialogue: 0,0:12:54.46,0:12:56.09,Default,,0,0,0,,Deathpierce.
+Dialogue: 0,0:12:56.17,0:12:57.00,Default,,0,0,0,,Nói cách khác,
+Dialogue: 0,0:12:57.96,0:12:59.84,Default,,0,0,0,,ngươi là người giật dây à?
+Dialogue: 0,0:13:02.08,0:13:03.12,Default,,0,0,0,,Đó là…
+Dialogue: 0,0:13:03.67,0:13:06.84,Default,,0,0,0,,Mau giải bùa chú ngươi ếm lên Mẫu hậu ta!
+Dialogue: 0,0:13:11.67,0:13:13.42,Default,,0,0,0,,Đừng sợ.
+Dialogue: 0,0:13:13.50,0:13:16.25,Default,,0,0,0,,Ta sẽ đảm bảo cha mẹ ngươi\Nnhận được tro cốt của ngươi.
+Dialogue: 0,0:13:25.96,0:13:27.71,Default,,0,0,0,,Sao lại cản đường ta?
+Dialogue: 0,0:13:27.79,0:13:28.92,Default,,0,0,0,,Không nghe thấy à?
+Dialogue: 0,0:13:29.92,0:13:32.67,Default,,0,0,0,,Vì rõ ràng là hắn đứng sau chuyện này.
+Dialogue: 0,0:13:33.33,0:13:35.50,Default,,0,0,0,,Vậy ra ngươi chính là thủ phạm.
+Dialogue: 0,0:13:36.63,0:13:38.63,Default,,0,0,0,,Sao ngươi lại làm tổn thương Mẫu hậu ta?
+Dialogue: 0,0:13:39.25,0:13:43.17,Default,,0,0,0,,Mẹ ngươi không phải\Nngười duy nhất chịu đau khổ đâu.
+Dialogue: 0,0:13:43.88,0:13:45.51,Default,,0,0,0,,Ta mong chờ cha ngươi
+Dialogue: 0,0:13:45.58,0:13:49.16,Default,,0,0,0,,phải đành trơ mắt nhìn\Nmẹ ngươi chết trong đau đớn,
+Dialogue: 0,0:13:49.25,0:13:51.42,Default,,0,0,0,,như vậy còn đau khổ hơn nhiều!
+Dialogue: 0,0:13:51.92,0:13:54.67,Default,,0,0,0,,Sao ngươi lại làm thế hả?
+Dialogue: 0,0:13:55.63,0:13:59.46,Default,,0,0,0,,Ngày xưa, có một người đàn ông\Nđã cho ta cảm giác được thuộc về
+Dialogue: 0,0:13:59.54,0:14:02.37,Default,,0,0,0,,và giúp ta gia nhập Thánh Kỵ sĩ.
+Dialogue: 0,0:14:03.08,0:14:05.75,Default,,0,0,0,,{\i1}Nhưng một con Quỷ đột nhiên xuất hiện{\i0}
+Dialogue: 0,0:14:05.83,0:14:08.96,Default,,0,0,0,,{\i1}và hạ gục ông ấy một cách tàn nhẫn.{\i0}
+Dialogue: 0,0:14:10.29,0:14:14.04,Default,,0,0,0,,{\i1}Sau đó, với khao khát báo thù cháy bỏng,{\i0}
+Dialogue: 0,0:14:14.13,0:14:17.42,Default,,0,0,0,,{\i1}ta tìm thấy một quân cờ\Ntrong tay một Nữ Thần.{\i0}
+Dialogue: 0,0:14:18.88,0:14:21.96,Default,,0,0,0,,Không lẽ ngươi đang nói về cha mẹ ta?
+Dialogue: 0,0:14:22.04,0:14:23.00,Default,,0,0,0,,Không, không phải họ.
+Dialogue: 0,0:14:23.71,0:14:25.63,Default,,0,0,0,,Ta đã nghe nhiều câu chuyện về việc này.
+Dialogue: 0,0:14:26.33,0:14:31.87,Default,,0,0,0,,Nhưng chẳng phải tộc Quỷ và Nữ Thần\Nđều đã chết trong Thánh Chiến cuối cùng ư?
+Dialogue: 0,0:14:32.50,0:14:37.58,Default,,0,0,0,,Đúng vậy! Những kẻ\Nta muốn báo thù đã không còn nữa.
+Dialogue: 0,0:14:38.21,0:14:42.04,Default,,0,0,0,,Nên ta sẽ không ngơi nghỉ\Ncho đến khi khiến thủ lĩnh của các tộc,
+Dialogue: 0,0:14:42.13,0:14:44.38,Default,,0,0,0,,Meliodas và Elizabeth,
+Dialogue: 0,0:14:44.46,0:14:45.88,Default,,0,0,0,,trả giá cho…
+Dialogue: 0,0:14:48.25,0:14:50.04,Default,,0,0,0,,Đó chỉ là trút giận lên người khác.
+Dialogue: 0,0:14:52.54,0:14:53.92,Default,,0,0,0,,Ranh con!
+Dialogue: 0,0:14:54.63,0:14:55.71,Default,,0,0,0,,Ngươi mới phải trả giá.
+Dialogue: 0,0:14:56.50,0:14:59.38,Default,,0,0,0,,Mau giải lời nguyền cho Mẫu hậu ta ngay!
+Dialogue: 0,0:15:03.92,0:15:06.88,Default,,0,0,0,,Ma pháp Nữ Thần thừa hưởng từ mẹ ngươi à?
+Dialogue: 0,0:15:07.79,0:15:09.04,Default,,0,0,0,,Cũng không tệ.
+Dialogue: 0,0:15:09.67,0:15:12.17,Default,,0,0,0,,Tuổi này vậy là giỏi đấy.
+Dialogue: 0,0:15:13.17,0:15:14.42,Default,,0,0,0,,Ta không hiểu!
+Dialogue: 0,0:15:14.50,0:15:16.08,Default,,0,0,0,,Đột nhiên nó chậm lại…
+Dialogue: 0,0:15:17.38,0:15:20.26,Default,,0,0,0,,Nhưng không có tác dụng với ta đâu.
+Dialogue: 0,0:15:32.58,0:15:35.33,Default,,0,0,0,,Lần này, hắn chuyển hướng nó!
+Dialogue: 0,0:15:35.83,0:15:38.41,Default,,0,0,0,,Thậm chí hắn còn\Nkhiến đòn tấn công hoàn toàn vô dụng…
+Dialogue: 0,0:15:40.96,0:15:43.50,Default,,0,0,0,,Ngươi không thể đánh bại ta đâu.
+Dialogue: 0,0:15:46.67,0:15:48.00,Default,,0,0,0,,Ta hiểu ra rồi.
+Dialogue: 0,0:15:48.08,0:15:49.00,Default,,0,0,0,,Cái gì?
+Dialogue: 0,0:15:55.21,0:15:59.04,Default,,0,0,0,,Ma pháp của ngươi\Ncho phép ngươi kiểm soát cường độ,
+Dialogue: 0,0:15:59.13,0:16:02.13,Default,,0,0,0,,tốc độ và độ cao đòn tấn công ma pháp\Ncủa đối thủ. Đúng không?
+Dialogue: 0,0:16:02.79,0:16:06.17,Default,,0,0,0,,Nói cách khác, ngươi không thể\Nlàm gì với đòn tấn công vật lý!
+Dialogue: 0,0:16:06.25,0:16:07.96,Default,,0,0,0,,{\i1}Thằng nhóc láo xược!{\i0}
+Dialogue: 0,0:16:08.04,0:16:12.17,Default,,0,0,0,,{\i1}Không ngờ nó nhìn ra\Nchân tướng Melody của mình nhanh như vậy!{\i0}
+Dialogue: 0,0:16:13.50,0:16:14.33,Default,,0,0,0,,Tristan.
+Dialogue: 0,0:16:14.83,0:16:19.58,Default,,0,0,0,,Trong lúc ông già bận rộn với ta,\Nhắn chả làm gì được ma pháp của cậu đâu!
+Dialogue: 0,0:16:22.54,0:16:25.54,Default,,0,0,0,,Nếu thứ đó gây ra\Nbùa chú trên người Mẫu hậu cậu,
+Dialogue: 0,0:16:25.63,0:16:26.76,Default,,0,0,0,,thì lấy nó ra ngay đi!
+Dialogue: 0,0:16:27.75,0:16:30.54,Default,,0,0,0,,Ừ! Ta lên đây!
+Dialogue: 0,0:16:43.96,0:16:45.34,Default,,0,0,0,,Ngôi Sao Lấp Lánh!
+Dialogue: 0,0:16:51.92,0:16:53.30,Default,,0,0,0,,Ta không dễ dàng bỏ cuộc đâu!
+Dialogue: 0,0:16:53.38,0:16:55.80,Default,,0,0,0,,Ta sẽ cứu Mẫu hậu mình!
+Dialogue: 0,0:17:12.33,0:17:13.33,Default,,0,0,0,,{\i1}Không thể nào!{\i0}
+Dialogue: 0,0:17:14.50,0:17:18.96,Default,,0,0,0,,{\i1}Sao một thằng oắt con\Nlại có thể mạnh như thế?{\i0}
+Dialogue: 0,0:17:19.04,0:17:20.92,Default,,0,0,0,,{\i1}Nó còn đánh tay không nữa chứ.{\i0}
+Dialogue: 0,0:17:22.33,0:17:24.71,Default,,0,0,0,,Lancelot, con trai của Vua Ban!
+Dialogue: 0,0:17:24.79,0:17:26.96,Default,,0,0,0,,Sao ngươi lại cản đường bọn ta?
+Dialogue: 0,0:17:27.04,0:17:28.92,Default,,0,0,0,,Mục đích của ngươi là gì?
+Dialogue: 0,0:17:33.63,0:17:37.38,Default,,0,0,0,,Con người không nên đấu đá lẫn nhau.
+Dialogue: 0,0:17:37.46,0:17:41.00,Default,,0,0,0,,Ta căm ghét tất cả các tộc khác.
+Dialogue: 0,0:17:41.08,0:17:42.91,Default,,0,0,0,,Những nơi duy nhất ta tấn công
+Dialogue: 0,0:17:43.00,0:17:46.25,Default,,0,0,0,,là rừng rậm, làng mạc\Ncủa Yêu Tinh và Người Khổng Lồ,
+Dialogue: 0,0:17:46.33,0:17:50.21,Default,,0,0,0,,quái vật của tộc Nữ Thần và tộc Quỷ!
+Dialogue: 0,0:17:52.42,0:17:54.42,Default,,0,0,0,,Ta muốn ngươi hiểu.
+Dialogue: 0,0:17:54.50,0:17:55.92,Default,,0,0,0,,Ngươi và ta là đồng loại.
+Dialogue: 0,0:17:56.00,0:17:59.33,Default,,0,0,0,,Ta chỉ muốn xây dựng\Nmột thế giới cho loài người,
+Dialogue: 0,0:17:59.42,0:18:00.80,Default,,0,0,0,,và chỉ loài người mà thôi!
+Dialogue: 0,0:18:03.92,0:18:06.59,Default,,0,0,0,,Ta không phải con người,\Ncũng chẳng phải Yêu Tinh.
+Dialogue: 0,0:18:17.92,0:18:19.09,Default,,0,0,0,,Vua Deathpierce!
+Dialogue: 0,0:18:21.21,0:18:22.09,Default,,0,0,0,,Sao ngươi dám?
+Dialogue: 0,0:19:06.13,0:19:06.96,Default,,0,0,0,,Chết tiệt!
+Dialogue: 0,0:19:23.29,0:19:25.79,Default,,0,0,0,,Thằng nhóc chết tiệt!
+Dialogue: 0,0:19:35.46,0:19:36.42,Default,,0,0,0,,{\i1}Lại nữa rồi!{\i0}
+Dialogue: 0,0:19:37.42,0:19:39.46,Default,,0,0,0,,{\i1}Nếu không mau kết thúc chuyện này,{\i0}
+Dialogue: 0,0:19:39.96,0:19:43.13,Default,,0,0,0,,{\i1}mình sẽ lại đánh mất bản thân!{\i0}
+Dialogue: 0,0:19:43.21,0:19:47.63,Default,,0,0,0,,Nếu có một ngày con buộc phải\Nchiến đấu để cứu giúp người khác,
+Dialogue: 0,0:19:47.71,0:19:48.96,Default,,0,0,0,,con sẽ làm gì?
+Dialogue: 0,0:19:50.33,0:19:51.41,Default,,0,0,0,,{\i1}Phải rồi!{\i0}
+Dialogue: 0,0:19:52.42,0:19:55.34,Default,,0,0,0,,{\i1}Mình đến đây để cứu Mẫu hậu!{\i0}
+Dialogue: 0,0:19:56.42,0:19:58.09,Default,,0,0,0,,{\i1}Dù mình có trở thành gì…{\i0}
+Dialogue: 0,0:20:00.67,0:20:02.38,Default,,0,0,0,,{\i1}Nhưng còn cậu ấy thì sao?{\i0}
+Dialogue: 0,0:20:03.88,0:20:05.84,Default,,0,0,0,,{\i1}Mình không thể để cậu ấy lại bị…{\i0}
+Dialogue: 0,0:20:05.92,0:20:06.84,Default,,0,0,0,,Cho ta thấy đi.
+Dialogue: 0,0:20:07.79,0:20:11.33,Default,,0,0,0,,Hãy cho ta thấy\Ncon người thật mà cậu sợ hãi.
+Dialogue: 0,0:20:11.83,0:20:14.79,Default,,0,0,0,,Và cậu không cần lo cho ta đâu.
+Dialogue: 0,0:20:15.33,0:20:18.91,Default,,0,0,0,,Cậu có biết cậu đang nói gì không?
+Dialogue: 0,0:20:19.50,0:20:20.75,Default,,0,0,0,,Cứ làm đi!
+Dialogue: 0,0:20:20.83,0:20:22.75,Default,,0,0,0,,Cậu không muốn giúp mẹ cậu à?
+Dialogue: 0,0:20:24.00,0:20:27.29,Default,,0,0,0,,Đừng có tự mãn, bọn nhãi xấc xược!
+Dialogue: 0,0:21:12.92,0:21:17.05,Default,,0,0,0,,Ta còn rất nhiều việc ý nghĩa\Nhơn là trông mấy tên nhãi các ngươi.
+Dialogue: 0,0:21:17.13,0:21:20.80,Default,,0,0,0,,Chúng sẽ là\Nđối thủ hoàn hảo cho các ngươi.
+Dialogue: 0,0:21:21.38,0:21:22.76,Default,,0,0,0,,Vậy là thứ đó đang điều khiển họ!
+Dialogue: 0,0:21:23.33,0:21:24.75,Default,,0,0,0,,Như vậy sẽ đỡ tốn thời gian!
+Dialogue: 0,0:21:25.33,0:21:26.62,Default,,0,0,0,,Ngươi đúng là đồ ngốc, nhỉ?
+Dialogue: 0,0:21:29.67,0:21:30.50,Default,,0,0,0,,Lancelot!
+Dialogue: 0,0:21:33.75,0:21:36.38,Default,,0,0,0,,Không phải người hay Yêu Tinh hả?
+Dialogue: 0,0:21:36.46,0:21:38.00,Default,,0,0,0,,Thú vị đấy.
+Dialogue: 0,0:21:39.25,0:21:43.50,Default,,0,0,0,,Vậy xem ngươi biến thành thứ gì\Ncó lẽ cũng không sao nhỉ.
+Dialogue: 0,0:21:44.13,0:21:47.55,Default,,0,0,0,,Nhưng ta không nghĩ\Nngươi sẽ làm nên trò trống gì đâu.
+Dialogue: 0,0:21:49.58,0:21:50.41,Default,,0,0,0,,Chết tiệt!
+Dialogue: 0,0:22:29.54,0:22:31.83,Default,,0,0,0,,Ma pháp của ngươi\Nkhông thể chạm đến ta đâu.
+Dialogue: 0,0:22:47.50,0:22:50.13,Default,,0,0,0,,Đây là Lửa Luyện Ngục?
+Dialogue: 0,0:22:51.17,0:22:54.80,Default,,0,0,0,,Sức mạnh của nó\Nkhông chỉ thuộc tộc Nữ Thần!
+Dialogue: 0,0:23:00.17,0:23:01.00,Default,,0,0,0,,Trốn đi!
+Dialogue: 0,0:23:01.83,0:23:02.66,Default,,0,0,0,,Được rồi!
+Dialogue: 0,0:23:05.42,0:23:06.80,Default,,0,0,0,,Cậu ta vẫn còn do dự.
+Dialogue: 0,0:23:10.92,0:23:13.25,Default,,0,0,0,,Đây là cơ hội cuối cùng\Nđể ngươi tự huyễn hoặc
+Dialogue: 0,0:23:13.33,0:23:14.66,Default,,0,0,0,,rằng ngươi có thể thắng đấy!
+Dialogue: 0,0:23:15.50,0:23:19.67,Default,,0,0,0,,Bao vây lâu đài\Nlà hàng chục nghìn quân Hư Vô!
+Dialogue: 0,0:23:19.75,0:23:22.04,Default,,0,0,0,,Đừng mong sống sót ra khỏi đây,
+Dialogue: 0,0:23:22.13,0:23:23.26,Default,,0,0,0,,lũ nhãi ranh!
+Dialogue: 0,0:23:28.33,0:23:31.71,Default,,0,0,0,,{\i1}Hắn nói đúng. Đánh trực diện với chúng\Nthì không có cửa thắng.{\i0}
+Dialogue: 0,0:23:47.46,0:23:50.75,Default,,0,0,0,,Có vẻ ta đến nơi rồi, nhưng đây là đâu?
+Dialogue: 0,0:23:50.83,0:23:53.87,Default,,0,0,0,,Điểm đến của chúng ta còn cách đây 366m.
+Dialogue: 0,0:23:53.96,0:23:57.42,Default,,0,0,0,,Có chắc Tristan\Nđang ở Lâu đài Edinburgh không?
+Dialogue: 0,0:23:58.00,0:24:01.21,Default,,0,0,0,,Chắc chắn. Tôi có thể cảm nhận\Nma pháp của ngài ấy phát ra từ lâu đài.
+Dialogue: 0,0:24:04.33,0:24:05.66,Default,,0,0,0,,Không thể nào.
+Dialogue: 0,0:24:05.75,0:24:08.33,Default,,0,0,0,,Pháp lực khủng khiếp quá…
+Dialogue: 0,0:24:10.38,0:24:12.05,Default,,0,0,0,,Là Thất Hình Đại Tội!
+Dialogue: 0,0:24:14.21,0:24:16.63,Default,,0,0,0,,Phụ hoàng? Làm sao mà…
+Dialogue: 0,0:24:16.71,0:24:19.13,Default,,0,0,0,,Hả? Mấy tên này bị sao vậy?
+Dialogue: 0,0:24:22.21,0:24:23.38,Default,,0,0,0,,Hư Vô!
+Dialogue: 0,0:24:23.46,0:24:25.84,Default,,0,0,0,,Mau biến chúng thành tro!
+Dialogue: 0,0:24:37.25,0:24:38.92,Default,,0,0,0,,Phụ hoàng!
+Dialogue: 0,0:24:44.46,0:24:45.92,Default,,0,0,0,,Phản Đòn Toàn Phần!
+Dialogue: 0,0:24:46.00,0:24:48.42,Default,,0,0,0,,PHẢN ĐÒN TOÀN PHẦN
+Dialogue: 0,0:25:00.29,0:25:01.12,Default,,0,0,0,,Xong!
+Dialogue: 0,0:25:05.17,0:25:08.63,Default,,0,0,0,,Nhờ Diane, có vẻ ta đến vừa kịp lúc.
+Dialogue: 0,0:25:09.38,0:25:12.05,Default,,0,0,0,,Bắt đầu nào!
+Dialogue: 0,0:25:12.67,0:25:16.21,Default,,0,0,0,,{\i1}Sức mạnh và sự chính xác của cô ấy\Nvẫn xuất sắc như thế.{\i0}
+Dialogue: 0,0:25:17.88,0:25:19.05,Default,,0,0,0,,Ừ.
+Dialogue: 0,0:25:19.13,0:25:21.88,Default,,0,0,0,,Hình như cô ấy từng làm thế rồi thì phải.
+Dialogue: 0,0:25:24.17,0:25:26.30,Default,,0,0,0,,Nhưng không nhớ là khi nào.
+Dialogue: 0,0:25:26.38,0:25:27.67,Default,,0,0,0,,Là 15 năm trước.
+Dialogue: 0,0:25:28.42,0:25:31.63,Default,,0,0,0,,Khi Elizabeth bị Hendrickson bắt cóc.
+Dialogue: 0,0:25:31.71,0:25:34.25,Default,,0,0,0,,Ồ, phải rồi.
+Dialogue: 0,0:25:34.33,0:25:37.66,Default,,0,0,0,,Theo tôi nhớ thì Sư phụ đã rất khổ sở.
+Dialogue: 0,0:25:41.58,0:25:43.37,Default,,0,0,0,,Tuyệt vời quá!
+Dialogue: 0,0:25:44.04,0:25:45.50,Default,,0,0,0,,Ta đã nghe kể nhiều câu chuyện,
+Dialogue: 0,0:25:46.29,0:25:49.00,Default,,0,0,0,,nhưng ta không biết\NPhụ hoàng và đồng đội lại mạnh thế này!
+Dialogue: 0,0:25:50.46,0:25:52.00,Default,,0,0,0,,Sao giờ cha mình cũng ở đây vậy?
+Dialogue: 0,0:25:52.58,0:25:54.50,Default,,0,0,0,,Mình biết ai đã xây cây cầu băng đó.
+Dialogue: 0,0:25:55.08,0:25:58.50,Default,,0,0,0,,Nghĩa là thằng con mình cũng đang ở đây.
+Dialogue: 0,0:25:59.88,0:26:00.88,Default,,0,0,0,,Không thể nào…
+Dialogue: 0,0:26:01.46,0:26:03.25,Default,,0,0,0,,Tiêu diệt một đội quân hùng mạnh
+Dialogue: 0,0:26:03.33,0:26:05.91,Default,,0,0,0,,chỉ trong nháy mắt.
+Dialogue: 0,0:26:07.33,0:26:09.08,Default,,0,0,0,,Ý ngươi là
+Dialogue: 0,0:26:09.17,0:26:14.38,Default,,0,0,0,,chúng ta đang gặp phải\Nnhững cơn ác mộng sống đó sao?
+Dialogue: 0,0:26:23.38,0:26:24.92,Default,,0,0,0,,E là phải nói với ngươi rằng
+Dialogue: 0,0:26:25.00,0:26:27.96,Default,,0,0,0,,đòn đánh lén của ngươi\Nhình như thất bại rồi.
+Dialogue: 0,0:27:00.13,0:27:02.13,Default,,0,0,0,,Đội trưởng!
+Dialogue: 0,0:27:02.67,0:27:04.17,Default,,0,0,0,,Ồ, họ đây rồi!
+Dialogue: 0,0:27:05.63,0:27:07.84,Default,,0,0,0,,Cứ như địa ngục xuất hiện ở đây vậy.
+Dialogue: 0,0:27:08.46,0:27:09.54,Default,,0,0,0,,Chuyện gì xảy ra thế?
+Dialogue: 0,0:27:09.63,0:27:11.92,Default,,0,0,0,,Việc lớn trước đã!\NĐội trưởng, có chuyện này!
+Dialogue: 0,0:27:15.21,0:27:16.38,Default,,0,0,0,,Đây, Đội trưởng!
+Dialogue: 0,0:27:23.21,0:27:24.34,Default,,0,0,0,,Meliodas!
+Dialogue: 0,0:27:25.00,0:27:27.92,Default,,0,0,0,,Elizabeth! Lời nguyền được hóa giải rồi ư?
+Dialogue: 0,0:27:28.00,0:27:29.08,Default,,0,0,0,,Đúng vậy!
+Dialogue: 0,0:27:30.42,0:27:32.34,Default,,0,0,0,,Tạ ơn trời!
+Dialogue: 0,0:27:32.42,0:27:33.84,Default,,0,0,0,,Meliodas…
+Dialogue: 0,0:27:34.54,0:27:36.12,Default,,0,0,0,,Ngài không thể làm thế trước mặt…
+Dialogue: 0,0:27:36.21,0:27:39.25,Default,,0,0,0,,- Anh ấy vẫn như xưa.\N- Meliodas!
+Dialogue: 0,0:27:42.13,0:27:43.63,Default,,0,0,0,,Thật sự quá tốt rồi.
+Dialogue: 0,0:27:45.67,0:27:49.00,Default,,0,0,0,,Là con trai chúng ta. Tristan đã cứu em.
+Dialogue: 0,0:27:49.67,0:27:52.25,Default,,0,0,0,,Khi thần chú bị phá vỡ,
+Dialogue: 0,0:27:52.33,0:27:54.00,Default,,0,0,0,,em cảm nhận được ma thuật của nó.
+Dialogue: 0,0:27:55.25,0:27:56.13,Default,,0,0,0,,Thật sao?
+Dialogue: 0,0:27:57.42,0:28:00.38,Default,,0,0,0,,Mẫu hậu! Phụ hoàng!
+Dialogue: 0,0:28:03.25,0:28:05.42,Default,,0,0,0,,Mẫu hậu bình thường lại rồi!
+Dialogue: 0,0:28:06.00,0:28:07.04,Default,,0,0,0,,Vậy thì tốt quá.
+Dialogue: 0,0:28:08.71,0:28:09.71,Default,,0,0,0,,Không…
+Dialogue: 0,0:28:10.75,0:28:12.67,Default,,0,0,0,,Không thể nào…
+Dialogue: 0,0:28:18.79,0:28:19.62,Default,,0,0,0,,Hả?
+Dialogue: 0,0:28:20.83,0:28:25.66,Default,,0,0,0,,Nhưng nếu họ không xuất hiện,\Nchuyện gì sẽ xảy ra với chúng ta?
+Dialogue: 0,0:28:26.29,0:28:29.25,Default,,0,0,0,,Ít nhất chúng ta cũng được thấy\NPhản Đòn Toàn Phần thật sự.
+Dialogue: 0,0:28:30.25,0:28:31.46,Default,,0,0,0,,Ấn tượng thật đấy.
+Dialogue: 0,0:28:31.54,0:28:32.67,Default,,0,0,0,,Gì chứ?
+Dialogue: 0,0:28:32.75,0:28:35.25,Default,,0,0,0,,Mạnh hơn "Phản Đòn Toàn Phần"\Ncủa ta chứ gì?
+Dialogue: 0,0:28:39.17,0:28:40.71,Default,,0,0,0,,Này, Lancelot…
+Dialogue: 0,0:28:41.54,0:28:43.37,Default,,0,0,0,,Sao lúc nãy cậu lại nói thế?
+Dialogue: 0,0:28:44.13,0:28:46.34,Default,,0,0,0,,Vì nếu không, cậu đã đứng đó cả ngày
+Dialogue: 0,0:28:46.42,0:28:48.09,Default,,0,0,0,,và không làm gì cả.
+Dialogue: 0,0:28:48.79,0:28:51.29,Default,,0,0,0,,Nhưng ta có thể mất kiểm soát\Nvà làm cậu bị thương,
+Dialogue: 0,0:28:51.96,0:28:55.38,Default,,0,0,0,,như hồi hai ta còn nhỏ.
+Dialogue: 0,0:28:57.67,0:28:59.67,Default,,0,0,0,,Hoặc tệ hơn.
+Dialogue: 0,0:29:01.71,0:29:04.25,Default,,0,0,0,,Cậu đúng là phiền phức, cậu biết chứ?
+Dialogue: 0,0:29:04.33,0:29:05.66,Default,,0,0,0,,Hả? Tại sao?
+Dialogue: 0,0:29:05.75,0:29:07.63,Default,,0,0,0,,Ta chỉ nghĩ cho cậu thôi mà!
+Dialogue: 0,0:29:08.29,0:29:09.17,Default,,0,0,0,,Lại nữa rồi.
+Dialogue: 0,0:29:13.13,0:29:14.34,Default,,0,0,0,,Hắn muốn chạy trốn kìa!
+Dialogue: 0,0:29:14.42,0:29:17.34,Default,,0,0,0,,Mất mặt quá. Thấy nguy hiểm là chạy ngay.
+Dialogue: 0,0:29:17.42,0:29:18.34,Default,,0,0,0,,Chướng mắt ghê.
+Dialogue: 0,0:29:18.92,0:29:20.71,Default,,0,0,0,,- Đứng lại!\N- Này!
+Dialogue: 0,0:29:24.29,0:29:26.87,Default,,0,0,0,,Escanor! Không sao đâu!\NTa hứa sẽ quay lại ngay!
+Dialogue: 0,0:29:35.46,0:29:37.34,Default,,0,0,0,,Mình đang ở đâu đây?
+Dialogue: 0,0:29:40.04,0:29:42.29,Default,,0,0,0,,Một nơi chúng ta không biết.
+Dialogue: 0,0:29:42.38,0:29:44.26,Default,,0,0,0,,Còn không chắc có phải Britannia không.
+Dialogue: 0,0:29:44.83,0:29:46.00,Default,,0,0,0,,Lancelot?
+Dialogue: 0,0:29:47.38,0:29:49.59,Default,,0,0,0,,Đuổi theo tên bại trận đó có ích gì chứ?
+Dialogue: 0,0:29:50.13,0:29:52.01,Default,,0,0,0,,Hôm nay ta đã thắng rồi.
+Dialogue: 0,0:29:52.08,0:29:53.33,Default,,0,0,0,,Thế chưa đủ!
+Dialogue: 0,0:29:53.88,0:29:58.01,Default,,0,0,0,,Chúng ta phải bắt hắn thề\Nkhông bao giờ làm chuyện thế này nữa!
+Dialogue: 0,0:30:05.58,0:30:06.66,Default,,0,0,0,,Tristan!
+Dialogue: 0,0:30:06.75,0:30:09.42,Default,,0,0,0,,Có dấu hiệu chiến đấu ở khắp nơi.
+Dialogue: 0,0:30:09.50,0:30:10.83,Default,,0,0,0,,Có chuyện gì xảy ra vậy chứ?
+Dialogue: 0,0:30:13.08,0:30:16.21,Default,,0,0,0,,Escanor! Mi cũng ở đây à?
+Dialogue: 0,0:30:16.29,0:30:18.04,Default,,0,0,0,,Escanor?
+Dialogue: 0,0:30:18.13,0:30:19.26,Default,,0,0,0,,Chuyện gì xảy ra vậy?
+Dialogue: 0,0:30:21.63,0:30:23.51,Default,,0,0,0,,Đội trưởng! Nó nói được sao?
+Dialogue: 0,0:30:23.58,0:30:25.62,Default,,0,0,0,,Tristan đi đâu rồi?
+Dialogue: 0,0:30:28.21,0:30:30.21,Default,,0,0,0,,Ta không hiểu mi đang nói cái quái gì cả.
+Dialogue: 0,0:30:31.83,0:30:32.87,Default,,0,0,0,,Gì cơ?
+Dialogue: 0,0:30:34.75,0:30:37.29,Default,,0,0,0,,Tristan đuổi theo một gã có râu
+Dialogue: 0,0:30:37.38,0:30:39.51,Default,,0,0,0,,và biến mất vào đám sương mù à?
+Dialogue: 0,0:30:41.58,0:30:45.75,Default,,0,0,0,,Nó nói Tristan đang ở cùng\Nmột cậu bé khác, cũng tầm tuổi đó.
+Dialogue: 0,0:30:45.83,0:30:48.16,Default,,0,0,0,,Chắc nó đuổi theo Deathpierce.
+Dialogue: 0,0:30:48.25,0:30:49.38,Default,,0,0,0,,Deathpierce à?
+Dialogue: 0,0:30:50.17,0:30:54.21,Default,,0,0,0,,Hắn có thù oán sâu đậm với các tộc khác.
+Dialogue: 0,0:30:54.29,0:30:57.67,Default,,0,0,0,,Nhìn lại tất cả, có thể cho rằng\Nhắn ta đứng sau mọi chuyện.
+Dialogue: 0,0:30:58.46,0:31:02.38,Default,,0,0,0,,Nhưng cậu bé\Nbằng tuổi Tristan này có thể là ai?
+Dialogue: 0,0:31:03.08,0:31:04.37,Default,,0,0,0,,Con trai tôi.
+Dialogue: 0,0:31:04.46,0:31:05.88,Default,,0,0,0,,Lancelot ư?
+Dialogue: 0,0:31:06.46,0:31:07.46,Default,,0,0,0,,Sao nó lại ở đây?
+Dialogue: 0,0:31:08.96,0:31:11.29,Default,,0,0,0,,Ban, cậu biết gì à?
+Dialogue: 0,0:31:11.38,0:31:13.88,Default,,0,0,0,,Tôi cũng có cuộc sống của mình mà.
+Dialogue: 0,0:31:13.96,0:31:15.79,Default,,0,0,0,,Có thể cho rằng sương mù này
+Dialogue: 0,0:31:15.88,0:31:19.63,Default,,0,0,0,,là vết nứt do ma pháp gây ra\Ndẫn đến một chiều không gian khác.
+Dialogue: 0,0:31:27.13,0:31:29.38,Default,,0,0,0,,Ngươi là kẻ đã nguyền rủa ta!
+Dialogue: 0,0:31:33.04,0:31:34.21,Default,,0,0,0,,Elizabeth!
+Dialogue: 0,0:31:35.21,0:31:37.09,Default,,0,0,0,,Nhiệm vụ thiêng liêng của ta
+Dialogue: 0,0:31:37.17,0:31:40.25,Default,,0,0,0,,là tiêu diệt Nữ Thần Elizabeth!
+Dialogue: 0,0:31:49.71,0:31:52.09,Default,,0,0,0,,Cái quái gì vậy?
+Dialogue: 0,0:31:52.17,0:31:54.05,Default,,0,0,0,,Có thể lúc ấy ta chìm vào giấc ngủ,
+Dialogue: 0,0:31:54.13,0:31:56.42,Default,,0,0,0,,nhưng khá khen\Nvì ngươi đã khiến ta mất cảnh giác.
+Dialogue: 0,0:31:56.96,0:31:58.96,Default,,0,0,0,,Nhưng ta sẽ không bị lừa lần hai đâu.
+Dialogue: 0,0:32:00.21,0:32:04.25,Default,,0,0,0,,Nhất là sau khi con trai ta\Nđã vượt qua nguy hiểm để cứu ta!
+Dialogue: 0,0:32:09.29,0:32:10.50,Default,,0,0,0,,Thắp sáng lên nào.
+Dialogue: 0,0:32:20.50,0:32:22.50,Default,,0,0,0,,Hắn biến thành một đám Quỷ rồi!
+Dialogue: 0,0:32:23.50,0:32:24.50,Default,,0,0,0,,Có chuyện gì vậy?
+Dialogue: 0,0:32:27.21,0:32:29.96,Default,,0,0,0,,Bình tĩnh nào!\NBọn ta không muốn làm hại các ngươi.
+Dialogue: 0,0:32:32.50,0:32:34.54,Default,,0,0,0,,Thánh Chiến giờ đã kết thúc rồi.
+Dialogue: 0,0:32:34.63,0:32:35.80,Default,,0,0,0,,Đúng vậy.
+Dialogue: 0,0:32:35.88,0:32:39.92,Default,,0,0,0,,Các ngươi có thể có cuộc sống yên bình,\Nvà cả năm tộc chung sống hòa thuận.
+Dialogue: 0,0:32:43.00,0:32:43.92,Default,,0,0,0,,Cái gì?
+Dialogue: 0,0:32:50.96,0:32:51.88,Default,,0,0,0,,Họ đi rồi.
+Dialogue: 0,0:32:52.71,0:32:53.92,Default,,0,0,0,,Này, Đội trưởng.
+Dialogue: 0,0:32:54.00,0:32:55.88,Default,,0,0,0,,Họ vừa nói gì vậy?
+Dialogue: 0,0:32:57.21,0:32:59.54,Default,,0,0,0,,Họ không thể giảng hòa với con người.
+Dialogue: 0,0:32:59.63,0:33:03.80,Default,,0,0,0,,Là con người đã bắt giữ tộc Quỷ,\NNgười Khổng Lồ và Yêu Tinh,
+Dialogue: 0,0:33:03.88,0:33:05.80,Default,,0,0,0,,biến họ thành thứ quái vật mà ta vừa thấy.
+Dialogue: 0,0:33:06.33,0:33:07.33,Default,,0,0,0,,Cũng là sức mạnh đó…
+Dialogue: 0,0:33:08.21,0:33:09.75,Default,,0,0,0,,Cũng sức mạnh đó?
+Dialogue: 0,0:33:09.83,0:33:11.62,Default,,0,0,0,,Cô đang nói gì vậy?
+Dialogue: 0,0:33:12.38,0:33:15.92,Default,,0,0,0,,Tristan và Lancelot\Nvướng vào chuyện gì thế không biết?
+Dialogue: 0,0:33:19.25,0:33:21.46,Default,,0,0,0,,Ta không thể bỏ qua cho những lời đó!
+Dialogue: 0,0:33:27.96,0:33:33.71,Default,,0,0,0,,Ý ngươi nói mình là lẽ phải,\Ncòn ta thì là độc ác à?
+Dialogue: 0,0:33:35.08,0:33:38.66,Default,,0,0,0,,Hắn chỉ cần trốn đi là được.\NChắc cậu chọc giận hắn quá rồi.
+Dialogue: 0,0:33:39.46,0:33:40.75,Default,,0,0,0,,Ta không nói thế!
+Dialogue: 0,0:33:41.25,0:33:44.38,Default,,0,0,0,,Nhưng việc ngươi căm ghét tộc khác\Nvì lý do ích kỷ của riêng mình
+Dialogue: 0,0:33:44.46,0:33:45.50,Default,,0,0,0,,là sai trái!
+Dialogue: 0,0:33:48.79,0:33:51.87,Default,,0,0,0,,Vậy lẽ ra ta nên\Nchấp nhận cái chết của Denzel
+Dialogue: 0,0:33:51.96,0:33:53.79,Default,,0,0,0,,và phớt lờ nó, phải không?
+Dialogue: 0,0:33:53.88,0:33:59.21,Default,,0,0,0,,Và chấp nhận sự thật là tình cảm\Ndành cho Denzel đã bị lợi dụng sao?
+Dialogue: 0,0:34:03.13,0:34:05.63,Default,,0,0,0,,Ta thấy hắn lạ lắm.
+Dialogue: 0,0:34:05.71,0:34:06.54,Default,,0,0,0,,Ừ.
+Dialogue: 0,0:34:06.63,0:34:09.88,Default,,0,0,0,,Ta sẽ không bao giờ từ bỏ…
+Dialogue: 0,0:34:09.96,0:34:11.54,Default,,0,0,0,,mối hận thù này!
+Dialogue: 0,0:34:14.50,0:34:17.21,Default,,0,0,0,,Cảm giác kỳ lạ này không phải từ hắn!
+Dialogue: 0,0:34:17.29,0:34:18.29,Default,,0,0,0,,Quyền trượng?
+Dialogue: 0,0:34:19.25,0:34:21.67,Default,,0,0,0,,Báo thù…
+Dialogue: 0,0:34:25.25,0:34:29.38,Default,,0,0,0,,Ta phải báo thù!
+Dialogue: 0,0:34:39.54,0:34:41.12,Default,,0,0,0,,Chuyện này là thật sao?
+Dialogue: 0,0:34:41.21,0:34:43.17,Default,,0,0,0,,Hay mình đang gặp ác mộng?
+Dialogue: 0,0:34:46.96,0:34:50.09,Default,,0,0,0,,Là thật hay ác mộng\Nthì bây giờ chỉ có giết hoặc bị giết thôi!
+Dialogue: 0,0:34:50.58,0:34:51.41,Default,,0,0,0,,Ừ!
+Dialogue: 0,0:35:03.08,0:35:04.41,Default,,0,0,0,,Đừng chỉ đứng đó chứ!
+Dialogue: 0,0:35:25.75,0:35:26.92,Default,,0,0,0,,Đồ ngốc!
+Dialogue: 0,0:35:27.00,0:35:29.42,Default,,0,0,0,,Ta nói rồi, phải cố hết sức chứ!
+Dialogue: 0,0:35:29.50,0:35:30.33,Default,,0,0,0,,Nhưng mà…
+Dialogue: 0,0:35:32.08,0:35:32.91,Default,,0,0,0,,Xem đây!
+Dialogue: 0,0:35:39.96,0:35:40.88,Default,,0,0,0,,Lợi hại quá!
+Dialogue: 0,0:35:51.50,0:35:52.33,Default,,0,0,0,,Nhận lấy này!
+Dialogue: 0,0:35:59.38,0:36:00.21,Default,,0,0,0,,Đi theo ta!
+Dialogue: 0,0:36:02.08,0:36:03.04,Default,,0,0,0,,Cậu làm gì vậy?
+Dialogue: 0,0:36:03.13,0:36:04.01,Default,,0,0,0,,Đi đến vách núi đó!
+Dialogue: 0,0:36:21.50,0:36:23.08,Default,,0,0,0,,Có thể câu giờ giúp ta không?
+Dialogue: 0,0:36:54.38,0:36:56.55,Default,,0,0,0,,Sao Băng!
+Dialogue: 0,0:37:00.63,0:37:02.55,Default,,0,0,0,,Nhận lấy này!
+Dialogue: 0,0:37:13.25,0:37:14.08,Default,,0,0,0,,Hạ được hắn chưa?
+Dialogue: 0,0:37:19.00,0:37:20.42,Default,,0,0,0,,Chết tiệt! Chưa được nữa!
+Dialogue: 0,0:37:20.50,0:37:21.46,Default,,0,0,0,,Đã nói bao nhiêu lần rồi!
+Dialogue: 0,0:37:21.54,0:37:24.21,Default,,0,0,0,,Ta không thể hạ hắn\Ncho đến khi cậu thực sự thả lỏng.
+Dialogue: 0,0:37:42.54,0:37:43.71,Default,,0,0,0,,Lancelot.
+Dialogue: 0,0:37:48.42,0:37:50.96,Default,,0,0,0,,Lancelot.
+Dialogue: 0,0:37:59.17,0:38:00.13,Default,,0,0,0,,Không thể nào…
+Dialogue: 0,0:38:00.63,0:38:01.55,Default,,0,0,0,,Tristan!
+Dialogue: 0,0:38:02.25,0:38:03.79,Default,,0,0,0,,Chuyện gì vậy, Elizabeth?
+Dialogue: 0,0:38:05.13,0:38:06.84,Default,,0,0,0,,Anh đã bảo em đừng lo mà.
+Dialogue: 0,0:38:06.92,0:38:08.67,Default,,0,0,0,,Nó là con trai chúng ta mà, em nhớ chứ?
+Dialogue: 0,0:38:08.75,0:38:09.71,Default,,0,0,0,,Nhưng mà…
+Dialogue: 0,0:38:10.29,0:38:12.75,Default,,0,0,0,,Nó đi cùng Lancelot nữa,\Nnên ta có thể yên tâm.
+Dialogue: 0,0:38:13.29,0:38:14.17,Default,,0,0,0,,Phải không, Ban?
+Dialogue: 0,0:38:15.00,0:38:16.75,Default,,0,0,0,,Ừ, chắc vậy.
+Dialogue: 0,0:38:16.83,0:38:20.00,Default,,0,0,0,,Chắc vậy? Nó là con trai cậu mà.
+Dialogue: 0,0:38:20.08,0:38:24.04,Default,,0,0,0,,Thằng bé luôn có vẻ miễn cưỡng chiến đấu.
+Dialogue: 0,0:38:25.04,0:38:25.96,Default,,0,0,0,,Hay đúng hơn là,
+Dialogue: 0,0:38:26.04,0:38:29.37,Default,,0,0,0,,nó sợ dòng máu trong người mình\Nsẽ lấn át và trở nên mất kiểm soát.
+Dialogue: 0,0:38:31.13,0:38:33.26,Default,,0,0,0,,- Máu Quỷ ư?\N- Phải.
+Dialogue: 0,0:38:35.00,0:38:36.08,Default,,0,0,0,,Anh biết chuyện đó.
+Dialogue: 0,0:38:37.29,0:38:41.29,Default,,0,0,0,,Chuyện bắt đầu vào sinh nhật mười tuổi,\Nkhi nó tập luyện với Lancelot,
+Dialogue: 0,0:38:41.88,0:38:43.71,Default,,0,0,0,,{\i1}nó nổi điên, làm cậu bé bị thương?{\i0}
+Dialogue: 0,0:38:46.25,0:38:50.75,Default,,0,0,0,,Anh luôn sẵn sàng ngăn nó lại\Nnếu nó mất kiểm soát, dù anh có phải chết.
+Dialogue: 0,0:38:51.33,0:38:53.16,Default,,0,0,0,,Nhưng trớ trêu là
+Dialogue: 0,0:38:53.79,0:38:56.96,Default,,0,0,0,,anh nghĩ nó chưa từng\Ntin tưởng anh sẽ làm thế.
+Dialogue: 0,0:38:57.96,0:38:59.38,Default,,0,0,0,,Đó không phải điều thằng bé…
+Dialogue: 0,0:38:59.46,0:39:01.13,Default,,0,0,0,,Nếu được cho phép,
+Dialogue: 0,0:39:02.25,0:39:04.04,Default,,0,0,0,,có lẽ tôi có thể đưa ra chút thông tin.
+Dialogue: 0,0:39:05.17,0:39:06.00,Default,,0,0,0,,Gowther…
+Dialogue: 0,0:39:32.17,0:39:33.50,Default,,0,0,0,,Sao da hắn cứng thế?
+Dialogue: 0,0:39:47.83,0:39:48.66,Default,,0,0,0,,{\i1}Giờ sao đây?{\i0}
+Dialogue: 0,0:39:50.58,0:39:51.41,Default,,0,0,0,,{\i1}Làm sao đây?{\i0}
+Dialogue: 0,0:39:53.58,0:39:54.50,Default,,0,0,0,,{\i1}Không có cơ hội.{\i0}
+Dialogue: 0,0:39:55.42,0:39:56.30,Default,,0,0,0,,{\i1}Hắn quá mạnh!{\i0}
+Dialogue: 0,0:40:03.50,0:40:05.67,Default,,0,0,0,,{\i1}Chắc chắn mình sẽ chết ở đây.{\i0}
+Dialogue: 0,0:40:06.92,0:40:07.75,Default,,0,0,0,,{\i1}Vậy mà…{\i0}
+Dialogue: 0,0:40:11.13,0:40:13.71,Default,,0,0,0,,{\i1}Mình có thể cảm thấy\Nmáu trong cơ thể đang sôi sục.{\i0}
+Dialogue: 0,0:40:17.17,0:40:18.25,Default,,0,0,0,,{\i1}Tim mình…{\i0}
+Dialogue: 0,0:40:19.71,0:40:21.46,Default,,0,0,0,,{\i1}Nó đang đập ngày càng mạnh hơn!{\i0}
+Dialogue: 0,0:40:29.08,0:40:30.79,Default,,0,0,0,,{\i1}Lancelot không còn ở đây nữa.{\i0}
+Dialogue: 0,0:40:33.83,0:40:36.75,Default,,0,0,0,,{\i1}Phải… Không có ai ở đây cả.{\i0}
+Dialogue: 0,0:40:37.71,0:40:41.00,Default,,0,0,0,,{\i1}Không có ai ngoài mình\Nvà con quái vật này.{\i0}
+Dialogue: 0,0:40:54.13,0:40:56.01,Default,,0,0,0,,{\i1}Không thể nào! Họ vẫn còn sống!{\i0}
+Dialogue: 0,0:40:56.63,0:40:58.51,Default,,0,0,0,,{\i1}Giờ mình phải làm gì đây?{\i0}
+Dialogue: 0,0:40:59.29,0:41:00.54,Default,,0,0,0,,Thật đáng thất vọng.
+Dialogue: 0,0:41:00.63,0:41:03.05,Default,,0,0,0,,Nãy giờ cậu vẫn đang làm rất tốt mà.
+Dialogue: 0,0:41:04.25,0:41:05.63,Default,,0,0,0,,Họ không phải con người.
+Dialogue: 0,0:41:06.25,0:41:08.88,Default,,0,0,0,,Họ không có ý chí tự do\Nhay sức sống như con người.
+Dialogue: 0,0:41:09.67,0:41:10.63,Default,,0,0,0,,Nói cách khác,
+Dialogue: 0,0:41:10.71,0:41:13.46,Default,,0,0,0,,họ chỉ là cái vỏ rỗng\Ntrong hình hài con người.
+Dialogue: 0,0:41:13.54,0:41:15.87,Default,,0,0,0,,Lancelot. Cậu còn sống!
+Dialogue: 0,0:41:15.96,0:41:19.34,Default,,0,0,0,,Nhìn đi. Hắn đang tận hưởng\Ntiếng thét của họ.
+Dialogue: 0,0:41:22.83,0:41:25.75,Default,,0,0,0,,Đúng là bệnh hoạn và biến thái.
+Dialogue: 0,0:41:28.17,0:41:29.71,Default,,0,0,0,,Nên đừng lo cho họ.
+Dialogue: 0,0:41:30.21,0:41:31.63,Default,,0,0,0,,Mau nghiêm túc đi!
+Dialogue: 0,0:41:32.83,0:41:36.04,Default,,0,0,0,,Sao cậu lại muốn ta làm việc này đến thế?
+Dialogue: 0,0:41:36.54,0:41:40.17,Default,,0,0,0,,Giờ hai ta đã hội ngộ,\Nta muốn bỏ lại quá khứ phía sau.
+Dialogue: 0,0:41:40.67,0:41:42.05,Default,,0,0,0,,Quá khứ?
+Dialogue: 0,0:41:42.13,0:41:45.01,Default,,0,0,0,,Ý cậu là lúc ta gây ra vết sẹo cho cậu hả?
+Dialogue: 0,0:41:45.08,0:41:45.91,Default,,0,0,0,,Đúng rồi đấy.
+Dialogue: 0,0:41:48.54,0:41:50.58,Default,,0,0,0,,Lúc đó ta đã muốn tiếp tục chiến đấu.
+Dialogue: 0,0:41:50.67,0:41:51.50,Default,,0,0,0,,Hả?
+Dialogue: 0,0:41:51.58,0:41:54.33,Default,,0,0,0,,- {\i1}Những người khác đã ngăn lại.{\i0}\N- Mặc kệ ta! Ta không sao.
+Dialogue: 0,0:41:57.13,0:41:59.55,Default,,0,0,0,,Nhưng điều thật sự làm ta tức\Nlà chuyện xảy ra sau đó.
+Dialogue: 0,0:41:59.63,0:42:03.13,Default,,0,0,0,,Khi ta nói muốn đấu thêm một hiệp nữa,\Ncậu đã nói gì với ta?
+Dialogue: 0,0:42:03.63,0:42:06.55,Default,,0,0,0,,Ta không muốn làm cậu bị thương!
+Dialogue: 0,0:42:08.50,0:42:12.25,Default,,0,0,0,,Cậu rõ ràng có ý bảo ta\Nquên việc đó đi vì ta không đánh lại cậu!
+Dialogue: 0,0:42:12.33,0:42:14.50,Default,,0,0,0,,Ý ta không phải thế…
+Dialogue: 0,0:42:14.58,0:42:15.41,Default,,0,0,0,,Im đi.
+Dialogue: 0,0:42:15.50,0:42:18.17,Default,,0,0,0,,Xin lỗi, nhưng ta không có ý định thua.
+Dialogue: 0,0:42:19.00,0:42:20.00,Default,,0,0,0,,Lúc đó không có.
+Dialogue: 0,0:42:20.83,0:42:21.79,Default,,0,0,0,,Bây giờ cũng không!
+Dialogue: 0,0:42:22.83,0:42:24.46,Default,,0,0,0,,Cậu không muốn ta đuổi kịp cậu à?
+Dialogue: 0,0:42:26.08,0:42:28.41,Default,,0,0,0,,Đừng có khinh thường ta như thế!
+Dialogue: 0,0:42:35.42,0:42:36.75,Default,,0,0,0,,Ta rất nghiêm túc đấy.
+Dialogue: 0,0:42:37.92,0:42:42.05,Default,,0,0,0,,Ta không quan tâm cậu nguy hiểm thế nào.
+Dialogue: 0,0:42:46.13,0:42:48.38,Default,,0,0,0,,Vì nếu cần, ta sẽ nghiền nát cậu!
+Dialogue: 0,0:42:50.25,0:42:52.17,Default,,0,0,0,,Dốc hết sức đi!
+Dialogue: 0,0:42:52.88,0:42:54.21,Default,,0,0,0,,Hy vọng cậu không hối hận.
+Dialogue: 0,0:42:56.75,0:42:59.71,Default,,0,0,0,,{\i1}Ta tin cậu, Lancelot.{\i0}
+Dialogue: 0,0:44:33.38,0:44:36.09,Default,,0,0,0,,{\i1}Ta tin cậu, Lancelot.{\i0}
+Dialogue: 0,0:44:37.54,0:44:38.37,Default,,0,0,0,,{\i1}Ta biết.{\i0}
+Dialogue: 0,0:44:41.83,0:44:45.54,Default,,0,0,0,,Tristan cần người kiểm soát được\Nkhía cạnh khác của bản thân
+Dialogue: 0,0:44:45.63,0:44:47.63,Default,,0,0,0,,mà ngài ấy không thể.
+Dialogue: 0,0:44:49.13,0:44:51.80,Default,,0,0,0,,- Cũng có lý, nhưng…\N- Phải.
+Dialogue: 0,0:44:52.79,0:44:54.42,Default,,0,0,0,,Đội trưởng không làm được sao?
+Dialogue: 0,0:44:55.08,0:44:56.66,Default,,0,0,0,,Cuối cùng, sẽ đến ngày
+Dialogue: 0,0:44:56.75,0:44:58.67,Default,,0,0,0,,chú chim non cũng phải bay khỏi tổ.
+Dialogue: 0,0:45:01.04,0:45:03.96,Default,,0,0,0,,{\i1}Tristan không thể làm trẻ con mãi được.{\i0}
+Dialogue: 0,0:45:05.13,0:45:07.42,Default,,0,0,0,,Và cậu ấy biết rõ điều đó\Ntheo cách riêng của mình.
+Dialogue: 0,0:45:10.04,0:45:12.67,Default,,0,0,0,,{\i1}Điều Tristan cần lúc này{\i0}
+Dialogue: 0,0:45:13.21,0:45:17.09,Default,,0,0,0,,{\i1}là như Ban đối với đội trưởng của mình,\Nvà những người bạn như anh đang có.{\i0}
+Dialogue: 0,0:46:13.71,0:46:15.13,Default,,0,0,0,,Nguyệt Đạo.
+Dialogue: 0,0:46:18.33,0:46:22.96,Default,,0,0,0,,NGUYỆT ĐẠO
+Dialogue: 0,0:46:54.83,0:46:56.58,Default,,0,0,0,,Cậu đúng là một tên kỳ lạ…
+Dialogue: 0,0:46:57.71,0:47:00.09,Default,,0,0,0,,Ngất xỉu rồi mà còn mỉm cười.
+Dialogue: 0,0:47:12.63,0:47:15.96,Default,,0,0,0,,Có vẻ thứ đó là chìa khóa\Ngây ra tất cả chuyện này.
+Dialogue: 0,0:47:26.67,0:47:30.67,Default,,0,0,0,,Trên đời này không nên có\Ntộc nào khác ngoài con người.
+Dialogue: 0,0:47:31.42,0:47:34.84,Default,,0,0,0,,Chúng cướp đi người ta yêu quý,\Ncướp đi lòng tự trọng của ta.
+Dialogue: 0,0:47:34.92,0:47:38.84,Default,,0,0,0,,Vì thế, ta không thể tha thứ cho chúng!
+Dialogue: 0,0:47:41.88,0:47:44.17,Default,,0,0,0,,Ta hiểu cảm giác của ngươi.
+Dialogue: 0,0:47:45.17,0:47:46.75,Default,,0,0,0,,Ta cũng vậy.
+Dialogue: 0,0:47:46.83,0:47:48.12,Default,,0,0,0,,Ngươi…
+Dialogue: 0,0:47:48.83,0:47:50.79,Default,,0,0,0,,Chúng ta có cùng lý tưởng.
+Dialogue: 0,0:47:51.38,0:47:53.55,Default,,0,0,0,,Vì vậy, là những người đi chung đường,
+Dialogue: 0,0:47:54.58,0:47:56.29,Default,,0,0,0,,ta trao cho ngươi món quà này.
+Dialogue: 0,0:47:58.92,0:48:03.92,Default,,0,0,0,,Mảnh Hỗn Mang này có sức mạnh\Nthực hiện mọi điều ước của ngươi.
+Dialogue: 0,0:48:06.04,0:48:08.58,Default,,0,0,0,,Tuyệt diệu quá!
+Dialogue: 0,0:48:09.17,0:48:10.59,Default,,0,0,0,,Không biết cảm tạ ngài thế nào đây,
+Dialogue: 0,0:48:10.67,0:48:11.88,Default,,0,0,0,,Vua Arthur!
+Dialogue: 0,0:48:16.88,0:48:18.42,Default,,0,0,0,,Vậy là đủ ba rồi.
+Dialogue: 0,0:48:26.63,0:48:27.55,Default,,0,0,0,,- Tristan.\N- Tristan.
+Dialogue: 0,0:48:31.54,0:48:33.12,Default,,0,0,0,,Hình như nó ngủ rồi.
+Dialogue: 0,0:48:33.21,0:48:34.25,Default,,0,0,0,,Cái thằng nhóc này…
+Dialogue: 0,0:48:34.88,0:48:36.09,Default,,0,0,0,,Tốt quá rồi!
+Dialogue: 0,0:48:36.17,0:48:37.71,Default,,0,0,0,,Chuyện gì đã xảy ra vậy?
+Dialogue: 0,0:48:43.21,0:48:44.46,Default,,0,0,0,,Deathpierce.
+Dialogue: 0,0:48:45.17,0:48:47.92,Default,,0,0,0,,Vậy ra hắn là thủ phạm.
+Dialogue: 0,0:48:54.54,0:48:56.04,Default,,0,0,0,,Mẫu hậu? Con đang ở đâu vậy?
+Dialogue: 0,0:48:58.29,0:49:00.12,Default,,0,0,0,,Tristan tỉnh lại rồi!
+Dialogue: 0,0:49:00.92,0:49:02.25,Default,,0,0,0,,Khoan đã! Mẫu hậu!
+Dialogue: 0,0:49:05.21,0:49:06.38,Default,,0,0,0,,Phụ hoàng!
+Dialogue: 0,0:49:08.75,0:49:11.04,Default,,0,0,0,,Phụ hoàng, con xin lỗi…
+Dialogue: 0,0:49:16.33,0:49:18.21,Default,,0,0,0,,Giỏi lắm, Tristan.
+Dialogue: 0,0:49:21.92,0:49:23.34,Default,,0,0,0,,Phụ hoàng!
+Dialogue: 0,0:49:31.13,0:49:32.63,Default,,0,0,0,,Quần áo ngài tả tơi quá.
+Dialogue: 0,0:49:33.71,0:49:34.54,Default,,0,0,0,,Cảm ơn.
+Dialogue: 0,0:49:35.21,0:49:37.67,Default,,0,0,0,,Ơ? Lancelot đâu?
+Dialogue: 0,0:49:43.75,0:49:45.71,Default,,0,0,0,,Lancelot!
+Dialogue: 0,0:49:50.92,0:49:52.21,Default,,0,0,0,,{\i1}Nhờ cô{\i0}
+Dialogue: 0,0:49:53.58,0:49:56.04,Default,,0,0,0,,{\i1}chăm sóc Lance chu đáo nhé, Jericho?{\i0}
+Dialogue: 0,0:49:59.75,0:50:02.21,Default,,0,0,0,,Lại một hành trình trông trẻ nữa à?
+Dialogue: 0,0:50:09.00,0:50:10.04,Default,,0,0,0,,Thật là.
+Dialogue: 0,0:50:10.13,0:50:11.88,Default,,0,0,0,,Hai cha con chả có tiến bộ gì cả.
+Dialogue: 0,0:53:08.04,0:53:11.92,Default,,0,0,0,,Biên dịch: Huỳnh Minh Tâm

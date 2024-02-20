@@ -1,0 +1,699 @@
+[Script Info]
+; This is an Advanced Sub Station Alpha v4+ script.
+Title:
+ScriptType: v4.00+
+PlayDepth: 0
+ScaledBorderAndShadow: Yes
+PlayResX: 1920
+PlayResY: 1080
+
+[V4+ Styles]
+Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
+Style: Default,Noto Sans,80.0,&H00FFFFFF,&H000000FF,&H00002208,&H00000000,-1,0,0,0,100,100,0,0,1,3.0,2.0,2,0,0,65,1
+
+[Events]
+Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
+Dialogue: 0,0:00:21.73,0:00:22.85,Default,,0,0,0,,Tao đã nói rồi.
+Dialogue: 0,0:00:22.94,0:00:24.77,Default,,0,0,0,,Mày không thể nào thắng tao đâu.
+Dialogue: 0,0:00:25.15,0:00:26.06,Default,,0,0,0,,Cũng phải,
+Dialogue: 0,0:00:26.15,0:00:29.28,Default,,0,0,0,,làm sao mày tưởng tượng được\Nbản thân sẽ thành ra thế này?
+Dialogue: 0,0:00:32.82,0:00:33.95,Default,,0,0,0,,Tao đã từng.
+Dialogue: 0,0:00:37.53,0:00:38.62,Default,,0,0,0,,Đã từng à?
+Dialogue: 0,0:00:39.37,0:00:40.87,Default,,0,0,0,,Tao nhớ rõ...
+Dialogue: 0,0:00:44.67,0:00:46.00,Default,,0,0,0,,Bo-ri.
+Dialogue: 0,0:00:46.75,0:00:47.84,Default,,0,0,0,,Bo-ri?
+Dialogue: 0,0:00:49.46,0:00:50.92,Default,,0,0,0,,Qua ký ức
+Dialogue: 0,0:00:53.17,0:00:55.51,Default,,0,0,0,,của Park Jin-tae, người mà mày đã giết.
+Dialogue: 0,0:01:05.35,0:01:07.48,Default,,0,0,0,,Sao mày biết tao là người\Nđã giết Park Jin-tae?
+Dialogue: 0,0:01:10.61,0:01:11.65,Default,,0,0,0,,Bởi vì...
+Dialogue: 0,0:01:15.36,0:01:16.53,Default,,0,0,0,,tao đã từng là Park Jin-tae,
+Dialogue: 0,0:01:18.32,0:01:20.08,Default,,0,0,0,,em trai mày.
+Dialogue: 0,0:02:01.81,0:02:05.20,Default,,0,0,0,,TRÒ CHƠI TỬ THẦN
+Dialogue: 0,0:02:05.20,0:02:08.21,Default,,0,0,0,,KÝ ỨC
+Dialogue: 0,0:02:05.21,0:02:08.22,Default,,0,0,0,,{\an8}TẬP 6
+Dialogue: 0,0:02:22.47,0:02:23.51,Default,,0,0,0,,Anh...
+Dialogue: 0,0:02:24.06,0:02:25.93,Default,,0,0,0,,cố tình để mình bị giết sao?
+Dialogue: 0,0:02:43.33,0:02:44.91,Default,,0,0,0,,Tiếp tục thôi.
+Dialogue: 0,0:02:44.99,0:02:47.08,Default,,0,0,0,,Để người tiếp theo trả thù à?
+Dialogue: 0,0:02:47.16,0:02:49.42,Default,,0,0,0,,Mẹ tôi đã từng nói:
+Dialogue: 0,0:02:50.50,0:02:53.04,Default,,0,0,0,,"Tội ác của người nào\Nrồi cũng sẽ trở lại với người đó,
+Dialogue: 0,0:02:53.13,0:02:54.59,Default,,0,0,0,,vậy nên từng bao giờ gây tội."
+Dialogue: 0,0:02:57.46,0:02:58.51,Default,,0,0,0,,Tuy nhiên,
+Dialogue: 0,0:02:59.47,0:03:01.34,Default,,0,0,0,,tội ác của những kẻ lắm tiền
+Dialogue: 0,0:03:02.55,0:03:04.31,Default,,0,0,0,,chưa bao giờ biết tìm về\Nchủ nhân của nó.
+Dialogue: 0,0:03:04.72,0:03:07.60,Default,,0,0,0,,Tôi sẽ khiến Park Tae-u phải trả giá.
+Dialogue: 0,0:03:07.68,0:03:09.56,Default,,0,0,0,,Kẻ bị trừng phạt lại muốn\Ntrừng phạt người khác.
+Dialogue: 0,0:03:10.14,0:03:12.48,Default,,0,0,0,,Điều đó chỉ khiến anh trả giá đắt hơn thôi.
+Dialogue: 0,0:03:12.56,0:03:14.86,Default,,0,0,0,,Tôi sẽ làm chuyện mà\Nthần thánh không chịu làm.
+Dialogue: 0,0:03:16.11,0:03:19.45,Default,,0,0,0,,Tôi sẽ cho cô thấy, tôi sẽ chiến thắng\Ntrong trò chơi cô tạo ra.
+Dialogue: 0,0:03:19.53,0:03:21.11,Default,,0,0,0,,Khi nào anh mới nhận ra
+Dialogue: 0,0:03:22.74,0:03:23.74,Default,,0,0,0,,rằng cái chết
+Dialogue: 0,0:03:24.16,0:03:25.78,Default,,0,0,0,,không thể nào lên kế hoạch trước?
+Dialogue: 0,0:03:38.17,0:03:39.09,Default,,0,0,0,,{\i1}Gì vậy?{\i0}
+Dialogue: 0,0:03:39.17,0:03:40.34,Default,,0,0,0,,{\i1}Sao mình lại chạy?{\i0}
+Dialogue: 0,0:03:41.05,0:03:42.64,Default,,0,0,0,,{\i1}Mình đang đuổi theo người đó sao?{\i0}
+Dialogue: 0,0:03:46.68,0:03:49.02,Default,,0,0,0,,Đừng đuổi theo nữa, thằng cớm kia!
+Dialogue: 0,0:03:50.81,0:03:52.14,Default,,0,0,0,,Cái gì? Cớm?
+Dialogue: 0,0:03:54.36,0:03:55.73,Default,,0,0,0,,Vậy mình là cảnh sát sao?
+Dialogue: 0,0:03:58.11,0:03:59.19,Default,,0,0,0,,Tốt quá.
+Dialogue: 0,0:03:59.86,0:04:00.86,Default,,0,0,0,,Gì cơ?
+Dialogue: 0,0:04:02.86,0:04:04.11,Default,,0,0,0,,Tao sẽ giết mày.
+Dialogue: 0,0:04:05.07,0:04:06.12,Default,,0,0,0,,Đợi đã.
+Dialogue: 0,0:04:07.16,0:04:09.45,Default,,0,0,0,,Đợi đã.
+Dialogue: 0,0:04:09.54,0:04:10.91,Default,,0,0,0,,Chết đi!
+Dialogue: 0,0:04:11.00,0:04:12.00,Default,,0,0,0,,Tránh đường!
+Dialogue: 0,0:04:22.42,0:04:23.47,Default,,0,0,0,,Tiền bối.
+Dialogue: 0,0:04:23.55,0:04:25.01,Default,,0,0,0,,Lúc nãy anh chạy trốn sao?
+Dialogue: 0,0:04:25.39,0:04:26.93,Default,,0,0,0,,À, cái đó...
+Dialogue: 0,0:04:27.01,0:04:29.97,Default,,0,0,0,,Tôi không mong anh sẽ hy sinh vì đồng đội.
+Dialogue: 0,0:04:30.06,0:04:32.64,Default,,0,0,0,,Nhưng đừng làm người khác\Nmất mặt như thế.
+Dialogue: 0,0:04:33.64,0:04:34.65,Default,,0,0,0,,Được không?
+Dialogue: 0,0:04:47.12,0:04:48.33,Default,,0,0,0,,{\i1}Tên tôi là An Ji-hyeong.{\i0}
+Dialogue: 0,0:04:48.41,0:04:49.49,Default,,0,0,0,,{\i1}42 tuổi.{\i0}
+Dialogue: 0,0:04:49.99,0:04:50.99,Default,,0,0,0,,{\an8}NHÀ TANG LỄ SỞ CẢNH SÁT
+Dialogue: 0,0:04:51.04,0:04:52.62,Default,,0,0,0,,{\i1}Bố tôi là một sĩ quan cảnh sát,{\i0}
+Dialogue: 0,0:04:52.71,0:04:55.62,Default,,0,0,0,,{\i1}đã chết khi đang làm nhiệm vụ\Nbắt tội phạm bạo lực.{\i0}
+Dialogue: 0,0:04:56.08,0:04:58.92,Default,,0,0,0,,{\i1}Tôi muốn trở thành một cảnh sát\Ntuyệt vời như bố.{\i0}
+Dialogue: 0,0:04:59.00,0:05:01.55,Default,,0,0,0,,Mẹ ơi, con thi đỗ rồi!
+Dialogue: 0,0:05:01.63,0:05:03.76,Default,,0,0,0,,Giờ con cũng sẽ trở thành\Ncảnh sát giống như bố.
+Dialogue: 0,0:05:03.84,0:05:04.84,Default,,0,0,0,,Sao cơ?
+Dialogue: 0,0:05:06.68,0:05:08.76,Default,,0,0,0,,- Mẹ ơi!\N- Mẹ tôi sợ tôi sẽ giống như bố
+Dialogue: 0,0:05:08.85,0:05:12.10,Default,,0,0,0,,{\i1}nên đã chết dần chết mòn\Ncùng nỗi lo lắng và sợ hãi.{\i0}
+Dialogue: 0,0:05:12.77,0:05:15.14,Default,,0,0,0,,{\i1}Cuối cùng tôi đã hứa với mẹ.{\i0}
+Dialogue: 0,0:05:15.23,0:05:16.69,Default,,0,0,0,,{\i1}Dù có chuyện gì xảy ra,{\i0}
+Dialogue: 0,0:05:17.44,0:05:19.52,Default,,0,0,0,,{\i1}tôi cũng sẽ bảo vệ bản thân mình trước.{\i0}
+Dialogue: 0,0:05:23.53,0:05:25.70,Default,,0,0,0,,Tên khốn đó luôn sợ hãi\Nvào những thời điểm quan trọng.
+Dialogue: 0,0:05:25.82,0:05:28.78,Default,,0,0,0,,Mỗi khi hành động với hắn\Nthì cứ coi như đội thiếu một người đi.
+Dialogue: 0,0:05:29.28,0:05:31.62,Default,,0,0,0,,{\i1}Để giữ lời hứa với mẹ,{\i0}
+Dialogue: 0,0:05:31.70,0:05:33.95,Default,,0,0,0,,{\i1}tôi đã trở thành một cảnh sát thảm hại{\i0}
+Dialogue: 0,0:05:34.04,0:05:35.79,Default,,0,0,0,,{\i1}bị các đồng nghiệp coi thường.{\i0}
+Dialogue: 0,0:05:36.58,0:05:37.75,Default,,0,0,0,,{\i1}Và không lâu trước đó,{\i0}
+Dialogue: 0,0:05:40.13,0:05:41.67,Default,,0,0,0,,{\i1}mẹ tôi đã qua đời.{\i0}
+Dialogue: 0,0:05:43.17,0:05:44.47,Default,,0,0,0,,{\i1}Thứ còn lại với tôi,{\i0}
+Dialogue: 0,0:05:44.84,0:05:48.32,Default,,0,0,0,,{\i1}là thái độ khinh thường của các đồng nghiệp,\Nnhững người coi tôi là kẻ hèn nhát, ích kỷ.{\i0}
+Dialogue: 0,0:05:50.68,0:05:51.68,Default,,0,0,0,,Này.
+Dialogue: 0,0:05:52.51,0:05:54.48,Default,,0,0,0,,Không muốn mất việc thì đứng yên đó.
+Dialogue: 0,0:05:55.02,0:05:58.98,Default,,0,0,0,,{\i1}Ngay cả chính tôi cũng tin rằng,\Nđó là bản chất thật của tôi.{\i0}
+Dialogue: 0,0:05:59.35,0:06:02.27,Default,,0,0,0,,{\i1}Tôi muộn màng nhận ra rằng\Ntính cách của một người{\i0}
+Dialogue: 0,0:06:02.36,0:06:04.36,Default,,0,0,0,,{\i1}không được quyết định bởi niềm tin\Nmà họ nắm giữ,{\i0}
+Dialogue: 0,0:06:04.44,0:06:07.70,Default,,0,0,0,,{\i1}mà bằng hành động\Ntrong suốt cuộc đời của họ.{\i0}
+Dialogue: 0,0:06:13.12,0:06:15.62,Default,,0,0,0,,Người này thật tột nghiệp.
+Dialogue: 0,0:06:17.96,0:06:19.63,Default,,0,0,0,,Đó là lý do tại sao đàn em
+Dialogue: 0,0:06:20.42,0:06:21.84,Default,,0,0,0,,mới coi thường anh ta đến vậy.
+Dialogue: 0,0:06:29.01,0:06:30.22,Default,,0,0,0,,Trả tiền cho tao!
+Dialogue: 0,0:06:30.84,0:06:31.76,Default,,0,0,0,,Tiền của tao...
+Dialogue: 0,0:06:31.85,0:06:32.93,Default,,0,0,0,,Tiền của tao!
+Dialogue: 0,0:06:34.26,0:06:36.73,Default,,0,0,0,,Họ bảo sẽ cho tao 100 triệu nếu giết mày.
+Dialogue: 0,0:06:36.81,0:06:38.81,Default,,0,0,0,,Chết đi, tên khốn kiếp.
+Dialogue: 0,0:06:38.89,0:06:40.69,Default,,0,0,0,,Đưa tiền cho tao!
+Dialogue: 0,0:06:40.77,0:06:42.65,Default,,0,0,0,,- Tên khốn đó...\N- Tiền đâu?
+Dialogue: 0,0:06:42.73,0:06:44.90,Default,,0,0,0,,Đưa tao 100 triệu đi, tên khốn nạn!
+Dialogue: 0,0:06:45.69,0:06:46.86,Default,,0,0,0,,Kim Ji-yeong.
+Dialogue: 0,0:06:47.78,0:06:48.99,Default,,0,0,0,,Lâu rồi không gặp.
+Dialogue: 0,0:06:49.49,0:06:50.49,Default,,0,0,0,,Anh là ai?
+Dialogue: 0,0:06:50.57,0:06:52.45,Default,,0,0,0,,Cậu có vẻ thích chơi với dao nhỉ?
+Dialogue: 0,0:06:52.53,0:06:54.79,Default,,0,0,0,,Giờ cậu còn mang nó đi khoe khắp nơi nữa.
+Dialogue: 0,0:06:54.87,0:06:56.08,Default,,0,0,0,,Anh cũng muốn chết à?
+Dialogue: 0,0:06:56.16,0:06:57.25,Default,,0,0,0,,Nói chính xác hơn
+Dialogue: 0,0:06:58.29,0:06:59.87,Default,,0,0,0,,là tôi đã chết dưới tay cậu một lần.
+Dialogue: 0,0:07:00.33,0:07:02.25,Default,,0,0,0,,Thằng điên này nói cái quái gì vậy?
+Dialogue: 0,0:07:02.33,0:07:03.25,Default,,0,0,0,,Mày là ai?
+Dialogue: 0,0:07:03.34,0:07:04.34,Default,,0,0,0,,Tôi hả?
+Dialogue: 0,0:07:06.13,0:07:08.09,Default,,0,0,0,,Dù gương mặt có chút thay đổi
+Dialogue: 0,0:07:09.22,0:07:11.68,Default,,0,0,0,,nhưng tôi là Cho Tae-sang,\Nngười mà cậu đã từng phục tùng.
+Dialogue: 0,0:07:12.93,0:07:13.85,Default,,0,0,0,,Gì cơ?
+Dialogue: 0,0:07:13.93,0:07:15.89,Default,,0,0,0,,Đang nói cái quái quỷ gì vậy?
+Dialogue: 0,0:07:15.97,0:07:18.81,Default,,0,0,0,,Tên khốn đó đã bị tao đâm chết rồi!
+Dialogue: 0,0:07:20.48,0:07:21.48,Default,,0,0,0,,Chà...
+Dialogue: 0,0:07:21.77,0:07:24.06,Default,,0,0,0,,Lời tự thú thật ngầu.
+Dialogue: 0,0:07:27.53,0:07:29.15,Default,,0,0,0,,Chết tiệt... đừng có quay...
+Dialogue: 0,0:07:30.11,0:07:31.95,Default,,0,0,0,,Tao bảo dừng lại!
+Dialogue: 0,0:07:33.16,0:07:35.20,Default,,0,0,0,,Cậu định giết thêm bao nhiêu người
+Dialogue: 0,0:07:35.28,0:07:37.41,Default,,0,0,0,,để lấy được 100 triệu won\Ntừ Park Tae-u đây?
+Dialogue: 0,0:07:38.29,0:07:39.33,Default,,0,0,0,,Tại sao mày...
+Dialogue: 0,0:07:46.63,0:07:48.51,Default,,0,0,0,,Chủ nhân thân xác này chỉ là đang nhịn thôi
+Dialogue: 0,0:07:48.59,0:07:50.42,Default,,0,0,0,,chứ thật ra anh ấy không yếu.
+Dialogue: 0,0:07:53.30,0:07:54.34,Default,,0,0,0,,Đủ rồi.
+Dialogue: 0,0:07:55.68,0:07:56.68,Default,,0,0,0,,Anh không sao chứ?
+Dialogue: 0,0:07:58.43,0:07:59.60,Default,,0,0,0,,Tôi là cảnh sát.
+Dialogue: 0,0:08:00.93,0:08:02.39,Default,,0,0,0,,Chết tiệt.
+Dialogue: 0,0:08:04.81,0:08:06.15,Default,,0,0,0,,Đừng có lườm nữa.
+Dialogue: 0,0:08:07.07,0:08:08.07,Default,,0,0,0,,Đưa hắn đến đồn.
+Dialogue: 0,0:08:10.24,0:08:12.11,Default,,0,0,0,,Ngầu quá! Anh thật tuyệt vời!
+Dialogue: 0,0:08:17.74,0:08:20.16,Default,,0,0,0,,{\an8}KHẮC CHẾ KẺ DÙNG DAO Ở MOKSU-DONG\NBẰNG TAY KHÔNG
+Dialogue: 0,0:08:27.17,0:08:28.21,Default,,0,0,0,,Cái gì đây?
+Dialogue: 0,0:08:28.30,0:08:29.55,Default,,0,0,0,,Tin được không?
+Dialogue: 0,0:08:32.76,0:08:34.97,Default,,0,0,0,,Mấy tên này, việc của mình thì không lo.
+Dialogue: 0,0:08:35.47,0:08:36.60,Default,,0,0,0,,Tụ tập làm cái gì?
+Dialogue: 0,0:08:37.14,0:08:38.56,Default,,0,0,0,,Đội trưởng, anh xem cái này đi.
+Dialogue: 0,0:08:39.31,0:08:40.31,Default,,0,0,0,,Gì vậy?
+Dialogue: 0,0:08:43.60,0:08:45.65,Default,,0,0,0,,Tên đó giống An Ji-hyeong thế.
+Dialogue: 0,0:08:46.40,0:08:48.77,Default,,0,0,0,,Dù rất khó tin nhưng đó\Nđúng là An Ji-hyeong.
+Dialogue: 0,0:08:48.86,0:08:51.19,Default,,0,0,0,,Cậu nghĩ tôi ngốc à?
+Dialogue: 0,0:08:51.28,0:08:53.03,Default,,0,0,0,,Sao người đó có thể là An Ji-hyeong được?
+Dialogue: 0,0:08:53.11,0:08:54.67,Default,,0,0,0,,Đội trưởng, đó là cảnh sát An thật đấy.
+Dialogue: 0,0:08:54.74,0:08:57.28,Default,,0,0,0,,Đang rần rần trên mạng,\Nhọ bảo anh ấy là anh hùng.
+Dialogue: 0,0:08:57.37,0:08:58.37,Default,,0,0,0,,Gì cơ?
+Dialogue: 0,0:08:58.45,0:09:00.33,Default,,0,0,0,,Kìa, anh ấy lại lên thời sự.
+Dialogue: 0,0:09:00.87,0:09:02.47,Default,,0,0,0,,{\an8}CẢNH SÁT CỦA SỞ JUNGBU KHẮC CHẾ TỘI PHẠM
+Dialogue: 0,0:09:03.79,0:09:06.42,Default,,0,0,0,,Kiểm tra xem gần đây\Ntên đó có mua bảo hiểm tính mạng không.
+Dialogue: 0,0:09:06.50,0:09:08.09,Default,,0,0,0,,- Kiểm tra đi.\N- Kiểm tra đi.
+Dialogue: 0,0:09:08.17,0:09:09.17,Default,,0,0,0,,Làm đi.
+Dialogue: 0,0:09:09.88,0:09:10.75,Default,,0,0,0,,{\i1}Vâng.{\i0}
+Dialogue: 0,0:09:10.84,0:09:12.46,Default,,0,0,0,,Mấy tên ăn hại này...
+Dialogue: 0,0:09:14.68,0:09:15.68,Default,,0,0,0,,Nhưng anh ta đâu rồi?
+Dialogue: 0,0:09:20.76,0:09:21.76,Default,,0,0,0,,Vâng.
+Dialogue: 0,0:09:23.77,0:09:26.52,Default,,0,0,0,,Anh ấy bảo là đang đến nhà\Ncủa sát nhân hàng loạt
+Dialogue: 0,0:09:26.60,0:09:27.77,Default,,0,0,0,,nên tôi đang đi cùng.
+Dialogue: 0,0:09:29.56,0:09:30.94,Default,,0,0,0,,Vẫn chưa rõ.
+Dialogue: 0,0:09:31.57,0:09:32.61,Default,,0,0,0,,Vâng.
+Dialogue: 0,0:09:33.03,0:09:34.11,Default,,0,0,0,,{\i1}Park Tae-u.{\i0}
+Dialogue: 0,0:09:34.95,0:09:36.99,Default,,0,0,0,,{\i1}Giờ tao sẽ bắt đầu trả thù.{\i0}
+Dialogue: 0,0:09:49.42,0:09:52.21,Default,,0,0,0,,Giám đốc, tôi đã chuẩn bị xong\Ntài liệu mà anh yêu cầu.
+Dialogue: 0,0:10:10.56,0:10:12.27,Default,,0,0,0,,Hôm nay ăn tối cùng tôi nhé.
+Dialogue: 0,0:10:12.61,0:10:13.61,Default,,0,0,0,,Dạ?
+Dialogue: 0,0:10:17.53,0:10:20.99,Default,,0,0,0,,Gần đây tôi khám phá ra một chỗ hay lắm.
+Dialogue: 0,0:10:24.16,0:10:25.29,Default,,0,0,0,,Chúng ta cùng đi nhé.
+Dialogue: 0,0:10:27.66,0:10:28.66,Default,,0,0,0,,Vâng.
+Dialogue: 0,0:10:29.37,0:10:33.05,Default,,0,0,0,,Tôi rất mong đợi\Nchỗ mà giám đốc sẽ dẫn tôi tới.
+Dialogue: 0,0:10:36.51,0:10:37.97,Default,,0,0,0,,Tôi cũng rất mong đợi.
+Dialogue: 0,0:10:38.72,0:10:40.84,Default,,0,0,0,,Lần đầu tôi tới đó với phụ nữ.
+Dialogue: 0,0:11:01.78,0:11:02.99,Default,,0,0,0,,Đi bằng xe tôi nhé.
+Dialogue: 0,0:11:04.41,0:11:05.41,Default,,0,0,0,,Chuẩn bị đi.
+Dialogue: 0,0:11:06.37,0:11:07.37,Default,,0,0,0,,Vâng.
+Dialogue: 0,0:11:16.51,0:11:18.42,Default,,0,0,0,,Giờ chỗ đó sẽ là sân chơi của mình.
+Dialogue: 0,0:11:22.47,0:11:23.47,Default,,0,0,0,,Tiền bối!
+Dialogue: 0,0:11:23.51,0:11:26.47,Default,,0,0,0,,Không có lệnh khám xét mà vào nhà người khác\Nnhư thế này là lớn chuyện đấy!
+Dialogue: 0,0:11:26.60,0:11:29.06,Default,,0,0,0,,Không sao đâu, nhà này không có chủ.
+Dialogue: 0,0:11:29.14,0:11:30.14,Default,,0,0,0,,Sao ạ?
+Dialogue: 0,0:11:33.02,0:11:35.50,Default,,0,0,0,,Vẽ mấy bức như thế này\Nkhông khiến mình trở thành sát nhân đâu.
+Dialogue: 0,0:12:08.22,0:12:11.44,Default,,0,0,0,,{\an8}TÁC GIẢ LEE JI-SU
+Dialogue: 0,0:12:27.24,0:12:30.29,Default,,0,0,0,,Nơi này thật sự kỳ lạ.
+Dialogue: 0,0:12:32.25,0:12:33.25,Default,,0,0,0,,Gì vậy?
+Dialogue: 0,0:12:40.05,0:12:40.96,Default,,0,0,0,,Cái này...
+Dialogue: 0,0:12:41.05,0:12:45.51,Default,,0,0,0,,Jeong Gyu-cheol có thói quen quay lại\Ncảnh mình giết người.
+Dialogue: 0,0:12:47.47,0:12:48.85,Default,,0,0,0,,Tôi sẽ gọi đội pháp y.
+Dialogue: 0,0:12:55.94,0:12:56.86,Default,,0,0,0,,{\i1}Nào,{\i0}
+Dialogue: 0,0:12:56.94,0:12:58.44,Default,,0,0,0,,{\i1}sao mày không cầu xin{\i0}
+Dialogue: 0,0:13:00.90,0:13:01.90,Default,,0,0,0,,{\i1}để được sống?{\i0}
+Dialogue: 0,0:13:05.86,0:13:07.24,Default,,0,0,0,,{\an8}SAO CHÉP 12 TỆP
+Dialogue: 0,0:13:07.87,0:13:09.16,Default,,0,0,0,,{\an8}XOÁ
+Dialogue: 0,0:13:28.09,0:13:29.72,Default,,0,0,0,,Kiểm tra các bức tranh nữa.
+Dialogue: 0,0:13:31.77,0:13:34.77,Default,,0,0,0,,Jeong Gyu-cheol đã dùng máu của nạn nhân\Nđể vẽ tranh.
+Dialogue: 0,0:13:39.36,0:13:40.57,Default,,0,0,0,,Tắt đèn đi.
+Dialogue: 0,0:14:16.94,0:14:17.94,Default,,0,0,0,,Này.
+Dialogue: 0,0:14:19.06,0:14:20.06,Default,,0,0,0,,An Ji-hyeong!
+Dialogue: 0,0:14:23.90,0:14:25.40,Default,,0,0,0,,Bản năng của cảnh sát mách bảo tôi
+Dialogue: 0,0:14:28.07,0:14:29.49,Default,,0,0,0,,rằng cậu không phải An Ji-hyeong.
+Dialogue: 0,0:14:29.99,0:14:30.99,Default,,0,0,0,,{\i1}Hả?{\i0}
+Dialogue: 0,0:14:31.32,0:14:32.33,Default,,0,0,0,,{\i1}Sao anh ta biết?{\i0}
+Dialogue: 0,0:14:34.37,0:14:35.66,Default,,0,0,0,,Nhìn thẳng vào mắt tôi!
+Dialogue: 0,0:14:38.29,0:14:39.50,Default,,0,0,0,,Tên khốn...
+Dialogue: 0,0:14:39.58,0:14:40.58,Default,,0,0,0,,Bị ma nhập hả?
+Dialogue: 0,0:14:41.38,0:14:42.92,Default,,0,0,0,,Có thể biến hình được không?
+Dialogue: 0,0:14:43.00,0:14:44.42,Default,,0,0,0,,Giỏi quá đi!
+Dialogue: 0,0:14:44.50,0:14:45.76,Default,,0,0,0,,Thấy chưa?
+Dialogue: 0,0:14:45.84,0:14:47.84,Default,,0,0,0,,Cậu cũng làm được mà.
+Dialogue: 0,0:14:50.18,0:14:51.60,Default,,0,0,0,,{\i1}Gì vậy trời?{\i0}
+Dialogue: 0,0:14:51.68,0:14:52.68,Default,,0,0,0,,Trời ơi...
+Dialogue: 0,0:14:58.18,0:15:00.56,Default,,0,0,0,,Hình như có chuyện gì xảy ra rồi.
+Dialogue: 0,0:15:13.66,0:15:15.98,Default,,0,0,0,,Anh là giám đốc Park Tae-u\Ncủa tập đoàn Taekang đúng không?
+Dialogue: 0,0:15:16.45,0:15:17.50,Default,,0,0,0,,Đúng.
+Dialogue: 0,0:15:18.37,0:15:20.21,Default,,0,0,0,,Có chuyện gì xảy ra vậy?
+Dialogue: 0,0:15:20.29,0:15:22.67,Default,,0,0,0,,Tôi là cảnh sát An Ji-hyeong.
+Dialogue: 0,0:15:26.38,0:15:27.38,Default,,0,0,0,,Tôi thích anh.
+Dialogue: 0,0:15:27.42,0:15:30.30,Default,,0,0,0,,Giống hệt mấy con cá thích rỉa da chân vậy.
+Dialogue: 0,0:15:35.01,0:15:36.14,Default,,0,0,0,,Anh nhớ tôi không?
+Dialogue: 0,0:15:38.10,0:15:41.81,Default,,0,0,0,,Chúng tôi đã phong tỏa khu vực này\Nvì một vụ giết người.
+Dialogue: 0,0:15:42.27,0:15:43.86,Default,,0,0,0,,Anh đã từng nghe câu này chưa?
+Dialogue: 0,0:15:46.11,0:15:47.19,Default,,0,0,0,,"Thủ phạm...
+Dialogue: 0,0:15:48.99,0:15:51.03,Default,,0,0,0,,sẽ trở lại hiện trường."
+Dialogue: 0,0:15:55.70,0:15:56.91,Default,,0,0,0,,Tôi không hiểu
+Dialogue: 0,0:15:58.29,0:16:01.08,Default,,0,0,0,,tại sao anh lại nói cho tôi?
+Dialogue: 0,0:16:02.79,0:16:06.34,Default,,0,0,0,,Tôi khuyên anh là nếu không muốn bị hiểu lầm\Nlà hung thủ thì đừng tạm thời đừng đến đây.
+Dialogue: 0,0:16:06.88,0:16:10.05,Default,,0,0,0,,Vì là giám đốc nên tôi mới nói đấy.
+Dialogue: 0,0:16:10.67,0:16:11.80,Default,,0,0,0,,Tôi có thể hỏi
+Dialogue: 0,0:16:12.34,0:16:13.93,Default,,0,0,0,,tên của người kế bên không?
+Dialogue: 0,0:16:15.93,0:16:17.60,Default,,0,0,0,,Tôi là Lee Hui-u.
+Dialogue: 0,0:16:18.35,0:16:19.52,Default,,0,0,0,,Sao anh lại hỏi tên tôi?
+Dialogue: 0,0:16:19.60,0:16:22.98,Default,,0,0,0,,Tôi phải ghi lại tên những người\Nđi qua khu vực này.
+Dialogue: 0,0:16:23.06,0:16:24.19,Default,,0,0,0,,Ai mà biết được,
+Dialogue: 0,0:16:25.73,0:16:27.23,Default,,0,0,0,,lỡ cô mất tích thì sao?
+Dialogue: 0,0:16:27.69,0:16:30.86,Default,,0,0,0,,Không ai biết sát nhân là ai.
+Dialogue: 0,0:16:31.19,0:16:32.78,Default,,0,0,0,,Sau dáng vẻ của một người bình thường
+Dialogue: 0,0:16:32.86,0:16:35.99,Default,,0,0,0,,cũng có thể là một tên ác ma.
+Dialogue: 0,0:16:37.41,0:16:38.41,Default,,0,0,0,,Phải không?
+Dialogue: 0,0:16:41.71,0:16:43.12,Default,,0,0,0,,Tôi có thể đi chưa?
+Dialogue: 0,0:16:43.46,0:16:44.50,Default,,0,0,0,,Tất nhiên.
+Dialogue: 0,0:17:00.56,0:17:01.73,Default,,0,0,0,,Gặp lại sau,
+Dialogue: 0,0:17:02.73,0:17:03.77,Default,,0,0,0,,Park Tae-u.
+Dialogue: 0,0:17:10.48,0:17:11.48,Default,,0,0,0,,Xuống xe.
+Dialogue: 0,0:17:11.90,0:17:12.90,Default,,0,0,0,,Chủ tịch.
+Dialogue: 0,0:17:12.94,0:17:14.95,Default,,0,0,0,,Tôi không còn muốn ăn nữa,\Ncô xuống xe ngay.
+Dialogue: 0,0:17:24.62,0:17:26.00,Default,,0,0,0,,An Ji-hyeong…
+Dialogue: 0,0:17:29.79,0:17:32.01,Default,,0,0,0,,Cảnh sát An, chúng ta sẽ chụp một bức ảnh.
+Dialogue: 0,0:17:35.97,0:17:39.18,Default,,0,0,0,,{\i1}Thủ phạm sử dụng dao trên đường bị\Ncảnh sát An Ji-hyeong bắt giữ ở Moksu-dong{\i0}
+Dialogue: 0,0:17:39.26,0:17:41.31,Default,,0,0,0,,{\i1}chính là thủ phạm của một vụ giết người{\i0}
+Dialogue: 0,0:17:41.39,0:17:43.27,Default,,0,0,0,,{\i1}xảy ra vài ngày trước.{\i0}
+Dialogue: 0,0:17:43.35,0:17:44.18,Default,,0,0,0,,{\i1}Không những thế,{\i0}
+Dialogue: 0,0:17:44.27,0:17:46.52,Default,,0,0,0,,{\i1}cảnh sát An lại lập công lớp{\i0}
+Dialogue: 0,0:17:46.60,0:17:48.90,Default,,0,0,0,,{\i1}vì đã tìm ra danh tính\Ncủa kẻ giết người hàng loạt,{\i0}
+Dialogue: 0,0:17:48.98,0:17:50.52,Default,,0,0,0,,{\i1}họa sĩ Jeong Gyu-cheol.{\i0}
+Dialogue: 0,0:17:50.61,0:17:52.94,Default,,0,0,0,,{\i1}Như đã nói từ trước, chính cảnh sát An{\i0}
+Dialogue: 0,0:17:53.03,0:17:55.70,Default,,0,0,0,,{\i1}là người tìm ra danh tính\Nkẻ sát nhân hàng loại{\i0}
+Dialogue: 0,0:17:55.78,0:17:57.53,Default,,0,0,0,,{\i1}đã giết 15 mạng người, Jeong Gyu-cheol.{\i0}
+Dialogue: 0,0:17:57.61,0:17:59.87,Default,,0,0,0,,{\i1}Cảnh sát An cũng nhấn mạnh rằng{\i0}
+Dialogue: 0,0:17:59.95,0:18:02.70,Default,,0,0,0,,{\i1}không có tội ác hoàn hảo{\i0}
+Dialogue: 0,0:18:02.79,0:18:04.75,Default,,0,0,0,,{\i1}và sẵn sàng bóc trần sự thật\Nvới cả thế giới.{\i0}
+Dialogue: 0,0:18:06.29,0:18:07.12,Default,,0,0,0,,Ừ.
+Dialogue: 0,0:18:07.21,0:18:08.29,Default,,0,0,0,,Giám đốc.
+Dialogue: 0,0:18:08.37,0:18:10.92,Default,,0,0,0,,Tôi đã xử lý xong thi thể của\NJeong Gyu-cheol.
+Dialogue: 0,0:18:11.00,0:18:12.00,Default,,0,0,0,,Tốt lắm.
+Dialogue: 0,0:18:13.67,0:18:15.67,Default,,0,0,0,,Nhưng cảnh sát An Ji-hyeong…
+Dialogue: 0,0:18:18.22,0:18:20.51,Default,,0,0,0,,có vẻ biết gì đó.
+Dialogue: 0,0:18:20.60,0:18:23.18,Default,,0,0,0,,{\an8}TRẤN ÁP TỘI PHẠM BẰNG TAY KHÔNG
+Dialogue: 0,0:18:24.39,0:18:26.18,Default,,0,0,0,,Tên đó thật ngứa mắt.
+Dialogue: 0,0:18:26.27,0:18:28.10,Default,,0,0,0,,Tôi sẽ xử lý hắn.
+Dialogue: 0,0:18:35.49,0:18:36.65,Default,,0,0,0,,Cảm ơn cảnh sát An.
+Dialogue: 0,0:18:37.45,0:18:40.07,Default,,0,0,0,,Tôi sẽ phát sóng độc quyền\Nở bản tin tối nay.
+Dialogue: 0,0:18:41.03,0:18:42.28,Default,,0,0,0,,Cảm ơn anh.
+Dialogue: 0,0:18:42.74,0:18:43.74,Default,,0,0,0,,Vâng.
+Dialogue: 0,0:18:43.95,0:18:45.58,Default,,0,0,0,,Đội các anh đứng cuối về thành tích,
+Dialogue: 0,0:18:45.66,0:18:47.29,Default,,0,0,0,,cuối cùng cũng có thể lập công rồi.
+Dialogue: 0,0:18:47.37,0:18:48.92,Default,,0,0,0,,Tất cả là nhờ sở trưởng.
+Dialogue: 0,0:18:49.00,0:18:49.83,Default,,0,0,0,,Cố lên nhé.
+Dialogue: 0,0:18:49.92,0:18:52.42,Default,,0,0,0,,Nếu hoàn thành tốt\Ntôi sẽ quyết định thăng chức cho anh.
+Dialogue: 0,0:18:53.38,0:18:54.96,Default,,0,0,0,,Cảm ơn sở trưởng.
+Dialogue: 0,0:18:57.38,0:18:58.93,Default,,0,0,0,,{\an8}SỞ CẢNH SÁT JUNGBU
+Dialogue: 0,0:19:01.43,0:19:03.10,Default,,0,0,0,,Ji-hyeong ơi, lại đây nào.
+Dialogue: 0,0:19:03.18,0:19:04.56,Default,,0,0,0,,Dễ thương quá đi thôi.
+Dialogue: 0,0:19:06.85,0:19:09.14,Default,,0,0,0,,Tiền bối, chúng ta\Nnói chuyện chút được không?
+Dialogue: 0,0:19:09.73,0:19:10.77,Default,,0,0,0,,Được.
+Dialogue: 0,0:19:15.44,0:19:17.57,Default,,0,0,0,,Sau này cứ thế phát huy nhé.
+Dialogue: 0,0:19:24.53,0:19:25.58,Default,,0,0,0,,Tôi thấy anh
+Dialogue: 0,0:19:25.66,0:19:28.62,Default,,0,0,0,,sao chép và xoá đi vài đoạn video\Nở phòng của Jeong Gyu-cheol.
+Dialogue: 0,0:19:29.00,0:19:29.83,Default,,0,0,0,,Hả?
+Dialogue: 0,0:19:29.91,0:19:31.21,Default,,0,0,0,,Đoạn video đó là gì vậy?
+Dialogue: 0,0:19:37.27,0:19:39.71,Default,,0,0,0,,Đoạn video ghi lại hình ảnh\Nhung thủ đã giết Jeong Gyu-cheol.
+Dialogue: 0,0:19:39.72,0:19:41.05,Default,,0,0,0,,Jeong Gyu-cheol đã bị giết sao?
+Dialogue: 0,0:19:41.13,0:19:42.14,Default,,0,0,0,,Đúng.
+Dialogue: 0,0:19:42.22,0:19:43.22,Default,,0,0,0,,Vậy tại sao anh...
+Dialogue: 0,0:19:43.26,0:19:44.35,Default,,0,0,0,,Vì thủ phạm
+Dialogue: 0,0:19:46.35,0:19:47.60,Default,,0,0,0,,là Park Tae-u.
+Dialogue: 0,0:19:48.35,0:19:50.04,Default,,0,0,0,,Là giám đốc tập đoàn Taekang,\NPark Tae-u sao?
+Dialogue: 0,0:19:50.06,0:19:50.89,Default,,0,0,0,,Phải.
+Dialogue: 0,0:19:50.98,0:19:51.98,Default,,0,0,0,,Vậy tại sao?
+Dialogue: 0,0:19:53.02,0:19:54.77,Default,,0,0,0,,Cậu nghĩ họ sẽ công bố đoạn video đó sao?
+Dialogue: 0,0:19:55.36,0:19:58.28,Default,,0,0,0,,Nó sẽ bị tiêu huỷ\Nngay khi vừa đến đồn cảnh sát.
+Dialogue: 0,0:19:58.36,0:19:59.44,Default,,0,0,0,,Tôi
+Dialogue: 0,0:20:00.82,0:20:02.07,Default,,0,0,0,,sẽ khiến tên Park Tae-u đó
+Dialogue: 0,0:20:03.95,0:20:05.45,Default,,0,0,0,,bị trừng phạt.
+Dialogue: 0,0:20:07.91,0:20:08.91,Default,,0,0,0,,Tiền bối.
+Dialogue: 0,0:20:20.42,0:20:21.59,Default,,0,0,0,,Người đó lại đến rồi.
+Dialogue: 0,0:20:23.05,0:20:24.84,Default,,0,0,0,,Vẫn đang trong quá trình điều tra sao?
+Dialogue: 0,0:20:30.48,0:20:32.31,Default,,0,0,0,,Người đó tại sao lại bị điều tra?
+Dialogue: 0,0:20:33.65,0:20:35.15,Default,,0,0,0,,Anh không biết vụ túi tiền sao?
+Dialogue: 0,0:20:35.86,0:20:38.19,Default,,0,0,0,,Thời sự có đưa tin mà,\Nvụ đó ồn ào lắm.
+Dialogue: 0,0:20:38.27,0:20:40.07,Default,,0,0,0,,{\i1}Cái túi được phát hiện trong nhà bà ấy.{\i0}
+Dialogue: 0,0:20:40.15,0:20:42.28,Default,,0,0,0,,{\i1}Họ đã kiểm tra tất cả camera an ninh\Ntrong khu vực{\i0}
+Dialogue: 0,0:20:42.36,0:20:44.16,Default,,0,0,0,,{\i1}và tìm ra người đã để túi tiền\Ntrong nhà bà ấy{\i0}
+Dialogue: 0,0:20:44.24,0:20:45.53,Default,,0,0,0,,{\i1}nhưng anh ta đã chết{\i0}
+Dialogue: 0,0:20:45.62,0:20:47.03,Default,,0,0,0,,{\i1}vì tai nạn giao thông.{\i0}
+Dialogue: 0,0:20:47.33,0:20:49.66,Default,,0,0,0,,Bà ấy gặp rắc rối từ trên trời rơi xuống.
+Dialogue: 0,0:20:50.04,0:20:52.28,Default,,0,0,0,,Tôi nghe nói con trai bà ấy\Ncũng chết cách đây không lâu.
+Dialogue: 0,0:20:55.25,0:20:56.08,Default,,0,0,0,,Cô ơi.
+Dialogue: 0,0:20:56.17,0:20:57.84,Default,,0,0,0,,Cô phải cho lời khai thì mới đi được.
+Dialogue: 0,0:20:58.84,0:21:00.71,Default,,0,0,0,,Tôi thật sự không biết.
+Dialogue: 0,0:21:02.05,0:21:03.22,Default,,0,0,0,,Cô không nhớ sao?
+Dialogue: 0,0:21:04.51,0:21:06.22,Default,,0,0,0,,Tôi không biết gì cả.
+Dialogue: 0,0:21:08.35,0:21:09.35,Default,,0,0,0,,Chết tiệt.
+Dialogue: 0,0:21:11.64,0:21:14.19,Default,,0,0,0,,Mình chết rồi cũng chẳng làm gì nên hồn.
+Dialogue: 0,0:21:35.21,0:21:36.21,Default,,0,0,0,,Mẹ.
+Dialogue: 0,0:21:48.26,0:21:49.43,Default,,0,0,0,,Tôi xin lỗi.
+Dialogue: 0,0:21:50.81,0:21:52.77,Default,,0,0,0,,Tôi đã suy nghĩ xưng hô\Nnhư thế nào mới đúng
+Dialogue: 0,0:21:53.35,0:21:54.68,Default,,0,0,0,,thì gọi nhầm.
+Dialogue: 0,0:21:55.23,0:21:57.19,Default,,0,0,0,,Tôi xin lỗi.
+Dialogue: 0,0:21:58.48,0:21:59.61,Default,,0,0,0,,Không sao.
+Dialogue: 0,0:22:03.11,0:22:05.28,Default,,0,0,0,,Lâu rồi mới có người gọi tôi như thế.
+Dialogue: 0,0:22:13.66,0:22:14.66,Default,,0,0,0,,Đợi một chút.
+Dialogue: 0,0:22:16.16,0:22:17.17,Default,,0,0,0,,Trời ạ...
+Dialogue: 0,0:22:17.25,0:22:18.17,Default,,0,0,0,,Không sao đâu.
+Dialogue: 0,0:22:18.25,0:22:19.50,Default,,0,0,0,,Tôi có thể tự làm.
+Dialogue: 0,0:22:20.33,0:22:22.71,Default,,0,0,0,,Đang đi mà vướng dây giày\Ncó thể bị thương đấy.
+Dialogue: 0,0:22:23.71,0:22:24.80,Default,,0,0,0,,Lần sau cô nhớ
+Dialogue: 0,0:22:25.30,0:22:26.97,Default,,0,0,0,,đi đôi giày nào không có dây nhé.
+Dialogue: 0,0:22:29.55,0:22:32.35,Default,,0,0,0,,Đó là đôi giày đầu tiên\Ncon trai mua cho tôi.
+Dialogue: 0,0:22:38.56,0:22:39.56,Default,,0,0,0,,Trời ạ...
+Dialogue: 0,0:22:39.65,0:22:41.90,Default,,0,0,0,,Con không cần tặng quà đâu.
+Dialogue: 0,0:22:41.98,0:22:42.98,Default,,0,0,0,,Mẹ mở ra đi.
+Dialogue: 0,0:22:46.53,0:22:48.15,Default,,0,0,0,,Trời đất ơi.
+Dialogue: 0,0:22:48.99,0:22:50.36,Default,,0,0,0,,Đẹp quá.
+Dialogue: 0,0:22:50.82,0:22:52.24,Default,,0,0,0,,Cảm ơn con trai.
+Dialogue: 0,0:22:56.04,0:22:57.79,Default,,0,0,0,,Khi tôi đi đôi giày này,
+Dialogue: 0,0:22:59.04,0:23:01.79,Default,,0,0,0,,tôi cảm giác như con trai\Nluôn bên cạnh tôi.
+Dialogue: 0,0:23:14.97,0:23:16.14,Default,,0,0,0,,Tôi chắc con trai cô
+Dialogue: 0,0:23:18.89,0:23:22.02,Default,,0,0,0,,cũng mong cô sống khoẻ mạnh và hạnh phúc.
+Dialogue: 0,0:23:24.19,0:23:26.53,Default,,0,0,0,,Vâng, cảm ơn anh.
+Dialogue: 0,0:23:27.90,0:23:29.07,Default,,0,0,0,,Nhân tiện,
+Dialogue: 0,0:23:31.16,0:23:33.45,Default,,0,0,0,,sao cô lại trình báo về cái túi đó?
+Dialogue: 0,0:23:34.41,0:23:35.70,Default,,0,0,0,,Cô có thể dùng nó mà.
+Dialogue: 0,0:23:40.83,0:23:43.58,Default,,0,0,0,,Tôi cảm thấy nó giống như là\Nhình phạt ông trời giáng xuống vậy.
+Dialogue: 0,0:23:45.92,0:23:46.92,Default,,0,0,0,,Hình phạt sao?
+Dialogue: 0,0:23:47.63,0:23:51.47,Default,,0,0,0,,Là hình phạt vì không thể bảo vệ\Nđứa con duy nhất của mình.
+Dialogue: 0,0:23:56.56,0:23:59.73,Default,,0,0,0,,Tôi cảm giác như đó là\Nsố tiền để mua lại tính mạng của con tôi
+Dialogue: 0,0:24:01.35,0:24:02.40,Default,,0,0,0,,nên tôi không muốn lấy nó.
+Dialogue: 0,0:24:05.36,0:24:09.11,Default,,0,0,0,,Số tiền đó không thể nào có thể\Nđổi lấy con trai tôi.
+Dialogue: 0,0:24:14.12,0:24:15.12,Default,,0,0,0,,Tôi xin phép.
+Dialogue: 0,0:24:57.41,0:25:00.66,Default,,0,0,0,,{\i1}Đừng bỏ bữa nữa, dùng cái này đi.{\i0}
+Dialogue: 0,0:26:00.85,0:26:02.85,Default,,0,0,0,,{\an8}CƠ QUAN CẢNH SÁT THÀNH PHỐ SEOUL\NGIAO HÀNG ĐẶC BIỆT
+Dialogue: 0,0:26:10.77,0:26:12.94,Default,,0,0,0,,{\an8}HAEAM-DONG, GANGNAM-GU\NBÁO CÁO TAI NẠN GIAO THÔNG
+Dialogue: 0,0:26:20.28,0:26:21.87,Default,,0,0,0,,Con đang làm gì vậy?
+Dialogue: 0,0:26:26.12,0:26:27.12,Default,,0,0,0,,Cái này là sao?
+Dialogue: 0,0:26:28.50,0:26:30.00,Default,,0,0,0,,Bố điều tra sau lưng con sao?
+Dialogue: 0,0:26:31.38,0:26:34.51,Default,,0,0,0,,Tất cả thú cưng trong nhà
+Dialogue: 0,0:26:34.59,0:26:36.38,Default,,0,0,0,,đều chết rất sớm.
+Dialogue: 0,0:26:36.47,0:26:37.68,Default,,0,0,0,,Và ta biết lý do
+Dialogue: 0,0:26:39.22,0:26:42.14,Default,,0,0,0,,vì ta là bố con.
+Dialogue: 0,0:26:43.39,0:26:45.31,Default,,0,0,0,,Tại sao con lại làm thế với cả con người?
+Dialogue: 0,0:26:45.39,0:26:47.69,Default,,0,0,0,,Đó là lý do tại sao bố đưa con\Nra nước ngoài từ nhỏ
+Dialogue: 0,0:26:47.77,0:26:49.19,Default,,0,0,0,,và theo dõi con sao?
+Dialogue: 0,0:26:49.27,0:26:50.48,Default,,0,0,0,,Bố thấy xấu hổ vì con à?
+Dialogue: 0,0:26:53.15,0:26:54.19,Default,,0,0,0,,Hay là...
+Dialogue: 0,0:26:57.45,0:26:58.57,Default,,0,0,0,,vì bố sợ con?
+Dialogue: 0,0:27:00.95,0:27:02.37,Default,,0,0,0,,Hồi còn nhỏ
+Dialogue: 0,0:27:02.87,0:27:05.29,Default,,0,0,0,,con từng thích đọc sách về hoàng gia.
+Dialogue: 0,0:27:08.21,0:27:09.87,Default,,0,0,0,,Vì con có thể đồng cảm.
+Dialogue: 0,0:27:13.71,0:27:15.09,Default,,0,0,0,,Trong hoàng tộc,
+Dialogue: 0,0:27:16.17,0:27:17.72,Default,,0,0,0,,anh em ruột thịt
+Dialogue: 0,0:27:18.01,0:27:20.63,Default,,0,0,0,,phải chiến đấu với nhau cho đến chết.
+Dialogue: 0,0:27:25.97,0:27:27.43,Default,,0,0,0,,Bố cũng không ngoại lệ.
+Dialogue: 0,0:28:14.02,0:28:16.40,Default,,0,0,0,,Mày điên rồi sao? Tên khốn này.
+Dialogue: 0,0:28:45.80,0:28:47.64,Default,,0,0,0,,Tôi là người quyết định
+Dialogue: 0,0:28:47.72,0:28:50.35,Default,,0,0,0,,ai đó có thể sống hay sẽ chết.
+Dialogue: 0,0:28:54.56,0:28:57.27,Default,,0,0,0,,Họ ông bạn là thẩm phán và vị cứu tinh,
+Dialogue: 0,0:28:57.82,0:28:59.57,Default,,0,0,0,,nhưng ông chẳng là gì ngoài ảo ảnh.
+Dialogue: 0,0:29:00.78,0:29:02.86,Default,,0,0,0,,Sự phán xét và sự cứu rỗi
+Dialogue: 0,0:29:02.95,0:29:04.41,Default,,0,0,0,,không phải do ông quyết định,
+Dialogue: 0,0:29:04.86,0:29:05.95,Default,,0,0,0,,mà là tôi.
+Dialogue: 0,0:29:24.80,0:29:26.80,Default,,0,0,0,,- Cục trưởng.\N- Giám đốc.
+Dialogue: 0,0:29:27.26,0:29:28.72,Default,,0,0,0,,Đài truyền hình đã nhận được tin báo
+Dialogue: 0,0:29:29.31,0:29:30.60,Default,,0,0,0,,từ cảnh sát An Ji-hyeong.
+Dialogue: 0,0:29:30.68,0:29:33.68,Default,,0,0,0,,{\i1}Hắn bảo là có đoạn video chứ cảnh\NJeong Gyu-cheol bị giết.{\i0}
+Dialogue: 0,0:29:33.77,0:29:34.77,Default,,0,0,0,,Vậy thì sao?
+Dialogue: 0,0:29:34.81,0:29:37.69,Default,,0,0,0,,{\i1}Hắn khẳng định người giết Jeong Gyu-cheol{\i0}
+Dialogue: 0,0:29:37.77,0:29:39.82,Default,,0,0,0,,là giám đốc Park Tae-u.
+Dialogue: 0,0:29:42.11,0:29:44.57,Default,,0,0,0,,{\i1}Có thể đoạn video đó sẽ được phát sóng\Nở bản tin tối nay.{\i0}
+Dialogue: 0,0:29:44.65,0:29:46.03,Default,,0,0,0,,{\i1}Tôi xin lỗi giám đốc.{\i0}
+Dialogue: 0,0:29:46.11,0:29:47.74,Default,,0,0,0,,{\i1}Tôi đã cố ngăn lại...{\i0}
+Dialogue: 0,0:29:47.82,0:29:48.82,Default,,0,0,0,,Được rồi.
+Dialogue: 0,0:29:50.03,0:29:51.29,Default,,0,0,0,,Cảm ơn vì đã nói cho tôi biết.
+Dialogue: 0,0:30:04.01,0:30:06.05,Default,,0,0,0,,{\an8}GIÁM ĐỐC PARK TAE-U
+Dialogue: 0,0:30:11.39,0:30:12.97,Default,,0,0,0,,{\i1}Xử lý An Ji-hyeong thế nào rồi?{\i0}
+Dialogue: 0,0:30:13.06,0:30:14.68,Default,,0,0,0,,Cậu tìm tôi sao? Cảm ơn nhé.
+Dialogue: 0,0:30:17.10,0:30:18.85,Default,,0,0,0,,- Anh là ai?\N- Tôi sao?
+Dialogue: 0,0:30:21.98,0:30:23.40,Default,,0,0,0,,An Ji-hyeong.
+Dialogue: 0,0:30:41.04,0:30:41.88,Default,,0,0,0,,Không lẽ...
+Dialogue: 0,0:30:41.96,0:30:43.13,Default,,0,0,0,,Chà.
+Dialogue: 0,0:30:43.67,0:30:45.84,Default,,0,0,0,,Giám đốc Park có vẻ là người\Nhơi chậm chạp nhỉ.
+Dialogue: 0,0:30:48.68,0:30:50.22,Default,,0,0,0,,Chúng ta gặp nhau đi.
+Dialogue: 0,0:30:50.68,0:30:51.97,Default,,0,0,0,,{\i1}Tôi sẽ gửi anh địa chỉ.{\i0}
+Dialogue: 0,0:30:52.05,0:30:53.85,Default,,0,0,0,,Ầy, không đâu.
+Dialogue: 0,0:30:54.27,0:30:56.56,Default,,0,0,0,,Không phải anh là người\Nnên đến chỗ tôi sao?
+Dialogue: 0,0:31:00.98,0:31:02.65,Default,,0,0,0,,Vậy tôi phải đến đâu đây?
+Dialogue: 0,0:31:03.48,0:31:04.73,Default,,0,0,0,,Gặp nhau ở sở cảnh sát đi.
+Dialogue: 0,0:31:04.82,0:31:05.90,Default,,0,0,0,,{\i1}Sở cảnh sát.{\i0}
+Dialogue: 0,0:31:07.61,0:31:08.61,Default,,0,0,0,,À.
+Dialogue: 0,0:31:09.57,0:31:12.20,Default,,0,0,0,,Làm nhiều việc sai trái rồi nên chắc cậu\Nsợ đến sở cảnh sát nhỉ?
+Dialogue: 0,0:31:17.25,0:31:19.25,Default,,0,0,0,,{\i1}Để xem nào, vậy thì...{\i0}
+Dialogue: 0,0:31:19.58,0:31:22.21,Default,,0,0,0,,Tôi sẽ đến chỗ cậu\Nsau khi tối nay xong việc.
+Dialogue: 0,0:31:22.79,0:31:24.04,Default,,0,0,0,,Lúc trước để ý thì thấy
+Dialogue: 0,0:31:25.05,0:31:26.76,Default,,0,0,0,,cả người cậu đều mặc đồ hiệu.
+Dialogue: 0,0:31:27.26,0:31:28.51,Default,,0,0,0,,Tôi sẽ đặc biệt chuẩn bị
+Dialogue: 0,0:31:28.97,0:31:30.93,Default,,0,0,0,,một cặp còng tay của Đức cho cậu.
+Dialogue: 0,0:31:31.01,0:31:34.39,Default,,0,0,0,,- Thằng chó khốn...\N- Miệng chửi thối quá.
+Dialogue: 0,0:31:35.81,0:31:36.81,Default,,0,0,0,,Tên.
+Dialogue: 0,0:31:37.18,0:31:38.98,Default,,0,0,0,,- Là anh bắt tôi mà.\N- Không trả lời à?
+Dialogue: 0,0:31:41.35,0:31:42.40,Default,,0,0,0,,Bắt hắn đi.
+Dialogue: 0,0:31:48.07,0:31:50.78,Default,,0,0,0,,Tên đó đang làm tất cả những việc\Ncậu ta chưa làm trong 12 năm qua
+Dialogue: 0,0:31:50.86,0:31:51.86,Default,,0,0,0,,chỉ trong tuần này kìa.
+Dialogue: 0,0:31:52.24,0:31:53.37,Default,,0,0,0,,Nhưng mà gì nhỉ?
+Dialogue: 0,0:31:54.87,0:31:57.87,Default,,0,0,0,,Sao mình có cảm giác như\Nchỉ xì hơi mà ra cả phân thế nhỉ?
+Dialogue: 0,0:31:59.08,0:32:00.50,Default,,0,0,0,,Không ổn chút nào.
+Dialogue: 0,0:32:05.71,0:32:06.71,Default,,0,0,0,,Alo?
+Dialogue: 0,0:32:07.46,0:32:08.71,Default,,0,0,0,,Vâng, sở trưởng.
+Dialogue: 0,0:32:10.38,0:32:11.43,Default,,0,0,0,,An Ji-hyeong sao ạ?
+Dialogue: 0,0:32:15.10,0:32:16.64,Default,,0,0,0,,{\an8}CẢNH SÁT NHÂN DÂN
+Dialogue: 0,0:32:26.40,0:32:28.21,Default,,0,0,0,,- Ở trong đó khó khăn quá.\N- Con không sao chứ?
+Dialogue: 0,0:32:28.23,0:32:29.44,Default,,0,0,0,,Ôi trời.
+Dialogue: 0,0:32:47.46,0:32:48.46,Default,,0,0,0,,Vậy thì...
+Dialogue: 0,0:32:49.25,0:32:50.92,Default,,0,0,0,,Tôi xin phép ra ngoài, giám đốc Park.
+Dialogue: 0,0:32:52.84,0:32:54.39,Default,,0,0,0,,Cảm ơn ngài, sở trưởng.
+Dialogue: 0,0:33:00.89,0:33:02.77,Default,,0,0,0,,Tôi không ngờ là cậu đến thẳng đây đó.
+Dialogue: 0,0:33:05.19,0:33:07.98,Default,,0,0,0,,Chúng ta có duyên thật đó.
+Dialogue: 0,0:33:08.77,0:33:10.36,Default,,0,0,0,,Là nghiệt duyên mới đúng.
+Dialogue: 0,0:33:14.95,0:33:17.62,Default,,0,0,0,,Chắc cậu không đến đây để tự thú.
+Dialogue: 0,0:33:17.70,0:33:18.78,Default,,0,0,0,,Sao cậu lại đến đây?
+Dialogue: 0,0:33:22.45,0:33:24.42,Default,,0,0,0,,Tôi muốn thương lượng\Nmột thỏa thuận với anh.
+Dialogue: 0,0:33:24.50,0:33:25.58,Default,,0,0,0,,Sao?
+Dialogue: 0,0:33:26.08,0:33:27.71,Default,,0,0,0,,Anh muốn cái gì?
+Dialogue: 0,0:33:27.79,0:33:28.84,Default,,0,0,0,,Tiền?
+Dialogue: 0,0:33:29.46,0:33:30.50,Default,,0,0,0,,Danh vọng?
+Dialogue: 0,0:33:30.75,0:33:31.75,Default,,0,0,0,,Hay là mối quan hệ?
+Dialogue: 0,0:33:33.84,0:33:36.51,Default,,0,0,0,,Anh hãy đọc và ký tên vào đây đi.
+Dialogue: 0,0:33:38.85,0:33:40.14,Default,,0,0,0,,Nếu anh nhắm mắt và ký tên vào
+Dialogue: 0,0:33:40.22,0:33:42.89,Default,,0,0,0,,thì mỗi năm anh sẽ nhận được\Ncàng nhiều thứ hơn.
+Dialogue: 0,0:33:42.98,0:33:45.56,Default,,0,0,0,,Nếu anh vứt bỏ cả lòng tự trọng\Nvà vẫy đuôi trước tôi
+Dialogue: 0,0:33:45.64,0:33:48.20,Default,,0,0,0,,thì anh thậm chí còn có thể\Ntrở thành chủ nhân của căn phòng này.
+Dialogue: 0,0:34:05.96,0:34:09.21,Default,,0,0,0,,Tôi không cần tiền hay danh vọng gì cả.
+Dialogue: 0,0:34:14.34,0:34:16.59,Default,,0,0,0,,Vậy điều anh muốn là gì?
+Dialogue: 0,0:34:18.09,0:34:19.09,Default,,0,0,0,,Cậu.
+Dialogue: 0,0:34:22.56,0:34:24.14,Default,,0,0,0,,Đây là tất cả những gì tôi có.
+Dialogue: 0,0:34:26.64,0:34:28.31,Default,,0,0,0,,Cậu cũng cược tất cả những gì cậu có đi.
+Dialogue: 0,0:34:31.32,0:34:33.57,Default,,0,0,0,,Anh làm đến mức này thì anh được gì chứ?
+Dialogue: 0,0:34:33.69,0:34:36.82,Default,,0,0,0,,Sự thỏa mãn khi dạy một kẻ điên\Nnghĩ mình là thần thánh
+Dialogue: 0,0:34:36.90,0:34:40.91,Default,,0,0,0,,rằng hắn chỉ là một kẻ điên khùng.
+Dialogue: 0,0:34:42.12,0:34:44.37,Default,,0,0,0,,Dù sao thì đất nước này\Ncũng là sân chơi của tôi.
+Dialogue: 0,0:34:44.45,0:34:47.00,Default,,0,0,0,,Còn anh chỉ là một con chó hoang\Nquên mất vị trí của mình
+Dialogue: 0,0:34:47.08,0:34:48.54,Default,,0,0,0,,đang chạy trên sân chơi đó thôi.
+Dialogue: 0,0:34:48.62,0:34:50.63,Default,,0,0,0,,Tôi sẽ trét phân lên cái sân chơi của cậu.
+Dialogue: 0,0:34:50.71,0:34:53.92,Default,,0,0,0,,Việc loại bỏ một con chó hoang như anh\Nđối với tôi rất dễ dàng.
+Dialogue: 0,0:34:54.96,0:34:56.32,Default,,0,0,0,,Nếu anh cứ tiếp tục như thế này...
+Dialogue: 0,0:34:56.34,0:34:57.88,Default,,0,0,0,,Có điều gì tồi tệ hơn cái chết sao?
+Dialogue: 0,0:35:01.55,0:35:03.43,Default,,0,0,0,,Anh nói như thể\Nmình có nhiều mạng sống lắm nhỉ?
+Dialogue: 0,0:35:04.97,0:35:06.06,Default,,0,0,0,,Chà.
+Dialogue: 0,0:35:06.14,0:35:08.69,Default,,0,0,0,,Giám đốc Park của chúng ta cũng\Nkhông ngu ngốc lắm nhỉ.
+Dialogue: 0,0:35:10.56,0:35:11.69,Default,,0,0,0,,Hãy kết thúc...
+Dialogue: 0,0:35:13.98,0:35:16.03,Default,,0,0,0,,mối ác duyên của chúng ta ở kiếp này đi.
+Dialogue: 0,0:35:16.11,0:35:17.32,Default,,0,0,0,,Dù anh không muốn...
+Dialogue: 0,0:35:20.03,0:35:21.24,Default,,0,0,0,,thì tôi cũng sẽ làm như vậy.
+Dialogue: 0,0:35:21.66,0:35:23.24,Default,,0,0,0,,30 phút sau hãy gặp tôi ở tầng 1.
+Dialogue: 0,0:35:24.03,0:35:25.37,Default,,0,0,0,,Tôi sẽ còng tay cho cậu.
+Dialogue: 0,0:35:35.00,0:35:37.67,Default,,0,0,0,,Tôi sẽ bảo cảnh sát Lee xử lý việc này.
+Dialogue: 0,0:35:45.72,0:35:46.72,Default,,0,0,0,,Vâng ạ.
+Dialogue: 0,0:35:59.49,0:36:00.53,Default,,0,0,0,,Vâng, tôi biết rồi.
+Dialogue: 0,0:36:25.35,0:36:28.27,Default,,0,0,0,,{\i1}Một người đàn ông được phát hiện đã chết\Nsau khi chảy máu đến chết{\i0}
+Dialogue: 0,0:36:28.35,0:36:29.93,Default,,0,0,0,,{\i1}trên một con đường vắng.{\i0}
+Dialogue: 0,0:36:30.35,0:36:34.35,Default,,0,0,0,,{\i1}Người lái xe được tìm thấy\Nvới một vết đâm trên cổ.{\i0}
+Dialogue: 0,0:36:34.86,0:36:38.07,Default,,0,0,0,,{\i1}Người ta phát hiện người này đã say rượu\Nvào thời điểm qua đời.{\i0}
+Dialogue: 0,0:36:38.15,0:36:39.23,Default,,0,0,0,,Em đã hâm nóng rồi.
+Dialogue: 0,0:36:39.32,0:36:41.30,Default,,0,0,0,,- Săn sóc lắm phải không?\N- Không có camera an ninh.
+Dialogue: 0,0:36:41.32,0:36:43.84,Default,,0,0,0,,- Vâng, ăn ngon miệng nhé.\N- Hơn nữa, camera hành trình của ô tô
+Dialogue: 0,0:36:43.86,0:36:45.78,Default,,0,0,0,,bị mất thẻ nhớ.
+Dialogue: 0,0:36:46.24,0:36:48.12,Default,,0,0,0,,{\i1}Để giải quyết vụ việc,{\i0}
+Dialogue: 0,0:36:48.20,0:36:50.29,Default,,0,0,0,,- Sắp bắt đầu rồi nhỉ?\N- Cảnh sát đang đợi
+Dialogue: 0,0:36:50.37,0:36:52.87,Default,,0,0,0,,- Đúng vậy.\N- Có thể có nhân chứng ra trình diện.
+Dialogue: 0,0:36:52.96,0:36:55.71,Default,,0,0,0,,{\an8}NGƯỜI ĐÀN ÔNG ĐỘ TUỔI 40\NĐƯỢC TÌM THẤY CHẾT TRÊN ĐƯỜNG VẮNG
+Dialogue: 0,0:36:55.79,0:36:56.79,Default,,0,0,0,,{\i1}Tin nóng.{\i0}
+Dialogue: 0,0:36:56.84,0:36:58.59,Default,,0,0,0,,{\i1}Park Tae-u, giám đốc của tập đoàn Taekang{\i0}
+Dialogue: 0,0:36:58.67,0:37:01.01,Default,,0,0,0,,sẽ ra đầu thú\Nvì tội giết Jeong Gyu-cheol,
+Dialogue: 0,0:37:01.09,0:37:02.38,Default,,0,0,0,,{\i1}kẻ giết người hàng loạt.{\i0}
+Dialogue: 0,0:37:02.47,0:37:04.87,Default,,0,0,0,,- Gì thế này?\N- Thông tin thêm từ phóng viên tại hiện trường.
+Dialogue: 0,0:37:06.64,0:37:08.01,Default,,0,0,0,,- Anh ấy ra rồi.\N- Anh ấy đây rồi.
+Dialogue: 0,0:37:20.15,0:37:23.40,Default,,0,0,0,,Tôi đã sát hại Jeong Gyu-cheol,
+Dialogue: 0,0:37:25.82,0:37:28.38,Default,,0,0,0,,một kẻ giết người hàng loạt\Nđã cướp đi sinh mạng của 15 nạn nhân.
+Dialogue: 0,0:37:31.54,0:37:32.37,Default,,0,0,0,,{\i1}Vài ngày trước,{\i0}
+Dialogue: 0,0:37:32.45,0:37:35.14,Default,,0,0,0,,{\an8}HỌP BÁO KHẨN CỦA CEO PARK TAE-U\NTẬP ĐOÀN TAEKANG
+Dialogue: 0,0:37:34.16,0:37:35.21,Default,,0,0,0,,{\i1}tôi đã bị bắt cóc.{\i0}
+Dialogue: 0,0:37:35.29,0:37:37.83,Default,,0,0,0,,{\i1}Tôi được đưa đi đâu đó,\Nkhông biết chuyện gì đang xảy ra.{\i0}
+Dialogue: 0,0:37:37.92,0:37:40.00,Default,,0,0,0,,{\i1}Tôi chỉ phát hiện ra sau khi đến đó,{\i0}
+Dialogue: 0,0:37:40.09,0:37:42.63,Default,,0,0,0,,{\i1}người đàn ông đã bắt cóc tôi\Nchính là Jeong Gyu-cheol,{\i0}
+Dialogue: 0,0:37:44.34,0:37:46.62,Default,,0,0,0,,{\i1}kẻ giết người hàng loạt\Nđã cướp đi mạng sống của 15 người.{\i0}
+Dialogue: 0,0:37:47.43,0:37:48.89,Default,,0,0,0,,{\i1}Lúc đó tôi đã nhận ra,{\i0}
+Dialogue: 0,0:37:49.39,0:37:52.02,Default,,0,0,0,,rằng tôi đã được trao cơ hội
+Dialogue: 0,0:37:52.68,0:37:54.43,Default,,0,0,0,,đầu tiên và cuối cùng để đưa
+Dialogue: 0,0:37:54.81,0:37:56.53,Default,,0,0,0,,kẻ giết người hàng loạt đó\Nra trước công lý.
+Dialogue: 0,0:37:56.56,0:37:59.19,Default,,0,0,0,,Ý của anh là anh giết anh ta\Nđể trừng phạt tội ác của anh ta sao?
+Dialogue: 0,0:37:59.90,0:38:01.57,Default,,0,0,0,,Lúc đó tôi chỉ có hai lựa chọn.
+Dialogue: 0,0:38:01.65,0:38:04.78,Default,,0,0,0,,Giết hắn hoặc bị hắn giết.
+Dialogue: 0,0:38:04.86,0:38:06.36,Default,,0,0,0,,Chỉ có hai lựa chọn đó thôi.
+Dialogue: 0,0:38:07.07,0:38:08.41,Default,,0,0,0,,Và nếu có thể
+Dialogue: 0,0:38:10.03,0:38:12.59,Default,,0,0,0,,thì tôi cảm thấy việc ngăn hành vi\Ngiết người của Jeong Gyu-cheol
+Dialogue: 0,0:38:13.83,0:38:15.79,Default,,0,0,0,,là nhiệm vụ được giao cho tôi.
+Dialogue: 0,0:38:15.87,0:38:18.17,Default,,0,0,0,,Vậy thi thể của Jeong Gyu-cheol\Nđang ở đâu?
+Dialogue: 0,0:38:19.25,0:38:20.29,Default,,0,0,0,,Chuyện đó...
+Dialogue: 0,0:38:20.92,0:38:22.38,Default,,0,0,0,,tôi cũng không biết.
+Dialogue: 0,0:38:22.84,0:38:24.72,Default,,0,0,0,,Tôi đã đánh nhau với Jeong Gyu-cheol,
+Dialogue: 0,0:38:24.80,0:38:27.93,Default,,0,0,0,,và tôi nghĩ tôi đã giết hắn trong lúc đó.
+Dialogue: 0,0:38:28.01,0:38:31.01,Default,,0,0,0,,Tôi vô cùng bối rối khi nhìn thấy tin tức
+Dialogue: 0,0:38:31.64,0:38:33.56,Default,,0,0,0,,không tìm thấy thi thể của hắn.
+Dialogue: 0,0:38:33.64,0:38:36.64,Default,,0,0,0,,{\i1}Tôi xin gửi lời xin lỗi chân thành nhất{\i0}
+Dialogue: 0,0:38:37.02,0:38:39.15,Default,,0,0,0,,{\i1}vì đã khiến mọi người thất vọng.{\i0}
+Dialogue: 0,0:38:45.65,0:38:47.45,Default,,0,0,0,,Và tôi không biết khi nào nó sẽ xảy ra,
+Dialogue: 0,0:38:47.53,0:38:50.24,Default,,0,0,0,,nhưng nếu tôi có cơ hội khác,
+Dialogue: 0,0:38:50.66,0:38:53.16,Default,,0,0,0,,{\i1}tôi sẽ làm theo phương châm sống của mình{\i0}
+Dialogue: 0,0:38:54.79,0:38:56.29,Default,,0,0,0,,{\i1}và đền đáp{\i0}
+Dialogue: 0,0:38:57.83,0:38:59.42,Default,,0,0,0,,{\i1}nhiều như tôi đã nhận được.{\i0}
+Dialogue: 0,0:39:05.01,0:39:07.09,Default,,0,0,0,,{\i1}Ý của anh là hành động của anh\Nlà chính đáng không?{\i0}
+Dialogue: 0,0:39:09.05,0:39:10.72,Default,,0,0,0,,{\i1}Vừa rồi là thông tin từ hiện trường.{\i0}
+Dialogue: 0,0:39:10.80,0:39:12.95,Default,,0,0,0,,Bây giờ chúng tôi sẽ cho các bạn\Nxem đoạn video độc quyền
+Dialogue: 0,0:39:12.97,0:39:16.89,Default,,0,0,0,,được cho là quay cảnh\Ngiám đốc Park sát hại Jeong Gyu-cheol.
+Dialogue: 0,0:39:20.69,0:39:23.82,Default,,0,0,0,,{\an8}CÔNG BỐ VIDEO CEO PARK TAE-U SÁT HẠI HEONG GYE-CHEOL
+Dialogue: 0,0:39:28.61,0:39:32.12,Default,,0,0,0,,{\i1}Như các bạn có thể thấy, đoạn video\Nchỉ có vậy thôi.{\i0}
+Dialogue: 0,0:39:32.20,0:39:33.12,Default,,0,0,0,,Gì thế?
+Dialogue: 0,0:39:33.20,0:39:35.79,Default,,0,0,0,,{\i1}Video này không đủ\Nđể đưa ra làm bằng chứng{\i0}
+Dialogue: 0,0:39:35.87,0:39:38.00,Default,,0,0,0,,{\i1}rằng giám đốc Park đã sát hại\NJeong Gyu-cheol.{\i0}
+Dialogue: 0,0:39:38.08,0:39:41.37,Default,,0,0,0,,{\i1}Chúng tôi nghi ngờ\Nrằng anh ấy có thể vẫn còn sống.{\i0}
+Dialogue: 0,0:39:41.83,0:39:45.34,Default,,0,0,0,,{\i1}Đoạn video chỉ chứng minh\Nrằng giám đốc Park đã bị bắt cóc,{\i0}
+Dialogue: 0,0:39:45.42,0:39:47.05,Default,,0,0,0,,{\i1}như anh ấy đã tuyên bố trước đó...{\i0}
+Dialogue: 0,0:39:47.13,0:39:49.84,Default,,0,0,0,,Chúng tôi đã quyết định\Nhủy bỏ mọi cáo buộc về anh rồi.
+Dialogue: 0,0:39:50.59,0:39:52.72,Default,,0,0,0,,Xin lỗi vì hôm nay làm phiền mọi người quá.
+Dialogue: 0,0:39:52.80,0:39:55.85,Default,,0,0,0,,Ôi, anh nói như vậy làm chúng tôi buồn đó.
+Dialogue: 0,0:39:55.93,0:39:58.68,Default,,0,0,0,,Thời gian qua giám đốc đã\Ngiúp đỡ chúng tôi rất nhiều mà.
+Dialogue: 0,0:39:59.18,0:40:00.89,Default,,0,0,0,,Chúng tôi luôn cảm thấy biết ơn anh đó.
+Dialogue: 0,0:40:00.98,0:40:01.98,Default,,0,0,0,,Đúng vậy đó.
+Dialogue: 0,0:40:05.61,0:40:06.81,Default,,0,0,0,,{\an8}HƯỚNG DẪN ĐỐI ỨNG TRUYỀN THÔNG
+Dialogue: 0,0:40:08.24,0:40:11.28,Default,,0,0,0,,Uy hiếp mọi phương tiện truyền thông\Nsẽ hủy hợp đồng quảng cáo
+Dialogue: 0,0:40:11.36,0:40:14.16,Default,,0,0,0,,của tập đoàn Taekang nếu viết bất cứ\Nđiều gì tiêu cực về giám đốc!
+Dialogue: 0,0:40:15.12,0:40:16.58,Default,,0,0,0,,Park Tae-u vô tội!
+Dialogue: 0,0:40:16.66,0:40:18.58,Default,,0,0,0,,- Vô tội!\N- Vô tội!
+Dialogue: 0,0:40:18.66,0:40:20.44,Default,,0,0,0,,Tất cả các thành viên\Ntrong Đảng của chúng tôi
+Dialogue: 0,0:40:20.46,0:40:24.38,Default,,0,0,0,,- tin rằng giám đốc Park Tae-u vô tội!\N- Tin rằng giám đốc Park Tae-u vô tội!
+Dialogue: 0,0:40:24.46,0:40:26.34,Default,,0,0,0,,Nhiều đoàn thể dân sự và chính trị gia
+Dialogue: 0,0:40:26.42,0:40:28.38,Default,,0,0,0,,đã bày tỏ sự ủng hộ đối với\Ngiám đốc Park Tae-u.
+Dialogue: 0,0:40:28.46,0:40:30.84,Default,,0,0,0,,Cậu bịa đặt bằng chứng và\Nlàm lộ cho báo chí sao?
+Dialogue: 0,0:40:30.92,0:40:32.63,Default,,0,0,0,,Muốn đi đời thì mình cậu đi đi.
+Dialogue: 0,0:40:32.72,0:40:35.01,Default,,0,0,0,,Sao lại dám làm ảnh hưởng đến tôi hả?
+Dialogue: 0,0:40:35.10,0:40:37.39,Default,,0,0,0,,Tôi không bịa đặt bằng chứng.
+Dialogue: 0,0:40:37.47,0:40:38.97,Default,,0,0,0,,Tại sao báo chí và cảnh sát cứ nói
+Dialogue: 0,0:40:39.64,0:40:42.39,Default,,0,0,0,,mọi bằng chứng chống lại\NPark Tae-u là bịa đặt thế?
+Dialogue: 0,0:40:42.48,0:40:45.65,Default,,0,0,0,,Vì thế này nên những người như Park Tae-u\Nmới xem thế giới là trò đùa đó.
+Dialogue: 0,0:40:45.73,0:40:46.73,Default,,0,0,0,,Cậu nói cái gì?
+Dialogue: 0,0:40:47.11,0:40:49.07,Default,,0,0,0,,Sở trưởng, ngài bình tĩnh đã.\NCậu ấy chỉ là...
+Dialogue: 0,0:40:49.78,0:40:51.74,Default,,0,0,0,,Cả hai người chuẩn bị\Ntinh thần bị sa thải đi!
+Dialogue: 0,0:40:52.95,0:40:54.20,Default,,0,0,0,,Sở trưởng!
+Dialogue: 0,0:40:57.49,0:41:00.20,Default,,0,0,0,,{\i1}Tin báo về việc nhìn thấy Jeong Gyu-cheol\Ntiếp tục xuất hiện.{\i0}
+Dialogue: 0,0:41:00.29,0:41:01.79,Default,,0,0,0,,{\i1}Liệu Jeong Gyu-cheol thực sự đã chết?{\i0}
+Dialogue: 0,0:41:01.87,0:41:03.73,Default,,0,0,0,,{\i1}Với việc thi thể của Jeong Gyu-cheol\Nkhông được tìm thấy,{\i0}
+Dialogue: 0,0:41:03.75,0:41:06.25,Default,,0,0,0,,{\i1}giám đốc Park Tae-u sẽ được thả\Nvào ngày hôm nay do{\i0}
+Dialogue: 0,0:41:06.33,0:41:09.75,Default,,0,0,0,,{\i1}thiếu bằng chứng gián tiếp\Nchứng minh việc anh ấy thừa nhận tội lỗi.{\i0}
+Dialogue: 0,0:41:17.68,0:41:19.26,Default,,0,0,0,,Một cậu chuyện khá ngầu đó.
+Dialogue: 0,0:41:20.52,0:41:21.52,Default,,0,0,0,,Nhưng mà...
+Dialogue: 0,0:41:22.27,0:41:23.85,Default,,0,0,0,,tôi mới là người quyết định cái kết.
+Dialogue: 0,0:41:27.77,0:41:30.15,Default,,0,0,0,,Cái kết ngầu hơn vẫn đang đợi anh đó.
+Dialogue: 0,0:41:30.65,0:41:32.86,Default,,0,0,0,,Bởi vì tôi sẽ trả lại tất cả\Nnhững gì tôi đã nhận.
+Dialogue: 0,0:41:49.46,0:41:51.96,Default,,0,0,0,,- Park Tae-u!\N- Park Tae-u!
+Dialogue: 0,0:41:52.46,0:41:55.34,Default,,0,0,0,,- Park Tae-u!\N- Park Tae-u!
+Dialogue: 0,0:41:55.76,0:42:01.85,Default,,0,0,0,,- Park Tae-u!\N- Park Tae-u!
+Dialogue: 0,0:42:03.77,0:42:06.85,Default,,0,0,0,,Giám đốc, có cần dời lại\Nlịch trình đến Mỹ không ạ?
+Dialogue: 0,0:42:08.19,0:42:10.02,Default,,0,0,0,,Không, tiến hành theo dự kiến đi.
+Dialogue: 0,0:42:10.40,0:42:11.40,Default,,0,0,0,,Vâng ạ.
+Dialogue: 0,0:42:30.96,0:42:31.96,Default,,0,0,0,,Nói đi.
+Dialogue: 0,0:42:32.05,0:42:32.88,Default,,0,0,0,,{\i1}Giám đốc.{\i0}
+Dialogue: 0,0:42:33.00,0:42:35.34,Default,,0,0,0,,Không có bản sao video nào\Nở nhà An Ji-yeong cả.
+Dialogue: 0,0:42:36.42,0:42:38.51,Default,,0,0,0,,Tôi cũng bắt được An Ji-yeong rồi.
+Dialogue: 0,0:42:40.43,0:42:41.85,Default,,0,0,0,,Để hắn sống đi.
+Dialogue: 0,0:42:41.93,0:42:44.02,Default,,0,0,0,,Tôi sẽ tự tay xử lý hắn.
+Dialogue: 0,0:42:44.10,0:42:45.10,Default,,0,0,0,,{\i1}Vâng ạ.{\i0}
+Dialogue: 0,0:43:30.35,0:43:31.35,Default,,0,0,0,,Gì thế?
+Dialogue: 0,0:43:38.70,0:43:39.61,Default,,0,0,0,,{\i1}Park Tae-u.{\i0}
+Dialogue: 0,0:43:39.70,0:43:41.99,Default,,0,0,0,,{\i1}Tôi biết anh đã giết\Nkhông chỉ Jeong Gyu-cheol.{\i0}
+Dialogue: 0,0:43:42.07,0:43:44.83,Default,,0,0,0,,{\i1}Anh cũng đã giết Park Jin-tae,\NSong Jae-seop, Cho Tae-sang,{\i0}
+Dialogue: 0,0:43:44.91,0:43:48.25,Default,,0,0,0,,{\i1}Jang Geon-u, Lee Ji-su và Lee Su-yeon.{\i0}
+Dialogue: 0,0:43:50.12,0:43:52.42,Default,,0,0,0,,{\i1}Anh nhất định phải trả giá\Ncho tội lỗi của mình.{\i0}
+Dialogue: 0,0:43:52.50,0:43:53.59,Default,,0,0,0,,Là ai?
+Dialogue: 0,0:44:02.01,0:44:03.55,Default,,0,0,0,,Gì thế?
+Dialogue: 0,0:44:03.64,0:44:04.64,Default,,0,0,0,,Chuyện gì thế?
+Dialogue: 0,0:44:07.64,0:44:10.73,Default,,0,0,0,,{\i1}Anh đã giết em trai Park Jin-tae của mình\Nvà ngụy tạo nó thành một vụ tai nạn.{\i0}
+Dialogue: 0,0:44:10.81,0:44:13.02,Default,,0,0,0,,{\i1}Và sau đó, để đánh lạc hướng\Nbáo chí và dư luận,{\i0}
+Dialogue: 0,0:44:13.10,0:44:15.11,Default,,0,0,0,,{\i1}để họ không quan tâm đến\Ncái chết của Park Jin-tae,{\i0}
+Dialogue: 0,0:44:15.19,0:44:17.61,Default,,0,0,0,,{\i1}anh đã đề nghị cho Song Jae-seop 3 tỷ won,{\i0}
+Dialogue: 0,0:44:17.69,0:44:19.09,Default,,0,0,0,,{\i1}số tiền mà anh ấy không thể từ chối,{\i0}
+Dialogue: 0,0:44:19.11,0:44:21.78,Default,,0,0,0,,{\i1}để anh ta nhảy từ độ cao hơn 8,000m\Nmà không có dù{\i0}
+Dialogue: 0,0:44:21.86,0:44:23.62,Default,,0,0,0,,{\i1}làm anh ấy mất mạng.{\i0}
+Dialogue: 0,0:44:24.37,0:44:27.62,Default,,0,0,0,,{\i1}Máy bay này sẽ nổ sau 30 giây nữa,{\i0}
+Dialogue: 0,0:44:28.16,0:44:29.79,Default,,0,0,0,,{\i1}giống như khi Park Jin-tae chết.{\i0}
+Dialogue: 0,0:44:30.46,0:44:31.46,Default,,0,0,0,,Sao?
+Dialogue: 0,0:44:31.50,0:44:35.21,Default,,0,0,0,,{\i1}Song Jae-seop đã nhảy mà không có dù,\Nnhưng tôi sẽ cho anh một cơ hội.{\i0}
+Dialogue: 0,0:44:35.29,0:44:38.84,Default,,0,0,0,,{\i1}Hãy nhảy dù khỏi máy bay\Nnếu anh muốn sống.{\i0}
+Dialogue: 0,0:44:38.96,0:44:39.96,Default,,0,0,0,,Nhảy dù sao?
+Dialogue: 0,0:45:02.86,0:45:03.86,Default,,0,0,0,,Khốn kiếp.
+Dialogue: 0,0:45:06.99,0:45:08.41,Default,,0,0,0,,Dù đâu rồi?
+Dialogue: 0,0:45:09.70,0:45:10.70,Default,,0,0,0,,Khốn kiếp!
+Dialogue: 0,0:47:17.62,0:47:18.62,Default,,0,0,0,,Cái quái gì thế?
+Dialogue: 0,0:47:20.38,0:47:21.54,Default,,0,0,0,,Sao anh có thể...?
+Dialogue: 0,0:47:32.14,0:47:34.18,Default,,0,0,0,,Nhưng nếu tôi có cơ hội khác…
+Dialogue: 0,0:47:34.26,0:47:35.10,Default,,0,0,0,,{\an8}1 TUẦN TRƯỚC
+Dialogue: 0,0:47:35.18,0:47:37.85,Default,,0,0,0,,{\i1}tôi vẫn sẽ làm theo\Nphương châm sống của mình{\i0}
+Dialogue: 0,0:47:37.93,0:47:38.98,Default,,0,0,0,,và đền đáp...
+Dialogue: 0,0:47:39.06,0:47:41.19,Default,,0,0,0,,{\an8}HỌP BÁO KHẨN CỦA CEO PARK TAE-U\NTẬP ĐOÀN TAEKANG
+Dialogue: 0,0:47:41.27,0:47:42.69,Default,,0,0,0,,{\i1}…nhiều như tôi đã nhận được.{\i0}
+Dialogue: 0,0:47:47.24,0:47:49.49,Default,,0,0,0,,{\i1}Cậu ta hành động chính xác\Ntheo cách mà mình mong đợi.{\i0}
+Dialogue: 0,0:47:50.32,0:47:51.86,Default,,0,0,0,,{\i1}Cảm ơn nhé, Park Tae-u.{\i0}
+Dialogue: 0,0:47:51.95,0:47:54.70,Default,,0,0,0,,{\i1}Là cậu đã tăng số tiền đặt cược\Ncho vòng này đó.{\i0}
+Dialogue: 0,0:47:55.62,0:47:57.42,Default,,0,0,0,,{\i1}Vì thế giới\Nsẽ không đưa cậu ra trước công lý,{\i0}
+Dialogue: 0,0:47:57.45,0:48:00.83,Default,,0,0,0,,{\i1}tôi sẽ sử dụng ký ức của họ\Nđể đưa cậu ra trước công lý.{\i0}
+Dialogue: 0,0:48:00.92,0:48:04.00,Default,,0,0,0,,Điều duy nhất có thể tin tưởng ở cái ngành này\Nchỉ có thứ này thôi.
+Dialogue: 0,0:48:04.09,0:48:08.46,Default,,0,0,0,,Ổ cứng này chứa tất cả những bẩn thỉu\Nđã thu thập được trên máy của khách.
+Dialogue: 0,0:48:19.85,0:48:22.27,Default,,0,0,0,,Cuối cùng tất cả tội lỗi của cậu
+Dialogue: 0,0:48:22.35,0:48:24.36,Default,,0,0,0,,sẽ tìm đường quay trở lại\Nvới chủ nhân thôi.
+Dialogue: 0,0:48:29.99,0:48:31.49,Default,,0,0,0,,{\i1}Bằng ký ức của Park Jin-tae,{\i0}
+Dialogue: 0,0:48:31.57,0:48:35.07,Default,,0,0,0,,{\i1}tôi biết rằng Park Tae-u\Nđã cất giữ ma túy trong bút máy của mình.{\i0}
+Dialogue: 0,0:48:35.66,0:48:38.49,Default,,0,0,0,,{\i1}Tôi đã đổi chúng thành thuốc ngủ.{\i0}
+Dialogue: 0,0:48:38.58,0:48:40.71,Default,,0,0,0,,Tôi cũng bắt được An Ji-yeong rồi.
+Dialogue: 0,0:48:40.79,0:48:42.25,Default,,0,0,0,,{\i1}Để hắn sống đi.{\i0}
+Dialogue: 0,0:48:42.33,0:48:44.29,Default,,0,0,0,,Tôi sẽ tự tay xử lý hắn.
+Dialogue: 0,0:48:45.29,0:48:46.29,Default,,0,0,0,,Vâng ạ.
+Dialogue: 0,0:48:56.55,0:48:58.22,Default,,0,0,0,,{\i1}Bằng ký ức của Lee Ju-hun,{\i0}
+Dialogue: 0,0:48:58.31,0:49:00.22,Default,,0,0,0,,{\i1}tôi đã cài bom vào động cơ máy bay{\i0}
+Dialogue: 0,0:49:00.31,0:49:01.68,Default,,0,0,0,,{\i1}và khiến máy bay cất cánh.{\i0}
+Dialogue: 0,0:49:08.23,0:49:10.40,Default,,0,0,0,,{\i1}Sau đó, bằng ký ức của Song Jae-seop,{\i0}
+Dialogue: 0,0:49:10.49,0:49:12.61,Default,,0,0,0,,{\i1}tôi đã tung ra một đòn phản công.{\i0}
+Dialogue: 0,0:49:13.24,0:49:15.37,Default,,0,0,0,,{\i1}Điều này sẽ tạo ra tác động lớn hơn{\i0}
+Dialogue: 0,0:49:15.45,0:49:17.58,Default,,0,0,0,,{\i1}sau khi Park Tae-u tự mình đặt cược.{\i0}
+Dialogue: 0,0:49:17.66,0:49:20.94,Default,,0,0,0,,{\i1}Bây giờ chúng tôi sẽ cho các bạn xem\Nnhững video liên quan đến giám đốc Park Tae-u.{\i0}
+Dialogue: 0,0:49:21.45,0:49:25.33,Default,,0,0,0,,{\an8}Bằng chứng về vụ giết người của giám đốc Park Tae-u
+Dialogue: 0,0:49:25.42,0:49:26.78,Default,,0,0,0,,{\i1}Đó không phải em trai của cậu sao?{\i0}
+Dialogue: 0,0:49:30.25,0:49:31.42,Default,,0,0,0,,{\i1}Em trai cái khỉ gì.{\i0}
+Dialogue: 0,0:49:33.26,0:49:35.22,Default,,0,0,0,,{\i1}Làm cái chết của nó trông giống\Nmột vụ tai nạn đi.{\i0}
+Dialogue: 0,0:49:37.51,0:49:38.68,Default,,0,0,0,,Theo đoạn video,
+Dialogue: 0,0:49:38.76,0:49:42.06,Default,,0,0,0,,{\i1}giám đốc Park Tae-u đã ủy thác giết hại\Nem trai Park Jin-tae,{\i0}
+Dialogue: 0,0:49:42.14,0:49:45.60,Default,,0,0,0,,{\i1}một video quay cảnh anh ta thú nhận\Ngiết người cũng đã được đăng tải.{\i0}
+Dialogue: 0,0:49:45.69,0:49:48.52,Default,,0,0,0,,{\i1}Nhưng dù có giết vài người sau đó,{\i0}
+Dialogue: 0,0:49:48.61,0:49:50.73,Default,,0,0,0,,{\i1}tôi cũng không thể cảm nhận lại\Ncảm giác như lúc đó.{\i0}
+Dialogue: 0,0:49:50.82,0:49:52.94,Default,,0,0,0,,{\i1}Làm sao anh biết tôi đã giết Park Jin-tae?{\i0}
+Dialogue: 0,0:49:53.03,0:49:53.90,Default,,0,0,0,,{\i1}Cùng với các đoạn video,{\i0}
+Dialogue: 0,0:49:53.99,0:49:55.55,Default,,0,0,0,,{\i1}bằng chứng chứng mình rằng các sở trưởng,{\i0}
+Dialogue: 0,0:49:55.57,0:49:58.91,Default,,0,0,0,,{\i1}các sĩ quan cảnh sát cao cấp\Nđã che đậy tội ác của Park Tae-u{\i0}
+Dialogue: 0,0:49:58.99,0:50:02.04,Default,,0,0,0,,{\i1}để nhận hối lộ cũng được công bố.{\i0}
+Dialogue: 0,0:51:05.18,0:51:06.27,Default,,0,0,0,,Cái quái gì thế?
+Dialogue: 0,0:51:07.98,0:51:09.27,Default,,0,0,0,,Sao anh có thể...?
+Dialogue: 0,0:51:17.99,0:51:19.78,Default,,0,0,0,,Anh không phải là người quyết định
+Dialogue: 0,0:51:20.53,0:51:21.77,Default,,0,0,0,,cái kết của câu chuyện này đâu.
+Dialogue: 0,0:51:24.08,0:51:25.75,Default,,0,0,0,,Những câu chuyện hay
+Dialogue: 0,0:51:27.00,0:51:28.46,Default,,0,0,0,,luôn có sự đảo ngược.
+Dialogue: 0,0:52:02.45,0:52:04.91,Default,,0,0,0,,Mày đã hành động như thể\Nmình là một vị thần mà.
+Dialogue: 0,0:52:05.83,0:52:07.12,Default,,0,0,0,,Bây giờ cảm thấy thế nào hả?
+Dialogue: 0,0:52:12.75,0:52:14.29,Default,,0,0,0,,Mày đã giết Ji-su.
+Dialogue: 0,0:52:14.38,0:52:15.71,Default,,0,0,0,,Là mày đã giết cô ấy!
+Dialogue: 0,0:52:22.97,0:52:24.14,Default,,0,0,0,,Park Tae-u,
+Dialogue: 0,0:52:24.22,0:52:25.64,Default,,0,0,0,,hãy xuống địa ngục với nhau đi.
+Dialogue: 0,0:52:58.80,0:52:59.88,Default,,0,0,0,,Ừ.
+Dialogue: 0,0:53:00.67,0:53:02.72,Default,,0,0,0,,Quy tắc của Tử thần cái quái gì!
+Dialogue: 0,0:53:03.38,0:53:04.38,Default,,0,0,0,,Tôi không quan tâm!
+Dialogue: 0,0:53:04.43,0:53:06.26,Default,,0,0,0,,Tôi sẽ giết tên khốn này!
+Dialogue: 0,0:53:36.33,0:53:38.59,Default,,0,0,0,,{\an8}TÁC GIẢ LEE JI-SU
+Dialogue: 0,0:53:53.77,0:53:55.69,Default,,0,0,0,,{\i1}Câu chuyện mà anh đang viết...{\i0}
+Dialogue: 0,0:53:56.31,0:53:57.61,Default,,0,0,0,,{\i1}có kết thúc có hậu không?{\i0}
+Dialogue: 0,0:53:59.27,0:54:00.82,Default,,0,0,0,,Tôi mong rằng câu chuyện của anh...
+Dialogue: 0,0:54:02.36,0:54:04.65,Default,,0,0,0,,kết thúc có hậu.
+Dialogue: 0,0:54:08.16,0:54:09.24,Default,,0,0,0,,Ji-su à…

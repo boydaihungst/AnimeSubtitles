@@ -1,0 +1,401 @@
+[Script Info]
+; This is an Advanced Sub Station Alpha v4+ script.
+Title:
+ScriptType: v4.00+
+PlayDepth: 0
+ScaledBorderAndShadow: Yes
+PlayResX: 1920
+PlayResY: 1080
+
+[V4+ Styles]
+Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
+Style: Default,Noto Sans,80.0,&H00FFFFFF,&H000000FF,&H00002208,&H00000000,-1,0,0,0,100,100,0,0,1,3.0,2.0,2,0,0,65,1
+
+[Events]
+Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
+Dialogue: 0,0:00:07.30,0:00:08.52,Default,,0,0,0,,Được rồi!
+Dialogue: 0,0:00:08.52,0:00:09.66,Default,,0,0,0,,Đi thôi nào!
+Dialogue: 0,0:00:13.11,0:00:15.44,Default,,0,0,0,,Vào ngày thứ hai của Lễ hội thu hoạch,
+Dialogue: 0,0:00:15.44,0:00:17.44,Default,,0,0,0,,Iruma đã có được Hạt giống khởi đầu.
+Dialogue: 0,0:00:18.03,0:00:19.89,Default,,0,0,0,,Hiện cậu đang tìm hang động ngầm
+Dialogue: 0,0:00:19.89,0:00:22.47,Default,,0,0,0,,dẫn ra bên ngoài để hội nhóm với Lied.
+Dialogue: 0,0:00:27.72,0:00:31.74,Default,,0,0,0,,May mà ngài Thoth\Nchỉ cho chúng ta đường trở về nhỉ.
+Dialogue: 0,0:00:33.15,0:00:35.71,Default,,0,0,0,,Mất cả đống thời gian\Nđể vượt qua thử thách đó mà.
+Dialogue: 0,0:00:35.71,0:00:39.12,Default,,0,0,0,,Tập một.\NThình thịch, tai nạn giao thông tình yêu!
+Dialogue: 0,0:00:39.12,0:00:41.77,Default,,0,0,0,,Em sẽ trở nên mạnh mẽ hơn nữa.
+Dialogue: 0,0:00:41.77,0:00:44.19,Default,,0,0,0,,Để bảo vệ sự tươi tắn của anh cho xem.
+Dialogue: 0,0:00:44.19,0:00:45.44,Default,,0,0,0,,Và cả hành tinh này nữa!
+Dialogue: 0,0:00:45.81,0:00:49.19,Default,,0,0,0,,Phải nhanh ra ngoài hội nhóm với Lied thôi!
+Dialogue: 0,0:00:51.73,0:00:54.20,Default,,0,0,0,,Mình phải giải thích sao về Nafra đây?
+Dialogue: 0,0:00:54.99,0:00:57.86,Default,,0,0,0,,Dù sao cũng là đối thủ mà nhỉ.
+Dialogue: 0,0:00:58.86,0:00:59.78,Default,,0,0,0,,Nhưng mà,
+Dialogue: 0,0:00:59.78,0:01:02.46,Default,,0,0,0,,cậu ấy đã giúp mình thu hoạch hạt giống.
+Dialogue: 0,0:01:03.12,0:01:05.41,Default,,0,0,0,,Hay là chia điểm thu hoạch ra làm ba?
+Dialogue: 0,0:01:05.41,0:01:07.59,Default,,0,0,0,,Để xem, để xem nào.
+Dialogue: 0,0:01:07.59,0:01:10.53,Default,,0,0,0,,Hoặc là chia cho Lied phân nửa,
+Dialogue: 0,0:01:10.53,0:01:12.78,Default,,0,0,0,,còn mình và Nafra chia nhau nửa còn lại?
+Dialogue: 0,0:01:14.84,0:01:15.50,Default,,0,0,0,,Hửm?
+Dialogue: 0,0:01:16.47,0:01:18.53,Default,,0,0,0,,Thôi để gặp rồi tính.
+Dialogue: 0,0:01:20.26,0:01:22.97,Default,,0,0,0,,Tạm hoãn lại vấn đề, để hội nhóm với Lied.
+Dialogue: 0,0:01:27.48,0:01:31.01,Default,,0,0,0,,Những học sinh của lớp cá biệt\Nđã bị áp đặt một thử thách.
+Dialogue: 0,0:01:31.01,0:01:33.18,Default,,0,0,0,,Đó là đến khi lên năm hai,
+Dialogue: 0,0:01:33.18,0:01:36.79,Default,,0,0,0,,nếu tất cả học sinh\Nkhông thăng lên được hạng Daleth thì.
+Dialogue: 0,0:01:36.79,0:01:39.24,Default,,0,0,0,,Họ sẽ bị tống cổ khỏi Royal One,
+Dialogue: 0,0:01:39.24,0:01:42.87,Default,,0,0,0,,phòng học của Vua mà họ khó khăn lắm mới đạt được!
+Dialogue: 0,0:01:42.87,0:01:46.89,Default,,0,0,0,,Nhóm Iruma giờ đây\Nchuẩn bị đối mặt với bài thi thăng hạng!
+Dialogue: 0,0:01:46.89,0:01:50.07,Default,,0,0,0,,Đầu tiên chính là Lễ hội thu hoạch.
+Dialogue: 0,0:03:22.98,0:03:27.48,Default,,0,0,0,,(Gửi nguyện vọng vào cánh cung)
+Dialogue: 0,0:03:30.60,0:03:31.95,Default,,0,0,0,,Nhắc mới nhớ,
+Dialogue: 0,0:03:31.95,0:03:35.30,Default,,0,0,0,,từ lúc nào không hay mình hết để ý đến mùi của Nafra nữa rồi.
+Dialogue: 0,0:03:38.41,0:03:40.02,Default,,0,0,0,,Mình quen với nó rồi sao?
+Dialogue: 0,0:03:40.02,0:03:42.51,Default,,0,0,0,,Hay là thích ứng với hoàn cảnh?
+Dialogue: 0,0:03:43.36,0:03:44.52,Default,,0,0,0,,Lễ hội thu hoạch này
+Dialogue: 0,0:03:44.52,0:03:47.37,Default,,0,0,0,,nhắc mình nhớ lại nhiều cảm giác xưa ghê.
+Dialogue: 0,0:03:47.37,0:03:48.64,Default,,0,0,0,,Hồi đó.
+Dialogue: 0,0:03:58.50,0:04:02.38,Default,,0,0,0,,Á! Oái!
+Dialogue: 0,0:04:11.06,0:04:13.65,Default,,0,0,0,,Chuỗi ngày chật vật chỉ để sống sót.
+Dialogue: 0,0:04:17.70,0:04:19.38,Default,,0,0,0,,Từ lúc tới Ma giới này,
+Dialogue: 0,0:04:19.38,0:04:22.01,Default,,0,0,0,,mình gặp toàn những điều lạ lẫm và kỳ cục.
+Dialogue: 0,0:04:23.65,0:04:26.17,Default,,0,0,0,,Nhiều khó khăn đã xảy ra.
+Dialogue: 0,0:04:26.91,0:04:28.69,Default,,0,0,0,,Lúc đầu mình thấy ai cũng đáng sợ hết.
+Dialogue: 0,0:04:31.04,0:04:34.28,Default,,0,0,0,,Hồi đó cứ tưởng sẽ bị ăn thịt thật rồi chứ.
+Dialogue: 0,0:04:35.37,0:04:36.54,Default,,0,0,0,,Cả giáo viên và bạn học,
+Dialogue: 0,0:04:37.08,0:04:38.79,Default,,0,0,0,,trông ai cũng giống quỷ hết.
+Dialogue: 0,0:04:39.46,0:04:42.01,Default,,0,0,0,,Nhưng thật ra mọi người đều khá tốt bụng.
+Dialogue: 0,0:04:42.01,0:04:43.49,Default,,0,0,0,,À không,
+Dialogue: 0,0:04:43.49,0:04:45.38,Default,,0,0,0,,là quỷ tốt bụng chứ.
+Dialogue: 0,0:04:46.22,0:04:47.93,Default,,0,0,0,,Mình còn kết bạn được nữa.
+Dialogue: 0,0:04:47.93,0:04:49.56,Default,,0,0,0,,Dần dần mình đã có thể ngủ ngon giấc.
+Dialogue: 0,0:04:49.56,0:04:51.44,Default,,0,0,0,,Đã có thể ăn cho no bụng.
+Dialogue: 0,0:04:52.81,0:04:54.82,Default,,0,0,0,,Cuộc sống học đường cũng trở nên thật vui.
+Dialogue: 0,0:04:55.52,0:04:57.53,Default,,0,0,0,,Dù mình là con người,
+Dialogue: 0,0:04:58.02,0:04:59.16,Default,,0,0,0,,Nhưng mà,
+Dialogue: 0,0:04:59.16,0:05:02.54,Default,,0,0,0,,việc cố gắng ở chốn Ma giới này\Nlà ý chí của chính bản thân mình.
+Dialogue: 0,0:05:03.74,0:05:05.52,Default,,0,0,0,,Thế nên,
+Dialogue: 0,0:05:06.32,0:05:10.55,Default,,0,0,0,,mình đang rất phấn khích và hào hứng đây!
+Dialogue: 0,0:05:10.55,0:05:13.01,Default,,0,0,0,,Oa!
+Dialogue: 0,0:05:24.14,0:05:24.97,Default,,0,0,0,,Đi thôi!
+Dialogue: 0,0:05:26.78,0:05:29.05,Default,,0,0,0,,Dô ta.
+Dialogue: 0,0:05:44.46,0:05:45.86,Default,,0,0,0,,Hò dô ta.
+Dialogue: 0,0:05:48.90,0:05:49.98,Default,,0,0,0,,Ơ kìa?
+Dialogue: 0,0:05:49.98,0:05:50.71,Default,,0,0,0,,Tớ không sao.
+Dialogue: 0,0:05:55.04,0:05:58.12,Default,,0,0,0,,Thế nên mình.
+Dialogue: 0,0:05:58.46,0:06:00.60,Default,,0,0,0,,Sẽ cố gắng hơn nữa ở Ma giới này.
+Dialogue: 0,0:06:00.60,0:06:01.54,Default,,0,0,0,,Ớ?
+Dialogue: 0,0:06:03.84,0:06:05.36,Default,,0,0,0,,Iruma!
+Dialogue: 0,0:06:05.36,0:06:07.20,Default,,0,0,0,,Tìm thấy con rồi!
+Dialogue: 0,0:06:08.08,0:06:10.02,Default,,0,0,0,,Ể?
+Dialogue: 0,0:06:10.02,0:06:11.38,Default,,0,0,0,,Khỏe không con?
+Dialogue: 0,0:06:11.38,0:06:12.22,Default,,0,0,0,,Ơ?
+Dialogue: 0,0:06:12.22,0:06:14.84,Default,,0,0,0,,Bố mẹ thì khỏe như trâu vậy đó!
+Dialogue: 0,0:06:14.84,0:06:17.79,Default,,0,0,0,,Khoan, tại sao!?\NÀ không, làm cách nào chứ!?
+Dialogue: 0,0:06:17.79,0:06:19.47,Default,,0,0,0,,Cách nào á?
+Dialogue: 0,0:06:19.47,0:06:20.28,Default,,0,0,0,,Thì đi bộ?
+Dialogue: 0,0:06:20.28,0:06:21.27,Default,,0,0,0,,Không không.
+Dialogue: 0,0:06:21.61,0:06:22.89,Default,,0,0,0,,Chỗ này là Ma-
+Dialogue: 0,0:06:24.04,0:06:25.27,Default,,0,0,0,,Dù là Ma giới,
+Dialogue: 0,0:06:25.83,0:06:28.64,Default,,0,0,0,,nhưng hai người này thì dám tới được lắm!
+Dialogue: 0,0:06:29.16,0:06:30.66,Default,,0,0,0,,Iruma!
+Dialogue: 0,0:06:30.66,0:06:33.40,Default,,0,0,0,,Hoan hô, vô trách nhiệm là mình vô trách nhiệm.
+Dialogue: 0,0:06:33.40,0:06:35.50,Default,,0,0,0,,Vô trách nhiệm hoan hô hoan hô.
+Dialogue: 0,0:06:35.50,0:06:37.15,Default,,0,0,0,,Hoan hô!
+Dialogue: 0,0:06:37.62,0:06:40.39,Default,,0,0,0,,Bố mẹ lại hết tiền nữa rồi.
+Dialogue: 0,0:06:40.39,0:06:43.47,Default,,0,0,0,,Nên giờ đang tìm cách kiếm đây.
+Dialogue: 0,0:06:43.47,0:06:44.88,Default,,0,0,0,,Nghe vui lắm phải không,
+Dialogue: 0,0:06:44.88,0:06:46.21,Default,,0,0,0,,nhỉ Iruma!
+Dialogue: 0,0:06:46.21,0:06:47.56,Default,,0,0,0,,Nhỉ á.
+Dialogue: 0,0:06:48.55,0:06:51.17,Default,,0,0,0,,Không phải!\NTrước tiên mình phải nói rõ mới được!
+Dialogue: 0,0:06:51.97,0:06:52.93,Default,,0,0,0,,Phải mắng họ!
+Dialogue: 0,0:06:52.93,0:06:55.67,Default,,0,0,0,,Phải mắng họ vì đã bán mình đi mới được!
+Dialogue: 0,0:06:57.98,0:06:59.02,Default,,0,0,0,,- Này nhé-\NTiếp theo
+Dialogue: 0,0:06:59.02,0:07:01.86,Default,,0,0,0,,mình đến sa mạc\Nkiếm một phát bộn tiền thì sao chồng!?
+Dialogue: 0,0:07:01.86,0:07:03.63,Default,,0,0,0,,Vợ chán Bắc Cực lắm rồi!
+Dialogue: 0,0:07:03.63,0:07:04.94,Default,,0,0,0,,Được đó vợ!
+Dialogue: 0,0:07:04.94,0:07:08.44,Default,,0,0,0,,Đi săn kho báu trong kim tự tháp\Nnhét cho đầy túi nào!
+Dialogue: 0,0:07:08.44,0:07:10.83,Default,,0,0,0,,- Một bước lên mây luôn!\N- Họ chẳng thèm nghe gì hết.
+Dialogue: 0,0:07:10.83,0:07:13.23,Default,,0,0,0,,À, bọ cạp cũng ăn được phải không,
+Dialogue: 0,0:07:13.23,0:07:15.98,Default,,0,0,0,,- mở quầy bán có khi cũng giàu đấy.\N- Họ là kiểu người như vậy mà.
+Dialogue: 0,0:07:15.98,0:07:16.91,Default,,0,0,0,,Được đó!
+Dialogue: 0,0:07:16.91,0:07:18.98,Default,,0,0,0,,Thế này thì lại như cũ thôi.
+Dialogue: 0,0:07:18.98,0:07:20.85,Default,,0,0,0,,Nói chung chuyện là thế đó.
+Dialogue: 0,0:07:21.96,0:07:24.15,Default,,0,0,0,,Về thôi nào Iruma.
+Dialogue: 0,0:07:25.09,0:07:26.34,Default,,0,0,0,,Ể!
+Dialogue: 0,0:07:27.39,0:07:29.34,Default,,0,0,0,,Như thế hơi.
+Dialogue: 0,0:07:30.16,0:07:31.85,Default,,0,0,0,,Ể? Sao thế?\NBình thường con\Nsẽ.
+Dialogue: 0,0:07:32.38,0:07:33.08,Default,,0,0,0,,Con biết rồi!
+Dialogue: 0,0:07:33.08,0:07:35.09,Default,,0,0,0,,Toàn nói thế rồi theo chân bố mẹ mà.
+Dialogue: 0,0:07:35.43,0:07:38.63,Default,,0,0,0,,Iruma là một đứa con ngoan\Nluôn làm theo những gì bố mẹ nhờ mà phải không.
+Dialogue: 0,0:07:38.63,0:07:39.52,Default,,0,0,0,,Nhỉ?
+Dialogue: 0,0:07:39.52,0:07:40.51,Default,,0,0,0,,Phải đó.
+Dialogue: 0,0:07:40.51,0:07:43.35,Default,,0,0,0,,Bố mẹ rất yêu một Iruma ngoan ngoãn như thế.
+Dialogue: 0,0:07:43.35,0:07:44.62,Default,,0,0,0,,Đúng thế đấy!
+Dialogue: 0,0:07:45.31,0:07:47.09,Default,,0,0,0,,Theo bố mẹ về nào Iruma.
+Dialogue: 0,0:07:47.09,0:07:49.09,Default,,0,0,0,,Chắc chắn sẽ rất vui đó!
+Dialogue: 0,0:07:49.09,0:07:53.10,Default,,0,0,0,,Phải đó, đi nào Iruma, nhé?
+Dialogue: 0,0:07:53.10,0:07:54.74,Default,,0,0,0,,Thế nên, nhé?
+Dialogue: 0,0:07:55.24,0:07:58.43,Default,,0,0,0,,Iruma.
+Dialogue: 0,0:07:58.43,0:08:01.74,Default,,0,0,0,,Xin con đó.
+Dialogue: 0,0:08:03.26,0:08:07.26,Default,,0,0,0,,Iruma.
+Dialogue: 0,0:08:08.73,0:08:10.51,Default,,0,0,0,,Á!
+Dialogue: 0,0:08:19.77,0:08:22.26,Default,,0,0,0,,Ôi trời, rơi xuống mất rồi.
+Dialogue: 0,0:08:23.26,0:08:26.89,Default,,0,0,0,,Năng lực có thể tạo ra ảo ảnh\Ntừ ám ảnh của đối phương.
+Dialogue: 0,0:08:26.89,0:08:29.16,Default,,0,0,0,,Không hổ danh là ngài Orobas!
+Dialogue: 0,0:08:29.16,0:08:31.36,Default,,0,0,0,,Ngoạn mục chưa từng thấy luôn!
+Dialogue: 0,0:08:31.36,0:08:34.31,Default,,0,0,0,,Ngài khiến Ocho này cảm phục quá đi!
+Dialogue: 0,0:08:35.24,0:08:37.25,Default,,0,0,0,,Việc cậu ta ngã chỉ là trùng hợp thôi.
+Dialogue: 0,0:08:37.25,0:08:39.75,Default,,0,0,0,,Ta đã dùng thuật khá mạnh.
+Dialogue: 0,0:08:39.75,0:08:41.93,Default,,0,0,0,,Nên cho dù Iruma có bình yên đi nữa,
+Dialogue: 0,0:08:41.93,0:08:47.04,Default,,0,0,0,,thì cậu ta vẫn sẽ bị ảo ảnh đó tra tấn\Nsuốt Lễ hội thu hoạch thôi.
+Dialogue: 0,0:08:50.03,0:08:52.20,Default,,0,0,0,,Không hổ danh là ngài Orobas-
+Dialogue: 0,0:08:55.72,0:08:56.67,Default,,0,0,0,,Tên này bị sao vậy!
+Dialogue: 0,0:08:56.67,0:08:58.10,Default,,0,0,0,,Mà hôi quá!
+Dialogue: 0,0:08:58.10,0:08:59.31,Default,,0,0,0,,Tên này bị sao vậy!?
+Dialogue: 0,0:09:01.31,0:09:03.09,Default,,0,0,0,,Hôi quá hôi quá!
+Dialogue: 0,0:09:03.09,0:09:06.65,Default,,0,0,0,,Ngài Orobas!\NNgài làm ơn ra tay với tên này luôn đi!
+Dialogue: 0,0:09:06.65,0:09:09.96,Default,,0,0,0,,Mục tiêu của chúng ta chỉ có lớp cá biệt thôi.
+Dialogue: 0,0:09:09.96,0:09:11.41,Default,,0,0,0,,Những tên khác ta không quan tâm.
+Dialogue: 0,0:09:12.72,0:09:15.04,Default,,0,0,0,,Ngài Orobas nói chí phải!
+Dialogue: 0,0:09:15.04,0:09:15.95,Default,,0,0,0,,Đi thôi!
+Dialogue: 0,0:09:15.95,0:09:17.20,Default,,0,0,0,,Vâng.
+Dialogue: 0,0:09:36.69,0:09:41.06,Default,,0,0,0,,(Bách phát bách trúng)
+Dialogue: 0,0:09:55.16,0:09:56.11,Default,,0,0,0,,Nơi này là.
+Dialogue: 0,0:09:57.03,0:10:01.06,Default,,0,0,0,,Hình như mình đã gặp bố mẹ, rồi ngã xuống.
+Dialogue: 0,0:10:01.07,0:10:01.61,Default,,0,0,0,,Ui da.
+Dialogue: 0,0:10:02.49,0:10:03.61,Default,,0,0,0,,Chân mình.
+Dialogue: 0,0:10:04.09,0:10:06.26,Default,,0,0,0,,Bị thương rồi, tính sao đây.
+Dialogue: 0,0:10:06.26,0:10:08.12,Default,,0,0,0,,Còn phải nhanh chóng trở lên trên nữa!
+Dialogue: 0,0:10:12.75,0:10:14.63,Default,,0,0,0,,As! Clara!?
+Dialogue: 0,0:10:15.02,0:10:16.97,Default,,0,0,0,,Ể, tại sao?
+Dialogue: 0,0:10:16.97,0:10:18.76,Default,,0,0,0,,Hai cậu cũng rơi xuống đây hả?
+Dialogue: 0,0:10:19.81,0:10:21.64,Default,,0,0,0,,Đừng có lại gần ta, đồ con người.
+Dialogue: 0,0:10:23.51,0:10:24.52,Default,,0,0,0,,Ể?
+Dialogue: 0,0:10:25.30,0:10:28.79,Default,,0,0,0,,Ma lực và ma thuật của ngươi tất cả đều là giả,
+Dialogue: 0,0:10:28.79,0:10:30.27,Default,,0,0,0,,đều là dối trá.
+Dialogue: 0,0:10:33.04,0:10:34.74,Default,,0,0,0,,Ch-Chuyện đó.
+Dialogue: 0,0:10:34.74,0:10:36.85,Default,,0,0,0,,Đồ dối trá, tôi ghét cậu!
+Dialogue: 0,0:10:36.85,0:10:39.03,Default,,0,0,0,,Đừng bao giờ dính líu gì đến bọn ta nữa.
+Dialogue: 0,0:10:39.03,0:10:41.03,Default,,0,0,0,,Đồ phản bội!
+Dialogue: 0,0:10:41.55,0:10:43.88,Default,,0,0,0,,Khoan, chờ đã!
+Dialogue: 0,0:10:43.88,0:10:45.05,Default,,0,0,0,,Không phải,
+Dialogue: 0,0:10:45.05,0:10:46.21,Default,,0,0,0,,không phải thế đâu!
+Dialogue: 0,0:10:47.62,0:10:49.09,Default,,0,0,0,,Không phải chỗ nào hả.
+Dialogue: 0,0:10:51.03,0:10:53.05,Default,,0,0,0,,Chị Ameri?
+Dialogue: 0,0:10:53.05,0:10:56.03,Default,,0,0,0,,Không ngờ cậu đã luôn lừa dối tôi,
+Dialogue: 0,0:10:56.03,0:10:57.55,Default,,0,0,0,,tôi nhìn lầm cậu rồi.
+Dialogue: 0,0:10:59.20,0:11:00.72,Default,,0,0,0,,Hiển nhiên thôi.
+Dialogue: 0,0:11:01.75,0:11:04.95,Default,,0,0,0,,Việc con người và quỷ\Ncùng chung sống là điều bất khả thi.
+Dialogue: 0,0:11:04.95,0:11:08.95,Default,,0,0,0,,Ngươi không phải là một sự tồn tại\Nnên có mặt ở Ma giới.
+Dialogue: 0,0:11:10.81,0:11:12.74,Default,,0,0,0,,Cháu Iruma!
+Dialogue: 0,0:11:12.74,0:11:13.68,Default,,0,0,0,,Cậu Iruma.
+Dialogue: 0,0:11:14.31,0:11:16.20,Default,,0,0,0,,Ô-Ông, và Opera!
+Dialogue: 0,0:11:16.20,0:11:19.97,Default,,0,0,0,,Không sao đâu, cháu đừng lo.
+Dialogue: 0,0:11:19.97,0:11:21.09,Default,,0,0,0,,Lại đây với ông nào.
+Dialogue: 0,0:11:21.09,0:11:22.58,Default,,0,0,0,,Ông ơi, cháu.
+Dialogue: 0,0:11:22.58,0:11:23.83,Default,,0,0,0,,Ngoan ngoãn.
+Dialogue: 0,0:11:24.62,0:11:28.22,Default,,0,0,0,,Bố mẹ cháu đã đến đón rồi,\Nngoan ngoãn theo họ về đi.
+Dialogue: 0,0:11:28.59,0:11:31.83,Default,,0,0,0,,Iruma.
+Dialogue: 0,0:11:31.83,0:11:32.96,Default,,0,0,0,,Nào,
+Dialogue: 0,0:11:32.96,0:11:35.10,Default,,0,0,0,,mời cậu nhanh trở về đi.
+Dialogue: 0,0:11:35.10,0:11:36.85,Default,,0,0,0,,Trở về nơi cậu thật sự thuộc về.
+Dialogue: 0,0:11:37.84,0:11:39.24,Default,,0,0,0,,Iruma.
+Dialogue: 0,0:11:39.24,0:11:40.79,Default,,0,0,0,,Nào Iruma.
+Dialogue: 0,0:11:40.79,0:11:43.84,Default,,0,0,0,,Cùng bố mẹ trở về thôi!
+Dialogue: 0,0:12:15.28,0:12:16.51,Default,,0,0,0,,Không thể nào.
+Dialogue: 0,0:12:17.84,0:12:22.01,Default,,0,0,0,,Mọi người sẽ không bao giờ nói ra những lời đó.
+Dialogue: 0,0:12:22.66,0:12:24.80,Default,,0,0,0,,Đó là ảo ảnh.
+Dialogue: 0,0:12:24.80,0:12:27.08,Default,,0,0,0,,Nhất định,
+Dialogue: 0,0:12:27.08,0:12:28.90,Default,,0,0,0,,chắc chắn là như vậy.
+Dialogue: 0,0:12:28.90,0:12:31.90,Default,,0,0,0,,Dù biết đó là ảo ảnh rồi mà.
+Dialogue: 0,0:12:31.90,0:12:35.32,Default,,0,0,0,,Nhưng cơ thể mình, vẫn không cử động được!
+Dialogue: 0,0:12:36.03,0:12:37.41,Default,,0,0,0,,Không phải vì chân mình bị thương.
+Dialogue: 0,0:12:39.28,0:12:41.90,Default,,0,0,0,,Trước giờ mình,
+Dialogue: 0,0:12:41.90,0:12:45.41,Default,,0,0,0,,dù cô đơn nhưng mình vẫn chống chọi được.
+Dialogue: 0,0:12:46.42,0:12:49.21,Default,,0,0,0,,Mình xem việc bị bỏ rơi như một điều hiển nhiên,
+Dialogue: 0,0:12:49.21,0:12:52.75,Default,,0,0,0,,và chẳng thấy khổ sở gì vì việc đó cả.
+Dialogue: 0,0:12:52.75,0:12:54.72,Default,,0,0,0,,Tuyệt vọng cũng chẳng ích lợi gì.
+Dialogue: 0,0:12:55.37,0:12:57.28,Default,,0,0,0,,Vì nó có giúp mình no bụng được đâu,
+Dialogue: 0,0:12:57.28,0:12:59.15,Default,,0,0,0,,chẳng phải điều gì tốt đẹp cả.
+Dialogue: 0,0:12:59.15,0:13:00.48,Default,,0,0,0,,Thế mà giờ đây,
+Dialogue: 0,0:13:00.48,0:13:03.74,Default,,0,0,0,,mình đã có rất nhiều người quan trọng ở bên.
+Dialogue: 0,0:13:03.74,0:13:07.97,Default,,0,0,0,,Mình đã có một nơi ấm áp\Nđầy tình yêu thương để xem là nhà.
+Dialogue: 0,0:13:09.72,0:13:11.36,Default,,0,0,0,,Nhưng nếu lỡ như,
+Dialogue: 0,0:13:12.64,0:13:15.20,Default,,0,0,0,,mọi người cũng bỏ rơi mình thì sao.
+Dialogue: 0,0:13:18.91,0:13:22.24,Default,,0,0,0,,Mình sẽ lại cô đơn.
+Dialogue: 0,0:13:26.84,0:13:28.65,Default,,0,0,0,,Đã luôn,
+Dialogue: 0,0:13:28.65,0:13:31.04,Default,,0,0,0,,có một từ mà mình cố giữ kín trong lòng.
+Dialogue: 0,0:13:32.31,0:13:36.17,Default,,0,0,0,,Mình không muốn nói ra, không được nói ra.
+Dialogue: 0,0:13:36.17,0:13:37.06,Default,,0,0,0,,Nhưng mà.
+Dialogue: 0,0:13:38.72,0:13:39.73,Default,,0,0,0,,Nhưng mà!
+Dialogue: 0,0:13:46.40,0:13:47.97,Default,,0,0,0,,Cô đơn.
+Dialogue: 0,0:13:51.12,0:13:52.05,Default,,0,0,0,,Quá đi.
+Dialogue: 0,0:13:52.80,0:13:54.65,Default,,0,0,0,,Không,
+Dialogue: 0,0:13:55.54,0:13:58.11,Default,,0,0,0,,đừng bỏ con lại mà.
+Dialogue: 0,0:14:01.25,0:14:03.02,Default,,0,0,0,,Thật là.
+Dialogue: 0,0:14:04.96,0:14:06.90,Default,,0,0,0,,Cái tên nhà ngươi,
+Dialogue: 0,0:14:06.90,0:14:09.07,Default,,0,0,0,,đúng là ngốc hết thuốc chữa.
+Dialogue: 0,0:14:11.09,0:14:13.96,Default,,0,0,0,,Quên sạch sành sanh những gì ta dạy rồi hả!?
+Dialogue: 0,0:14:13.96,0:14:15.96,Default,,0,0,0,,S-Sư phụ.
+Dialogue: 0,0:14:20.07,0:14:23.09,Default,,0,0,0,,Quên sạch sành sanh những gì ta dạy rồi hả!?
+Dialogue: 0,0:14:26.13,0:14:27.87,Default,,0,0,0,,Đúng rồi.
+Dialogue: 0,0:14:27.87,0:14:29.72,Default,,0,0,0,,Chính là thế!
+Dialogue: 0,0:14:36.10,0:14:38.06,Default,,0,0,0,,Không được thoái lui!
+Dialogue: 0,0:14:41.12,0:14:42.94,Default,,0,0,0,,Mình là,
+Dialogue: 0,0:14:45.38,0:14:46.99,Default,,0,0,0,,một cung thủ!
+Dialogue: 0,0:14:49.94,0:14:54.33,Default,,0,0,0,,Mình sẽ bắn xuyên nỗi sợ này cho xem!
+Dialogue: 0,0:15:09.23,0:15:10.63,Default,,0,0,0,,Cùi bắp!
+Dialogue: 0,0:15:10.63,0:15:12.64,Default,,0,0,0,,Coi nó kêu cái "bụp" kìa, bộ là nước chắc!
+Dialogue: 0,0:15:12.64,0:15:14.05,Default,,0,0,0,,"Bụp" cơ đấy!
+Dialogue: 0,0:15:14.05,0:15:18.02,Default,,0,0,0,,Em thấy mình đã bắn\Nđúng như lời cô chỉ dạy rồi mà.
+Dialogue: 0,0:15:18.02,0:15:20.52,Default,,0,0,0,,Ờ, đúng là không có gì sai.
+Dialogue: 0,0:15:20.52,0:15:22.90,Default,,0,0,0,,Một, bước lên.
+Dialogue: 0,0:15:22.90,0:15:25.28,Default,,0,0,0,,Hai, vào thế.
+Dialogue: 0,0:15:25.28,0:15:27.36,Default,,0,0,0,,Ba, bắn!
+Dialogue: 0,0:15:27.36,0:15:28.29,Default,,0,0,0,,- Bằng!\N- Bằng!
+Dialogue: 0,0:15:28.29,0:15:29.03,Default,,0,0,0,,- Thế đó!\N- Thế đó!
+Dialogue: 0,0:15:29.03,0:15:30.54,Default,,0,0,0,,Nhưng mà nhé.
+Dialogue: 0,0:15:30.54,0:15:34.20,Default,,0,0,0,,Nó chưa nhận được mệnh lệnh của ngươi.
+Dialogue: 0,0:15:34.78,0:15:38.58,Default,,0,0,0,,Căn bản của ma thuật\Nlà tưởng tượng ra "Mình muốn thế này".
+Dialogue: 0,0:15:38.58,0:15:42.83,Default,,0,0,0,,Lẽ ra cây cung sẽ được sinh ra khi\Nngươi truyền ham muốn vào chiếc lông, cơ mà.
+Dialogue: 0,0:15:43.36,0:15:45.25,Default,,0,0,0,,Mình muốn trở thành anh hùng!
+Dialogue: 0,0:15:45.25,0:15:48.56,Default,,0,0,0,,Lúc đó ngươi đã ước "Bắn trúng kẻ địch" hay gì à?
+Dialogue: 0,0:15:49.09,0:15:50.05,Default,,0,0,0,,Không ạ!
+Dialogue: 0,0:15:51.78,0:15:55.14,Default,,0,0,0,,Nó cùi bắp hơn cây cung\Nlúc mà ta thấy nhiều lắm đó.
+Dialogue: 0,0:15:56.26,0:15:59.50,Default,,0,0,0,,Giờ ngươi cần phải nâng cao sự tập trung,
+Dialogue: 0,0:15:59.50,0:16:01.72,Default,,0,0,0,,tưởng tượng ra cây cung lý tưởng của mình.
+Dialogue: 0,0:16:01.72,0:16:05.28,Default,,0,0,0,,Rồi dạy cho cộng sự biết thế nào là "Bắn".
+Dialogue: 0,0:16:05.28,0:16:11.06,Default,,0,0,0,,Nào, giờ nói thử xem\Ntrạng thái tập trung nhất là khi nào?
+Dialogue: 0,0:16:11.06,0:16:11.81,Default,,0,0,0,,Ể?
+Dialogue: 0,0:16:11.81,0:16:13.17,Default,,0,0,0,,Hừm.
+Dialogue: 0,0:16:13.17,0:16:14.78,Default,,0,0,0,,Lúc yên tĩnh ạ?
+Dialogue: 0,0:16:14.78,0:16:16.29,Default,,0,0,0,,Ngược lại, ngược lại cơ!
+Dialogue: 0,0:16:16.29,0:16:18.68,Default,,0,0,0,,Lúc đối mặt với khủng hoảng!
+Dialogue: 0,0:16:18.68,0:16:22.65,Default,,0,0,0,,Chính lúc đứng trên bờ vực sinh tử,\Nsức tập trung mới được đẩy lên cao nhất.
+Dialogue: 0,0:16:22.65,0:16:23.81,Default,,0,0,0,,Thế nên là.
+Dialogue: 0,0:16:23.81,0:16:25.81,Default,,0,0,0,,"Đánh lừa bản thân" đi.
+Dialogue: 0,0:16:25.81,0:16:27.22,Default,,0,0,0,,Đây không phải lon nước,
+Dialogue: 0,0:16:27.22,0:16:29.01,Default,,0,0,0,,mà là một con ma thú dạng sư tử!
+Dialogue: 0,0:16:32.69,0:16:34.48,Default,,0,0,0,,Dù chỉ là xạo thôi,
+Dialogue: 0,0:16:34.48,0:16:36.52,Default,,0,0,0,,nhưng hãy nghĩ bị nó vồ lấy là chết ngay đi!
+Dialogue: 0,0:16:36.52,0:16:37.28,Default,,0,0,0,,Chết ngay!
+Dialogue: 0,0:16:37.28,0:16:39.11,Default,,0,0,0,,Còn khoảng sân này là một khu rừng!
+Dialogue: 0,0:16:39.11,0:16:40.27,Default,,0,0,0,,Nó tới đây!
+Dialogue: 0,0:16:42.85,0:16:44.16,Default,,0,0,0,,Đừng lùi bước!
+Dialogue: 0,0:16:44.16,0:16:46.28,Default,,0,0,0,,Quên sạch sành sanh những gì ta dạy rồi hả!?
+Dialogue: 0,0:16:46.28,0:16:47.77,Default,,0,0,0,,Tập trung vào!
+Dialogue: 0,0:16:49.43,0:16:51.86,Default,,0,0,0,,Ngươi nghĩ một phát như thế hạ được nó chắc!
+Dialogue: 0,0:16:51.86,0:16:54.54,Default,,0,0,0,,Truyền đạt tưởng tượng\Nbắn xuyên qua nó hơn nữa đi!
+Dialogue: 0,0:16:54.97,0:16:55.73,Default,,0,0,0,,Vâng!
+Dialogue: 0,0:16:56.87,0:16:58.69,Default,,0,0,0,,Không được mất tập trung!
+Dialogue: 0,0:16:58.69,0:17:00.23,Default,,0,0,0,,Ngươi vừa chết một lần rồi đấy!
+Dialogue: 0,0:17:00.72,0:17:01.92,Default,,0,0,0,,Khó quá,
+Dialogue: 0,0:17:01.92,0:17:03.55,Default,,0,0,0,,đầu mình rối tung hết rồi.
+Dialogue: 0,0:17:06.29,0:17:08.56,Default,,0,0,0,,Nhớ lại lúc sinh tồn trước kia xem!
+Dialogue: 0,0:17:08.56,0:17:10.99,Default,,0,0,0,,Không được rời mắt khỏi kẻ địch!
+Dialogue: 0,0:17:10.99,0:17:12.22,Default,,0,0,0,,Bước lên.
+Dialogue: 0,0:17:13.00,0:17:14.22,Default,,0,0,0,,Thủ thế.
+Dialogue: 0,0:17:14.22,0:17:16.14,Default,,0,0,0,,Và bắn!
+Dialogue: 0,0:17:18.48,0:17:20.98,Default,,0,0,0,,Tưởng tượng đơn giản mà thực tế vào!
+Dialogue: 0,0:17:20.98,0:17:23.28,Default,,0,0,0,,Tiếng mũi tên đâm vào da thịt,
+Dialogue: 0,0:17:23.28,0:17:25.25,Default,,0,0,0,,tiếng gầm của ma thú, mùi của nó!
+Dialogue: 0,0:17:25.25,0:17:26.44,Default,,0,0,0,,Và còn cả,
+Dialogue: 0,0:17:26.44,0:17:28.71,Default,,0,0,0,,- truyền nguyện vọng của ngươi vào!\N- Truyền nguyện vọng vào!
+Dialogue: 0,0:17:37.84,0:17:39.00,Default,,0,0,0,,Xuyên qua đi!
+Dialogue: 0,0:17:51.72,0:17:53.25,Default,,0,0,0,,Xuyên thủng rồi nhỉ.
+Dialogue: 0,0:17:53.25,0:17:55.77,Default,,0,0,0,,Được đấy, khá lắm.
+Dialogue: 0,0:17:56.88,0:18:00.27,Default,,0,0,0,,Thế này thì, bắt đầu bước tiếp theo được rồi.
+Dialogue: 0,0:18:00.27,0:18:01.52,Default,,0,0,0,,Ể?
+Dialogue: 0,0:18:01.52,0:18:04.91,Default,,0,0,0,,Tưởng tượng ra cảnh đổ máu thêm 99 lần nữa.
+Dialogue: 0,0:18:04.91,0:18:08.08,Default,,0,0,0,,Ch-Chín mươi chín lần?
+Dialogue: 0,0:18:08.08,0:18:11.78,Default,,0,0,0,,Ngươi tưởng mới truyền đạt được một lần\Nlà cây cung trở thành cộng sự của ngươi chắc?
+Dialogue: 0,0:18:12.16,0:18:13.98,Default,,0,0,0,,Một trăm lần lận,
+Dialogue: 0,0:18:13.98,0:18:15.03,Default,,0,0,0,,muốn bỏ cuộc không?
+Dialogue: 0,0:18:16.38,0:18:17.53,Default,,0,0,0,,Không ạ.
+Dialogue: 0,0:18:17.53,0:18:22.80,Default,,0,0,0,,Bố mẹ còn đẩy em vào chỗ chết\Nnhiều lần hơn thế nhiều!
+Dialogue: 0,0:18:24.55,0:18:27.36,Default,,0,0,0,,Không, đó là do bố mẹ ngươi bị điên thôi.
+Dialogue: 0,0:18:27.36,0:18:28.38,Default,,0,0,0,,Ể?
+Dialogue: 0,0:18:28.38,0:18:29.30,Default,,0,0,0,,Mình sẽ,
+Dialogue: 0,0:18:29.30,0:18:31.30,Default,,0,0,0,,cùng cây cung này
+Dialogue: 0,0:18:33.32,0:18:35.31,Default,,0,0,0,,vượt qua cảnh đổ máu.
+Dialogue: 0,0:18:39.89,0:18:41.14,Default,,0,0,0,,Cái tên này!
+Dialogue: 0,0:18:41.14,0:18:43.84,Default,,0,0,0,,Đã bảo đừng có chạy mà!
+Dialogue: 0,0:18:45.20,0:18:47.12,Default,,0,0,0,,Một trăm tình huống.
+Dialogue: 0,0:18:47.12,0:18:49.06,Default,,0,0,0,,Không, nhiều hơn thế nữa.
+Dialogue: 0,0:18:50.82,0:18:51.75,Default,,0,0,0,,Ối ối!
+Dialogue: 0,0:18:51.75,0:18:56.84,Default,,0,0,0,,Nhắm cho đàng hoàng vào!
+Dialogue: 0,0:18:59.35,0:19:00.38,Default,,0,0,0,,Nữa.
+Dialogue: 0,0:19:00.38,0:19:01.84,Default,,0,0,0,,Hơn nữa.
+Dialogue: 0,0:19:10.42,0:19:12.99,Default,,0,0,0,,Dù là tình huống nào vẫn phải tập trung!
+Dialogue: 0,0:19:12.99,0:19:13.84,Default,,0,0,0,,Vâng!
+Dialogue: 0,0:19:13.84,0:19:18.10,Default,,0,0,0,,Nào nào nào!
+Dialogue: 0,0:19:18.10,0:19:19.84,Default,,0,0,0,,Hơn nữa.
+Dialogue: 0,0:19:25.41,0:19:28.00,Default,,0,0,0,,Đã qua bao nhiêu lần rồi hả?
+Dialogue: 0,0:19:28.00,0:19:29.97,Default,,0,0,0,,Em không biết nữa ạ.
+Dialogue: 0,0:19:29.97,0:19:31.33,Default,,0,0,0,,Bình thường,
+Dialogue: 0,0:19:31.33,0:19:34.77,Default,,0,0,0,,ai cũng sẽ mau chán rồi bỏ cuộc thôi.
+Dialogue: 0,0:19:34.77,0:19:36.27,Default,,0,0,0,,(Em bỏ cuộc, cảm ơn cô đã dạy dỗ.)\NThật là.
+Dialogue: 0,0:19:39.57,0:19:43.81,Default,,0,0,0,,Ta đã theo ngươi đến thế này rồi,\Nnếu mà không thắng nổi.
+Dialogue: 0,0:19:44.90,0:19:47.66,Default,,0,0,0,,Thì phải làm chân sai vặt cho ta cả đời đó nhé!
+Dialogue: 0,0:19:47.66,0:19:49.76,Default,,0,0,0,,Ể, khoan đã ạ!
+Dialogue: 0,0:19:49.76,0:19:52.42,Default,,0,0,0,,Ta kỳ vọng vào ngươi đấy,
+Dialogue: 0,0:19:52.42,0:19:54.42,Default,,0,0,0,,đồ đệ tử ngốc.
+Dialogue: 0,0:19:58.70,0:20:00.23,Default,,0,0,0,,Nghe đây Iruma,
+Dialogue: 0,0:20:00.23,0:20:04.26,Default,,0,0,0,,vào thế bắn cung\Ncũng chính là "vào thế cho con tim".
+Dialogue: 0,0:20:04.26,0:20:07.10,Default,,0,0,0,,- Iruma. - Cút về đi.\N- Bố mẹ chẳng có gì đáng sợ,
+Dialogue: 0,0:20:07.10,0:20:09.28,Default,,0,0,0,,Con quái này chẳng có gì đáng sợ cả.
+Dialogue: 0,0:20:09.28,0:20:11.54,Default,,0,0,0,,Điều mình sợ.
+Dialogue: 0,0:20:11.54,0:20:14.27,Default,,0,0,0,,Điều mình sợ đến mức cơ thể đang cự tuyệt.
+Dialogue: 0,0:20:14.84,0:20:16.54,Default,,0,0,0,,Chính là,
+Dialogue: 0,0:20:16.54,0:20:19.28,Default,,0,0,0,,chính là việc không thể ở bên mọi người!
+Dialogue: 0,0:20:19.28,0:20:23.41,Default,,0,0,0,,Nhớ lại lời dạy của sư phụ đi!
+Dialogue: 0,0:20:23.41,0:20:25.92,Default,,0,0,0,,Tưởng tượng mình có thể đánh đuổi nỗi sợ này!
+Dialogue: 0,0:20:26.32,0:20:28.43,Default,,0,0,0,,Truyền nguyện vọng vào cánh cung!
+Dialogue: 0,0:20:31.66,0:20:33.53,Default,,0,0,0,,- Cậu là đồ dối trá!\N- Ta không muốn nhìn mặt ngươi nữa.
+Dialogue: 0,0:20:33.53,0:20:34.86,Default,,0,0,0,,Sao còn chưa đi đi.
+Dialogue: 0,0:20:34.86,0:20:36.66,Default,,0,0,0,,Cháu về đi.
+Dialogue: 0,0:20:36.66,0:20:39.18,Default,,0,0,0,,Phải bảo vệ nơi mình thuộc về!
+Dialogue: 0,0:20:39.18,0:20:42.49,Default,,0,0,0,,Xuyên qua đi, Suzuki Iruma!
+Dialogue: 0,0:20:49.12,0:20:52.48,Default,,0,0,0,,Mình sẽ sống tốt ở Ma giới này.
+Dialogue: 0,0:20:58.48,0:21:00.26,Default,,0,0,0,,Cung bật lại à?
+Dialogue: 0,0:21:00.26,0:21:01.45,Default,,0,0,0,,Không phải,
+Dialogue: 0,0:21:01.45,0:21:04.00,Default,,0,0,0,,chắc là do mình vừa thả lỏng thôi.
+Dialogue: 0,0:21:06.50,0:21:10.50,Default,,0,0,0,,Con quái vật lúc nãy thật ra là con ma thú này à?
+Dialogue: 0,0:21:10.50,0:21:12.08,Default,,0,0,0,,Ôi,
+Dialogue: 0,0:21:12.08,0:21:13.38,Default,,0,0,0,,ra là thế.
+Dialogue: 0,0:21:13.38,0:21:15.93,Default,,0,0,0,,Hóa ra đúng là ảo ảnh mà.
+Dialogue: 0,0:21:15.93,0:21:17.93,Default,,0,0,0,,Bố mẹ mình gặp phía trên chắc cũng vậy.
+Dialogue: 0,0:21:17.93,0:21:19.36,Default,,0,0,0,,Ra thế.
+Dialogue: 0,0:21:19.36,0:21:20.38,Default,,0,0,0,,Được lắm!
+Dialogue: 0,0:21:22.58,0:21:24.76,Default,,0,0,0,,Lễ hội thu hoạch vẫn còn đang dang dở!
+Dialogue: 0,0:21:24.76,0:21:26.56,Default,,0,0,0,,Mình phải quay lại thôi!
+Dialogue: 0,0:21:26.56,0:21:28.01,Default,,0,0,0,,Quay về nơi có mọi người!
+Dialogue: 0,0:21:31.54,0:21:33.48,Default,,0,0,0,,Cơ mà đây đúng là,
+Dialogue: 0,0:21:33.48,0:21:38.21,Default,,0,0,0,,cơ hội để mình chứng minh dù là con người\Nvẫn có thể sánh bước bên mọi người.
+Dialogue: 0,0:21:40.13,0:21:42.78,Default,,0,0,0,,Sẵn tiện thì ra vẻ ác quỷ một chút nào.
+Dialogue: 0,0:21:44.60,0:21:46.53,Default,,0,0,0,,Mình là con người mà,
+Dialogue: 0,0:21:46.53,0:21:50.42,Default,,0,0,0,,còn lễ hội này là để chọn ra\Ncon quỷ mạnh nhất.
+Dialogue: 0,0:21:51.57,0:21:54.31,Default,,0,0,0,,Mình nhất định sẽ thắng!
+Dialogue: 0,0:21:54.87,0:22:00.50,Default,,0,0,0,,(Mình nhất định sẽ thắng)
+Dialogue: 0,0:23:31.93,0:23:35.06,Default,,0,0,0,,(Thích quá ma)
+Dialogue: 0,0:23:35.85,0:23:39.33,Default,,0,0,0,,Sau khi Iruma đã quen với mùi của Nafra.
+Dialogue: 0,0:23:39.33,0:23:41.16,Default,,0,0,0,,Sắp lên mặt đất rồi!
+Dialogue: 0,0:23:43.31,0:23:45.05,Default,,0,0,0,,Nguy hiểm quá!
+Dialogue: 0,0:23:45.05,0:23:46.51,Default,,0,0,0,,Cảm ơn cậu nhé.
+Dialogue: 0,0:23:47.87,0:23:50.29,Default,,0,0,0,,Chậm rãi từ tốn nào.
+Dialogue: 0,0:23:51.86,0:23:54.48,Default,,0,0,0,,Ừm, Nafra cũng vậy nhé.
+Dialogue: 0,0:23:54.48,0:23:56.37,Default,,0,0,0,,Qua rồi!
+Dialogue: 0,0:23:56.37,0:23:58.25,Default,,0,0,0,,Đi thôi!
+Dialogue: 0,0:23:58.25,0:24:02.29,Default,,0,0,0,,Dần dần cậu cũng hiểu được\Nđối phương đang nói gì luôn.
+Dialogue: 0,0:24:04.46,0:24:06.46,Default,,0,0,0,,Xua tan ác mộng!
+Dialogue: 0,0:24:06.46,0:24:07.86,Default,,0,0,0,,Tốt quá rồi!
+Dialogue: 0,0:24:07.86,0:24:09.17,Default,,0,0,0,,Hạt giống khởi đầu!
+Dialogue: 0,0:24:09.17,0:24:11.19,Default,,0,0,0,,Họp mặt với mọi người! Phải cẩn thận nha!
+Dialogue: 0,0:24:11.19,0:24:13.76,Default,,0,0,0,,Mục tiêu là chiến thắng! Lễ hội thu hoạch!
+Dialogue: 0,0:24:13.76,0:24:15.04,Default,,0,0,0,,Vẫn chưa kết thúc đâu!
+Dialogue: 0,0:24:15.04,0:24:16.53,Default,,0,0,0,,Từ giờ mới phân thắng bại nè!
+Dialogue: 0,0:24:16.53,0:24:17.87,Default,,0,0,0,,Lỡ có ngã xuống!
+Dialogue: 0,0:24:17.87,0:24:18.72,Default,,0,0,0,,Thì chỉ cần!
+Dialogue: 0,0:24:18.72,0:24:20.60,Default,,0,0,0,,Leo lên là được!
+Dialogue: 0,0:24:20.60,0:24:22.88,Default,,0,0,0,,Tập tiếp theo.\N"Vào ma giới rồi đấy! Iruma."
+Dialogue: 0,0:24:22.88,0:24:24.45,Default,,0,0,0,,Ma thuật của riêng tôi.
+Dialogue: 0,0:24:24.45,0:24:25.66,Default,,0,0,0,,Cố lên cố lên!
+Dialogue: 0,0:24:25.66,0:24:27.35,Default,,0,0,0,,Chiến đấu nào!

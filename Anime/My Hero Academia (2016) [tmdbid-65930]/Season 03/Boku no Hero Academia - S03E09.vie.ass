@@ -1,0 +1,590 @@
+[Script Info]
+; This is an Advanced Sub Station Alpha v4+ script.
+Title: 
+ScriptType: v4.00+
+PlayDepth: 0
+ScaledBorderAndShadow: Yes
+PlayResX: 1920
+PlayResY: 1080
+[V4+ Styles]
+Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
+Style: Default,Noto Sans,80.0,&H00FFFFFF,&H000000FF,&H00002208,&H00000000,-1,0,0,0,100,100,0,0,1,3.0,2.0,2,0,0,65,1
+
+[Events]
+Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
+Dialogue: 0,0:00:01.45,0:00:04.45,Default,,0,0,0,,Trường trung học anh hùng là nơi\Nnuôi dưỡng nhiều siêu anh hùng nổi tiếng.
+Dialogue: 0,0:00:04.45,0:00:07.12,Default,,0,0,0,,Là học sinh khối anh hùng của học viện anh hùng
+Dialogue: 0,0:00:07.12,0:00:09.83,Default,,0,0,0,,Tôi vẫn luôn không ngừng phấn đấu
+Dialogue: 0,0:00:09.83,0:00:11.79,Default,,0,0,0,,để đạt được ước mơ trở thành
+Dialogue: 0,0:00:11.79,0:00:14.00,Default,,0,0,0,,một người không ngại đối mặt với khó khăn
+Dialogue: 0,0:00:14.00,0:00:16.16,Default,,0,0,0,,giúp đỡ người khác với nụ cười trên môi.
+Dialogue: 0,0:00:16.16,0:00:17.79,Default,,0,0,0,,Một anh hùng vĩ đại.
+Dialogue: 0,0:00:21.66,0:00:28.20,Default,,0,0,0,,♫Tôi giữ vững lý tưởng\Nlàm theo số phận của mình♫
+Dialogue: 0,0:00:32.12,0:00:34.04,Default,,0,0,0,,♫Mọi thứ đều là tự làm tự chịu♫
+Dialogue: 0,0:00:34.04,0:00:35.83,Default,,0,0,0,,♫Quá khứ đen tối liên tục tới♫
+Dialogue: 0,0:00:35.83,0:00:37.66,Default,,0,0,0,,♫Khiến tôi muốn từ bỏ mọi thứ♫
+Dialogue: 0,0:00:37.66,0:00:41.66,Default,,0,0,0,,♫Suýt nữa thì mất mạng trước số mệnh♫
+Dialogue: 0,0:00:41.66,0:00:43.87,Default,,0,0,0,,♫Như được chết đi sống lại♫
+Dialogue: 0,0:00:43.87,0:00:47.25,Default,,0,0,0,,♫Nhưng tại sao tôi vẫn sống cho đến ngày nay♫
+Dialogue: 0,0:00:47.25,0:00:48.29,Default,,0,0,0,,♫Điều gì đang diễn ra?♫
+Dialogue: 0,0:00:48.29,0:00:51.04,Default,,0,0,0,,♫Bởi vì vẫn có chuyện chưa hoàn thành♫
+Dialogue: 0,0:00:51.04,0:00:54.58,Default,,0,0,0,,♫Thậm chí trong những ngày không có cách nào để sửa chữa♫
+Dialogue: 0,0:00:54.58,0:00:55.83,Default,,0,0,0,,♫Điều gì đang diễn ra?♫
+Dialogue: 0,0:00:55.83,0:00:58.62,Default,,0,0,0,,♫Chỉ cần thừa nhận rằng bạn khác biệt♫
+Dialogue: 0,0:00:58.62,0:01:01.91,Default,,0,0,0,,♫Khả năng của bạn sẽ được giải phóng♫
+Dialogue: 0,0:01:02.70,0:01:05.87,Default,,0,0,0,,♫Ước mơ và ý chí của tôi theo hai hướng khác nhau♫
+Dialogue: 0,0:01:05.87,0:01:11.41,Default,,0,0,0,,♫Bầu trời trải rộng khắp không thể lấp đầy\Nnhững khoảng trống trong trái tim tôi♫
+Dialogue: 0,0:01:11.41,0:01:17.75,Default,,0,0,0,,♫Thoát khỏi những đêm dài vô tận♫
+Dialogue: 0,0:01:17.75,0:01:25.00,Default,,0,0,0,,♫Hãy giảm bớt những phân tích,\Nsao lại không nhìn về một hướng khác♫
+Dialogue: 0,0:01:25.00,0:01:32.08,Default,,0,0,0,,♫Vì tôi không muốn nhìn lại quá khứ,\Nkhi mà tôi không có mục tiêu gì♫
+Dialogue: 0,0:01:32.83,0:01:36.62,Default,,0,0,0,,♫Tôi giữ vững lý tưởng\Nsống cuộc sống của chính mình♫
+Dialogue: 0,0:01:36.62,0:01:40.29,Default,,0,0,0,,♫Tình yêu và ước mơ có thể dễ dàng\Nthổi bùng ngọn lửa khi chạm vào nhau♫
+Dialogue: 0,0:01:40.29,0:01:43.95,Default,,0,0,0,,"HỌC VIỆN ANH HÙNG CỦA TÔI"\N♫Hồi chuông đã reo lên. Hãy làm theo số phận của mình♫
+Dialogue: 0,0:01:51.41,0:01:53.29,Default,,0,0,0,,Eraser.
+Dialogue: 0,0:01:53.29,0:01:56.50,Default,,0,0,0,,Mặc dù trường đã đề cập rằng\Nsẽ đảm bảo an toàn cho học sinh.
+Dialogue: 0,0:01:56.50,0:01:58.50,Default,,0,0,0,,Nhưng tôi nghe nói rằng\Ntại thời điểm xảy ra vụ việc.
+Dialogue: 0,0:01:58.50,0:02:00.45,Default,,0,0,0,,Lại yêu cầu học sinh giao chiến.
+Dialogue: 0,0:02:00.45,0:02:02.08,Default,,0,0,0,,Xin hãy giải thích.
+Dialogue: 0,0:02:02.08,0:02:03.45,Default,,0,0,0,,"ANH HÙNG. SHOTA AIZAWA. NĂNG LỰC: TẨY XOÁ"\NBởi vì lúc đó
+Dialogue: 0,0:02:03.45,0:02:05.79,Default,,0,0,0,,"VLAD KING. NĂNG LỰC: KIỂM SOÁT MÁU"\NKhông có cách nào để nắm bắt tình hình tại hiện trường.
+Dialogue: 0,0:02:05.79,0:02:07.66,Default,,0,0,0,,Để tránh điều tồi tệ nhất xảy ra.
+Dialogue: 0,0:02:07.66,0:02:09.29,Default,,0,0,0,,Tôi mới đưa ra quyết định như vậy.
+Dialogue: 0,0:02:09.29,0:02:11.25,Default,,0,0,0,,Tình huống xấu nhất xảy ra là gì?
+Dialogue: 0,0:02:11.25,0:02:12.58,Default,,0,0,0,,26 học sinh bị thương.
+Dialogue: 0,0:02:12.58,0:02:14.08,Default,,0,0,0,,Một học sinh bị bắt cóc.
+Dialogue: 0,0:02:14.08,0:02:16.04,Default,,0,0,0,,Vẫn chưa phải tình huống xấu nhất sao?
+Dialogue: 0,0:02:16.04,0:02:17.37,Default,,0,0,0,,Theo tình hình hiện tại
+Dialogue: 0,0:02:17.37,0:02:19.16,Default,,0,0,0,,tôi cứ nghĩ đó là tình huống xấu nhất rồi.
+Dialogue: 0,0:02:19.16,0:02:20.95,Default,,0,0,0,,Các học sinh không có khả năng chống lại.
+Dialogue: 0,0:02:20.95,0:02:22.33,Default,,0,0,0,,Tình hình xấu nhất là bị kẻ xấu giết hại.
+Dialogue: 0,0:02:22.33,0:02:23.16,Default,,0,0,0,,"NEZU. NĂNG LỰC: KỸ NĂNG CAO CẤP"\NNhững em học sinh bị thương
+Dialogue: 0,0:02:23.16,0:02:25.25,Default,,0,0,0,,"NEZU. NĂNG LỰC: KỸ NĂNG CAO CẤP"\Nchủ yếu là do hít phải khí độc.
+Dialogue: 0,0:02:25.25,0:02:26.87,Default,,0,0,0,,Siêu năng lực của kẻ xấu đã được xác định.
+Dialogue: 0,0:02:26.87,0:02:29.41,Default,,0,0,0,,Có thể tạo ra loại khí như khí thôi miên.
+Dialogue: 0,0:02:29.41,0:02:32.58,Default,,0,0,0,,Cũng nhờ Kendo và Tetsutetsu\Nphản ứng kịp thời.
+Dialogue: 0,0:02:32.58,0:02:35.16,Default,,0,0,0,,Mà các em học sinh khác được an toàn.
+Dialogue: 0,0:02:35.16,0:02:38.50,Default,,0,0,0,,Ngoài ra, chúng tôi còn sắp xếp để\Nhọc viên được hỗ trợ về mặt tinh thần.
+Dialogue: 0,0:02:38.50,0:02:42.08,Default,,0,0,0,,Đến nay chưa có em học sinh nào\Nbị tổn thương tâm lý nghiêm trọng.
+Dialogue: 0,0:02:42.08,0:02:44.45,Default,,0,0,0,,Ý của ông là vẫn thật may mắn sao?
+Dialogue: 0,0:02:44.45,0:02:46.12,Default,,0,0,0,,Chúng tôi nghĩ rằng trường hợp xấu nhất là
+Dialogue: 0,0:02:46.12,0:02:48.37,Default,,0,0,0,,những ảnh hưởng tới các em học sinh trong tương lai.
+Dialogue: 0,0:02:48.37,0:02:52.29,Default,,0,0,0,,Ông còn có thể nói như vậy\Nvới trường hợp Bakugo bị bắt cóc không?
+Dialogue: 0,0:02:53.16,0:02:55.66,Default,,0,0,0,,Cậu ấy được nhận vào trường với kết quả xuất sắc.
+Dialogue: 0,0:02:55.66,0:02:57.87,Default,,0,0,0,,Và giành chiến thắng trong hội thao.
+Dialogue: 0,0:02:57.87,0:02:59.16,Default,,0,0,0,,Khi còn học trung học
+Dialogue: 0,0:02:59.16,0:03:00.29,Default,,0,0,0,,cậu ấy còn chiến đấu
+Dialogue: 0,0:03:00.29,0:03:02.62,Default,,0,0,0,,chống lại kẻ xấu Stain.
+Dialogue: 0,0:03:02.62,0:03:05.66,Default,,0,0,0,,Mặc dù những trải nghiệm này, có thể thấy\Nphẩm chất anh hùng mạnh mẽ của cậu ấy.
+Dialogue: 0,0:03:05.66,0:03:06.83,Default,,0,0,0,,Nhưng
+Dialogue: 0,0:03:06.83,0:03:10.25,Default,,0,0,0,,cách cư xử thô bạo trong trận chung kết\Nvà thái độ khi nhận giải.
+Dialogue: 0,0:03:10.25,0:03:13.29,Default,,0,0,0,,Lại cho thấy một\Ntinh thần không ổn định.
+Dialogue: 0,0:03:13.29,0:03:16.70,Default,,0,0,0,,Có phải kẻ thù nhìn thấy điều này,\Nnên đã bắt cóc cậu ấy?
+Dialogue: 0,0:03:16.70,0:03:18.58,Default,,0,0,0,,Và thuyết phục cậu ấy về phe của mình.
+Dialogue: 0,0:03:18.58,0:03:21.54,Default,,0,0,0,,Nếu như cậu ấy lạc lối phải làm sao?
+Dialogue: 0,0:03:21.54,0:03:24.95,Default,,0,0,0,,Làm sao có thể đảm bảo tương lai\Ncủa Bakugo.
+Dialogue: 0,0:03:24.95,0:03:26.37,Default,,0,0,0,,Quả như dự đoán.
+Dialogue: 0,0:03:26.37,0:03:27.79,Default,,0,0,0,,Nhưng thực sự hỏi dồn dập quá.
+Dialogue: 0,0:03:27.79,0:03:29.16,Default,,0,0,0,,Căn bản là muốn gây áp lực
+Dialogue: 0,0:03:29.16,0:03:31.33,Default,,0,0,0,,để chúng ta có những phát ngôn không hợp lý.
+Dialogue: 0,0:03:31.33,0:03:32.62,Default,,0,0,0,,Thật không ổn.
+Dialogue: 0,0:03:32.62,0:03:35.79,Default,,0,0,0,,Anh ta có lẽ biết rằng Eraser rất ghét\Ntruyền thông và đang cố tình khiêu khích.
+Dialogue: 0,0:03:37.37,0:03:39.37,Default,,0,0,0,,Không được. Đừng trúng kế.
+Dialogue: 0,0:03:42.41,0:03:44.79,Default,,0,0,0,,Về hành vi thô bạo của Bakugo trong quá khứ.
+Dialogue: 0,0:03:44.79,0:03:48.00,Default,,0,0,0,,Tất cả là do sự giám sát không tốt của tôi.
+Dialogue: 0,0:03:48.62,0:03:49.54,Default,,0,0,0,,Nhưng mà
+Dialogue: 0,0:03:49.54,0:03:52.16,Default,,0,0,0,,những hành động đó tại hội thao
+Dialogue: 0,0:03:52.16,0:03:54.91,Default,,0,0,0,,đều xuất phát từ lý tưởng mạnh mẽ của cậu ấy.
+Dialogue: 0,0:03:54.91,0:03:57.33,Default,,0,0,0,,Cậu ấy khao khát trở thành\Nanh hùng hàng đầu hơn bất cứ ai.
+Dialogue: 0,0:03:57.33,0:03:59.25,Default,,0,0,0,,Và chiến đấu vì lý tưởng đó.
+Dialogue: 0,0:03:59.25,0:04:01.75,Default,,0,0,0,,Nếu kẻ xấu nhận thấy đó là cơ hội.
+Dialogue: 0,0:04:01.75,0:04:02.95,Default,,0,0,0,,Thì tôi cho rằng
+Dialogue: 0,0:04:02.95,0:04:05.45,Default,,0,0,0,,lũ kẻ xấu còn quá nông cạn.
+Dialogue: 0,0:04:06.41,0:04:08.33,Default,,0,0,0,,Điều này không có cơ sở.
+Dialogue: 0,0:04:08.33,0:04:10.45,Default,,0,0,0,,Tôi không hỏi một câu hỏi cảm tính.
+Dialogue: 0,0:04:10.45,0:04:12.87,Default,,0,0,0,,Mà là những biện pháp đối phó\Ncụ thể nào mà trường có thể đề xuất?
+Dialogue: 0,0:04:12.87,0:04:15.95,Default,,0,0,0,,Chúng tôi cũng không chỉ ngồi không\Nmà xem trận chiến.
+Dialogue: 0,0:04:15.95,0:04:17.75,Default,,0,0,0,,Hiện chúng tôi đang làm việc với cảnh sát
+Dialogue: 0,0:04:17.75,0:04:19.70,Default,,0,0,0,,để điều tra.
+Dialogue: 0,0:04:19.70,0:04:21.58,Default,,0,0,0,,Chúng tôi chắc chắn sẽ
+Dialogue: 0,0:04:21.58,0:04:23.20,Default,,0,0,0,,đưa học sinh của mình bình an quay về.
+Dialogue: 0,0:04:23.87,0:04:25.37,Default,,0,0,0,,Anh hùng và các thầy giáo
+Dialogue: 0,0:04:25.37,0:04:27.45,Default,,0,0,0,,mới là những người biết nói.
+Dialogue: 0,0:04:27.45,0:04:29.91,Default,,0,0,0,,Chính là vậy đó, đồ liên quân cặn bã thối tha.
+Dialogue: 0,0:04:30.79,0:04:33.12,Default,,0,0,0,,"KATSUKI BAKUGO. NĂNG LỰC: PHÁT NỔ"\NLên kế hoạch cho một cuộc tấn công quy mô lớn như vậy
+Dialogue: 0,0:04:33.12,0:04:34.70,Default,,0,0,0,,mà chỉ bắt được một mình mình.
+Dialogue: 0,0:04:34.70,0:04:36.54,Default,,0,0,0,,Lại còn nói ra điều chúng muốn nói.
+Dialogue: 0,0:04:36.54,0:04:37.70,Default,,0,0,0,,Với chúng
+Dialogue: 0,0:04:37.70,0:04:40.62,Default,,0,0,0,,mình vẫn còn quan trọng và hữu ích.
+Dialogue: 0,0:04:40.62,0:04:42.95,Default,,0,0,0,,Vì chúng còn muốn thuyết phục mình
+Dialogue: 0,0:04:42.95,0:04:44.79,Default,,0,0,0,,nên đã không giết.
+Dialogue: 0,0:04:44.79,0:04:46.83,Default,,0,0,0,,Tranh thủ trước khi chúng đổi ý
+Dialogue: 0,0:04:46.83,0:04:48.37,Default,,0,0,0,,phải giết hai hoặc ba người trước.
+Dialogue: 0,0:04:48.37,0:04:50.25,Default,,0,0,0,,Sau đó bỏ chạy.
+Dialogue: 0,0:04:50.25,0:04:51.66,Default,,0,0,0,,Nói cho các ngươi biết
+Dialogue: 0,0:04:51.66,0:04:53.70,Default,,0,0,0,,ta vẫn đang được phép chiến đấu đó.
+Dialogue: 0,0:04:53.70,0:04:56.12,Default,,0,0,0,,"KẺ XẤU: MAGNE"\NMày biết rõ tình hình hiện tại của mày mà.
+Dialogue: 0,0:04:56.12,0:04:57.45,Default,,0,0,0,,Thằng nhóc thối tha.
+Dialogue: 0,0:04:57.45,0:04:59.79,Default,,0,0,0,,"KẺ XẤU: MR.COMPRESS. KẺ XẤU: DABI"\NKhông, nó là tên đần.
+Dialogue: 0,0:04:59.79,0:05:01.16,Default,,0,0,0,,"KẺ XẤU: TWICE. KẺ XẤU: HIMIKO TOGA"\NChém cho nó mấy nhát.
+Dialogue: 0,0:05:01.16,0:05:03.37,Default,,0,0,0,,KẺ XẤU: SPINNER"\NNgay cả khi không muốn tham gia vào liên minh kẻ xấu
+Dialogue: 0,0:05:03.37,0:05:05.37,Default,,0,0,0,,thì cũng có thể giả vờ là bị bọn ta thuyết phục mà.
+Dialogue: 0,0:05:05.37,0:05:07.00,Default,,0,0,0,,Mày chọn sai rồi.
+Dialogue: 0,0:05:07.00,0:05:08.20,Default,,0,0,0,,Con người ta
+Dialogue: 0,0:05:08.20,0:05:10.91,Default,,0,0,0,,đã không muốn làm thì cũng không muốn giả vờ.
+Dialogue: 0,0:05:10.91,0:05:12.33,Default,,0,0,0,,ÁC NH N - TOMURA SHIRAGAKI. NĂNG LỰC: HỦY HOẠI.\NHơn nữa, ta cũng không có ý định
+Dialogue: 0,0:05:12.33,0:05:14.41,Default,,0,0,0,,ÁC NH N - TOMURA SHIRAGAKI. NĂNG LỰC: HỦY HOẠI.\Nở lại nơi quỷ quái này.
+Dialogue: 0,0:05:17.25,0:05:18.95,Default,,0,0,0,,Bố.
+Dialogue: 0,0:05:18.95,0:05:20.41,Default,,0,0,0,,Không được. Tomura Shiragaki.
+Dialogue: 0,0:05:20.41,0:05:21.45,Default,,0,0,0,,Bình tĩnh lại.
+Dialogue: 0,0:05:25.62,0:05:28.75,Default,,0,0,0,,Không được động vào nó, các ngươi có nghe không.
+Dialogue: 0,0:05:32.66,0:05:34.87,Default,,0,0,0,,Bởi vì thằng nhóc này
+Dialogue: 0,0:05:36.33,0:05:38.37,Default,,0,0,0,,rất quan trọng.
+Dialogue: 0,0:05:38.37,0:05:40.12,Default,,0,0,0,,"KUROGIRI. NĂNG LỰC: CỔNG DỊCH CHUYỂN KHÔNG GIAN."
+Dialogue: 0,0:05:40.45,0:05:44.62,Default,,0,0,0,,Nếu được, ta hy vọng ngươi có thể\Nlắng nghe ta nói.
+Dialogue: 0,0:05:44.62,0:05:48.00,Default,,0,0,0,,Xét cho cùng, ta nghĩ là mình có thể hiểu nhau hơn.
+Dialogue: 0,0:05:48.00,0:05:50.87,Default,,0,0,0,,Kẻ thù và anh hùng, là hai mặt của đồng hồ.
+Dialogue: 0,0:05:50.87,0:05:52.95,Default,,0,0,0,,Ta và ngươi hiểu nhau?
+Dialogue: 0,0:05:52.95,0:05:54.70,Default,,0,0,0,,Bớt nằm mơ đi.
+Dialogue: 0,0:05:55.58,0:05:57.50,Default,,0,0,0,,Vậy ta không còn cách nào khác.
+Dialogue: 0,0:05:57.50,0:06:02.08,Default,,0,0,0,,Lũ anh hùng nói\Nđã bắt đầu theo dõi chúng ta.
+Dialogue: 0,0:06:02.08,0:06:04.87,Default,,0,0,0,,Ta cũng không lãng phí thời gian với ngươi nữa.
+Dialogue: 0,0:06:04.87,0:06:06.37,Default,,0,0,0,,Thầy.
+Dialogue: 0,0:06:06.37,0:06:08.20,Default,,0,0,0,,Hãy giúp tôi.
+Dialogue: 0,0:06:08.20,0:06:09.58,Default,,0,0,0,,"KẺ XẤU: ALL FOR ONE"
+Dialogue: 0,0:06:09.58,0:06:11.79,Default,,0,0,0,,"NĂNG LỰC: ALL FOR ONE"\NQuyết định đúng lắm.
+Dialogue: 0,0:06:11.79,0:06:13.87,Default,,0,0,0,,Tomura Shiragaki.
+Dialogue: 0,0:06:13.87,0:06:17.91,Default,,0,0,0,,ALL FOR ONE
+Dialogue: 0,0:06:17.91,0:06:20.95,Default,,0,0,0,,PHƯỜNG KAMINO, TỈNH KANAGAWA.
+Dialogue: 0,0:06:20.95,0:06:23.41,Default,,0,0,0,,MỤC TIÊU
+Dialogue: 0,0:06:26.75,0:06:27.54,Default,,0,0,0,,"YAOYOROZU"\NTòa nhà đó.
+Dialogue: 0,0:06:27.54,0:06:29.58,Default,,0,0,0,,"YAOYOROZU. KIRISHIMA"\NLà nơi phát ra tín hiệu.
+Dialogue: 0,0:06:29.58,0:06:31.37,Default,,0,0,0,,"YAOYOROZU. KIRISHIMA"\NĐó là sào huyệt sao?
+Dialogue: 0,0:06:31.37,0:06:32.87,Default,,0,0,0,,"YAOYOROZU. KIRISHIMA"\NTrông cũng giống đó.
+Dialogue: 0,0:06:32.87,0:06:34.87,Default,,0,0,0,,Cũng chưa chắc đó có phải sào huyệt hay không?
+Dialogue: 0,0:06:34.87,0:06:37.25,Default,,0,0,0,,Nhưng theo thông tin máy phát tín hiệu.
+Dialogue: 0,0:06:37.25,0:06:41.04,Default,,0,0,0,,Lũ kẻ xấu đã ở đây cả ngày\Nmà không di chuyển.
+Dialogue: 0,0:06:41.04,0:06:43.41,Default,,0,0,0,,"MIDORIYA. IDA. TODOROKI"\NNgay cả khi kẻ xấu thực sự ở trong tòa nhà đó
+Dialogue: 0,0:06:43.41,0:06:45.50,Default,,0,0,0,,"MIDORIYA. IDA. TODOROKI"\Nkhông có nghĩa là Bakugo cũng ở đó.
+Dialogue: 0,0:06:45.50,0:06:47.04,Default,,0,0,0,,"MIDORIYA. IDA. TODOROKI"\NHãy bình tĩnh suy nghĩ.
+Dialogue: 0,0:06:47.04,0:06:49.33,Default,,0,0,0,,Chúng ta đang dựa vào thông tin\Ncó mức tin cậy rất thấp
+Dialogue: 0,0:06:49.33,0:06:51.70,Default,,0,0,0,,mà tới được đây.
+Dialogue: 0,0:06:51.70,0:06:52.87,Default,,0,0,0,,Hơn nữa hiện tại
+Dialogue: 0,0:06:52.87,0:06:54.91,Default,,0,0,0,,chúng ta không có ai có sở trưởng ẩn giấu
+Dialogue: 0,0:06:54.91,0:06:57.54,Default,,0,0,0,,như Jiro hay Hagakure.
+Dialogue: 0,0:06:57.54,0:07:00.87,Default,,0,0,0,,Nếu thấy có một chút nguy hiểm,\Ntôi sẽ ngăn các cậu lại ngay lập tức
+Dialogue: 0,0:07:00.87,0:07:02.16,Default,,0,0,0,,Chính vì chúng ta là bạn
+Dialogue: 0,0:07:02.16,0:07:04.83,Default,,0,0,0,,nên tôi không ngại báo cảnh sát đâu.
+Dialogue: 0,0:07:05.54,0:07:08.20,Default,,0,0,0,,Ida, cảm ơn cậu.
+Dialogue: 0,0:07:08.20,0:07:10.66,Default,,0,0,0,,Hãy nghĩ xem chúng ta có thể làm gì
+Dialogue: 0,0:07:10.66,0:07:12.41,Default,,0,0,0,,trong điều kiện hạn chế này.
+Dialogue: 0,0:07:12.41,0:07:14.04,Default,,0,0,0,,"SUY NGHĨ"\NNhất quyết là không được dùng siêu năng lực.
+Dialogue: 0,0:07:14.04,0:07:15.41,Default,,0,0,0,,"SUY NGHĨ"\NCũng phải tránh đối đầu với kẻ xấu.
+Dialogue: 0,0:07:15.41,0:07:16.16,Default,,0,0,0,,Trong trường hợp này
+Dialogue: 0,0:07:16.16,0:07:18.33,Default,,0,0,0,,phải xác nhận Kacchan có ở trong đó không?\NLâu lắm mới thấy Midoriya tự lẩm bẩm.
+Dialogue: 0,0:07:18.33,0:07:19.37,Default,,0,0,0,,Đây mới đúng là Midoriya.\NGiống như Ida nói.
+Dialogue: 0,0:07:19.37,0:07:20.66,Default,,0,0,0,,Đây mới đúng là Midoriya.\NTrong số chúng ta không có ai giống Jiro.
+Dialogue: 0,0:07:20.66,0:07:21.62,Default,,0,0,0,,Mình biết mà.\NHay Shoji.
+Dialogue: 0,0:07:21.62,0:07:25.08,Default,,0,0,0,,Cậu một khi quyết tâm không ai...\NNhững người có thể điều tra  như vậy là...
+Dialogue: 0,0:07:25.08,0:07:26.70,Default,,0,0,0,,Có thể ngăn cản cậu.
+Dialogue: 0,0:07:26.70,0:07:30.20,Default,,0,0,0,,Là bạn hay là đối thủ
+Dialogue: 0,0:07:30.20,0:07:32.37,Default,,0,0,0,,mình rất tôn trọng cậu điểm này.
+Dialogue: 0,0:07:32.37,0:07:34.62,Default,,0,0,0,,Nhưng mình không thể tiếp tục nhượng bộ.
+Dialogue: 0,0:07:35.58,0:07:37.16,Default,,0,0,0,,Vì lần này đến lượt mình
+Dialogue: 0,0:07:37.16,0:07:38.66,Default,,0,0,0,,bảo vệ cậu.
+Dialogue: 0,0:07:39.62,0:07:42.41,Default,,0,0,0,,Tại sao tôi phải đi dọn dẹp\Ncho trường trung học anh hùng.
+Dialogue: 0,0:07:42.41,0:07:43.50,Default,,0,0,0,,"ANH HÙNG: ENDEAVOR"\NTôi cũng có rất nhiều việc phải làm.
+Dialogue: 0,0:07:43.50,0:07:44.75,Default,,0,0,0,,"NĂNG LỰC: LỬA ĐỊA NGỤC"\NTôi cũng có rất nhiều việc phải làm.
+Dialogue: 0,0:07:45.45,0:07:46.45,Default,,0,0,0,,Đừng nói vậy mà.
+Dialogue: 0,0:07:46.45,0:07:47.33,Default,,0,0,0,,"ANH HÙNG: JEANIST"
+Dialogue: 0,0:07:47.33,0:07:49.08,Default,,0,0,0,,"NĂNG LỰC: CHUYÊN GIA VỀ SỢI"\NDù sao cũng là bạn học cũ.
+Dialogue: 0,0:07:49.08,0:07:50.20,Default,,0,0,0,,"CẢNH SÁT: NAOMASA TSUKAUCHI"\NTôi không có cách nào
+Dialogue: 0,0:07:50.20,0:07:51.87,Default,,0,0,0,,"CẢNH SÁT: NAOMASA TSUKAUCHI"\Ngọi các anh hùng của trường anh hùng tới.
+Dialogue: 0,0:07:51.87,0:07:54.00,Default,,0,0,0,,Endeavor, xin cậu hãy lấy đại cục làm trọng.
+Dialogue: 0,0:07:55.79,0:07:56.83,Default,,0,0,0,,Sự việc lần này
+Dialogue: 0,0:07:56.83,0:08:00.04,Default,,0,0,0,,rất có thể là khởi đầu cho\Nsự sụp đổ của xã hội anh hùng.
+Dialogue: 0,0:08:00.04,0:08:02.91,Default,,0,0,0,,Vì vậy, chúng ta phải\Ncố gắng hết sức để giải quyết.
+Dialogue: 0,0:08:02.91,0:08:05.50,Default,,0,0,0,,Trước đây để sửa chữa hành vi của Bakugo
+Dialogue: 0,0:08:05.50,0:08:07.95,Default,,0,0,0,,ta có yêu cầu cậu ấy tới thực tập tại văn phòng
+Dialogue: 0,0:08:07.95,0:08:10.29,Default,,0,0,0,,Thật hiếm thấy một người cứng đầu như cậu ấy.
+Dialogue: 0,0:08:10.29,0:08:12.25,Default,,0,0,0,,Giờ này chắc cũng đang làm loạn.
+Dialogue: 0,0:08:12.25,0:08:14.12,Default,,0,0,0,,Với tình hình này cần phải tranh thủ thời gian.
+Dialogue: 0,0:08:14.70,0:08:16.95,Default,,0,0,0,,"ANH HÙNG: GANG ORCA"\NĐến anh cũng không thể thay đổi cậu ta.
+Dialogue: 0,0:08:16.95,0:08:20.08,Default,,0,0,0,,Lòng tự trọng của cậu ta cao\Nmột cách không hiểu nổi.
+Dialogue: 0,0:08:20.08,0:08:21.25,Default,,0,0,0,,"ANH HÙNG: TIGER"\NĐồng đội Ragdoll của tôi
+Dialogue: 0,0:08:21.25,0:08:22.95,Default,,0,0,0,,"NĂNG LỰC: MỀM MẠI"\Ncũng bị bắt cóc rồi.
+Dialogue: 0,0:08:22.95,0:08:25.08,Default,,0,0,0,,Vì vậy, tôi không thể chỉ đứng nhìn.
+Dialogue: 0,0:08:25.08,0:08:27.70,Default,,0,0,0,,Dựa trên thiết bị theo dõi của một học sinh.
+Dialogue: 0,0:08:27.70,0:08:30.87,Default,,0,0,0,,Chúng tôi tin rằng bọn chúng có nhiều nơi ẩn náu.
+Dialogue: 0,0:08:30.87,0:08:32.20,Default,,0,0,0,,Theo điều tra của chúng tôi.
+Dialogue: 0,0:08:32.20,0:08:34.83,Default,,0,0,0,,Tôi đã biết vị trí của học sinh bị bắt cóc.
+Dialogue: 0,0:08:34.83,0:08:36.87,Default,,0,0,0,,Phải bố trí lực lượng chiến đấu chính ở đó.
+Dialogue: 0,0:08:36.87,0:08:39.50,Default,,0,0,0,,Giải cứu người một cách bình an\Nlà ưu tiên hàng đầu.
+Dialogue: 0,0:08:39.50,0:08:40.45,Default,,0,0,0,,Đồng thời
+Dialogue: 0,0:08:40.45,0:08:42.70,Default,,0,0,0,,kiểm soát các vị trí khác có thể được cho là sào huyệt.
+Dialogue: 0,0:08:42.70,0:08:44.20,Default,,0,0,0,,Cắt đứt mọi đường rút lui của kẻ xấu.
+Dialogue: 0,0:08:44.20,0:08:45.79,Default,,0,0,0,,Bắt tất cả bọn chúng cùng một lúc.
+Dialogue: 0,0:08:45.79,0:08:46.79,Default,,0,0,0,,Toshinori.
+Dialogue: 0,0:08:46.79,0:08:49.41,Default,,0,0,0,,Lúc này tìm tới một nhân vật nhỏ bé\Nnhư tôi không phải là...
+Dialogue: 0,0:08:49.41,0:08:50.08,Default,,0,0,0,,Sao ông có thể
+Dialogue: 0,0:08:50.08,0:08:52.87,Default,,0,0,0,,là một nhân vật nhỏ bé được chứ Gran Torino?
+Dialogue: 0,0:08:52.87,0:08:53.66,Default,,0,0,0,,"ANH HÙNG: ALL MIGHT"\NSự việc
+Dialogue: 0,0:08:53.66,0:08:55.54,Default,,0,0,0,,"NĂNG LỰC: TOÀN NĂNG"\Nđã trở nên nghiêm trọng như vậy.
+Dialogue: 0,0:08:55.54,0:08:57.83,Default,,0,0,0,,Có nghĩa là hắn đã hành động.
+Dialogue: 0,0:08:57.83,0:08:58.58,Default,,0,0,0,,ANH HÙNG: GRAN TORINO\NNĂNG LỰC: MÁY BAY PHẢN LỰC
+Dialogue: 0,0:08:58.58,0:09:01.16,Default,,0,0,0,,All for one
+Dialogue: 0,0:09:01.16,0:09:03.16,Default,,0,0,0,,Lần này, tốc độ sẽ quyết định chiến thắng.
+Dialogue: 0,0:09:03.16,0:09:05.16,Default,,0,0,0,,Không được để kẻ xấu có cơ hội hành động.
+Dialogue: 0,0:09:05.16,0:09:06.50,Default,,0,0,0,,Tại buổi họp báo
+Dialogue: 0,0:09:06.50,0:09:07.70,Default,,0,0,0,,để đánh lừa kẻ thù
+Dialogue: 0,0:09:07.70,0:09:09.87,Default,,0,0,0,,tôi đặc biệt yêu cầu hiệu trưởng giúp đỡ.
+Dialogue: 0,0:09:09.87,0:09:10.75,Default,,0,0,0,,Nhờ ông ấy phát biểu rằng
+Dialogue: 0,0:09:10.75,0:09:12.79,Default,,0,0,0,,việc điều tra đang bị đình trệ.
+Dialogue: 0,0:09:14.70,0:09:16.00,Default,,0,0,0,,Sau khi nghe những lời phát biểu đó,
+Dialogue: 0,0:09:16.00,0:09:17.33,Default,,0,0,0,,kẻ xấu sẽ không nghĩ tới việc
+Dialogue: 0,0:09:17.33,0:09:19.58,Default,,0,0,0,,chúng ta sẽ hành động ngay hôm nay.
+Dialogue: 0,0:09:19.58,0:09:21.16,Default,,0,0,0,,Đã tới lúc
+Dialogue: 0,0:09:21.16,0:09:23.16,Default,,0,0,0,,đáp trả lại bọn chúng.
+Dialogue: 0,0:09:24.00,0:09:25.58,Default,,0,0,0,,Hãy phản công.
+Dialogue: 0,0:09:25.58,0:09:27.00,Default,,0,0,0,,Các anh hùng.
+Dialogue: 0,0:09:27.00,0:09:28.08,Default,,0,0,0,,JEANIST
+Dialogue: 0,0:09:28.08,0:09:29.08,Default,,0,0,0,,NĂNG LỰC: CHUYÊN GIA VỀ SỢI\NCÓ THỂ ĐIỀU KHIỂN CÁC LOẠI SỢI.
+Dialogue: 0,0:09:29.08,0:09:30.12,Default,,0,0,0,,NGHỀ NGHIỆP: ANH HÙNG.\NSINH NHẬT: 5 THÁNG 10
+Dialogue: 0,0:09:30.12,0:09:30.95,Default,,0,0,0,,CHIỀU CAO: 190 CM. NHÓM MÁU: AB.\NSỞ THÍCH: SÓI.
+Dialogue: 0,0:09:30.95,0:09:32.12,Default,,0,0,0,,EDGESHOT. NĂNG LỰC: NGƯỜI GIẤY.
+Dialogue: 0,0:09:32.12,0:09:33.25,Default,,0,0,0,,CÓ THỂ BIẾN CƠ THỂ GIẤY RẤT MỎNG.
+Dialogue: 0,0:09:33.25,0:09:34.08,Default,,0,0,0,,NGHỀ NGHIỆP: ANH HÙNG.\NSINH NHẬT: 22 THÁNG 2
+Dialogue: 0,0:09:34.08,0:09:34.87,Default,,0,0,0,,CHIỀU CAO: 170 CM. NHÓM MÁU: A.\NSỞ THÍCH: NINJA, CƠM NẮM.
+Dialogue: 0,0:09:34.87,0:09:37.75,Default,,0,0,0,,VÀI PHÚT TRƯỚC.
+Dialogue: 0,0:09:37.91,0:09:39.29,Default,,0,0,0,,Chúng ta đã tới rất gần rồi.
+Dialogue: 0,0:09:39.29,0:09:41.25,Default,,0,0,0,,Vậy mà kẻ xấu không có động tĩnh gì.
+Dialogue: 0,0:09:41.25,0:09:43.12,Default,,0,0,0,,Đèn cũng không sáng.
+Dialogue: 0,0:09:43.12,0:09:45.20,Default,,0,0,0,,Cảm thấy hình như không có ai trong đó.
+Dialogue: 0,0:09:45.20,0:09:47.58,Default,,0,0,0,,Cái này gọi là gỗ được cất giấu trong rừng.
+Dialogue: 0,0:09:47.58,0:09:49.83,Default,,0,0,0,,Có thể cố tình ngụy trang thành một nhà kho bỏ hoang.
+Dialogue: 0,0:09:49.83,0:09:52.91,Default,,0,0,0,,Ngay lối vào chính, mặt đất mọc đầy cỏ dại.
+Dialogue: 0,0:09:52.91,0:09:54.75,Default,,0,0,0,,Điều này có nghĩa là có thể có những lối đi khác.
+Dialogue: 0,0:09:54.75,0:09:56.83,Default,,0,0,0,,Chúng dùng siêu năng lực ngụy trang sao?
+Dialogue: 0,0:09:56.83,0:09:59.58,Default,,0,0,0,,Ta không thể lao vào\Nmà không có bất kỳ sự chuẩn bị nào.
+Dialogue: 0,0:09:59.58,0:10:01.45,Default,,0,0,0,,Có cách nào để xác nhận\Ntình hình bên trong không?
+Dialogue: 0,0:10:01.45,0:10:03.37,Default,,0,0,0,,Cô em đang làm gì vậy?
+Dialogue: 0,0:10:03.37,0:10:06.16,Default,,0,0,0,,Tôi không phải.\NCó muốn đi uống với bọn ta không?
+Dialogue: 0,0:10:06.16,0:10:08.54,Default,,0,0,0,,Đồ đần. Đừng có làm loạn nữa.
+Dialogue: 0,0:10:08.54,0:10:10.20,Default,,0,0,0,,Làm sao chứ?\NỞ đây có cô em xinh đẹp này.
+Dialogue: 0,0:10:10.20,0:10:12.12,Default,,0,0,0,,Biến khỏi đây thôi.\NCó chuyện gì chứ?
+Dialogue: 0,0:10:14.04,0:10:16.29,Default,,0,0,0,,Tuy không đông, nhưng vẫn có người qua lại.
+Dialogue: 0,0:10:16.29,0:10:18.70,Default,,0,0,0,,Không tiện để hành động.
+Dialogue: 0,0:10:18.70,0:10:20.91,Default,,0,0,0,,Giờ phải làm sao?
+Dialogue: 0,0:10:20.91,0:10:22.54,Default,,0,0,0,,Chúng ta vòng ra sau xem xem.
+Dialogue: 0,0:10:22.54,0:10:24.04,Default,,0,0,0,,Cho dù manh mối mỏng manh thế nào.
+Dialogue: 0,0:10:24.04,0:10:26.33,Default,,0,0,0,,Chúng ta cũng chỉ có manh mối duy nhất này.
+Dialogue: 0,0:10:31.58,0:10:33.12,Default,,0,0,0,,Chỗ này hẹp quá.
+Dialogue: 0,0:10:33.12,0:10:34.37,Default,,0,0,0,,Cảm thấy có thể mắc kẹt ở đây.
+Dialogue: 0,0:10:34.37,0:10:37.29,Default,,0,0,0,,Không thể hành động hấp tấp\Nkhi chưa chắc an toàn.
+Dialogue: 0,0:10:37.29,0:10:39.25,Default,,0,0,0,,Ở chỗ này chắc không có ai đi qua đâu.
+Dialogue: 0,0:10:40.25,0:10:41.37,Default,,0,0,0,,Phía trên có cửa sổ.
+Dialogue: 0,0:10:41.37,0:10:43.04,Default,,0,0,0,,Chúng ta có thể nhìn thấy bên trong.
+Dialogue: 0,0:10:43.04,0:10:44.91,Default,,0,0,0,,Trời tối quá, cậu có nhìn rõ không?
+Dialogue: 0,0:10:44.91,0:10:47.20,Default,,0,0,0,,Vậy mình có thể tạo ra kính nhìn ban đêm.
+Dialogue: 0,0:10:47.20,0:10:48.79,Default,,0,0,0,,Không cần đâu Yaoyorozu.
+Dialogue: 0,0:10:48.79,0:10:51.20,Default,,0,0,0,,Thực ra mình có đem theo cái này.
+Dialogue: 0,0:10:51.20,0:10:53.00,Default,,0,0,0,,Tuyệt quá. Sao cậu mang theo vậy?
+Dialogue: 0,0:10:53.00,0:10:55.37,Default,,0,0,0,,Khi nghĩ về những việc chúng ta có thể làm.
+Dialogue: 0,0:10:55.37,0:10:57.20,Default,,0,0,0,,Mình nghĩ rằng nó có thể được sử dụng.
+Dialogue: 0,0:10:57.20,0:10:59.83,Default,,0,0,0,,Nhưng không phải kính nhìn ban đêm rất đắt sao?
+Dialogue: 0,0:10:59.83,0:11:01.54,Default,,0,0,0,,Lúc mình thiết kế trang phục chiến đấu
+Dialogue: 0,0:11:01.54,0:11:03.20,Default,,0,0,0,,có lên mạng xem thử
+Dialogue: 0,0:11:03.20,0:11:05.54,Default,,0,0,0,,nhớ là giá cũng khoảng 50.000 yên.
+Dialogue: 0,0:11:05.54,0:11:07.83,Default,,0,0,0,,Được rồi, giá cả không quan trọng.
+Dialogue: 0,0:11:07.83,0:11:08.79,Default,,0,0,0,,Ừ.
+Dialogue: 0,0:11:08.79,0:11:11.16,Default,,0,0,0,,Vậy Midoriya và Kirishima hai cậu hãy nhìn xem.
+Dialogue: 0,0:11:11.16,0:11:13.16,Default,,0,0,0,,Mình và Ida sẽ đỡ hai cậu.
+Dialogue: 0,0:11:13.16,0:11:14.16,Default,,0,0,0,,Thật là chật.
+Dialogue: 0,0:11:14.16,0:11:15.41,Default,,0,0,0,,Đừng có chòi lên trên nhiều quá.
+Dialogue: 0,0:11:15.41,0:11:17.75,Default,,0,0,0,,Nếu thấy nguy hiểm thì chạy ngay lập tức.
+Dialogue: 0,0:11:17.75,0:11:20.08,Default,,0,0,0,,Ida cậu có thể ngồi thấp hơn một chút được không?
+Dialogue: 0,0:11:22.12,0:11:23.70,Default,,0,0,0,,Nói cho bọn mình biết bên trong có gì?
+Dialogue: 0,0:11:23.70,0:11:24.41,Default,,0,0,0,,Kirishima.
+Dialogue: 0,0:11:24.41,0:11:25.70,Default,,0,0,0,,Bên trong thế nào?
+Dialogue: 0,0:11:26.66,0:11:28.12,Default,,0,0,0,,Bên trong đó bẩn kinh khủng.
+Dialogue: 0,0:11:28.12,0:11:29.62,Default,,0,0,0,,Không có gì đặc biệt.
+Dialogue: 0,0:11:32.04,0:11:32.83,Default,,0,0,0,,Ôi mẹ ơi.
+Dialogue: 0,0:11:32.83,0:11:33.95,Default,,0,0,0,,Kirishima.
+Dialogue: 0,0:11:33.95,0:11:34.62,Default,,0,0,0,,Sao vậy?
+Dialogue: 0,0:11:34.62,0:11:36.50,Default,,0,0,0,,Kirishima. Cậu đã nhìn thấy gì vậy?
+Dialogue: 0,0:11:36.50,0:11:37.66,Default,,0,0,0,,Trong cùng bên trái.
+Dialogue: 0,0:11:37.66,0:11:39.33,Default,,0,0,0,,Midoriya, mau nhìn bên trái.
+Dialogue: 0,0:11:39.33,0:11:40.54,Default,,0,0,0,,Bên trong cùng.
+Dialogue: 0,0:11:45.58,0:11:47.37,Default,,0,0,0,,Không phải đùa chứ?
+Dialogue: 0,0:11:47.37,0:11:48.33,Default,,0,0,0,,Đó là...
+Dialogue: 0,0:11:48.33,0:11:50.33,Default,,0,0,0,,Tất cả đều là...
+Dialogue: 0,0:11:50.33,0:11:52.29,Default,,0,0,0,,Nomu.
+Dialogue: 0,0:11:52.29,0:11:55.08,Default,,0,0,0,,Thầy, hãy giúp tôi.
+Dialogue: 0,0:11:55.08,0:11:56.66,Default,,0,0,0,,Gọi thầy sao?
+Dialogue: 0,0:11:56.66,0:11:58.70,Default,,0,0,0,,Thì ra ngươi không phải là trùm ở đây.
+Dialogue: 0,0:11:58.70,0:12:00.25,Default,,0,0,0,,Thực là thất vọng.
+Dialogue: 0,0:12:00.25,0:12:02.70,Default,,0,0,0,,Kurogiri. Compress.
+Dialogue: 0,0:12:02.70,0:12:05.29,Default,,0,0,0,,Cho nó ngủ thêm chút nữa đi.
+Dialogue: 0,0:12:06.08,0:12:08.45,Default,,0,0,0,,Cứng đầu tới mức độ này.
+Dialogue: 0,0:12:08.45,0:12:10.62,Default,,0,0,0,,Thật đáng ngưỡng mộ.
+Dialogue: 0,0:12:10.62,0:12:12.00,Default,,0,0,0,,Muốn ta nghe lời
+Dialogue: 0,0:12:12.00,0:12:13.70,Default,,0,0,0,,thì quỳ xuống và chết đi.
+Dialogue: 0,0:12:13.70,0:12:16.45,Default,,0,0,0,,Mặc dù tôi muốn sử dụng\Nhỏa lực tối đa để làm nổ tung chúng.
+Dialogue: 0,0:12:16.45,0:12:19.33,Default,,0,0,0,,Nhưng lại bị tên nhảy không gian cản đường.
+Dialogue: 0,0:12:19.33,0:12:20.62,Default,,0,0,0,,Phải mau nghĩ cách.
+Dialogue: 0,0:12:20.62,0:12:22.16,Default,,0,0,0,,Phải tạo cơ hội
+Dialogue: 0,0:12:22.16,0:12:23.95,Default,,0,0,0,,để thoát ra từ cửa sau.
+Dialogue: 0,0:12:26.04,0:12:26.79,Default,,0,0,0,,Xin chào.
+Dialogue: 0,0:12:26.79,0:12:29.12,Default,,0,0,0,,Giao Pizza LA Kamano tới đây.
+Dialogue: 0,0:12:32.16,0:12:34.37,Default,,0,0,0,,Smash.
+Dialogue: 0,0:12:36.62,0:12:37.20,Default,,0,0,0,,Chuyện gì vậy?
+Dialogue: 0,0:12:37.20,0:12:38.58,Default,,0,0,0,,Kurogiri. Mau mở cổng.
+Dialogue: 0,0:12:39.75,0:12:41.00,Default,,0,0,0,,Trói buộc tiên quyết.
+Dialogue: 0,0:12:41.75,0:12:42.75,Default,,0,0,0,,Gì vậy?
+Dialogue: 0,0:12:44.66,0:12:46.45,Default,,0,0,0,,Khoá cây sơn.
+Dialogue: 0,0:12:46.45,0:12:48.45,Default,,0,0,0,,Cây, cái thứ gì đây?
+Dialogue: 0,0:12:50.70,0:12:52.25,Default,,0,0,0,,Đừng nóng vội.
+Dialogue: 0,0:12:52.25,0:12:54.08,Default,,0,0,0,,Nếu vẫn còn trân trọng cuộc sống này.
+Dialogue: 0,0:12:54.08,0:12:55.45,Default,,0,0,0,,Thì hãy biết an phận một chút.
+Dialogue: 0,0:12:55.45,0:12:58.00,Default,,0,0,0,,"KAMUI WOODS. NĂNG LỰC: C Y GỖ"\NQuả đúng là anh hùng của thế hệ trẻ.
+Dialogue: 0,0:12:58.00,0:12:59.62,Default,,0,0,0,,Kamui Woods.
+Dialogue: 0,0:12:59.62,0:13:01.91,Default,,0,0,0,,Và một cựu binh với tốc độ nhanh như chớp.
+Dialogue: 0,0:13:01.91,0:13:03.87,Default,,0,0,0,,Gran Torino.
+Dialogue: 0,0:13:03.87,0:13:07.16,Default,,0,0,0,,Các ngươi không chạy được đâu. Liên quân kẻ xấu.
+Dialogue: 0,0:13:07.16,0:13:08.45,Default,,0,0,0,,Tại sao?
+Dialogue: 0,0:13:09.45,0:13:11.79,Default,,0,0,0,,Bởi vì bọn ta tới rồi.
+Dialogue: 0,0:13:11.79,0:13:13.37,Default,,0,0,0,,Anh ta tấn công hiện giờ.
+Dialogue: 0,0:13:13.37,0:13:15.62,Default,,0,0,0,,Vậy buổi họp báo đó là cố tình sắp xếp?
+Dialogue: 0,0:13:15.62,0:13:16.20,Default,,0,0,0,,Tên người gỗ này.
+Dialogue: 0,0:13:16.20,0:13:16.95,Default,,0,0,0,,Đừng có kéo nữa.
+Dialogue: 0,0:13:16.95,0:13:18.91,Default,,0,0,0,,Đáng ghét.\NĐẩy đi.
+Dialogue: 0,0:13:18.91,0:13:20.37,Default,,0,0,0,,Khi tấn công
+Dialogue: 0,0:13:20.37,0:13:21.54,Default,,0,0,0,,cũng là lúc ít phòng thủ nhất.
+Dialogue: 0,0:13:21.54,0:13:22.70,Default,,0,0,0,,"EDGESHOT. NĂNG LỰC: NGƯỜI GIẤY."
+Dialogue: 0,0:13:22.70,0:13:24.62,Default,,0,0,0,,"EDGESHOT. NĂNG LỰC: NGƯỜI GIẤY."\NKhông chỉ có nhân viên giao hàng Pizza LA Kamano.
+Dialogue: 0,0:13:24.62,0:13:26.41,Default,,0,0,0,,mà còn rất nhiều người.
+Dialogue: 0,0:13:26.41,0:13:27.75,Default,,0,0,0,,Dẫn đầu là Endeavor
+Dialogue: 0,0:13:27.75,0:13:30.00,Default,,0,0,0,,bên ngoài còn có các anh hùng và cảnh sát
+Dialogue: 0,0:13:30.00,0:13:31.33,Default,,0,0,0,,bao vây chỗ này.
+Dialogue: 0,0:13:31.33,0:13:32.58,Default,,0,0,0,,Tsukauchi.
+Dialogue: 0,0:13:32.58,0:13:34.33,Default,,0,0,0,,Vì sao lại để tên người Mỹ đó xông vào.
+Dialogue: 0,0:13:34.33,0:13:36.00,Default,,0,0,0,,Còn ta thì phải đứng đây bao vây?
+Dialogue: 0,0:13:36.00,0:13:37.70,Default,,0,0,0,,Bởi vì anh có tầm quan sát hơn.
+Dialogue: 0,0:13:37.70,0:13:39.54,Default,,0,0,0,,Nếu bọn chúng có lọt ra thì phải nhờ tới anh rồi.
+Dialogue: 0,0:13:39.54,0:13:40.87,Default,,0,0,0,,Được.
+Dialogue: 0,0:13:41.50,0:13:42.95,Default,,0,0,0,,Sợ lắm phải không?
+Dialogue: 0,0:13:42.95,0:13:44.75,Default,,0,0,0,,Cũng may là em đã nhịn được.
+Dialogue: 0,0:13:44.75,0:13:45.95,Default,,0,0,0,,Xin lỗi.
+Dialogue: 0,0:13:45.95,0:13:47.83,Default,,0,0,0,,Ổn cả rồi, cậu bé.
+Dialogue: 0,0:13:47.83,0:13:49.50,Default,,0,0,0,,Đáng ghét. Em không có sợ.
+Dialogue: 0,0:13:49.50,0:13:51.00,Default,,0,0,0,,Ta bị bất lợi rồi.
+Dialogue: 0,0:13:51.91,0:13:55.29,Default,,0,0,0,,Mất bao công sức mới có thể\Nlàm tình hình trở nên lộn xộn.
+Dialogue: 0,0:13:55.29,0:13:59.08,Default,,0,0,0,,Vì sao trùm cuối\Nlại đích thân tới đây.
+Dialogue: 0,0:13:59.70,0:14:02.04,Default,,0,0,0,,Mọi người đều đang bị kiểm soát.
+Dialogue: 0,0:14:02.04,0:14:04.50,Default,,0,0,0,,Thật không dễ để trốn thoát.
+Dialogue: 0,0:14:05.75,0:14:07.45,Default,,0,0,0,,Không còn cách nào khác.
+Dialogue: 0,0:14:07.45,0:14:09.54,Default,,0,0,0,,Ở đây không chỉ có bọn ta.
+Dialogue: 0,0:14:09.54,0:14:11.37,Default,,0,0,0,,Về điểm này chúng ta giống nhau rồi.
+Dialogue: 0,0:14:11.37,0:14:12.58,Default,,0,0,0,,Kurogiri.
+Dialogue: 0,0:14:12.58,0:14:14.75,Default,,0,0,0,,Đem bọn chúng tới đây, càng nhiều càng tốt.
+Dialogue: 0,0:14:14.75,0:14:16.04,Default,,0,0,0,,Nomu sao?
+Dialogue: 0,0:14:19.62,0:14:20.87,Default,,0,0,0,,Đó là.
+Dialogue: 0,0:14:24.54,0:14:26.08,Default,,0,0,0,,ANH HÙNG: MT. LADY.\NNĂNG LỰC: KHỔNG LỒ.
+Dialogue: 0,0:14:33.83,0:14:35.58,Default,,0,0,0,,Chuyện gì vậy? Kurogiri.
+Dialogue: 0,0:14:35.58,0:14:38.00,Default,,0,0,0,,Xin lỗi. Tomura Shiragaki.
+Dialogue: 0,0:14:38.00,0:14:41.29,Default,,0,0,0,,Đám Nomu đáng lẽ phải\Nở một vị trí cố định.
+Dialogue: 0,0:14:41.29,0:14:42.58,Default,,0,0,0,,Nhưng không thấy rồi.
+Dialogue: 0,0:14:43.66,0:14:46.41,Default,,0,0,0,,Em vẫn còn non lắm. Vẫn là một thằng nhóc.
+Dialogue: 0,0:14:46.41,0:14:47.87,Default,,0,0,0,,Shiragaki.
+Dialogue: 0,0:14:49.29,0:14:50.95,Default,,0,0,0,,Liên quân kẻ xấu
+Dialogue: 0,0:14:50.95,0:14:53.04,Default,,0,0,0,,các ngươi đã quá coi thường rồi.
+Dialogue: 0,0:14:53.04,0:14:55.29,Default,,0,0,0,,Đánh giá thấp tâm hồn của một chàng trai trẻ.
+Dialogue: 0,0:14:55.29,0:14:58.08,Default,,0,0,0,,Đánh giá thấp sự cần cù của cảnh sát.
+Dialogue: 0,0:14:58.08,0:14:59.79,Default,,0,0,0,,Cũng lại đánh giá thấp
+Dialogue: 0,0:14:59.79,0:15:01.91,Default,,0,0,0,,sự phẫn nộ của bọn ta.
+Dialogue: 0,0:15:02.45,0:15:04.33,Default,,0,0,0,,Nhà máy sản xuất Nomu
+Dialogue: 0,0:15:04.33,0:15:06.08,Default,,0,0,0,,bị cho đóng cửa rồi.
+Dialogue: 0,0:15:06.87,0:15:09.08,Default,,0,0,0,,Bọn ngươi gây rắc rối
+Dialogue: 0,0:15:09.08,0:15:11.04,Default,,0,0,0,,tới đây là đủ rồi.
+Dialogue: 0,0:15:11.58,0:15:13.58,Default,,0,0,0,,Tomura Shiragaki.
+Dialogue: 0,0:15:14.37,0:15:15.79,Default,,0,0,0,,All Might.
+Dialogue: 0,0:15:15.79,0:15:17.79,Default,,0,0,0,,Người hùng được Stain công nhận.
+Dialogue: 0,0:15:17.79,0:15:19.79,Default,,0,0,0,,Anh hùng sao?
+Dialogue: 0,0:15:19.79,0:15:21.62,Default,,0,0,0,,Ngươi nói kết thúc rồi sao?
+Dialogue: 0,0:15:21.62,0:15:23.33,Default,,0,0,0,,Đùa gì vậy chứ?
+Dialogue: 0,0:15:23.33,0:15:25.79,Default,,0,0,0,,Giờ mới chỉ là bắt đầu thôi.
+Dialogue: 0,0:15:25.79,0:15:28.33,Default,,0,0,0,,Cái gì mà chính nghĩa, cái gì là công bằng.
+Dialogue: 0,0:15:28.33,0:15:30.66,Default,,0,0,0,,Ta sẽ phá huỷ những lời nguỵ biện mơ hồ
+Dialogue: 0,0:15:30.66,0:15:33.12,Default,,0,0,0,,cái đống rác rưởi đó.
+Dialogue: 0,0:15:33.12,0:15:36.75,Default,,0,0,0,,Để làm như vậy ta phải loại bỏ All Might.
+Dialogue: 0,0:15:36.75,0:15:40.00,Default,,0,0,0,,Ta cũng đã tập hợp những người có cùng chí hướng.
+Dialogue: 0,0:15:40.00,0:15:41.62,Default,,0,0,0,,Đùa cái gì vậy?
+Dialogue: 0,0:15:41.62,0:15:43.70,Default,,0,0,0,,Bây giờ mới là bắt đầu.
+Dialogue: 0,0:15:43.70,0:15:44.45,Default,,0,0,0,,Kurogiri.
+Dialogue: 0,0:15:46.95,0:15:49.29,Default,,0,0,0,,Đáng ghét. Ta không nhìn thấy gì hết.
+Dialogue: 0,0:15:49.29,0:15:50.37,Default,,0,0,0,,Anh ta chết rồi sao?
+Dialogue: 0,0:15:50.37,0:15:52.62,Default,,0,0,0,,Ta chỉ vào trong cơ thể anh ta chơi đùa chút thôi.
+Dialogue: 0,0:15:52.62,0:15:54.12,Default,,0,0,0,,Làm anh ta ngất đi rồi.
+Dialogue: 0,0:15:54.12,0:15:56.70,Default,,0,0,0,,Ninpo, xuyên thủng ngàn lớp.
+Dialogue: 0,0:15:56.70,0:15:58.70,Default,,0,0,0,,Bởi vì tên này phiền quá.
+Dialogue: 0,0:15:58.70,0:16:00.54,Default,,0,0,0,,Nên cho hắn ngủ một lúc.
+Dialogue: 0,0:16:00.54,0:16:02.33,Default,,0,0,0,,Không phải ta đã nói là
+Dialogue: 0,0:16:02.33,0:16:05.16,Default,,0,0,0,,Nếu muốn toàn mạng thì hãy ngồi im rồi sao.
+Dialogue: 0,0:16:05.16,0:16:07.62,Default,,0,0,0,,Kenji Hikiishi.
+Dialogue: 0,0:16:07.62,0:16:09.20,Default,,0,0,0,,Atsuhiro Sako.
+Dialogue: 0,0:16:09.20,0:16:10.95,Default,,0,0,0,,Shuichi Higuchi.
+Dialogue: 0,0:16:10.95,0:16:12.83,Default,,0,0,0,,Himiko Toga.
+Dialogue: 0,0:16:12.83,0:16:14.87,Default,,0,0,0,,Jin Bubaigawara.
+Dialogue: 0,0:16:14.87,0:16:17.91,Default,,0,0,0,,Với những thông tin ít ỏi và trong thời gian ngắn.
+Dialogue: 0,0:16:17.91,0:16:21.37,Default,,0,0,0,,Cảnh sát đã ngày đêm làm việc\Nvà tìm ra danh tính thực sự của các ngươi.
+Dialogue: 0,0:16:21.37,0:16:23.29,Default,,0,0,0,,Giờ thì biết rồi chứ?
+Dialogue: 0,0:16:23.29,0:16:26.45,Default,,0,0,0,,Các ngươi không chạy được đâu.
+Dialogue: 0,0:16:26.45,0:16:28.37,Default,,0,0,0,,Shiragaki.
+Dialogue: 0,0:16:28.37,0:16:30.33,Default,,0,0,0,,Ta hỏi ngươi.
+Dialogue: 0,0:16:30.33,0:16:33.00,Default,,0,0,0,,Trùm của các ngươi đâu rồi?
+Dialogue: 0,0:16:37.50,0:16:40.62,Default,,0,0,0,,Không ai đến cứu nhóc sao?
+Dialogue: 0,0:16:41.83,0:16:46.04,Default,,0,0,0,,Thật khó chịu phải không? Tenko Shimura.
+Dialogue: 0,0:16:46.04,0:16:49.66,Default,,0,0,0,,Anh hùng... Rồi các anh hùng sẽ...
+Dialogue: 0,0:16:49.66,0:16:51.08,Default,,0,0,0,,Ai cũng nói như vậy.
+Dialogue: 0,0:16:51.08,0:16:53.50,Default,,0,0,0,,Vậy mà lại bỏ qua nhóc.
+Dialogue: 0,0:16:53.50,0:16:55.04,Default,,0,0,0,,Ai đã khiến cho thế giới
+Dialogue: 0,0:16:55.04,0:16:58.00,Default,,0,0,0,,trở thành như thế này?
+Dialogue: 0,0:16:59.37,0:17:01.70,Default,,0,0,0,,Đây không phải là lỗi của nhóc.
+Dialogue: 0,0:17:03.62,0:17:05.29,Default,,0,0,0,,Không sao rồi.
+Dialogue: 0,0:17:05.29,0:17:07.33,Default,,0,0,0,,Ta sẽ ở bên cạnh nhóc.
+Dialogue: 0,0:17:09.33,0:17:10.95,Default,,0,0,0,,Đã vậy.
+Dialogue: 0,0:17:12.16,0:17:14.00,Default,,0,0,0,,Đã vậy.
+Dialogue: 0,0:17:14.00,0:17:16.45,Default,,0,0,0,,Đơn giản vậy sao?
+Dialogue: 0,0:17:16.45,0:17:19.95,Default,,0,0,0,,Thật nực cười.
+Dialogue: 0,0:17:19.95,0:17:22.25,Default,,0,0,0,,Thằng nhóc đứng đó
+Dialogue: 0,0:17:22.25,0:17:25.50,Default,,0,0,0,,mau biến đi cho ta.
+Dialogue: 0,0:17:25.50,0:17:26.95,Default,,0,0,0,,Shigaraki.
+Dialogue: 0,0:17:26.95,0:17:28.33,Default,,0,0,0,,Ta thực sự.
+Dialogue: 0,0:17:28.33,0:17:30.12,Default,,0,0,0,,Rất ghét.
+Dialogue: 0,0:17:32.50,0:17:33.41,Default,,0,0,0,,Nomu.
+Dialogue: 0,0:17:33.41,0:17:35.04,Default,,0,0,0,,Từ đâu ra vậy?
+Dialogue: 0,0:17:35.04,0:17:36.33,Default,,0,0,0,,Chất lỏng đó là gì?
+Dialogue: 0,0:17:36.33,0:17:37.29,Default,,0,0,0,,Edgeshot
+Dialogue: 0,0:17:37.29,0:17:38.54,Default,,0,0,0,,Kurogiri sao rồi?
+Dialogue: 0,0:17:38.54,0:17:41.00,Default,,0,0,0,,Hắn ta vẫn chưa thức dậy,\Ncó vẻ như không phải do hắn làm.
+Dialogue: 0,0:17:41.00,0:17:42.75,Default,,0,0,0,,Những chất lỏng màu đen đó càng ngày càng nhiều.
+Dialogue: 0,0:17:42.75,0:17:43.70,Default,,0,0,0,,Kamui Woods.
+Dialogue: 0,0:17:43.70,0:17:45.29,Default,,0,0,0,,Tuyệt đối không được buông tay.
+Dialogue: 0,0:17:45.29,0:17:46.12,Default,,0,0,0,,Được.
+Dialogue: 0,0:17:47.04,0:17:48.45,Default,,0,0,0,,Cái gì vậy?
+Dialogue: 0,0:17:49.75,0:17:50.95,Default,,0,0,0,,Bakugo.
+Dialogue: 0,0:17:53.45,0:17:55.33,Default,,0,0,0,,Không.
+Dialogue: 0,0:17:55.33,0:17:57.16,Default,,0,0,0,,Endeavor, chúng tôi cần hỗ trợ.
+Dialogue: 0,0:17:58.08,0:17:59.54,Default,,0,0,0,,Sao vậy?
+Dialogue: 0,0:18:03.75,0:18:04.54,Default,,0,0,0,,Tsukauchi.
+Dialogue: 0,0:18:04.54,0:18:06.08,Default,,0,0,0,,Mở rộng  khu vực sơ tán.
+Dialogue: 0,0:18:06.08,0:18:07.50,Default,,0,0,0,,Theo như tin tình báo
+Dialogue: 0,0:18:07.50,0:18:09.54,Default,,0,0,0,,kẻ xấu chỉ có hai sào huyệt.
+Dialogue: 0,0:18:09.54,0:18:10.70,Default,,0,0,0,,Jeanist.
+Dialogue: 0,0:18:10.70,0:18:12.41,Default,,0,0,0,,Không phải anh đang kiểm soát chỗ đó sao?
+Dialogue: 0,0:18:13.41,0:18:14.50,Default,,0,0,0,,Nghe thấy không?
+Dialogue: 0,0:18:18.08,0:18:20.04,Default,,0,0,0,,Toshinori. Xem ra...
+Dialogue: 0,0:18:20.04,0:18:22.29,Default,,0,0,0,,Bọn chúng đâu có khả năng xuyên không.
+Dialogue: 0,0:18:22.29,0:18:24.45,Default,,0,0,0,,Tốc độ phản ứng quá nhanh.
+Dialogue: 0,0:18:24.45,0:18:25.45,Default,,0,0,0,,Tình hình này.
+Dialogue: 0,0:18:25.45,0:18:26.66,Default,,0,0,0,,Không lẽ là...
+Dialogue: 0,0:18:30.08,0:18:31.79,Default,,0,0,0,,Thầy.
+Dialogue: 0,0:18:32.66,0:18:34.50,Default,,0,0,0,,HAI PHÚT TRƯỚC.
+Dialogue: 0,0:18:36.37,0:18:38.08,Default,,0,0,0,,Đau quá.
+Dialogue: 0,0:18:38.08,0:18:40.08,Default,,0,0,0,,Rốt cuộc có chuyện gì xảy ra vậy?
+Dialogue: 0,0:18:42.66,0:18:44.58,Default,,0,0,0,,Mt. Lady và Gang Orca.
+Dialogue: 0,0:18:44.58,0:18:46.75,Default,,0,0,0,,Còn có cả anh hùng số bốn Jeanist.
+Dialogue: 0,0:18:46.75,0:18:48.33,Default,,0,0,0,,Tiger cũng tới.
+Dialogue: 0,0:18:50.00,0:18:52.37,Default,,0,0,0,,Mấy thứ này thực sự còn sống.
+Dialogue: 0,0:18:52.37,0:18:54.08,Default,,0,0,0,,Jeanist.
+Dialogue: 0,0:18:54.08,0:18:56.12,Default,,0,0,0,,Có ổn không khi mọi việc dễ dàng quá.
+Dialogue: 0,0:18:56.12,0:18:59.04,Default,,0,0,0,,Có phải chúng ta nên tới chỗ\NAll Might để giúp đỡ.
+Dialogue: 0,0:18:59.04,0:19:03.16,Default,,0,0,0,,Người mới, độ khó và tầm quan trọng\Nlà hai việc khác biệt.
+Dialogue: 0,0:19:03.16,0:19:04.08,Default,,0,0,0,,Đội chống bạo động.
+Dialogue: 0,0:19:04.08,0:19:05.45,Default,,0,0,0,,Sẵn sàng hành động.
+Dialogue: 0,0:19:05.45,0:19:06.75,Default,,0,0,0,,Có lẽ vẫn còn kẻ xấu khác.
+Dialogue: 0,0:19:06.75,0:19:08.08,Default,,0,0,0,,Hãy chuẩn bị hết sức.
+Dialogue: 0,0:19:08.08,0:19:09.16,Default,,0,0,0,,Rõ.
+Dialogue: 0,0:19:09.16,0:19:10.25,Default,,0,0,0,,Sao rồi? Ragdoll.
+Dialogue: 0,0:19:10.25,0:19:11.50,Default,,0,0,0,,Mau trả lời đi.
+Dialogue: 0,0:19:11.50,0:19:13.00,Default,,0,0,0,,Cô ấy là đồng đội của anh phải không?
+Dialogue: 0,0:19:13.00,0:19:14.12,Default,,0,0,0,,Thật tốt quá rồi.
+Dialogue: 0,0:19:14.12,0:19:15.16,Default,,0,0,0,,Cô ấy vẫn còn sống.
+Dialogue: 0,0:19:15.16,0:19:16.20,Default,,0,0,0,,Nhưng mà cô ấy...
+Dialogue: 0,0:19:16.20,0:19:17.58,Default,,0,0,0,,Không có phản ứng gì hết.
+Dialogue: 0,0:19:17.58,0:19:18.79,Default,,0,0,0,,"RAGDOLL"\NBọn chúng đã làm gì với cô ấy?
+Dialogue: 0,0:19:18.79,0:19:19.95,Default,,0,0,0,,"NĂNG LỰC: THĂM DÒ"\NRagdoll.
+Dialogue: 0,0:19:21.25,0:19:22.25,Default,,0,0,0,,Xem ra
+Dialogue: 0,0:19:22.25,0:19:24.50,Default,,0,0,0,,Các anh hùng đã hành động trước chúng ta.
+Dialogue: 0,0:19:24.50,0:19:25.66,Default,,0,0,0,,Thật lợi hại.
+Dialogue: 0,0:19:25.66,0:19:27.37,Default,,0,0,0,,Tốt rồi. Chúng ta mau rời đi.
+Dialogue: 0,0:19:27.37,0:19:29.91,Default,,0,0,0,,Không có gì việc gì cho chúng ta ở đây nữa rồi.
+Dialogue: 0,0:19:30.58,0:19:31.50,Default,,0,0,0,,Cô ấy vừa nói
+Dialogue: 0,0:19:31.50,0:19:32.87,Default,,0,0,0,,All Might bên đó.
+Dialogue: 0,0:19:32.87,0:19:34.79,Default,,0,0,0,,Tức là Kacchan cũng ở đó?
+Dialogue: 0,0:19:34.79,0:19:36.16,Default,,0,0,0,,Nếu All Might ở đó
+Dialogue: 0,0:19:36.16,0:19:37.95,Default,,0,0,0,,thì chúng ta không cần lo lắng gì nữa rồi.
+Dialogue: 0,0:19:37.95,0:19:39.45,Default,,0,0,0,,Ừ. Đi thôi.
+Dialogue: 0,0:19:49.12,0:19:50.95,Default,,0,0,0,,Xin lỗi. Tiger.
+Dialogue: 0,0:19:50.95,0:19:54.12,Default,,0,0,0,,Ta vẫn luôn thấy siêu năng lực của cô ta rất tuyệt.
+Dialogue: 0,0:19:54.12,0:19:57.50,Default,,0,0,0,,Nên nhân cơ hội này lấy đi siêu năng lực đó.
+Dialogue: 0,0:19:57.50,0:19:59.20,Default,,0,0,0,,Là liên quân kẻ xấu sao?
+Dialogue: 0,0:19:59.20,0:20:00.75,Default,,0,0,0,,Ai đó bật đèn lên đi.
+Dialogue: 0,0:20:00.75,0:20:03.00,Default,,0,0,0,,Kể từ khi cơ thể ta trở nên như thế này.
+Dialogue: 0,0:20:03.00,0:20:06.16,Default,,0,0,0,,Khả năng lưu trữ cũng cạn kiệt dần.
+Dialogue: 0,0:20:07.45,0:20:08.41,Default,,0,0,0,,Dừng lại.
+Dialogue: 0,0:20:08.41,0:20:09.83,Default,,0,0,0,,Đừng có hành động bừa bãi.
+Dialogue: 0,0:20:16.00,0:20:17.87,Default,,0,0,0,,Đợi đã, Jeanist.
+Dialogue: 0,0:20:17.87,0:20:20.62,Default,,0,0,0,,Nhớ là người thường thì sao?\NVới tình hình hiện tại
+Dialogue: 0,0:20:20.62,0:20:23.70,Default,,0,0,0,,chần chừ một lúc có thể ảnh hưởng\Nđến tình hình chung.
+Dialogue: 0,0:20:23.70,0:20:26.12,Default,,0,0,0,,Không thể để kẻ xấu có bất kỳ cơ hội nào.
+Dialogue: 0,0:20:34.91,0:20:41.16,Default,,0,0,0,,♫Hãy bay thật xa, thật xa.\NHướng tới những vùng đất xa kia bay nào♫
+Dialogue: 0,0:20:41.16,0:20:46.41,Default,,0,0,0,,♫Không với ai hết. Tôi không muốn♫
+Dialogue: 0,0:20:46.41,0:20:51.50,Default,,0,0,0,,♫Nếu không muốn hối hận điều gì.\NHãy nói ngay bây giờ♫
+Dialogue: 0,0:20:51.50,0:20:54.66,Default,,0,0,0,,♫Tôi thích, tôi thích, tôi thích, tôi thích♫
+Dialogue: 0,0:20:54.66,0:21:00.37,Default,,0,0,0,,♫Tôi thích nơi này♫
+Dialogue: 0,0:21:03.37,0:21:08.29,Default,,0,0,0,,♫Tôi nhận ra một điều quan trọng\N(Tìm con đường)♫
+Dialogue: 0,0:21:08.29,0:21:14.66,Default,,0,0,0,,♫Quan trọng không phải là làm gì\Nmà là làm cùng ai♫
+Dialogue: 0,0:21:14.66,0:21:19.41,Default,,0,0,0,,♫Không ngờ điều mà tôi tìm kiếm\N(Tìm con đường)♫
+Dialogue: 0,0:21:19.41,0:21:25.87,Default,,0,0,0,,♫Lại đang ở rất gần\NBạn có thể tỏa sáng bây giờ♫
+Dialogue: 0,0:21:25.87,0:21:31.70,Default,,0,0,0,,♫Lý do mà tôi mong chờ tới ngày mai♫
+Dialogue: 0,0:21:31.70,0:21:37.08,Default,,0,0,0,,♫Vì tôi muốn cùng bạn ngắm nhìn khung cảnh.\NHãy chuẩn bị♫
+Dialogue: 0,0:21:37.08,0:21:43.20,Default,,0,0,0,,♫Hãy bay thật xa, thật xa.\NHướng tới những vùng đất xa kia bay nào♫
+Dialogue: 0,0:21:43.20,0:21:48.25,Default,,0,0,0,,♫Không với ai hết. Tôi không muốn♫
+Dialogue: 0,0:21:48.25,0:21:53.66,Default,,0,0,0,,♫Nếu không muốn hối hận điều gì. Hãy nói ngay bây giờ♫
+Dialogue: 0,0:21:53.66,0:21:56.95,Default,,0,0,0,,♫Tôi thích, tôi thích, tôi thích, tôi thích♫
+Dialogue: 0,0:21:56.95,0:22:00.12,Default,,0,0,0,,♫Tôi thích nơi này♫
+Dialogue: 0,0:22:00.12,0:22:04.91,Default,,0,0,0,,HỌC VIỆN ANH HÙNG CỦA TÔI
+Dialogue: 0,0:22:16.75,0:22:19.20,Default,,0,0,0,,Hiếm khi, Tomura tự bắt đầu suy nghĩ
+Dialogue: 0,0:22:19.20,0:22:22.04,Default,,0,0,0,,và đưa ra quyết định tiến về phía trước.
+Dialogue: 0,0:22:22.70,0:22:24.12,Default,,0,0,0,,Thế nên nếu có thể
+Dialogue: 0,0:22:24.12,0:22:26.75,Default,,0,0,0,,ta hy vọng các ngươi đừng có cản đường nó.
+Dialogue: 0,0:22:27.91,0:22:30.25,Default,,0,0,0,,Còn không kịp quay trở lại.
+Dialogue: 0,0:22:30.70,0:22:33.58,Default,,0,0,0,,Mọi thứ diễn ra chỉ trong nháy mắt.
+Dialogue: 0,0:22:33.58,0:22:35.95,Default,,0,0,0,,Rốt cuộc là xảy ra chuyện gì vậy?
+Dialogue: 0,0:22:35.95,0:22:37.79,Default,,0,0,0,,Còn chưa tới một giây.
+Dialogue: 0,0:22:38.58,0:22:39.87,Default,,0,0,0,,Dẫu vậy
+Dialogue: 0,0:22:39.87,0:22:42.45,Default,,0,0,0,,khí chất mà người đàn ông toát ra
+Dialogue: 0,0:22:42.45,0:22:45.08,Default,,0,0,0,,lại toàn là sự chết chóc.
+Dialogue: 0,0:22:47.04,0:22:48.75,Default,,0,0,0,,Rồi sẽ có một ngày
+Dialogue: 0,0:22:48.75,0:22:49.87,Default,,0,0,0,,buộc phải đối mặt với
+Dialogue: 0,0:22:49.87,0:22:51.79,Default,,0,0,0,,chiến đấu với
+Dialogue: 0,0:22:51.79,0:22:53.62,Default,,0,0,0,,kẻ xấu mạnh nhất.
+Dialogue: 0,0:22:54.33,0:22:55.62,Default,,0,0,0,,Tomura.
+Dialogue: 0,0:22:55.62,0:22:58.29,Default,,0,0,0,,Là nói về Tomura Shigaraki.
+Dialogue: 0,0:22:58.29,0:22:59.83,Default,,0,0,0,,Sao lại có thể.
+Dialogue: 0,0:22:59.83,0:23:02.20,Default,,0,0,0,,Không phải đùa chứ. All Might.
+Dialogue: 0,0:23:02.20,0:23:03.62,Default,,0,0,0,,Lẽ nào...
+Dialogue: 0,0:23:03.62,0:23:05.25,Default,,0,0,0,,Đó là...
+Dialogue: 0,0:23:06.20,0:23:08.08,Default,,0,0,0,,Đó là...
+Dialogue: 0,0:23:08.08,0:23:10.66,Default,,0,0,0,,All for one
+Dialogue: 0,0:23:13.00,0:23:15.29,Default,,0,0,0,,Được rồi.
+Dialogue: 0,0:23:15.29,0:23:17.45,Default,,0,0,0,,Bắt đầu thôi.
+Dialogue: 0,0:23:20.62,0:23:21.75,Default,,0,0,0,,Tập sau.
+Dialogue: 0,0:23:21.75,0:23:23.70,Default,,0,0,0,,Biểu tượng của cái ác, All for one.
+Dialogue: 0,0:23:23.70,0:23:25.54,Default,,0,0,0,,Đối mặt với sức mạnh áp đảo đó.
+Dialogue: 0,0:23:25.54,0:23:27.50,Default,,0,0,0,,Chúng tôi không thể di chuyển một bước.
+Dialogue: 0,0:23:27.50,0:23:30.20,Default,,0,0,0,,Rõ ràng Kacchan đang ở ngay trước mắt chúng tôi.
+Dialogue: 0,0:23:30.20,0:23:30.95,Default,,0,0,0,,Tập sau.
+Dialogue: 0,0:23:30.95,0:23:32.16,Default,,0,0,0,,Biểu tượng của hoà bình.
+Dialogue: 0,0:23:32.16,0:23:33.33,Default,,0,0,0,,Tiến về phía trước.
+Dialogue: 0,0:23:33.33,0:23:34.91,Default,,0,0,0,,Plus Ultra.

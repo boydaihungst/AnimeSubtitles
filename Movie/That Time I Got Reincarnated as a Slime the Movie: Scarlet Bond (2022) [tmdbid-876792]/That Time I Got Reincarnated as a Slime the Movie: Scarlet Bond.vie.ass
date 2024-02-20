@@ -1,0 +1,1312 @@
+[Script Info]
+; This is an Advanced Sub Station Alpha v4+ script.
+Title: 
+ScriptType: v4.00+
+PlayDepth: 0
+ScaledBorderAndShadow: Yes
+PlayResX: 1920
+PlayResY: 1080
+[V4+ Styles]
+Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
+Style: Default,Noto Sans,80.0,&H00FFFFFF,&H000000FF,&H00002208,&H00000000,-1,0,0,0,100,100,0,0,1,3.0,2.0,2,0,0,65,1
+
+[Events]
+Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
+Dialogue: 0,0:03:08.60,0:03:12.14,Default,,0,0,0,,Một lính đánh thuê Ogre thấp hèn\Ndám thách thức ta ư?
+Dialogue: 0,0:03:13.39,0:03:17.15,Default,,0,0,0,,Mọi sự mất mát này,\Nchỉ vì một tên đào ngũ?
+Dialogue: 0,0:03:24.61,0:03:26.66,Default,,0,0,0,,Dù chỉ là một tên Ogre đánh thuê,
+Dialogue: 0,0:03:27.24,0:03:31.41,Default,,0,0,0,,nhưng ta có một ngôi làng\Nvà những đồng đội quý giá phải bảo vệ.
+Dialogue: 0,0:03:32.12,0:03:34.33,Default,,0,0,0,,Đừng hỏng cản đường ta!
+Dialogue: 0,0:03:35.87,0:03:38.59,Default,,0,0,0,,Ý ngươi là mấy đứa nằm la liệt đó hả?
+Dialogue: 0,0:03:40.92,0:03:41.80,Default,,0,0,0,,Sao?
+Dialogue: 0,0:03:55.89,0:03:58.90,Default,,0,0,0,,Ồ? Ngươi định lao tới à?
+Dialogue: 0,0:04:06.36,0:04:07.95,Default,,0,0,0,,Đó!
+Dialogue: 0,0:04:13.79,0:04:17.21,Default,,0,0,0,,Sao vậy? Chỉ có thế thôi à?
+Dialogue: 0,0:05:10.76,0:05:13.14,Default,,0,0,0,,Tốn công vô ích với nhà ngươi.
+Dialogue: 0,0:05:13.22,0:05:14.81,Default,,0,0,0,,Rút thôi.
+Dialogue: 0,0:05:24.11,0:05:27.44,Default,,0,0,0,,Ai đó… Bảo với làng…
+Dialogue: 0,0:05:31.41,0:05:32.95,Default,,0,0,0,,Ngài định làm gì?
+Dialogue: 0,0:06:04.90,0:06:06.90,Default,,0,0,0,,Không được cử động.
+Dialogue: 0,0:06:09.90,0:06:11.91,Default,,0,0,0,,Vết thương của ngươi chưa lành.
+Dialogue: 0,0:06:13.91,0:06:14.95,Default,,0,0,0,,Tôi đang ở đâu?
+Dialogue: 0,0:06:17.79,0:06:19.91,Default,,0,0,0,,Và… cô là ai?
+Dialogue: 0,0:06:21.42,0:06:25.29,Default,,0,0,0,,Tên ta là Towa.\NTa là nữ hoàng của Vương quốc Raja.
+Dialogue: 0,0:06:26.38,0:06:27.46,Default,,0,0,0,,Raja…
+Dialogue: 0,0:06:28.17,0:06:29.17,Default,,0,0,0,,Nữ hoàng Towa ạ?
+Dialogue: 0,0:06:29.80,0:06:34.09,Default,,0,0,0,,Bọn ta tìm thấy ngươi bên một dòng suối\Ntrên núi và đưa về đây.
+Dialogue: 0,0:06:34.68,0:06:37.10,Default,,0,0,0,,Ngươi đã bị trọng thương.
+Dialogue: 0,0:06:37.18,0:06:38.81,Default,,0,0,0,,Ngươi không nhớ à?
+Dialogue: 0,0:06:40.52,0:06:41.69,Default,,0,0,0,,Tôi hiểu rồi.
+Dialogue: 0,0:06:42.89,0:06:45.19,Default,,0,0,0,,Các vị đã có ân cứu mạng.
+Dialogue: 0,0:06:47.73,0:06:49.40,Default,,0,0,0,,Không cần cảm ơn đâu.
+Dialogue: 0,0:06:50.61,0:06:51.61,Default,,0,0,0,,Hiiro.
+Dialogue: 0,0:06:54.95,0:06:56.45,Default,,0,0,0,,Hiiro?
+Dialogue: 0,0:07:25.27,0:07:28.15,Default,,0,0,0,,Xin hãy cứu… anh ấy…
+Dialogue: 0,0:07:29.32,0:07:30.53,Default,,0,0,0,,Làm ơn…
+Dialogue: 0,0:07:42.29,0:07:43.41,Default,,0,0,0,,Ta trao cho ngươi…
+Dialogue: 0,0:07:45.33,0:07:46.96,Default,,0,0,0,,cái tên "Hiiro".
+Dialogue: 0,0:08:22.95,0:08:26.58,Default,,0,0,0,,Vết thương của ngươi rất nghiêm trọng.\NBọn ta không có cách chữa.
+Dialogue: 0,0:08:26.67,0:08:32.38,Default,,0,0,0,,Ta chỉ mong rằng việc cho ngươi\Nmột cái tên để chuyển sinh ngươi sẽ là đủ.
+Dialogue: 0,0:08:34.05,0:08:35.05,Default,,0,0,0,,Nhưng…
+Dialogue: 0,0:08:36.51,0:08:41.68,Default,,0,0,0,,Ta không đủ sinh lực\Nđể đặt tên cho tất cả các ngươi.
+Dialogue: 0,0:08:42.68,0:08:44.77,Default,,0,0,0,,Những đồng đội của tôi… Họ sao rồi?
+Dialogue: 0,0:08:47.60,0:08:50.44,Default,,0,0,0,,Ta nghĩ rằng nếu ta có thể cứu ngươi…
+Dialogue: 0,0:08:52.02,0:08:56.32,Default,,0,0,0,,Xin thứ lỗi cho ta vì bất lực thế này.
+Dialogue: 0,0:08:59.87,0:09:01.95,Default,,0,0,0,,Ngài không cần phải xin lỗi.
+Dialogue: 0,0:09:02.70,0:09:06.00,Default,,0,0,0,,Nhất là khi ngài đã cố gắng như vậy.
+Dialogue: 0,0:09:07.16,0:09:08.17,Default,,0,0,0,,Tôi xin cảm tạ.
+Dialogue: 0,0:09:09.50,0:09:11.59,Default,,0,0,0,,Giờ tôi chịu ơn của các vị.
+Dialogue: 0,0:09:12.25,0:09:15.55,Default,,0,0,0,,Nhưng với tình trạng hiện giờ…
+Dialogue: 0,0:09:16.34,0:09:18.72,Default,,0,0,0,,Ngươi định quay lại Làng Ogre à?
+Dialogue: 0,0:09:19.76,0:09:22.18,Default,,0,0,0,,Ngươi thường xuyên gặp ác mộng.
+Dialogue: 0,0:09:22.26,0:09:25.68,Default,,0,0,0,,Ngươi đã ngủ… suốt mười ngày.
+Dialogue: 0,0:09:36.94,0:09:38.36,Default,,0,0,0,,Chờ đã, Hiiro!
+Dialogue: 0,0:09:39.03,0:09:40.03,Default,,0,0,0,,Này!
+Dialogue: 0,0:09:40.11,0:09:41.03,Default,,0,0,0,,Dừng lại!
+Dialogue: 0,0:09:49.75,0:09:50.79,Default,,0,0,0,,Này!
+Dialogue: 0,0:10:01.38,0:10:02.72,Default,,0,0,0,,Cho tôi mượn!
+Dialogue: 0,0:10:03.47,0:10:04.47,Default,,0,0,0,,Xin lỗi nhé!
+Dialogue: 0,0:11:37.11,0:11:38.44,Default,,0,0,0,,Đi nào, lối này!
+Dialogue: 0,0:11:38.52,0:11:39.90,Default,,0,0,0,,Đợi bọn em với!
+Dialogue: 0,0:11:39.98,0:11:41.03,Default,,0,0,0,,Chờ đã!
+Dialogue: 0,0:11:41.11,0:11:42.19,Default,,0,0,0,,Lối này!
+Dialogue: 0,0:11:42.28,0:11:43.40,Default,,0,0,0,,Thôi nào!
+Dialogue: 0,0:11:46.99,0:11:48.58,Default,,0,0,0,,Này, đợi đã!
+Dialogue: 0,0:12:34.70,0:12:36.16,Default,,0,0,0,,Đây là…
+Dialogue: 0,0:12:37.17,0:12:39.58,Default,,0,0,0,,những gì còn lại\Ncủa một ngôi làng tuyệt đẹp?
+Dialogue: 0,0:12:42.25,0:12:47.47,Default,,0,0,0,,Mình đã mất đi những đồng đội quý giá\Nđược trưởng làng giao phó lại,
+Dialogue: 0,0:12:48.09,0:12:49.80,Default,,0,0,0,,và giờ làng quê của mình…
+Dialogue: 0,0:12:53.60,0:12:55.43,Default,,0,0,0,,Lũ Orc đáng nguyền rủa!
+Dialogue: 0,0:12:56.18,0:13:01.40,Default,,0,0,0,,Ta nguyền rủa tất cả chúng bay!
+Dialogue: 0,0:13:13.70,0:13:17.96,Default,,0,0,0,,Tha thứ cho thần, thưa nữ hoàng,\Nnhưng đã bốn ngày rồi.
+Dialogue: 0,0:13:18.04,0:13:20.46,Default,,0,0,0,,Có vẻ như hắn ta sẽ không trở lại.
+Dialogue: 0,0:13:21.08,0:13:23.59,Default,,0,0,0,,Xem ra chúng ta đã nhìn nhầm người.
+Dialogue: 0,0:13:24.09,0:13:27.30,Default,,0,0,0,,Hắn chỉ là một tên tội phạm bạo lực vô ơn.
+Dialogue: 0,0:13:31.93,0:13:33.93,Default,,0,0,0,,Không… Nhìn kìa!
+Dialogue: 0,0:14:04.59,0:14:05.75,Default,,0,0,0,,Thấy thầy chưa?
+Dialogue: 0,0:14:05.84,0:14:07.67,Default,,0,0,0,,Chưa! Ta đã thất bại!
+Dialogue: 0,0:14:15.31,0:14:17.14,Default,,0,0,0,,Tôi còn không cảm nhận được thầy!
+Dialogue: 0,0:14:17.22,0:14:20.14,Default,,0,0,0,,Lão già đó đã biến đi đâu vậy?
+Dialogue: 0,0:14:21.10,0:14:22.31,Default,,0,0,0,,Trò gọi ta à?
+Dialogue: 0,0:14:32.32,0:14:34.20,Default,,0,0,0,,Không!
+Dialogue: 0,0:14:43.83,0:14:46.71,Default,,0,0,0,,Mấy trò còn dựa dẫm quá nhiều\Nvào thị giác của mình.
+Dialogue: 0,0:14:46.80,0:14:47.88,Default,,0,0,0,,Thầy nói đúng!
+Dialogue: 0,0:14:48.71,0:14:50.72,Default,,0,0,0,,Dạy bọn đệ tử một lần nữa đi ạ!
+Dialogue: 0,0:14:50.80,0:14:51.88,Default,,0,0,0,,Ngài Gabiru!
+Dialogue: 0,0:14:51.97,0:14:53.26,Default,,0,0,0,,- Mạnh quá!\N- Thật đấy!
+Dialogue: 0,0:14:55.97,0:14:57.56,Default,,0,0,0,,Này, Geld đâu rồi?
+Dialogue: 0,0:14:57.64,0:14:59.14,Default,,0,0,0,,Cậu ta đang làm việc.
+Dialogue: 0,0:15:00.06,0:15:03.27,Default,,0,0,0,,Cậu ta có vẻ lo lắng\Nvề tình hình công việc.
+Dialogue: 0,0:15:13.40,0:15:15.16,Default,,0,0,0,,Còn chừng kia mới xong.
+Dialogue: 0,0:15:22.12,0:15:24.42,Default,,0,0,0,,{\i1}Trời, anh ấy nghiêm túc quá.{\i0}
+Dialogue: 0,0:15:24.50,0:15:28.50,Default,,0,0,0,,Tốt nhất là ngươi cũng nên\Nnghiêm túc luyện tập đi.
+Dialogue: 0,0:15:30.71,0:15:33.55,Default,,0,0,0,,Có tin báo Geld đang bị phục kích.
+Dialogue: 0,0:15:33.63,0:15:35.89,Default,,0,0,0,,Không đời nào! Kẻ địch à?
+Dialogue: 0,0:15:35.97,0:15:37.43,Default,,0,0,0,,Tôi sẽ đi giúp anh ấy!
+Dialogue: 0,0:15:37.51,0:15:39.18,Default,,0,0,0,,Chúng ta cũng sẽ đi!
+Dialogue: 0,0:15:39.26,0:15:40.39,Default,,0,0,0,,Vâng!
+Dialogue: 0,0:15:40.47,0:15:43.14,Default,,0,0,0,,Tôi sẽ báo\Ncho Rimuru đại nhân và thiếu chủ.
+Dialogue: 0,0:15:52.03,0:15:56.82,Default,,0,0,0,,Ta đã cử "nhà vô địch Youm" và Diablo\Nđi bình định vương quốc Falmuth…
+Dialogue: 0,0:15:57.49,0:15:59.41,Default,,0,0,0,,Liệu đó có phải là ý hay?
+Dialogue: 0,0:15:59.49,0:16:01.66,Default,,0,0,0,,Hy vọng họ không quá tay.
+Dialogue: 0,0:16:01.74,0:16:03.16,Default,,0,0,0,,Rimuru Đại nhân!
+Dialogue: 0,0:16:04.08,0:16:07.83,Default,,0,0,0,,Nghĩ ngợi nhiều quá là không tốt đâu ạ.
+Dialogue: 0,0:16:07.92,0:16:10.13,Default,,0,0,0,,Sao ngài không nghỉ ngơi một chút đi?
+Dialogue: 0,0:16:10.21,0:16:12.13,Default,,0,0,0,,Phải đấy. Cảm ơn, Shuna.
+Dialogue: 0,0:16:13.63,0:16:14.92,Default,,0,0,0,,Nghỉ nào.
+Dialogue: 0,0:16:15.01,0:16:16.89,Default,,0,0,0,,Vâng. Của ngài đây.
+Dialogue: 0,0:16:18.76,0:16:19.97,Default,,0,0,0,,Shion cũng có phần.
+Dialogue: 0,0:16:20.05,0:16:21.68,Default,,0,0,0,,Cảm ơn.
+Dialogue: 0,0:16:22.39,0:16:23.60,Default,,0,0,0,,Tôi sẽ uống.
+Dialogue: 0,0:16:28.61,0:16:29.81,Default,,0,0,0,,Ngon quá.
+Dialogue: 0,0:16:31.90,0:16:33.19,Default,,0,0,0,,Rất thư giãn.
+Dialogue: 0,0:16:42.24,0:16:43.87,Default,,0,0,0,,Yên bình thật đấy.
+Dialogue: 0,0:16:44.70,0:16:45.71,Default,,0,0,0,,Vâng.
+Dialogue: 0,0:16:45.79,0:16:49.42,Default,,0,0,0,,Hy vọng trời cứ đẹp thế này mãi mãi.
+Dialogue: 0,0:16:49.50,0:16:50.79,Default,,0,0,0,,Nói hay lắm.
+Dialogue: 0,0:16:52.96,0:16:54.46,Default,,0,0,0,,Đúng rồi!
+Dialogue: 0,0:16:54.96,0:16:56.55,Default,,0,0,0,,Chuyện gì vậy, Shion?
+Dialogue: 0,0:16:56.63,0:17:02.06,Default,,0,0,0,,Tôi nướng mấy cái "bánh quy"\Nmà ngài đã dạy công thức cho tôi!
+Dialogue: 0,0:17:02.89,0:17:05.06,Default,,0,0,0,,Xin mời ngài dùng bánh với trà ạ!
+Dialogue: 0,0:17:05.14,0:17:07.73,Default,,0,0,0,,Sự bình yên của chúng ta vừa tan vỡ!
+Dialogue: 0,0:17:07.81,0:17:09.69,Default,,0,0,0,,Nào! Mời ngài dùng!
+Dialogue: 0,0:17:15.94,0:17:19.45,Default,,0,0,0,,Tôi quên mất là tôi đang dệt dở.
+Dialogue: 0,0:17:19.53,0:17:20.95,Default,,0,0,0,,Tôi xin mạn phép…
+Dialogue: 0,0:17:21.70,0:17:22.91,Default,,0,0,0,,Định chạy hả?
+Dialogue: 0,0:17:22.99,0:17:24.49,Default,,0,0,0,,Đợi đã, Shuna!
+Dialogue: 0,0:17:25.91,0:17:28.62,Default,,0,0,0,,Tôi xin lỗi, Rimuru Đại nhân.
+Dialogue: 0,0:17:29.21,0:17:31.00,Default,,0,0,0,,Một dư ảnh?
+Dialogue: 0,0:17:31.29,0:17:35.17,Default,,0,0,0,,Nào, Rimuru Đại nhân! Đừng ngại!
+Dialogue: 0,0:17:35.26,0:17:36.34,Default,,0,0,0,,Nào! Mời ngài dùng!
+Dialogue: 0,0:17:36.42,0:17:39.30,Default,,0,0,0,,Kể cả giờ cô ấy có kỹ năng Vua đầu bếp…
+Dialogue: 0,0:17:39.38,0:17:42.47,Default,,0,0,0,,thì hình thức đồ ăn vẫn quan trọng mà.
+Dialogue: 0,0:17:42.55,0:17:43.93,Default,,0,0,0,,Xin mời ngài dùng!
+Dialogue: 0,0:17:44.01,0:17:46.35,Default,,0,0,0,,Cô Raphael! Có gợi ý nào không?
+Dialogue: 0,0:17:46.43,0:17:47.85,Default,,0,0,0,,Không, không có.
+Dialogue: 0,0:17:47.93,0:17:49.14,Default,,0,0,0,,Tàn nhẫn thế…
+Dialogue: 0,0:17:49.23,0:17:51.27,Default,,0,0,0,,Nào! Ăn đi!
+Dialogue: 0,0:17:52.31,0:17:56.03,Default,,0,0,0,,{\an8}Đợi đã, Shion!\NTa cảm thấy trong rừng có chuyện rồi!
+Dialogue: 0,0:17:56.11,0:17:59.53,Default,,0,0,0,,Ta nên chạy. Ý ta là, đi kiểm tra xem!
+Dialogue: 0,0:18:00.24,0:18:01.24,Default,,0,0,0,,Rimuru Đại nhân.
+Dialogue: 0,0:18:01.99,0:18:04.28,Default,,0,0,0,,Geld đang bị phục kích trong rừng.
+Dialogue: 0,0:18:05.20,0:18:06.41,Default,,0,0,0,,Thấy chưa? Ta đã đúng!
+Dialogue: 0,0:18:06.49,0:18:07.41,Default,,0,0,0,,Ta đi đây!
+Dialogue: 0,0:18:07.50,0:18:09.33,Default,,0,0,0,,Khoan đã, cậu ấy bị tấn công à?
+Dialogue: 0,0:18:41.82,0:18:43.82,Default,,0,0,0,,Tên Orc tàn dư khốn khiếp!
+Dialogue: 0,0:18:44.57,0:18:47.29,Default,,0,0,0,,Giờ ngươi lại nhắm vào Tempest ư?
+Dialogue: 0,0:19:01.13,0:19:02.72,Default,,0,0,0,,Ngươi là gián điệp à?
+Dialogue: 0,0:19:03.01,0:19:04.22,Default,,0,0,0,,Thằng khốn!
+Dialogue: 0,0:19:04.55,0:19:05.55,Default,,0,0,0,,Cái sừng đó…
+Dialogue: 0,0:19:28.70,0:19:30.54,Default,,0,0,0,,Ta sẽ báo thù cho làng của ta!
+Dialogue: 0,0:19:32.12,0:19:34.75,Default,,0,0,0,,Ngọn lửa Ogre!
+Dialogue: 0,0:20:04.57,0:20:07.24,Default,,0,0,0,,Anh vừa nói "báo thù" à?
+Dialogue: 0,0:20:07.32,0:20:08.62,Default,,0,0,0,,Anh đến từ Ogre…
+Dialogue: 0,0:20:41.32,0:20:43.15,Default,,0,0,0,,Ta không biết ngươi là ai, nhưng…
+Dialogue: 0,0:21:09.26,0:21:10.34,Default,,0,0,0,,Huynh trưởng?
+Dialogue: 0,0:21:14.81,0:21:16.02,Default,,0,0,0,,Không thể nào…
+Dialogue: 0,0:21:16.85,0:21:17.94,Default,,0,0,0,,Cậu là…
+Dialogue: 0,0:21:18.90,0:21:20.90,Default,,0,0,0,,Có phải anh không, Huynh trưởng?
+Dialogue: 0,0:21:22.57,0:21:23.69,Default,,0,0,0,,Anh còn sống à?
+Dialogue: 0,0:21:23.77,0:21:24.78,Default,,0,0,0,,Thiếu chủ?
+Dialogue: 0,0:21:25.32,0:21:27.03,Default,,0,0,0,,Anh đang mơ à?
+Dialogue: 0,0:21:27.11,0:21:28.78,Default,,0,0,0,,Sao em vẫn còn sống?
+Dialogue: 0,0:21:28.86,0:21:30.28,Default,,0,0,0,,Ngôi làng bị phá hủy rồi!
+Dialogue: 0,0:21:30.36,0:21:32.58,Default,,0,0,0,,Vâng, nhưng em đã thoát nạn.
+Dialogue: 0,0:21:33.20,0:21:35.83,Default,,0,0,0,,Em đã được cứu,\Nvà thậm chí còn được ban cho tên.
+Dialogue: 0,0:21:35.91,0:21:38.54,Default,,0,0,0,,Tên của em bây giờ là Benimaru.
+Dialogue: 0,0:21:41.08,0:21:43.17,Default,,0,0,0,,Đây không phải là giấc mơ.
+Dialogue: 0,0:21:43.25,0:21:44.92,Default,,0,0,0,,Giấc mơ này thật quá đi!
+Dialogue: 0,0:21:45.34,0:21:46.38,Default,,0,0,0,,Anh cũng vậy!
+Dialogue: 0,0:21:46.92,0:21:48.05,Default,,0,0,0,,Hiiro.
+Dialogue: 0,0:21:48.13,0:21:49.76,Default,,0,0,0,,Đó là tên anh.
+Dialogue: 0,0:21:49.88,0:21:51.09,Default,,0,0,0,,Hiiro…
+Dialogue: 0,0:21:51.18,0:21:52.18,Default,,0,0,0,,Hiểu rồi.
+Dialogue: 0,0:21:52.26,0:21:54.18,Default,,0,0,0,,Anh cũng đã được đặt tên.
+Dialogue: 0,0:21:54.26,0:21:55.26,Default,,0,0,0,,Phải!
+Dialogue: 0,0:21:55.35,0:21:57.85,Default,,0,0,0,,Không ngờ lại có sự trùng hợp vui thế này.
+Dialogue: 0,0:22:00.94,0:22:04.94,Default,,0,0,0,,Sao em lại bảo vệ tên Orc\Nđã phá hủy làng thế?
+Dialogue: 0,0:22:05.27,0:22:06.78,Default,,0,0,0,,Chuyện dài lắm,
+Dialogue: 0,0:22:07.53,0:22:08.95,Default,,0,0,0,,nhưng bọn em đã hòa giải.
+Dialogue: 0,0:22:09.28,0:22:10.57,Default,,0,0,0,,Đây là Geld.
+Dialogue: 0,0:22:10.66,0:22:13.82,Default,,0,0,0,,Anh ấy là một đồng minh quý giá ở Tempest.
+Dialogue: 0,0:22:14.70,0:22:16.20,Default,,0,0,0,,Một đồng minh?
+Dialogue: 0,0:22:24.84,0:22:27.26,Default,,0,0,0,,Không. Nếu em bảo vậy
+Dialogue: 0,0:22:27.34,0:22:29.59,Default,,0,0,0,,thì Orc không còn là kẻ thù của ta nữa.
+Dialogue: 0,0:22:32.30,0:22:35.30,Default,,0,0,0,,Tôi thành thật xin lỗi\Nvì sự thiếu thận trọng của mình.
+Dialogue: 0,0:22:37.72,0:22:42.02,Default,,0,0,0,,Không, đúng là\Nchúng tôi đã phá hủy Làng Ogre.
+Dialogue: 0,0:22:42.10,0:22:45.73,Default,,0,0,0,,Có tạ lỗi bao nhiêu lần\Ncũng không thể tha thứ.
+Dialogue: 0,0:22:51.07,0:22:52.07,Default,,0,0,0,,Đội trưởng?
+Dialogue: 0,0:22:52.15,0:22:53.74,Default,,0,0,0,,Chuyện gì đang xảy ra vậy?
+Dialogue: 0,0:22:53.82,0:22:59.16,Default,,0,0,0,,Anh chàng tên Benimaru này và tôi từng\Nlà bạn hồi còn nhỏ ở Làng Ogre.
+Dialogue: 0,0:23:02.08,0:23:03.21,Default,,0,0,0,,Huynh trưởng?
+Dialogue: 0,0:23:06.09,0:23:07.21,Default,,0,0,0,,Không thể nào…
+Dialogue: 0,0:23:07.75,0:23:08.96,Default,,0,0,0,,Có thật là anh không?
+Dialogue: 0,0:23:12.17,0:23:13.47,Default,,0,0,0,,Mọi người…
+Dialogue: 0,0:23:14.59,0:23:16.30,Default,,0,0,0,,Và Sư phụ nữa!
+Dialogue: 0,0:23:17.31,0:23:18.47,Default,,0,0,0,,Huynh trưởng!
+Dialogue: 0,0:23:19.85,0:23:21.68,Default,,0,0,0,,Cậu lớn lên nhiều quá!
+Dialogue: 0,0:23:21.77,0:23:22.94,Default,,0,0,0,,Lâu rồi không gặp.
+Dialogue: 0,0:23:31.53,0:23:33.53,Default,,0,0,0,,Không ngờ anh vẫn còn sống.
+Dialogue: 0,0:23:59.47,0:24:00.89,Default,,0,0,0,,Ta hiểu rồi.
+Dialogue: 0,0:24:01.43,0:24:04.98,Default,,0,0,0,,Vậy Hiiro là bạn thời thơ ấu\Ncủa mọi người ở Làng Ogre?
+Dialogue: 0,0:24:05.06,0:24:08.06,Default,,0,0,0,,Vâng. Anh ấy như anh trai bọn tôi.
+Dialogue: 0,0:24:08.86,0:24:10.94,Default,,0,0,0,,Thật ra, giống một đứa đầu sỏ hơn đấy.
+Dialogue: 0,0:24:15.86,0:24:17.45,Default,,0,0,0,,Chà, cũng không khó để thấy
+Dialogue: 0,0:24:17.53,0:24:19.62,Default,,0,0,0,,rằng họ đều thực sự yêu mến cậu.
+Dialogue: 0,0:24:21.54,0:24:23.62,Default,,0,0,0,,"Yêu mến" ư?
+Dialogue: 0,0:24:25.92,0:24:28.42,Default,,0,0,0,,Bọn tôi coi anh ấy\Nnhư anh trai thật của mình.
+Dialogue: 0,0:24:28.50,0:24:32.71,Default,,0,0,0,,Chiếc sừng gãy đó là vết thương\Nkhi anh ấy đang bảo vệ tôi.
+Dialogue: 0,0:24:33.38,0:24:36.59,Default,,0,0,0,,Ta hiểu rồi.\NVậy đó là huy hiệu nam nhi của cậu!
+Dialogue: 0,0:24:36.68,0:24:41.26,Default,,0,0,0,,Anh ấy cũng đã cứu tôi\Nkhi tôi suýt nữa rơi khỏi vách đá.
+Dialogue: 0,0:24:41.35,0:24:44.48,Default,,0,0,0,,Anh ấy cũng đã đánh nhau\Nvới Benimaru nhiều lắm.
+Dialogue: 0,0:24:45.43,0:24:48.35,Default,,0,0,0,,Ừ. Nhưng lần nào tôi cũng thua.
+Dialogue: 0,0:24:48.85,0:24:50.02,Default,,0,0,0,,Thôi nào.
+Dialogue: 0,0:24:50.73,0:24:52.78,Default,,0,0,0,,Đôi khi anh cũng thua mà.
+Dialogue: 0,0:24:52.86,0:24:55.53,Default,,0,0,0,,Cậu ấy là người khỏe nhất làng bọn tôi.
+Dialogue: 0,0:24:55.61,0:24:58.74,Default,,0,0,0,,Đó là lý do cậu ấy rời nhà\Nđể làm lính đánh thuê.
+Dialogue: 0,0:24:59.12,0:25:00.95,Default,,0,0,0,,Và tôi đã đưa mười người đi cùng.
+Dialogue: 0,0:25:01.78,0:25:04.29,Default,,0,0,0,,Nhưng đám chủ thuê tệ lắm.
+Dialogue: 0,0:25:04.62,0:25:07.21,Default,,0,0,0,,Anh đã làm cho quốc gia nào thế?
+Dialogue: 0,0:25:08.12,0:25:09.33,Default,,0,0,0,,Distave.
+Dialogue: 0,0:25:10.21,0:25:12.29,Default,,0,0,0,,Lãnh thổ của Quỷ Vương Clayman.
+Dialogue: 0,0:25:15.67,0:25:17.88,Default,,0,0,0,,Tôi tưởng sẽ kiếm được nhiều tiền,
+Dialogue: 0,0:25:18.59,0:25:22.43,Default,,0,0,0,,nhưng rồi nghe tin\NLàng Ogre sắp bị tấn công,
+Dialogue: 0,0:25:22.93,0:25:24.77,Default,,0,0,0,,nên tôi đã đào ngũ khỏi quân của hắn.
+Dialogue: 0,0:25:25.31,0:25:26.39,Default,,0,0,0,,Nhưng…
+Dialogue: 0,0:25:27.69,0:25:28.77,Default,,0,0,0,,Huynh trưởng Hiiro…
+Dialogue: 0,0:25:30.60,0:25:33.90,Default,,0,0,0,,Không, giờ nghĩ về chuyện đó\Ncũng không ích gì.
+Dialogue: 0,0:25:33.98,0:25:37.36,Default,,0,0,0,,Tôi nên vui mừng vì cuộc hội ngộ này.
+Dialogue: 0,0:25:38.28,0:25:41.78,Default,,0,0,0,,Nghĩa là các đồng đội của tôi\Nđã không hi sinh vô ích.
+Dialogue: 0,0:25:41.87,0:25:43.08,Default,,0,0,0,,Đúng vậy!
+Dialogue: 0,0:25:43.16,0:25:45.29,Default,,0,0,0,,Việc anh còn sống là một chiến thắng rồi!
+Dialogue: 0,0:25:50.96,0:25:53.04,Default,,0,0,0,,Khi tôi hấp hối trong trận chiến,
+Dialogue: 0,0:25:53.13,0:25:56.84,Default,,0,0,0,,tôi đã được nữ hoàng Towa\Ncủa vương quốc Raja cứu sống.
+Dialogue: 0,0:25:57.38,0:25:59.38,Default,,0,0,0,,Giờ tôi đang phụng sự ngài ấy.
+Dialogue: 0,0:26:00.80,0:26:03.55,Default,,0,0,0,,Và ngài ấy đã đặt tên cho anh?
+Dialogue: 0,0:26:03.64,0:26:05.85,Default,,0,0,0,,Đặt tên là hành động\Nnguy đến tính mạng đó.
+Dialogue: 0,0:26:05.93,0:26:08.60,Default,,0,0,0,,Nó không phải thứ ta có thể làm tùy ý đâu.
+Dialogue: 0,0:26:08.68,0:26:09.60,Default,,0,0,0,,Ừ.
+Dialogue: 0,0:26:10.31,0:26:15.65,Default,,0,0,0,,Raja là một vương quốc rất nhỏ\Nvới nghề chính là khai thác vàng,
+Dialogue: 0,0:26:16.98,0:26:20.70,Default,,0,0,0,,nhưng trước đây, họ đã khai thác cạn\Nmột mạch vàng lớn,
+Dialogue: 0,0:26:20.78,0:26:24.49,Default,,0,0,0,,sự phồn vinh của họ trước đây\Ngiờ chỉ còn là dĩ vãng.
+Dialogue: 0,0:26:26.37,0:26:28.37,Default,,0,0,0,,Mặc dù ở thời thế khó khăn như vậy,
+Dialogue: 0,0:26:28.45,0:26:31.04,Default,,0,0,0,,Nữ hoàng Towa vẫn trao sinh lực của mình
+Dialogue: 0,0:26:31.12,0:26:34.75,Default,,0,0,0,,để giữ cho vương quốc\Nvà dân tộc của ngài ấy, được sống.
+Dialogue: 0,0:28:15.98,0:28:19.32,Default,,0,0,0,,Ngài Chikuan!\NTình hình nữ hoàng thế nào rồi?
+Dialogue: 0,0:28:21.48,0:28:22.99,Default,,0,0,0,,Không tốt.
+Dialogue: 0,0:28:23.99,0:28:28.32,Default,,0,0,0,,Nếu nữ hoàng tiếp tục dùng phép thuật\Nđể trung hòa độc tố từ các mỏ vàng,
+Dialogue: 0,0:28:28.41,0:28:30.83,Default,,0,0,0,,lời nguyền sẽ chiếm lấy\Ntoàn bộ cơ thể ngài ấy,
+Dialogue: 0,0:28:30.91,0:28:33.75,Default,,0,0,0,,như cách nó đã làm\Nvới những nữ hoàng tiền nhiệm.
+Dialogue: 0,0:28:34.16,0:28:35.66,Default,,0,0,0,,Vương miện đó…
+Dialogue: 0,0:28:36.29,0:28:39.67,Default,,0,0,0,,Gia đình hoàng tộc có thể dùng\Nphép thuật của chiếc vương miện
+Dialogue: 0,0:28:39.75,0:28:44.59,Default,,0,0,0,,để trung hòa độc tố trong hồ,\Nbảo vệ người dân khỏi chất độc.
+Dialogue: 0,0:28:44.67,0:28:45.84,Default,,0,0,0,,Nhưng…
+Dialogue: 0,0:28:46.26,0:28:51.26,Default,,0,0,0,,Đổi lại, nữ hoàng sẽ hấp thụ Độc Nguyền\Ntrong chiếc vương miện phải không?
+Dialogue: 0,0:28:53.06,0:28:58.27,Default,,0,0,0,,Nữ hoàng sẽ không mất nhiều sinh lực\Nđến thế nếu không đặt tên cho ngươi.
+Dialogue: 0,0:28:59.36,0:29:02.27,Default,,0,0,0,,Ôi, trời ơi. Ta lỡ miệng.
+Dialogue: 0,0:29:02.78,0:29:07.66,Default,,0,0,0,,Tuy nhiên, ta đã thử nhiều loại thuốc,\Nvà đều không hiệu nghiệm với Độc Nguyền.
+Dialogue: 0,0:29:08.82,0:29:10.32,Default,,0,0,0,,Nếu ngừng khai thác vàng,
+Dialogue: 0,0:29:10.41,0:29:14.29,Default,,0,0,0,,chúng ta không thể nhập đủ thức ăn\Ncho người dân được.
+Dialogue: 0,0:29:14.37,0:29:19.12,Default,,0,0,0,,Phải, nhưng chúng ta không thể ép nữ hoàng\Nliều mạng thêm được nữa.
+Dialogue: 0,0:29:20.13,0:29:22.88,Default,,0,0,0,,Nếu ta trồng trọt\Nở Khu Rừng Đại Ngàn Jura thì sao?
+Dialogue: 0,0:29:22.96,0:29:24.17,Default,,0,0,0,,Khu rừng đó ư?
+Dialogue: 0,0:29:24.25,0:29:26.59,Default,,0,0,0,,Chúng ta có thể tự cung cấp lương thực.
+Dialogue: 0,0:29:26.67,0:29:28.76,Default,,0,0,0,,Người dân có thể làm việc ngoài đồng,
+Dialogue: 0,0:29:28.84,0:29:30.76,Default,,0,0,0,,còn quân lính và tôi đi săn.
+Dialogue: 0,0:29:30.84,0:29:32.47,Default,,0,0,0,,Đừng lố bịch thế!
+Dialogue: 0,0:29:32.55,0:29:36.77,Default,,0,0,0,,Xâm phạm một khu rừng\Ndo Rồng Bão Veldora bảo vệ hả?
+Dialogue: 0,0:29:36.85,0:29:39.14,Default,,0,0,0,,Ngươi mất trí rồi!
+Dialogue: 0,0:29:39.60,0:29:46.24,Default,,0,0,0,,Hiiro, vì ngươi từng sống trong Khu Rừng\NĐại Ngàn Jura nên ngươi có thể không biết
+Dialogue: 0,0:29:46.32,0:29:50.03,Default,,0,0,0,,thỏa thuận bất thành văn\Ngiữa các quốc gia xung quanh khu rừng,
+Dialogue: 0,0:29:50.11,0:29:52.16,Default,,0,0,0,,đó là không được xâm phạm khu rừng đó.
+Dialogue: 0,0:29:52.70,0:29:57.62,Default,,0,0,0,,Gánh chịu cơn thịnh nộ của Veldora\Nchắc chắn sẽ là đại họa.
+Dialogue: 0,0:29:57.71,0:30:00.67,Default,,0,0,0,,Để một vị thần ngủ yên giấc,\Nnhư họ đã nói!
+Dialogue: 0,0:30:00.75,0:30:04.29,Default,,0,0,0,,Ý các ông là để mặc\NNữ hoàng Towa chịu khổ sao?
+Dialogue: 0,0:30:04.92,0:30:07.21,Default,,0,0,0,,Như thế mà các ông bảo là "mất trí" hả?
+Dialogue: 0,0:30:07.84,0:30:11.18,Default,,0,0,0,,Bình tĩnh nào.\NBọn ta cũng cảm thấy như ngươi thôi.
+Dialogue: 0,0:30:11.26,0:30:14.39,Default,,0,0,0,,Nữ hoàng tiền nhiệm\Nđã giao phó nữ hoàng cho bọn ta.
+Dialogue: 0,0:30:14.47,0:30:16.68,Default,,0,0,0,,Bọn ta sẽ bảo vệ ngài ấy bằng mọi giá.
+Dialogue: 0,0:30:16.77,0:30:20.44,Default,,0,0,0,,Đó là việc cuối cùng được giao\Ncho đám mắt mờ chân chậm này.
+Dialogue: 0,0:30:20.52,0:30:21.52,Default,,0,0,0,,Vậy thì…
+Dialogue: 0,0:30:21.60,0:30:22.56,Default,,0,0,0,,Cấp báo!
+Dialogue: 0,0:30:22.65,0:30:25.94,Default,,0,0,0,,Đội quân Falmuth đã xâm chiếm\NKhu Rừng Đại Ngàn Jura,
+Dialogue: 0,0:30:26.03,0:30:29.86,Default,,0,0,0,,họ giao chiến với một quốc gia\Ntên là Tempest và đã bị quét sạch!
+Dialogue: 0,0:30:29.95,0:30:31.16,Default,,0,0,0,,Tempest?
+Dialogue: 0,0:30:31.53,0:30:33.53,Default,,0,0,0,,Quốc gia đã ngăn chặn tộc Orc à?
+Dialogue: 0,0:30:33.62,0:30:35.62,Default,,0,0,0,,Quân đội của họ mạnh đến thế ư?
+Dialogue: 0,0:30:35.70,0:30:37.87,Default,,0,0,0,,Ngoài ra, Veldora đã hồi sinh bằng việc ăn
+Dialogue: 0,0:30:37.95,0:30:40.41,Default,,0,0,0,,xác những người lính Falmuth đã chết!
+Dialogue: 0,0:30:40.50,0:30:42.54,Default,,0,0,0,,Ta đã bảo rồi mà!
+Dialogue: 0,0:30:42.62,0:30:43.75,Default,,0,0,0,,Đã hiểu chưa?
+Dialogue: 0,0:30:43.83,0:30:46.17,Default,,0,0,0,,Khu rừng đó bất khả xâm phạm là vì thế!
+Dialogue: 0,0:30:46.25,0:30:48.76,Default,,0,0,0,,Họ gieo gió thì phải gặp bão thôi.
+Dialogue: 0,0:30:48.84,0:30:51.09,Default,,0,0,0,,Nhưng minh chủ của Tempest, Rimuru,
+Dialogue: 0,0:30:51.18,0:30:54.30,Default,,0,0,0,,đã đàm phán thành công\Nvới Veldora vừa hồi sinh
+Dialogue: 0,0:30:54.39,0:30:58.02,Default,,0,0,0,,và tránh mọi thương vong\Nsau cuộc chiến với Falmuth.
+Dialogue: 0,0:30:58.10,0:30:59.10,Default,,0,0,0,,Cái gì cơ?
+Dialogue: 0,0:30:59.93,0:31:01.64,Default,,0,0,0,,Minh chủ của họ, Rimuru?
+Dialogue: 0,0:31:02.35,0:31:06.36,Default,,0,0,0,,Nếu chúng ta nói rõ tình hình,\Ncó lẽ ngài ấy sẽ cho phép trồng trọt.
+Dialogue: 0,0:31:07.15,0:31:10.65,Default,,0,0,0,,Người ta nói quốc gia đó\Nchấp nhận mọi loài quái vật.
+Dialogue: 0,0:31:10.74,0:31:11.82,Default,,0,0,0,,Đúng…
+Dialogue: 0,0:31:13.57,0:31:15.74,Default,,0,0,0,,Để tôi làm sứ giả đến Tempest.
+Dialogue: 0,0:31:16.24,0:31:18.33,Default,,0,0,0,,Giờ không có phản đối gì chứ?
+Dialogue: 0,0:31:21.21,0:31:22.33,Default,,0,0,0,,Rất tốt.
+Dialogue: 0,0:31:22.41,0:31:24.25,Default,,0,0,0,,Cẩn trọng nhé.
+Dialogue: 0,0:31:24.33,0:31:27.09,Default,,0,0,0,,Đừng đánh rắn động cỏ.
+Dialogue: 0,0:31:27.50,0:31:30.51,Default,,0,0,0,,Tôi biết. Tôi muốn thấy con rồng.
+Dialogue: 0,0:31:30.96,0:31:32.67,Default,,0,0,0,,Một con rắn chẳng có ích lợi gì.
+Dialogue: 0,0:31:40.47,0:31:44.90,Default,,0,0,0,,Đó là lý do tôi đến đây cùng họ,\Nnhưng tôi lại chĩa mũi kiếm vào Geld…
+Dialogue: 0,0:31:44.98,0:31:48.15,Default,,0,0,0,,đúng hơn là những người dân của Tempest\Nmà không suy nghĩ.
+Dialogue: 0,0:31:48.23,0:31:49.65,Default,,0,0,0,,Tôi xin lỗi.
+Dialogue: 0,0:31:51.32,0:31:53.24,Default,,0,0,0,,Chúng tôi rất xin lỗi!
+Dialogue: 0,0:31:53.57,0:31:56.03,Default,,0,0,0,,Thì, cậu có lý do của mình mà.
+Dialogue: 0,0:31:56.12,0:31:57.20,Default,,0,0,0,,Đừng lo lắng.
+Dialogue: 0,0:32:01.29,0:32:04.58,Default,,0,0,0,,Được rồi, để ta cho cậu biết\Nvài thông tin nhé.
+Dialogue: 0,0:32:04.67,0:32:05.87,Default,,0,0,0,,Thêm nữa à?
+Dialogue: 0,0:32:07.33,0:32:09.75,Default,,0,0,0,,Ta đã trở thành một Quỷ Vương.
+Dialogue: 0,0:32:14.72,0:32:15.93,Default,,0,0,0,,Xin lỗi!
+Dialogue: 0,0:32:18.35,0:32:19.72,Default,,0,0,0,,Quỷ Vương ư?
+Dialogue: 0,0:32:19.81,0:32:21.18,Default,,0,0,0,,Đúng vậy!
+Dialogue: 0,0:32:21.27,0:32:22.22,Default,,0,0,0,,Ngài ấy đã đánh bại
+Dialogue: 0,0:32:22.31,0:32:25.48,Default,,0,0,0,,Clayman và giành được sự chấp thuận\Ncủa các Quỷ Vương khác!
+Dialogue: 0,0:32:25.56,0:32:28.56,Default,,0,0,0,,Ngài ấy đã đánh bại… Clayman?
+Dialogue: 0,0:32:30.23,0:32:32.94,Default,,0,0,0,,Rimuru Đại nhân tuyệt vời lắm!
+Dialogue: 0,0:32:33.99,0:32:35.49,Default,,0,0,0,,Tôi hiểu rồi…
+Dialogue: 0,0:32:38.07,0:32:41.66,Default,,0,0,0,,Cậu nói rằng cậu muốn\Nđược phép canh tác khu rừng?
+Dialogue: 0,0:32:41.74,0:32:42.83,Default,,0,0,0,,Này, Veldora.
+Dialogue: 0,0:32:43.79,0:32:46.67,Default,,0,0,0,,Khu rừng bị cấm vào thật à? Tại sao?
+Dialogue: 0,0:32:47.00,0:32:48.00,Default,,0,0,0,,Tôi không biết.
+Dialogue: 0,0:32:48.46,0:32:49.46,Default,,0,0,0,,Cậu nghe rồi đấy.
+Dialogue: 0,0:32:50.42,0:32:51.42,Default,,0,0,0,,Vel…
+Dialogue: 0,0:32:51.50,0:32:52.38,Default,,0,0,0,,…dora?
+Dialogue: 0,0:32:52.46,0:32:54.21,Default,,0,0,0,,Ta quên chưa giới thiệu.
+Dialogue: 0,0:32:54.30,0:32:56.97,Default,,0,0,0,,Đây là bạn ta, Veldora-kun.
+Dialogue: 0,0:32:57.05,0:32:58.72,Default,,0,0,0,,Nào, nói xin chào đi.
+Dialogue: 0,0:32:58.80,0:33:01.43,Default,,0,0,0,,Ta là Rồng bão Veldora.
+Dialogue: 0,0:33:01.51,0:33:05.14,Default,,0,0,0,,Miễn là không gây ồn ào,\Nthì các ngươi có thể vào rừng.
+Dialogue: 0,0:33:07.85,0:33:09.81,Default,,0,0,0,,Veldora… Đại nhân?
+Dialogue: 0,0:33:09.90,0:33:11.06,Default,,0,0,0,,Ừ, thì…
+Dialogue: 0,0:33:11.15,0:33:14.44,Default,,0,0,0,,Giờ mọi người được cho phép rồi,\Nnên không cần lo…
+Dialogue: 0,0:33:14.53,0:33:16.49,Default,,0,0,0,,- Tôi cũng muốn tham gia!\N- Milim?
+Dialogue: 0,0:33:16.57,0:33:18.28,Default,,0,0,0,,Hôm nay có tiệc à?
+Dialogue: 0,0:33:18.36,0:33:20.24,Default,,0,0,0,,Tại sao ngài không bảo tôi?
+Dialogue: 0,0:33:20.32,0:33:23.41,Default,,0,0,0,,Tiệc tùng gì đâu. Có một sứ giả ở đây.
+Dialogue: 0,0:33:23.49,0:33:25.50,Default,,0,0,0,,Là tiệc mà! Ngài đang uống!
+Dialogue: 0,0:33:25.58,0:33:27.71,Default,,0,0,0,,Sao ngài lại không mời tôi? Tại sao?
+Dialogue: 0,0:33:27.79,0:33:28.75,Default,,0,0,0,,Này!
+Dialogue: 0,0:33:28.83,0:33:32.79,Default,,0,0,0,,Tôi không thể bỏ qua điều này\Nchỉ vì ta là bạn thân, nhỉ, Veldora?
+Dialogue: 0,0:33:32.88,0:33:36.09,Default,,0,0,0,,Gì đây? Một bữa tiệc à?\NCậu không để dành gì cho tôi!
+Dialogue: 0,0:33:36.17,0:33:37.17,Default,,0,0,0,,Tôi đã nói rồi!
+Dialogue: 0,0:33:37.26,0:33:38.47,Default,,0,0,0,,Milim? Milim đó à?
+Dialogue: 0,0:33:38.55,0:33:40.26,Default,,0,0,0,,- Không, không thể được.\N- Chưa đâu!
+Dialogue: 0,0:33:40.34,0:33:41.64,Default,,0,0,0,,Thế đúng là tiệc rồi!
+Dialogue: 0,0:33:41.72,0:33:42.64,Default,,0,0,0,,Ngài Rimuru!
+Dialogue: 0,0:33:44.26,0:33:46.48,Default,,0,0,0,,Thôi nào, bình tĩnh lại một chút.
+Dialogue: 0,0:33:47.60,0:33:48.60,Default,,0,0,0,,Sao thế?
+Dialogue: 0,0:33:51.69,0:33:53.77,Default,,0,0,0,,Tôi muốn chính thức thỉnh cầu đến
+Dialogue: 0,0:33:54.15,0:33:57.57,Default,,0,0,0,,minh chủ của Liên Bang Jura Tempest,\NRimuru Tempest.
+Dialogue: 0,0:33:58.53,0:34:01.45,Default,,0,0,0,,Nếu cứ theo đà này\Nthì Vương quốc Raja sẽ sụp đổ.
+Dialogue: 0,0:34:01.95,0:34:05.29,Default,,0,0,0,,Tôi muốn cứu Nữ hoàng Towa,\Nngười đã cứu mạng tôi,
+Dialogue: 0,0:34:05.37,0:34:08.29,Default,,0,0,0,,và những thần dân\Nmà ngài ấy vô cùng yêu quý.
+Dialogue: 0,0:34:09.37,0:34:13.21,Default,,0,0,0,,Tôi cầu xin ngài\Nhãy giúp tôi cứu lấy Raja!
+Dialogue: 0,0:34:18.76,0:34:21.39,Default,,0,0,0,,Rimuru Đại nhân,\Ntôi cũng có thỉnh cầu tương tự.
+Dialogue: 0,0:34:21.47,0:34:22.89,Default,,0,0,0,,Tôi cũng vậy.
+Dialogue: 0,0:34:23.55,0:34:26.06,Default,,0,0,0,,Này, thôi nào. Ngẩng đầu lên.
+Dialogue: 0,0:34:26.14,0:34:28.23,Default,,0,0,0,,Không phải cầu xin. Ta sẽ giúp.
+Dialogue: 0,0:34:28.68,0:34:31.19,Default,,0,0,0,,Towa có vẻ rất quan tâm\Nđến người dân của mình,
+Dialogue: 0,0:34:31.27,0:34:33.40,Default,,0,0,0,,và ta muốn thăm Vương quốc Raja.
+Dialogue: 0,0:34:33.48,0:34:36.90,Default,,0,0,0,,Ta đến hỏi thăm cô ấy được không?
+Dialogue: 0,0:34:38.24,0:34:39.61,Default,,0,0,0,,Tất nhiên là được!
+Dialogue: 0,0:34:39.70,0:34:40.90,Default,,0,0,0,,Rimuru Đại nhân…
+Dialogue: 0,0:34:41.53,0:34:44.83,Default,,0,0,0,,- Xin cảm ơn ngài.\N- Xin cảm ơn rất nhiều.
+Dialogue: 0,0:34:46.91,0:34:49.20,Default,,0,0,0,,Cảm ơn lòng tốt của ngài.
+Dialogue: 0,0:34:58.80,0:35:00.80,Default,,0,0,0,,Sư phụ bảo trọng nhé.
+Dialogue: 0,0:35:00.88,0:35:03.39,Default,,0,0,0,,Ta sẽ huấn luyện lại cho trò sau.
+Dialogue: 0,0:35:04.93,0:35:06.89,Default,,0,0,0,,Đến lúc đấy thì mong sư phụ nhẹ tay.
+Dialogue: 0,0:35:06.97,0:35:09.73,Default,,0,0,0,,Lúc nào lại đến thăm chúng tôi nha.
+Dialogue: 0,0:35:09.81,0:35:11.81,Default,,0,0,0,,Vâng, tôi sẽ làm vậy.
+Dialogue: 0,0:35:12.60,0:35:15.86,Default,,0,0,0,,Được rồi, đến Vương quốc Raja nào.
+Dialogue: 0,0:35:15.94,0:35:16.77,Default,,0,0,0,,Đi thôi!
+Dialogue: 0,0:35:30.00,0:35:31.96,Default,,0,0,0,,- Đi an toàn nhé!\N- Cẩn thận!
+Dialogue: 0,0:35:32.04,0:35:34.58,Default,,0,0,0,,- Nhớ mang quà cho bọn tôi!\N- Bảo trọng nhé!
+Dialogue: 0,0:35:34.67,0:35:36.00,Default,,0,0,0,,Chờ mọi người trở về!
+Dialogue: 0,0:35:41.17,0:35:44.18,Default,,0,0,0,,Giờ nó trong tầm mắt rồi.\NĐó là Vương quốc Raja.
+Dialogue: 0,0:35:48.51,0:35:50.85,Default,,0,0,0,,Quả là một đất nước xinh đẹp!
+Dialogue: 0,0:35:50.93,0:35:52.39,Default,,0,0,0,,Cảm ơn!
+Dialogue: 0,0:35:52.81,0:35:56.65,Default,,0,0,0,,Nhưng nước tôi\Nít sinh khí hơn xưa nhiều lắm…
+Dialogue: 0,0:35:58.02,0:35:59.65,Default,,0,0,0,,Tha lỗi cho tôi.
+Dialogue: 0,0:36:00.65,0:36:02.61,Default,,0,0,0,,Bụng sôi to quá nhỉ.
+Dialogue: 0,0:36:02.69,0:36:05.03,Default,,0,0,0,,Tôi đã lường trước việc này nên…
+Dialogue: 0,0:36:05.57,0:36:06.57,Default,,0,0,0,,Đây!
+Dialogue: 0,0:36:16.21,0:36:17.83,Default,,0,0,0,,Có chuyện gì vậy?
+Dialogue: 0,0:36:17.92,0:36:19.21,Default,,0,0,0,,Ranga, đi theo họ!
+Dialogue: 0,0:36:50.20,0:36:53.37,Default,,0,0,0,,Đây là thủ tướng Mobuji\Nvà bộ trưởng của chúng tôi.
+Dialogue: 0,0:36:53.95,0:36:58.58,Default,,0,0,0,,Đó là minh chủ của\NLiên Bang Jura Tempest, Rimuru Tempest.
+Dialogue: 0,0:37:00.04,0:37:03.46,Default,,0,0,0,,Ôi trời! Dù tiếp đón chưa được long trọng,
+Dialogue: 0,0:37:03.55,0:37:07.13,Default,,0,0,0,,nhưng thay mặt Vương quốc Raja,\Ntôi xin chào đón các vị.
+Dialogue: 0,0:37:07.47,0:37:10.30,Default,,0,0,0,,Cảm ơn ngài đã đi đến đây.
+Dialogue: 0,0:37:11.39,0:37:17.39,Default,,0,0,0,,Vậy… tôi đã nghe rằng ngài từng là\Nmột con quái vật… cụ thể, là một slime…
+Dialogue: 0,0:37:20.65,0:37:21.65,Default,,0,0,0,,Ý ông là thế này à?
+Dialogue: 0,0:37:22.94,0:37:25.11,Default,,0,0,0,,Nói chuyện với ta như này dễ dàng hơn à?
+Dialogue: 0,0:37:25.19,0:37:27.07,Default,,0,0,0,,Hãy tha thứ cho sự thô lỗ của tôi!
+Dialogue: 0,0:37:27.15,0:37:29.95,Default,,0,0,0,,Tôi không biết là\Nngài dùng hình dạng đó với bọn tôi!
+Dialogue: 0,0:37:30.03,0:37:31.62,Default,,0,0,0,,Xin đừng để ý đến bọn tôi!
+Dialogue: 0,0:37:31.70,0:37:33.12,Default,,0,0,0,,- Thật sao?\N- Vâng!
+Dialogue: 0,0:37:33.20,0:37:34.20,Default,,0,0,0,,Được rồi.
+Dialogue: 0,0:37:36.62,0:37:37.71,Default,,0,0,0,,Nữ hoàng Towa sao rồi?
+Dialogue: 0,0:37:38.33,0:37:39.71,Default,,0,0,0,,Ngài ấy đang ngủ.
+Dialogue: 0,0:37:39.79,0:37:42.04,Default,,0,0,0,,Ngài Chikuan đang ở bên ngài ấy.
+Dialogue: 0,0:37:42.13,0:37:43.96,Default,,0,0,0,,Vậy tôi sẽ báo cáo ở đây trước.
+Dialogue: 0,0:37:44.46,0:37:49.55,Default,,0,0,0,,Veldora đã cho phép chúng ta\Ncanh tác ở Khu Rừng Đại Ngàn Jura.
+Dialogue: 0,0:37:49.63,0:37:50.64,Default,,0,0,0,,Hả?
+Dialogue: 0,0:37:50.72,0:37:52.80,Default,,0,0,0,,Cậu đã gặp ông ta à?
+Dialogue: 0,0:37:52.89,0:37:55.31,Default,,0,0,0,,Ngài Rimuru đã giới thiệu ông ấy cho tôi.
+Dialogue: 0,0:37:55.39,0:37:57.39,Default,,0,0,0,,Nó không phải chuyện gì to tát đâu.
+Dialogue: 0,0:37:57.48,0:38:00.19,Default,,0,0,0,,Miễn là các ngươi đừng quá tham lam.
+Dialogue: 0,0:38:00.27,0:38:02.44,Default,,0,0,0,,Vâng, tất nhiên!
+Dialogue: 0,0:38:02.52,0:38:04.36,Default,,0,0,0,,Cảm ơn ngài rất nhiều!
+Dialogue: 0,0:38:04.44,0:38:06.32,Default,,0,0,0,,Người dân sẽ vui mừng lắm!
+Dialogue: 0,0:38:06.40,0:38:10.74,Default,,0,0,0,,Nhưng canh tác quy mô lớn\Nsẽ cần trợ giúp của những chuyên gia.
+Dialogue: 0,0:38:10.82,0:38:11.70,Default,,0,0,0,,Nó sẽ không…
+Dialogue: 0,0:38:11.78,0:38:13.78,Default,,0,0,0,,Không cần phải lo về điều đó!
+Dialogue: 0,0:38:14.99,0:38:16.20,Default,,0,0,0,,Ta biết cái giọng đó.
+Dialogue: 0,0:38:18.83,0:38:20.54,Default,,0,0,0,,Chuyện gì đang xảy ra vậy?
+Dialogue: 0,0:38:20.62,0:38:22.58,Default,,0,0,0,,Đừng lo lắng. Không sao đâu.
+Dialogue: 0,0:38:22.67,0:38:24.09,Default,,0,0,0,,Đó là một người bạn của ta.
+Dialogue: 0,0:38:33.55,0:38:35.97,Default,,0,0,0,,Cô Treyni? Cô làm gì ở đây?
+Dialogue: 0,0:38:37.47,0:38:38.89,Default,,0,0,0,,Treyni?
+Dialogue: 0,0:38:39.39,0:38:41.06,Default,,0,0,0,,Ý ngài là… vị thần Dryad?
+Dialogue: 0,0:38:41.14,0:38:42.81,Default,,0,0,0,,Không thể nào!
+Dialogue: 0,0:38:42.90,0:38:46.02,Default,,0,0,0,,Tôi không thể tin rằng\Nmình có thể gặp ngài!
+Dialogue: 0,0:38:46.11,0:38:48.32,Default,,0,0,0,,Chúng ta thật may mắn! Thật may mắn!
+Dialogue: 0,0:38:48.40,0:38:50.32,Default,,0,0,0,,Giờ tôi có thể chết trong hạnh phúc.
+Dialogue: 0,0:38:50.40,0:38:51.95,Default,,0,0,0,,Tôi rất mừng vì vẫn còn sống.
+Dialogue: 0,0:38:52.03,0:38:53.49,Default,,0,0,0,,Này! Hai tên kia!
+Dialogue: 0,0:38:53.57,0:38:56.58,Default,,0,0,0,,Đừng bảo là hai ông không thấy ta nhé?
+Dialogue: 0,0:38:56.66,0:38:58.50,Default,,0,0,0,,Đừng có làm phiền bọn ta!
+Dialogue: 0,0:38:58.58,0:38:59.58,Default,,0,0,0,,Gì cơ?
+Dialogue: 0,0:38:59.66,0:39:03.38,Default,,0,0,0,,Ồn ào quá đi! Để sau đi nhé?
+Dialogue: 0,0:39:03.75,0:39:05.13,Default,,0,0,0,,Này, Rimuru!
+Dialogue: 0,0:39:05.21,0:39:07.46,Default,,0,0,0,,Nói cho bọn chúng biết tôi là ai đi!
+Dialogue: 0,0:39:07.55,0:39:09.80,Default,,0,0,0,,Đây là…
+Dialogue: 0,0:39:09.88,0:39:13.30,Default,,0,0,0,,Ngài ấy là người thống trị,\NNữ hoàng Tinh linh, và Quỷ Vương…
+Dialogue: 0,0:39:13.39,0:39:14.97,Default,,0,0,0,,Ramiris Đại nhân!
+Dialogue: 0,0:39:15.05,0:39:16.68,Default,,0,0,0,,Quỷ Vương ư?
+Dialogue: 0,0:39:16.76,0:39:18.81,Default,,0,0,0,,Nghĩa là ta ngầu hơn Treyni đấy!
+Dialogue: 0,0:39:18.89,0:39:19.89,Default,,0,0,0,,Hiểu chưa?
+Dialogue: 0,0:39:19.98,0:39:22.19,Default,,0,0,0,,Thứ lỗi cho bọn tôi!
+Dialogue: 0,0:39:23.60,0:39:27.36,Default,,0,0,0,,Veldora Đại nhân, Treyni Đại nhân\Nvà Quỷ Vương…
+Dialogue: 0,0:39:27.44,0:39:32.53,Default,,0,0,0,,Chính minh chủ Rimuru cũng đã chính thức\Nđược công nhận là Quỷ Vương.
+Dialogue: 0,0:39:32.61,0:39:34.70,Default,,0,0,0,,Ôi trời…
+Dialogue: 0,0:39:34.78,0:39:39.04,Default,,0,0,0,,Vào thẳng vào vấn đề đi.\NTa hiểu Raja đang ở tình thế nào.
+Dialogue: 0,0:39:39.12,0:39:43.33,Default,,0,0,0,,Canh tác là quan trọng,\Nnhưng cũng nên chuẩn bị trồng trọt.
+Dialogue: 0,0:39:43.42,0:39:44.42,Default,,0,0,0,,Nói hay lắm!
+Dialogue: 0,0:39:44.50,0:39:46.25,Default,,0,0,0,,Tôi hiểu! Vâng, đương nhiên!
+Dialogue: 0,0:39:46.33,0:39:48.75,Default,,0,0,0,,Cô Treyni ở đâu cũng có mặt.
+Dialogue: 0,0:39:49.21,0:39:52.34,Default,,0,0,0,,Chúng ta có thể yên tâm\Ngiao phần trồng trọt cho cô ấy.
+Dialogue: 0,0:39:52.42,0:39:53.43,Default,,0,0,0,,Đúng vậy.
+Dialogue: 0,0:39:53.51,0:39:55.22,Default,,0,0,0,,Các ngươi có thể dùng lá cây…
+Dialogue: 0,0:39:55.30,0:39:58.39,Default,,0,0,0,,Nữ hoàng đã thức tỉnh.
+Dialogue: 0,0:39:58.47,0:39:59.47,Default,,0,0,0,,Tôi biết rồi.
+Dialogue: 0,0:40:00.14,0:40:02.48,Default,,0,0,0,,Ngài Rimuru,\Nxin hãy đến gặp Nữ hoàng Towa.
+Dialogue: 0,0:40:02.56,0:40:03.56,Default,,0,0,0,,Ừ.
+Dialogue: 0,0:40:07.23,0:40:10.36,Default,,0,0,0,,Nữ hoàng Towa, thần đã đưa minh chủ
+Dialogue: 0,0:40:10.44,0:40:12.94,Default,,0,0,0,,của Liên Bang Jura Tempest,\NRimuru Tempest đến.
+Dialogue: 0,0:40:14.90,0:40:17.41,Default,,0,0,0,,Cảm ơn ngài vì đã lặn lội xa xôi đến đây.
+Dialogue: 0,0:40:18.07,0:40:21.08,Default,,0,0,0,,Xin lỗi phải đón tiếp ngài\Ntrong tình trạng này.
+Dialogue: 0,0:40:28.54,0:40:32.55,Default,,0,0,0,,Ngài Rimuru không chừng\Ncó thể chữa khỏi cho ngài.
+Dialogue: 0,0:40:33.42,0:40:37.26,Default,,0,0,0,,Ta không bảo cô phải tin tưởng\Nvào một con quái vật đột nhiên…
+Dialogue: 0,0:40:38.18,0:40:39.43,Default,,0,0,0,,Tôi tin ngài.
+Dialogue: 0,0:40:39.51,0:40:41.35,Default,,0,0,0,,Thật á? Dễ thế á?
+Dialogue: 0,0:40:41.43,0:40:44.81,Default,,0,0,0,,Tôi không có lí do để nghi ngờ\Nngười mà Hiiro đã đưa tới.
+Dialogue: 0,0:40:47.15,0:40:48.36,Default,,0,0,0,,Nữ Hoàng Towa…
+Dialogue: 0,0:40:49.06,0:40:52.44,Default,,0,0,0,,Được rồi. Để ta xem qua cho cô nhé?
+Dialogue: 0,0:41:00.87,0:41:02.20,Default,,0,0,0,,Ngài tò mò à?
+Dialogue: 0,0:41:02.74,0:41:04.20,Default,,0,0,0,,Ừ.
+Dialogue: 0,0:41:04.87,0:41:08.25,Default,,0,0,0,,Ta nghe nói người đeo cái đó\Ncó thể sử dụng ma pháp to lớn.
+Dialogue: 0,0:41:09.00,0:41:11.71,Default,,0,0,0,,Ta chắc chắn cảm thấy\Nmột sức mạnh to lớn trong nó.
+Dialogue: 0,0:41:12.17,0:41:13.51,Default,,0,0,0,,Ngài biết sao?
+Dialogue: 0,0:41:14.38,0:41:18.89,Default,,0,0,0,,Vì có cái vương miện này nên tôi\Nmới có thể bảo vệ vương quốc và người dân.
+Dialogue: 0,0:41:19.55,0:41:24.06,Default,,0,0,0,,Nhưng đổi lại, nó lại mang\NĐộc Nguyền cho cô?
+Dialogue: 0,0:41:25.52,0:41:27.81,Default,,0,0,0,,Mọi thứ đều có cái giá của nó.
+Dialogue: 0,0:41:28.60,0:41:29.69,Default,,0,0,0,,ĐÁNH GIÁ
+Dialogue: 0,0:41:30.11,0:41:31.06,Default,,0,0,0,,{\i1}Trả lời.{\i0}
+Dialogue: 0,0:41:31.15,0:41:33.65,Default,,0,0,0,,{\i1}Độc Nguyền không thể hóa giải.{\i0}
+Dialogue: 0,0:41:33.73,0:41:37.65,Default,,0,0,0,,{\i1}Chỉ có người ếm lời nguyền{\i0}\N{\i1}mới có thể loại bỏ.{\i0}
+Dialogue: 0,0:41:38.61,0:41:41.37,Default,,0,0,0,,{\i1}Tuy nhiên, miễn là cô ấy{\i0}\N{\i1}không sử dụng vương miện,{\i0}
+Dialogue: 0,0:41:41.45,0:41:44.08,Default,,0,0,0,,{\i1}cô ấy sẽ dần dần hồi phục.{\i0}
+Dialogue: 0,0:41:44.16,0:41:45.29,Default,,0,0,0,,{\i1}Hiểu rồi.{\i0}
+Dialogue: 0,0:41:45.37,0:41:49.33,Default,,0,0,0,,{\i1}Phụ thuộc vào sinh lực của người dùng,{\i0}\N{\i1}có khả năng chống lại Lời Nguyền.{\i0}
+Dialogue: 0,0:41:49.42,0:41:54.42,Default,,0,0,0,,{\i1}Nhưng sự phục hồi sinh lực của cô ấy{\i0}\N{\i1}có vẻ bị trì hoãn nghiêm trọng.{\i0}
+Dialogue: 0,0:41:54.92,0:41:57.22,Default,,0,0,0,,{\i1}Khuyến khích điều trị triệu chứng.{\i0}
+Dialogue: 0,0:41:58.17,0:42:00.51,Default,,0,0,0,,{\i1}Hãy dùng mật ong làm thuốc phục hồi.{\i0}
+Dialogue: 0,0:42:00.59,0:42:02.30,Default,,0,0,0,,{\an8}MẬT ONG\NKHUYẾN NGHỊ TỪ QUẢN TRỊ
+Dialogue: 0,0:42:11.06,0:42:12.06,Default,,0,0,0,,Ngon thật.
+Dialogue: 0,0:42:12.52,0:42:14.52,Default,,0,0,0,,Đó là mật ong đặc biệt từ Tempest.
+Dialogue: 0,0:42:15.02,0:42:17.32,Default,,0,0,0,,Là loại thuốc tốt nhất hiện có.
+Dialogue: 0,0:42:17.40,0:42:20.78,Default,,0,0,0,,Hãy uống một thìa đầy sau mỗi bữa ăn.
+Dialogue: 0,0:42:21.74,0:42:25.37,Default,,0,0,0,,Tôi có thể cảm thấy\Ncơ thể mình ấm lên từ bên trong.
+Dialogue: 0,0:42:27.62,0:42:30.46,Default,,0,0,0,,Đúng vậy… Sắc mặt ngài ấy nhìn đã khá lên.
+Dialogue: 0,0:42:31.08,0:42:32.17,Default,,0,0,0,,Nhanh vậy sao?
+Dialogue: 0,0:42:32.58,0:42:35.42,Default,,0,0,0,,Độc Nguyền không dễ hóa giải,
+Dialogue: 0,0:42:35.50,0:42:38.63,Default,,0,0,0,,miễn là cô ấy\Nkhông dùng vương miện nữa thì sẽ khỏe hơn.
+Dialogue: 0,0:42:39.42,0:42:40.68,Default,,0,0,0,,Thật sao?
+Dialogue: 0,0:42:40.76,0:42:41.76,Default,,0,0,0,,Ừ.
+Dialogue: 0,0:42:42.76,0:42:44.47,Default,,0,0,0,,Cảm ơn ngài rất nhiều.
+Dialogue: 0,0:42:45.39,0:42:50.02,Default,,0,0,0,,Nhưng nếu tôi không sử dụng sức mạnh này,\Ncác chất độc từ các mỏ sẽ…
+Dialogue: 0,0:42:50.52,0:42:52.23,Default,,0,0,0,,Ta cũng sẽ lo việc đó.
+Dialogue: 0,0:42:53.23,0:42:55.27,Default,,0,0,0,,Cô để cho ta làm việc đó nhé?
+Dialogue: 0,0:43:04.78,0:43:07.62,Default,,0,0,0,,Hàng trăm năm khai thác
+Dialogue: 0,0:43:07.70,0:43:11.00,Default,,0,0,0,,khiến độc tố từ các hầm mỏ\Nđổ vào cái hồ này.
+Dialogue: 0,0:43:11.66,0:43:12.92,Default,,0,0,0,,Cô Towa nhỉ?
+Dialogue: 0,0:43:13.00,0:43:14.00,Default,,0,0,0,,Vâng.
+Dialogue: 0,0:43:14.96,0:43:18.51,Default,,0,0,0,,Cái hồ đã từng tràn đầy nước tinh khiết,
+Dialogue: 0,0:43:19.01,0:43:22.01,Default,,0,0,0,,nhưng giờ nó là một cái hồ chết.
+Dialogue: 0,0:43:22.80,0:43:27.22,Default,,0,0,0,,Dần dần, chất độc sẽ mạnh đến mức\Nmà cả không khí xung quanh cũng độc.
+Dialogue: 0,0:43:28.93,0:43:32.64,Default,,0,0,0,,Ngài Rimuru, không phải ngài có thể\Nloại bỏ độc tố từ các hầm mỏ
+Dialogue: 0,0:43:32.73,0:43:36.90,Default,,0,0,0,,và khôi phục nước hồ\Nvề trạng thái hoàn toàn tinh khiết sao?
+Dialogue: 0,0:43:36.98,0:43:37.94,Default,,0,0,0,,Ừ.
+Dialogue: 0,0:43:39.98,0:43:41.28,Default,,0,0,0,,Thật sao?
+Dialogue: 0,0:43:41.61,0:43:43.91,Default,,0,0,0,,Nhưng… đợi chút đã.
+Dialogue: 0,0:43:44.82,0:43:46.74,Default,,0,0,0,,{\i1}Khi mình đến đất nước này…{\i0}
+Dialogue: 0,0:43:47.91,0:43:48.91,Default,,0,0,0,,{\i1}Thông báo.{\i0}
+Dialogue: 0,0:43:48.99,0:43:51.62,Default,,0,0,0,,{\i1}Độc tố này không có trong tự nhiên.{\i0}
+Dialogue: 0,0:43:53.16,0:43:57.46,Default,,0,0,0,,Ta đã phân tích nước từ thác nước,\Nvà có điều không đúng.
+Dialogue: 0,0:43:58.29,0:43:59.71,Default,,0,0,0,,Ý ngài là sao?
+Dialogue: 0,0:44:06.76,0:44:10.97,Default,,0,0,0,,Chất độc trong hồ này\Nkhông phải độc tố từ mỏ vàng.
+Dialogue: 0,0:44:43.88,0:44:45.17,Default,,0,0,0,,Vậy đó.
+Dialogue: 0,0:45:09.03,0:45:11.20,Default,,0,0,0,,Nuốt chửng tất cả đi, Beelzebub!
+Dialogue: 0,0:45:26.97,0:45:27.97,Default,,0,0,0,,{\i1}Thông báo.{\i0}
+Dialogue: 0,0:45:28.05,0:45:30.22,Default,,0,0,0,,{\i1}Thanh lọc chất độc đã hoàn thành.{\i0}
+Dialogue: 0,0:45:30.30,0:45:31.30,Default,,0,0,0,,Được rồi!
+Dialogue: 0,0:46:18.98,0:46:20.48,Default,,0,0,0,,Mọi người đều vui vẻ.
+Dialogue: 0,0:46:20.56,0:46:22.27,Default,,0,0,0,,Ừ. Ta vui quá.
+Dialogue: 0,0:46:24.36,0:46:28.19,Default,,0,0,0,,Tất nhiên rồi!\NChúng tôi đã được phép canh tác khu rừng,
+Dialogue: 0,0:46:28.28,0:46:30.53,Default,,0,0,0,,Nữ hoàng Towa đang hồi phục,
+Dialogue: 0,0:46:30.61,0:46:33.45,Default,,0,0,0,,và cái hồ đã sạch, không còn độc tố.
+Dialogue: 0,0:46:33.53,0:46:35.45,Default,,0,0,0,,Tất cả là nhờ Rimuru Đại nhân!
+Dialogue: 0,0:46:35.54,0:46:37.83,Default,,0,0,0,,Sao cô tự hào thế?
+Dialogue: 0,0:46:37.91,0:46:40.12,Default,,0,0,0,,Nói gì thế hả, Benimaru?
+Dialogue: 0,0:46:40.21,0:46:42.83,Default,,0,0,0,,Tôi là thư ký đầu\Ncủa Rimuru Đại nhân đấy nhé!
+Dialogue: 0,0:46:42.92,0:46:46.05,Default,,0,0,0,,Nghĩa là ngài Rimuru và tôi\Ncùng chung chí hướng!
+Dialogue: 0,0:46:46.92,0:46:48.21,Default,,0,0,0,,Chả hiểu luôn.
+Dialogue: 0,0:46:49.42,0:46:52.64,Default,,0,0,0,,Cơ mà, ngài nghĩ\Nma pháp trận đó là cái gì?
+Dialogue: 0,0:46:54.14,0:46:56.22,Default,,0,0,0,,Nhìn khá cổ.
+Dialogue: 0,0:46:56.60,0:47:00.23,Default,,0,0,0,,Kẻ tạo ra vòng tròn đó cũng là\Nngười đã ếm bùa lên vương miện.
+Dialogue: 0,0:47:00.31,0:47:04.61,Default,,0,0,0,,Truyền thuyết kể rằng vương miện\Nlà một món quà được một nữ thần ban tặng,
+Dialogue: 0,0:47:04.69,0:47:06.61,Default,,0,0,0,,nhưng chỉ vậy thôi.
+Dialogue: 0,0:47:06.69,0:47:11.20,Default,,0,0,0,,Chả biết có phải nữ thần hay không,\Nnhưng ta phải hỏi kẻ đã ếm bùa nó.
+Dialogue: 0,0:47:11.82,0:47:15.78,Default,,0,0,0,,Nếu họ vẫn còn sống, vậy đó.
+Dialogue: 0,0:47:16.37,0:47:17.37,Default,,0,0,0,,Ngài Rimuru!
+Dialogue: 0,0:47:18.95,0:47:20.79,Default,,0,0,0,,Dù tôi không thể đáp lễ chu đáo,
+Dialogue: 0,0:47:20.87,0:47:23.58,Default,,0,0,0,,nhưng tôi muốn cảm ơn ngài\Nbằng mọi thứ có thể.
+Dialogue: 0,0:47:27.80,0:47:29.63,Default,,0,0,0,,Thế này là quá đủ rồi.
+Dialogue: 0,0:47:29.71,0:47:33.63,Default,,0,0,0,,Quốc gia này không có gì\Nđể tôi có thể báo đáp ngài,
+Dialogue: 0,0:47:33.72,0:47:35.18,Default,,0,0,0,,nhưng một ngày nào đó…
+Dialogue: 0,0:47:35.26,0:47:37.93,Default,,0,0,0,,Ta đảm bảo cậu sẽ báo đáp\Nvào một ngày nào đó.
+Dialogue: 0,0:47:38.01,0:47:41.68,Default,,0,0,0,,Vậy hiện tại, chúng ta có thể\Ntiếp tục mối quan hệ với Raja không?
+Dialogue: 0,0:47:43.77,0:47:48.65,Default,,0,0,0,,Khi ta thấy cô Towa hy sinh bản thân\Nđể bảo vệ đất nước và người dân của cô ấy,
+Dialogue: 0,0:47:48.73,0:47:50.99,Default,,0,0,0,,nó làm ta muốn trở nên đáng tin như thế.
+Dialogue: 0,0:47:51.82,0:47:54.95,Default,,0,0,0,,Ta muốn thân thiết\Nvới người dân của đất nước này.
+Dialogue: 0,0:47:55.28,0:47:56.49,Default,,0,0,0,,Thế có được không?
+Dialogue: 0,0:47:59.74,0:48:00.95,Default,,0,0,0,,Cảm ơn ngài!
+Dialogue: 0,0:48:02.37,0:48:04.67,Default,,0,0,0,,- Uống nào, Huynh trưởng!\N- Này, thôi nào.
+Dialogue: 0,0:48:05.79,0:48:06.67,Default,,0,0,0,,Shion!
+Dialogue: 0,0:48:06.75,0:48:10.51,Default,,0,0,0,,Chắc ta sẽ đi xem cô Towa thế nào.
+Dialogue: 0,0:48:10.59,0:48:11.92,Default,,0,0,0,,Rimuru Đại nhân!
+Dialogue: 0,0:48:39.45,0:48:40.45,Default,,0,0,0,,Cô Towa.
+Dialogue: 0,0:48:44.91,0:48:46.37,Default,,0,0,0,,Cô cảm thấy thế nào rồi?
+Dialogue: 0,0:48:48.17,0:48:52.38,Default,,0,0,0,,Càng ngày càng đỡ,\Nnhờ có mật ong của ngài đưa cho tôi.
+Dialogue: 0,0:48:52.46,0:48:54.84,Default,,0,0,0,,Tôi chân thành cảm ơn ngài vì mọi thứ.
+Dialogue: 0,0:48:55.38,0:48:58.93,Default,,0,0,0,,Không sao. Benimaru và bộ tộc của cậu ấy\Ncũng nhờ ta giúp mà.
+Dialogue: 0,0:48:59.01,0:49:01.18,Default,,0,0,0,,Ta làm vì ta muốn thế.
+Dialogue: 0,0:49:08.35,0:49:11.98,Default,,0,0,0,,Tôi rất ghen tị với Rimuru Đại nhân.
+Dialogue: 0,0:49:12.86,0:49:14.82,Default,,0,0,0,,Cùng là lãnh đạo của một quốc gia,
+Dialogue: 0,0:49:14.90,0:49:18.87,Default,,0,0,0,,nhưng ngài suy nghĩ cởi mở hơn\Nvà dành thời gian với bạn bè.
+Dialogue: 0,0:49:21.12,0:49:24.45,Default,,0,0,0,,Còn tôi thì rất thiên vị.
+Dialogue: 0,0:49:24.54,0:49:29.83,Default,,0,0,0,,Khi thấy Hiiro mạo hiểm mạng sống\Nvì đồng đội và bảo vệ họ khi chiến đấu,
+Dialogue: 0,0:49:30.75,0:49:33.75,Default,,0,0,0,,tôi nghĩ cậu ấy có vẻ\Nlà người tôi có thể tin tưởng.
+Dialogue: 0,0:49:35.72,0:49:39.55,Default,,0,0,0,,Rằng nếu tôi cứu cậu ấy,\Nthì cậu ấy sẽ đứng về phía tôi…
+Dialogue: 0,0:49:41.30,0:49:44.02,Default,,0,0,0,,Cô Towa… Ý ta là…
+Dialogue: 0,0:49:44.10,0:49:45.52,Default,,0,0,0,,Tôi biết mà.
+Dialogue: 0,0:49:46.48,0:49:48.31,Default,,0,0,0,,Thật là toan tính và ích kỷ.
+Dialogue: 0,0:49:49.81,0:49:52.44,Default,,0,0,0,,Nhưng chẳng phải ai cũng vậy sao?
+Dialogue: 0,0:49:52.52,0:49:55.61,Default,,0,0,0,,Đôi lúc ta đều có\Nnhững toan tính bên trong.
+Dialogue: 0,0:49:56.11,0:49:58.53,Default,,0,0,0,,Ta không nghĩ toan tính là xấu.
+Dialogue: 0,0:49:59.86,0:50:04.70,Default,,0,0,0,,Hơn nữa, dù cô đặt tên cậu ta thì cô cũng\Nđâu thể ràng buộc linh hồn cậu ta.
+Dialogue: 0,0:50:04.79,0:50:07.08,Default,,0,0,0,,Cứ nhìn bạn ta mà xem.
+Dialogue: 0,0:50:07.16,0:50:09.17,Default,,0,0,0,,Họ nói gì với ta cũng được,
+Dialogue: 0,0:50:09.25,0:50:11.13,Default,,0,0,0,,và làm gì mà họ thích.
+Dialogue: 0,0:50:11.21,0:50:13.34,Default,,0,0,0,,Cơ mà cũng còn tùy đó là ai.
+Dialogue: 0,0:50:13.42,0:50:15.84,Default,,0,0,0,,Thế… việc là như thế sao?
+Dialogue: 0,0:50:16.55,0:50:19.72,Default,,0,0,0,,Đúng thế.\NCô đang nhìn nhận mọi thứ quá nghiêm túc.
+Dialogue: 0,0:50:19.80,0:50:23.14,Default,,0,0,0,,Nếu cứ thế này,\Ncô sẽ bị nghiền nát bởi trách nhiệm.
+Dialogue: 0,0:50:23.60,0:50:27.60,Default,,0,0,0,,Cô nên vui vẻ lên và\Nhãy thành thật hơn với cảm xúc của mình.
+Dialogue: 0,0:50:32.10,0:50:34.11,Default,,0,0,0,,Ngài thật tốt bụng, ngài Rimuru.
+Dialogue: 0,0:50:34.19,0:50:36.28,Default,,0,0,0,,Đó mới gọi là "toan tính".
+Dialogue: 0,0:50:36.36,0:50:39.20,Default,,0,0,0,,Để hai ta sau này\Ncó thể thân thiết với nhau.
+Dialogue: 0,0:50:41.53,0:50:45.24,Default,,0,0,0,,Sao thế được?
+Dialogue: 0,0:50:48.25,0:50:50.54,Default,,0,0,0,,Chúng đang canh tác Khu Rừng Đại Ngàn?
+Dialogue: 0,0:50:55.00,0:50:57.42,Default,,0,0,0,,Hồ đã được thanh lọc rồi à?
+Dialogue: 0,0:50:57.84,0:50:59.47,Default,,0,0,0,,Gì đây? Có chuyện gì đây?
+Dialogue: 0,0:50:59.55,0:51:01.13,Default,,0,0,0,,Cảm ơn mọi người đã vất vả.
+Dialogue: 0,0:51:01.22,0:51:02.22,Default,,0,0,0,,Tôi còn chẳng…
+Dialogue: 0,0:51:02.30,0:51:05.18,Default,,0,0,0,,Nữ hoàng Towa,\Nngài có vẻ ổn. Thật may quá!
+Dialogue: 0,0:51:08.27,0:51:10.98,Default,,0,0,0,,Nữ hoàng đã hồi phục?
+Dialogue: 0,0:51:11.06,0:51:14.23,Default,,0,0,0,,Chà, không phải Lacua đây sao?
+Dialogue: 0,0:51:14.77,0:51:16.57,Default,,0,0,0,,Mobuji Đại nhân!
+Dialogue: 0,0:51:16.65,0:51:18.15,Default,,0,0,0,,Lâu rồi không gặp!
+Dialogue: 0,0:51:18.23,0:51:20.95,Default,,0,0,0,,Tôi lại mang nhiều vật phẩm cho ngài đây!
+Dialogue: 0,0:51:21.03,0:51:22.32,Default,,0,0,0,,Tuyệt vời.
+Dialogue: 0,0:51:22.41,0:51:25.87,Default,,0,0,0,,Đi xa về thì nghỉ ngơi cho đỡ mệt đi đã.
+Dialogue: 0,0:51:27.20,0:51:28.37,Default,,0,0,0,,Mà…
+Dialogue: 0,0:51:28.45,0:51:31.12,Default,,0,0,0,,Không hiểu sao\Nkhông khí ở đây đã thay đổi.
+Dialogue: 0,0:51:32.33,0:51:34.92,Default,,0,0,0,,Nhiều chuyện đã xảy ra\Ntrong mười ngày qua.
+Dialogue: 0,0:51:35.00,0:51:38.17,Default,,0,0,0,,Chúng ta có thể từ từ\Nthảo luận việc đó vào tối nay.
+Dialogue: 0,0:51:38.25,0:51:40.26,Default,,0,0,0,,Gặp lại ngươi sau.
+Dialogue: 0,0:51:43.26,0:51:44.51,Default,,0,0,0,,Tệ thật!
+Dialogue: 0,0:51:44.59,0:51:47.22,Default,,0,0,0,,Chuyện gì xảy ra thế nhỉ?
+Dialogue: 0,0:51:50.14,0:51:51.98,Default,,0,0,0,,Sao lại thành thế này?
+Dialogue: 0,0:51:52.06,0:51:56.31,Default,,0,0,0,,Kế hoạch của mình bị phá hủy\Nbởi một Kijin sống sót và một con slime?
+Dialogue: 0,0:51:56.40,0:52:01.61,Default,,0,0,0,,Nhưng thực hiện mong muốn của ngài ấy\Nlà tấm vé để nâng cao địa vị của mình!
+Dialogue: 0,0:52:02.49,0:52:03.49,Default,,0,0,0,,Chết tiệt!
+Dialogue: 0,0:52:07.62,0:52:08.83,Default,,0,0,0,,Đúng…
+Dialogue: 0,0:52:09.87,0:52:14.25,Default,,0,0,0,,Thứ chúng ta cần là hỗn loạn và bi kịch!
+Dialogue: 0,0:52:16.96,0:52:20.38,Default,,0,0,0,,Cậu đấy… Không cần lúc nào\Ncũng phải quay về đây đâu.
+Dialogue: 0,0:52:20.46,0:52:23.59,Default,,0,0,0,,Có thể dùng Thần Giao Cách Cảm\Nđể báo cáo cho ta mà.
+Dialogue: 0,0:52:24.38,0:52:26.47,Default,,0,0,0,,Đúng thế đấy, thư ký thứ hai.
+Dialogue: 0,0:52:27.80,0:52:30.51,Default,,0,0,0,,Ngài nói gì vậy, Rimuru Đại nhân?
+Dialogue: 0,0:52:31.18,0:52:36.60,Default,,0,0,0,,Chạy tới bên ngài\Nkhông phải việc rắc rối cho tôi.
+Dialogue: 0,0:52:52.70,0:52:55.71,Default,,0,0,0,,Đã lâu rồi kể từ khi tôi rời làng.
+Dialogue: 0,0:52:59.21,0:53:03.21,Default,,0,0,0,,Giờ cuối cùng tôi đã có thể\Nquay trở lại cùng với mọi người.
+Dialogue: 0,0:53:04.30,0:53:08.01,Default,,0,0,0,,Tôi sống tốt ở đây hôm nay,\Nlà nhờ có mọi người.
+Dialogue: 0,0:53:09.55,0:53:13.64,Default,,0,0,0,,Và… thiếu chủ và những\Nngười bạn khác vẫn còn sống.
+Dialogue: 0,0:53:18.77,0:53:21.40,Default,,0,0,0,,Chúng ta đã rất hăng hái kiếm tiền
+Dialogue: 0,0:53:21.48,0:53:25.82,Default,,0,0,0,,để cuộc sống dễ thở hơn và ăn đồ ăn ngon.
+Dialogue: 0,0:53:30.41,0:53:34.25,Default,,0,0,0,,Và giờ các bạn đã không còn nữa…
+Dialogue: 0,0:53:38.25,0:53:40.67,Default,,0,0,0,,Tôi xin lỗi, mọi người.
+Dialogue: 0,0:53:41.21,0:53:44.42,Default,,0,0,0,,Giá mà… Giá mà tôi…
+Dialogue: 0,0:53:47.34,0:53:50.76,Default,,0,0,0,,Ngài Rimuru bảo rằng anh ở đây.
+Dialogue: 0,0:54:02.15,0:54:05.99,Default,,0,0,0,,Giá mà anh mạnh mẽ hơn,\Nanh đã có thể bảo vệ họ.
+Dialogue: 0,0:54:06.94,0:54:07.95,Default,,0,0,0,,Ừ.
+Dialogue: 0,0:54:08.45,0:54:11.87,Default,,0,0,0,,Giá mà anh là một lãnh đạo giỏi hơn…
+Dialogue: 0,0:54:12.66,0:54:13.95,Default,,0,0,0,,Chắc thế.
+Dialogue: 0,0:54:15.24,0:54:17.12,Default,,0,0,0,,Anh là người được bảo vệ.
+Dialogue: 0,0:54:18.04,0:54:20.67,Default,,0,0,0,,Họ đánh đổi mọi thứ để cho anh sống.
+Dialogue: 0,0:54:21.75,0:54:23.25,Default,,0,0,0,,Nếu phải bỏ mạng…
+Dialogue: 0,0:54:23.84,0:54:26.55,Default,,0,0,0,,Nếu anh phải liều tất cả, lần tới…
+Dialogue: 0,0:54:27.67,0:54:30.30,Default,,0,0,0,,Lần tới, anh sẽ bảo vệ đồng đội của mình!
+Dialogue: 0,0:54:34.39,0:54:35.39,Default,,0,0,0,,Huynh trưởng.
+Dialogue: 0,0:54:37.47,0:54:41.31,Default,,0,0,0,,Em luôn thích sự kiên định của anh.
+Dialogue: 0,0:54:41.40,0:54:45.40,Default,,0,0,0,,Nhưng đừng quên rằng\Nanh có bọn em và Rimuru Đại nhân.
+Dialogue: 0,0:54:50.61,0:54:51.61,Default,,0,0,0,,Phải rồi.
+Dialogue: 0,0:54:58.37,0:54:59.37,Default,,0,0,0,,Đội trưởng!
+Dialogue: 0,0:55:00.00,0:55:01.83,Default,,0,0,0,,Tin xấu! Là Nữ hoàng Towa!
+Dialogue: 0,0:55:04.17,0:55:05.38,Default,,0,0,0,,Cô ấy ngất xỉu?
+Dialogue: 0,0:55:05.46,0:55:09.09,Default,,0,0,0,,Cái hồ tự nhiên bị nhiễm độc\Nvà không khí cũng trở nên độc hại,
+Dialogue: 0,0:55:09.17,0:55:12.97,Default,,0,0,0,,nên cô ấy đã sử dụng vương miện\Nđể cố gắng cứu người dân.
+Dialogue: 0,0:55:13.05,0:55:14.80,Default,,0,0,0,,Đột nhiên như vậy à?
+Dialogue: 0,0:55:14.89,0:55:19.10,Default,,0,0,0,,Ta đã loại bỏ ma pháp trận kỳ lạ\Nđã tạo ra chất độc cơ mà…
+Dialogue: 0,0:55:19.18,0:55:20.18,Default,,0,0,0,,{\i1}Vâng.{\i0}
+Dialogue: 0,0:55:20.27,0:55:24.98,Default,,0,0,0,,{\i1}Nó đã hoàn toàn được loại bỏ,{\i0}\N{\i1}và tất cả chất độc đã được thanh lọc.{\i0}
+Dialogue: 0,0:55:25.69,0:55:28.03,Default,,0,0,0,,Ma pháp trận kỳ lạ này là sao ạ?
+Dialogue: 0,0:55:28.48,0:55:30.69,Default,,0,0,0,,Nó ở dưới đáy hồ.
+Dialogue: 0,0:55:30.78,0:55:32.99,Default,,0,0,0,,Nhìn rất cổ.
+Dialogue: 0,0:55:33.36,0:55:34.37,Default,,0,0,0,,Vậy à…
+Dialogue: 0,0:55:36.49,0:55:38.33,Default,,0,0,0,,Một ma pháp trận cổ?
+Dialogue: 0,0:55:40.91,0:55:43.46,Default,,0,0,0,,Thế là lời nguyền\Nlại lan ra khắp cơ thể ngài ấy.
+Dialogue: 0,0:55:43.54,0:55:47.38,Default,,0,0,0,,Mật ong mà Rimuru Đại nhân đưa\Nđã giữ mạng cho ngài ấy,
+Dialogue: 0,0:55:47.46,0:55:49.13,Default,,0,0,0,,nhưng có một vấn đề khác.
+Dialogue: 0,0:55:49.21,0:55:50.30,Default,,0,0,0,,Gì vậy?
+Dialogue: 0,0:55:50.38,0:55:55.01,Default,,0,0,0,,Chúng tôi nghe tin quân đội nước bên\Nđang di chuyển. Mọi người đều hoảng.
+Dialogue: 0,0:56:00.81,0:56:04.02,Default,,0,0,0,,Rimuru Đại nhân, không phải ngài nên\Nnhanh chóng tới Raja sao?
+Dialogue: 0,0:56:04.31,0:56:05.94,Default,,0,0,0,,Ừ, nhưng…
+Dialogue: 0,0:56:06.52,0:56:09.19,Default,,0,0,0,,Ta đã thanh lọc hồ,\Nnhưng lại bị nhiễm độc tiếp.
+Dialogue: 0,0:56:09.28,0:56:12.90,Default,,0,0,0,,Nước láng giềng xuất quân\Nngay khi cô Towa vừa gục…
+Dialogue: 0,0:56:13.82,0:56:17.53,Default,,0,0,0,,Ngài nghĩ mọi việc quá hoàn hảo,\Nkhông thể là một sự trùng hợp.
+Dialogue: 0,0:56:17.62,0:56:18.95,Default,,0,0,0,,Chính xác.
+Dialogue: 0,0:56:19.03,0:56:23.04,Default,,0,0,0,,Tôi cũng đang định nói vậy!
+Dialogue: 0,0:56:24.62,0:56:27.84,Default,,0,0,0,,Cô Towa đã vắt kiệt\Nmột lượng lớn sinh lực.
+Dialogue: 0,0:56:27.92,0:56:32.51,Default,,0,0,0,,Gã thái y của họ, Chikuan,\Nliệu có đang chữa cho cô ấy không?
+Dialogue: 0,0:56:32.97,0:56:35.26,Default,,0,0,0,,Có quá nhiều câu hỏi.
+Dialogue: 0,0:56:35.93,0:56:36.93,Default,,0,0,0,,Soei!
+Dialogue: 0,0:56:37.01,0:56:38.10,Default,,0,0,0,,Có mặt.
+Dialogue: 0,0:56:39.43,0:56:41.89,Default,,0,0,0,,Tìm hiểu lý do tại sao Raja bị nhắm vào.
+Dialogue: 0,0:56:41.97,0:56:43.35,Default,,0,0,0,,Tuân lệnh.
+Dialogue: 0,0:56:43.43,0:56:44.89,Default,,0,0,0,,- Đi.\N- Vâng.
+Dialogue: 0,0:56:47.31,0:56:49.32,Default,,0,0,0,,Shion, tập hợp mọi người.
+Dialogue: 0,0:56:49.40,0:56:51.15,Default,,0,0,0,,Chuẩn bị phản công!
+Dialogue: 0,0:56:51.23,0:56:52.32,Default,,0,0,0,,Rõ, thưa ngài!
+Dialogue: 0,0:56:58.12,0:56:59.33,Default,,0,0,0,,Ngài Chikuan!
+Dialogue: 0,0:56:59.41,0:57:04.25,Default,,0,0,0,,Với tình trạng hiện tại,\Nsẽ rất khó để đưa ngài ấy đi.
+Dialogue: 0,0:57:05.25,0:57:09.34,Default,,0,0,0,,Ngài ấy sẽ không trụ được đủ lâu\Nđể tránh trận chiến và tháo chạy.
+Dialogue: 0,0:57:09.42,0:57:10.54,Default,,0,0,0,,Không…
+Dialogue: 0,0:57:15.76,0:57:18.76,Default,,0,0,0,,Ta xin lỗi, Hiiro…
+Dialogue: 0,0:57:20.30,0:57:25.31,Default,,0,0,0,,Ta không thể… cứu bạn của ngươi…
+Dialogue: 0,0:57:25.81,0:57:26.89,Default,,0,0,0,,Nữ hoàng Towa!
+Dialogue: 0,0:57:26.98,0:57:28.98,Default,,0,0,0,,Ngài không cần phải xin lỗi!
+Dialogue: 0,0:57:30.65,0:57:36.86,Default,,0,0,0,,Ngươi… được tự do làm gì ngươi muốn.
+Dialogue: 0,0:57:37.28,0:57:38.99,Default,,0,0,0,,Ngài đang nói gì vậy?
+Dialogue: 0,0:57:40.95,0:57:44.95,Default,,0,0,0,,Ta… xin lỗi, Hiiro…
+Dialogue: 0,0:57:52.50,0:57:55.38,Default,,0,0,0,,Ngài không cần phải xin lỗi gì cả.
+Dialogue: 0,0:57:58.47,0:58:02.47,Default,,0,0,0,,Sao ngài phải chịu đựng như thế này?
+Dialogue: 0,0:58:06.56,0:58:10.94,Default,,0,0,0,,Như mọi người thấy, chúng ta chưa biết\Nkẻ đứng sau giật dây.
+Dialogue: 0,0:58:11.02,0:58:13.02,Default,,0,0,0,,và chúng ta có thể phải chiến đấu.
+Dialogue: 0,0:58:13.36,0:58:17.24,Default,,0,0,0,,Nhưng ta chọn tin cô Towa\Nvà đứng về phía Raja.
+Dialogue: 0,0:58:17.32,0:58:19.32,Default,,0,0,0,,Ta muốn mọi người giúp.
+Dialogue: 0,0:58:19.61,0:58:21.16,Default,,0,0,0,,Tôi không phản đối.
+Dialogue: 0,0:58:21.24,0:58:23.20,Default,,0,0,0,,Ta cũng có Huynh trưởng Hiiro nữa.
+Dialogue: 0,0:58:23.28,0:58:27.29,Default,,0,0,0,,Chúng tôi cũng hi vọng\Ncó được sự giúp đỡ của ngài.
+Dialogue: 0,0:58:28.12,0:58:30.75,Default,,0,0,0,,Vậy hãy bắt đầu chuẩn bị ngay.
+Dialogue: 0,0:58:30.83,0:58:31.96,Default,,0,0,0,,Vâng!
+Dialogue: 0,0:58:35.00,0:58:36.00,Default,,0,0,0,,Veldora!
+Dialogue: 0,0:58:36.09,0:58:38.72,Default,,0,0,0,,Cậu muốn tôi ở lại phải không?
+Dialogue: 0,0:58:38.80,0:58:42.68,Default,,0,0,0,,Anh là người duy nhất\Ntôi có thể tin tưởng để trông coi Tempest.
+Dialogue: 0,0:58:45.26,0:58:46.60,Default,,0,0,0,,Biết ngay mà.
+Dialogue: 0,0:58:48.93,0:58:52.35,Default,,0,0,0,,Cậu cứ yên tâm là tôi sẽ làm tốt!
+Dialogue: 0,0:58:57.40,0:58:58.69,Default,,0,0,0,,Rimuru Đại nhân.
+Dialogue: 0,0:59:00.11,0:59:04.12,Default,,0,0,0,,Tôi có thể đoán được người tạo ra\NĐộc Nguyền trên vương miện
+Dialogue: 0,0:59:04.20,0:59:06.74,Default,,0,0,0,,và ma pháp trận trong hồ.
+Dialogue: 0,0:59:07.12,0:59:08.20,Default,,0,0,0,,Cái gì?
+Dialogue: 0,0:59:08.79,0:59:10.50,Default,,0,0,0,,Nếu ngài cho phép,
+Dialogue: 0,0:59:11.04,0:59:15.13,Default,,0,0,0,,tôi sẽ đích thân đi thương lượng\Nđể giải trừ lời nguyền.
+Dialogue: 0,0:59:15.21,0:59:17.96,Default,,0,0,0,,Được, ta cho phép!\NNhờ vào cậu cả đấy, Diablo!
+Dialogue: 0,0:59:20.17,0:59:21.72,Default,,0,0,0,,Cảm ơn ngài!
+Dialogue: 0,0:59:22.51,0:59:26.35,Default,,0,0,0,,Tôi sẽ không phụ kỳ vọng của ngài.
+Dialogue: 0,0:59:34.52,0:59:37.19,Default,,0,0,0,,Ngay cả sau khi\NRimuru Đại nhân đã làm mọi thứ,
+Dialogue: 0,0:59:37.27,0:59:38.98,Default,,0,0,0,,chất độc vẫn quay lại.
+Dialogue: 0,0:59:39.69,0:59:44.11,Default,,0,0,0,,Và mỗi lần như vậy,\NNữ hoàng Towa sẽ dùng sức mạnh vương miện.
+Dialogue: 0,0:59:45.53,0:59:47.53,Default,,0,0,0,,Chúng ta vượt qua thế nào đây?
+Dialogue: 0,0:59:48.91,0:59:50.91,Default,,0,0,0,,Hiiro Đại nhân!
+Dialogue: 0,0:59:52.12,0:59:54.12,Default,,0,0,0,,Ông cần gì à, Lacua?
+Dialogue: 0,0:59:54.21,0:59:57.13,Default,,0,0,0,,Tôi có vài thông tin bí mật cho ngài.
+Dialogue: 0,0:59:57.21,1:00:03.09,Default,,0,0,0,,Thông tin liên quan đến\Nkhả năng cứu mạng Nữ hoàng.
+Dialogue: 0,1:00:03.18,1:00:05.26,Default,,0,0,0,,Ý ông là gì? Nói đi!
+Dialogue: 0,1:00:13.64,1:00:16.02,Default,,0,0,0,,Có một bí thuật.
+Dialogue: 0,1:00:16.10,1:00:18.69,Default,,0,0,0,,Nó liên quan đến việc chuyển linh hồn
+Dialogue: 0,1:00:18.77,1:00:22.99,Default,,0,0,0,,sang một vật khác…\Nhoặc nói cách khác, hoán đổi cơ thể.
+Dialogue: 0,1:00:23.07,1:00:25.78,Default,,0,0,0,,Không thể có cách thức như thế tồn tại.
+Dialogue: 0,1:00:25.86,1:00:28.70,Default,,0,0,0,,Tôi không trách ngài đã nghi ngờ.
+Dialogue: 0,1:00:29.24,1:00:32.08,Default,,0,0,0,,Nhưng nó có tồn tại!
+Dialogue: 0,1:00:33.25,1:00:37.25,Default,,0,0,0,,Tất nhiên, một số điều kiện nhất định\Nphải được đáp ứng mới làm được.
+Dialogue: 0,1:00:37.33,1:00:40.55,Default,,0,0,0,,Nó liên quan đến mức độ tương thích.
+Dialogue: 0,1:00:41.76,1:00:43.05,Default,,0,0,0,,Nhưng…
+Dialogue: 0,1:00:43.13,1:00:49.18,Default,,0,0,0,,Vì linh hồn của ngài và Nữ hoàng\Nđược liên kết bởi nghi thức đặt tên,
+Dialogue: 0,1:00:49.26,1:00:51.89,Default,,0,0,0,,chắc chắn sẽ thành công.
+Dialogue: 0,1:00:52.85,1:00:53.77,Default,,0,0,0,,Thật à?
+Dialogue: 0,1:00:53.85,1:00:55.02,Default,,0,0,0,,Vâng!
+Dialogue: 0,1:00:55.10,1:00:57.27,Default,,0,0,0,,Tuy nhiên! Phải cân nhắc điều này!
+Dialogue: 0,1:00:57.35,1:01:01.36,Default,,0,0,0,,Nếu chuyển linh hồn của Nữ hoàng\Nvào cơ thể của ngài,
+Dialogue: 0,1:01:01.44,1:01:05.90,Default,,0,0,0,,linh hồn của ngài sẽ không có\Nnơi nào để đi, và có thể lạc lối.
+Dialogue: 0,1:01:05.99,1:01:09.24,Default,,0,0,0,,Nếu ngài đã sẵn sàng cho khả năng đó…
+Dialogue: 0,1:01:09.32,1:01:12.95,Default,,0,0,0,,Tôi chỉ có thể nói vậy thôi.
+Dialogue: 0,1:01:14.79,1:01:20.79,Default,,0,0,0,,Ý ông là tôi có thể dâng cơ thể mình…\Ncái mạng mà Nữ hoàng đã cứu… cho ngài ấy?
+Dialogue: 0,1:01:22.38,1:01:23.38,Default,,0,0,0,,Tôi hiểu rồi.
+Dialogue: 0,1:01:24.55,1:01:26.72,Default,,0,0,0,,Vậy tôi biết mình phải làm gì rồi.
+Dialogue: 0,1:01:28.59,1:01:30.76,Default,,0,0,0,,Ý ngài là…
+Dialogue: 0,1:01:31.14,1:01:33.60,Default,,0,0,0,,Tôi sẽ trả mạng này cho Nữ hoàng Towa.
+Dialogue: 0,1:01:33.68,1:01:35.27,Default,,0,0,0,,Hãy bắt đầu ngay.
+Dialogue: 0,1:01:36.39,1:01:38.27,Default,,0,0,0,,Ngài sẽ hi sinh bản thân…
+Dialogue: 0,1:01:38.35,1:01:40.48,Default,,0,0,0,,Thật là một trái tim cao cả!
+Dialogue: 0,1:01:40.56,1:01:43.98,Default,,0,0,0,,Tôi vô cùng xúc động!
+Dialogue: 0,1:01:48.11,1:01:49.11,Default,,0,0,0,,Gì vậy?
+Dialogue: 0,1:01:49.66,1:01:53.49,Default,,0,0,0,,Cái này gọi là "Ngọc Nguyền Rủa".
+Dialogue: 0,1:01:53.58,1:01:54.87,Default,,0,0,0,,Ngọc Nguyền Rủa?
+Dialogue: 0,1:01:54.95,1:01:57.62,Default,,0,0,0,,Người ta gọi nó\Nlà một kỳ trân bí mật chứa sức mạnh.
+Dialogue: 0,1:01:57.71,1:02:01.42,Default,,0,0,0,,Truyền rằng nó có thể cải tạo thân thể\Ntrở nên mạnh mẽ hơn trước.
+Dialogue: 0,1:02:01.50,1:02:06.05,Default,,0,0,0,,Nó là một vật rất quý giá\Ntôi đã lấy được ở miền viễn tây,
+Dialogue: 0,1:02:06.13,1:02:09.68,Default,,0,0,0,,nhưng để đảm bảo sự thành công\Ncủa nghi lễ chuyển linh hồn,
+Dialogue: 0,1:02:09.76,1:02:13.06,Default,,0,0,0,,tôi cần ngài nuốt nó.
+Dialogue: 0,1:02:13.97,1:02:14.97,Default,,0,0,0,,Được rồi.
+Dialogue: 0,1:02:32.41,1:02:34.33,Default,,0,0,0,,Cảm giác thật lạ…
+Dialogue: 0,1:02:34.41,1:02:38.25,Default,,0,0,0,,Sẽ mất một thời gian\Nđể cơ thể ngài chấp nhận viên ngọc.
+Dialogue: 0,1:02:38.33,1:02:42.17,Default,,0,0,0,,Giờ chúng ta hãy di chuyển sang nơi khác\Nđể không có ai làm phiền.
+Dialogue: 0,1:03:06.11,1:03:07.19,Default,,0,0,0,,Đã sẵn sàng chưa?
+Dialogue: 0,1:03:07.28,1:03:08.19,Default,,0,0,0,,Rồi!
+Dialogue: 0,1:03:08.28,1:03:09.99,Default,,0,0,0,,Được rồi, ta sẽ dịch chuyển.
+Dialogue: 0,1:03:26.21,1:03:28.88,Default,,0,0,0,,Ô, Rimuru Đại nhân!
+Dialogue: 0,1:03:28.96,1:03:30.47,Default,,0,0,0,,Ngài Mobuji, ngài Bộ trưởng.
+Dialogue: 0,1:03:30.55,1:03:32.97,Default,,0,0,0,,Chúng tôi không thấy Nữ hoàng!
+Dialogue: 0,1:03:33.05,1:03:34.01,Default,,0,0,0,,Cái gì?
+Dialogue: 0,1:03:35.80,1:03:37.56,Default,,0,0,0,,Đội trưởng cũng đang mất tích.
+Dialogue: 0,1:03:38.14,1:03:40.27,Default,,0,0,0,,Họ có thể đi đâu giờ này chứ?
+Dialogue: 0,1:03:41.60,1:03:42.60,Default,,0,0,0,,Ranga.
+Dialogue: 0,1:03:42.69,1:03:43.69,Default,,0,0,0,,Vâng, chủ nhân!
+Dialogue: 0,1:03:50.69,1:03:54.16,Default,,0,0,0,,Chúng ta có thể tiến hành\Nnghi lễ thoải mái ở đây.
+Dialogue: 0,1:03:54.24,1:03:56.41,Default,,0,0,0,,Giờ, đặt Nữ hoàng lên trên đó.
+Dialogue: 0,1:04:13.55,1:04:16.26,Default,,0,0,0,,Nữ hoàng Towa, xin hãy yên tâm.
+Dialogue: 0,1:04:26.81,1:04:31.57,Default,,0,0,0,,Sao Hiiro và nữ hoàng\Nlại đến một nơi thế này chứ?
+Dialogue: 0,1:04:37.95,1:04:40.04,Default,,0,0,0,,{\i1}Rimuru Đại nhân, cho phép tôi nhé?{\i0}
+Dialogue: 0,1:04:40.12,1:04:41.83,Default,,0,0,0,,{\i1}Soei, gì thế?{\i0}
+Dialogue: 0,1:04:41.91,1:04:44.54,Default,,0,0,0,,{\i1}Tôi biết lí do Raja bị tấn công rồi ạ.{\i0}
+Dialogue: 0,1:04:44.62,1:04:47.71,Default,,0,0,0,,Đợi đã. Thủ tướng và bộ trưởng đang ở đây.
+Dialogue: 0,1:04:47.79,1:04:49.80,Default,,0,0,0,,Ta sẽ để họ nghe cùng.
+Dialogue: 0,1:04:50.96,1:04:52.05,Default,,0,0,0,,Được rồi.
+Dialogue: 0,1:04:52.13,1:04:56.55,Default,,0,0,0,,{\i1}Nước láng giềng{\i0}\N{\i1}đang nhăm nhe mạch vàng lớn bên dưới Raja.{\i0}
+Dialogue: 0,1:04:56.64,1:04:58.26,Default,,0,0,0,,Một mạch vàng?
+Dialogue: 0,1:04:58.93,1:05:02.14,Default,,0,0,0,,Đó là tin đồn ở nước láng giềng.
+Dialogue: 0,1:05:02.22,1:05:05.64,Default,,0,0,0,,Họ đang vội vàng chuẩn bị tấn công\Nđể họ có thể sở hữu nó.
+Dialogue: 0,1:05:07.81,1:05:11.23,Default,,0,0,0,,- Tôi không biết gì về chuyện này!\N- Tôi cũng không biết!
+Dialogue: 0,1:05:13.57,1:05:16.07,Default,,0,0,0,,Nếu nói dối thì các ngươi sẽ phải hối hận!
+Dialogue: 0,1:05:17.53,1:05:19.95,Default,,0,0,0,,Khoan, Ranga! Họ không nói dối đâu!
+Dialogue: 0,1:05:20.03,1:05:23.95,Default,,0,0,0,,Đúng là một lượng lớn vàng\Nđã được đào lên ở đây trong quá khứ,
+Dialogue: 0,1:05:24.04,1:05:27.42,Default,,0,0,0,,nhưng giờ, sẽ không tìm thấy gì\Nlớn hơn ngón tay út của tôi!
+Dialogue: 0,1:05:27.92,1:05:31.92,Default,,0,0,0,,Ranga, những người này không nói dối.\NNếu họ có một thứ như thế,
+Dialogue: 0,1:05:32.00,1:05:35.34,Default,,0,0,0,,họ sẽ không cố canh tác\NKhu Rừng Đại Ngàn Jura.
+Dialogue: 0,1:05:42.60,1:05:43.77,Default,,0,0,0,,{\i1}Cơ mà…{\i0}
+Dialogue: 0,1:05:43.85,1:05:44.81,Default,,0,0,0,,{\i1}Thông báo.{\i0}
+Dialogue: 0,1:05:44.89,1:05:48.19,Default,,0,0,0,,{\i1}Rất bất thường khi quân đội của họ{\i0}\N{\i1}lại huy động ở thời điểm này.{\i0}
+Dialogue: 0,1:05:48.27,1:05:49.27,Default,,0,0,0,,{\i1}Đúng vậy.{\i0}
+Dialogue: 0,1:05:49.35,1:05:52.23,Default,,0,0,0,,{\i1}Ưu tiên hàng đầu của chúng ta{\i0}\N{\i1}vẫn là bảo vệ nơi này.{\i0}
+Dialogue: 0,1:05:56.44,1:05:58.74,Default,,0,0,0,,Bộ trưởng, quân đội của ông lớn đến đâu?
+Dialogue: 0,1:05:58.82,1:06:00.37,Default,,0,0,0,,Chúng tôi có tầm 2.000 người.
+Dialogue: 0,1:06:00.45,1:06:03.29,Default,,0,0,0,,Tập hợp họ ngay lập tức,\Nvà sơ tán tất cả dân thường.
+Dialogue: 0,1:06:03.37,1:06:04.29,Default,,0,0,0,,Nhưng…
+Dialogue: 0,1:06:04.37,1:06:08.37,Default,,0,0,0,,Đừng lo. Khi trận chiến bắt đầu,\Nbạn ta sẽ giúp ông.
+Dialogue: 0,1:06:08.46,1:06:09.37,Default,,0,0,0,,Bộ trưởng!
+Dialogue: 0,1:06:09.46,1:06:10.63,Default,,0,0,0,,Vâng! Ngay đây!
+Dialogue: 0,1:06:10.71,1:06:11.71,Default,,0,0,0,,Hai người!
+Dialogue: 0,1:06:11.79,1:06:12.79,Default,,0,0,0,,Vâng, thưa ngài!
+Dialogue: 0,1:06:15.42,1:06:17.05,Default,,0,0,0,,Cậu cũng qua giúp đi, Soei.
+Dialogue: 0,1:06:17.13,1:06:18.05,Default,,0,0,0,,{\i1}Vâng.{\i0}
+Dialogue: 0,1:06:21.39,1:06:23.26,Default,,0,0,0,,Chủ nhân, tôi ngửi thấy họ.
+Dialogue: 0,1:06:23.35,1:06:24.97,Default,,0,0,0,,Thế là họ ở phía trước?
+Dialogue: 0,1:06:42.62,1:06:45.12,Default,,0,0,0,,Đến giờ rồi, Hiiro Đại nhân…
+Dialogue: 0,1:06:45.20,1:06:46.29,Default,,0,0,0,,Ừ.
+Dialogue: 0,1:06:48.29,1:06:49.29,Default,,0,0,0,,Hiiro à?
+Dialogue: 0,1:06:51.37,1:06:52.46,Default,,0,0,0,,Chuyện gì…
+Dialogue: 0,1:06:52.54,1:06:54.34,Default,,0,0,0,,Chúng ta sẽ tiến hành một nghi lễ
+Dialogue: 0,1:06:54.42,1:06:57.92,Default,,0,0,0,,để chuyển linh hồn của Nữ hoàng\Nvào cơ thể của ngài Hiiro.
+Dialogue: 0,1:06:59.88,1:07:02.30,Default,,0,0,0,,Ngài sẽ không phải thống khổ nữa.
+Dialogue: 0,1:07:02.80,1:07:05.10,Default,,0,0,0,,Ý… ngươi là sao?
+Dialogue: 0,1:07:05.93,1:07:08.23,Default,,0,0,0,,Tôi muốn trả lại mạng mà ngài đã ban cho.
+Dialogue: 0,1:07:08.68,1:07:13.90,Default,,0,0,0,,Ngài Hiiro sẽ hiến dâng mạng sống\Nđể cứu mạng Nữ hoàng.
+Dialogue: 0,1:07:15.52,1:07:16.86,Default,,0,0,0,,Đừng lo.
+Dialogue: 0,1:07:17.44,1:07:20.53,Default,,0,0,0,,Không… Ngươi không được…
+Dialogue: 0,1:07:22.99,1:07:26.74,Default,,0,0,0,,Ta không cho phép… Nhất định không được!
+Dialogue: 0,1:07:26.83,1:07:27.91,Default,,0,0,0,,Nữ hoàng Towa!
+Dialogue: 0,1:07:29.54,1:07:31.25,Default,,0,0,0,,Tôi chỉ làm việc mà tôi muốn.
+Dialogue: 0,1:07:32.37,1:07:33.50,Default,,0,0,0,,Ngươi không được làm!
+Dialogue: 0,1:07:33.58,1:07:36.71,Default,,0,0,0,,Mạng của ngươi không chỉ là của ngươi!
+Dialogue: 0,1:07:38.26,1:07:39.59,Default,,0,0,0,,Ngươi phải sống!
+Dialogue: 0,1:07:40.13,1:07:43.26,Default,,0,0,0,,Sống cho bản thân,\Nvà cho những đồng đội đã khuất!
+Dialogue: 0,1:07:44.43,1:07:46.85,Default,,0,0,0,,Và… cho ta…
+Dialogue: 0,1:07:48.77,1:07:50.14,Default,,0,0,0,,Nữ hoàng Towa…
+Dialogue: 0,1:07:53.48,1:07:57.02,Default,,0,0,0,,Những câu đó là đủ rồi.
+Dialogue: 0,1:07:59.23,1:08:00.86,Default,,0,0,0,,Bắt đầu nghi lễ.
+Dialogue: 0,1:08:03.78,1:08:04.78,Default,,0,0,0,,Lacua?
+Dialogue: 0,1:08:07.62,1:08:09.12,Default,,0,0,0,,Hoan hô!
+Dialogue: 0,1:08:09.20,1:08:11.79,Default,,0,0,0,,Tuyệt vời! Thực sự xuất sắc!
+Dialogue: 0,1:08:11.87,1:08:14.12,Default,,0,0,0,,Thật là một cảnh tượng buồn,\Nnhưng đáng yêu!
+Dialogue: 0,1:08:14.21,1:08:16.04,Default,,0,0,0,,Quá là đẹp đẽ!
+Dialogue: 0,1:08:17.25,1:08:18.25,Default,,0,0,0,,Gì cơ?
+Dialogue: 0,1:08:18.34,1:08:19.88,Default,,0,0,0,,Xin thứ lỗi nhé!
+Dialogue: 0,1:08:19.96,1:08:25.26,Default,,0,0,0,,Thật là một cảnh đẹp,\Nta không nhịn được mà vỗ tay.
+Dialogue: 0,1:08:27.39,1:08:33.73,Default,,0,0,0,,Khi con slime chết tiệt đó phá kịch bản,\Nta hận đến tận xương…
+Dialogue: 0,1:08:33.81,1:08:35.31,Default,,0,0,0,,Nhưng nhìn kìa!
+Dialogue: 0,1:08:35.40,1:08:38.23,Default,,0,0,0,,Một sự hồi phục tuyệt vời,\Nta phải công nhận thế!
+Dialogue: 0,1:08:38.32,1:08:41.07,Default,,0,0,0,,Thật vui quá đi! Thật là hạnh phúc!
+Dialogue: 0,1:08:42.19,1:08:46.20,Default,,0,0,0,,Và chắc chắn ngài ấy sẽ hài lòng!
+Dialogue: 0,1:08:46.28,1:08:48.91,Default,,0,0,0,,Ngươi nói cái quái gì thế hả?
+Dialogue: 0,1:08:48.99,1:08:50.20,Default,,0,0,0,,Thế còn nghi lễ?
+Dialogue: 0,1:08:52.83,1:08:55.92,Default,,0,0,0,,Nghi lễ đó chả tồn tại!
+Dialogue: 0,1:08:56.62,1:08:57.67,Default,,0,0,0,,Ngươi là…
+Dialogue: 0,1:08:57.75,1:09:00.17,Default,,0,0,0,,Một bí thuật chuyển đổi linh hồn à?
+Dialogue: 0,1:09:01.84,1:09:04.97,Default,,0,0,0,,Cứ làm như giải pháp thuận tiện thế\Nthực sự tồn tại ấy!
+Dialogue: 0,1:09:08.35,1:09:09.47,Default,,0,0,0,,Ngươi lừa ta?
+Dialogue: 0,1:09:09.55,1:09:11.89,Default,,0,0,0,,Thật hài hước!
+Dialogue: 0,1:09:11.97,1:09:14.89,Default,,0,0,0,,Cơ mà đúng là ngươi\Nđã nuốt một kỳ trân chứa sức mạnh,
+Dialogue: 0,1:09:14.98,1:09:16.77,Default,,0,0,0,,và có một bí thuật.
+Dialogue: 0,1:09:16.85,1:09:21.44,Default,,0,0,0,,Nhưng… không phải\Nbí thuật như ngươi nghĩ đâu!
+Dialogue: 0,1:09:21.52,1:09:24.40,Default,,0,0,0,,Kiếp nạn này còn lớn hơn nữa cơ!
+Dialogue: 0,1:09:24.49,1:09:29.07,Default,,0,0,0,,Nó chắc chắn sẽ khiến nữ hoàng\Ndùng đến phép thuật của vương miện!
+Dialogue: 0,1:09:29.16,1:09:30.37,Default,,0,0,0,,Và rồi…
+Dialogue: 0,1:09:30.45,1:09:34.20,Default,,0,0,0,,Khi cơ thể nữ hoàng đã hoàn toàn rã rời…
+Dialogue: 0,1:09:36.66,1:09:40.00,Default,,0,0,0,,Chủ nhân sẽ tán thưởng ta không ngớt!
+Dialogue: 0,1:09:40.09,1:09:43.38,Default,,0,0,0,,Phần thưởng sẽ ùa đến với ta\Nvô số như lời kinh!
+Dialogue: 0,1:09:43.46,1:09:45.17,Default,,0,0,0,,Tên khốn kiếp!
+Dialogue: 0,1:09:49.09,1:09:50.47,Default,,0,0,0,,Phải, đúng rồi đấy!
+Dialogue: 0,1:09:50.55,1:09:53.64,Default,,0,0,0,,Cơn thịnh nộ đó sẽ khơi dậy\Nnỗi tuyệt vọng của ngươi!
+Dialogue: 0,1:09:56.73,1:09:58.48,Default,,0,0,0,,Nổ tung đi, Ngọc Nguyền Rủa!
+Dialogue: 0,1:10:00.90,1:10:02.11,Default,,0,0,0,,Hiiro!
+Dialogue: 0,1:10:05.99,1:10:06.86,Default,,0,0,0,,Nhanh lên!
+Dialogue: 0,1:10:06.95,1:10:07.86,Default,,0,0,0,,Rõ!
+Dialogue: 0,1:10:09.86,1:10:13.87,Default,,0,0,0,,Nhớ này, Hiiro Đại nhân,
+Dialogue: 0,1:10:13.95,1:10:16.37,Default,,0,0,0,,trong lúc ngươi còn tỉnh táo!
+Dialogue: 0,1:10:16.45,1:10:17.54,Default,,0,0,0,,Nào!
+Dialogue: 0,1:10:20.50,1:10:23.88,Default,,0,0,0,,Hãy nhớ nỗi tuyệt vọng\Nkhi thấy làng ngươi bị giày xéo!
+Dialogue: 0,1:10:24.96,1:10:27.80,Default,,0,0,0,,Nỗi thống khổ khi mất đồng đội!
+Dialogue: 0,1:10:29.13,1:10:33.56,Default,,0,0,0,,Nổi giận với chính mình\Nvì để bị lừa và không đủ sức ngăn cản!
+Dialogue: 0,1:10:49.90,1:10:51.28,Default,,0,0,0,,Tuyệt diệu quá!
+Dialogue: 0,1:10:51.36,1:10:54.24,Default,,0,0,0,,Thịnh nộ và thù hận\Nđã đẩy ngươi chìm sâu vào điên loạn!
+Dialogue: 0,1:10:54.33,1:10:56.16,Default,,0,0,0,,Cuồng loạn đi! Hủy diệt đi!
+Dialogue: 0,1:10:56.24,1:10:59.50,Default,,0,0,0,,Ép nữ hoàng yêu dấu của ngươi\Ndùng sức mạnh của ả đi!
+Dialogue: 0,1:10:59.58,1:11:05.00,Default,,0,0,0,,Như thế sẽ cho chủ nhân của ta\Nđược vui thú ngất ngây!
+Dialogue: 0,1:11:11.89,1:11:13.18,Default,,0,0,0,,Hiiro?
+Dialogue: 0,1:11:26.40,1:11:28.99,Default,,0,0,0,,Đúng rồi! Cuồng loạn lên đi!
+Dialogue: 0,1:11:31.15,1:11:34.16,Default,,0,0,0,,Là một tên Ogre Điên Cuồng\Ncảm giác thế nào?
+Dialogue: 0,1:11:39.91,1:11:44.33,Default,,0,0,0,,Lừa một kẻ đầu óc đơn giản như ngươi\Nđúng là cảm giác phấn khích quá trời!
+Dialogue: 0,1:11:46.79,1:11:49.80,Default,,0,0,0,,Trông như địa ngục ấy!
+Dialogue: 0,1:11:53.72,1:11:54.80,Default,,0,0,0,,Hiiro…
+Dialogue: 0,1:11:57.93,1:11:59.14,Default,,0,0,0,,Nữ hoàng!
+Dialogue: 0,1:11:59.22,1:12:01.23,Default,,0,0,0,,Ngài để mặc cho chuyện cứ thế này sao?
+Dialogue: 0,1:12:02.19,1:12:04.94,Default,,0,0,0,,Ngài phải cứu Hiiro Đại nhân đi chứ!
+Dialogue: 0,1:12:05.81,1:12:08.94,Default,,0,0,0,,Ta phải… cứu anh ấy…
+Dialogue: 0,1:12:27.79,1:12:28.80,Default,,0,0,0,,Xin lỗi vì đến muộn!
+Dialogue: 0,1:12:36.05,1:12:37.76,Default,,0,0,0,,Giờ thì an toàn rồi.
+Dialogue: 0,1:12:40.39,1:12:43.39,Default,,0,0,0,,Hình dạng đó… Anh bị gì vậy, Hiiro?
+Dialogue: 0,1:12:54.95,1:12:56.66,Default,,0,0,0,,Lại là ngươi à?
+Dialogue: 0,1:12:56.74,1:12:58.20,Default,,0,0,0,,Ngươi là ác nhân phải không?
+Dialogue: 0,1:12:58.28,1:13:01.79,Default,,0,0,0,,Khốn nạn! Ta đi đâu cũng đụng phải ngươi!
+Dialogue: 0,1:13:02.70,1:13:03.71,Default,,0,0,0,,Này!
+Dialogue: 0,1:13:09.00,1:13:10.75,Default,,0,0,0,,Rimuru Đại nhân! Đi đi!
+Dialogue: 0,1:13:14.63,1:13:15.84,Default,,0,0,0,,Xử lý cậu ấy nhé!
+Dialogue: 0,1:13:16.38,1:13:17.80,Default,,0,0,0,,Shuna, chăm lo cho cô Towa!
+Dialogue: 0,1:13:17.89,1:13:18.72,Default,,0,0,0,,Được!
+Dialogue: 0,1:13:18.80,1:13:19.97,Default,,0,0,0,,Đi thôi, Ranga!
+Dialogue: 0,1:13:38.82,1:13:39.99,Default,,0,0,0,,Hắn đây rồI!
+Dialogue: 0,1:13:40.33,1:13:41.45,Default,,0,0,0,,Trốn không thoát đâu!
+Dialogue: 0,1:13:49.50,1:13:51.34,Default,,0,0,0,,Nếm thứ này đi!
+Dialogue: 0,1:14:03.18,1:14:07.81,Default,,0,0,0,,Tên slime khốn kiếp!
+Dialogue: 0,1:14:07.89,1:14:08.90,Default,,0,0,0,,{\i1}Rimuru Đại nhân.{\i0}
+Dialogue: 0,1:14:08.98,1:14:09.85,Default,,0,0,0,,Soei!
+Dialogue: 0,1:14:12.32,1:14:15.32,Default,,0,0,0,,{\i1}Quân đội của nước láng giềng{\i0}\N{\i1}đã bắt đầu hành quân.{\i0}
+Dialogue: 0,1:14:15.40,1:14:18.57,Default,,0,0,0,,{\i1}Họ sẽ sớm đến{\i0}\N{\i1}biên giới của Vương quốc Raja.{\i0}
+Dialogue: 0,1:14:18.66,1:14:21.66,Default,,0,0,0,,{\i1}Hiểu rồi! Ở đây,{\i0}\N{\i1}chúng ta đang khá bận, nên…{\i0}
+Dialogue: 0,1:14:21.74,1:14:23.33,Default,,0,0,0,,{\i1}Nghe được ta nói không?{\i0}
+Dialogue: 0,1:14:23.74,1:14:27.83,Default,,0,0,0,,{\i1}Ta không muốn có thương vong,{\i0}\N{\i1}nên nếu muốn thì cứ hạ kẻ địch,{\i0}
+Dialogue: 0,1:14:27.91,1:14:30.21,Default,,0,0,0,,{\i1}nhưng đừng giết chóc không cần thiết.{\i0}
+Dialogue: 0,1:14:30.29,1:14:32.88,Default,,0,0,0,,{\i1}Dĩ nhiên, nếu không còn cách nào khác,{\i0}
+Dialogue: 0,1:14:32.96,1:14:35.42,Default,,0,0,0,,{\i1}thì phải đặt an nguy bản thân{\i0}\N{\i1}lên trên hết!{\i0}
+Dialogue: 0,1:14:35.51,1:14:36.67,Default,,0,0,0,,- Rõ chưa?\N- Rõ!
+Dialogue: 0,1:14:50.31,1:14:53.02,Default,,0,0,0,,Lâu rồi không gặp, Violet.
+Dialogue: 0,1:14:53.94,1:14:56.65,Default,,0,0,0,,Đang làm cái gì vậy, Noir?
+Dialogue: 0,1:14:56.90,1:15:00.45,Default,,0,0,0,,Từ giờ, đừng gọi ta là "Noir" nữa.
+Dialogue: 0,1:15:00.53,1:15:02.49,Default,,0,0,0,,Có thể gọi ta là "Diablo".
+Dialogue: 0,1:15:03.07,1:15:04.70,Default,,0,0,0,,Vậy là ngươi có tên à?
+Dialogue: 0,1:15:05.79,1:15:07.70,Default,,0,0,0,,Tên khùng nào lại đi đặt tên cho ngươi?
+Dialogue: 0,1:15:09.62,1:15:12.04,Default,,0,0,0,,Ghen tị à, Violet?
+Dialogue: 0,1:15:12.13,1:15:14.71,Default,,0,0,0,,Hai ta đều là ác ma thượng cổ,
+Dialogue: 0,1:15:14.79,1:15:17.71,Default,,0,0,0,,nhưng khác với ta, ngươi chẳng có tên.
+Dialogue: 0,1:15:17.80,1:15:19.26,Default,,0,0,0,,Im đi.
+Dialogue: 0,1:15:19.34,1:15:22.68,Default,,0,0,0,,Đừng huênh hoang nữa,\Nnói ta nghe ngươi đến đây làm gì.
+Dialogue: 0,1:15:23.22,1:15:27.43,Default,,0,0,0,,Ta muốn hỏi ngươi vài câu\Nliên quan đến Vương quốc Raja.
+Dialogue: 0,1:15:28.06,1:15:33.40,Default,,0,0,0,,Ngươi là người đã đặt\Nma pháp trận ở hồ đó phải không?
+Dialogue: 0,1:15:35.06,1:15:38.94,Default,,0,0,0,,Hà cớ gì ta lại\Nchuốc cả đống rắc rối đó chứ?
+Dialogue: 0,1:15:41.49,1:15:45.37,Default,,0,0,0,,Mà tại sao ngươi quan tâm chuyện đó?
+Dialogue: 0,1:15:45.45,1:15:47.45,Default,,0,0,0,,Ta sẵn sàng cho ngươi biết,
+Dialogue: 0,1:15:47.54,1:15:50.54,Default,,0,0,0,,nhưng với điều kiện là\Nngươi để yên cho vương quốc đó.
+Dialogue: 0,1:15:50.62,1:15:51.54,Default,,0,0,0,,Thôi, khỏi đi.
+Dialogue: 0,1:15:51.62,1:15:52.46,Default,,0,0,0,,Tại sao?
+Dialogue: 0,1:16:05.68,1:16:09.60,Default,,0,0,0,,Bởi vì hoàng tộc của vương quốc đó\Nlà đám yêu thích của ta.
+Dialogue: 0,1:16:10.48,1:16:11.93,Default,,0,0,0,,Yêu thích của ngươi à?
+Dialogue: 0,1:16:12.56,1:16:14.23,Default,,0,0,0,,Đã mấy chục năm rồi…
+Dialogue: 0,1:16:14.31,1:16:17.32,Default,,0,0,0,,không, mấy thế kỷ trước rồi.
+Dialogue: 0,1:16:18.48,1:16:20.19,Default,,0,0,0,,Chúng đã xin ta một ân huệ.
+Dialogue: 0,1:16:20.57,1:16:21.78,Default,,0,0,0,,Ân huệ sao?
+Dialogue: 0,1:16:25.11,1:16:27.45,Default,,0,0,0,,{\i1}Ta có cảm giác kèo đó ngon,{\i0}
+Dialogue: 0,1:16:27.53,1:16:29.49,Default,,0,0,0,,{\i1}nên nổi hứng đến đó chơi.{\i0}
+Dialogue: 0,1:16:29.58,1:16:32.08,Default,,0,0,0,,{\i1}Ngươi biết nữ hoàng nói gì với ta không?{\i0}
+Dialogue: 0,1:16:32.16,1:16:33.46,Default,,0,0,0,,{\i1}Ta không quan tâm.{\i0}
+Dialogue: 0,1:16:33.54,1:16:35.96,Default,,0,0,0,,{\i1}Cô ấy gọi ta là nữ thần!{\i0}
+Dialogue: 0,1:16:36.04,1:16:37.34,Default,,0,0,0,,{\i1}Có hài không chứ?{\i0}
+Dialogue: 0,1:16:38.29,1:16:39.42,Default,,0,0,0,,{\i1}Rồi sao nữa?{\i0}
+Dialogue: 0,1:16:39.50,1:16:44.43,Default,,0,0,0,,{\i1}Cô ta muốn có sức mạnh để cứu vương quốc,{\i0}\N{\i1}nên ta chơi đùa với cô ta một chút.{\i0}
+Dialogue: 0,1:16:48.39,1:16:51.77,Default,,0,0,0,,{\i1}Nếu thế, hãy cho ta thấy{\i0}\N{\i1}ngươi quyết tâm đến đâu.{\i0}
+Dialogue: 0,1:16:51.85,1:16:52.85,Default,,0,0,0,,{\i1}Cái gì đây?{\i0}
+Dialogue: 0,1:16:53.43,1:16:57.61,Default,,0,0,0,,{\i1}Trong vương miện này{\i0}\N{\i1}có sức mạnh ma thuật to lớn.{\i0}
+Dialogue: 0,1:16:58.15,1:17:01.07,Default,,0,0,0,,{\i1}Nếu dùng hết, nó sẽ tự khôi phục dần.{\i0}
+Dialogue: 0,1:17:02.36,1:17:06.45,Default,,0,0,0,,{\i1}Sâu dưới kia, có lẽ{\i0}\N{\i1}có thứ gì đó khá đẹp đang bị chôn vùi.{\i0}
+Dialogue: 0,1:17:06.86,1:17:07.87,Default,,0,0,0,,{\i1}Hiểu chưa?{\i0}
+Dialogue: 0,1:17:08.45,1:17:09.78,Default,,0,0,0,,{\i1}Tạ ơn ngài.{\i0}
+Dialogue: 0,1:17:10.41,1:17:13.50,Default,,0,0,0,,{\i1}Và… ngài nói "quyết tâm", ý là gì?{\i0}
+Dialogue: 0,1:17:13.58,1:17:16.12,Default,,0,0,0,,{\i1}Quyết tâm chơi một trò với ta.{\i0}
+Dialogue: 0,1:17:16.21,1:17:17.25,Default,,0,0,0,,{\i1}Trò chơi sao?{\i0}
+Dialogue: 0,1:17:17.33,1:17:18.42,Default,,0,0,0,,{\i1}Đúng rồi.{\i0}
+Dialogue: 0,1:17:18.92,1:17:22.09,Default,,0,0,0,,{\i1}Nếu dùng vương miện đó,{\i0}\N{\i1}ngươi sẽ dính lời nguyền.{\i0}
+Dialogue: 0,1:17:22.71,1:17:25.59,Default,,0,0,0,,{\i1}Tệ hơn nữa, lời nguyền này sẽ di truyền,{\i0}
+Dialogue: 0,1:17:25.68,1:17:28.18,Default,,0,0,0,,{\i1}và ngươi sẽ truyền nó{\i0}\N{\i1}cho các thế hệ con cháu.{\i0}
+Dialogue: 0,1:17:28.26,1:17:29.47,Default,,0,0,0,,{\i1}Cho con cháu của tôi sao?{\i0}
+Dialogue: 0,1:17:29.55,1:17:31.14,Default,,0,0,0,,{\i1}Nói vậy còn chưa rõ hả?{\i0}
+Dialogue: 0,1:17:31.22,1:17:35.39,Default,,0,0,0,,{\i1}Để đạt được công trạng lớn lao nhất{\i0}\N{\i1}thì phải trả cái giá đắt nhất!{\i0}
+Dialogue: 0,1:17:35.48,1:17:39.90,Default,,0,0,0,,{\i1}Ước nguyện càng lớn,{\i0}\N{\i1}Độc Nguyền sẽ càng ăn sâu vào ngươi.{\i0}
+Dialogue: 0,1:17:40.27,1:17:41.36,Default,,0,0,0,,{\i1}Vậy ngươi tính sao?{\i0}
+Dialogue: 0,1:17:42.48,1:17:47.49,Default,,0,0,0,,{\i1}Nếu điều đó giúp tôi bảo vệ nhân dân…{\i0}\N{\i1}Nếu điều đó giúp tôi cứu nhân dân…{\i0}
+Dialogue: 0,1:17:47.57,1:17:52.29,Default,,0,0,0,,{\i1}Nếu điều đó nghĩa là dân của tôi có thể{\i0}\N{\i1}sống thịnh vượng, thì mạng tôi có là gì.{\i0}
+Dialogue: 0,1:17:53.33,1:17:58.54,Default,,0,0,0,,{\i1}Tôi chắc chắn những ai kế vị tôi{\i0}\N{\i1}đều sẽ cảm thấy vậy.{\i0}
+Dialogue: 0,1:17:59.08,1:18:01.17,Default,,0,0,0,,{\i1}Ta thích vẻ mặt của ngươi đấy!{\i0}
+Dialogue: 0,1:18:01.25,1:18:05.84,Default,,0,0,0,,{\i1}Nếu cứ tiếp tục dùng nó,{\i0}\N{\i1}ngươi sẽ bị phép thuật của ta bao phủ.{\i0}
+Dialogue: 0,1:18:05.92,1:18:07.63,Default,,0,0,0,,{\i1}Khi đó ta sẽ thắng.{\i0}
+Dialogue: 0,1:18:07.72,1:18:12.68,Default,,0,0,0,,{\i1}Ta sẽ lấy một cơ thể để làm vật chủ,{\i0}\N{\i1}cho phép ta hiện thân ở thế giới này.{\i0}
+Dialogue: 0,1:18:12.76,1:18:16.27,Default,,0,0,0,,{\i1}Nói cách khác, nếu chưa bị{\i0}\N{\i1}bao phủ hoàn toàn, thì tôi…{\i0}
+Dialogue: 0,1:18:16.35,1:18:19.19,Default,,0,0,0,,{\i1}Thì chúng ta đều thắng nhỉ?{\i0}
+Dialogue: 0,1:18:20.86,1:18:23.98,Default,,0,0,0,,{\i1}Tôi có thể cảm thấy phép thuật…{\i0}\N{\i1}sức mạnh của nó.{\i0}
+Dialogue: 0,1:18:25.65,1:18:29.66,Default,,0,0,0,,{\i1}Cứ làm hết sức để ta giải trí{\i0}\N{\i1}đến khi dòng giống của ngươi bị tận diệt!{\i0}
+Dialogue: 0,1:18:29.74,1:18:31.91,Default,,0,0,0,,{\i1}Giờ tôi có thể cứu dân mình…{\i0}
+Dialogue: 0,1:18:34.87,1:18:38.54,Default,,0,0,0,,{\i1}Có lẽ một hậu duệ của ngươi{\i0}\N{\i1}sẽ thắng trò này,{\i0}
+Dialogue: 0,1:18:38.62,1:18:40.79,Default,,0,0,0,,{\i1}nhưng như thế cũng là trò vui rồi.{\i0}
+Dialogue: 0,1:18:41.92,1:18:43.00,Default,,0,0,0,,Chuyện là vậy đấy.
+Dialogue: 0,1:18:44.34,1:18:45.42,Default,,0,0,0,,Nói cách khác,
+Dialogue: 0,1:18:45.50,1:18:51.51,Default,,0,0,0,,ngươi thích chứng kiến dòng tộc đó\Nchịu dày vò từ đời này sang đời khác?
+Dialogue: 0,1:18:52.18,1:18:55.31,Default,,0,0,0,,Ta đâu có định giúp không công.
+Dialogue: 0,1:18:55.39,1:18:57.39,Default,,0,0,0,,Đâu phải làm từ thiện.
+Dialogue: 0,1:18:58.02,1:19:02.23,Default,,0,0,0,,Vậy… Nữ hoàng hiện tại tên là Towa nhỉ?
+Dialogue: 0,1:19:02.31,1:19:04.07,Default,,0,0,0,,Có vẻ là một cô gái tốt.
+Dialogue: 0,1:19:04.57,1:19:08.49,Default,,0,0,0,,Và có vẻ Độc Nguyền đã chiếm trọn cô ấy,
+Dialogue: 0,1:19:08.57,1:19:11.16,Default,,0,0,0,,nên ta sắp có vật chủ rồi.
+Dialogue: 0,1:19:11.24,1:19:15.87,Default,,0,0,0,,Có lẽ sẽ là con của Towa,\Nhoặc cháu của cô ấy.
+Dialogue: 0,1:19:17.45,1:19:19.66,Default,,0,0,0,,Vậy ngươi đã lập khế ước chính thức à?
+Dialogue: 0,1:19:19.75,1:19:22.75,Default,,0,0,0,,Ta thì chẳng thấy vậy.
+Dialogue: 0,1:19:23.29,1:19:25.50,Default,,0,0,0,,Chẳng phải ngươi vừa sai thuộc hạ
+Dialogue: 0,1:19:25.59,1:19:29.42,Default,,0,0,0,,đi gây rắc rối để khiến cô ấy\Nphải dùng phép thuật của vương miện sao?
+Dialogue: 0,1:19:30.30,1:19:32.93,Default,,0,0,0,,Gì đây? Đang lăng mạ ta hả?
+Dialogue: 0,1:19:33.47,1:19:35.89,Default,,0,0,0,,Ta chỉ nói lên sự thật thôi.
+Dialogue: 0,1:19:43.44,1:19:44.81,Default,,0,0,0,,Được lắm.
+Dialogue: 0,1:19:45.31,1:19:48.40,Default,,0,0,0,,Nếu ngươi chịu để yên cho Vương quốc Raja,
+Dialogue: 0,1:19:48.48,1:19:51.24,Default,,0,0,0,,ta sẽ không kể với ai việc ngươi đã làm.
+Dialogue: 0,1:19:52.41,1:19:55.24,Default,,0,0,0,,Tại sao ta phải làm theo lời ngươi?
+Dialogue: 0,1:19:55.78,1:20:00.20,Default,,0,0,0,,Bất chấp ta đã đích thân đến đây,\Nlịch sự nhờ vả ngươi sao?
+Dialogue: 0,1:20:00.29,1:20:03.58,Default,,0,0,0,,Chuyện này thì liên quan gì lịch sự hả?
+Dialogue: 0,1:20:11.01,1:20:15.09,Default,,0,0,0,,Ta không thích dùng vũ lực thô bạo\Nđể giải quyết vấn đề đâu.
+Dialogue: 0,1:20:15.59,1:20:18.35,Default,,0,0,0,,Thế à? Nghĩ mình đủ sức thì thử ra tay đi.
+Dialogue: 0,1:20:19.89,1:20:24.31,Default,,0,0,0,,Và ngươi biết đấy,\Ntừ lâu ta đã ngứa mắt với ngươi rồi.
+Dialogue: 0,1:20:27.40,1:20:29.48,Default,,0,0,0,,Ta chắc chắn cũng thấy vậy.
+Dialogue: 0,1:20:58.05,1:20:59.76,Default,,0,0,0,,Nào, chơi luôn đi!
+Dialogue: 0,1:21:02.81,1:21:04.81,Default,,0,0,0,,Chỉ huy đích thân xuất hiện cơ à?
+Dialogue: 0,1:21:13.03,1:21:15.74,Default,,0,0,0,,Ngươi đã… mạnh lên sao?
+Dialogue: 0,1:21:16.32,1:21:17.91,Default,,0,0,0,,Đừng lo.
+Dialogue: 0,1:21:17.99,1:21:20.91,Default,,0,0,0,,Nãy giờ, ta chỉ\Ndùng sức ngang ngươi thôi mà.
+Dialogue: 0,1:21:22.04,1:21:23.66,Default,,0,0,0,,Ngươi làm ta bực quá rồi đấy!
+Dialogue: 0,1:21:23.75,1:21:26.71,Default,,0,0,0,,Ngươi chuyển thể rồi có tên,
+Dialogue: 0,1:21:26.79,1:21:29.38,Default,,0,0,0,,mà dám nghĩ ngươi ra lệnh được cho ta hả?
+Dialogue: 0,1:21:29.46,1:21:32.51,Default,,0,0,0,,Ngươi muốn ghen tị thế nào thì tùy.
+Dialogue: 0,1:21:32.96,1:21:34.30,Default,,0,0,0,,Chết đi!
+Dialogue: 0,1:21:45.56,1:21:46.56,Default,,0,0,0,,Sao hả?
+Dialogue: 0,1:21:46.64,1:21:48.98,Default,,0,0,0,,Ngươi thích Hư Vô Tiêu Tán của ta chứ?
+Dialogue: 0,1:22:04.45,1:22:06.66,Default,,0,0,0,,Thật hả trời? Phép của mình…
+Dialogue: 0,1:22:07.79,1:22:13.00,Default,,0,0,0,,Ta lĩnh đón để chấp ngươi một chiêu đó\Nnhưng có vẻ ngươi đã đến giới hạn.
+Dialogue: 0,1:22:13.71,1:22:14.88,Default,,0,0,0,,Giới hạn?
+Dialogue: 0,1:22:20.30,1:22:22.01,Default,,0,0,0,,Hết giờ rồi hả?
+Dialogue: 0,1:22:24.06,1:22:28.73,Default,,0,0,0,,Có vẻ cơ thể tạm thời mà ngươi\Ntạo ra từ ma phân tử bắt đầu tan rã rồi.
+Dialogue: 0,1:22:29.98,1:22:31.98,Default,,0,0,0,,Có nhằm nhò gì đâu.
+Dialogue: 0,1:22:32.57,1:22:34.78,Default,,0,0,0,,Gì đây? Cố xen vào chuyện này hả?
+Dialogue: 0,1:22:34.86,1:22:37.32,Default,,0,0,0,,Đến đây thôi, thưa chủ nhân.
+Dialogue: 0,1:22:37.40,1:22:40.53,Default,,0,0,0,,Ngài Noir… không, ngài Diablo…
+Dialogue: 0,1:22:40.61,1:22:44.03,Default,,0,0,0,,Ngài có thể thương tình\Nmà nương tay không ạ?
+Dialogue: 0,1:22:44.41,1:22:46.25,Default,,0,0,0,,Ta còn đánh được!
+Dialogue: 0,1:22:46.66,1:22:48.66,Default,,0,0,0,,Thưa chủ nhân, có báo cáo.
+Dialogue: 0,1:22:48.75,1:22:51.21,Default,,0,0,0,,Ngươi cũng biết giờ không phải lúc mà.
+Dialogue: 0,1:22:51.29,1:22:53.46,Default,,0,0,0,,Lacua đã tự ra tay,
+Dialogue: 0,1:22:53.54,1:22:56.42,Default,,0,0,0,,đúng như ngài Diablo nói.
+Dialogue: 0,1:22:57.05,1:23:00.47,Default,,0,0,0,,Raja đang bị nước láng giềng tấn công.
+Dialogue: 0,1:23:00.55,1:23:01.39,Default,,0,0,0,,Gì cơ?
+Dialogue: 0,1:23:01.76,1:23:04.60,Default,,0,0,0,,Có vẻ Lacua đã dùng tin giả để kích động.
+Dialogue: 0,1:23:05.18,1:23:09.48,Default,,0,0,0,,Và ngoài Độc Nguyền,\Nhắn đã làm gì đó với cơ thể nữ hoàng.
+Dialogue: 0,1:23:09.89,1:23:12.77,Default,,0,0,0,,Thế thì khế ước bị vi phạm rồi.
+Dialogue: 0,1:23:12.86,1:23:14.44,Default,,0,0,0,,Thế này không vui chút nào.
+Dialogue: 0,1:23:14.69,1:23:15.69,Default,,0,0,0,,Đúng vậy.
+Dialogue: 0,1:23:15.77,1:23:19.11,Default,,0,0,0,,Thật đáng tiếc,\Ncó lẽ phải hủy khế ước này.
+Dialogue: 0,1:23:20.20,1:23:21.78,Default,,0,0,0,,Ta đâu còn cách nào khác.
+Dialogue: 0,1:23:24.16,1:23:26.16,Default,,0,0,0,,Nói chuyện xong chưa?
+Dialogue: 0,1:23:26.24,1:23:29.58,Default,,0,0,0,,Ta chẳng hứng thú\Nvới hoàn cảnh của ngươi đâu,
+Dialogue: 0,1:23:29.66,1:23:34.08,Default,,0,0,0,,nên nếu ngươi để cho Raja yên,\Nta sẽ bỏ qua chuyện này.
+Dialogue: 0,1:23:34.79,1:23:36.59,Default,,0,0,0,,Cái giọng bề trên đó…
+Dialogue: 0,1:23:36.67,1:23:39.17,Default,,0,0,0,,Tính cách ngươi khó ưa thật đấy.
+Dialogue: 0,1:23:39.55,1:23:42.59,Default,,0,0,0,,Được thôi, ta sẽ là người\Nbỏ qua chuyện này vậy.
+Dialogue: 0,1:23:42.68,1:23:44.93,Default,,0,0,0,,Ngươi liệu mà cảm ơn lòng tốt của ta.
+Dialogue: 0,1:23:45.01,1:23:46.10,Default,,0,0,0,,Gì chứ?
+Dialogue: 0,1:23:46.18,1:23:48.27,Default,,0,0,0,,Ngươi vẫn luôn ích kỷ như thế.
+Dialogue: 0,1:23:48.97,1:23:51.27,Default,,0,0,0,,Ta cũng nên nói vậy về ngươi đấy.
+Dialogue: 0,1:23:55.23,1:23:56.94,Default,,0,0,0,,Đi thôi, chủ nhân…
+Dialogue: 0,1:23:57.02,1:23:58.48,Default,,0,0,0,,Ta biết rồi.
+Dialogue: 0,1:24:05.28,1:24:09.91,Default,,0,0,0,,Nhân tiện, ai đặt\Ncái tên "Diablo" cho ngươi vậy?
+Dialogue: 0,1:24:10.00,1:24:13.29,Default,,0,0,0,,Trên đời này,\Nai đủ sức đặt tên cho ngươi chứ?
+Dialogue: 0,1:24:14.08,1:24:16.09,Default,,0,0,0,,Một nhân vật chí cao vô thượng.
+Dialogue: 0,1:24:17.92,1:24:24.34,Default,,0,0,0,,Để lúc khác, ta sẵn lòng kể cho ngươi\Nvề vinh quang của Rimuru Đại nhân.
+Dialogue: 0,1:24:25.22,1:24:26.93,Default,,0,0,0,,Rimuru?
+Dialogue: 0,1:24:27.81,1:24:28.81,Default,,0,0,0,,Chào thân ái.
+Dialogue: 0,1:24:40.90,1:24:45.24,Default,,0,0,0,,Gây ra cả đống chuyện lộn xộn\Nmà cứ thế bỏ đi.
+Dialogue: 0,1:24:45.32,1:24:47.32,Default,,0,0,0,,Báo hại bọn ta phải vất vả rồi.
+Dialogue: 0,1:24:51.12,1:24:53.54,Default,,0,0,0,,Nữ hoàng Towa, ngài ổn chứ?
+Dialogue: 0,1:24:53.62,1:24:54.92,Default,,0,0,0,,Ừ, ta ổn.
+Dialogue: 0,1:24:55.00,1:24:58.92,Default,,0,0,0,,Ta lo cho Hiiro hơn…
+Dialogue: 0,1:24:59.00,1:25:01.21,Default,,0,0,0,,Ngài cứ tin\Nanh trai em sẽ xử lý được Hiiro.
+Dialogue: 0,1:25:22.44,1:25:23.86,Default,,0,0,0,,Vẫn còn ngon đấy.
+Dialogue: 0,1:25:29.03,1:25:30.53,Default,,0,0,0,,Kể cả trong hình dạng đó…
+Dialogue: 0,1:25:32.95,1:25:35.96,Default,,0,0,0,,Anh vẫn còn nguyên tinh thần của Hiiro!
+Dialogue: 0,1:25:36.75,1:25:37.75,Default,,0,0,0,,Nhưng mà…
+Dialogue: 0,1:25:56.14,1:25:58.15,Default,,0,0,0,,Trở về với bọn em đi, Huynh trưởng!
+Dialogue: 0,1:26:04.11,1:26:06.61,Default,,0,0,0,,Chuyện gì vậy? Chán chơi đuổi bắt rồi hả?
+Dialogue: 0,1:26:06.70,1:26:08.16,Default,,0,0,0,,Cứ nói nhảm đi!
+Dialogue: 0,1:26:18.25,1:26:20.83,Default,,0,0,0,,Ngươi chỉ là Quỷ Vương mới nổi!
+Dialogue: 0,1:26:20.92,1:26:24.92,Default,,0,0,0,,Ta đã biết ngươi chỉ mượn tạm
+Dialogue: 0,1:26:25.01,1:26:27.93,Default,,0,0,0,,uy quyền của Rồng Bão Veldora!
+Dialogue: 0,1:26:28.01,1:26:30.84,Default,,0,0,0,,Được thôi, nhưng ngươi nên\Nnhìn phía trước đi.
+Dialogue: 0,1:26:52.45,1:26:54.08,Default,,0,0,0,,Hắn cũng biết bay à?
+Dialogue: 0,1:26:54.16,1:26:56.16,Default,,0,0,0,,Còn nữa, thế có nghĩa…
+Dialogue: 0,1:26:56.87,1:26:58.87,Default,,0,0,0,,hắn là quỷ?
+Dialogue: 0,1:27:07.38,1:27:09.01,Default,,0,0,0,,Nào, Nữ hoàng Towa!
+Dialogue: 0,1:27:29.99,1:27:31.86,Default,,0,0,0,,Huynh trưởng Hiiro tỉnh lại à?
+Dialogue: 0,1:27:42.71,1:27:45.79,Default,,0,0,0,,Không, chưa hoàn toàn đâu.
+Dialogue: 0,1:28:00.10,1:28:01.73,Default,,0,0,0,,Ra khỏi đây đi!
+Dialogue: 0,1:28:19.20,1:28:22.04,Default,,0,0,0,,Nếu cứ tiếp tục thế này,\Ncậu ấy sẽ tàn phá thêm nữa.
+Dialogue: 0,1:28:22.41,1:28:24.50,Default,,0,0,0,,Dừng lại, Hiiro!
+Dialogue: 0,1:28:31.05,1:28:33.63,Default,,0,0,0,,Bị gì vậy? Không chạy xa hơn nữa được à?
+Dialogue: 0,1:28:34.13,1:28:35.72,Default,,0,0,0,,Im đi!
+Dialogue: 0,1:28:43.60,1:28:45.35,Default,,0,0,0,,Lacua!
+Dialogue: 0,1:28:45.44,1:28:46.81,Default,,0,0,0,,Ta yểm trợ cho!
+Dialogue: 0,1:28:46.90,1:28:49.90,Default,,0,0,0,,Lão lang băm kia,\Nngươi cùng phe với hắn hả?
+Dialogue: 0,1:28:49.98,1:28:53.36,Default,,0,0,0,,Chẳng trách ta không thấy\Ndấu hiệu gì là ngươi trị cho nữ hoàng.
+Dialogue: 0,1:28:53.45,1:28:55.28,Default,,0,0,0,,Để tôi xử lý cho!
+Dialogue: 0,1:28:55.74,1:28:57.57,Default,,0,0,0,,Được. Giao cho ngươi!
+Dialogue: 0,1:29:00.95,1:29:05.17,Default,,0,0,0,,Con chó mà đòi đấu với ta hả?
+Dialogue: 0,1:29:22.43,1:29:24.52,Default,,0,0,0,,Hắn chẳng có cửa đấu với Ranga.
+Dialogue: 0,1:29:25.27,1:29:27.35,Default,,0,0,0,,Rồi… Lacua, phải không?
+Dialogue: 0,1:29:27.81,1:29:30.32,Default,,0,0,0,,Ngươi chuẩn bị nhận kết cục tương tự đi.
+Dialogue: 0,1:29:30.40,1:29:31.98,Default,,0,0,0,,Ngươi chấp nhận được chứ?
+Dialogue: 0,1:29:32.07,1:29:36.45,Default,,0,0,0,,Đừng xem thường ta, tên Quỷ Vương mới nổi!
+Dialogue: 0,1:30:29.62,1:30:31.04,Default,,0,0,0,,Đánh xong chưa hả?
+Dialogue: 0,1:30:31.92,1:30:34.17,Default,,0,0,0,,Còn gì muốn nói nữa không? Không hả?
+Dialogue: 0,1:30:34.25,1:30:37.26,Default,,0,0,0,,Khoan! Cứ thử giết ta đi!
+Dialogue: 0,1:30:37.34,1:30:39.72,Default,,0,0,0,,Chủ nhân của ta không bỏ qua đâu!
+Dialogue: 0,1:30:39.80,1:30:41.22,Default,,0,0,0,,Chủ nhân… của ngươi?
+Dialogue: 0,1:30:41.30,1:30:45.72,Default,,0,0,0,,Đúng! Một cục slime như ngươi\Nlàm sao sánh nổi…
+Dialogue: 0,1:30:45.81,1:30:47.98,Default,,0,0,0,,Này, Lacua.
+Dialogue: 0,1:30:48.64,1:30:50.81,Default,,0,0,0,,Nữ thần của vạn vật!
+Dialogue: 0,1:30:52.19,1:30:53.19,Default,,0,0,0,,Tôi ở đây!
+Dialogue: 0,1:30:53.27,1:30:57.11,Default,,0,0,0,,Nô tài trung thành của ngài, Lacua đây!
+Dialogue: 0,1:30:57.19,1:30:58.45,Default,,0,0,0,,Câm miệng.
+Dialogue: 0,1:30:58.53,1:31:01.24,Default,,0,0,0,,Có vẻ ngươi nghĩ\Nmình có thể muốn gì làm nấy
+Dialogue: 0,1:31:01.32,1:31:04.03,Default,,0,0,0,,vì ngươi đã hiện thân và có tên gọi.
+Dialogue: 0,1:31:04.12,1:31:05.16,Default,,0,0,0,,Nữ thần, không!
+Dialogue: 0,1:31:05.24,1:31:06.58,Default,,0,0,0,,Ngài nhầm rồi!
+Dialogue: 0,1:31:06.66,1:31:09.29,Default,,0,0,0,,Tôi đã khiến Towa\Ndùng rất nhiều phép thuật!
+Dialogue: 0,1:31:09.37,1:31:13.50,Default,,0,0,0,,Cơ thể cô ta sẽ sớm là của ngài!
+Dialogue: 0,1:31:13.59,1:31:15.59,Default,,0,0,0,,Hắn nói chuyện với ai vậy?
+Dialogue: 0,1:31:16.17,1:31:23.10,Default,,0,0,0,,Nghe đây, ta muốn các nữ hoàng đó\Ntự quyết định trao thân cho ta.
+Dialogue: 0,1:31:23.93,1:31:27.35,Default,,0,0,0,,Ai bảo ngươi tự tay xử lý chuyện này hả?
+Dialogue: 0,1:31:27.43,1:31:30.19,Default,,0,0,0,,Ta chỉ bảo ngươi trông chừng họ,\Nphải vậy không?
+Dialogue: 0,1:31:32.35,1:31:35.11,Default,,0,0,0,,Nhưng tôi nghĩ cô ta càng khổ sở,
+Dialogue: 0,1:31:35.19,1:31:37.82,Default,,0,0,0,,thì ngài càng hài lòng…
+Dialogue: 0,1:31:37.90,1:31:41.57,Default,,0,0,0,,Niềm vui của ta bị hủy hoại rồi,\Ndo thằng ngu này cả.
+Dialogue: 0,1:31:41.66,1:31:44.66,Default,,0,0,0,,Tôi chỉ mong có thêm sức mạnh
+Dialogue: 0,1:31:44.74,1:31:49.08,Default,,0,0,0,,để ngài cho tôi được ở bên cạnh…
+Dialogue: 0,1:31:49.16,1:31:51.00,Default,,0,0,0,,Ta không cần thứ nô tài vô dụng.
+Dialogue: 0,1:31:51.08,1:31:53.92,Default,,0,0,0,,Ngươi làm gì thì tự chịu trách nhiệm đi.
+Dialogue: 0,1:31:55.00,1:31:58.13,Default,,0,0,0,,Có vẻ ngươi bị vứt bỏ rồi.
+Dialogue: 0,1:31:58.21,1:31:59.30,Default,,0,0,0,,Khoan!
+Dialogue: 0,1:31:59.38,1:32:02.68,Default,,0,0,0,,Ta đâu thể ngồi yên nhìn kẻ ác\Nđùa giỡn với sinh mạng con người.
+Dialogue: 0,1:32:03.14,1:32:05.76,Default,,0,0,0,,Để bảo đảm không còn sinh mạng nào bị hại,
+Dialogue: 0,1:32:06.18,1:32:08.35,Default,,0,0,0,,ta sẽ kết liễu ngươi ngay bây giờ.
+Dialogue: 0,1:32:10.52,1:32:11.56,Default,,0,0,0,,Khốn kiếp!
+Dialogue: 0,1:32:11.64,1:32:13.52,Default,,0,0,0,,Nếu đằng nào ta cũng chết…
+Dialogue: 0,1:32:13.60,1:32:17.44,Default,,0,0,0,,thì ta sẽ lôi các ngươi theo!
+Dialogue: 0,1:32:39.42,1:32:42.92,Default,,0,0,0,,Hạt nhân Niệm Hỏa của ta…
+Dialogue: 0,1:32:43.84,1:32:46.05,Default,,0,0,0,,sẽ biến ngươi…
+Dialogue: 0,1:32:46.76,1:32:49.68,Default,,0,0,0,,và cả nước này…
+Dialogue: 0,1:32:49.76,1:32:53.69,Default,,0,0,0,,thành đống tro bụi!
+Dialogue: 0,1:33:05.78,1:33:09.53,Default,,0,0,0,,Hạt nhân…
+Dialogue: 0,1:33:09.62,1:33:12.25,Default,,0,0,0,,Nuốt chửng hết đi, Beelzebub!
+Dialogue: 0,1:33:12.91,1:33:15.25,Default,,0,0,0,,…Niệm hỏa!
+Dialogue: 0,1:33:31.39,1:33:33.48,Default,,0,0,0,,Raphael, báo cáo đi.
+Dialogue: 0,1:33:33.56,1:33:34.56,Default,,0,0,0,,{\i1}Thông báo.{\i0}
+Dialogue: 0,1:33:34.64,1:33:37.52,Default,,0,0,0,,{\i1}Khối năng lượng cực đại{\i0}\N{\i1}đã bị hấp thụ hoàn toàn.{\i0}
+Dialogue: 0,1:33:37.60,1:33:39.11,Default,,0,0,0,,{\i1}Không có thiệt hại nào.{\i0}
+Dialogue: 0,1:33:39.19,1:33:40.94,Default,,0,0,0,,Được, tốt lắm.
+Dialogue: 0,1:33:41.02,1:33:43.86,Default,,0,0,0,,Chủ nhân của tôi đấy!
+Dialogue: 0,1:33:45.20,1:33:48.78,Default,,0,0,0,,{\i1}Có vẻ Lacua đã đưa thuộc hạ vào{\i0}\N{\i1}thay thế các chỉ huy quân đội.{\i0}
+Dialogue: 0,1:33:48.87,1:33:50.74,Default,,0,0,0,,Vậy thì đám này…
+Dialogue: 0,1:33:51.20,1:33:53.20,Default,,0,0,0,,{\i1}Được. Cứ giết chúng đi.{\i0}
+Dialogue: 0,1:33:54.20,1:33:55.37,Default,,0,0,0,,Để đấy tôi lo!
+Dialogue: 0,1:34:07.47,1:34:11.18,Default,,0,0,0,,Hơi quá sức ngươi rồi đấy.
+Dialogue: 0,1:34:11.26,1:34:13.14,Default,,0,0,0,,Chuẩn luôn, sự phụ ơi!
+Dialogue: 0,1:34:13.35,1:34:16.35,Default,,0,0,0,,{\an8}Chấn động Xoáy cuồng!
+Dialogue: 0,1:34:24.19,1:34:26.28,Default,,0,0,0,,Rimuru Đại nhân, đã xong xuôi rồi.
+Dialogue: 0,1:34:26.36,1:34:27.40,Default,,0,0,0,,Làm tốt lắm.
+Dialogue: 0,1:34:27.49,1:34:30.62,Default,,0,0,0,,Nếu đám lính còn sót lại\Nkhông còn ý chí chiến đấu
+Dialogue: 0,1:34:30.70,1:34:32.87,Default,,0,0,0,,thì có thể thả cho họ về nhà hôm nay.
+Dialogue: 0,1:34:32.95,1:34:33.99,Default,,0,0,0,,{\i1}Đã rõ.{\i0}
+Dialogue: 0,1:34:34.58,1:34:36.20,Default,,0,0,0,,Giờ, vậy chỉ còn lại…
+Dialogue: 0,1:34:54.97,1:34:56.10,Default,,0,0,0,,Hiiro…
+Dialogue: 0,1:34:56.18,1:35:00.90,Default,,0,0,0,,Anh đâu muốn chủ nhân yêu quý của anh\Nlo lắng thêm nữa, phải không?
+Dialogue: 0,1:35:06.36,1:35:09.78,Default,,0,0,0,,Xin lỗi, nhưng từ giờ,\Nem sẽ không nương tay đâu.
+Dialogue: 0,1:35:10.86,1:35:12.07,Default,,0,0,0,,Hiiro…
+Dialogue: 0,1:35:17.66,1:35:19.83,Default,,0,0,0,,Làm ơn đừng chết nhé.
+Dialogue: 0,1:35:23.88,1:35:26.63,Default,,0,0,0,,Hắc viên trảm!
+Dialogue: 0,1:35:40.39,1:35:41.60,Default,,0,0,0,,Huynh trưởng!
+Dialogue: 0,1:35:46.11,1:35:47.19,Default,,0,0,0,,Hiiro!
+Dialogue: 0,1:35:48.49,1:35:50.11,Default,,0,0,0,,Vẫn còn cử động nổi sao?
+Dialogue: 0,1:35:59.08,1:36:00.04,Default,,0,0,0,,Nữ hoàng Towa!
+Dialogue: 0,1:36:51.55,1:36:53.84,Default,,0,0,0,,Hiiro!
+Dialogue: 0,1:36:56.01,1:36:59.01,Default,,0,0,0,,Huynh trưởng!
+Dialogue: 0,1:37:04.23,1:37:05.23,Default,,0,0,0,,Huynh trưởng!
+Dialogue: 0,1:37:06.98,1:37:08.06,Default,,0,0,0,,Thiếu chủ…
+Dialogue: 0,1:37:09.32,1:37:11.94,Default,,0,0,0,,Em… mạnh lên rồi.
+Dialogue: 0,1:37:14.36,1:37:16.24,Default,,0,0,0,,Không mạnh bằng anh đâu.
+Dialogue: 0,1:37:16.32,1:37:20.37,Default,,0,0,0,,Em đã tin anh sẽ tự tỉnh lại mà.
+Dialogue: 0,1:37:20.91,1:37:25.33,Default,,0,0,0,,Xét cho cùng, linh hồn anh…\Nđâu phải của riêng anh.
+Dialogue: 0,1:37:31.63,1:37:35.05,Default,,0,0,0,,Cái giá… khi dùng sức mạnh này…
+Dialogue: 0,1:37:35.13,1:37:36.13,Default,,0,0,0,,Hiiro!
+Dialogue: 0,1:37:36.22,1:37:37.34,Default,,0,0,0,,Anh Hiiro!
+Dialogue: 0,1:37:39.43,1:37:41.39,Default,,0,0,0,,Benimaru! Cho uống hết lọ luôn!
+Dialogue: 0,1:37:41.85,1:37:44.18,Default,,0,0,0,,{\i1}Đây là cái giá khi dùng Ngọc Nguyền Rủa.{\i0}
+Dialogue: 0,1:37:44.27,1:37:45.85,Default,,0,0,0,,{\an8\i1}Thuốc này không có tác dụng.{\i0}
+Dialogue: 0,1:37:53.40,1:37:55.65,Default,,0,0,0,,Thế này là đủ rồi.
+Dialogue: 0,1:37:55.74,1:37:56.95,Default,,0,0,0,,Huynh trưởng!
+Dialogue: 0,1:37:57.03,1:37:58.32,Default,,0,0,0,,Shuna…
+Dialogue: 0,1:37:59.82,1:38:03.45,Default,,0,0,0,,Anh luôn xem em là em gái ruột của anh.
+Dialogue: 0,1:38:03.91,1:38:05.00,Default,,0,0,0,,Anh Hiiro…
+Dialogue: 0,1:38:05.66,1:38:07.08,Default,,0,0,0,,Những người khác đang chờ…
+Dialogue: 0,1:38:08.33,1:38:12.63,Default,,0,0,0,,cứ… vậy thôi.
+Dialogue: 0,1:38:13.92,1:38:15.34,Default,,0,0,0,,Nữ hoàng Towa…
+Dialogue: 0,1:38:17.30,1:38:18.64,Default,,0,0,0,,tôi rất mừng…
+Dialogue: 0,1:38:20.09,1:38:23.52,Default,,0,0,0,,khi cuối cùng…
+Dialogue: 0,1:38:24.60,1:38:28.02,Default,,0,0,0,,đã tìm được…
+Dialogue: 0,1:38:28.10,1:38:29.94,Default,,0,0,0,,một chủ nhân đáng để phụng sự.
+Dialogue: 0,1:38:42.49,1:38:43.79,Default,,0,0,0,,Ta không để vậy đâu.
+Dialogue: 0,1:38:46.87,1:38:49.17,Default,,0,0,0,,Ta không cho anh rời bỏ ta đâu.
+Dialogue: 0,1:38:51.29,1:38:52.79,Default,,0,0,0,,Vương miện xấu xí!
+Dialogue: 0,1:38:53.46,1:38:54.75,Default,,0,0,0,,Hãy cho ta phép màu!
+Dialogue: 0,1:38:56.26,1:38:59.47,Default,,0,0,0,,Nữ thần, hãy cho tôi sức mạnh của ngài!
+Dialogue: 0,1:39:22.28,1:39:23.91,Default,,0,0,0,,Nữ hoàng Towa?
+Dialogue: 0,1:39:33.33,1:39:34.46,Default,,0,0,0,,Nữ hoàng Towa?
+Dialogue: 0,1:39:35.00,1:39:35.92,Default,,0,0,0,,Nữ hoàng Towa!
+Dialogue: 0,1:39:41.30,1:39:44.05,Default,,0,0,0,,Nữ hoàng Towa!
+Dialogue: 0,1:39:55.82,1:39:57.82,Default,,0,0,0,,{\i1}Đây là cái giá của điều ước đó.{\i0}
+Dialogue: 0,1:39:57.90,1:39:59.53,Default,,0,0,0,,{\i1}Chẳng làm được gì đâu.{\i0}
+Dialogue: 0,1:40:02.07,1:40:05.62,Default,,0,0,0,,Nữ hoàng đã cứu mạng tôi hai lần, mà…
+Dialogue: 0,1:40:06.87,1:40:07.87,Default,,0,0,0,,tôi vẫn không…
+Dialogue: 0,1:40:10.20,1:40:12.37,Default,,0,0,0,,làm được gì cho ngài ấy sao?
+Dialogue: 0,1:40:35.10,1:40:38.11,Default,,0,0,0,,Khế ước phải bị hủy\Nvì sự tắc trách của ta.
+Dialogue: 0,1:40:38.52,1:40:41.74,Default,,0,0,0,,Để cảm ơn ngươi vì đã giúp ta giải trí,
+Dialogue: 0,1:40:42.15,1:40:44.66,Default,,0,0,0,,ta sẽ làm màu một chút\Nđể thay lời xin lỗi.
+Dialogue: 0,1:40:52.21,1:40:53.21,Default,,0,0,0,,Gì đây?
+Dialogue: 0,1:40:53.29,1:40:54.79,Default,,0,0,0,,Chuyện gì vậy?
+Dialogue: 0,1:40:54.87,1:40:57.71,Default,,0,0,0,,{\i1}Thông báo. Xác nhận{\i0}\N{\i1}có thế lực khác đang xen vào.{\i0}
+Dialogue: 0,1:41:05.01,1:41:06.34,Default,,0,0,0,,Nữ hoàng Towa?
+Dialogue: 0,1:41:11.22,1:41:12.52,Default,,0,0,0,,Nữ hoàng Towa!
+Dialogue: 0,1:41:12.60,1:41:13.60,Default,,0,0,0,,Hiiro?
+Dialogue: 0,1:41:25.61,1:41:27.91,Default,,0,0,0,,{\i1}Độc Nguyền đã hoàn toàn biến mất.{\i0}
+Dialogue: 0,1:41:28.91,1:41:32.54,Default,,0,0,0,,Đây là "ý tưởng" của cậu à, Diablo?
+Dialogue: 0,1:41:33.87,1:41:35.75,Default,,0,0,0,,Rồi cậu phải giải trình vụ này đấy.
+Dialogue: 0,1:41:38.00,1:41:39.75,Default,,0,0,0,,Rất sẵn lòng ạ.
+Dialogue: 0,1:41:48.89,1:41:50.01,Default,,0,0,0,,Nâng ly nào!
+Dialogue: 0,1:41:51.76,1:41:53.02,Default,,0,0,0,,Cảm ơn nhé!
+Dialogue: 0,1:41:53.10,1:41:55.31,Default,,0,0,0,,Đã quá!
+Dialogue: 0,1:42:02.65,1:42:03.99,Default,,0,0,0,,Ngài Rimuru!
+Dialogue: 0,1:42:05.78,1:42:10.49,Default,,0,0,0,,Xin tạ ơn ngài đã ra tay tương trợ.
+Dialogue: 0,1:42:10.58,1:42:13.79,Default,,0,0,0,,Làm sao chúng tôi tạ ơn nổi đây?
+Dialogue: 0,1:42:13.87,1:42:18.88,Default,,0,0,0,,Dù có muốn,\Nchúng tôi cũng không có bao nhiêu để…
+Dialogue: 0,1:42:19.21,1:42:20.79,Default,,0,0,0,,À, về vụ đó…
+Dialogue: 0,1:42:22.30,1:42:25.30,Default,,0,0,0,,Đã tìm thấy\Nmột mạch quặng sắt trong cái hang
+Dialogue: 0,1:42:25.38,1:42:27.88,Default,,0,0,0,,bị sập vì trận chiến\Ngiữa Benimaru và Hiiro.
+Dialogue: 0,1:42:29.05,1:42:32.10,Default,,0,0,0,,Nhưng mà đâu mấy người hỏi mua quặng sắt…
+Dialogue: 0,1:42:32.18,1:42:35.14,Default,,0,0,0,,Các nước khác cũng có mà.
+Dialogue: 0,1:42:35.22,1:42:37.81,Default,,0,0,0,,À, có bao nhiêu quặng sắt cho đủ chứ.
+Dialogue: 0,1:42:37.89,1:42:39.52,Default,,0,0,0,,Chúng ta sẽ mua từ các ông.
+Dialogue: 0,1:42:40.98,1:42:44.36,Default,,0,0,0,,Ý ngài là ngài sẽ\Ngóp phần xây dựng lại vương quốc sao?
+Dialogue: 0,1:42:44.44,1:42:49.45,Default,,0,0,0,,Nếu thế, các nước láng giềng\Nsẽ khó mà kiếm chuyện với chúng ta!
+Dialogue: 0,1:42:49.53,1:42:51.41,Default,,0,0,0,,Còn ân huệ gì hơn thế nữa chứ.
+Dialogue: 0,1:42:51.49,1:42:53.95,Default,,0,0,0,,Nhưng ngài chắc chứ?
+Dialogue: 0,1:42:54.04,1:42:56.54,Default,,0,0,0,,Dĩ nhiên. Có qua có lại mà.
+Dialogue: 0,1:42:57.12,1:42:58.29,Default,,0,0,0,,Hơn nữa…
+Dialogue: 0,1:42:58.37,1:43:02.21,Default,,0,0,0,,Ta thích Towa\Nvì cô ấy sẵn sàng liều tính mạng
+Dialogue: 0,1:43:02.29,1:43:04.50,Default,,0,0,0,,để cứu mạng người khác.
+Dialogue: 0,1:43:05.25,1:43:06.59,Default,,0,0,0,,Có phải không nào?
+Dialogue: 0,1:43:06.67,1:43:08.34,Default,,0,0,0,,- Phải.\N- Đúng quá.
+Dialogue: 0,1:43:08.42,1:43:09.26,Default,,0,0,0,,Phải!
+Dialogue: 0,1:43:09.34,1:43:10.34,Default,,0,0,0,,Không phản đối gì.
+Dialogue: 0,1:43:10.76,1:43:12.01,Default,,0,0,0,,Dĩ nhiên rồi!
+Dialogue: 0,1:43:12.10,1:43:16.31,Default,,0,0,0,,Chúng tôi yêu quý Nữ hoàng Towa và Hiiro\Nnhư yêu quý Rimuru Đại nhân vậy!
+Dialogue: 0,1:43:16.39,1:43:17.68,Default,,0,0,0,,Cảm ơn nhé!
+Dialogue: 0,1:43:18.60,1:43:19.89,Default,,0,0,0,,Tôi cũng thế.
+Dialogue: 0,1:43:20.31,1:43:22.52,Default,,0,0,0,,Cái gì, còn ở đây hả?
+Dialogue: 0,1:43:25.44,1:43:26.57,Default,,0,0,0,,Vậy thì…
+Dialogue: 0,1:43:26.65,1:43:29.90,Default,,0,0,0,,Ly này để mừng tương lai\Ncủa Vương quốc Raja và Tempest!
+Dialogue: 0,1:43:41.62,1:43:45.92,Default,,0,0,0,,{\i1}Tạ ơn ngài vì đã bảo vệ cho đất nước này{\i0}
+Dialogue: 0,1:43:46.67,1:43:48.38,Default,,0,0,0,,{\i1}và toàn thể chúng con lâu đến vậy.{\i0}
+Dialogue: 0,1:43:49.38,1:43:51.47,Default,,0,0,0,,{\i1}Từ giờ, con sẽ tự đứng trên đôi chân mình{\i0}
+Dialogue: 0,1:43:51.55,1:43:54.26,Default,,0,0,0,,{\i1}và cùng mọi người xây dựng tương lai.{\i0}
+Dialogue: 0,1:43:55.22,1:43:59.10,Default,,0,0,0,,{\i1}Thưa nữ thần{\i0}\N{\i1}đã ban vương miện cho chúng con.{\i0}
+Dialogue: 0,1:44:04.94,1:44:07.02,Default,,0,0,0,,Cái quái gì đây?
+Dialogue: 0,1:44:13.36,1:44:15.07,Default,,0,0,0,,Veldora?
+Dialogue: 0,1:44:15.16,1:44:18.49,Default,,0,0,0,,Tôi giao phó cho anh\Nchăm lo mọi chuyện ở đây mà.
+Dialogue: 0,1:44:18.58,1:44:20.29,Default,,0,0,0,,Đâu phải lỗi của tôi.
+Dialogue: 0,1:44:20.37,1:44:23.50,Default,,0,0,0,,Milim xuất hiện, nên tôi chơi đùa\Nvới em ấy một chút.
+Dialogue: 0,1:44:23.58,1:44:27.21,Default,,0,0,0,,Đúng rồi. Tôi đến đây để chơi,
+Dialogue: 0,1:44:27.30,1:44:29.42,Default,,0,0,0,,nhưng mà vắng mặt ngài nên chán quá,
+Dialogue: 0,1:44:29.51,1:44:32.01,Default,,0,0,0,,vì vậy tôi mới chơi với Veldora một chút.
+Dialogue: 0,1:44:32.09,1:44:34.05,Default,,0,0,0,,Xin tha cho chúng tôi, Rimuru Đại nhân.
+Dialogue: 0,1:44:34.14,1:44:36.39,Default,,0,0,0,,Chúng tôi đã cố cản họ.
+Dialogue: 0,1:44:36.47,1:44:38.14,Default,,0,0,0,,Nhưng họ mạnh quá.
+Dialogue: 0,1:44:38.22,1:44:40.39,Default,,0,0,0,,Dĩ nhiên ngươi không cản được họ rồi.
+Dialogue: 0,1:44:40.47,1:44:43.19,Default,,0,0,0,,Có cố gắng là được lắm rồi.
+Dialogue: 0,1:44:43.81,1:44:44.90,Default,,0,0,0,,Thật tình…
+Dialogue: 0,1:44:44.98,1:44:48.07,Default,,0,0,0,,Tôi sẽ không mua mấy tập cuối\Ntruyện tranh anh đang đọc!
+Dialogue: 0,1:44:48.15,1:44:50.65,Default,,0,0,0,,Gì cơ? Tàn nhẫn quá!
+Dialogue: 0,1:44:57.45,1:44:59.12,Default,,0,0,0,,Anh đáng bị vậy mà.
+Dialogue: 0,1:44:59.20,1:45:00.87,Default,,0,0,0,,Còn cô, Milim?
+Dialogue: 0,1:45:01.20,1:45:03.12,Default,,0,0,0,,Tôi à?
+Dialogue: 0,1:45:04.17,1:45:07.38,Default,,0,0,0,,Từ từ nói chuyện nào?
+Dialogue: 0,1:45:11.59,1:45:16.01,Default,,0,0,0,,Dám chọc mình giận đến vậy.\NCái đám phiền phức này.
+Dialogue: 0,1:48:28.62,1:48:30.62,Default,,0,0,0,,Biên dịch: Ka Nguyen,\NNguyen Hoang, Pham Thanh Phuong

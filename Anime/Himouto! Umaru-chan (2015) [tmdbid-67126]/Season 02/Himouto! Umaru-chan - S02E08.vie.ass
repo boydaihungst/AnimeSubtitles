@@ -1,0 +1,654 @@
+[Script Info]
+; This is an Advanced Sub Station Alpha v4+ script.
+Title: 
+ScriptType: v4.00+
+PlayDepth: 0
+ScaledBorderAndShadow: Yes
+PlayResX: 1920
+PlayResY: 1080
+[V4+ Styles]
+Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
+Style: Default,Noto Sans,80.0,&H00FFFFFF,&H000000FF,&H00002208,&H00000000,-1,0,0,0,100,100,0,0,1,3.0,2.0,2,0,0,65,1
+
+[Events]
+Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
+Dialogue: 0,0:00:05.79,0:00:08.70,Default,,0,0,0,,{The Master was as cute as always today... }Hôm nay Sư phụ vẫn dễ thương ghê ~
+Dialogue: 0,0:00:09.00,0:00:11.62,Default,,0,0,0,,{She truly is an angel from Heaven. }Em ấy đúng là thiên sứ giáng trần.
+Dialogue: 0,0:00:14.29,0:00:16.16,Default,,0,0,0,,{Yo. Welcome back. }Về rồi à.
+Dialogue: 0,0:00:18.20,0:00:21.04,Default,,0,0,0,,{Close the door already! I'm in my boxers.}Đóng cửa nhanh lên, anh đang mặc quần đùi đó.
+Dialogue: 0,0:00:24.91,0:00:29.91,Default,,0,0,0,,{Oh, and the folks will be visiting Mom's hometown over the weekend. }À, mọi người về quê mẹ cuối tuần này đấy.
+Dialogue: 0,0:00:29.91,0:00:31.79,Default,,0,0,0,,{As of tomorrow, it'll be just the two of us.}Mai chỉ có hai anh em ở nhà thôi.
+Dialogue: 0,0:00:32.62,0:00:33.87,Default,,0,0,0,,{You wanna get some food delivered?}Em muốn gọi đồ ăn không?
+Dialogue: 0,0:00:38.58,0:00:39.70,Default,,0,0,0,,Asa okite
+Dialogue: 0,0:00:38.58,0:00:39.70,Default,,0,0,0,,{Get up in the morning}
+Dialogue: 0,0:00:39.70,0:00:40.20,Default,,0,0,0,,{\an5}{Hai! Hai!)
+Dialogue: 0,0:00:39.70,0:00:40.20,Default,,0,0,0,,{\an5}{(Yup! Yup!)}
+Dialogue: 0,0:00:39.71,0:00:40.20,Default,,0,0,0,,Asa okite
+Dialogue: 0,0:00:39.71,0:00:40.20,Default,,0,0,0,,{Get up in the morning}
+Dialogue: 0,0:00:40.20,0:00:41.16,Default,,0,0,0,,Kao o aratte
+Dialogue: 0,0:00:40.20,0:00:41.16,Default,,0,0,0,,{Wash my face}
+Dialogue: 0,0:00:41.16,0:00:41.66,Default,,0,0,0,,{\an5}{Hai! Hai!)
+Dialogue: 0,0:00:41.16,0:00:41.66,Default,,0,0,0,,{\an5}{(Yup! Yup!)}
+Dialogue: 0,0:00:41.16,0:00:41.66,Default,,0,0,0,,Kao o aratte
+Dialogue: 0,0:00:41.16,0:00:41.66,Default,,0,0,0,,{Wash my face}
+Dialogue: 0,0:00:41.83,0:00:44.20,Default,,0,0,0,,Tanoshii mainichi ga kuru yo
+Dialogue: 0,0:00:41.83,0:00:44.20,Default,,0,0,0,,{Each day that comes is so much fun}
+Dialogue: 0,0:00:44.45,0:00:48.66,Default,,0,0,0,,Benkyou mo undou mo yuujou mo perfect demo
+Dialogue: 0,0:00:44.45,0:00:48.66,Default,,0,0,0,,{At studying, at sports, at friendship - Everything is perfect, but}
+Dialogue: 0,0:00:48.66,0:00:50.04,Default,,0,0,0,,Soto to naka wa
+Dialogue: 0,0:00:48.66,0:00:50.04,Default,,0,0,0,,{Outside and inside is like}
+Dialogue: 0,0:00:50.04,0:00:51.00,Default,,0,0,0,,Ura-Omote
+Dialogue: 0,0:00:50.04,0:00:51.00,Default,,0,0,0,,{Night and day}
+Dialogue: 0,0:00:51.00,0:00:51.58,Default,,0,0,0,,(Hai hai!)
+Dialogue: 0,0:00:51.00,0:00:51.58,Default,,0,0,0,,{(Yup, yup!)}
+Dialogue: 0,0:00:51.58,0:00:54.20,Default,,0,0,0,,Umaru! Umaru! Marutto henshin UMR!
+Dialogue: 0,0:00:51.58,0:00:54.20,Default,,0,0,0,,{Umaru! Umaru! Transforming completely - UMR!}
+Dialogue: 0,0:00:54.37,0:00:57.08,Default,,0,0,0,,Umaru! Umaru! Gurutto zenshin UMR!
+Dialogue: 0,0:00:54.37,0:00:57.08,Default,,0,0,0,,{Umaru! Umaru! Moving forward roundaboutly - UMR!}
+Dialogue: 0,0:00:57.20,0:00:59.95,Default,,0,0,0,,Umaru! Umaru! Daratto houshin UMR!
+Dialogue: 0,0:00:57.20,0:00:59.95,Default,,0,0,0,,{Umaru! Umaru! Lazing around, spacing out - UMR!}
+Dialogue: 0,0:01:03.95,0:01:08.37,Default,,0,0,0,,Hontou no sugata wa, minna ni wa miserarenai no
+Dialogue: 0,0:01:03.95,0:01:08.37,Default,,0,0,0,,{I can show my true form to no one}
+Dialogue: 0,0:01:08.37,0:01:12.08,Default,,0,0,0,,Nou aru taka wa, tsume kakusu no yo
+Dialogue: 0,0:01:08.37,0:01:12.08,Default,,0,0,0,,{After all, the clever hawk hides its talons}
+Dialogue: 0,0:01:12.29,0:01:13.70,Default,,0,0,0,,Warning! Warning!
+Dialogue: 0,0:01:13.70,0:01:16.50,Default,,0,0,0,,Sentaku, suiji, shukudai, souji
+Dialogue: 0,0:01:13.70,0:01:16.50,Default,,0,0,0,,{Laundry, cooking, homework, cleaning}
+Dialogue: 0,0:01:16.50,0:01:17.91,Default,,0,0,0,,Mendokusai!
+Dialogue: 0,0:01:16.50,0:01:17.91,Default,,0,0,0,,{That's such a pain!}
+Dialogue: 0,0:01:17.91,0:01:19.25,Default,,0,0,0,,(Oniichan yattoite~)
+Dialogue: 0,0:01:17.91,0:01:19.25,Default,,0,0,0,,{(You do it, Big Brother)}
+Dialogue: 0,0:01:19.41,0:01:22.08,Default,,0,0,0,,Cola to potato tarinai!
+Dialogue: 0,0:01:19.41,0:01:22.08,Default,,0,0,0,,{There's not enough cola or potato chips!}
+Dialogue: 0,0:01:22.25,0:01:23.54,Default,,0,0,0,,Katte kite yo Conbini de!!
+Dialogue: 0,0:01:22.25,0:01:23.54,Default,,0,0,0,,{Go to the convenience store and get more!!}
+Dialogue: 0,0:01:23.54,0:01:24.91,Default,,0,0,0,,{\an5}(Tsuide ni JUMPU mo!)
+Dialogue: 0,0:01:23.54,0:01:24.91,Default,,0,0,0,,{\an5}{(And a copy of JUMPU while you're at it)}
+Dialogue: 0,0:01:23.54,0:01:24.91,Default,,0,0,0,,Katte kite yo Conbini de!!
+Dialogue: 0,0:01:23.54,0:01:24.91,Default,,0,0,0,,{Go to the convenience store and get more!!}
+Dialogue: 0,0:01:24.91,0:01:27.29,Default,,0,0,0,,Tension agete saikouchou
+Dialogue: 0,0:01:24.91,0:01:27.29,Default,,0,0,0,,{Psych myself up, reach my peak}
+Dialogue: 0,0:01:27.29,0:01:27.75,Default,,0,0,0,,(Yay! Yay!)
+Dialogue: 0,0:01:27.75,0:01:30.58,Default,,0,0,0,,Saigo no shiage, iku yo
+Dialogue: 0,0:01:27.75,0:01:30.58,Default,,0,0,0,,{Here comes the finishing touch}
+Dialogue: 0,0:01:30.58,0:01:31.45,Default,,0,0,0,,Hood kabutte
+Dialogue: 0,0:01:30.58,0:01:31.45,Default,,0,0,0,,{Put on my hood}
+Dialogue: 0,0:01:31.45,0:01:31.87,Default,,0,0,0,,(Yoisho!)
+Dialogue: 0,0:01:31.45,0:01:31.87,Default,,0,0,0,,{(Hup!)}
+Dialogue: 0,0:01:31.87,0:01:32.95,Default,,0,0,0,,Switch irete
+Dialogue: 0,0:01:31.87,0:01:32.95,Default,,0,0,0,,{Flip that switch}
+Dialogue: 0,0:01:32.95,0:01:33.16,Default,,0,0,0,,{\an5}(See no!)
+Dialogue: 0,0:01:32.95,0:01:33.16,Default,,0,0,0,,{\an5}{(One, two!)
+Dialogue: 0,0:01:33.16,0:01:33.62,Default,,0,0,0,,{\an5}(See no!)
+Dialogue: 0,0:01:33.16,0:01:33.62,Default,,0,0,0,,{\an5}{(One, two!)}
+Dialogue: 0,0:01:33.16,0:01:33.62,Default,,0,0,0,,Hajikeyou!
+Dialogue: 0,0:01:33.16,0:01:33.62,Default,,0,0,0,,{Let's get nuts!}
+Dialogue: 0,0:01:33.62,0:01:34.79,Default,,0,0,0,,Hajikeyou!
+Dialogue: 0,0:01:33.62,0:01:34.79,Default,,0,0,0,,{Let's get nuts!}
+Dialogue: 0,0:01:34.79,0:01:36.29,Default,,0,0,0,,{(Let's party night! Yay!)}
+Dialogue: 0,0:01:36.29,0:01:37.12,Default,,0,0,0,,Game shite
+Dialogue: 0,0:01:36.29,0:01:37.12,Default,,0,0,0,,{Play games}
+Dialogue: 0,0:01:37.12,0:01:37.50,Default,,0,0,0,,{\an5}(Hai! Hai!)
+Dialogue: 0,0:01:37.12,0:01:37.50,Default,,0,0,0,,{\an5}{(Yup! Yup!)}
+Dialogue: 0,0:01:37.12,0:01:37.50,Default,,0,0,0,,Game shite
+Dialogue: 0,0:01:37.12,0:01:37.50,Default,,0,0,0,,{Play games}
+Dialogue: 0,0:01:37.50,0:01:38.54,Default,,0,0,0,,Yofukashi shite
+Dialogue: 0,0:01:37.50,0:01:38.54,Default,,0,0,0,,{Stay up late}
+Dialogue: 0,0:01:38.54,0:01:39.16,Default,,0,0,0,,{\an5}(Hai! Hai!)
+Dialogue: 0,0:01:38.54,0:01:39.16,Default,,0,0,0,,{\an5}{(Yup! Yup!)}
+Dialogue: 0,0:01:38.54,0:01:39.16,Default,,0,0,0,,Yofukashi shite
+Dialogue: 0,0:01:38.54,0:01:39.16,Default,,0,0,0,,{Stay up late}
+Dialogue: 0,0:01:39.16,0:01:41.91,Default,,0,0,0,,Arinomama asobitsukuse
+Dialogue: 0,0:01:39.16,0:01:41.91,Default,,0,0,0,,{Keep it real, have as much fun as you can}
+Dialogue: 0,0:01:42.04,0:01:44.66,Default,,0,0,0,,Guutara, my pace, wagamama life!!
+Dialogue: 0,0:01:42.04,0:01:44.66,Default,,0,0,0,,{A lazy, carefree, selfish life!!}
+Dialogue: 0,0:01:44.66,0:01:47.58,Default,,0,0,0,,Honnou no mama ni sarakedasou!
+Dialogue: 0,0:01:44.66,0:01:47.58,Default,,0,0,0,,{Let's follow our instincts and let it all hang out!}
+Dialogue: 0,0:01:47.58,0:01:48.41,Default,,0,0,0,,Tayorete
+Dialogue: 0,0:01:47.58,0:01:48.41,Default,,0,0,0,,{Dependable}
+Dialogue: 0,0:01:48.41,0:01:48.87,Default,,0,0,0,,{\an5}(Hai! Hai!)
+Dialogue: 0,0:01:48.41,0:01:48.87,Default,,0,0,0,,{\an5}{(Yup! Yup!)}
+Dialogue: 0,0:01:48.41,0:01:48.87,Default,,0,0,0,,Tayorete
+Dialogue: 0,0:01:48.41,0:01:48.87,Default,,0,0,0,,{Dependable}
+Dialogue: 0,0:01:48.87,0:01:49.87,Default,,0,0,0,,Yasashikute
+Dialogue: 0,0:01:48.87,0:01:49.87,Default,,0,0,0,,{Kind}
+Dialogue: 0,0:01:49.87,0:01:50.50,Default,,0,0,0,,{\an5}(Hai! Hai!)
+Dialogue: 0,0:01:49.87,0:01:50.50,Default,,0,0,0,,{\an5}{(Yup! Yup!)}
+Dialogue: 0,0:01:49.87,0:01:50.50,Default,,0,0,0,,Yasashikute
+Dialogue: 0,0:01:49.87,0:01:50.50,Default,,0,0,0,,{Kind}
+Dialogue: 0,0:01:50.50,0:01:53.45,Default,,0,0,0,,{\an5}(UMR! UMR! Uuuumaru!)
+Dialogue: 0,0:01:50.50,0:01:53.45,Default,,0,0,0,,Sonna oniichan ga daisuki de
+Dialogue: 0,0:01:50.50,0:01:53.45,Default,,0,0,0,,{That's my brother, and he's the greatest}
+Dialogue: 0,0:01:53.45,0:01:54.00,Default,,0,0,0,,{\an5}(Hai! Hai! Hai! Hai, hai!)
+Dialogue: 0,0:01:53.45,0:01:54.00,Default,,0,0,0,,{\an5}{(Yup! Yup! Yup! Yup, yup!)}
+Dialogue: 0,0:01:53.46,0:01:54.00,Default,,0,0,0,,Sonna oniichan ga daisuki de
+Dialogue: 0,0:01:53.46,0:01:54.00,Default,,0,0,0,,{That's my brother, and he's the greatest}
+Dialogue: 0,0:01:54.00,0:01:55.75,Default,,0,0,0,,{\an5}(Hai! Hai! Hai! Hai, hai!)
+Dialogue: 0,0:01:54.00,0:01:55.75,Default,,0,0,0,,{\an5}{(Yup! Yup! Yup! Yup, yup!)}
+Dialogue: 0,0:01:54.00,0:01:55.75,Default,,0,0,0,,Dakara...
+Dialogue: 0,0:01:54.00,0:01:55.75,Default,,0,0,0,,{That's why...}
+Dialogue: 0,0:01:55.75,0:01:56.33,Default,,0,0,0,,Zutto zutto
+Dialogue: 0,0:01:55.75,0:01:56.33,Default,,0,0,0,,{I always, always}
+Dialogue: 0,0:01:56.33,0:01:57.41,Default,,0,0,0,,{\an5}(Yay! Yay!)
+Dialogue: 0,0:01:56.33,0:01:57.41,Default,,0,0,0,,Zutto zutto
+Dialogue: 0,0:01:56.33,0:01:57.41,Default,,0,0,0,,{I always, always}
+Dialogue: 0,0:01:57.41,0:01:58.75,Default,,0,0,0,,Issho ni itai
+Dialogue: 0,0:01:57.41,0:01:58.75,Default,,0,0,0,,{Want to be together}
+Dialogue: 0,0:01:58.75,0:02:03.08,Default,,0,0,0,,Manga mo okashi mo oniichan mo daisuki da yo
+Dialogue: 0,0:01:58.75,0:02:03.08,Default,,0,0,0,,{I love manga and snacks and my brother}
+Dialogue: 0,0:02:03.08,0:02:04.50,Default,,0,0,0,,Soto to naka wa
+Dialogue: 0,0:02:03.08,0:02:04.50,Default,,0,0,0,,{Outside and inside is like}
+Dialogue: 0,0:02:04.50,0:02:05.29,Default,,0,0,0,,Ura-Omote
+Dialogue: 0,0:02:04.50,0:02:05.29,Default,,0,0,0,,{Night and day}
+Dialogue: 0,0:02:05.29,0:02:06.12,Default,,0,0,0,, (Hai hai!)
+Dialogue: 0,0:02:05.29,0:02:06.12,Default,,0,0,0,,{(Yup! Yup!)}
+Dialogue: 0,0:02:07.62,0:02:11.79,Default,,0,0,0,,{\an4\pos(78.4,571.2)}{Episode 8: UMARU AND HIKARI}Tập 8: Umaru và Hikari
+Dialogue: 0,0:02:08.75,0:02:10.45,Default,,0,0,0,,{A-and so...}V-Vì vậy ...
+Dialogue: 0,0:02:10.45,0:02:11.87,Default,,0,0,0,,{When I go back home today,}Khi hôm nay chị về...
+Dialogue: 0,0:02:11.87,0:02:14.00,Default,,0,0,0,,{it will just be me and my brother!}Sẽ chỉ có chị và anh trai!
+Dialogue: 0,0:02:14.00,0:02:16.00,Default,,0,0,0,,{What's so bad about that?}Có sao đâu?
+Dialogue: 0,0:02:16.00,0:02:19.66,Default,,0,0,0,,{Our house is Hell as it is, but now it will be Hades!}Bình thường đã như địa ngục rồi, nay sẽ là âm phủ!
+Dialogue: 0,0:02:19.95,0:02:22.37,Default,,0,0,0,,{How is Hades different from Hell...?}Hai cái đó khác gì nhau chứ?
+Dialogue: 0,0:02:22.83,0:02:25.45,Default,,0,0,0,,{Hey, you should just stay here tonight!}Vậy ở lại nhà em đêm nay.
+Dialogue: 0,0:02:27.87,0:02:29.50,Default,,0,0,0,,{WHAAAAAAAT?!}HẢ?!!!!!!!!!!!
+Dialogue: 0,0:02:29.50,0:02:32.87,Default,,0,0,0,,{I-i-i-is th-th-that okay?}Đ-Đ-Đ-Đ-Đ-Đ-Đ-Được à?
+Dialogue: 0,0:02:32.87,0:02:36.37,Default,,0,0,0,,{Yeah. I'll have to ask my brother, though. }Ừm. Để em hỏi anh trai.
+Dialogue: 0,0:02:39.25,0:02:40.79,Default,,0,0,0,,{Sure, that's fine. }Được thôi.
+Dialogue: 0,0:02:41.00,0:02:42.54,Default,,0,0,0,,{Score!}Tuyệt vời!
+Dialogue: 0,0:02:42.87,0:02:45.87,Default,,0,0,0,,{I guess I'll head over to Bomba's place later. }Vậy để anh qua chỗ Bomba sau vậy.
+Dialogue: 0,0:02:46.45,0:02:48.75,Default,,0,0,0,,{I'm sure he'll be lonely without you around. }Chắc cậu ấy sẽ buồn khi không có em ở nhà.
+Dialogue: 0,0:02:48.75,0:02:50.87,Default,,0,0,0,,{Huh? You already knew about this?}Hả? Onii-chan biết rồi à?
+Dialogue: 0,0:02:50.87,0:02:55.91,Default,,0,0,0,,{Huh? Yeah, he'd mentioned it at the Enoshima aquarium.}Ừ. Nghe nói từ hồi ở Thủy cung Enoshima rồi.
+Dialogue: 0,0:02:55.91,0:02:57.25,Default,,0,0,0,,{That was so long ago!}Lâu lắm rồi!
+Dialogue: 0,0:02:57.50,0:02:59.70,Default,,0,0,0,,{Well, guess I'll make dinner. }Vậy để anh làm bữa tối nhé.
+Dialogue: 0,0:03:01.04,0:03:02.50,Default,,0,0,0,,{So full...}No quá ...
+Dialogue: 0,0:03:02.50,0:03:04.00,Default,,0,0,0,,{It was quite filling, wasn't it?}Ngon ghê nhỉ?
+Dialogue: 0,0:03:04.33,0:03:08.54,Default,,0,0,0,,{Well, I'm going to Bomba's. I'll be back tomorrow. }Vậy anh qua chỗ Bomba nhé. Mai anh về.
+Dialogue: 0,0:03:08.54,0:03:10.95,Default,,0,0,0,,{U-um, about me being here...}V-V-Việc em ở đây ...
+Dialogue: 0,0:03:11.91,0:03:12.95,Default,,0,0,0,,{You'd rather I not say anything?}Anh không nên nói gì à?
+Dialogue: 0,0:03:13.12,0:03:18.45,Default,,0,0,0,,{No, it's all right. I get the feeling}À, không Em nghĩ anh ấy sẽ lo lắng...
+Dialogue: 0,0:03:13.12,0:03:18.45,Default,,0,0,0,,{he'd be worried otherwise...}
+Dialogue: 0,0:03:18.79,0:03:19.58,Default,,0,0,0,,{'Kay.}Được thôi.
+Dialogue: 0,0:03:21.87,0:03:23.25,Default,,0,0,0,,{Well, I'm off.}Vậy anh đi đây.
+Dialogue: 0,0:03:23.25,0:03:24.87,Default,,0,0,0,,{See you!}Anh đi vui vẻ nhé.
+Dialogue: 0,0:03:24.87,0:03:26.58,Default,,0,0,0,,{S-see you later. }A-Anh đi vui vẻ.
+Dialogue: 0,0:03:28.29,0:03:32.08,Default,,0,0,0,,{Master... your brother is kind, isn't he?}Sư phụ ... anh trai em tốt bụng nhỉ?
+Dialogue: 0,0:03:32.08,0:03:33.00,Default,,0,0,0,,{Yup!}Ừm!
+Dialogue: 0,0:03:33.41,0:03:34.75,Default,,0,0,0,,{\i1}{Kindness like this...}Sự tốt bụng này ...
+Dialogue: 0,0:03:35.08,0:03:37.08,Default,,0,0,0,,{\i1}{It sort of reminds me of Ebina. }Làm mình nhớ tới Ebina.
+Dialogue: 0,0:03:38.50,0:03:40.87,Default,,0,0,0,,{Kirie, let's play a game!}Kirie, chơi game nào!
+Dialogue: 0,0:03:40.87,0:03:42.25,Default,,0,0,0,,{Yes, Master!}Vâng, Sư phụ!
+Dialogue: 0,0:04:10.66,0:04:14.25,Default,,0,0,0,,{It feels a little strange being under someone else's roof...}Thật lạ khi ngủ ở nhà người khác ...
+Dialogue: 0,0:04:15.25,0:04:17.95,Default,,0,0,0,,{Well, what's YOUR house like?}Nhà Kirie như nào?
+Dialogue: 0,0:04:18.83,0:04:21.25,Default,,0,0,0,,{It's pretty old and rundown.}Nó khá cũ rồi.
+Dialogue: 0,0:04:22.62,0:04:24.83,Default,,0,0,0,,{\i1}{Our house, huh...?}Nhà mình à ...
+Dialogue: 0,0:04:29.29,0:04:31.54,Default,,0,0,0,,{Big Brother! I'm back!}Onii-chan! Em về rồi nè!
+Dialogue: 0,0:04:32.45,0:04:37.54,Default,,0,0,0,,{What the heck, Kirie? You're so late,}Thiệt tình Kirie... Anh tưởng đi lạc chứ.
+Dialogue: 0,0:04:32.45,0:04:37.54,Default,,0,0,0,,{that I was worried you'd gotten lost!}
+Dialogue: 0,0:04:37.95,0:04:40.12,Default,,0,0,0,,{I-I took the long way home.}E-Em đi đường dài về.
+Dialogue: 0,0:04:41.25,0:04:42.70,Default,,0,0,0,,{You don't say. }Ra là vậy.
+Dialogue: 0,0:04:42.70,0:04:43.70,Default,,0,0,0,,{Big Brother!}Onii-chan!
+Dialogue: 0,0:04:44.50,0:04:46.25,Default,,0,0,0,,{Give me a piggyback ride! C'MON!}Anh cõng em nhé!
+Dialogue: 0,0:04:47.41,0:04:49.08,Default,,0,0,0,,{Sure. No problem. }Ờ. Được thôi.
+Dialogue: 0,0:04:51.70,0:04:53.54,Default,,0,0,0,,{Kirie...}Kirie ...
+Dialogue: 0,0:04:56.41,0:04:57.95,Default,,0,0,0,,{Kirie!}Kirie ...
+Dialogue: 0,0:04:59.70,0:05:03.08,Default,,0,0,0,,{Th-the Master is calling out to me while she's dreaming!}S-Sư phụ đang gọi tên mình khi ngủ!
+Dialogue: 0,0:05:03.37,0:05:05.37,Default,,0,0,0,,{You're riding a fish...}Chị đang cưỡi lưng cá ...
+Dialogue: 0,0:05:05.70,0:05:10.54,Default,,0,0,0,,{A fish?! Don't tell me she's}Cá?! Đừng nói em ấy đã quen với quyển truyện của mình!
+Dialogue: 0,0:05:05.70,0:05:10.54,Default,,0,0,0,,{formed a bond with my storybook!}
+Dialogue: 0,0:05:10.83,0:05:14.33,Default,,0,0,0,,{Kirie, you're gonna fall. }Kirie, sắp ngã rồi!
+Dialogue: 0,0:05:14.33,0:05:15.25,Default,,0,0,0,,{Fall?!}Ngã?!
+Dialogue: 0,0:05:17.08,0:05:19.50,Default,,0,0,0,,{Well then, Master, I'll be on my way. }Chào Sư phụ nhé.
+Dialogue: 0,0:05:19.50,0:05:21.08,Default,,0,0,0,,{Sure. See you! }Ừm. Hẹn gặp lại.
+Dialogue: 0,0:05:33.45,0:05:34.75,Default,,0,0,0,,{Woo-hoo!}
+Dialogue: 0,0:05:34.75,0:05:36.75,Default,,0,0,0,,{\an4}{PICKLED}
+Dialogue: 0,0:05:34.75,0:05:36.75,Default,,0,0,0,,{\an4}{SQUID}
+Dialogue: 0,0:05:34.75,0:05:36.75,Default,,0,0,0,,{\an4}{TENTACLES}
+Dialogue: 0,0:05:35.41,0:05:37.16,Default,,0,0,0,,{That Kirie, I'm tellin' you...}Con bé Kirie ...
+Dialogue: 0,0:05:37.16,0:05:42.45,Default,,0,0,0,,{Up until the start of elementary school,}Cho tới tận tiểu học, vẫn gọi tôi là "Onii-chan" đó!
+Dialogue: 0,0:05:37.16,0:05:42.45,Default,,0,0,0,,{she'd be all like, "Big Brother!" }
+Dialogue: 0,0:05:42.45,0:05:44.20,Default,,0,0,0,,{Are you listening, Taihei?!}Nghe không, Taihei?
+Dialogue: 0,0:05:44.62,0:05:46.70,Default,,0,0,0,,{Y-yeah. I'm listening...}Ư-Ừm, đang nghe này.
+Dialogue: 0,0:05:46.70,0:05:49.00,Default,,0,0,0,,{Are you? Are you listening? You gotta listen!}Thật không? Có nghe không vậy?!
+Dialogue: 0,0:05:47.00,0:05:49.00,Default,,0,0,0,,{\an5}{A DRUNKEN HELL THAT'S LASTED}
+Dialogue: 0,0:05:47.00,0:05:49.00,Default,,0,0,0,,{\an5}{TILL THE FOLLOWING MORNING}
+Dialogue: 0,0:05:49.00,0:05:51.91,Default,,0,0,0,,{But now, my Kirie...! }Nhưng, Kirie của bây giờ ...
+Dialogue: 0,0:05:49.12,0:06:00.25,Default,,0,0,0,,{\an5}{SHIKUWASA}
+Dialogue: 0,0:05:52.16,0:06:00.33,Default,,0,0,0,,{She's gone off and made some great friends,}Em ấy rời xa tôi và có nhiều bạn mới...như nhóc Tanukichi và Ebina, ...
+Dialogue: 0,0:05:52.16,0:06:00.33,Default,,0,0,0,,{like Tanukichi and Ebina, and I... I... }
+Dialogue: 0,0:06:00.33,0:06:02.91,Default,,0,0,0,,{Are you listening, Taihei? Well, Taihei?! Taihei!}Có nghe không Taihei?! Taihei?!
+Dialogue: 0,0:06:00.33,0:06:02.91,Default,,0,0,0,,{Are you listening? Hey, are you listening?!}Cậu có nghe không?!
+Dialogue: 0,0:06:02.91,0:06:05.12,Default,,0,0,0,,{\an5}{H-hey! I am!}Có mà!
+Dialogue: 0,0:06:02.91,0:06:05.12,Default,,0,0,0,,{Are you listening, Taihei? Well, Taihei?! Taihei!}Có nghe không Taihei?! Taihei?!
+Dialogue: 0,0:06:02.91,0:06:05.12,Default,,0,0,0,,{Are you listening? Hey, are you listening?!}Cậu có nghe không?!
+Dialogue: 0,0:06:05.12,0:06:07.25,Default,,0,0,0,,{Are you listening, Taihei? Well, Taihei?! Taihei!}Có nghe không Taihei?! Taihei?!
+Dialogue: 0,0:06:05.12,0:06:07.25,Default,,0,0,0,,{Are you listening? Hey, are you listening?!}Cậu có nghe không?!
+Dialogue: 0,0:06:09.70,0:06:10.95,Default,,0,0,0,,Taihei?
+Dialogue: 0,0:06:11.62,0:06:13.79,Default,,0,0,0,,{Don't abandon me!}Đừng có bỏ rơi tôi!
+Dialogue: 0,0:06:13.79,0:06:14.87,Default,,0,0,0,,{Taihei?}Taihei?
+Dialogue: 0,0:06:14.87,0:06:16.04,Default,,0,0,0,,{Taihei!}Taihei!
+Dialogue: 0,0:06:16.04,0:06:18.54,Default,,0,0,0,,{TAIHEI!}TAIHEI!!!!!!
+Dialogue: 0,0:06:17.95,0:06:20.29,Default,,0,0,0,,{WHEN A HOUSE BECOMES HADES}Khi ngôi nhà trở thành địa ngục
+Dialogue: 0,0:06:25.00,0:06:32.62,Default,,0,0,0,,{My, my... reading manga indoors on a hot day}Chà, ở nhà đọc truyện trong ngày nóng như này, lại có điều hòa, thật tuyệt phải không Kirie?
+Dialogue: 0,0:06:25.00,0:06:32.62,Default,,0,0,0,,{with the AC blasting sure is great, huh, Kirie?}
+Dialogue: 0,0:06:25.04,0:06:34.16,Default,,0,0,0,,{\an5}{YOUNG}
+Dialogue: 0,0:06:25.04,0:06:34.16,Default,,0,0,0,,{\an5}{JUMPU}
+Dialogue: 0,0:06:34.45,0:06:35.25,Default,,0,0,0,,{Huh?}Ủa?
+Dialogue: 0,0:06:35.70,0:06:36.83,Default,,0,0,0,,{Kirie?}Kirie?
+Dialogue: 0,0:06:36.83,0:06:39.20,Default,,0,0,0,,{\an7}{Ba-dump}
+Dialogue: 0,0:06:36.83,0:06:39.20,Default,,0,0,0,,{\an8}{Ba-dump}
+Dialogue: 0,0:06:36.83,0:06:39.20,Default,,0,0,0,,{\an4}{Ba-dump}
+Dialogue: 0,0:06:36.83,0:06:39.20,Default,,0,0,0,,{\an6}{Ba-dump}
+Dialogue: 0,0:06:36.83,0:06:39.20,Default,,0,0,0,,{\an4}{Ba-dump}
+Dialogue: 0,0:06:36.83,0:06:39.20,Default,,0,0,0,,{\an5}{Ba-dump}
+Dialogue: 0,0:06:46.20,0:06:48.41,Default,,0,0,0,,{Huh? What did you just say?}Hả? Cậu vừa nói gì?
+Dialogue: 0,0:06:48.54,0:06:49.62,Default,,0,0,0,,{I...}Mình ...
+Dialogue: 0,0:06:51.66,0:06:53.08,Default,,0,0,0,,{I love you!}Mình thích cậu!
+Dialogue: 0,0:06:56.16,0:06:59.54,Default,,0,0,0,,{They're ending it HERE?!}"Còn tiếp" à?!!
+Dialogue: 0,0:06:57.08,0:06:57.95,Default,,0,0,0,,{\an4}NISUKOI
+Dialogue: 0,0:06:57.08,0:06:57.95,Default,,0,0,0,,{\an4}{TO BE CONTINUED...}Còn tiếp...
+Dialogue: 0,0:06:57.95,0:06:59.58,Default,,0,0,0,,{\an5}{TO BE CONTINUED...}
+Dialogue: 0,0:06:59.79,0:07:01.62,Default,,0,0,0,,{I can't stand it, Master!}Bực quá, Sư phụ à!
+Dialogue: 0,0:07:01.62,0:07:06.79,Default,,0,0,0,,{And I bet it'll follow the standard pattern of him}Cá là cốt truyện sẽ theo hướng main không nghe thấy gì vì tiếng tàu!
+Dialogue: 0,0:07:01.62,0:07:06.79,Default,,0,0,0,,{not hearing over the sound of the train!}
+Dialogue: 0,0:07:07.25,0:07:13.66,Default,,0,0,0,,{It's kinda vexing, but you want to root for them because}Hơi bực, nhưng chúng ta muốn ủng hộ họ vì \Ntruyện tình cảm hài hước phải có kết thúc đẹp, nhỉ?
+Dialogue: 0,0:07:07.25,0:07:13.66,Default,,0,0,0,,{a romantic comedy needs a happy ending, huh?}
+Dialogue: 0,0:07:15.08,0:07:16.41,Default,,0,0,0,,{Root for them...?}Ủng hộ ...?
+Dialogue: 0,0:07:23.83,0:07:25.70,Default,,0,0,0,,{\an5}{EXPLOSION}
+Dialogue: 0,0:07:23.87,0:07:25.04,Default,,0,0,0,,{Say goodbye.}Nói lời cuối đi.
+Dialogue: 0,0:07:26.79,0:07:30.29,Default,,0,0,0,,{Kirie, what's got you yelling all of a sudden?}Kirie, sao tự nhiên lại hét lên vậy?
+Dialogue: 0,0:07:30.95,0:07:37.58,Default,,0,0,0,,{\i1}{Th-that vision just now was my dark side...}H-Hình ảnh trong tưởng tượng kia ...
+Dialogue: 0,0:07:30.95,0:07:37.58,Default,,0,0,0,,{\i1}{and that was something I would've said up till recently!}Nó là thứ mình định nói!
+Dialogue: 0,0:07:38.29,0:07:40.66,Default,,0,0,0,,{It looks like those two are a couple now!}Hình như hai người họ là một cặp đó!
+Dialogue: 0,0:07:41.50,0:07:44.00,Default,,0,0,0,,{So, for our next girls' day out...}Vậy nên, hôm tới "hội chị em" đi chơi ...
+Dialogue: 0,0:07:44.00,0:07:46.12,Default,,0,0,0,,{If you two start dating...}Nếu hai cậu hẹn hò ...
+Dialogue: 0,0:07:46.12,0:07:47.95,Default,,0,0,0,,{What kind of boy would you like to...?}Kiểu con trai cậu thích là gì ...?
+Dialogue: 0,0:07:48.87,0:07:51.33,Default,,0,0,0,,{Umaru sure is cute, huh?}Umaru đáng yêu nhỉ?
+Dialogue: 0,0:07:51.33,0:07:53.79,Default,,0,0,0,,{She's got a great bod, and she's smart too.}Cậu ấy vừa xinh vừa học giỏi!
+Dialogue: 0,0:07:53.79,0:07:55.08,Default,,0,0,0,,{And good at sports!}Lại giỏi thể thao nữa!
+Dialogue: 0,0:07:55.08,0:07:56.58,Default,,0,0,0,,{She's perfect!}Đúng là hoàn hảo!
+Dialogue: 0,0:07:57.62,0:08:01.50,Default,,0,0,0,,{"Umaru"? That's MISS Umaru to you, punk!}Umaru"-chan"?! Là "-san" đó mấy người!
+Dialogue: 0,0:08:02.25,0:08:03.70,Default,,0,0,0,,{\i1}{I'm so embarrassed!}Xấu hổ quá!
+Dialogue: 0,0:08:03.95,0:08:07.08,Default,,0,0,0,,{Kirie, what's got you crouching all of a sudden?}Kirie, sao tự nhiên lại quỳ xuống vậy?
+Dialogue: 0,0:08:07.45,0:08:11.95,Default,,0,0,0,,{\i1}{I didn't want to admit that I just can't get used}Mình không muốn công nhận rằng bản thân \Nkhông thể quen với việc là một phần của xã hội.
+Dialogue: 0,0:08:07.45,0:08:11.95,Default,,0,0,0,,{\i1}{to being part of a community. }
+Dialogue: 0,0:08:12.16,0:08:15.33,Default,,0,0,0,,{\i1}{All I would ever do is despise the people around me. }Tất cả những gì mình làm chỉ là khinh bỉ người xung quanh.
+Dialogue: 0,0:08:16.12,0:08:17.04,Default,,0,0,0,,{\i1}{Master.}Sư phụ.
+Dialogue: 0,0:08:17.04,0:08:17.58,Default,,0,0,0,,{Huh?}Hả?
+Dialogue: 0,0:08:17.87,0:08:22.33,Default,,0,0,0,,{\i1}{I've... made an enemy I must defeat. }Chị ... có kẻ địch buộc phải đánh bại được.
+Dialogue: 0,0:08:22.83,0:08:23.87,Default,,0,0,0,,{Kirie?}Kirie?
+Dialogue: 0,0:08:23.87,0:08:24.91,Default,,0,0,0,,{M-Master!}S-Sư phụ!
+Dialogue: 0,0:08:25.70,0:08:29.70,Default,,0,0,0,,{I... cannot root for love!}C-Chị không thể ủng hộ cho tình yêu được!
+Dialogue: 0,0:08:29.70,0:08:30.54,Default,,0,0,0,,{Huh?!}Hả?!
+Dialogue: 0,0:08:31.04,0:08:33.45,Default,,0,0,0,,{\i1}{She sure gets emotionally involved with her manga...}Cậu ấy có vẻ dễ rung động trước manga ...
+Dialogue: 0,0:08:33.70,0:08:36.70,Default,,0,0,0,,{You don't have to get that worked up about it, you know.}Không phải lo lắng tới mức đó đâu.
+Dialogue: 0,0:08:37.37,0:08:38.33,Default,,0,0,0,,{\i1}{Wait a minute. }Chờ đã ...
+Dialogue: 0,0:08:38.54,0:08:45.58,Default,,0,0,0,,{\i1}{Kirie wants to be a storybook author, so maybe}Kirie muốn trở thành tác giả vẽ truyện, \Ncó lẽ đó là lí do cậu ấy dễ rung động trước manga.
+Dialogue: 0,0:08:38.54,0:08:45.58,Default,,0,0,0,,{\i1}{that's why she's taking this manga so personally.}
+Dialogue: 0,0:08:46.12,0:08:49.00,Default,,0,0,0,,{\i1}{In that case, I must give her}Với tư cách là Sư phụ, mình cần đưa ra câu trả lời phù hợp!
+Dialogue: 0,0:08:46.12,0:08:49.00,Default,,0,0,0,,{\i1}{a definitive answer, as her Master!}
+Dialogue: 0,0:08:50.20,0:08:51.37,Default,,0,0,0,,{Kirie.}Kirie.
+Dialogue: 0,0:08:51.37,0:08:52.58,Default,,0,0,0,,{Y-yes?}V-Vâng?!
+Dialogue: 0,0:08:52.95,0:08:56.20,Default,,0,0,0,,{There is no need to overthink this. }Không cần nghĩ quá nhiều đâu.
+Dialogue: 0,0:08:56.50,0:08:58.75,Default,,0,0,0,,{Only one thing is important...}Thứ quan trọng chỉ có một ...
+Dialogue: 0,0:08:59.41,0:09:03.00,Default,,0,0,0,,{you should just believe in what you want to believe!}Là Kirie phải tin vào thứ chị muốn tin!
+Dialogue: 0,0:09:05.20,0:09:07.58,Default,,0,0,0,,{What I... believe in?}Thứ ... chị tin?
+Dialogue: 0,0:09:13.79,0:09:15.91,Default,,0,0,0,,{Huh? Kirie!}Ủa? Kirie?
+Dialogue: 0,0:09:16.04,0:09:17.66,Default,,0,0,0,,{H-hello.}C-Chào cậu.
+Dialogue: 0,0:09:17.87,0:09:20.04,Default,,0,0,0,,{What's going on? You're in your school uniform ...}Sao vậy? Mà sao cậu lại mặc đồng phục?
+Dialogue: 0,0:09:20.70,0:09:22.33,Default,,0,0,0,,{There is something that I would ask you!}Có thứ mình muốn hỏi cậu!
+Dialogue: 0,0:09:22.33,0:09:23.25,Default,,0,0,0,,Sao?{Huh?}
+Dialogue: 0,0:09:23.87,0:09:25.95,Default,,0,0,0,,{You like Taihei Doma, don't you?}Cậu thích Doma Taihei đúng không?
+Dialogue: 0,0:09:29.25,0:09:31.00,Default,,0,0,0,,{Whaaaaat?!}Hả?!!!!!!!!
+Dialogue: 0,0:09:31.91,0:09:34.91,Default,,0,0,0,,{It was obvious from your reactions the other day. }Nhìn phản ứng của cậu hôm nọ là mình biết rồi.
+Dialogue: 0,0:09:35.70,0:09:37.33,Default,,0,0,0,,{I-I...}M-Mình ...
+Dialogue: 0,0:09:38.04,0:09:42.58,Default,,0,0,0,,{That is what I wish to discuss with you.}Vậy nên mình có chuyện muốn nói. \NHôm nay mình đã quyết định.
+Dialogue: 0,0:09:38.04,0:09:42.58,Default,,0,0,0,,{I have decided on something this day...}
+Dialogue: 0,0:09:42.58,0:09:43.37,Default,,0,0,0,,{Huh?}Sao?
+Dialogue: 0,0:09:43.79,0:09:48.33,Default,,0,0,0,,{\i1}{You want to root for them because}Chị muốn ủng hộ cho họ vì một câu chuyện\N tình cảm hài hước cần có cái kết đẹp đúng không?
+Dialogue: 0,0:09:43.79,0:09:48.33,Default,,0,0,0,,{\i1}{a romantic comedy needs a happy ending, huh?}
+Dialogue: 0,0:09:49.29,0:09:53.25,Default,,0,0,0,,{I shall root for your love with all my strength!}Mình sẽ ủng hộ cậu, bằng cả tấm lòng này!
+Dialogue: 0,0:09:53.50,0:09:55.12,Default,,0,0,0,,{Whaaaat?!}Hả?!!!!!
+Dialogue: 0,0:09:55.41,0:09:59.00,Default,,0,0,0,,{\i1}{You should just believe in what you want to believe!}Kirie chỉ cần tin vào những gì chị muốn tin thôi.
+Dialogue: 0,0:09:59.62,0:10:02.41,Default,,0,0,0,,{\i1}{And what I believe in... is my Master. }Và điều mà mình tin ... là Sư phụ.
+Dialogue: 0,0:10:03.00,0:10:05.16,Default,,0,0,0,,{U-um...}
+Dialogue: 0,0:10:05.33,0:10:07.25,Default,,0,0,0,,{O..okay!}Ư-Ừm!
+Dialogue: 0,0:10:07.54,0:10:08.79,Default,,0,0,0,,{Please leave this to me!}Hãy trông cậy vào mình!
+Dialogue: 0,0:10:13.58,0:10:15.66,Default,,0,0,0,,{My little sister, Umaru...}Em gái tôi, Umaru ...
+Dialogue: 0,0:10:16.37,0:10:18.41,Default,,0,0,0,,{\an4}{Umaruu                                 uuuuuun}
+Dialogue: 0,0:10:18.79,0:10:20.29,Default,,0,0,0,,{is renowned for her beauty.}Nổi tiếng bởi sắc đẹp vốn có.
+Dialogue: 0,0:10:20.87,0:10:27.79,Default,,0,0,0,,{She's kind and smart, and graced with many talents.}Rất tốt bụng xinh đẹp, và có nhiều tài năng.
+Dialogue: 0,0:10:20.87,0:10:27.79,Default,,0,0,0,,{She's loved by young and old, men and women. }Em ấy đều được mọi người yêu quý.
+Dialogue: 0,0:10:28.75,0:10:32.04,Default,,0,0,0,,{She's flawless, the perfect high school girl.}Là hình mẫu hoàn hảo, có thể coi là nữ sinh mẫu mực.
+Dialogue: 0,0:10:32.45,0:10:34.95,Default,,0,0,0,,Đó ... là điều mọi người nghĩ.{Well... that's what everyone seems to think.}
+Dialogue: 0,0:10:38.87,0:10:41.08,Default,,0,0,0,,{This is Umaru when she's at home.}Đây là Umaru khi ở nhà.
+Dialogue: 0,0:10:41.25,0:10:44.33,Default,,0,0,0,,{My lazy, dried fish of a sister... a himouto.}Một đứa lười biếng, himouto!
+Dialogue: 0,0:10:45.00,0:10:46.66,Default,,0,0,0,,{HEY! Get up, Umaru!}Này, dậy đi Umaru!
+Dialogue: 0,0:10:46.66,0:10:49.08,Default,,0,0,0,,{Gah! What, what's going on?}Hả?! Có chuyện gì sao?
+Dialogue: 0,0:10:49.91,0:10:54.33,Default,,0,0,0,,{Now look here, Umaru:}Nghe này Umaru: Mùa hè không chỉ để lười biếng.
+Dialogue: 0,0:10:49.91,0:10:54.33,Default,,0,0,0,,{summer vacation isn't just for lazing around!}
+Dialogue: 0,0:10:54.33,0:10:59.70,Default,,0,0,0,,{It's a time for you to do and experience things}Đây là thời gian để em trải nghiệm \Nnhiều thứ mà ở trường không làm được.
+Dialogue: 0,0:10:54.33,0:10:59.70,Default,,0,0,0,,{you don't usually have the chance to at school.}
+Dialogue: 0,0:11:01.83,0:11:03.00,Default,,0,0,0,,{Are you listening?}Em có nghe không vậy?
+Dialogue: 0,0:11:03.00,0:11:08.20,Default,,0,0,0,,{Don't you worry, Big Brother.}Yên tâm đi, Onii-chan. \NTrông có vẻ không giống, nhưng em thay đổi rồi đó.
+Dialogue: 0,0:11:03.00,0:11:08.20,Default,,0,0,0,,{I may not look it, but I've changed. }
+Dialogue: 0,0:11:08.20,0:11:09.08,Default,,0,0,0,,{See?}Nè?
+Dialogue: 0,0:11:09.29,0:11:15.83,Default,,0,0,0,,{I always read Jumpu, but today I got Jumpu SQUARE!}Mọi khi em đọc Jumpu, nhưng hôm nay là Jumpu SQUARE!
+Dialogue: 0,0:11:10.00,0:11:12.79,Default,,0,0,0,,{\an8}{JUMPU}
+Dialogue: 0,0:11:10.00,0:11:12.79,Default,,0,0,0,,{\an8}{Square}
+Dialogue: 0,0:11:10.00,0:11:12.79,Default,,0,0,0,,{\an4}{Yen}
+Dialogue: 0,0:11:12.79,0:11:15.83,Default,,0,0,0,,{\an8}{Square}
+Dialogue: 0,0:11:17.75,0:11:21.37,Default,,0,0,0,,{Still, I'm not so sure what "Square"}Nhưng mà, em không hiểu "Square" có ý nghĩa gì ...
+Dialogue: 0,0:11:17.75,0:11:21.37,Default,,0,0,0,,{is supposed to mean...}
+Dialogue: 0,0:11:21.75,0:11:25.75,Default,,0,0,0,,{\i1}{This is not good. I have to at least get her outside!}Thế này không được! Mình phải lôi em ấy ra ngoài bằng được!
+Dialogue: 0,0:11:27.20,0:11:28.08,Default,,0,0,0,,{\i1}{Oh, yeah...}À đúng rồi!
+Dialogue: 0,0:11:27.45,0:11:28.04,Default,,0,0,0,,{\an5}{SUMMER}
+Dialogue: 0,0:11:27.45,0:11:28.04,Default,,0,0,0,,{\an5}{FIREWORKS}
+Dialogue: 0,0:11:27.46,0:11:28.04,Default,,0,0,0,,{\an5}{FESTIVAL}
+Dialogue: 0,0:11:28.91,0:11:31.95,Default,,0,0,0,,{Umaru! There's a fireworks festival today!}Umaru! Hôm nay có lễ hội pháo hoa này!
+Dialogue: 0,0:11:29.00,0:11:35.75,Default,,0,0,0,,{\an5}{SUMMER}
+Dialogue: 0,0:11:29.00,0:11:35.75,Default,,0,0,0,,{\an5}{FIREWORKS}
+Dialogue: 0,0:11:29.00,0:11:35.75,Default,,0,0,0,,{\an5}{FESTIVAL}
+Dialogue: 0,0:11:32.16,0:11:33.16,Default,,0,0,0,,{You want to go?}Em muốn đi không?
+Dialogue: 0,0:11:33.45,0:11:35.91,Default,,0,0,0,,{There will be lots of big, beautiful fireworks!}Có nhiều pháo hoa to và đẹp đấy!
+Dialogue: 0,0:11:35.91,0:11:37.00,Default,,0,0,0,,{Huh?}Gì...
+Dialogue: 0,0:11:37.29,0:11:40.70,Default,,0,0,0,,{\i1}{The first thing is to try to get her}Điều đầu tiên cần làm lôi được em ấy đến nơi nào đó nó thích.
+Dialogue: 0,0:11:37.29,0:11:40.70,Default,,0,0,0,,{\i1}{to an event that she'd like. }
+Dialogue: 0,0:11:41.08,0:11:47.08,Default,,0,0,0,,{Nah, no thanks. There's too many people,}Khỏi đi. Đông người, nhiều côn trùng, và nóng lắm.
+Dialogue: 0,0:11:41.08,0:11:47.08,Default,,0,0,0,,{and insects, and it'll be hot.}
+Dialogue: 0,0:11:47.08,0:11:48.25,Default,,0,0,0,,{\i1}{This isn't working. }Vô vọng rồi.
+Dialogue: 0,0:11:48.62,0:11:52.33,Default,,0,0,0,,{Man, I was thinking we could buy some food}Anh định mua ít đồ ăn ở đó... Mà thôi...
+Dialogue: 0,0:11:48.62,0:11:52.33,Default,,0,0,0,,{from the stalls there...}
+Dialogue: 0,0:11:53.37,0:11:54.37,Default,,0,0,0,,{Stalls!}Quầy đồ ăn!
+Dialogue: 0,0:11:55.16,0:11:58.25,Default,,0,0,0,,{I'm not buying all that! How greedy can you be?!}Anh không mua từng đó đâu! Em nghĩ cái gì vậy?
+Dialogue: 0,0:11:58.66,0:12:01.58,Default,,0,0,0,,{This is no time for sitting around! Let's go, Big Brother!}Không còn thời gian lười biếng đâu! Đi nào Onii-chan!
+Dialogue: 0,0:12:01.58,0:12:03.45,Default,,0,0,0,,{The festival's at NIGHT!}Lễ hội vào buổi tối đó!
+Dialogue: 0,0:12:03.75,0:12:05.12,Default,,0,0,0,,{Don't sweat the small stuff.}Đừng có để ý tiểu tiết.
+Dialogue: 0,0:12:05.12,0:12:06.54,Default,,0,0,0,,{Umaruuun!}
+Dialogue: 0,0:12:05.37,0:12:06.58,Default,,0,0,0,,{\an7}{Umaruuu                                  uuuuun}
+Dialogue: 0,0:12:06.95,0:12:09.54,Default,,0,0,0,,{\i1}{She really is a different person outside...}Cứ ra ngoài là như người khác hẳn vậy ...
+Dialogue: 0,0:12:09.79,0:12:12.70,Default,,0,0,0,,{We should invite the others. Let's start with Ebina!}Rủ mọi người nữa nhé. Trước tiên là Ebina!
+Dialogue: 0,0:12:13.83,0:12:16.45,Default,,0,0,0,,{\i1}{Oh, so she wanted to go with her friends?}Tưởng gì, hóa ra cũng muốn đi cùng bạn à?
+Dialogue: 0,0:12:16.75,0:12:18.00,Default,,0,0,0,,{\an8}{FIREWORKS FESTIVAL}Pháo hoa, nên ngắm từ dưới hay bên cạnh?
+Dialogue: 0,0:12:16.75,0:12:18.00,Default,,0,0,0,,{\an5}{August 13 (Sunday)}13/8
+Dialogue: 0,0:12:16.75,0:12:18.00,Default,,0,0,0,,{\an5}{Starts at 7:00 pm!}7 giờ tối
+Dialogue: 0,0:12:17.54,0:12:18.33,Default,,0,0,0,,{Put simply...}Tức là ...
+Dialogue: 0,0:12:18.33,0:12:22.95,Default,,0,0,0,,{You invite Taihei to the fireworks festival.}Cậu sẽ mời Onii-san tới lễ hội pháo hoa. \NNó sẽ làm bầu không khí tốt lên.
+Dialogue: 0,0:12:18.33,0:12:22.95,Default,,0,0,0,,{That will create just the right mood. }
+Dialogue: 0,0:12:23.12,0:12:24.16,Default,,0,0,0,,{Fireworks?}Pháo hoa?
+Dialogue: 0,0:12:24.37,0:12:26.62,Default,,0,0,0,,{M..mood?!}T-Tâm trạng?!
+Dialogue: 0,0:12:30.16,0:12:33.04,Default,,0,0,0,,{\an4}{SUMMER}
+Dialogue: 0,0:12:30.29,0:12:31.79,Default,,0,0,0,,{Wow...}Woa ...
+Dialogue: 0,0:12:32.16,0:12:34.12,Default,,0,0,0,,{It's great, isn't it, Ebina?}Tuyệt nhỉ, Ebina?
+Dialogue: 0,0:12:33.83,0:12:38.29,Default,,0,0,0,,{\an1}{SUMMER}
+Dialogue: 0,0:12:34.62,0:12:36.08,Default,,0,0,0,,{Oh, sorry. }Anh xin lỗi.
+Dialogue: 0,0:12:36.08,0:12:38.04,Default,,0,0,0,,{I-it's fine!}K-Không sao đâu ạ.
+Dialogue: 0,0:12:41.37,0:12:43.12,Default,,0,0,0,,{N-n-no!}K-K-Không thể được!
+Dialogue: 0,0:12:43.12,0:12:45.20,Default,,0,0,0,,{That's too embarrassing!}Quá xấu hổ!
+Dialogue: 0,0:12:45.20,0:12:48.66,Default,,0,0,0,,{What are you talking about?}Cậu nói gì vậy? Chúng ta đã cùng nhau tới biển rồi mà?
+Dialogue: 0,0:12:45.20,0:12:48.66,Default,,0,0,0,,{We've already been to the beach together, right?}
+Dialogue: 0,0:12:49.83,0:12:50.62,Default,,0,0,0,,{Huh?}Hả?
+Dialogue: 0,0:12:51.75,0:12:52.79,Default,,0,0,0,,{I wonder who that is...}Ai vậy nhỉ ...
+Dialogue: 0,0:12:54.83,0:12:57.08,Default,,0,0,0,,{Taihei and Umaru!}Onii-san và Umaru ...!
+Dialogue: 0,0:12:57.08,0:13:00.37,Default,,0,0,0,,{H-hello, Umaru, Taihei. }C-Chào hai người, Onii-san, Umaru. \NKirie! Cậu tới chơi cùng Ebina à? Đúng lúc lắm.
+Dialogue: 0,0:13:00.79,0:13:08.12,Default,,0,0,0,,{Ah, Kirie. You're visiting Ebina, huh? Perfect timing.}
+Dialogue: 0,0:13:00.79,0:13:08.12,Default,,0,0,0,,{What do you say we all go to the fireworks festival?}Cùng đi lễ hội pháo hoa không?
+Dialogue: 0,0:13:09.66,0:13:11.04,Default,,0,0,0,,{\an5}{TACHIBANA}
+Dialogue: 0,0:13:11.08,0:13:14.33,Default,,0,0,0,,{The fireworks festival, you say? Of course I will go!}Lễ hội pháo hoa? Tất nhiên mình sẽ đi!
+Dialogue: 0,0:13:14.33,0:13:16.70,Default,,0,0,0,,{I'm glad. Now we can all go together!}May quá, vậy là mọi người đều đi!
+Dialogue: 0,0:13:16.70,0:13:17.54,Default,,0,0,0,,{Shba!}
+Dialogue: 0,0:13:17.54,0:13:20.16,Default,,0,0,0,,{Well, come on in, everyone. }Vậy thì, mời mọi người vào.
+Dialogue: 0,0:13:20.33,0:13:22.29,Default,,0,0,0,,{Huh? You don't want to go yet?}Ủa, cậu chưa muốn đi à?
+Dialogue: 0,0:13:22.50,0:13:25.83,Default,,0,0,0,,{There are preparations to be made! And you too, Taihei.}Có nhiều thứ để chuẩn bị đó. Cả Onii-san nữa.
+Dialogue: 0,0:13:25.83,0:13:27.12,Default,,0,0,0,,{Huh? Me?}Anh?
+Dialogue: 0,0:13:27.37,0:13:32.33,Default,,0,0,0,,{Yes, indeed! A fireworks festival}Vâng! Đi lễ hội pháo hoa tất nhiên phải mặc kimono rồi!
+Dialogue: 0,0:13:27.37,0:13:32.33,Default,,0,0,0,,{means one must wear a summer kimono!}
+Dialogue: 0,0:13:36.83,0:13:38.16,Default,,0,0,0,,{Well, let us depart!}Đi nào!
+Dialogue: 0,0:13:38.58,0:13:40.37,Default,,0,0,0,,{Yeah, let's go.}Khởi hành thôi.
+Dialogue: 0,0:13:40.37,0:13:42.00,Default,,0,0,0,,{No reaction!}Không phản ứng luôn!
+Dialogue: 0,0:13:42.54,0:13:45.12,Default,,0,0,0,,{You still have a lot to learn, Big Brother.}Onii-chan, anh còn nhiều thứ cần học lắm.
+Dialogue: 0,0:13:45.12,0:13:47.04,Default,,0,0,0,,{Huh? What are you talking about?}Hả? Em nói gì vậy?
+Dialogue: 0,0:13:47.20,0:13:51.12,Default,,0,0,0,,{\an5}{Takoyaki        GRILLED SQUID}
+Dialogue: 0,0:13:53.37,0:13:57.04,Default,,0,0,0,,{\an4}{Jumbo Franks}
+Dialogue: 0,0:13:53.37,0:13:57.04,Default,,0,0,0,,{\an5}{Chicken Skewers}
+Dialogue: 0,0:13:58.41,0:14:00.12,Default,,0,0,0,,{Indeed, the stalls!}Quầy đồ ăn!
+Dialogue: 0,0:14:00.12,0:14:03.00,Default,,0,0,0,,{\an8}{Shaved Ice}
+Dialogue: 0,0:14:00.12,0:14:03.00,Default,,0,0,0,,{\an9}{Akashiyaki}
+Dialogue: 0,0:14:00.29,0:14:01.70,Default,,0,0,0,,{There are so many!}Nhiều tiệm quá!
+Dialogue: 0,0:14:01.70,0:14:03.58,Default,,0,0,0,,{We shall visit them all!}Chúng ta nên đi hết!
+Dialogue: 0,0:14:03.00,0:14:04.54,Default,,0,0,0,,{\an8}{Shaved Ice}
+Dialogue: 0,0:14:03.00,0:14:04.54,Default,,0,0,0,,{\an7}{GRILLED SQUID}
+Dialogue: 0,0:14:03.79,0:14:05.16,Default,,0,0,0,,{What can I get you all?}Mọi người muốn ăn gì?
+Dialogue: 0,0:14:04.54,0:14:07.00,Default,,0,0,0,,{\an8}{Shaved Ice}
+Dialogue: 0,0:14:04.54,0:14:07.00,Default,,0,0,0,,{\an9}{Akashiyaki}
+Dialogue: 0,0:14:05.16,0:14:07.58,Default,,0,0,0,,{Huh?! No, I can pay for myself. }Dạ?! À không sao đâu, em có thể tự trả được.
+Dialogue: 0,0:14:07.83,0:14:09.70,Default,,0,0,0,,{You don't have to worry about that today. }Hôm nay em không cần lo đâu.
+Dialogue: 0,0:14:09.91,0:14:11.66,Default,,0,0,0,,{O-okay...}V-Vâng ...
+Dialogue: 0,0:14:11.83,0:14:13.50,Default,,0,0,0,,{\i1}{Keep it up, Ebina. }Cố lên, Ebina!
+Dialogue: 0,0:14:16.66,0:14:18.70,Default,,0,0,0,,Shbababababa!
+Dialogue: 0,0:14:18.70,0:14:20.95,Default,,0,0,0,,{\an5}{Shaved Ice}
+Dialogue: 0,0:14:24.00,0:14:25.16,Default,,0,0,0,,Shugaan!
+Dialogue: 0,0:14:24.08,0:14:25.20,Default,,0,0,0,,{\an4}{SHUGAAAAN!}
+Dialogue: 0,0:14:26.45,0:14:27.58,Default,,0,0,0,,{\an7}{GRILLED SQUID}
+Dialogue: 0,0:14:27.58,0:14:28.45,Default,,0,0,0,,{\an7}{GRILLED SQUID}
+Dialogue: 0,0:14:27.58,0:14:28.45,Default,,0,0,0,,{\an5}{FESTIVAL}
+Dialogue: 0,0:14:30.75,0:14:32.41,Default,,0,0,0,,{Okay, let's sit her and watch. }Được rồi, ngồi đây nào.
+Dialogue: 0,0:14:40.25,0:14:42.70,Default,,0,0,0,,{This is an especially large star mine, indeed!}Đẹp quá đi!
+Dialogue: 0,0:14:44.87,0:14:46.29,Default,,0,0,0,,{Amazing!}Tuyệt ghê!
+Dialogue: 0,0:14:46.29,0:14:48.08,Default,,0,0,0,,{They sure make a lot of sound, huh?}Chúng phát ra tiếng lớn nhỉ?
+Dialogue: 0,0:14:49.20,0:14:50.70,Default,,0,0,0,,{Wow...!}Tamaya...
+Dialogue: 0,0:14:50.83,0:14:52.20,Default,,0,0,0,,{So pretty.}Đẹp nhỉ?
+Dialogue: 0,0:14:52.41,0:14:54.58,Default,,0,0,0,,{Impressive fireworks, indeed!}Pháo hoa to quá!
+Dialogue: 0,0:15:01.87,0:15:04.79,Default,,0,0,0,,{\i1}{I may not look it, but I've changed.}Trông có vẻ không giống, nhưng em thay đổi rồi đó.
+Dialogue: 0,0:15:05.04,0:15:06.66,Default,,0,0,0,,{\i1}{We should invite the others.}Rủ mọi người nữa nhé.
+Dialogue: 0,0:15:07.66,0:15:09.91,Default,,0,0,0,,{\i1}{My younger sister is a "himouto," but... }Em gái tôi là "himouto", \N...có thể có những điều chưa thay đổi,
+Dialogue: 0,0:15:10.25,0:15:14.37,Default,,0,0,0,,{\i1}{while some things don't change,}
+Dialogue: 0,0:15:10.25,0:15:14.37,Default,,0,0,0,,{\i1}{little by little, some things do. }nhưng cũng có những thứ đang đổi thay.
+Dialogue: 0,0:15:17.58,0:15:19.70,Default,,0,0,0,,{Hey! Get up, Umaru.}Này, dậy đi Umaru.
+Dialogue: 0,0:15:21.00,0:15:22.16,Default,,0,0,0,,{G'morning...}Chào buổi sáng ...
+Dialogue: 0,0:15:22.41,0:15:26.41,Default,,0,0,0,,{It's time to go to school. Summer vacation's over. }Tới giờ đi học rồi đó. Hết kỳ nghỉ hè rồi.
+Dialogue: 0,0:15:26.95,0:15:28.62,Default,,0,0,0,,{Don't keep Ebina waiting. }Đừng bắt Ebina chờ đó.
+Dialogue: 0,0:15:28.62,0:15:31.62,Default,,0,0,0,,{Huh? Do you have the day off today?}Ủa? Hôm nay anh nghỉ hả?
+Dialogue: 0,0:15:31.87,0:15:34.91,Default,,0,0,0,,{Yeah, to make up for lost vacation time. }Ừm. Kì nghỉ trước không nghỉ mà.
+Dialogue: 0,0:15:34.91,0:15:36.58,Default,,0,0,0,,{Are you gonna go somewhere?}Anh định đi đâu hả?
+Dialogue: 0,0:15:36.58,0:15:39.91,Default,,0,0,0,,{Hmm... to go buy groceries, I guess. }Hmmm ... Chắc là đi mua đồ.
+Dialogue: 0,0:15:39.91,0:15:42.70,Default,,0,0,0,,{Ah! Then buy some potato chips!}Vậy mua cho em khoai tây chiên nhé!
+Dialogue: 0,0:15:43.20,0:15:44.33,Default,,0,0,0,,{Yeah, sure. }Được thôi.
+Dialogue: 0,0:15:45.37,0:15:47.45,Default,,0,0,0,,{Thanks, Big Brother!}Cảm ơn anh, Onii-chan!
+Dialogue: 0,0:15:50.12,0:15:51.79,Default,,0,0,0,,{It's lunchtime!}Ăn trưa nào!
+Dialogue: 0,0:15:51.79,0:15:53.54,Default,,0,0,0,,{And we shall all eat together!}Chúng ta cùng nhau ăn thôi!
+Dialogue: 0,0:15:53.75,0:15:57.95,Default,,0,0,0,,{Oh, Umaru, the teacher was looking for you earlier. }À, lúc nãy giáo viên tìm cậu đó, Umaru.
+Dialogue: 0,0:15:57.95,0:15:59.83,Default,,0,0,0,,{Huh? What for?}Ủa? Làm gì vậy?
+Dialogue: 0,0:15:59.83,0:16:02.87,Default,,0,0,0,,{To give you your certificate from that awards ceremony.}Để đưa giấy chứng nhận trong buổi lễ hôm trước đó.
+Dialogue: 0,0:16:02.87,0:16:06.41,Default,,0,0,0,,{Oh, yeah. It always takes a while}À. Phải mất một thời gian để thực sự nhận được nó nhỉ?
+Dialogue: 0,0:16:02.87,0:16:06.41,Default,,0,0,0,,{to actually get your award, huh?}
+Dialogue: 0,0:16:07.33,0:16:10.16,Default,,0,0,0,,{It's been on display in front}Thực ra nó đã được trưng bày \Nở văn phòng giáo viên suốt lâu nay đó.
+Dialogue: 0,0:16:07.33,0:16:10.16,Default,,0,0,0,,{of the staff office this whole time. }
+Dialogue: 0,0:16:10.50,0:16:15.83,Default,,0,0,0,,{I heard that the last time two people got awards}Mình nghe nói lần trao giải trước đã được 10 năm rồi đó!
+Dialogue: 0,0:16:10.50,0:16:15.83,Default,,0,0,0,,{at the same time was 10 years ago!}
+Dialogue: 0,0:16:16.12,0:16:20.70,Default,,0,0,0,,{Hm? 10 years ago? That might have been my brother. }10 năm ... Có lẽ là thời của Onii-chan đó.
+Dialogue: 0,0:16:20.70,0:16:21.62,Default,,0,0,0,,{Huh?!}Hả?!
+Dialogue: 0,0:16:21.87,0:16:24.54,Default,,0,0,0,,{Apparently, he always had}Thời đó, anh ấy luôn có thành tích đứng hạng đầu trong trường.
+Dialogue: 0,0:16:21.87,0:16:24.54,Default,,0,0,0,,{the top grades in his school year.  }
+Dialogue: 0,0:16:24.95,0:16:25.95,Default,,0,0,0,,{\i1}{That's what Bomba said. }Bomba nói vậy.
+Dialogue: 0,0:16:26.20,0:16:28.33,Default,,0,0,0,,{\i1}{This brother and sister have some impressive specs!}Cặp anh em này giỏi quá!
+Dialogue: 0,0:16:28.33,0:16:31.41,Default,,0,0,0,,{Oh, really? Your brother is amazing!}Ra là vậy! Onii-san giỏi thật!
+Dialogue: 0,0:16:31.91,0:16:35.20,Default,,0,0,0,,{I like Umaru's brother, indeed!}Mình thích Onii-san rồi đó!
+Dialogue: 0,0:16:37.00,0:16:40.50,Default,,0,0,0,,{\an8}{Bread Day}
+Dialogue: 0,0:16:37.41,0:16:40.41,Default,,0,0,0,,{\i1}{This bread is cheap! Maybe I'll make cream stew today.}Bánh mì rẻ quá! Mình sẽ làm sốt kem hầm!
+Dialogue: 0,0:16:40.95,0:16:42.87,Default,,0,0,0,,{After all, he is SO kind-hearted!}Dù sao, anh ấy cũng rất tốt bụng!
+Dialogue: 0,0:16:43.08,0:16:47.70,Default,,0,0,0,,{He brought souvenirs and bought us}Hay tặng quà cho chúng ta cũng như mua nhiều thứ ở lễ hội!
+Dialogue: 0,0:16:43.08,0:16:47.70,Default,,0,0,0,,{so many things at the festival!}
+Dialogue: 0,0:16:45.12,0:16:46.37,Default,,0,0,0,,{\an5}{Shaved Ice}
+Dialogue: 0,0:16:47.70,0:16:49.12,Default,,0,0,0,,{\i1}{That was a shock!}May quá!
+Dialogue: 0,0:16:49.41,0:16:52.75,Default,,0,0,0,,{What's more, he's kind}Hơn nữa, anh ấy tốt bụng và luôn làm mình cảm thấy ấm áp.
+Dialogue: 0,0:16:49.41,0:16:52.75,Default,,0,0,0,,{and makes you feel at ease somehow.  }
+Dialogue: 0,0:16:52.91,0:16:55.66,Default,,0,0,0,,{Yes. That he does...}Ừm. Đúng là vậy ...
+Dialogue: 0,0:17:03.41,0:17:08.62,Default,,0,0,0,,{Ah! No, Ebina, I was just thinking,}Ah! Mình chỉ đang nghĩ là muốn có anh trai như vậy!
+Dialogue: 0,0:17:03.41,0:17:08.62,Default,,0,0,0,,{I'd like a brother like that!}
+Dialogue: 0,0:17:09.45,0:17:10.79,Default,,0,0,0,,{Y-yeah. }Ư-Ừm.
+Dialogue: 0,0:17:11.08,0:17:12.95,Default,,0,0,0,,{Really, that's all!}Thật đó!
+Dialogue: 0,0:17:12.95,0:17:14.16,Default,,0,0,0,,{Y-yeah!}Ư-Ừm.
+Dialogue: 0,0:17:17.12,0:17:20.62,Default,,0,0,0,,{I have to go to the principal's office,}Mình phải đến phòng hiệu trưởng,\N nên các cậu cứ về trước đi nhé.
+Dialogue: 0,0:17:17.12,0:17:20.62,Default,,0,0,0,,{so you all go on ahead.}
+Dialogue: 0,0:17:21.00,0:17:22.54,Default,,0,0,0,,{Very well!}Mình biết rồi.
+Dialogue: 0,0:17:22.54,0:17:24.83,Default,,0,0,0,,{Okay. See you later, Umaru. }Ừm. Mai gặp nhé, Umaru.
+Dialogue: 0,0:17:25.00,0:17:27.12,Default,,0,0,0,,{U-until tomorrow. }H-Hẹn mai gặp lại.
+Dialogue: 0,0:17:28.00,0:17:29.04,Default,,0,0,0,,{\an5}{PRINCIPAL'S OFFICE}
+Dialogue: 0,0:17:29.25,0:17:31.91,Default,,0,0,0,,{Taihei Doma sure was something else. }Doma Taihei cũng rất giỏi.
+Dialogue: 0,0:17:32.12,0:17:34.33,Default,,0,0,0,,{"Taihei the Demon," they called him. }"Quỷ dữ Taihei", đó là cách mọi người gọi em ấy.
+Dialogue: 0,0:17:34.83,0:17:38.54,Default,,0,0,0,,{Takes you back, doesn't it? He was an excellent student.}Hoài niệm nhỉ? Em ấy là học sinh rất giỏi.
+Dialogue: 0,0:17:40.54,0:17:42.41,Default,,0,0,0,,{Your brother is amazing!}Onii-san ấn tượng nhỉ?
+Dialogue: 0,0:17:42.75,0:17:45.58,Default,,0,0,0,,{I like Umaru's brother, indeed!}Mình thích Onii-san rồi!
+Dialogue: 0,0:17:46.04,0:17:47.62,Default,,0,0,0,,{And makes you feel at ease somehow.  }Anh ấy giúp mình cảm thấy yên tâm.
+Dialogue: 0,0:17:47.62,0:17:49.75,Default,,0,0,0,,{He was an excellent student.}Em ấy là học sinh rất giỏi.
+Dialogue: 0,0:18:03.12,0:18:04.08,Default,,0,0,0,,{Big Brother!}Onii-chan!
+Dialogue: 0,0:18:04.50,0:18:06.50,Default,,0,0,0,,{\i1}{Looks like he's just come back from shopping. }Có vẻ anh ấy vừa đi mua đồ về.
+Dialogue: 0,0:18:07.00,0:18:09.33,Default,,0,0,0,,{\i1}{I know! I'll scare him from behind!}Biết rồi! Hãy làm anh ấy giật mình!
+Dialogue: 0,0:18:10.12,0:18:12.45,Default,,0,0,0,,{\i1}{This is sure to give him a shock!}Cái này sẽ làm anh ấy bất ngờ!
+Dialogue: 0,0:18:13.75,0:18:14.87,Default,,0,0,0,,{\i1}{Here goes!}Được rồi!
+Dialogue: 0,0:18:15.25,0:18:17.29,Default,,0,0,0,,{Biiig Brothe-!}Onii-cha...
+Dialogue: 0,0:18:21.33,0:18:24.08,Default,,0,0,0,,{\an4}{Yoshida}
+Dialogue: 0,0:18:21.33,0:18:24.08,Default,,0,0,0,,{\an4}{Co-Op}
+Dialogue: 0,0:18:21.33,0:18:24.08,Default,,0,0,0,,{\an4}{Residents}
+Dialogue: 0,0:18:21.33,0:18:24.08,Default,,0,0,0,,{\an4}{Wanted!}
+Dialogue: 0,0:18:22.29,0:18:23.45,Default,,0,0,0,,{Big Brother!}Onii-chan!
+Dialogue: 0,0:18:23.45,0:18:24.08,Default,,0,0,0,,{Huh?!}
+Dialogue: 0,0:18:27.08,0:18:29.75,Default,,0,0,0,,{Um, I think you've got the wrong person...}À ... anh nghĩ em nhầm người rồi ...
+Dialogue: 0,0:18:30.66,0:18:31.37,Default,,0,0,0,,{Huh?}Ủa?
+Dialogue: 0,0:18:31.58,0:18:33.41,Default,,0,0,0,,{B-Big Brother?}O-Onii-chan?
+Dialogue: 0,0:18:33.41,0:18:35.20,Default,,0,0,0,,{Oh, Umaru. Welcome back. }Umaru. Về rồi à.
+Dialogue: 0,0:18:38.70,0:18:42.20,Default,,0,0,0,,{Huh? I feel like I've seen this girl somewhere before...}Ủa? Mình có cảm giác đã thấy cậu ấy ở đâu ...
+Dialogue: 0,0:18:43.41,0:18:46.75,Default,,0,0,0,,{\i1}{That's it, at the awards ceremony.}À đúng rồi, lễ trao giải! Cậu ấy từ lớp Nâng cao.
+Dialogue: 0,0:18:43.41,0:18:46.75,Default,,0,0,0,,{\i1}{She's the girl from the AP class.}
+Dialogue: 0,0:18:46.87,0:18:49.87,Default,,0,0,0,,{Oh, I see. She's a friend of yours, huh?}Ra là bạn của em, Umaru.
+Dialogue: 0,0:18:49.87,0:18:53.91,Default,,0,0,0,,{W-well, we go to the same school}À, chúng em cùng học một trường,\N nhưng không gọi là bạn được ...
+Dialogue: 0,0:18:49.87,0:18:53.91,Default,,0,0,0,,{but I wouldn't say we're friends...}
+Dialogue: 0,0:18:54.54,0:18:58.12,Default,,0,0,0,,{I don't like the outdoors... I want to go inside!}Em ghét ở ngoài ... Em muốn vào trong!
+Dialogue: 0,0:18:58.12,0:18:59.91,Default,,0,0,0,,{Oh. You want to come in?}Em muốn vào à?
+Dialogue: 0,0:18:59.91,0:19:00.70,Default,,0,0,0,,{Huh?!}Hả?!
+Dialogue: 0,0:19:03.12,0:19:04.75,Default,,0,0,0,,{Just make yourself at home. }Cứ tự nhiên nhé.
+Dialogue: 0,0:19:09.20,0:19:13.04,Default,,0,0,0,,{U-um, your name is Kongo, isn't it?}... Kongo nhỉ?
+Dialogue: 0,0:19:13.04,0:19:14.45,Default,,0,0,0,,{What brings you over today?}Hôm nay cậu tới đây làm gì vậy?
+Dialogue: 0,0:19:14.45,0:19:16.45,Default,,0,0,0,,{This is the first time we've talked, isn't it?}Cơ mà đây là lần đầu chúng ta nói chuyện nhỉ?
+Dialogue: 0,0:19:16.95,0:19:19.70,Default,,0,0,0,,{There's no need to keep up appearances,}Không cần như vậy đâu, cứ lười biếng như mọi khi đi.
+Dialogue: 0,0:19:16.95,0:19:19.70,Default,,0,0,0,,{so just lounge around as always. }
+Dialogue: 0,0:19:19.70,0:19:20.66,Default,,0,0,0,,{Huh?}Hể?
+Dialogue: 0,0:19:21.41,0:19:24.87,Default,,0,0,0,,{\i1}{Gah! She knows about me!}Hả?! Cậu ấy biết về Umaru!
+Dialogue: 0,0:19:25.50,0:19:27.41,Default,,0,0,0,,{\i1}{Sensei is always lounging around. }Sensei luôn lười biếng.
+Dialogue: 0,0:19:27.62,0:19:29.16,Default,,0,0,0,,{\i1}{Always lounging...}Luôn lười biếng ...
+Dialogue: 0,0:19:29.25,0:19:31.54,Default,,0,0,0,,{\i1}{Wh-who is this girl?}C-Cậu ấy là ai?
+Dialogue: 0,0:19:31.54,0:19:35.45,Default,,0,0,0,,{\i1}{I've never even talked to her before,}Mình còn chưa từng nói chuyện với cậu ấy \Nnhưng vừa nãy đã bám lấy Onii-chan rồi?!
+Dialogue: 0,0:19:31.54,0:19:35.45,Default,,0,0,0,,{\i1}{but she's fixated on Big Brother...  }
+Dialogue: 0,0:19:35.45,0:19:37.25,Default,,0,0,0,,{\i1}{She's way too mysterious!}Cậu ấy quá bí ẩn!
+Dialogue: 0,0:19:37.54,0:19:40.62,Default,,0,0,0,,{Big Brother is MY big brother. }Onii-chan là của Hikari!
+Dialogue: 0,0:19:40.62,0:19:41.50,Default,,0,0,0,,{Huh?}Hể...
+Dialogue: 0,0:19:41.66,0:19:44.00,Default,,0,0,0,,{He's my big brother. }Là Onii-chan của Hikari.
+Dialogue: 0,0:19:45.04,0:19:46.58,Default,,0,0,0,,{\i1}{I do feel like I know her from somewhere...}Đúng là mình đã từng gặp cậu ấy ở đâu đó ...
+Dialogue: 0,0:19:46.83,0:19:49.25,Default,,0,0,0,,{I heated up some bread. Would you like some?}Anh có nướng chút bánh mỳ này. Em muốn ăn không?
+Dialogue: 0,0:19:54.54,0:19:55.75,Default,,0,0,0,,{Thanks very much. }Em cảm ơn.
+Dialogue: 0,0:19:56.95,0:19:59.66,Default,,0,0,0,,{Ah! My bread!}Aaaaaaa! Bánh của Umaru!
+Dialogue: 0,0:19:59.87,0:20:03.08,Default,,0,0,0,,{What is it, Umaru? Ah! You've eaten it already?}Sao vậy Umaru? Em đã ăn hết rồi à?
+Dialogue: 0,0:20:03.08,0:20:06.41,Default,,0,0,0,,{This girl ate it all! In, like, a second!}Cậu ấy ăn hết rồi! Trong chốc lát!
+Dialogue: 0,0:20:07.50,0:20:10.87,Default,,0,0,0,,{There's no way a little girl like this}Không đời nào cô nhóc này có thể làm vậy chứ?
+Dialogue: 0,0:20:10.87,0:20:12.70,Default,,0,0,0,,{It's true!}Thật đó!
+Dialogue: 0,0:20:15.29,0:20:17.25,Default,,0,0,0,,{H-Hikari?}H-Hikari?
+Dialogue: 0,0:20:18.33,0:20:20.00,Default,,0,0,0,,{It is! It's Hikari!}Đúng rồi! Là Hikari!
+Dialogue: 0,0:20:20.41,0:20:24.66,Default,,0,0,0,,{You're Kanau's younger sister, aren't you?}Em là em gái của Kanau đúng không Hikari?
+Dialogue: 0,0:20:20.41,0:20:24.66,Default,,0,0,0,,{You sure have gotten bigger! } Em lớn quá rồi đó!
+Dialogue: 0,0:20:24.66,0:20:26.91,Default,,0,0,0,,{Huh? You know her!}Hể?! Người quen của Onii-chan?!
+Dialogue: 0,0:20:26.91,0:20:29.83,Default,,0,0,0,,{You remember that girl}Em có nhớ cô gái gặp hồi đi Hanamatsu không?
+Dialogue: 0,0:20:26.91,0:20:29.83,Default,,0,0,0,,{from when we went to Hamamatsu?}
+Dialogue: 0,0:20:29.83,0:20:31.29,Default,,0,0,0,,{That was my boss, Kanau. }Đó là sếp của anh, Kanau.
+Dialogue: 0,0:20:31.62,0:20:34.12,Default,,0,0,0,,{And Hikari is her younger sister. }Hikari là em gái của Kanau.
+Dialogue: 0,0:20:34.54,0:20:37.37,Default,,0,0,0,,{It's been a REALLY long time since I've seen her,}Đã quá lâu kể từ lần cuối anh gặp em ấy, nhưng giờ anh đã nhớ ra.
+Dialogue: 0,0:20:34.54,0:20:37.37,Default,,0,0,0,,{but I remember now. }
+Dialogue: 0,0:20:37.70,0:20:39.91,Default,,0,0,0,,{B-Big Brother...}O-Onii-chan ...
+Dialogue: 0,0:20:40.08,0:20:44.00,Default,,0,0,0,,{No, no, no, no, no no no! That's MY big brother! }Không, không, không, không, không. \NLà Onii-chan của Umaru.
+Dialogue: 0,0:20:47.00,0:20:49.00,Default,,0,0,0,,{Well, I'll be leaving now. }Hikari xin phép về.
+Dialogue: 0,0:20:49.54,0:20:51.66,Default,,0,0,0,,{Will you be okay? Do you want me to walk you back?}Em sẽ ổn chứ? Có cần anh về cùng không?
+Dialogue: 0,0:20:51.66,0:20:52.87,Default,,0,0,0,,{No, I'll be fine.  }Không sao đâu ạ.
+Dialogue: 0,0:20:52.87,0:20:55.20,Default,,0,0,0,,{I've got some cream stew that will be ready soon...}Sốt kem hầm sắp sẵn sàng rồi, ...
+Dialogue: 0,0:20:56.20,0:20:58.29,Default,,0,0,0,,{I-I'll come back again sometime.}E-Em sẽ quay lại ạ!
+Dialogue: 0,0:20:58.29,0:20:59.54,Default,,0,0,0,,{You will?!}Cậu sẽ quay lại?!
+Dialogue: 0,0:21:00.08,0:21:02.00,Default,,0,0,0,,{B-bye.}V-Vậy em xin phép.
+Dialogue: 0,0:21:02.00,0:21:02.58,Default,,0,0,0,,{Yeah.}Ừm.
+Dialogue: 0,0:21:02.95,0:21:04.37,Default,,0,0,0,,{Say hi to Kanau for me. }Chào Kanau giúp anh nhé.
+Dialogue: 0,0:21:04.37,0:21:05.29,Default,,0,0,0,,{I will. }Vâng.
+Dialogue: 0,0:21:23.08,0:21:24.95,Default,,0,0,0,,{\i1}{It is! It's Hikari!}Đúng rồi! Là Hikari!
+Dialogue: 0,0:21:37.16,0:21:39.62,Default,,0,0,0,,{Why does she call you "Big Brother"?}Tại sao cậu ấy lại gọi anh là Onii-chan?
+Dialogue: 0,0:21:39.62,0:21:42.41,Default,,0,0,0,,{I'm not sure... she did used to call me that, though. }Anh chịu ... từ xưa em ấy đã gọi như vậy rồi.
+Dialogue: 0,0:21:42.75,0:21:44.95,Default,,0,0,0,,{He's my big brother. }Onii-chan của Hikari.
+Dialogue: 0,0:21:45.66,0:21:47.91,Default,,0,0,0,,{Why did she suddenly show up today?}Sao cậu ấy đột nhiên tới vậy?
+Dialogue: 0,0:21:47.91,0:21:50.12,Default,,0,0,0,,{Huh? To hang out with you, right?}Ủa? Để tới chơi với em đúng không?
+Dialogue: 0,0:21:50.12,0:21:54.12,Default,,0,0,0,,{I've never hung out with her! That girl's just fishy!}E-Em chưa chơi chung bao giờ! Cậu ta quá đáng ngờ!
+Dialogue: 0,0:21:56.33,0:21:58.08,Default,,0,0,0,,{Okay, let’s start with warmups!}
+Dialogue: 0,0:21:58.45,0:22:00.91,Default,,0,0,0,,{Stretch your hands out straight and shake them around}
+Dialogue: 0,0:22:00.91,0:22:02.75,Default,,0,0,0,,{Here we go! Starting from the right}
+Dialogue: 0,0:22:02.95,0:22:03.75,Default,,0,0,0,,{One, two!}
+Dialogue: 0,0:22:03.75,0:22:06.04,Default,,0,0,0,,Puura puraa, puura puraa, puura puraa puuraa
+Dialogue: 0,0:22:06.04,0:22:06.58,Default,,0,0,0,,{\an5}{Left!}
+Dialogue: 0,0:22:06.04,0:22:06.58,Default,,0,0,0,,Puura puraa, puura puraa, puura puraa puuraa
+Dialogue: 0,0:22:06.04,0:22:06.58,Default,,0,0,0,,{Shake, shake, shake-shake-shake, shake}
+Dialogue: 0,0:22:06.58,0:22:08.83,Default,,0,0,0,,Puura puraa, puura puraa, puura puraa puuraa
+Dialogue: 0,0:22:06.58,0:22:08.83,Default,,0,0,0,,{Shake, shake, shake-shake-shake, shake}
+Dialogue: 0,0:22:08.83,0:22:09.33,Default,,0,0,0,,{\an5}{Right!}
+Dialogue: 0,0:22:08.83,0:22:09.33,Default,,0,0,0,,Puura puraa, puura puraa, puura puraa puuraa
+Dialogue: 0,0:22:08.83,0:22:09.33,Default,,0,0,0,,{Shake, shake, shake-shake-shake, shake}
+Dialogue: 0,0:22:09.33,0:22:11.62,Default,,0,0,0,,Puura puraa, puura puraa, puura puraa puuraa
+Dialogue: 0,0:22:09.33,0:22:11.62,Default,,0,0,0,,{Shake, shake, shake-shake-shake, shake}
+Dialogue: 0,0:22:11.62,0:22:12.16,Default,,0,0,0,,{\an5}{Left!}
+Dialogue: 0,0:22:11.62,0:22:12.16,Default,,0,0,0,,Puura puraa, puura puraa, puura puraa puuraa
+Dialogue: 0,0:22:11.62,0:22:12.16,Default,,0,0,0,,{Shake, shake, shake-shake-shake, shake}
+Dialogue: 0,0:22:12.16,0:22:15.16,Default,,0,0,0,,Puura puraa, puura puraa, puura puraa de yatte ikou!
+Dialogue: 0,0:22:12.16,0:22:15.16,Default,,0,0,0,,{Shake, shake, shake-shake-shake, and let's go!}
+Dialogue: 0,0:22:25.70,0:22:29.12,Default,,0,0,0,,Sore ja, mazu wa kou shite, hamster no pose
+Dialogue: 0,0:22:25.70,0:22:29.12,Default,,0,0,0,,{Well, let's start of with this, the Hamster Pose}
+Dialogue: 0,0:22:29.12,0:22:31.91,Default,,0,0,0,,Hamu! Hamu! Ah, hamu hamu hamu hamu!
+Dialogue: 0,0:22:29.12,0:22:31.91,Default,,0,0,0,,{Ham! Ham! Ah, ham, ham, ham-ham!}
+Dialogue: 0,0:22:32.12,0:22:34.79,Default,,0,0,0,,Tsugi wa kime-pose. Saa, ikimasu wa yo?
+Dialogue: 0,0:22:32.12,0:22:34.79,Default,,0,0,0,,{Next up, my signature pose. Here I go, indeed!}
+Dialogue: 0,0:22:34.79,0:22:37.83,Default,,0,0,0,,Shbafeen! Shbafeen! Shba-shbafeen!
+Dialogue: 0,0:22:37.83,0:22:42.45,Default,,0,0,0,,Higoro no kinchou o hogusu you ni
+Dialogue: 0,0:22:37.83,0:22:42.45,Default,,0,0,0,,{To get rid of the stress of everyday life}
+Dialogue: 0,0:22:42.45,0:22:45.16,Default,,0,0,0,,Hyoujou, yurumete
+Dialogue: 0,0:22:42.45,0:22:45.16,Default,,0,0,0,,{Turn that frown upside-down}
+Dialogue: 0,0:22:45.16,0:22:48.91,Default,,0,0,0,,Zenshin, chikara o nuite
+Dialogue: 0,0:22:45.16,0:22:48.91,Default,,0,0,0,,{Let your whole body relax}
+Dialogue: 0,0:22:48.91,0:22:51.75,Default,,0,0,0,,Daradaradaradaradaradaradaradara...
+Dialogue: 0,0:22:48.91,0:22:51.75,Default,,0,0,0,,{Just lounge and lounge and lounge and lounge...}
+Dialogue: 0,0:22:51.75,0:22:53.16,Default,,0,0,0,,Daradarakara no...
+Dialogue: 0,0:22:51.75,0:22:53.16,Default,,0,0,0,,{And from the lounging comes...}
+Dialogue: 0,0:22:53.16,0:22:53.83,Default,,0,0,0,,Umaruuun!
+Dialogue: 0,0:22:53.83,0:22:59.66,Default,,0,0,0,,See no! Ne! Ne! Ne! Shiawase no hiketsu, sore wa egao desho?
+Dialogue: 0,0:22:53.83,0:22:59.66,Default,,0,0,0,,{Here goes! Hey! Hey! Hey! Smiling is the key to happiness, right?}
+Dialogue: 0,0:22:59.66,0:23:00.29,Default,,0,0,0,,{\an5}{(Yay!)}
+Dialogue: 0,0:22:59.66,0:23:00.29,Default,,0,0,0,,See no! Ne! Ne! Ne! Shiawase no hiketsu, sore wa egao desho?
+Dialogue: 0,0:22:59.66,0:23:00.29,Default,,0,0,0,,{Here goes! Hey! Hey! Hey! Smiling is the key to happiness, right?}
+Dialogue: 0,0:23:00.29,0:23:06.29,Default,,0,0,0,,{\an5}Ne! Ne! Ne! Tama ni wa ne, oniichan mo boutto minaide sa
+Dialogue: 0,0:23:00.29,0:23:06.29,Default,,0,0,0,,{Hey! Hey! Hey! Don't always}
+Dialogue: 0,0:23:00.29,0:23:06.29,Default,,0,0,0,,{just stand there spacing out, Big Brother}
+Dialogue: 0,0:23:06.50,0:23:10.83,Default,,0,0,0,,Kou shite issho ni odorou yo
+Dialogue: 0,0:23:06.50,0:23:10.83,Default,,0,0,0,,{Let's dance together, like THIS}
+Dialogue: 0,0:23:11.08,0:23:15.79,Default,,0,0,0,,Tanoshiku nai? Tanoshiku naku naku nai?
+Dialogue: 0,0:23:11.08,0:23:15.79,Default,,0,0,0,,{It's fun, right? It's not NOT fun, right?}
+Dialogue: 0,0:23:15.87,0:23:17.16,Default,,0,0,0,,{And finally, one more time!}
+Dialogue: 0,0:23:17.16,0:23:19.41,Default,,0,0,0,,Puura puraa, puura puraa, puura puraa puuraa
+Dialogue: 0,0:23:17.16,0:23:19.41,Default,,0,0,0,,{Shake, shake, shake-shake-shake, shake}
+Dialogue: 0,0:23:19.41,0:23:20.04,Default,,0,0,0,,{\an5}{Last one!}
+Dialogue: 0,0:23:19.41,0:23:20.04,Default,,0,0,0,,Puura puraa, puura puraa, puura puraa puuraa
+Dialogue: 0,0:23:19.41,0:23:20.04,Default,,0,0,0,,{Shake, shake, shake-shake-shake, shake}
+Dialogue: 0,0:23:20.04,0:23:23.45,Default,,0,0,0,,Puura puraa, puura puraa, puura puraa de yatte ikou!
+Dialogue: 0,0:23:20.04,0:23:23.45,Default,,0,0,0,,{Shake, shake, shake-shake-shake, and let's go!}
+Dialogue: 0,0:23:25.95,0:23:26.75,Default,,0,0,0,,{\an7}{Next Episode}
+Dialogue: 0,0:23:25.95,0:23:26.75,Default,,0,0,0,,{\an7}{Preview}
+Dialogue: 0,0:23:26.75,0:23:40.95,Default,,0,0,0,,{\an7}{Next Episode}
+Dialogue: 0,0:23:26.75,0:23:40.95,Default,,0,0,0,,{\an7}{Preview}
+Dialogue: 0,0:23:26.75,0:23:40.95,Default,,0,0,0,,{\an5}{Episode 9: Himouto and Memories}
+Dialogue: 0,0:23:26.79,0:23:31.12,Default,,0,0,0,,{It had been so long since I'd seen my big brother}Đã đâu lắm rồi  chưa gặp Onii-chan, em vui lắm!
+Dialogue: 0,0:23:26.79,0:23:31.12,Default,,0,0,0,,{and we were able to talk. I'm so happy!}
+Dialogue: 0,0:23:31.12,0:23:34.25,Default,,0,0,0,,{No, no, no! Like I said, he's MY big brother! }Không không, đã bảo là Onii-chan của Umaru mà!
+Dialogue: 0,0:23:34.37,0:23:38.29,Default,,0,0,0,,{If you're determined to call him that, though,}Nếu cậu cứ khăng khăng như vậy, gọi mình là Onee-chan đi!
+Dialogue: 0,0:23:34.37,0:23:38.29,Default,,0,0,0,,{then you can call me "Big Sis"!}
+Dialogue: 0,0:23:38.29,0:23:38.95,Default,,0,0,0,,{I refuse. }Không thích.
+Dialogue: 0,0:23:38.95,0:23:39.91,Default,,0,0,0,,{That was fast!}Nhanh vậy?!

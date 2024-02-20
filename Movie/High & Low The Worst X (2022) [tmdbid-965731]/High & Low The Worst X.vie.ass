@@ -1,0 +1,1222 @@
+[Script Info]
+; This is an Advanced Sub Station Alpha v4+ script.
+Title:
+ScriptType: v4.00+
+PlayDepth: 0
+ScaledBorderAndShadow: Yes
+PlayResX: 1920
+PlayResY: 1080
+
+[V4+ Styles]
+Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
+Style: Default,Noto Sans,80.0,&H00FFFFFF,&H000000FF,&H00002208,&H00000000,-1,0,0,0,100,100,0,0,1,3.0,2.0,2,0,0,65,1
+
+[Events]
+Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
+Dialogue: 0,0:00:43.03,0:00:44.28,Default,,0,0,0,,Ngay lúc sinh ra,
+Dialogue: 0,0:00:44.87,0:00:46.87,Default,,0,0,0,,con người đã được phân định…
+Dialogue: 0,0:00:54.34,0:00:55.84,Default,,0,0,0,,là người đứng trên
+Dialogue: 0,0:00:56.63,0:00:58.13,Default,,0,0,0,,hay kẻ đứng dưới rồi.
+Dialogue: 0,0:01:00.59,0:01:02.34,Default,,0,0,0,,Chỉ có hai loại người đó thôi.
+Dialogue: 0,0:01:03.72,0:01:04.55,Default,,0,0,0,,Này!
+Dialogue: 0,0:01:07.06,0:01:08.02,Default,,0,0,0,,Bộ bị câm à?
+Dialogue: 0,0:01:11.44,0:01:13.28,Default,,0,0,0,,SUZAKI RYO\NNĂM 3, KỸ THUẬT SENOMON
+Dialogue: 0,0:01:13.36,0:01:14.90,Default,,0,0,0,,Nhớ tao nói gì không?
+Dialogue: 0,0:01:14.98,0:01:17.27,Default,,0,0,0,,Mày mà không theo bọn tao\Nthì sẽ bị xử đẹp.
+Dialogue: 0,0:01:18.32,0:01:20.32,Default,,0,0,0,,AMAGAI KOHEI\NNĂM 3, KỸ THUẬT SENOMON
+Dialogue: 0,0:01:23.20,0:01:25.20,Default,,0,0,0,,SABO AMAHISA (SABOTEN)\NNĂM 3, KỸ THUẬT SENOMON
+Dialogue: 0,0:01:26.70,0:01:27.53,Default,,0,0,0,,Đi thôi.
+Dialogue: 0,0:01:45.35,0:01:46.77,Default,,0,0,0,,HIMURO REIJI\NNĂM 3, KAMASAKA
+Dialogue: 0,0:01:47.97,0:01:49.22,Default,,0,0,0,,IWATSUGU KAZUSHI (GANDHI)\NNĂM 3, KAMASAKA
+Dialogue: 0,0:02:16.38,0:02:17.67,Default,,0,0,0,,Cho bọn nó biết tay đi!
+Dialogue: 0,0:02:44.53,0:02:45.82,Default,,0,0,0,,{\an8}SAMEOKA SHOJI\NNĂM 3, EBARA
+Dialogue: 0,0:02:45.91,0:02:47.41,Default,,0,0,0,,{\an8}KAZAMI JIN (PHONG THẦN)\NNĂM 3, EBARA
+Dialogue: 0,0:02:47.49,0:02:49.37,Default,,0,0,0,,{\an8}UENARI MASATO (LÔI THẦN)\NNĂM 3, EBARA
+Dialogue: 0,0:04:14.12,0:04:19.88,Default,,0,0,0,,HANAOKA FUJIO\NNĂM 3, OYA
+Dialogue: 0,0:04:23.21,0:04:27.97,Default,,0,0,0,,TRƯỜNG NAM SINH SUZURAN
+Dialogue: 0,0:05:00.08,0:05:01.50,Default,,0,0,0,,SUZURAN
+Dialogue: 0,0:05:32.36,0:05:33.24,Default,,0,0,0,,Cho hỏi!
+Dialogue: 0,0:05:36.91,0:05:38.33,Default,,0,0,0,,Rao có ở đây không?
+Dialogue: 0,0:05:41.46,0:05:42.54,Default,,0,0,0,,Anh là thằng nào?
+Dialogue: 0,0:05:44.42,0:05:47.30,Default,,0,0,0,,Tôi là Hanaoka Fujio,\Nhọc sinh năm ba tại Trung học Oya.
+Dialogue: 0,0:05:51.01,0:05:52.22,Default,,0,0,0,,Trung học Oya?
+Dialogue: 0,0:06:03.69,0:06:06.90,Default,,0,0,0,,Cậu có biết mình đang ở đâu không?
+Dialogue: 0,0:06:12.07,0:06:12.91,Default,,0,0,0,,Tôi biết!
+Dialogue: 0,0:06:13.66,0:06:14.58,Default,,0,0,0,,Là Suzuran nhỉ?
+Dialogue: 0,0:06:53.78,0:06:55.53,Default,,0,0,0,,Hắn là của tôi.
+Dialogue: 0,0:07:06.58,0:07:08.87,Default,,0,0,0,,- Chỉ có thế thôi à, Binzo?\N- Để tôi xử hắn cho!
+Dialogue: 0,0:07:11.30,0:07:12.80,Default,,0,0,0,,Hắn là của tôi!
+Dialogue: 0,0:07:24.52,0:07:25.35,Default,,0,0,0,,Đồ khốn!
+Dialogue: 0,0:07:26.81,0:07:27.85,Default,,0,0,0,,Mày là thằng nào?
+Dialogue: 0,0:07:27.94,0:07:29.07,Default,,0,0,0,,Muốn đánh nhau à, Binzo?
+Dialogue: 0,0:07:29.61,0:07:31.20,Default,,0,0,0,,Mày là thằng nào hả?
+Dialogue: 0,0:08:21.62,0:08:23.79,Default,,0,0,0,,Được đấy. Tôi thích lắm!
+Dialogue: 0,0:08:24.95,0:08:29.12,Default,,0,0,0,,Suzuran là nhất!
+Dialogue: 0,0:08:37.80,0:08:40.43,Default,,0,0,0,,HIGH &amp; LOW: KẺ CẶN BÃ
+Dialogue: 0,0:08:54.11,0:08:55.82,Default,,0,0,0,,Cậu khá giỏi đấy, anh bạn.
+Dialogue: 0,0:08:55.90,0:08:58.49,Default,,0,0,0,,Cậu cũng khá ngầu đấy.
+Dialogue: 0,0:09:00.03,0:09:01.41,Default,,0,0,0,,Trông vui đấy!
+Dialogue: 0,0:09:05.45,0:09:06.28,Default,,0,0,0,,Này!
+Dialogue: 0,0:09:08.29,0:09:09.88,Default,,0,0,0,,Cho tôi tham gia với.
+Dialogue: 0,0:09:09.96,0:09:12.55,Default,,0,0,0,,Đừng có xen vào, Magoroku!
+Dialogue: 0,0:09:12.63,0:09:13.67,Default,,0,0,0,,Này!
+Dialogue: 0,0:09:16.96,0:09:18.21,Default,,0,0,0,,Đủ rồi đấy, Binzo.
+Dialogue: 0,0:09:19.05,0:09:19.97,Default,,0,0,0,,Lùi lại đi.
+Dialogue: 0,0:09:22.64,0:09:23.47,Default,,0,0,0,,Tránh ra.
+Dialogue: 0,0:09:26.22,0:09:28.47,Default,,0,0,0,,Tôi là Mashii, học sinh năm ba ở đây.
+Dialogue: 0,0:09:29.48,0:09:31.15,Default,,0,0,0,,Cậu thuộc Trung học Oya, phải không?
+Dialogue: 0,0:09:31.23,0:09:32.27,Default,,0,0,0,,Trung học Oya?
+Dialogue: 0,0:09:32.35,0:09:35.27,Default,,0,0,0,,Bọn đó đã đụng độ với bọn Housen trọc.
+Dialogue: 0,0:09:36.28,0:09:37.28,Default,,0,0,0,,Phải.
+Dialogue: 0,0:09:37.36,0:09:39.36,Default,,0,0,0,,Cậu cất công đến tận đây,
+Dialogue: 0,0:09:39.86,0:09:41.07,Default,,0,0,0,,vậy cậu muốn cái quái gì?
+Dialogue: 0,0:09:41.66,0:09:43.33,Default,,0,0,0,,Cậu ta đến gặp Rao.
+Dialogue: 0,0:09:47.74,0:09:49.87,Default,,0,0,0,,Rao của bọn tôi nổi tiếng đến nỗi
+Dialogue: 0,0:09:51.04,0:09:53.79,Default,,0,0,0,,mọi người đều đang\Nxếp hàng để bắt tay cậu ấy.
+Dialogue: 0,0:09:55.17,0:09:57.80,Default,,0,0,0,,Cậu không thể chen ngang như thế.
+Dialogue: 0,0:09:58.88,0:10:01.22,Default,,0,0,0,,Cậu cần lấy số và đợi đến lượt.
+Dialogue: 0,0:10:02.59,0:10:03.43,Default,,0,0,0,,Hả?
+Dialogue: 0,0:10:04.30,0:10:05.18,Default,,0,0,0,,Lấy số…
+Dialogue: 0,0:10:05.93,0:10:07.18,Default,,0,0,0,,- Lấy số ở đâu nhỉ?\N- Này!
+Dialogue: 0,0:10:13.06,0:10:14.35,Default,,0,0,0,,Không tệ,
+Dialogue: 0,0:10:15.61,0:10:17.49,Default,,0,0,0,,nhưng tôi nghĩ Doroki mạnh hơn.
+Dialogue: 0,0:10:24.41,0:10:25.49,Default,,0,0,0,,Cậu được đấy.
+Dialogue: 0,0:10:26.24,0:10:27.74,Default,,0,0,0,,Đó là số của cậu.
+Dialogue: 0,0:10:28.83,0:10:32.17,Default,,0,0,0,,Hanaoka Fujio, tôi để mắt đến cậu rồi đấy.
+Dialogue: 0,0:10:34.71,0:10:35.75,Default,,0,0,0,,Rất vui được làm quen.
+Dialogue: 0,0:10:47.76,0:10:50.22,Default,,0,0,0,,Mình lấy được số rồi à?
+Dialogue: 0,0:10:51.06,0:10:53.06,Default,,0,0,0,,Suzuran hài hước thật.
+Dialogue: 0,0:11:13.41,0:11:15.87,Default,,0,0,0,,SUZURAN
+Dialogue: 0,0:11:34.98,0:11:36.52,Default,,0,0,0,,Này, đồ khốn!
+Dialogue: 0,0:11:37.10,0:11:38.77,Default,,0,0,0,,Nhìn cái quái gì hả?
+Dialogue: 0,0:11:40.52,0:11:41.35,Default,,0,0,0,,Rao?
+Dialogue: 0,0:11:41.86,0:11:43.36,Default,,0,0,0,,Lầm bầm gì thế?
+Dialogue: 0,0:11:43.86,0:11:46.24,Default,,0,0,0,,Cậu không phải người ở đây, đúng không?
+Dialogue: 0,0:11:46.82,0:11:47.74,Default,,0,0,0,,Ở đâu đến hả?
+Dialogue: 0,0:11:47.82,0:11:48.70,Default,,0,0,0,,Kansuke!
+Dialogue: 0,0:11:49.24,0:11:50.07,Default,,0,0,0,,Vâng?
+Dialogue: 0,0:11:52.83,0:11:54.16,Default,,0,0,0,,Biến đi! Xùy!
+Dialogue: 0,0:11:58.75,0:12:03.00,Default,,0,0,0,,HOUSEN
+Dialogue: 0,0:12:03.09,0:12:05.59,Default,,0,0,0,,{\an8}Cậu bị cái quái gì vậy?
+Dialogue: 0,0:12:05.67,0:12:08.51,Default,,0,0,0,,{\an8}Cậu nghĩ là có thể đùa giỡn\Nvới Quân Đoàn Sát Nhân Housen sao?
+Dialogue: 0,0:12:08.59,0:12:11.30,Default,,0,0,0,,{\an8}Sao cậu dám xuất hiện ở đây?
+Dialogue: 0,0:12:11.97,0:12:12.80,Default,,0,0,0,,Nói đi!
+Dialogue: 0,0:12:14.72,0:12:16.14,Default,,0,0,0,,Chào, đã lâu không gặp.
+Dialogue: 0,0:12:16.89,0:12:20.02,Default,,0,0,0,,Chỉ là tôi đi ngang qua nên ghé vào thôi.
+Dialogue: 0,0:12:20.73,0:12:22.52,Default,,0,0,0,,Không sao đâu mà.
+Dialogue: 0,0:12:22.61,0:12:24.70,Default,,0,0,0,,{\an8}Cậu ta cũng đâu phải người lạ.
+Dialogue: 0,0:12:24.78,0:12:25.99,Default,,0,0,0,,{\an8}ODAJIMA YUKEN\NNĂM 3, HOUSEN
+Dialogue: 0,0:12:26.07,0:12:26.90,Default,,0,0,0,,{\an8}Đúng không?
+Dialogue: 0,0:12:27.86,0:12:29.19,Default,,0,0,0,,{\an8}Này, đó là ai vậy?
+Dialogue: 0,0:12:29.28,0:12:30.91,Default,,0,0,0,,{\an8}TOKUYAMA MONJI (MONJI)\NNĂM 2, HOUSEN
+Dialogue: 0,0:12:30.99,0:12:33.62,Default,,0,0,0,,{\an8}Nhớ lần tôi kể là ta đánh nhau\Nvới Trung học Oya từ SWORD
+Dialogue: 0,0:12:34.29,0:12:36.96,Default,,0,0,0,,khi cậu nằm viện sau tai nạn xe đạp không?
+Dialogue: 0,0:12:37.04,0:12:39.96,Default,,0,0,0,,Đó là Hanaoka Fujio từ Trung học Oya.
+Dialogue: 0,0:12:41.96,0:12:43.21,Default,,0,0,0,,- Cho hỏi!\N- Sao?
+Dialogue: 0,0:12:44.50,0:12:47.09,Default,,0,0,0,,Nhân tiện, trước khi anh Fujio đến đây,
+Dialogue: 0,0:12:47.76,0:12:50.18,Default,,0,0,0,,anh ta đã đến Suzuran để thách đấu.
+Dialogue: 0,0:12:50.26,0:12:51.26,Default,,0,0,0,,Không thể nào!
+Dialogue: 0,0:12:51.34,0:12:53.05,Default,,0,0,0,,Trời ơi! Thật đấy à?
+Dialogue: 0,0:12:53.14,0:12:54.98,Default,,0,0,0,,Độ điên của cậu đúng là đỉnh thật đấy!
+Dialogue: 0,0:12:55.06,0:12:57.15,Default,,0,0,0,,Đâu, tôi làm gì đỉnh đến mức đó.
+Dialogue: 0,0:12:57.23,0:13:01.11,Default,,0,0,0,,- Đấy đâu phải lời khen.\N- Đừng nói là cậu đi gặp Rao nhé.
+Dialogue: 0,0:13:01.19,0:13:03.86,Default,,0,0,0,,Có mà. Rồi gã tên Mashii bảo tôi
+Dialogue: 0,0:13:03.94,0:13:07.90,Default,,0,0,0,,phải lấy số và xếp hàng nếu muốn gặp Rao.
+Dialogue: 0,0:13:10.32,0:13:11.74,Default,,0,0,0,,Đúng kiểu thằng Nhân Từ ấy rồi.
+Dialogue: 0,0:13:11.82,0:13:13.36,Default,,0,0,0,,- Này, Sabakan!\N- Vâng!
+Dialogue: 0,0:13:13.45,0:13:15.62,Default,,0,0,0,,Cho tên ngốc này biết đi!
+Dialogue: 0,0:13:15.70,0:13:16.62,Default,,0,0,0,,Rõ!
+Dialogue: 0,0:13:17.45,0:13:18.41,Default,,0,0,0,,Này!
+Dialogue: 0,0:13:18.50,0:13:23.13,Default,,0,0,0,,{\an8}SUZURAN
+Dialogue: 0,0:13:23.21,0:13:24.92,Default,,0,0,0,,Suzuran không có thủ lĩnh.
+Dialogue: 0,0:13:25.00,0:13:27.67,Default,,0,0,0,,Họ chia thành nhiều phe phái.
+Dialogue: 0,0:13:27.76,0:13:32.64,Default,,0,0,0,,{\i1}Phe nhỏ nhất có không đến mười thành viên,{\i0}
+Dialogue: 0,0:13:33.39,0:13:34.56,Default,,0,0,0,,{\i1}chính là phe Rao.{\i0}
+Dialogue: 0,0:13:39.23,0:13:40.98,Default,,0,0,0,,Phe Rao ít người đến vậy sao?
+Dialogue: 0,0:13:41.06,0:13:42.77,Default,,0,0,0,,Họ không cần mấy tên vớ vẩn.
+Dialogue: 0,0:13:42.85,0:13:44.02,Default,,0,0,0,,Tôi hiểu rồi.
+Dialogue: 0,0:13:44.11,0:13:45.20,Default,,0,0,0,,CHỈ SÁU THÀNH VIÊN?
+Dialogue: 0,0:13:45.27,0:13:49.57,Default,,0,0,0,,{\i1}Đầu tiên là Ito Kamui,\Nmột học sinh năm hai chuyên làm gián điệp.{\i0}
+Dialogue: 0,0:13:49.65,0:13:51.03,Default,,0,0,0,,{\i1}Đặc trưng của hắn là mặt nạ.{\i0}
+Dialogue: 0,0:13:51.11,0:13:53.28,Default,,0,0,0,,{\an8}ITO KAMUI\NNĂM 2, SUZURAN
+Dialogue: 0,0:13:53.37,0:13:56.96,Default,,0,0,0,,{\an8}{\i1}Seta Kansuke là một trong\Nnhững chiến binh năm hai xuất sắc nhất.{\i0}
+Dialogue: 0,0:13:57.04,0:13:58.79,Default,,0,0,0,,{\an8}SETA KANSUKE\NNĂM 2, SUZURAN
+Dialogue: 0,0:14:00.96,0:14:02.92,Default,,0,0,0,,Tôi muốn giết cả hai tên đó.
+Dialogue: 0,0:14:03.00,0:14:06.13,Default,,0,0,0,,Tiếp theo là năm ba, Yamaguchi Magoroku.
+Dialogue: 0,0:14:06.21,0:14:09.34,Default,,0,0,0,,{\i1}Hắn luôn nhai kẹo cao su\Nvà từng là một kẻ đơn độc.{\i0}
+Dialogue: 0,0:14:09.42,0:14:14.13,Default,,0,0,0,,{\an8}{\i1}Sau khi đấu với Rao, hắn được gọi là\N"vệ sĩ khó nhằn nhất của Rao".{\i0}
+Dialogue: 0,0:14:14.22,0:14:16.60,Default,,0,0,0,,{\an8}{\i1}Anh ta đá tôi một cú rất đau.{\i0}
+Dialogue: 0,0:14:16.68,0:14:20.43,Default,,0,0,0,,{\an8}Và người để anh Fujio rời đi lành lặn
+Dialogue: 0,0:14:20.52,0:14:22.27,Default,,0,0,0,,{\an8}là năm ba, Mashii Takehiko.
+Dialogue: 0,0:14:22.85,0:14:23.94,Default,,0,0,0,,{\i1}Biệt danh là Nhân Từ.{\i0}
+Dialogue: 0,0:14:24.02,0:14:25.73,Default,,0,0,0,,{\an8}{\i1}Anh ta luôn bình tĩnh và điềm đạm.{\i0}
+Dialogue: 0,0:14:25.81,0:14:28.73,Default,,0,0,0,,{\an8}{\i1}Anh ta là\Nphó chỉ huy kiên định của phe Rao.{\i0}
+Dialogue: 0,0:14:28.82,0:14:30.07,Default,,0,0,0,,{\an8}Đó là người đứng thứ hai?
+Dialogue: 0,0:14:30.15,0:14:33.20,Default,,0,0,0,,Cậu ta không ở vị trí đó\Nvì giỏi đánh nhau.
+Dialogue: 0,0:14:34.24,0:14:36.87,Default,,0,0,0,,Suzuran là trường cho lũ ngốc\Nnên cậu ta khá lạc quẻ,
+Dialogue: 0,0:14:36.95,0:14:38.62,Default,,0,0,0,,vì cậu ta rất thông minh.
+Dialogue: 0,0:14:38.70,0:14:40.58,Default,,0,0,0,,Một năm ba khác là
+Dialogue: 0,0:14:40.66,0:14:41.70,Default,,0,0,0,,{\i1}Miyauchi Kozo.{\i0}
+Dialogue: 0,0:14:42.21,0:14:44.38,Default,,0,0,0,,{\i1}Người khó nhai nhất Suzuran.{\i0}
+Dialogue: 0,0:14:44.46,0:14:46.42,Default,,0,0,0,,{\i1}Dù có bị đánh thế nào,{\i0}
+Dialogue: 0,0:14:46.50,0:14:48.84,Default,,0,0,0,,{\i1}anh ta vẫn đứng dậy như xác sống.{\i0}
+Dialogue: 0,0:14:48.92,0:14:50.92,Default,,0,0,0,,{\an8}{\i1}Thế nên anh ta được gọi là Binzo.{\i0}
+Dialogue: 0,0:14:51.01,0:14:53.05,Default,,0,0,0,,{\an8}{\i1}Đúng rồi! Tôi đã đấu với cậu ta!{\i0}
+Dialogue: 0,0:14:53.80,0:14:55.80,Default,,0,0,0,,{\an8}{\i1}Tôi nhiều lần đánh cậu ta rất mạnh,{\i0}
+Dialogue: 0,0:14:56.34,0:14:58.13,Default,,0,0,0,,{\i1}nhưng cậu ta chỉ cười như không.{\i0}
+Dialogue: 0,0:14:58.22,0:15:00.51,Default,,0,0,0,,{\i1}Khi nhắc đến những chiến binh giỏi nhất,{\i0}
+Dialogue: 0,0:15:01.35,0:15:03.10,Default,,0,0,0,,cậu ta chỉ đứng sau Rao.
+Dialogue: 0,0:15:03.18,0:15:04.97,Default,,0,0,0,,- Nhỉ, Shidaken?\N- Hả? Làm gì có!
+Dialogue: 0,0:15:05.06,0:15:07.48,Default,,0,0,0,,Không thể tin được\Ncậu ta lại đi theo ai đó.
+Dialogue: 0,0:15:08.32,0:15:10.07,Default,,0,0,0,,Bên cậu cũng có người như cậu ta nhỉ?
+Dialogue: 0,0:15:11.23,0:15:13.40,Default,,0,0,0,,- Có à?\N- Cuối cùng…
+Dialogue: 0,0:15:15.03,0:15:15.86,Default,,0,0,0,,MISAKI MARIO
+Dialogue: 0,0:15:15.95,0:15:18.20,Default,,0,0,0,,{\i1}Có nhiều huyền thoại{\i0}
+Dialogue: 0,0:15:19.12,0:15:20.87,Default,,0,0,0,,{\i1}về người đàn ông mạnh mẽ nhất Suzuran.{\i0}
+Dialogue: 0,0:15:22.29,0:15:25.88,Default,,0,0,0,,{\an8}{\i1}Misaki Mario, hay còn gọi là Rao.{\i0}
+Dialogue: 0,0:15:26.58,0:15:27.71,Default,,0,0,0,,{\an8}{\i1}Mario à?{\i0}
+Dialogue: 0,0:15:27.79,0:15:29.38,Default,,0,0,0,,Tên của Rao là Mario sao?
+Dialogue: 0,0:15:29.46,0:15:30.29,Default,,0,0,0,,Fujio!
+Dialogue: 0,0:15:31.13,0:15:32.47,Default,,0,0,0,,Tôi nói vì muốn tốt cho cậu.
+Dialogue: 0,0:15:33.01,0:15:34.43,Default,,0,0,0,,Đừng đánh nhau với Rao.
+Dialogue: 0,0:15:34.51,0:15:35.35,Default,,0,0,0,,Hả?
+Dialogue: 0,0:15:35.43,0:15:38.56,Default,,0,0,0,,Chúng ta chẳng là gì so với tên đó.
+Dialogue: 0,0:15:38.64,0:15:42.39,Default,,0,0,0,,Xét trình độ đánh nhau và nhân cách,\Ncậu ta còn hơn cả Sachio,
+Dialogue: 0,0:15:43.06,0:15:46.73,Default,,0,0,0,,mà Sachio vô cùng ghét thua cuộc đấy.
+Dialogue: 0,0:15:46.81,0:15:47.65,Default,,0,0,0,,Thật sao?
+Dialogue: 0,0:15:47.73,0:15:52.49,Default,,0,0,0,,Vậy thì càng làm tôi muốn gặp cậu ta hơn.
+Dialogue: 0,0:15:56.15,0:15:57.23,Default,,0,0,0,,Mà Satchi đâu rồi?
+Dialogue: 0,0:15:58.66,0:15:59.99,Default,,0,0,0,,Sachio…
+Dialogue: 0,0:16:00.95,0:16:01.99,Default,,0,0,0,,À…
+Dialogue: 0,0:16:02.08,0:16:03.54,Default,,0,0,0,,Có việc nên ra nước ngoài rồi.
+Dialogue: 0,0:16:03.62,0:16:05.04,Default,,0,0,0,,Hả? Ra nước ngoài sao?
+Dialogue: 0,0:16:05.54,0:16:07.25,Default,,0,0,0,,Mẹ anh ấy bị ốm nặng…
+Dialogue: 0,0:16:07.33,0:16:08.16,Default,,0,0,0,,Sabakan!
+Dialogue: 0,0:16:08.67,0:16:11.59,Default,,0,0,0,,Cậu không cần kể chi tiết cho cậu ta!
+Dialogue: 0,0:16:12.09,0:16:12.92,Default,,0,0,0,,Em xin lỗi!
+Dialogue: 0,0:16:15.55,0:16:16.39,Default,,0,0,0,,Tôi hiểu rồi.
+Dialogue: 0,0:16:23.22,0:16:24.51,Default,,0,0,0,,Khốn kiếp!
+Dialogue: 0,0:16:24.60,0:16:27.65,Default,,0,0,0,,Cái tên Trung học Oya chết bầm đó\Nbị làm sao vậy chứ?
+Dialogue: 0,0:16:28.35,0:16:29.18,Default,,0,0,0,,Này.
+Dialogue: 0,0:16:30.15,0:16:31.40,Default,,0,0,0,,Sao lại để cậu ta đi?
+Dialogue: 0,0:16:32.65,0:16:34.28,Default,,0,0,0,,Thế là mất mặt Suzuran đấy.
+Dialogue: 0,0:16:36.15,0:16:38.40,Default,,0,0,0,,Im đi!
+Dialogue: 0,0:16:39.36,0:16:41.32,Default,,0,0,0,,Vậy để tôi hỏi cậu câu này.
+Dialogue: 0,0:16:41.41,0:16:47.08,Default,,0,0,0,,Có tên mọt sách nào trong các cậu\Ndám bước vào Trung học Oya
+Dialogue: 0,0:16:47.16,0:16:49.37,Default,,0,0,0,,hay Housen một mình không?
+Dialogue: 0,0:16:49.46,0:16:54.30,Default,,0,0,0,,Cậu ta là người duy nhất dám thử\Nsau Ueda Sachio của Housen.
+Dialogue: 0,0:16:55.21,0:16:57.59,Default,,0,0,0,,Cậu ta đáng được nể trọng.
+Dialogue: 0,0:16:57.67,0:17:00.26,Default,,0,0,0,,Cậu ta đến gặp Rao,\Nnên cậu ta là khách của chúng tôi.
+Dialogue: 0,0:17:02.76,0:17:04.35,Default,,0,0,0,,Chúng tôi sẽ lo vụ này.
+Dialogue: 0,0:17:07.35,0:17:09.64,Default,,0,0,0,,- Thật đấy à?\N- Kamui!
+Dialogue: 0,0:17:09.73,0:17:10.65,Default,,0,0,0,,Vâng!
+Dialogue: 0,0:17:10.73,0:17:12.31,Default,,0,0,0,,Nói gì đi chứ!
+Dialogue: 0,0:17:14.23,0:17:15.90,Default,,0,0,0,,Hanaoka Fujio của Trung học Oya…
+Dialogue: 0,0:17:18.24,0:17:19.32,Default,,0,0,0,,Để mắt đến cậu ta.
+Dialogue: 0,0:17:20.03,0:17:20.87,Default,,0,0,0,,Rõ.
+Dialogue: 0,0:17:21.99,0:17:22.82,Default,,0,0,0,,Chưa hết.
+Dialogue: 0,0:17:23.41,0:17:25.16,Default,,0,0,0,,Quan sát các phe khác nữa.
+Dialogue: 0,0:17:26.29,0:17:29.29,Default,,0,0,0,,Chúng ta không thể\Nmất cảnh giác ở Suzuran!
+Dialogue: 0,0:17:35.04,0:17:36.21,Default,,0,0,0,,Hả?
+Dialogue: 0,0:17:36.71,0:17:39.84,Default,,0,0,0,,Anh đến Housen và Suzuran một mình sao?
+Dialogue: 0,0:17:45.68,0:17:47.47,Default,,0,0,0,,{\an8}Khi nào anh mới hiểu hả?
+Dialogue: 0,0:17:47.56,0:17:50.73,Default,,0,0,0,,{\an8}Chẳng phải em đã bảo\Nđừng bao giờ đến Suzuran à?
+Dialogue: 0,0:17:50.81,0:17:51.81,Default,,0,0,0,,Nhưng để gặp Rao…
+Dialogue: 0,0:17:51.90,0:17:53.23,Default,,0,0,0,,Và đừng bao giờ cố gặp Lao!
+Dialogue: 0,0:17:54.40,0:17:55.40,Default,,0,0,0,,Nghe này!
+Dialogue: 0,0:17:55.48,0:18:01.65,Default,,0,0,0,,Có rất nhiều truyền thuyết đáng sợ\Nvề con quái vật Rao của Suzuran!
+Dialogue: 0,0:18:01.74,0:18:03.03,Default,,0,0,0,,Quái vật á?
+Dialogue: 0,0:18:08.29,0:18:09.21,Default,,0,0,0,,{\an8}Vậy…
+Dialogue: 0,0:18:09.70,0:18:13.95,Default,,0,0,0,,{\an8}truyền thuyết về tên Rao này là gì?
+Dialogue: 0,0:18:14.04,0:18:18.50,Default,,0,0,0,,{\an8}Này! Đến giờ\NJamuo giảng bài về lịch sử du côn rồi!
+Dialogue: 0,0:18:21.42,0:18:22.63,Default,,0,0,0,,{\an8}NAKAOKA SHOHEI\NNĂM 1, OYA
+Dialogue: 0,0:18:22.72,0:18:23.93,Default,,0,0,0,,{\an8}NAKAGOSHI DAI\NNĂM 2, OYA
+Dialogue: 0,0:18:24.01,0:18:25.35,Default,,0,0,0,,{\an8}Đến giờ lên lớp rồi!
+Dialogue: 0,0:18:29.14,0:18:30.02,Default,,0,0,0,,TSUJI\NNĂM 3, OYA
+Dialogue: 0,0:18:30.10,0:18:30.98,Default,,0,0,0,,SHIBAMAN\NNĂM 3, OYA
+Dialogue: 0,0:18:31.06,0:18:31.94,Default,,0,0,0,,Cùng nghe nào!
+Dialogue: 0,0:18:32.94,0:18:33.98,Default,,0,0,0,,Được thôi!
+Dialogue: 0,0:18:34.06,0:18:34.89,Default,,0,0,0,,Nghe đây!
+Dialogue: 0,0:18:37.36,0:18:38.78,Default,,0,0,0,,{\i1}Truyền thuyết số một:{\i0}
+Dialogue: 0,0:18:38.86,0:18:41.24,Default,,0,0,0,,{\i1}Lễ hội đấm bốc Trung học Kurosaki!{\i0}
+Dialogue: 0,0:18:41.32,0:18:42.91,Default,,0,0,0,,{\i1}Truyền thuyết số hai:{\i0}
+Dialogue: 0,0:18:42.99,0:18:45.37,Default,,0,0,0,,{\i1}Sự cố chặn đường cao tốc!{\i0}
+Dialogue: 0,0:18:45.45,0:18:48.41,Default,,0,0,0,,{\i1}Truyền thuyết số ba. Vụ này lớn này!{\i0}
+Dialogue: 0,0:18:49.37,0:18:53.17,Default,,0,0,0,,Vụ phá Quán rượu Ruby.
+Dialogue: 0,0:18:53.25,0:18:54.92,Default,,0,0,0,,Khi Rao học năm nhất,
+Dialogue: 0,0:18:55.00,0:18:58.00,Default,,0,0,0,,anh ta đã đến Quán rượu Ruby\Nở ngoại ô Thành phố Toaru.
+Dialogue: 0,0:18:58.09,0:19:01.30,Default,,0,0,0,,Anh ta say khướt\Nvà ép một gã nào đó uống rượu,
+Dialogue: 0,0:19:01.38,0:19:02.84,Default,,0,0,0,,{\i1}"Này, uống đi!"{\i0}
+Dialogue: 0,0:19:03.47,0:19:04.30,Default,,0,0,0,,"Hả?"
+Dialogue: 0,0:19:04.80,0:19:07.72,Default,,0,0,0,,"Rượu mời mà không uống à?" Bốp!
+Dialogue: 0,0:19:07.80,0:19:10.43,Default,,0,0,0,,Anh ta đánh nhau tưng bừng\Nvới một gã ở quán rượu!
+Dialogue: 0,0:19:10.52,0:19:14.19,Default,,0,0,0,,Nhân viên pha chế cố ngăn cản\Nvà các khách khác cũng nhào vào!
+Dialogue: 0,0:19:14.27,0:19:15.23,Default,,0,0,0,,Ẩu đả dữ dội lắm!
+Dialogue: 0,0:19:15.31,0:19:18.48,Default,,0,0,0,,Rất nhiều người bị thương,\Ncòn gã kia thì sống dở chết dở!
+Dialogue: 0,0:19:19.07,0:19:20.74,Default,,0,0,0,,Và Quán rượu Ruby…
+Dialogue: 0,0:19:22.69,0:19:25.48,Default,,0,0,0,,từ đó về sau đóng cửa luôn.
+Dialogue: 0,0:19:25.57,0:19:28.53,Default,,0,0,0,,Xạo! Học sinh năm nhất\Nlàm gì được vào quán rượu chứ!
+Dialogue: 0,0:19:28.62,0:19:32.71,Default,,0,0,0,,Dù gì thì\Nvẫn có rất nhiều truyền thuyết về Rao!
+Dialogue: 0,0:19:32.79,0:19:34.75,Default,,0,0,0,,Có cả đống ấy chứ.
+Dialogue: 0,0:19:34.83,0:19:35.75,Default,,0,0,0,,Khoan!
+Dialogue: 0,0:19:35.83,0:19:38.21,Default,,0,0,0,,Vậy thì anh cũng làm\Nmột cái huyền thoại đi, Fujio!
+Dialogue: 0,0:19:38.29,0:19:41.17,Default,,0,0,0,,- Không được!\N- Dẹp cái câu đó đi!
+Dialogue: 0,0:19:41.25,0:19:44.34,Default,,0,0,0,,Cậu càng cản bọn tôi\Nthì càng phản tác dụng thôi.
+Dialogue: 0,0:19:44.42,0:19:46.92,Default,,0,0,0,,Vô ích thôi! Anh Tsukasa!
+Dialogue: 0,0:19:47.84,0:19:49.84,Default,,0,0,0,,Anh Tsukasa đâu rồi?
+Dialogue: 0,0:19:50.51,0:19:52.72,Default,,0,0,0,,Gì chứ? Anh ấy chưa đến à?
+Dialogue: 0,0:19:58.73,0:20:01.07,Default,,0,0,0,,TAKASHIRO TSUKASA\NNĂM 3, OYA
+Dialogue: 0,0:20:01.15,0:20:03.15,Default,,0,0,0,,Trời ạ, mình kiệt sức rồi.
+Dialogue: 0,0:20:03.94,0:20:05.07,Default,,0,0,0,,Khỉ gió.
+Dialogue: 0,0:20:05.15,0:20:07.07,Default,,0,0,0,,Mình muộn quá rồi.
+Dialogue: 0,0:20:09.53,0:20:10.53,Default,,0,0,0,,Hả?
+Dialogue: 0,0:20:13.29,0:20:14.29,Default,,0,0,0,,Này.
+Dialogue: 0,0:20:19.17,0:20:22.55,Default,,0,0,0,,TODOROKI YOSUKE\NNĂM 3, OYA
+Dialogue: 0,0:20:22.63,0:20:23.92,Default,,0,0,0,,Sáng nay vất vả rồi.
+Dialogue: 0,0:20:27.88,0:20:29.21,Default,,0,0,0,,Từ khi Murayama bỏ học,
+Dialogue: 0,0:20:30.43,0:20:32.93,Default,,0,0,0,,các trường khu SWORD\Nxâu xé nhau giành quyền kiểm soát.
+Dialogue: 0,0:20:33.01,0:20:34.72,Default,,0,0,0,,Hạ gục chúng ta là cách nhanh nhất.
+Dialogue: 0,0:20:38.60,0:20:39.43,Default,,0,0,0,,Sao thế?
+Dialogue: 0,0:20:39.94,0:20:42.19,Default,,0,0,0,,Tôi thấy vài tên Senomon ở đằng kia.
+Dialogue: 0,0:20:42.82,0:20:43.74,Default,,0,0,0,,Senomon?
+Dialogue: 0,0:20:44.94,0:20:46.44,Default,,0,0,0,,Đến cả bên đó cơ à?
+Dialogue: 0,0:20:48.86,0:20:51.11,Default,,0,0,0,,Ta mà không cảnh giác là nguy to đấy.
+Dialogue: 0,0:20:52.58,0:20:53.58,Default,,0,0,0,,Này.
+Dialogue: 0,0:20:54.37,0:20:55.37,Default,,0,0,0,,Cậu đi đâu vậy?
+Dialogue: 0,0:21:15.14,0:21:17.23,Default,,0,0,0,,Chúng ta có một nhóm khủng đấy.
+Dialogue: 0,0:21:17.73,0:21:20.73,Default,,0,0,0,,Himuro và Gandhi,\Nthủ lĩnh của Trung học Kamasaka khổng lồ.
+Dialogue: 0,0:21:20.81,0:21:21.81,Default,,0,0,0,,Không thể tin nổi.
+Dialogue: 0,0:21:23.52,0:21:25.15,Default,,0,0,0,,Không ngờ ta sẽ hợp tác với nhau.
+Dialogue: 0,0:21:25.65,0:21:29.49,Default,,0,0,0,,Trung học Ebara có Kazami và Uenari,\Nbiệt danh Phong Thần và Lôi Thần.
+Dialogue: 0,0:21:29.57,0:21:31.03,Default,,0,0,0,,- Cả Sameoka nữa.\N- Này!
+Dialogue: 0,0:21:32.45,0:21:34.24,Default,,0,0,0,,Không ai được động vào Todoroki Yosuke.
+Dialogue: 0,0:21:36.49,0:21:38.24,Default,,0,0,0,,Cậu ta là của bọn này.
+Dialogue: 0,0:21:38.33,0:21:39.62,Default,,0,0,0,,Tôi biết rồi.
+Dialogue: 0,0:21:40.46,0:21:43.13,Default,,0,0,0,,Bọn tôi đang phối hợp\Nvới cả Trung học Kama và Ebara.
+Dialogue: 0,0:21:43.21,0:21:45.38,Default,,0,0,0,,Quyền kiểm soát khu SWORD\Nđang trong tầm tay.
+Dialogue: 0,0:22:01.52,0:22:04.36,Default,,0,0,0,,- Bắt đầu cuộc hỗn chiến này nào.\N- Được.
+Dialogue: 0,0:22:04.44,0:22:06.78,Default,,0,0,0,,Bọn tôi đã chuẩn bị quân và vũ khí.
+Dialogue: 0,0:22:07.53,0:22:09.74,Default,,0,0,0,,Vũ khí? Đúng là kiểu của trường Kama.
+Dialogue: 0,0:22:10.65,0:22:13.53,Default,,0,0,0,,- Ai hỏi cậu chứ? Đồ khốn!\N- Chết đi!
+Dialogue: 0,0:22:13.61,0:22:15.32,Default,,0,0,0,,- Nhào vô!\N- Thôi!
+Dialogue: 0,0:22:22.04,0:22:23.21,Default,,0,0,0,,Kiếm thêm người đi.
+Dialogue: 0,0:22:28.71,0:22:32.59,Default,,0,0,0,,- Cậu không tin bọn tôi làm được à?\N- Tin tưởng các người thì có ích gì?
+Dialogue: 0,0:22:35.93,0:22:40.02,Default,,0,0,0,,Quyền lực là phải hoàn hảo đến mức\Ntất cả phải quỳ gối trước các người.
+Dialogue: 0,0:22:40.60,0:22:43.31,Default,,0,0,0,,Đừng cho ai cơ hội dù là nhỏ nhất.
+Dialogue: 0,0:22:44.48,0:22:48.07,Default,,0,0,0,,Thứ duy nhất ta cho chúng là nỗi sợ.
+Dialogue: 0,0:22:54.82,0:22:56.53,Default,,0,0,0,,Cứ ngoan ngoãn đi theo tôi đi.
+Dialogue: 0,0:22:56.62,0:22:58.66,Default,,0,0,0,,Tôi sẽ cho thấy\Nđứng trên đỉnh cao là thế nào.
+Dialogue: 0,0:23:12.84,0:23:14.88,Default,,0,0,0,,GỬI FUJIO
+Dialogue: 0,0:23:16.76,0:23:17.59,Default,,0,0,0,,{\i1}Anh Fujio!{\i0}
+Dialogue: 0,0:23:18.55,0:23:19.72,Default,,0,0,0,,Sao thế?
+Dialogue: 0,0:23:19.81,0:23:22.27,Default,,0,0,0,,Anh Sachio bảo tôi đưa cho anh lá thư này.
+Dialogue: 0,0:23:22.35,0:23:24.23,Default,,0,0,0,,Hả? Thời này mà còn dùng thư à?
+Dialogue: 0,0:23:25.02,0:23:26.69,Default,,0,0,0,,Anh ấy câu nệ mấy chuyện này lắm ạ.
+Dialogue: 0,0:23:38.41,0:23:40.20,Default,,0,0,0,,"Gửi Hanaoka Fujio,
+Dialogue: 0,0:23:41.08,0:23:42.46,Default,,0,0,0,,chắc cậu đã nghe rồi,
+Dialogue: 0,0:23:42.54,0:23:44.08,Default,,0,0,0,,nhưng khi đọc thư này"…
+Dialogue: 0,0:23:44.16,0:23:46.00,Default,,0,0,0,,{\i1}…tôi sẽ không còn ở Thành phố Toaru.{\i0}
+Dialogue: 0,0:23:46.08,0:23:47.67,Default,,0,0,0,,{\i1}Tôi có chuyện gia đình.{\i0}
+Dialogue: 0,0:23:48.58,0:23:50.92,Default,,0,0,0,,{\i1}Có thể tôi sẽ không trở về\Ntrong một thời gian dài.{\i0}
+Dialogue: 0,0:23:51.42,0:23:54.05,Default,,0,0,0,,{\i1}Càng đi lâu thì tôi càng lo lắng.{\i0}
+Dialogue: 0,0:23:54.67,0:23:58.76,Default,,0,0,0,,{\i1}Những lúc thế này\Nthường xảy ra tranh chấp.{\i0}
+Dialogue: 0,0:24:00.85,0:24:04.65,Default,,0,0,0,,{\i1}Fujio, nếu Housen xảy ra chuyện gì,\Ntôi muốn cậu giúp họ.{\i0}
+Dialogue: 0,0:24:06.64,0:24:09.35,Default,,0,0,0,,{\i1}Tất nhiên, bọn tôi\Ncũng sẽ giúp đỡ nếu cậu cần.{\i0}
+Dialogue: 0,0:24:10.98,0:24:13.65,Default,,0,0,0,,{\i1}Hẹn gặp lại khi tôi quay về.{\i0}
+Dialogue: 0,0:24:15.49,0:24:17.12,Default,,0,0,0,,{\i1}Và làm ơn{\i0}
+Dialogue: 0,0:24:17.20,0:24:19.24,Default,,0,0,0,,{\i1}đừng khiêu chiến với Rao.{\i0}
+Dialogue: 0,0:24:20.28,0:24:21.11,Default,,0,0,0,,"Đừng cố làm vậy.
+Dialogue: 0,0:24:22.66,0:24:23.83,Default,,0,0,0,,Ueda Sachio".
+Dialogue: 0,0:24:45.02,0:24:47.23,Default,,0,0,0,,Anh cứ mơ mộng thì làm sao mà giàu được.
+Dialogue: 0,0:24:51.86,0:24:53.36,Default,,0,0,0,,Cậu biết không, Jamuo…
+Dialogue: 0,0:24:53.44,0:24:54.27,Default,,0,0,0,,Vâng?
+Dialogue: 0,0:24:55.23,0:24:59.15,Default,,0,0,0,,Vì tôi sinh ra là đàn ông,
+Dialogue: 0,0:24:59.91,0:25:01.37,Default,,0,0,0,,"tôi phải đứng đầu thiên hạ".
+Dialogue: 0,0:25:01.95,0:25:03.49,Default,,0,0,0,,Đó là điều tôi luôn nghĩ.
+Dialogue: 0,0:25:06.54,0:25:10.84,Default,,0,0,0,,Nhưng một người đàn ông mạnh mẽ thật sự\Ncó lẽ không phải thế.
+Dialogue: 0,0:25:15.30,0:25:17.47,Default,,0,0,0,,{\i1}Cậu ta không bao giờ đổi ý đâu.{\i0}
+Dialogue: 0,0:25:20.76,0:25:23.10,Default,,0,0,0,,Vậy là cậu muốn cậu ta đấu với Fujio à?
+Dialogue: 0,0:25:23.60,0:25:24.43,Default,,0,0,0,,Phải,
+Dialogue: 0,0:25:25.26,0:25:27.18,Default,,0,0,0,,nhưng tôi muốn biết về Rao trước.
+Dialogue: 0,0:25:28.48,0:25:29.31,Default,,0,0,0,,Đúng là cậu mà.
+Dialogue: 0,0:25:31.15,0:25:32.61,Default,,0,0,0,,Với lại, tôi khá ngạc nhiên…
+Dialogue: 0,0:25:34.02,0:25:35.40,Default,,0,0,0,,khi biết tên này là bạn cậu.
+Dialogue: 0,0:25:36.36,0:25:38.86,Default,,0,0,0,,Chào. Khỏe không?
+Dialogue: 0,0:25:39.78,0:25:40.99,Default,,0,0,0,,Cậu hiểu không?
+Dialogue: 0,0:25:41.74,0:25:44.87,Default,,0,0,0,,- À, tôi thấy cũng có lý.\N- Cậu giúp bọn tôi được không?
+Dialogue: 0,0:25:44.95,0:25:46.45,Default,,0,0,0,,Đợi đã. Chờ chút.
+Dialogue: 0,0:25:47.75,0:25:49.21,Default,,0,0,0,,Cậu có thể giải thích không?
+Dialogue: 0,0:25:50.41,0:25:51.37,Default,,0,0,0,,Sao hai cậu kết bạn?
+Dialogue: 0,0:25:53.00,0:25:54.00,Default,,0,0,0,,Tôi chưa kể à?
+Dialogue: 0,0:25:56.00,0:25:57.04,Default,,0,0,0,,Bọn tôi là bạn đi câu.
+Dialogue: 0,0:25:57.92,0:25:58.92,Default,,0,0,0,,Hả?
+Dialogue: 0,0:25:59.01,0:25:59.97,Default,,0,0,0,,Thật đấy.
+Dialogue: 0,0:26:03.05,0:26:06.26,Default,,0,0,0,,Không ngờ các cậu\Nlại thích câu cá như nhau.
+Dialogue: 0,0:26:06.35,0:26:08.23,Default,,0,0,0,,Chỉ là trùng hợp thôi.
+Dialogue: 0,0:26:08.89,0:26:13.31,Default,,0,0,0,,Bọn tôi tình cờ gặp ở cửa hàng dụng cụ\Nvà trên sông nên đi cùng nhau.
+Dialogue: 0,0:26:13.40,0:26:15.78,Default,,0,0,0,,Cậu ta không nói, tôi không nói.
+Dialogue: 0,0:26:15.86,0:26:18.36,Default,,0,0,0,,Chúng tôi chỉ im lặng câu cá.
+Dialogue: 0,0:26:18.86,0:26:22.28,Default,,0,0,0,,Cảm giác… rất dễ chịu.
+Dialogue: 0,0:26:23.24,0:26:24.49,Default,,0,0,0,,Không thể tin nổi.
+Dialogue: 0,0:26:25.28,0:26:26.12,Default,,0,0,0,,Xem này.
+Dialogue: 0,0:26:29.33,0:26:30.33,Default,,0,0,0,,Thật hả trời?
+Dialogue: 0,0:26:30.41,0:26:33.58,Default,,0,0,0,,Tin hay không thì tùy.
+Dialogue: 0,0:26:35.08,0:26:37.50,Default,,0,0,0,,- Thật đấy à?\N- Thật.
+Dialogue: 0,0:26:38.42,0:26:39.92,Default,,0,0,0,,Không thể nào.
+Dialogue: 0,0:26:40.01,0:26:41.51,Default,,0,0,0,,Cậu còn định xem bao lâu nữa?
+Dialogue: 0,0:26:41.59,0:26:42.72,Default,,0,0,0,,Trả đây!
+Dialogue: 0,0:26:49.06,0:26:50.98,Default,,0,0,0,,Đây. Là chỗ đó.
+Dialogue: 0,0:26:53.81,0:26:55.81,Default,,0,0,0,,Nếu cậu muốn biết về Rao,
+Dialogue: 0,0:26:56.36,0:27:00.41,Default,,0,0,0,,người phù hợp nhất để gặp\Nlà Mashii Takehiko, biệt danh Nhân Từ.
+Dialogue: 0,0:27:01.19,0:27:03.03,Default,,0,0,0,,- Muốn tôi gọi cậu ta không?\N- Không.
+Dialogue: 0,0:27:03.61,0:27:04.95,Default,,0,0,0,,Để tôi.
+Dialogue: 0,0:27:05.66,0:27:06.91,Default,,0,0,0,,Đó là phép lịch sự.
+Dialogue: 0,0:27:29.60,0:27:30.43,Default,,0,0,0,,Vâng?
+Dialogue: 0,0:27:32.06,0:27:32.89,Default,,0,0,0,,Cậu là ai?
+Dialogue: 0,0:27:33.68,0:27:35.77,Default,,0,0,0,,Tôi là Takajo của Trung học Oya.
+Dialogue: 0,0:27:35.85,0:27:36.85,Default,,0,0,0,,Trung học Oya?
+Dialogue: 0,0:27:36.94,0:27:38.78,Default,,0,0,0,,Tôi muốn biết về Rao.
+Dialogue: 0,0:27:39.48,0:27:41.07,Default,,0,0,0,,Bớt nói nhảm đi. Biến.
+Dialogue: 0,0:27:43.11,0:27:48.87,Default,,0,0,0,,Tôi là bạn thân của Hanaoka Fujio,\Nngười đến trường cậu hôm trước.
+Dialogue: 0,0:27:55.62,0:27:56.75,Default,,0,0,0,,Đợi chút.
+Dialogue: 0,0:27:59.29,0:28:01.38,Default,,0,0,0,,Tôi đâu cần nói cậu biết điều gì về Rao.
+Dialogue: 0,0:28:04.84,0:28:07.55,Default,,0,0,0,,Bản thân cậu cũng đang dò la đủ chỗ mà.
+Dialogue: 0,0:28:10.81,0:28:13.90,Default,,0,0,0,,Người của cậu\Nđang rình mò quanh khu SWORD.
+Dialogue: 0,0:28:13.97,0:28:15.14,Default,,0,0,0,,Cậu biết chứ nhỉ?
+Dialogue: 0,0:28:17.69,0:28:18.82,Default,,0,0,0,,Cậu giỏi đấy.
+Dialogue: 0,0:28:22.69,0:28:24.11,Default,,0,0,0,,Sao cậu lại muốn biết?
+Dialogue: 0,0:28:25.65,0:28:28.32,Default,,0,0,0,,Có rất nhiều truyền thuyết\Nvề tên quái vật Rao,
+Dialogue: 0,0:28:29.24,0:28:33.24,Default,,0,0,0,,nhưng truyền thuyết\Nthì hầu hết đều là nói quá.
+Dialogue: 0,0:28:33.99,0:28:35.08,Default,,0,0,0,,Đúng không?
+Dialogue: 0,0:28:37.62,0:28:40.46,Default,,0,0,0,,Cậu ta có phải\Nngười mà bạn tôi nên đối đầu không?
+Dialogue: 0,0:28:41.29,0:28:43.17,Default,,0,0,0,,Cậu ta có xứng đáng không?
+Dialogue: 0,0:28:44.46,0:28:46.13,Default,,0,0,0,,Đó là điều tôi muốn biết.
+Dialogue: 0,0:28:50.93,0:28:52.72,Default,,0,0,0,,Này, thứ đó không tốt cho cậu đâu.
+Dialogue: 0,0:28:52.81,0:28:53.98,Default,,0,0,0,,TRƯỜNG KỸ THUẬT SENOMON
+Dialogue: 0,0:29:16.29,0:29:17.46,Default,,0,0,0,,Vâng.
+Dialogue: 0,0:29:19.33,0:29:21.88,Default,,0,0,0,,Nhưng giờ con hết tiền rồi.
+Dialogue: 0,0:29:24.42,0:29:25.38,Default,,0,0,0,,Vâng.
+Dialogue: 0,0:29:26.92,0:29:29.63,Default,,0,0,0,,Mẹ, đừng vậy mà!
+Dialogue: 0,0:29:29.72,0:29:30.60,Default,,0,0,0,,Vâng.
+Dialogue: 0,0:29:31.43,0:29:33.56,Default,,0,0,0,,Con biết rồi mà.
+Dialogue: 0,0:29:33.64,0:29:36.39,Default,,0,0,0,,Kỳ nghỉ tới con sẽ đến thăm mẹ.
+Dialogue: 0,0:29:37.77,0:29:38.73,Default,,0,0,0,,Cảm ơn.
+Dialogue: 0,0:29:38.81,0:29:40.48,Default,,0,0,0,,{\an8}XƯỞNG THÉP AKABOSHI
+Dialogue: 0,0:29:40.56,0:29:43.48,Default,,0,0,0,,{\an8}Cảm ơn nhé, Motoaki.\NCảm ơn đã đưa bọn tôi đến đây.
+Dialogue: 0,0:29:43.56,0:29:47.27,Default,,0,0,0,,Không có gì. Thỉnh thoảng tôi cũng\Nđến Thành phố Toaru để giao hàng mà.
+Dialogue: 0,0:29:47.36,0:29:50.11,Default,,0,0,0,,Cảm ơn cậu, Motoaki.\NNhớ ghé trường thăm bọn tôi nữa nhé.
+Dialogue: 0,0:29:50.20,0:29:51.70,Default,,0,0,0,,Được! Chào nhé!
+Dialogue: 0,0:29:52.41,0:29:53.79,Default,,0,0,0,,Này! Đóng cửa từ từ thôi!
+Dialogue: 0,0:29:54.66,0:29:56.12,Default,,0,0,0,,- Lối này.\N- Là mấy tên đó!
+Dialogue: 0,0:29:57.29,0:30:00.13,Default,,0,0,0,,Mẹ. Con sẽ gọi lại sau.
+Dialogue: 0,0:30:00.21,0:30:01.04,Default,,0,0,0,,Tạm biệt.
+Dialogue: 0,0:30:03.21,0:30:04.75,Default,,0,0,0,,CỬA HÀNG KIMONO KIKUYA
+Dialogue: 0,0:30:07.25,0:30:09.46,Default,,0,0,0,,Lại nữa hả mẹ!
+Dialogue: 0,0:30:09.55,0:30:11.30,Default,,0,0,0,,SABO AMAHISA
+Dialogue: 0,0:30:11.38,0:30:12.67,Default,,0,0,0,,Saboten?
+Dialogue: 0,0:30:17.56,0:30:21.81,Default,,0,0,0,,NHÀ KASUMI
+Dialogue: 0,0:30:30.86,0:30:31.82,Default,,0,0,0,,Nhìn đi.
+Dialogue: 0,0:30:35.03,0:30:39.12,Default,,0,0,0,,Đó là Rao của Suzuran,\Nngười cậu luôn muốn gặp đấy.
+Dialogue: 0,0:30:40.25,0:30:41.08,Default,,0,0,0,,Hả?
+Dialogue: 0,0:30:42.12,0:30:44.96,Default,,0,0,0,,Chẳng phải đây là cô nhi viện à?
+Dialogue: 0,0:30:45.04,0:30:46.00,Default,,0,0,0,,Ừ.
+Dialogue: 0,0:30:46.88,0:30:48.51,Default,,0,0,0,,Đây là nơi Rao sống.
+Dialogue: 0,0:30:51.51,0:30:54.10,Default,,0,0,0,,Misaki Mario, hay còn gọi là Rao.
+Dialogue: 0,0:30:54.89,0:30:58.10,Default,,0,0,0,,Cậu ta bị bỏ lại trước cửa cô nhi viện này
+Dialogue: 0,0:30:58.18,0:31:00.18,Default,,0,0,0,,{\i1}khi dây rốn còn chưa cắt,{\i0}
+Dialogue: 0,0:31:00.27,0:31:02.19,Default,,0,0,0,,{\i1}chỉ được quấn một cái khăn mỏng,{\i0}
+Dialogue: 0,0:31:02.94,0:31:05.57,Default,,0,0,0,,{\i1}và đặt trong một cái túi nylon.{\i0}
+Dialogue: 0,0:31:07.40,0:31:08.86,Default,,0,0,0,,{\i1}Hồi nhỏ,{\i0}
+Dialogue: 0,0:31:08.94,0:31:11.57,Default,,0,0,0,,{\i1}cậu ta khóc rất nhiều và ít nói.{\i0}
+Dialogue: 0,0:31:14.15,0:31:16.40,Default,,0,0,0,,{\i1}Một ngày nọ,\Ncó một vụ đánh nhau ở cô nhi viện.{\i0}
+Dialogue: 0,0:31:16.49,0:31:17.95,Default,,0,0,0,,Đã bảo thôi đi mà!
+Dialogue: 0,0:31:18.03,0:31:19.20,Default,,0,0,0,,{\i1}Mario đã can ngăn.{\i0}
+Dialogue: 0,0:31:20.12,0:31:24.42,Default,,0,0,0,,{\i1}Qua trận đánh đó,\Ncậu ta phát hiện ra mình rất mạnh.{\i0}
+Dialogue: 0,0:31:30.34,0:31:32.63,Default,,0,0,0,,Đó là lúc\Ncuộc chiến thật sự của cậu ta bắt đầu.
+Dialogue: 0,0:31:33.38,0:31:34.63,Default,,0,0,0,,Mọi thứ cậu ta làm
+Dialogue: 0,0:31:34.72,0:31:37.39,Default,,0,0,0,,đều là để bảo vệ những đứa em của mình.
+Dialogue: 0,0:31:38.26,0:31:41.97,Default,,0,0,0,,Người anh cao lớn, mạnh mẽ của bọn nhỏ,\NMario, luôn ở bên để giúp chúng,
+Dialogue: 0,0:31:42.52,0:31:44.61,Default,,0,0,0,,vì vậy chúng bắt đầu gọi cậu ta là Rao.
+Dialogue: 0,0:31:45.10,0:31:48.23,Default,,0,0,0,,Vậy còn truyền thuyết\Nvề Quán rượu Ruby thì sao?
+Dialogue: 0,0:31:49.48,0:31:51.90,Default,,0,0,0,,{\i1}Có một tên nhóc nhỏ hơn cậu ta hai tuổi.{\i0}
+Dialogue: 0,0:31:52.53,0:31:55.16,Default,,0,0,0,,{\i1}Bố nó từng đánh đập nó.{\i0}
+Dialogue: 0,0:31:55.24,0:31:57.16,Default,,0,0,0,,{\i1}- Nên nó được đưa đến đây.{\i0}\N- Bỏ ra!
+Dialogue: 0,0:31:57.24,0:31:59.28,Default,,0,0,0,,{\i1}Bố nó phát hiện ra nó ở đây{\i0}
+Dialogue: 0,0:31:59.99,0:32:01.74,Default,,0,0,0,,{\i1}và cố lôi thằng bé ra ngoài.{\i0}
+Dialogue: 0,0:32:01.83,0:32:02.75,Default,,0,0,0,,Bỏ ra!
+Dialogue: 0,0:32:02.83,0:32:05.25,Default,,0,0,0,,{\i1}Nhân viên đã ngăn ông ta lại.{\i0}
+Dialogue: 0,0:32:05.33,0:32:06.41,Default,,0,0,0,,Mẹ ơi…
+Dialogue: 0,0:32:06.50,0:32:09.67,Default,,0,0,0,,{\i1}Nhưng ai mà biết\Nkhi nào ông bố bạo lực của nó sẽ quay lại.{\i0}
+Dialogue: 0,0:32:11.00,0:32:15.17,Default,,0,0,0,,{\i1}Để đảm bảo ông ta\Nkhông bao giờ đánh thằng bé được nữa,{\i0}
+Dialogue: 0,0:32:15.26,0:32:17.64,Default,,0,0,0,,{\i1}Rao ra ngoài tìm ông ta{\i0}
+Dialogue: 0,0:32:17.72,0:32:20.06,Default,,0,0,0,,{\i1}và biết được ông ta đang ở Quán rượu Ruby.{\i0}
+Dialogue: 0,0:32:26.77,0:32:27.85,Default,,0,0,0,,Đừng bao giờ quay lại!
+Dialogue: 0,0:32:27.94,0:32:29.90,Default,,0,0,0,,{\i1}Đó là sự thật đằng sau truyền thuyết đó.{\i0}
+Dialogue: 0,0:32:29.98,0:32:31.57,Default,,0,0,0,,Hiểu chưa hả? Đồ khốn!
+Dialogue: 0,0:32:34.03,0:32:35.16,Default,,0,0,0,,Em xin lỗi.
+Dialogue: 0,0:32:36.57,0:32:39.66,Default,,0,0,0,,Em hoàn toàn không biết\Nsự thật đằng sau này.
+Dialogue: 0,0:32:42.16,0:32:43.79,Default,,0,0,0,,Này! Fujio!
+Dialogue: 0,0:32:46.37,0:32:47.45,Default,,0,0,0,,Rao!
+Dialogue: 0,0:32:49.12,0:32:50.21,Default,,0,0,0,,Cái gì?
+Dialogue: 0,0:32:53.13,0:32:54.38,Default,,0,0,0,,Chẳng phải cậu là…
+Dialogue: 0,0:32:55.01,0:32:57.10,Default,,0,0,0,,Tôi là Hanaoka Fujio của Trung học Oya.
+Dialogue: 0,0:33:17.74,0:33:19.49,Default,,0,0,0,,Làm bạn với tôi nhé.
+Dialogue: 0,0:33:21.07,0:33:22.11,Default,,0,0,0,,Hả?
+Dialogue: 0,0:33:22.20,0:33:23.95,Default,,0,0,0,,Cậu đỉnh lắm.
+Dialogue: 0,0:33:24.58,0:33:26.04,Default,,0,0,0,,Cậu rất là đỉnh!
+Dialogue: 0,0:33:26.62,0:33:28.46,Default,,0,0,0,,Giờ tôi hiểu ý mấy tên bên Housen rồi.
+Dialogue: 0,0:33:28.54,0:33:29.79,Default,,0,0,0,,Đi mà!
+Dialogue: 0,0:33:30.29,0:33:31.38,Default,,0,0,0,,Làm bạn với tôi nhé!
+Dialogue: 0,0:33:32.58,0:33:33.42,Default,,0,0,0,,Nhưng cậu là…
+Dialogue: 0,0:33:33.50,0:33:34.54,Default,,0,0,0,,Được không?
+Dialogue: 0,0:33:39.22,0:33:41.22,Default,,0,0,0,,- Được không?\N- Cậu bị sao thế?
+Dialogue: 0,0:33:43.05,0:33:45.64,Default,,0,0,0,,Này, im đi!
+Dialogue: 0,0:33:45.72,0:33:47.22,Default,,0,0,0,,Cậu im đi thì có!
+Dialogue: 0,0:33:47.31,0:33:49.65,Default,,0,0,0,,- Này! Shidaken!\N- Chào.
+Dialogue: 0,0:33:49.73,0:33:51.23,Default,,0,0,0,,Xin lỗi vì đã đột ngột gọi.
+Dialogue: 0,0:33:51.81,0:33:52.73,Default,,0,0,0,,Cậu muốn gì?
+Dialogue: 0,0:33:52.81,0:33:54.90,Default,,0,0,0,,Bình tĩnh nào.
+Dialogue: 0,0:33:55.77,0:33:57.56,Default,,0,0,0,,Cứ vào trong đã. Nhé?
+Dialogue: 0,0:33:57.65,0:33:58.65,Default,,0,0,0,,Lối này.
+Dialogue: 0,0:33:59.28,0:34:00.32,Default,,0,0,0,,Tránh đường đi.
+Dialogue: 0,0:34:00.82,0:34:01.86,Default,,0,0,0,,Tránh ra.
+Dialogue: 0,0:34:08.16,0:34:12.12,Default,,0,0,0,,Bọn tôi muốn nghiền nát\Nlũ khốn tai to mặt lớn ở Trung học Oya
+Dialogue: 0,0:34:12.21,0:34:14.38,Default,,0,0,0,,chuyên sai bảo người khác.
+Dialogue: 0,0:34:14.46,0:34:18.71,Default,,0,0,0,,Housen và Oya đã đánh nhau\Nnhưng vẫn chưa giải quyết xong, đúng chứ?
+Dialogue: 0,0:34:19.72,0:34:20.60,Default,,0,0,0,,Vậy nên…
+Dialogue: 0,0:34:21.55,0:34:25.10,Default,,0,0,0,,các cậu sẽ cho tôi số tiền này\Nnếu Housen hợp tác với các cậu à?
+Dialogue: 0,0:34:26.64,0:34:28.10,Default,,0,0,0,,Kèo này hời mà nhỉ?
+Dialogue: 0,0:34:35.52,0:34:36.61,Default,,0,0,0,,Rõ rồi.
+Dialogue: 0,0:34:40.19,0:34:41.19,Default,,0,0,0,,Hả?
+Dialogue: 0,0:34:41.28,0:34:42.57,Default,,0,0,0,,Cậu nói gì cơ?
+Dialogue: 0,0:34:42.65,0:34:44.49,Default,,0,0,0,,Anh kết bạn với Rao sao?
+Dialogue: 0,0:34:44.57,0:34:47.70,Default,,0,0,0,,- Xạo! Đời nào có chuyện đó!\N- Tôi nói thật đấy! Là thật mà!
+Dialogue: 0,0:34:52.12,0:34:53.75,Default,,0,0,0,,Ừ, là thật đấy.
+Dialogue: 0,0:34:53.83,0:34:57.71,Default,,0,0,0,,Thật á?\NTên Rao quái vật kinh khủng đó ấy à!
+Dialogue: 0,0:34:57.80,0:34:58.93,Default,,0,0,0,,Không phải đâu!
+Dialogue: 0,0:34:59.42,0:35:02.26,Default,,0,0,0,,Anh ta là đàn ông đích thực.
+Dialogue: 0,0:35:02.34,0:35:04.68,Default,,0,0,0,,Là người bảo vệ công lý tuyệt đối đấy!
+Dialogue: 0,0:35:04.76,0:35:07.18,Default,,0,0,0,,- Phải!\N- Và món này rất ngon!
+Dialogue: 0,0:35:07.26,0:35:09.26,Default,,0,0,0,,- Motoaki, cho tôi thêm đi!\N- Được!
+Dialogue: 0,0:35:09.35,0:35:11.85,Default,,0,0,0,,- Tôi nữa!\N- Ăn đi! Đĩa sạch này.
+Dialogue: 0,0:35:11.93,0:35:14.52,Default,,0,0,0,,- Đãi bọn tôi như vậy ổn chứ?\N- Không thành vấn đề.
+Dialogue: 0,0:35:14.60,0:35:18.73,Default,,0,0,0,,Ở chỗ làm của tôi có một anh tên Zen.\NBạn anh ấy đặt nhiều mì quá.
+Dialogue: 0,0:35:19.57,0:35:22.99,Default,,0,0,0,,Người ta giao cả đống mì đến,\Nanh ấy hỏi có ai muốn ăn không
+Dialogue: 0,0:35:23.07,0:35:25.07,Default,,0,0,0,,nên tôi nghĩ đến lũ ngốc các cậu.
+Dialogue: 0,0:35:25.16,0:35:28.00,Default,,0,0,0,,- Cảm ơn nhé!\N- Món này ngon quá, Motoaki!
+Dialogue: 0,0:35:28.08,0:35:28.91,Default,,0,0,0,,Có gì đâu!
+Dialogue: 0,0:35:28.99,0:35:31.58,Default,,0,0,0,,Nhìn các cậu kìa,\Năn mì yakisoba ngấu nghiến.
+Dialogue: 0,0:35:31.66,0:35:32.87,Default,,0,0,0,,Cậu muốn ăn cùng không?
+Dialogue: 0,0:35:32.96,0:35:35.71,Default,,0,0,0,,Sáng nay tôi thấy\Nvài tên từ Trung học Kama trên xe buýt.
+Dialogue: 0,0:35:35.79,0:35:38.50,Default,,0,0,0,,Trung học Kama? Họ làm gì ở đây?
+Dialogue: 0,0:35:38.59,0:35:42.55,Default,,0,0,0,,Không phải Trung học Kama\Nở phía bên kia Núi Tendo à?
+Dialogue: 0,0:35:43.05,0:35:44.80,Default,,0,0,0,,- Motoaki, tôi sẽ ăn một ít.\N- Được!
+Dialogue: 0,0:35:44.88,0:35:46.51,Default,,0,0,0,,- Tôi cũng vậy.\N- Được.
+Dialogue: 0,0:35:46.59,0:35:47.59,Default,,0,0,0,,Ngồi đi.
+Dialogue: 0,0:35:48.51,0:35:50.47,Default,,0,0,0,,- Cậu không ăn à, Tsukasa?\N- Không.
+Dialogue: 0,0:35:51.77,0:35:53.31,Default,,0,0,0,,Cậu cũng ăn đi. Để tôi nấu cho.
+Dialogue: 0,0:35:53.39,0:35:55.06,Default,,0,0,0,,Thôi. Bụng tôi yếu lắm.
+Dialogue: 0,0:35:56.14,0:35:57.02,Default,,0,0,0,,Hả?
+Dialogue: 0,0:35:57.52,0:35:58.35,Default,,0,0,0,,À thì…
+Dialogue: 0,0:35:58.90,0:36:00.99,Default,,0,0,0,,Mì này hết hạn lâu rồi.
+Dialogue: 0,0:36:01.73,0:36:03.02,Default,,0,0,0,,Cậu điên à?
+Dialogue: 0,0:36:03.11,0:36:08.07,Default,,0,0,0,,- Thứ này thiu thối rồi, đồ khốn!\N- Cậu vừa khen ngon mà!
+Dialogue: 0,0:36:13.75,0:36:16.30,Default,,0,0,0,,Trường Senomon và trường Kama à?
+Dialogue: 0,0:36:19.38,0:36:21.84,Default,,0,0,0,,{\i1}Vậy thủ lĩnh của liên minh này là…{\i0}
+Dialogue: 0,0:36:22.59,0:36:23.63,Default,,0,0,0,,cậu à?
+Dialogue: 0,0:36:25.67,0:36:27.71,Default,,0,0,0,,Tôi là Amagai\Ntừ Trung học Kỹ thuật Senomon.
+Dialogue: 0,0:36:28.80,0:36:30.39,Default,,0,0,0,,Nếu không đủ thì bảo tôi.
+Dialogue: 0,0:36:30.47,0:36:31.39,Default,,0,0,0,,Ra giá đi.
+Dialogue: 0,0:36:38.23,0:36:39.36,Default,,0,0,0,,Các cậu
+Dialogue: 0,0:36:39.86,0:36:41.95,Default,,0,0,0,,đừng cố kiếm chuyện với Housen.
+Dialogue: 0,0:36:43.48,0:36:44.40,Default,,0,0,0,,Saboten này.
+Dialogue: 0,0:36:45.15,0:36:49.36,Default,,0,0,0,,So với lần trước gặp,\Ncậu hèn hạ đi nhiều rồi.
+Dialogue: 0,0:36:49.95,0:36:52.24,Default,,0,0,0,,Đừng bao giờ xuất hiện trước mặt tôi nữa.
+Dialogue: 0,0:36:55.33,0:36:56.21,Default,,0,0,0,,À…
+Dialogue: 0,0:36:57.79,0:37:00.00,Default,,0,0,0,,Có lẽ tôi nên cảnh cáo các cậu.
+Dialogue: 0,0:37:00.79,0:37:04.13,Default,,0,0,0,,Các cậu sẽ phải hối hận\Nnếu dám động đến Trung học Oya.
+Dialogue: 0,0:37:05.63,0:37:06.55,Default,,0,0,0,,Chào nhé.
+Dialogue: 0,0:37:09.26,0:37:10.55,Default,,0,0,0,,Khốn nạn!
+Dialogue: 0,0:37:10.64,0:37:13.14,Default,,0,0,0,,Để hắn đi như vậy có ổn không?
+Dialogue: 0,0:37:13.22,0:37:17.39,Default,,0,0,0,,Không bịt miệng đi\Nthì hắn có thể để lộ chuyện này đấy.
+Dialogue: 0,0:37:18.39,0:37:19.39,Default,,0,0,0,,Tự dọn dẹp đi!
+Dialogue: 0,0:37:22.77,0:37:23.60,Default,,0,0,0,,Đi nào!
+Dialogue: 0,0:37:29.78,0:37:31.95,Default,,0,0,0,,- Xe của tôi đâu?\N- Đang đợi ở ngoài.
+Dialogue: 0,0:37:58.10,0:37:59.94,Default,,0,0,0,,Có chuyện này cứ làm tôi bận tâm mãi.
+Dialogue: 0,0:38:00.73,0:38:03.57,Default,,0,0,0,,Cậu từng là trùm Trung học Nami mà,\Nsao lại đến Senomon?
+Dialogue: 0,0:38:04.48,0:38:07.69,Default,,0,0,0,,Lại còn làm việc cho thằng con hư hỏng\Ncủa chủ tịch Tập đoàn Amagai.
+Dialogue: 0,0:38:08.61,0:38:10.45,Default,,0,0,0,,- Cậu có thể…\N- Không phải việc của cậu.
+Dialogue: 0,0:38:12.57,0:38:14.41,Default,,0,0,0,,Đừng có chõ mũi vào.
+Dialogue: 0,0:38:27.34,0:38:29.84,Default,,0,0,0,,Con trai tôi có hữu ích không ạ?
+Dialogue: 0,0:38:37.18,0:38:38.47,Default,,0,0,0,,Cậu Kohei,
+Dialogue: 0,0:38:38.56,0:38:42.48,Default,,0,0,0,,chúc mừng cậu\Nđã chuyển đến Trung học Kỹ thuật Senomon.
+Dialogue: 0,0:38:42.56,0:38:44.10,Default,,0,0,0,,Ông trêu tôi đấy à?
+Dialogue: 0,0:38:45.02,0:38:46.40,Default,,0,0,0,,Năm nay tôi chuyển ba lần rồi.
+Dialogue: 0,0:38:48.53,0:38:52.87,Default,,0,0,0,,Lần này tôi đã chuyển được\Ncon trai tôi sang trường mới của cậu.
+Dialogue: 0,0:39:12.63,0:39:15.18,Default,,0,0,0,,- Lâu rồi không gặp.\N- Phải.
+Dialogue: 0,0:39:24.85,0:39:26.10,Default,,0,0,0,,Là Suzaki từ trường Nami!
+Dialogue: 0,0:39:26.69,0:39:28.23,Default,,0,0,0,,Cậu ta mặc đồng phục trường ta!
+Dialogue: 0,0:39:30.36,0:39:31.36,Default,,0,0,0,,Này.
+Dialogue: 0,0:39:32.28,0:39:33.78,Default,,0,0,0,,Ta sẽ kiểm soát ngôi trường này.
+Dialogue: 0,0:39:36.36,0:39:39.36,Default,,0,0,0,,TRUNG HỌC KỸ THUẬT SENOMON
+Dialogue: 0,0:39:45.08,0:39:47.33,Default,,0,0,0,,Từ giờ, Amagai sẽ phụ trách ở đây.
+Dialogue: 0,0:39:48.96,0:39:49.80,Default,,0,0,0,,Hiểu chưa?
+Dialogue: 0,0:39:55.76,0:39:56.97,Default,,0,0,0,,Tôi là Amagai.
+Dialogue: 0,0:39:57.84,0:40:01.47,Default,,0,0,0,,Từ giờ trở đi, các cậu là công cụ của tôi.
+Dialogue: 0,0:40:05.23,0:40:09.19,Default,,0,0,0,,Nhờ có cậu Kohei,\Ncon trai tôi đã rất vui vẻ.
+Dialogue: 0,0:40:09.77,0:40:12.27,Default,,0,0,0,,Cả gia đình tôi cảm ơn cậu vì điều đó.
+Dialogue: 0,0:40:14.82,0:40:16.95,Default,,0,0,0,,Đôi khi, như ngày xưa…
+Dialogue: 0,0:40:17.03,0:40:18.41,Default,,0,0,0,,Ông Suzaki.
+Dialogue: 0,0:40:20.78,0:40:24.78,Default,,0,0,0,,Con người được định sẵn là sẽ sống\Ntrong một thế giới có tôn ti trật tự.
+Dialogue: 0,0:40:26.33,0:40:27.58,Default,,0,0,0,,Ở dưới đáy hoặc trên đỉnh.
+Dialogue: 0,0:40:30.59,0:40:32.34,Default,,0,0,0,,Tôi là người ở trên đỉnh.
+Dialogue: 0,0:40:36.34,0:40:37.42,Default,,0,0,0,,Vâng.
+Dialogue: 0,0:40:38.09,0:40:39.51,Default,,0,0,0,,Ngày mai cậu tính đi đâu?
+Dialogue: 0,0:40:44.35,0:40:45.52,Default,,0,0,0,,Địa bàn Oya.
+Dialogue: 0,0:41:12.00,0:41:13.38,Default,,0,0,0,,Anh Odajima, có điện thoại ạ.
+Dialogue: 0,0:41:14.63,0:41:15.97,Default,,0,0,0,,Giờ đừng nói chuyện với tôi!
+Dialogue: 0,0:41:16.05,0:41:17.22,Default,,0,0,0,,Em xin lỗi!
+Dialogue: 0,0:41:22.22,0:41:23.22,Default,,0,0,0,,Khỉ thật.
+Dialogue: 0,0:41:23.85,0:41:27.15,Default,,0,0,0,,Thật là, thằng quỷ Odajima không nghe máy.
+Dialogue: 0,0:41:35.07,0:41:36.20,Default,,0,0,0,,Này.
+Dialogue: 0,0:41:40.41,0:41:41.62,Default,,0,0,0,,Này.
+Dialogue: 0,0:41:41.70,0:41:44.12,Default,,0,0,0,,Tôi đã bảo đừng có ló mặt ra nữa mà.
+Dialogue: 0,0:41:45.83,0:41:48.50,Default,,0,0,0,,Sao cậu không cho tôi biết ý cậu là gì đi?
+Dialogue: 0,0:41:48.58,0:41:49.46,Default,,0,0,0,,Hả?
+Dialogue: 0,0:41:52.33,0:41:53.66,Default,,0,0,0,,Cậu giỏi đấy.
+Dialogue: 0,0:41:54.29,0:41:58.17,Default,,0,0,0,,Thảo nào cậu được cho là thủ lĩnh kế nhiệm\Ncủa Housen. Cậu rất khỏe.
+Dialogue: 0,0:42:00.30,0:42:01.30,Default,,0,0,0,,Cảm ơn anh.
+Dialogue: 0,0:42:08.23,0:42:10.36,Default,,0,0,0,,Là Shidaken gọi.
+Dialogue: 0,0:42:10.44,0:42:11.57,Default,,0,0,0,,Ui da!
+Dialogue: 0,0:42:38.96,0:42:42.80,Default,,0,0,0,,Vậy là Trung học Kama và Senomon\Nđã rình mò xung quanh trường Oya sao?
+Dialogue: 0,0:42:42.88,0:42:43.76,Default,,0,0,0,,Phải.
+Dialogue: 0,0:42:45.47,0:42:48.77,Default,,0,0,0,,Tôi không thể không nghĩ đây là điềm gở.
+Dialogue: 0,0:42:49.43,0:42:52.93,Default,,0,0,0,,Dù ai định giở trò,\Ntôi cũng sẽ dùng cái này để chào đón họ.
+Dialogue: 0,0:42:53.02,0:42:54.02,Default,,0,0,0,,Fujio!
+Dialogue: 0,0:42:55.23,0:42:57.40,Default,,0,0,0,,Tôi nghiêm túc đấy.
+Dialogue: 0,0:43:02.32,0:43:06.53,Default,,0,0,0,,Với tình trạng của Oya hiện giờ,\Ncả trường sẽ nghe lời cậu.
+Dialogue: 0,0:43:07.70,0:43:11.66,Default,,0,0,0,,Nghĩa là chúng ta có thể thua\Ntùy vào hành động của cậu.
+Dialogue: 0,0:43:14.29,0:43:17.29,Default,,0,0,0,,Không phải chuyện gì\Ncũng giải quyết được bằng nắm đấm đâu.
+Dialogue: 0,0:43:18.96,0:43:23.09,Default,,0,0,0,,Đừng quên\NTrung học Oya không chỉ có mình cậu.
+Dialogue: 0,0:43:33.69,0:43:34.69,Default,,0,0,0,,- Bắt lấy!\N- Giữ lấy!
+Dialogue: 0,0:43:35.27,0:43:37.77,Default,,0,0,0,,- Đừng bỏ cuộc!\N- Lên đi, Sabakan!
+Dialogue: 0,0:43:49.41,0:43:51.41,Default,,0,0,0,,Này! Lũ khốn!
+Dialogue: 0,0:43:52.70,0:43:53.99,Default,,0,0,0,,Các người…
+Dialogue: 0,0:43:56.12,0:43:57.25,Default,,0,0,0,,Nghe này,
+Dialogue: 0,0:43:57.83,0:44:03.00,Default,,0,0,0,,hôm qua Shidaken gọi cho tôi,\Nnhưng giờ tôi gọi lại thì không bắt máy.
+Dialogue: 0,0:44:03.09,0:44:04.13,Default,,0,0,0,,Có ai biết gì không?
+Dialogue: 0,0:44:08.35,0:44:12.06,Default,,0,0,0,,Ai là người cuối cùng\Ngặp Shidaken hôm qua?
+Dialogue: 0,0:44:13.81,0:44:14.81,Default,,0,0,0,,Chắc là em đấy.
+Dialogue: 0,0:44:16.23,0:44:17.11,Default,,0,0,0,,Có nói gì không?
+Dialogue: 0,0:44:17.19,0:44:19.03,Default,,0,0,0,,Không ạ.
+Dialogue: 0,0:44:41.50,0:44:42.83,Default,,0,0,0,,Cái quái gì đây?
+Dialogue: 0,0:44:44.05,0:44:46.05,Default,,0,0,0,,Này!
+Dialogue: 0,0:44:46.13,0:44:49.01,Default,,0,0,0,,Sao lại kẹt xe thế này?
+Dialogue: 0,0:44:49.09,0:44:51.43,Default,,0,0,0,,Có tai nạn hay gì à?
+Dialogue: 0,0:45:19.12,0:45:21.41,Default,,0,0,0,,Quỷ thần ơi! Chạy thục mạng đi!
+Dialogue: 0,0:45:21.50,0:45:22.96,Default,,0,0,0,,Chạy đi!
+Dialogue: 0,0:45:23.04,0:45:24.54,Default,,0,0,0,,Hay lắm! Tôi thích đấy!
+Dialogue: 0,0:45:24.63,0:45:29.97,Default,,0,0,0,,Đi dạo trong địa bàn Oya\Nchưa bao giờ thấy đã thế này!
+Dialogue: 0,0:45:30.64,0:45:32.52,Default,,0,0,0,,Bọn này tới đây, Todoroki!
+Dialogue: 0,0:45:32.60,0:45:34.48,Default,,0,0,0,,Đến giờ đi săn bọn Trung học Oya rồi.
+Dialogue: 0,0:45:34.56,0:45:37.06,Default,,0,0,0,,Tôi sẽ đi với Suzaki. Saboten.
+Dialogue: 0,0:45:37.68,0:45:40.39,Default,,0,0,0,,Cậu hợp tác\Nvới Trung học Kama và Trung học Ebara.
+Dialogue: 0,0:45:40.48,0:45:42.44,Default,,0,0,0,,Nghiền nát từng đứa một!
+Dialogue: 0,0:45:42.52,0:45:43.52,Default,,0,0,0,,Rõ.
+Dialogue: 0,0:45:44.48,0:45:46.90,Default,,0,0,0,,Được rồi! Đập bọn chúng nào!
+Dialogue: 0,0:45:51.57,0:45:53.82,Default,,0,0,0,,Chúng đang đến kìa!
+Dialogue: 0,0:46:29.78,0:46:31.28,Default,,0,0,0,,- Tôi xin lỗi.\N- Nên thế đi!
+Dialogue: 0,0:46:31.82,0:46:33.45,Default,,0,0,0,,- Trời ạ.\N- Sao lâu thế?
+Dialogue: 0,0:46:35.83,0:46:39.13,Default,,0,0,0,,Món mì yakisoba đó\Nlàm bụng tôi khó chịu quá.
+Dialogue: 0,0:46:40.96,0:46:42.05,Default,,0,0,0,,Cả cậu nữa à, Kiyoshi?
+Dialogue: 0,0:46:44.88,0:46:48.59,Default,,0,0,0,,Có đúng là\Ncon gái không thích tóc mào gà không?
+Dialogue: 0,0:46:50.30,0:46:51.59,Default,,0,0,0,,Sao tôi biết được?
+Dialogue: 0,0:46:52.09,0:46:55.01,Default,,0,0,0,,Con gái không thích tôi\Nvì cái chỏm tóc này, phải không?
+Dialogue: 0,0:46:55.09,0:46:57.80,Default,,0,0,0,,- Kệ cậu chứ. Bụng tôi đau quá!\N- Sao lại đau?
+Dialogue: 0,0:46:57.89,0:47:00.23,Default,,0,0,0,,- Bụng cậu không đau à?\N- Không.
+Dialogue: 0,0:47:01.02,0:47:01.85,Default,,0,0,0,,Sao lại…
+Dialogue: 0,0:47:02.85,0:47:03.68,Default,,0,0,0,,Này!
+Dialogue: 0,0:47:03.77,0:47:05.15,Default,,0,0,0,,Không sao chứ?
+Dialogue: 0,0:47:07.27,0:47:09.77,Default,,0,0,0,,Ồ, Yasukiyo đây mà.
+Dialogue: 0,0:47:09.86,0:47:11.65,Default,,0,0,0,,Gandhi!
+Dialogue: 0,0:47:12.86,0:47:16.24,Default,,0,0,0,,Đến lúc săn lũ cặn bã trường Oya rồi!
+Dialogue: 0,0:47:22.12,0:47:24.83,Default,,0,0,0,,Này. Kia là Phong Thần à?
+Dialogue: 0,0:47:24.92,0:47:26.92,Default,,0,0,0,,Chào mọi người!
+Dialogue: 0,0:47:33.63,0:47:34.84,Default,,0,0,0,,Bơi đi này!
+Dialogue: 0,0:47:39.22,0:47:41.06,Default,,0,0,0,,Đến lúc lũ cặn bã chúng mày đi tắm rồi!
+Dialogue: 0,0:47:41.14,0:47:42.23,Default,,0,0,0,,Senomon!
+Dialogue: 0,0:47:44.52,0:47:46.15,Default,,0,0,0,,- Không sao chứ?\N- Ngăn chúng lại!
+Dialogue: 0,0:47:46.23,0:47:48.77,Default,,0,0,0,,Đợi đã, Nakaoka! Đừng đuổi theo chúng!
+Dialogue: 0,0:48:01.66,0:48:02.66,Default,,0,0,0,,Thật tình.
+Dialogue: 0,0:48:03.50,0:48:05.84,Default,,0,0,0,,Lẽ ra chúng ta nên cẩn thận hơn.
+Dialogue: 0,0:48:05.92,0:48:08.63,Default,,0,0,0,,Và xem ra không chỉ có\NTrung học Kỹ thuật Senomon.
+Dialogue: 0,0:48:08.71,0:48:09.54,Default,,0,0,0,,Jamuo.
+Dialogue: 0,0:48:10.04,0:48:10.87,Default,,0,0,0,,Vâng?
+Dialogue: 0,0:48:10.96,0:48:13.09,Default,,0,0,0,,Fujio và tôi sẽ lo vụ này.
+Dialogue: 0,0:48:13.59,0:48:15.13,Default,,0,0,0,,Cậu hãy tìm thời cơ mà trốn đi.
+Dialogue: 0,0:48:15.93,0:48:16.76,Default,,0,0,0,,Nhưng…
+Dialogue: 0,0:48:16.84,0:48:20.55,Default,,0,0,0,,Nhìn tình hình hiện tại,\Nchúng đã bao vây cả thị trấn rồi.
+Dialogue: 0,0:48:21.18,0:48:22.68,Default,,0,0,0,,Quân số bọn chúng đông đấy.
+Dialogue: 0,0:48:28.10,0:48:29.44,Default,,0,0,0,,Đây rồi!
+Dialogue: 0,0:48:30.19,0:48:31.57,Default,,0,0,0,,Tsuji và Shibaman.
+Dialogue: 0,0:48:31.65,0:48:33.36,Default,,0,0,0,,Tìm thấy rồi!
+Dialogue: 0,0:48:35.40,0:48:38.15,Default,,0,0,0,,Chỉ có hai tên vệ sĩ.
+Dialogue: 0,0:48:38.24,0:48:40.12,Default,,0,0,0,,Này, vệ sĩ!
+Dialogue: 0,0:48:40.20,0:48:41.99,Default,,0,0,0,,Tên cầm đầu Todoroki khốn kiếp đâu rồi?
+Dialogue: 0,0:48:42.08,0:48:43.37,Default,,0,0,0,,Sao tôi biết được?
+Dialogue: 0,0:48:44.04,0:48:46.04,Default,,0,0,0,,Đâu phải lúc nào bọn tôi cũng đi cùng.
+Dialogue: 0,0:48:46.71,0:48:48.80,Default,,0,0,0,,Vậy thì bọn tao sẽ giết chúng mày.
+Dialogue: 0,0:49:09.65,0:49:10.65,Default,,0,0,0,,Bắt lấy chúng.
+Dialogue: 0,0:49:11.23,0:49:12.11,Default,,0,0,0,,Nghe này.
+Dialogue: 0,0:49:12.69,0:49:14.73,Default,,0,0,0,,Tìm hiểu tình hình\Nvà tập hợp lực lượng lại.
+Dialogue: 0,0:49:14.82,0:49:15.82,Default,,0,0,0,,Vâng!
+Dialogue: 0,0:49:23.79,0:49:27.59,Default,,0,0,0,,Là Nakagoshi và Nakaoka\Nbên phe Chuchu đây mà.
+Dialogue: 0,0:49:27.66,0:49:29.50,Default,,0,0,0,,Im đi, Saboten!
+Dialogue: 0,0:49:30.12,0:49:32.92,Default,,0,0,0,,Lũ Senomon thảm hại\Ndám bày trò này với Trung học Oya!
+Dialogue: 0,0:49:33.42,0:49:35.67,Default,,0,0,0,,Các người đừng hòng thoát tội!
+Dialogue: 0,0:49:38.01,0:49:40.89,Default,,0,0,0,,Trước giờ tôi vẫn luôn ghét cậu.
+Dialogue: 0,0:49:47.56,0:49:50.56,Default,,0,0,0,,Anh Nakagoshi! Anh không sao chứ?
+Dialogue: 0,0:50:25.81,0:50:27.40,Default,,0,0,0,,Hanaoka Fujio!
+Dialogue: 0,0:50:29.77,0:50:31.77,Default,,0,0,0,,Xem ra tôi thắng giải nhất rồi.
+Dialogue: 0,0:50:32.31,0:50:33.48,Default,,0,0,0,,Có chắc là thắng không?
+Dialogue: 0,0:50:34.73,0:50:36.11,Default,,0,0,0,,Thắng thua là do tôi quyết.
+Dialogue: 0,0:50:53.29,0:50:54.21,Default,,0,0,0,,Đau đấy!
+Dialogue: 0,0:51:06.68,0:51:08.85,Default,,0,0,0,,Tôi ghét mấy thằng dùng vũ khí lắm.
+Dialogue: 0,0:51:12.60,0:51:15.14,Default,,0,0,0,,Chiến thắng mới quan trọng. Thế thôi.
+Dialogue: 0,0:52:06.20,0:52:08.16,Default,,0,0,0,,Suzaki của Trung học Nami?
+Dialogue: 0,0:52:19.34,0:52:21.01,Default,,0,0,0,,Tỉnh táo lại đi! Đi thôi!
+Dialogue: 0,0:52:33.64,0:52:34.81,Default,,0,0,0,,Cậu làm gì vậy, Kiyoshi?
+Dialogue: 0,0:52:35.48,0:52:37.32,Default,,0,0,0,,Nếu tất cả chúng ta đều bị hạ,
+Dialogue: 0,0:52:38.06,0:52:39.40,Default,,0,0,0,,ai sẽ trả thù đây?
+Dialogue: 0,0:52:39.48,0:52:40.82,Default,,0,0,0,,Đừng có ngu thế!
+Dialogue: 0,0:52:40.90,0:52:45.03,Default,,0,0,0,,Ngoài tôi ra,\Ncậu còn có bạn ở Trung học Oya mà!
+Dialogue: 0,0:52:45.11,0:52:45.94,Default,,0,0,0,,Mở cửa ra đi!
+Dialogue: 0,0:52:46.57,0:52:49.24,Default,,0,0,0,,- Hãy mang họ theo!\N- Mở cửa ra!
+Dialogue: 0,0:52:49.32,0:52:50.20,Default,,0,0,0,,Chúng kìa!
+Dialogue: 0,0:52:52.83,0:52:55.37,Default,,0,0,0,,- Đi đi!\N- Kiyoshi!
+Dialogue: 0,0:52:55.45,0:52:56.87,Default,,0,0,0,,Cứ đi đi!
+Dialogue: 0,0:52:57.37,0:53:00.12,Default,,0,0,0,,Đi mau! Yasushi!
+Dialogue: 0,0:53:00.88,0:53:02.92,Default,,0,0,0,,Nhờ cậu cả đấy!
+Dialogue: 0,0:53:03.00,0:53:04.17,Default,,0,0,0,,Kiyoshi!
+Dialogue: 0,0:53:05.17,0:53:06.30,Default,,0,0,0,,Bắt lấy chúng!
+Dialogue: 0,0:54:28.26,0:54:29.43,Default,,0,0,0,,Này.
+Dialogue: 0,0:54:30.93,0:54:32.31,Default,,0,0,0,,Xem ra cậu thua rồi.
+Dialogue: 0,0:54:33.09,0:54:34.42,Default,,0,0,0,,Khốn nạn!
+Dialogue: 0,0:55:49.50,0:55:51.38,Default,,0,0,0,,Chưa xong đâu.
+Dialogue: 0,0:56:05.14,0:56:06.98,Default,,0,0,0,,Đừng phí thời gian với tên ngốc này nữa.
+Dialogue: 0,0:56:12.15,0:56:14.90,Default,,0,0,0,,Xin lỗi, nhưng bọn tôi\Nkhông thể dứt điểm phe Chuchu.
+Dialogue: 0,0:56:14.99,0:56:16.24,Default,,0,0,0,,Gandhi cũng không thể.
+Dialogue: 0,0:56:17.07,0:56:17.91,Default,,0,0,0,,Hả?
+Dialogue: 0,0:56:20.70,0:56:21.91,Default,,0,0,0,,Đừng có nói vớ vẩn.
+Dialogue: 0,0:56:23.08,0:56:24.42,Default,,0,0,0,,Hanaoka Fujio thì sao?
+Dialogue: 0,0:56:25.37,0:56:26.21,Default,,0,0,0,,Tôi không biết.
+Dialogue: 0,0:56:50.98,0:56:53.11,Default,,0,0,0,,- Đem hắn theo.\N- Vâng.
+Dialogue: 0,0:56:53.86,0:56:56.20,Default,,0,0,0,,Ta sẽ dùng hắn\Nlàm mồi nhử để dụ lũ ngốc đó ra.
+Dialogue: 0,0:56:57.03,0:56:58.66,Default,,0,0,0,,Vậy thì sẽ không phải đi tìm chúng.
+Dialogue: 0,0:57:59.63,0:58:05.30,Default,,0,0,0,,TRUNG HỌC OYA
+Dialogue: 0,0:58:08.35,0:58:09.19,Default,,0,0,0,,Anh Fujio!
+Dialogue: 0,0:58:10.35,0:58:11.19,Default,,0,0,0,,Cậu có sao không?
+Dialogue: 0,0:58:11.94,0:58:14.11,Default,,0,0,0,,Nhờ Motoaki mà em thoát được.
+Dialogue: 0,0:58:15.52,0:58:16.52,Default,,0,0,0,,Tsukasa đâu rồi?
+Dialogue: 0,0:58:22.24,0:58:23.45,Default,,0,0,0,,Khốn kiếp!
+Dialogue: 0,0:58:25.41,0:58:27.00,Default,,0,0,0,,Không chỉ có Senomon.
+Dialogue: 0,0:58:28.41,0:58:30.50,Default,,0,0,0,,Trung học Kama và Ebara hợp tác với chúng.
+Dialogue: 0,0:58:31.37,0:58:33.37,Default,,0,0,0,,Bọn nó tách riêng thì chỉ là chuyện nhỏ.
+Dialogue: 0,0:58:33.96,0:58:35.55,Default,,0,0,0,,Nhưng bọn nó tụ lại đông lắm.
+Dialogue: 0,0:58:37.00,0:58:37.83,Default,,0,0,0,,Phe ta thế nào?
+Dialogue: 0,0:58:41.47,0:58:45.02,Default,,0,0,0,,Anh Nakagoshi đã hy sinh thân mình vì em.
+Dialogue: 0,0:58:48.52,0:58:51.02,Default,,0,0,0,,Kiyoshi cũng vậy.
+Dialogue: 0,0:58:51.85,0:58:52.68,Default,,0,0,0,,Còn nữa…
+Dialogue: 0,0:58:54.19,0:58:56.11,Default,,0,0,0,,Tôi không gọi được cho Tsuji hay Shiba.
+Dialogue: 0,0:59:00.40,0:59:01.24,Default,,0,0,0,,Còn Doroki?
+Dialogue: 0,0:59:02.11,0:59:03.36,Default,,0,0,0,,Còn Todoroki thì sao?
+Dialogue: 0,0:59:12.16,0:59:14.29,Default,,0,0,0,,Này! Vẫn chưa tìm thấy Todoroki à?
+Dialogue: 0,0:59:14.38,0:59:17.93,Default,,0,0,0,,{\i1}Vâng. Bọn em tìm khắp nơi rồi\Nnhưng vẫn không thấy.{\i0}
+Dialogue: 0,0:59:18.00,0:59:20.04,Default,,0,0,0,,Mau đi tìm hắn đi, khỉ gió!
+Dialogue: 0,0:59:21.22,0:59:22.05,Default,,0,0,0,,Vâng!
+Dialogue: 0,0:59:24.39,0:59:25.22,Default,,0,0,0,,Này!
+Dialogue: 0,0:59:31.73,0:59:33.07,Default,,0,0,0,,Tìm tôi à?
+Dialogue: 0,0:59:36.94,0:59:39.11,Default,,0,0,0,,Anh Fujio, ta nên làm gì đây?
+Dialogue: 0,0:59:47.16,0:59:48.75,Default,,0,0,0,,Có lẽ tôi không được định sẵn…
+Dialogue: 0,0:59:50.41,0:59:51.62,Default,,0,0,0,,để làm thủ lĩnh của Oya.
+Dialogue: 0,0:59:56.83,0:59:57.66,Default,,0,0,0,,Hả?
+Dialogue: 0,0:59:59.04,1:00:00.33,Default,,0,0,0,,Anh đang nói gì vậy?
+Dialogue: 0,1:00:00.42,1:00:01.55,Default,,0,0,0,,Nếu là Satchi…
+Dialogue: 0,1:00:03.30,1:00:04.43,Default,,0,0,0,,hay Tsukasa…
+Dialogue: 0,1:00:07.80,1:00:09.18,Default,,0,0,0,,chuyện này đã không xảy ra.
+Dialogue: 0,1:00:09.26,1:00:13.51,Default,,0,0,0,,Đừng quên Trung học Oya\Nkhông chỉ có mình cậu.
+Dialogue: 0,1:00:13.60,1:00:15.69,Default,,0,0,0,,Chúng đã bao vây cả thị trấn rồi.
+Dialogue: 0,1:00:16.27,1:00:18.73,Default,,0,0,0,,Tìm hiểu tình hình\Nvà tập hợp lực lượng lại.
+Dialogue: 0,1:00:22.32,1:00:24.41,Default,,0,0,0,,Anh là thủ lĩnh của Trung học Oya mà!
+Dialogue: 0,1:00:41.75,1:00:42.58,Default,,0,0,0,,Tôi xin lỗi.
+Dialogue: 0,1:00:46.84,1:00:48.30,Default,,0,0,0,,Hãy cho tôi ở yên một chút.
+Dialogue: 0,1:00:57.44,1:00:58.27,Default,,0,0,0,,Này.
+Dialogue: 0,1:01:17.79,1:01:20.67,Default,,0,0,0,,Này, cậu có vài người bạn tốt đấy.
+Dialogue: 0,1:01:23.80,1:01:25.80,Default,,0,0,0,,Nhưng mấy chuyện đó toàn vớ vẩn.
+Dialogue: 0,1:01:29.01,1:01:31.30,Default,,0,0,0,,Có thứ cần bảo vệ thì sẽ trở nên yếu đuối.
+Dialogue: 0,1:01:32.18,1:01:34.60,Default,,0,0,0,,Ta không cần bạn bè để trở nên mạnh mẽ.
+Dialogue: 0,1:01:40.90,1:01:42.86,Default,,0,0,0,,Có gì buồn cười chứ?
+Dialogue: 0,1:01:44.65,1:01:46.36,Default,,0,0,0,,Nếu cậu bị bắt,
+Dialogue: 0,1:01:47.36,1:01:50.07,Default,,0,0,0,,tôi cá là sẽ không ai đến cứu cậu đâu.
+Dialogue: 0,1:02:08.47,1:02:09.97,Default,,0,0,0,,Ngày mai bọn tôi sẽ xóa sổ Oya.
+Dialogue: 0,1:02:21.40,1:02:22.78,Default,,0,0,0,,Này, Suzaki,
+Dialogue: 0,1:02:25.82,1:02:29.70,Default,,0,0,0,,cậu bị hắn nắm thóp à?
+Dialogue: 0,1:02:31.82,1:02:32.82,Default,,0,0,0,,Hẳn là vậy rồi.
+Dialogue: 0,1:02:34.62,1:02:36.71,Default,,0,0,0,,Nếu không thì\Nsao cậu lại làm việc cho hắn?
+Dialogue: 0,1:03:08.07,1:03:10.99,Default,,0,0,0,,Thật sao?\NVậy là hai người quen nhau từ nhỏ?
+Dialogue: 0,1:03:12.11,1:03:14.70,Default,,0,0,0,,Bố của Suzaki\Ncó một công ty nhưng bị phá sản rồi.
+Dialogue: 0,1:03:14.78,1:03:17.49,Default,,0,0,0,,Công ty bố tôi mua lại\Nnên giờ ông ta lái xe cho nhà tôi.
+Dialogue: 0,1:03:18.08,1:03:19.58,Default,,0,0,0,,Ông ta ăn lương nhà tôi.
+Dialogue: 0,1:03:21.33,1:03:25.42,Default,,0,0,0,,Vậy nên tên đó\Nlà công cụ của tôi từ lâu rồi.
+Dialogue: 0,1:03:26.29,1:03:27.42,Default,,0,0,0,,Công cụ của cậu à?
+Dialogue: 0,1:03:32.93,1:03:34.93,Default,,0,0,0,,Bên ngoài có vài tên của Trung học Kiri.
+Dialogue: 0,1:03:35.97,1:03:37.06,Default,,0,0,0,,Saboten.
+Dialogue: 0,1:03:37.14,1:03:39.06,Default,,0,0,0,,- Gọi bọn công cụ đi.\N- Được. Hiểu rồi.
+Dialogue: 0,1:03:44.02,1:03:44.85,Default,,0,0,0,,Cảm ơn.
+Dialogue: 0,1:03:49.27,1:03:50.44,Default,,0,0,0,,Giữ tiền thừa đi.
+Dialogue: 0,1:03:55.70,1:03:56.87,Default,,0,0,0,,Làm việc của cậu đi.
+Dialogue: 0,1:03:59.37,1:04:00.25,Default,,0,0,0,,Tôi là công cụ à?
+Dialogue: 0,1:04:03.96,1:04:05.63,Default,,0,0,0,,Tôi tưởng ta có thể làm bạn.
+Dialogue: 0,1:04:09.84,1:04:13.59,Default,,0,0,0,,Mọi người làm việc cho tôi\Nđều muốn tiền. Kể cả cậu.
+Dialogue: 0,1:04:13.67,1:04:15.71,Default,,0,0,0,,- Tôi…\N- Tôi không thể tin vào bạn bè!
+Dialogue: 0,1:04:19.64,1:04:21.43,Default,,0,0,0,,Tôi chỉ cần công cụ thôi.
+Dialogue: 0,1:04:49.54,1:04:51.79,Default,,0,0,0,,{\i1}Chúng ta có thể thua\Ntùy vào hành động của cậu.{\i0}
+Dialogue: 0,1:04:54.38,1:04:57.93,Default,,0,0,0,,{\i1}Không phải chuyện gì\Ncũng giải quyết được bằng nắm đấm.{\i0}
+Dialogue: 0,1:05:35.88,1:05:36.71,Default,,0,0,0,,Này.
+Dialogue: 0,1:05:37.42,1:05:38.55,Default,,0,0,0,,Bỏ vụ này đi.
+Dialogue: 0,1:05:39.09,1:05:41.13,Default,,0,0,0,,Cái liên minh ba trường này\Nđúng là vớ vẩn.
+Dialogue: 0,1:05:42.22,1:05:43.60,Default,,0,0,0,,Giờ mới nói thì quá muộn rồi!
+Dialogue: 0,1:05:44.18,1:05:47.06,Default,,0,0,0,,Hai cậu chỉ muốn\Nđấu với Todoroki, đúng không?
+Dialogue: 0,1:05:50.40,1:05:52.28,Default,,0,0,0,,Todoroki khác xưa rồi, giờ hắn là
+Dialogue: 0,1:05:52.86,1:05:53.99,Default,,0,0,0,,Todoroki của Oya.
+Dialogue: 0,1:05:56.11,1:05:57.95,Default,,0,0,0,,Tôi hiểu rồi. Ra là vậy.
+Dialogue: 0,1:06:06.08,1:06:08.08,Default,,0,0,0,,Đúng là một cách vòng vo để tiếp cận tôi.
+Dialogue: 0,1:06:11.67,1:06:13.80,Default,,0,0,0,,- Xem ra cậu đã sẵn sàng chiến đấu.\N- Nhưng…
+Dialogue: 0,1:06:15.59,1:06:19.05,Default,,0,0,0,,Nếu tôi thắng trận này,\Ncác cậu sẽ rút khỏi liên minh đó.
+Dialogue: 0,1:06:19.63,1:06:21.17,Default,,0,0,0,,- Tôi không biết…\N- Được!
+Dialogue: 0,1:06:22.30,1:06:23.59,Default,,0,0,0,,- Cứ thế đi.\N- Sameoka!
+Dialogue: 0,1:06:23.68,1:06:24.97,Default,,0,0,0,,Kèo này ổn mà.
+Dialogue: 0,1:06:26.47,1:06:28.31,Default,,0,0,0,,Tôi sẽ là trọng tài.
+Dialogue: 0,1:06:31.35,1:06:32.18,Default,,0,0,0,,Được.
+Dialogue: 0,1:06:34.69,1:06:35.57,Default,,0,0,0,,Quyết định vậy đi.
+Dialogue: 0,1:06:36.15,1:06:37.24,Default,,0,0,0,,Ừ.
+Dialogue: 0,1:06:37.32,1:06:39.86,Default,,0,0,0,,Nhân tiện thì\Nchính các cậu đánh Tsuji và Shibaman à?
+Dialogue: 0,1:06:46.74,1:06:47.74,Default,,0,0,0,,Các cậu chết chắc rồi.
+Dialogue: 0,1:06:50.50,1:06:52.00,Default,,0,0,0,,Nhập viện vì đánh nhau à?
+Dialogue: 0,1:06:52.08,1:06:54.12,Default,,0,0,0,,Đúng là trẻ con mà!
+Dialogue: 0,1:06:54.21,1:06:55.29,Default,,0,0,0,,Tôi xin lỗi.
+Dialogue: 0,1:06:56.84,1:06:59.22,Default,,0,0,0,,Cậu bé ở phòng chăm sóc đặc biệt\Nvẫn đang hôn mê.
+Dialogue: 0,1:06:59.30,1:07:02.68,Default,,0,0,0,,Cậu ấy cũng không có căn cước\Nnên chúng tôi không thể làm gì.
+Dialogue: 0,1:07:04.72,1:07:06.85,Default,,0,0,0,,Này! Cậu nằm xuống đi!
+Dialogue: 0,1:07:07.47,1:07:08.47,Default,,0,0,0,,Xin lỗi,
+Dialogue: 0,1:07:09.43,1:07:10.85,Default,,0,0,0,,nhưng người bị hôn mê đó
+Dialogue: 0,1:07:11.44,1:07:13.11,Default,,0,0,0,,có thể là bạn của tôi.
+Dialogue: 0,1:07:27.20,1:07:28.41,Default,,0,0,0,,Anh đi đâu vậy?
+Dialogue: 0,1:07:28.49,1:07:29.78,Default,,0,0,0,,Tôi sẽ tự trả thù.
+Dialogue: 0,1:07:29.87,1:07:30.95,Default,,0,0,0,,Đợi thêm chút nữa đi!
+Dialogue: 0,1:07:31.04,1:07:33.92,Default,,0,0,0,,Dẹp đi! Tôi không thể ngồi đây nữa!
+Dialogue: 0,1:07:37.63,1:07:38.51,Default,,0,0,0,,Anh Fujio!
+Dialogue: 0,1:07:39.71,1:07:41.71,Default,,0,0,0,,Anh Fujio, anh đã đi đâu vậy?
+Dialogue: 0,1:07:41.80,1:07:42.76,Default,,0,0,0,,Xin lỗi mọi người.
+Dialogue: 0,1:07:52.31,1:07:53.56,Default,,0,0,0,,Doroki.
+Dialogue: 0,1:07:54.31,1:07:55.85,Default,,0,0,0,,Là mấy tên khốn liên minh đó à?
+Dialogue: 0,1:07:55.94,1:07:57.53,Default,,0,0,0,,Trung học Ebara rút lui rồi.
+Dialogue: 0,1:07:58.77,1:07:59.98,Default,,0,0,0,,Họ sẽ không đánh ta nữa.
+Dialogue: 0,1:08:06.87,1:08:09.08,Default,,0,0,0,,Lần sau, hãy trực tiếp đến gặp tôi.
+Dialogue: 0,1:08:12.75,1:08:13.58,Default,,0,0,0,,Cậu biết không…
+Dialogue: 0,1:08:15.08,1:08:16.00,Default,,0,0,0,,cậu đã thay đổi rồi.
+Dialogue: 0,1:08:16.75,1:08:17.63,Default,,0,0,0,,Phải.
+Dialogue: 0,1:08:19.71,1:08:20.75,Default,,0,0,0,,Có lẽ cậu nói đúng.
+Dialogue: 0,1:08:23.30,1:08:24.47,Default,,0,0,0,,Giờ đây…
+Dialogue: 0,1:08:27.05,1:08:28.68,Default,,0,0,0,,tôi phải bảo vệ bạn bè.
+Dialogue: 0,1:08:36.73,1:08:37.73,Default,,0,0,0,,Thật là.
+Dialogue: 0,1:08:39.48,1:08:41.73,Default,,0,0,0,,Tôi bị các thủ lĩnh ảnh hưởng quá.
+Dialogue: 0,1:08:53.04,1:08:53.96,Default,,0,0,0,,Alô? Ai vậy?
+Dialogue: 0,1:08:55.33,1:08:56.29,Default,,0,0,0,,Này! Kiyoshi!
+Dialogue: 0,1:08:56.37,1:08:57.79,Default,,0,0,0,,Bác sĩ khám cho cậu chưa?
+Dialogue: 0,1:08:59.38,1:09:00.21,Default,,0,0,0,,Được rồi.
+Dialogue: 0,1:09:00.71,1:09:01.63,Default,,0,0,0,,Cái gì?
+Dialogue: 0,1:09:02.46,1:09:03.63,Default,,0,0,0,,Shidaken của Housen?
+Dialogue: 0,1:09:04.59,1:09:05.88,Default,,0,0,0,,Yasushi, đưa tôi điện thoại.
+Dialogue: 0,1:09:07.97,1:09:09.39,Default,,0,0,0,,Todoroki đây. Shidaken bị gì?
+Dialogue: 0,1:09:10.76,1:09:12.26,Default,,0,0,0,,Ừ. Ở đâu?
+Dialogue: 0,1:09:15.73,1:09:16.57,Default,,0,0,0,,Là Tsukasa.
+Dialogue: 0,1:09:18.10,1:09:19.73,Default,,0,0,0,,Tsukasa! Cậu không sao chứ?
+Dialogue: 0,1:09:20.40,1:09:22.15,Default,,0,0,0,,{\i1}Câu hỏi hay đấy.{\i0}
+Dialogue: 0,1:09:22.23,1:09:23.98,Default,,0,0,0,,Tôi không nghĩ là vậy.
+Dialogue: 0,1:09:26.53,1:09:27.74,Default,,0,0,0,,Tên khốn…
+Dialogue: 0,1:09:27.82,1:09:31.16,Default,,0,0,0,,Thế là hết cho\Nngôi trường Trung học Oya từng đứng đầu.
+Dialogue: 0,1:09:31.70,1:09:32.91,Default,,0,0,0,,{\i1}Đừng có đùa.{\i0}
+Dialogue: 0,1:09:32.99,1:09:33.87,Default,,0,0,0,,Vào ngày mai,
+Dialogue: 0,1:09:34.37,1:09:36.33,Default,,0,0,0,,đưa hết bọn đã chạy trốn hôm nay đến đây.
+Dialogue: 0,1:09:37.91,1:09:39.25,Default,,0,0,0,,Bọn tôi sẽ đợi.
+Dialogue: 0,1:09:39.83,1:09:40.79,Default,,0,0,0,,Được thôi!
+Dialogue: 0,1:09:42.42,1:09:43.42,Default,,0,0,0,,Cứ đợi đó đi.
+Dialogue: 0,1:09:57.14,1:09:58.06,Default,,0,0,0,,Vậy ta có đi không?
+Dialogue: 0,1:09:59.77,1:10:00.61,Default,,0,0,0,,Có.
+Dialogue: 0,1:10:02.40,1:10:03.48,Default,,0,0,0,,Được!
+Dialogue: 0,1:10:03.57,1:10:05.32,Default,,0,0,0,,Đánh bại chúng nào!
+Dialogue: 0,1:10:05.40,1:10:06.69,Default,,0,0,0,,- Được!\N- Được!
+Dialogue: 0,1:10:06.78,1:10:09.95,Default,,0,0,0,,Dù Trung học Ebara có rút lui\Nthì cũng không có gì thay đổi.
+Dialogue: 0,1:10:11.28,1:10:13.37,Default,,0,0,0,,Lực lượng của chúng ta\Nchỉ còn lại chừng này.
+Dialogue: 0,1:10:15.54,1:10:17.83,Default,,0,0,0,,Tấn công trực diện thì thật ngu ngốc.
+Dialogue: 0,1:10:21.46,1:10:22.29,Default,,0,0,0,,Hiện tại…
+Dialogue: 0,1:10:24.38,1:10:27.18,Default,,0,0,0,,tốt nhất là tìm cách cứu Tsukasa đi.
+Dialogue: 0,1:10:35.72,1:10:36.72,Default,,0,0,0,,Này!
+Dialogue: 0,1:10:37.47,1:10:40.35,Default,,0,0,0,,Nghe như ngày mai\Nbạn cậu sẽ đến cứu cậu đấy.
+Dialogue: 0,1:10:40.44,1:10:41.65,Default,,0,0,0,,Hay lắm.
+Dialogue: 0,1:10:42.56,1:10:44.73,Default,,0,0,0,,Đó là nếu chúng có thể đến được đây.
+Dialogue: 0,1:10:52.61,1:10:54.28,Default,,0,0,0,,Sao ta biết được?
+Dialogue: 0,1:10:56.95,1:10:57.78,Default,,0,0,0,,Cái gì?
+Dialogue: 0,1:10:59.16,1:11:01.37,Default,,0,0,0,,Chưa thử thì làm sao biết được?
+Dialogue: 0,1:11:04.88,1:11:07.80,Default,,0,0,0,,Tôi không nghĩ\NTsukasa muốn chúng ta đến cứu cậu ấy đâu.
+Dialogue: 0,1:11:10.63,1:11:11.67,Default,,0,0,0,,Này!
+Dialogue: 0,1:11:13.43,1:11:16.06,Default,,0,0,0,,Họ không đến để cứu tôi đâu.
+Dialogue: 0,1:11:16.64,1:11:17.64,Default,,0,0,0,,- Hả?\N- Hả?
+Dialogue: 0,1:11:19.77,1:11:21.86,Default,,0,0,0,,Mà đến giết mấy người kìa.
+Dialogue: 0,1:11:30.69,1:11:32.73,Default,,0,0,0,,Trung học Oya chúng ta rất đơn giản.
+Dialogue: 0,1:11:33.99,1:11:35.57,Default,,0,0,0,,Dù hoàn cảnh thế nào,
+Dialogue: 0,1:11:36.20,1:11:38.45,Default,,0,0,0,,ta cũng chiến đấu\Nvì giờ chỉ có thể làm thế.
+Dialogue: 0,1:11:41.25,1:11:43.34,Default,,0,0,0,,Lần này chỉ có\Ný chí chiến đấu thôi là chưa đủ.
+Dialogue: 0,1:11:45.71,1:11:47.38,Default,,0,0,0,,Cậu phải dùng cái đầu đi!
+Dialogue: 0,1:11:50.21,1:11:51.04,Default,,0,0,0,,Todoroki.
+Dialogue: 0,1:11:56.64,1:11:58.77,Default,,0,0,0,,Trung học Ebara rút lui rồi\Nthì sẽ dễ hơn thôi.
+Dialogue: 0,1:12:00.27,1:12:01.52,Default,,0,0,0,,Như thế là đủ rồi.
+Dialogue: 0,1:12:08.52,1:12:09.44,Default,,0,0,0,,Cảm ơn cậu.
+Dialogue: 0,1:12:14.45,1:12:15.83,Default,,0,0,0,,Chuyện này là sao?
+Dialogue: 0,1:12:19.95,1:12:22.79,Default,,0,0,0,,Nghĩa là cậu không cần tôi nữa à?
+Dialogue: 0,1:12:31.34,1:12:32.43,Default,,0,0,0,,Tất nhiên là không.
+Dialogue: 0,1:12:33.59,1:12:36.47,Default,,0,0,0,,Vì một người bạn,\Ntôi sẵn sàng dẹp bỏ tự tôn.
+Dialogue: 0,1:12:41.18,1:12:42.01,Default,,0,0,0,,Làm ơn.
+Dialogue: 0,1:12:43.35,1:12:44.69,Default,,0,0,0,,Cậu sẽ giúp chúng tôi chứ?
+Dialogue: 0,1:13:00.28,1:13:02.41,Default,,0,0,0,,Chúng ta trở thành bạn nhờ chiến đấu.
+Dialogue: 0,1:13:04.45,1:13:06.66,Default,,0,0,0,,Các cậu không phải\Nđồng đội duy nhất của phe ta!
+Dialogue: 0,1:13:10.84,1:13:11.67,Default,,0,0,0,,Cậu đã…
+Dialogue: 0,1:13:14.80,1:13:16.64,Default,,0,0,0,,Vì bọn chúng bắt tay với nhau…
+Dialogue: 0,1:13:18.26,1:13:20.93,Default,,0,0,0,,ta sẽ cho chúng thấy\Nliên minh thật sự là thế nào.
+Dialogue: 0,1:13:25.56,1:13:30.52,Default,,0,0,0,,TRUNG HỌC OYA
+Dialogue: 0,1:14:34.09,1:14:35.51,Default,,0,0,0,,Chào Jinjin.
+Dialogue: 0,1:14:36.21,1:14:37.38,Default,,0,0,0,,Đừng gọi tôi như thế.
+Dialogue: 0,1:14:38.88,1:14:40.72,Default,,0,0,0,,Đừng hiểu lầm.
+Dialogue: 0,1:14:41.26,1:14:42.72,Default,,0,0,0,,Shidaken cũng bị đánh.
+Dialogue: 0,1:14:43.80,1:14:44.63,Default,,0,0,0,,Với cả…
+Dialogue: 0,1:14:45.81,1:14:48.06,Default,,0,0,0,,Nói sao nhỉ?
+Dialogue: 0,1:14:53.27,1:14:54.35,Default,,0,0,0,,Nếu Sachio ở đây,
+Dialogue: 0,1:14:55.94,1:14:57.94,Default,,0,0,0,,chắc chắn cậu ấy cũng sẽ làm thế.
+Dialogue: 0,1:15:03.78,1:15:05.45,Default,,0,0,0,,Shidaken sao rồi?
+Dialogue: 0,1:15:05.53,1:15:07.57,Default,,0,0,0,,Sáng nay cậu ấy đã hết hôn mê,
+Dialogue: 0,1:15:08.24,1:15:10.24,Default,,0,0,0,,nhưng tình trạng rất tệ.
+Dialogue: 0,1:15:10.33,1:15:13.96,Default,,0,0,0,,Có chuyện gì vậy?\NMặt cậu trông cũng tệ lắm.
+Dialogue: 0,1:15:14.04,1:15:15.21,Default,,0,0,0,,Không có gì!
+Dialogue: 0,1:15:15.29,1:15:18.13,Default,,0,0,0,,Bạn của các anh bị bắt rồi, đúng không?
+Dialogue: 0,1:15:22.97,1:15:24.64,Default,,0,0,0,,- Tránh đường!\N- Vâng!
+Dialogue: 0,1:15:28.89,1:15:30.64,Default,,0,0,0,,Đi thôi!
+Dialogue: 0,1:15:30.73,1:15:32.15,Default,,0,0,0,,- Vâng!\N- Vâng!
+Dialogue: 0,1:15:32.23,1:15:35.19,Default,,0,0,0,,- Đến giờ quẩy rồi!\N- Vâng!
+Dialogue: 0,1:15:35.27,1:15:36.52,Default,,0,0,0,,Hả?
+Dialogue: 0,1:15:36.61,1:15:38.24,Default,,0,0,0,,Trung học Ebara không đến à?
+Dialogue: 0,1:15:38.32,1:15:39.53,Default,,0,0,0,,Không quan trọng.
+Dialogue: 0,1:15:40.65,1:15:43.15,Default,,0,0,0,,Bên đó chỉ còn đám thừa thãi thôi.
+Dialogue: 0,1:15:43.24,1:15:44.16,Default,,0,0,0,,Này!
+Dialogue: 0,1:15:44.99,1:15:46.03,Default,,0,0,0,,Chúng đến rồi.
+Dialogue: 0,1:15:46.12,1:15:48.16,Default,,0,0,0,,- Đi thôi!\N- Được! Chiến nào!
+Dialogue: 0,1:15:50.37,1:15:52.66,Default,,0,0,0,,Khu SWORD sẽ là của chúng ta!
+Dialogue: 0,1:15:55.92,1:15:57.63,Default,,0,0,0,,Nhào vô!
+Dialogue: 0,1:16:43.34,1:16:44.76,Default,,0,0,0,,Sao Housen lại ở đây?
+Dialogue: 0,1:16:44.84,1:16:46.97,Default,,0,0,0,,Bọn trọc khốn kiếp.
+Dialogue: 0,1:16:57.48,1:16:58.32,Default,,0,0,0,,Fujio.
+Dialogue: 0,1:17:00.02,1:17:01.52,Default,,0,0,0,,Ra hiệu đi.
+Dialogue: 0,1:17:05.95,1:17:07.95,Default,,0,0,0,,Lên nào, lũ khốn!
+Dialogue: 0,1:17:11.41,1:17:12.75,Default,,0,0,0,,Nghiền nát chúng!
+Dialogue: 0,1:17:44.78,1:17:45.95,Default,,0,0,0,,Yasushi!
+Dialogue: 0,1:17:52.49,1:17:53.32,Default,,0,0,0,,Chiến thôi!
+Dialogue: 0,1:18:02.13,1:18:04.17,Default,,0,0,0,,{\i1}Chào mừng mọi người.{\i0}
+Dialogue: 0,1:18:04.25,1:18:08.71,Default,,0,0,0,,{\i1}Bạn các người đang ở phòng tập thể dục.{\i0}
+Dialogue: 0,1:18:08.80,1:18:10.34,Default,,0,0,0,,Hãy đến phòng tập nếu có thể!
+Dialogue: 0,1:18:10.43,1:18:11.35,Default,,0,0,0,,Đi thôi!
+Dialogue: 0,1:18:25.27,1:18:26.11,Default,,0,0,0,,Anh Fujio!
+Dialogue: 0,1:18:26.82,1:18:28.70,Default,,0,0,0,,Ở đây đông quá. Đi đường khác đi!
+Dialogue: 0,1:18:28.78,1:18:30.82,Default,,0,0,0,,- Đi thôi!\N- Rõ!
+Dialogue: 0,1:18:37.66,1:18:38.49,Default,,0,0,0,,Chúng đến rồi!
+Dialogue: 0,1:19:12.74,1:19:13.91,Default,,0,0,0,,Tránh ra!
+Dialogue: 0,1:19:13.99,1:19:15.66,Default,,0,0,0,,Phải! Tiến lên!
+Dialogue: 0,1:19:19.41,1:19:23.04,Default,,0,0,0,,Đó là đầu máy xe lửa Housen!
+Dialogue: 0,1:19:28.63,1:19:29.59,Default,,0,0,0,,Này.
+Dialogue: 0,1:19:29.67,1:19:31.96,Default,,0,0,0,,Mang theo lính đến Senomon nhé.
+Dialogue: 0,1:19:33.13,1:19:37.05,Default,,0,0,0,,Nếu không muốn gãy cánh tay còn lại\Nthì làm việc của mình đi!
+Dialogue: 0,1:19:39.60,1:19:41.60,Default,,0,0,0,,Đi đi! Ra đó đi, khốn kiếp!
+Dialogue: 0,1:19:43.06,1:19:46.06,Default,,0,0,0,,- Còn định chạy bao lâu nữa, Gandhi?\N- Im đi, đồ ngốc!
+Dialogue: 0,1:19:47.65,1:19:50.15,Default,,0,0,0,,Gọi ai là đồ ngốc hả?
+Dialogue: 0,1:19:58.45,1:20:00.08,Default,,0,0,0,,- Cái gì? Này!\N- Này!
+Dialogue: 0,1:20:01.20,1:20:02.03,Default,,0,0,0,,Khỉ gió!
+Dialogue: 0,1:20:14.59,1:20:17.93,Default,,0,0,0,,- Tiên sư nó! Có chuyện gì vậy?\N- Hỏng hết rồi!
+Dialogue: 0,1:20:30.69,1:20:31.78,Default,,0,0,0,,Kéo đi!
+Dialogue: 0,1:20:35.53,1:20:36.36,Default,,0,0,0,,Này!
+Dialogue: 0,1:20:47.63,1:20:49.63,Default,,0,0,0,,Các cậu! Tìm lối vào khác đi!
+Dialogue: 0,1:20:50.67,1:20:51.50,Default,,0,0,0,,Cậu ổn chứ?
+Dialogue: 0,1:20:52.34,1:20:53.47,Default,,0,0,0,,Cẩn thận!
+Dialogue: 0,1:20:57.76,1:21:00.39,Default,,0,0,0,,Coi chừng cái đầu đấy.
+Dialogue: 0,1:21:15.90,1:21:17.61,Default,,0,0,0,,Xem ra chúng dẫn ta vào bẫy rồi.
+Dialogue: 0,1:21:18.41,1:21:19.83,Default,,0,0,0,,Chúng ta hoàn toàn bị lừa rồi!
+Dialogue: 0,1:21:22.45,1:21:23.41,Default,,0,0,0,,Chúng đông thật đấy!
+Dialogue: 0,1:21:43.26,1:21:44.51,Default,,0,0,0,,Xin chào!
+Dialogue: 0,1:21:45.27,1:21:47.27,Default,,0,0,0,,Quân Đoàn Sát Nhân Housen đến rồi đây.
+Dialogue: 0,1:21:49.31,1:21:50.77,Default,,0,0,0,,Sao lâu thế?
+Dialogue: 0,1:21:50.86,1:21:52.70,Default,,0,0,0,,Đừng như vậy.
+Dialogue: 0,1:21:52.77,1:21:54.65,Default,,0,0,0,,Còn nhiều việc phải làm mà.
+Dialogue: 0,1:21:55.23,1:21:56.23,Default,,0,0,0,,Đi thôi!
+Dialogue: 0,1:22:01.32,1:22:03.03,Default,,0,0,0,,Đừng có mà gây sự với Trung học Oya!
+Dialogue: 0,1:22:16.88,1:22:18.55,Default,,0,0,0,,Giết chúng đi!
+Dialogue: 0,1:22:27.02,1:22:27.85,Default,,0,0,0,,Đi thôi!
+Dialogue: 0,1:22:37.07,1:22:40.16,Default,,0,0,0,,Fujio! Để đó cho bọn tôi!
+Dialogue: 0,1:22:40.24,1:22:42.28,Default,,0,0,0,,Tôi đến đây để trả thù!
+Dialogue: 0,1:22:43.70,1:22:44.53,Default,,0,0,0,,Mấy tên đó…
+Dialogue: 0,1:23:00.93,1:23:02.18,Default,,0,0,0,,Đến nơi rồi.
+Dialogue: 0,1:23:03.18,1:23:04.47,Default,,0,0,0,,Sắp đến rồi đây, Tsukasa!
+Dialogue: 0,1:23:04.55,1:23:05.39,Default,,0,0,0,,Đợi đã!
+Dialogue: 0,1:23:10.56,1:23:12.15,Default,,0,0,0,,Này! Odajima!
+Dialogue: 0,1:23:12.98,1:23:14.77,Default,,0,0,0,,Saboten.
+Dialogue: 0,1:23:20.32,1:23:22.53,Default,,0,0,0,,Đó hẳn là Amagai của Senomon.
+Dialogue: 0,1:24:09.20,1:24:10.03,Default,,0,0,0,,Suzuran!
+Dialogue: 0,1:24:10.70,1:24:12.62,Default,,0,0,0,,Suzuran làm gì ở đây?
+Dialogue: 0,1:24:12.71,1:24:13.67,Default,,0,0,0,,Rao…
+Dialogue: 0,1:24:14.37,1:24:17.58,Default,,0,0,0,,Này, Suzuran!\NĐây không phải việc của các người!
+Dialogue: 0,1:24:19.13,1:24:20.34,Default,,0,0,0,,Có đấy.
+Dialogue: 0,1:24:23.30,1:24:24.93,Default,,0,0,0,,Fujio là bạn tôi.
+Dialogue: 0,1:24:28.10,1:24:29.27,Default,,0,0,0,,Hiểu chưa?
+Dialogue: 0,1:24:29.85,1:24:32.85,Default,,0,0,0,,Vậy nên phe Rao của Suzuran\Ncũng tham gia cuộc chiến này.
+Dialogue: 0,1:24:35.52,1:24:36.65,Default,,0,0,0,,Thật sao?
+Dialogue: 0,1:24:36.73,1:24:38.15,Default,,0,0,0,,Các người đúng là đồ ngốc!
+Dialogue: 0,1:24:38.65,1:24:40.82,Default,,0,0,0,,Sáu người thì làm được gì chứ?
+Dialogue: 0,1:24:40.90,1:24:44.65,Default,,0,0,0,,Biết gì không? Mình tôi là đủ rồi!
+Dialogue: 0,1:24:47.03,1:24:48.36,Default,,0,0,0,,Giết hết chúng đi.
+Dialogue: 0,1:25:14.89,1:25:16.43,Default,,0,0,0,,Quẩy lên nào!
+Dialogue: 0,1:25:36.25,1:25:37.67,Default,,0,0,0,,Nhìn cái gì mà nhìn?
+Dialogue: 0,1:25:52.72,1:25:53.56,Default,,0,0,0,,Ko!
+Dialogue: 0,1:25:59.81,1:26:00.85,Default,,0,0,0,,Này, Suzaki!
+Dialogue: 0,1:26:01.44,1:26:03.82,Default,,0,0,0,,Đập ra bã những kẻ bước vào bên trong đi.
+Dialogue: 0,1:26:10.36,1:26:11.19,Default,,0,0,0,,Này.
+Dialogue: 0,1:26:12.62,1:26:14.00,Default,,0,0,0,,Làm việc của mình đi.
+Dialogue: 0,1:26:18.54,1:26:19.37,Default,,0,0,0,,Này.
+Dialogue: 0,1:26:20.21,1:26:21.84,Default,,0,0,0,,Để đó cho bọn tôi.
+Dialogue: 0,1:26:21.92,1:26:23.21,Default,,0,0,0,,Các cậu tấn công lâu đài đi.
+Dialogue: 0,1:26:44.40,1:26:45.57,Default,,0,0,0,,Fujio!
+Dialogue: 0,1:26:45.65,1:26:47.44,Default,,0,0,0,,Vào trong đó đi!
+Dialogue: 0,1:26:47.53,1:26:49.74,Default,,0,0,0,,- Đi thôi!\N- Đi thôi!
+Dialogue: 0,1:27:00.87,1:27:01.70,Default,,0,0,0,,Tsukasa!
+Dialogue: 0,1:27:08.42,1:27:09.67,Default,,0,0,0,,Giải cứu Tsukasa trước đã.
+Dialogue: 0,1:27:09.76,1:27:10.59,Default,,0,0,0,,Được!
+Dialogue: 0,1:27:34.82,1:27:36.57,Default,,0,0,0,,Cậu là người đã đánh bại Tsukasa à?
+Dialogue: 0,1:27:37.58,1:27:38.41,Default,,0,0,0,,Ừ.
+Dialogue: 0,1:27:51.84,1:27:52.68,Default,,0,0,0,,Odajima!
+Dialogue: 0,1:28:01.60,1:28:02.60,Default,,0,0,0,,Tôi lo được. Đi đi!
+Dialogue: 0,1:28:08.44,1:28:09.57,Default,,0,0,0,,Đúng là một lũ thảm hại.
+Dialogue: 0,1:28:19.41,1:28:21.95,Default,,0,0,0,,Cả mày và Trung học Oya
+Dialogue: 0,1:28:23.16,1:28:25.00,Default,,0,0,0,,cùng xuống địa ngục đi.
+Dialogue: 0,1:28:57.07,1:28:57.99,Default,,0,0,0,,Cậu không sao chứ?
+Dialogue: 0,1:28:59.62,1:29:02.46,Default,,0,0,0,,Trời ạ, hình như gãy hết xương rồi.
+Dialogue: 0,1:29:15.80,1:29:17.30,Default,,0,0,0,,Tôi sẽ xử lý hắn.
+Dialogue: 0,1:29:48.04,1:29:49.50,Default,,0,0,0,,Tôi là đối thủ của cậu.
+Dialogue: 0,1:30:02.14,1:30:03.27,Default,,0,0,0,,Vậy…
+Dialogue: 0,1:30:03.85,1:30:05.56,Default,,0,0,0,,Mày là người đã đánh Shidaken nhỉ?
+Dialogue: 0,1:30:07.39,1:30:08.39,Default,,0,0,0,,Tao quên mất rồi.
+Dialogue: 0,1:30:10.52,1:30:11.65,Default,,0,0,0,,Todoroki…
+Dialogue: 0,1:30:15.28,1:30:16.49,Default,,0,0,0,,Cậu lo phần còn lại nhé.
+Dialogue: 0,1:30:18.49,1:30:19.45,Default,,0,0,0,,Thật là, lại nữa.
+Dialogue: 0,1:30:24.16,1:30:26.20,Default,,0,0,0,,- Có vẻ ta hạ được hết ở đây rồi.\N- Ừ.
+Dialogue: 0,1:30:26.83,1:30:29.29,Default,,0,0,0,,Này, cậu có đánh không vậy?
+Dialogue: 0,1:30:29.37,1:30:30.83,Default,,0,0,0,,Tất nhiên!
+Dialogue: 0,1:30:30.92,1:30:33.51,Default,,0,0,0,,Lâu lắm rồi tôi chưa đấm ai.
+Dialogue: 0,1:30:49.81,1:30:50.89,Default,,0,0,0,,Lên đi.
+Dialogue: 0,1:30:59.78,1:31:01.95,Default,,0,0,0,,Thật là. Tôi chỉ vừa về đến nhà.
+Dialogue: 0,1:31:02.82,1:31:04.66,Default,,0,0,0,,Không thể nào! Anh làm gì ở đây?
+Dialogue: 0,1:31:05.16,1:31:06.66,Default,,0,0,0,,Bên trong đã bắt đầu rồi sao?
+Dialogue: 0,1:31:06.74,1:31:07.58,Default,,0,0,0,,Vâng!
+Dialogue: 0,1:31:07.66,1:31:08.49,Default,,0,0,0,,Bắt lấy hắn!
+Dialogue: 0,1:31:11.96,1:31:13.38,Default,,0,0,0,,{\an8}UEDA SACHIO\NNĂM 3, HOUSEN
+Dialogue: 0,1:31:13.46,1:31:14.30,Default,,0,0,0,,{\an8}Mấy tên này là ai?
+Dialogue: 0,1:31:15.54,1:31:16.88,Default,,0,0,0,,{\an8}Viện binh của địch.
+Dialogue: 0,1:31:18.21,1:31:19.04,Default,,0,0,0,,Ra vậy.
+Dialogue: 0,1:31:29.52,1:31:31.11,Default,,0,0,0,,Tao đã xí trước…
+Dialogue: 0,1:31:32.39,1:31:34.06,Default,,0,0,0,,việc đập mày một trận rồi.
+Dialogue: 0,1:32:04.59,1:32:07.43,Default,,0,0,0,,Này! Có vẻ các cậu đang bị đánh tơi bời.
+Dialogue: 0,1:32:09.31,1:32:11.40,Default,,0,0,0,,Đúng là nỗi nhục của Thành phố Toaru.
+Dialogue: 0,1:32:12.18,1:32:13.31,Default,,0,0,0,,Suzuran làm gì ở đây?
+Dialogue: 0,1:32:20.15,1:32:22.40,Default,,0,0,0,,Tứ Đại Thiên Vương của Housen\Nchỉ có thế thôi à?
+Dialogue: 0,1:32:22.49,1:32:23.62,Default,,0,0,0,,Binzo!
+Dialogue: 0,1:32:30.79,1:32:32.46,Default,,0,0,0,,Nhai cái này rồi nghỉ ngơi đi.
+Dialogue: 0,1:32:32.54,1:32:34.33,Default,,0,0,0,,Cậu làm cái quái gì ở đây?
+Dialogue: 0,1:33:01.48,1:33:04.19,Default,,0,0,0,,Mày thật sự nghĩ có thể đánh bại tao à?
+Dialogue: 0,1:33:09.53,1:33:10.36,Default,,0,0,0,,Thả tao ra!
+Dialogue: 0,1:33:15.62,1:33:16.62,Default,,0,0,0,,Đau lắm, đúng không?
+Dialogue: 0,1:33:29.93,1:33:30.85,Default,,0,0,0,,Lừa được rồi nhé!
+Dialogue: 0,1:33:47.53,1:33:49.49,Default,,0,0,0,,Mày đã bị bắt.
+Dialogue: 0,1:34:04.21,1:34:05.67,Default,,0,0,0,,Lựa người để đánh cho cẩn thận.
+Dialogue: 0,1:35:23.33,1:35:25.83,Default,,0,0,0,,Tao sẽ đảm bảo\Nmày được nằm ở giường cạnh Shidaken.
+Dialogue: 0,1:35:27.21,1:35:28.55,Default,,0,0,0,,Đến đó xin lỗi luôn đi.
+Dialogue: 0,1:36:31.11,1:36:32.40,Default,,0,0,0,,Này! Suzaki!
+Dialogue: 0,1:36:40.66,1:36:43.29,Default,,0,0,0,,Làm gì mà lâu thế? Kết liễu hắn đi!
+Dialogue: 0,1:36:50.84,1:36:52.38,Default,,0,0,0,,Chúng chỉ còn hai người thôi à?
+Dialogue: 0,1:36:55.55,1:36:57.80,Default,,0,0,0,,Hả? Đừng ngu ngốc thế!
+Dialogue: 0,1:36:57.89,1:36:59.77,Default,,0,0,0,,Tôi vẫn còn nhiều quân lắm!
+Dialogue: 0,1:37:14.07,1:37:15.66,Default,,0,0,0,,Bọn tôi xong rồi.
+Dialogue: 0,1:37:15.74,1:37:17.24,Default,,0,0,0,,Tôi nghĩ bọn tôi có hơi quá đà.
+Dialogue: 0,1:37:17.32,1:37:18.61,Default,,0,0,0,,Chúng chạy hết rồi.
+Dialogue: 0,1:37:18.70,1:37:19.95,Default,,0,0,0,,Chà!
+Dialogue: 0,1:37:20.03,1:37:21.07,Default,,0,0,0,,Đỉnh quá.
+Dialogue: 0,1:37:24.12,1:37:26.50,Default,,0,0,0,,Không chỉ có mỗi Suzuran đâu!
+Dialogue: 0,1:37:26.58,1:37:28.54,Default,,0,0,0,,Housen cũng ở đây nữa!
+Dialogue: 0,1:37:30.13,1:37:33.59,Default,,0,0,0,,Trời, trận đó ngốn nhiều calo quá.
+Dialogue: 0,1:37:33.67,1:37:36.01,Default,,0,0,0,,Thi thoảng\Nlàm chuyện này cũng vui mà, nhỉ?
+Dialogue: 0,1:37:50.44,1:37:51.28,Default,,0,0,0,,Này.
+Dialogue: 0,1:37:53.82,1:37:54.82,Default,,0,0,0,,Đang đánh nhau đấy.
+Dialogue: 0,1:37:56.61,1:37:58.49,Default,,0,0,0,,Sao hắn không trả lời?
+Dialogue: 0,1:37:58.57,1:37:59.41,Default,,0,0,0,,Này!
+Dialogue: 0,1:38:00.03,1:38:01.62,Default,,0,0,0,,Đừng có vớ vẩn thế!
+Dialogue: 0,1:38:01.70,1:38:05.08,Default,,0,0,0,,Các người thua rồi!
+Dialogue: 0,1:38:07.08,1:38:09.37,Default,,0,0,0,,Này! Đi xử chúng đi!
+Dialogue: 0,1:38:09.46,1:38:11.92,Default,,0,0,0,,Tôi đã trả tiền rồi, làm việc đi!
+Dialogue: 0,1:38:12.50,1:38:14.09,Default,,0,0,0,,Làm việc của mình đi, khỉ gió!
+Dialogue: 0,1:38:14.63,1:38:15.46,Default,,0,0,0,,Này!
+Dialogue: 0,1:38:42.62,1:38:44.04,Default,,0,0,0,,Chuyện này chưa xong đâu.
+Dialogue: 0,1:38:47.66,1:38:48.58,Default,,0,0,0,,Suzaki…
+Dialogue: 0,1:38:55.09,1:38:56.13,Default,,0,0,0,,Được rồi.
+Dialogue: 0,1:38:59.63,1:39:01.13,Default,,0,0,0,,Vậy thì tôi sẽ kết thúc nó.
+Dialogue: 0,1:39:45.80,1:39:48.26,Default,,0,0,0,,Gã Senomon này khá đấy.
+Dialogue: 0,1:39:48.35,1:39:50.27,Default,,0,0,0,,Trường ta có rất nhiều người như thế.
+Dialogue: 0,1:39:50.35,1:39:51.43,Default,,0,0,0,,Thật là…
+Dialogue: 0,1:39:52.56,1:39:55.31,Default,,0,0,0,,Thương tích như thế rồi\Nmà còn đánh tiếp à?
+Dialogue: 0,1:39:56.44,1:40:00.07,Default,,0,0,0,,Trời ạ, sao Suzaki\Nlại chiến đấu vì tên đó chứ?
+Dialogue: 0,1:40:00.74,1:40:01.95,Default,,0,0,0,,Vì với Suzaki,
+Dialogue: 0,1:40:03.07,1:40:04.32,Default,,0,0,0,,tên đó quan trọng hơn thế.
+Dialogue: 0,1:41:17.44,1:41:18.52,Default,,0,0,0,,Này Ryo.
+Dialogue: 0,1:41:19.73,1:41:20.56,Default,,0,0,0,,Ko.
+Dialogue: 0,1:41:21.07,1:41:22.45,Default,,0,0,0,,Cây gậy đó là sao?
+Dialogue: 0,1:41:22.53,1:41:23.99,Default,,0,0,0,,Bọn bắt nạt cậu,
+Dialogue: 0,1:41:24.07,1:41:25.57,Default,,0,0,0,,tớ đã đánh chúng nhừ tử.
+Dialogue: 0,1:41:26.20,1:41:27.12,Default,,0,0,0,,Thật sao?
+Dialogue: 0,1:41:50.55,1:41:51.38,Default,,0,0,0,,Cậu ta thắng rồi.
+Dialogue: 0,1:41:53.10,1:41:55.90,Default,,0,0,0,,Cậu ta thắng rồi! Tôi thắng rồi!
+Dialogue: 0,1:41:56.77,1:41:58.65,Default,,0,0,0,,Các người thấy rồi đấy!
+Dialogue: 0,1:41:59.52,1:42:01.52,Default,,0,0,0,,Tôi thắng rồi!
+Dialogue: 0,1:42:01.61,1:42:02.99,Default,,0,0,0,,Thấy rồi chứ?
+Dialogue: 0,1:42:04.86,1:42:06.15,Default,,0,0,0,,Sao cậu lại làm thế?
+Dialogue: 0,1:42:06.74,1:42:09.16,Default,,0,0,0,,Cần phải có lý do sao?
+Dialogue: 0,1:42:10.16,1:42:11.83,Default,,0,0,0,,Chúng ta là bạn mà.
+Dialogue: 0,1:42:18.46,1:42:20.05,Default,,0,0,0,,Tôi thắng rồi!
+Dialogue: 0,1:42:23.96,1:42:26.80,Default,,0,0,0,,Còn lâu nhé!
+Dialogue: 0,1:42:26.82,1:42:38.82,Default,,0,0,0,,Bộ phim được upload bởi adm820@gmail.com
+Dialogue: 0,1:42:47.57,1:42:48.40,Default,,0,0,0,,Này.
+Dialogue: 0,1:42:51.03,1:42:52.70,Default,,0,0,0,,Đòn tiếp theo sẽ là đòn quyết định.
+Dialogue: 0,1:42:54.08,1:42:55.67,Default,,0,0,0,,Tôi sẽ không thua đâu.
+Dialogue: 0,1:43:10.26,1:43:12.14,Default,,0,0,0,,Tớ sẽ trở nên mạnh mẽ hơn.
+Dialogue: 0,1:43:12.72,1:43:14.85,Default,,0,0,0,,Tớ sẽ trở nên mạnh mẽ và bảo vệ cậu, Ko!
+Dialogue: 0,1:43:14.93,1:43:18.14,Default,,0,0,0,,Được! Cả hai ta\Nsẽ trở thành những người hùng mạnh nhất!
+Dialogue: 0,1:43:18.22,1:43:20.60,Default,,0,0,0,,Ừ! Hãy cùng tận hưởng khung cảnh\Ntừ trên đỉnh cao!
+Dialogue: 0,1:43:22.40,1:43:23.65,Default,,0,0,0,,Người hùng mạnh nhất…
+Dialogue: 0,1:43:28.03,1:43:29.66,Default,,0,0,0,,sẽ là Senomon!
+Dialogue: 0,1:44:16.20,1:44:17.28,Default,,0,0,0,,Tôi xin lỗi.
+Dialogue: 0,1:44:19.99,1:44:21.74,Default,,0,0,0,,Tôi không cho phép đâu.
+Dialogue: 0,1:44:24.50,1:44:25.50,Default,,0,0,0,,Mình thua rồi sao?
+Dialogue: 0,1:44:27.17,1:44:28.17,Default,,0,0,0,,Mình thua rồi sao?
+Dialogue: 0,1:44:29.09,1:44:30.26,Default,,0,0,0,,Không, không thể nào.
+Dialogue: 0,1:44:35.09,1:44:36.17,Default,,0,0,0,,Fujio!
+Dialogue: 0,1:44:55.24,1:44:57.37,Default,,0,0,0,,Sao cậu lại làm thế?
+Dialogue: 0,1:45:04.96,1:45:06.17,Default,,0,0,0,,Cậu bị cái gì vậy?
+Dialogue: 0,1:45:08.46,1:45:10.09,Default,,0,0,0,,Cậu biết là không nên dùng…
+Dialogue: 0,1:45:12.26,1:45:13.39,Default,,0,0,0,,chiêu trò như vậy mà!
+Dialogue: 0,1:45:19.93,1:45:21.52,Default,,0,0,0,,Chúng ta sẽ tận hưởng khung cảnh
+Dialogue: 0,1:45:22.18,1:45:23.72,Default,,0,0,0,,thuộc về mình.
+Dialogue: 0,1:45:27.85,1:45:30.44,Default,,0,0,0,,Tớ luôn ở bên cậu vì tin vào những lời đó,
+Dialogue: 0,1:45:33.03,1:45:34.45,Default,,0,0,0,,nhưng cậu không nhớ đúng không?
+Dialogue: 0,1:45:44.66,1:45:45.66,Default,,0,0,0,,Tớ xin lỗi.
+Dialogue: 0,1:45:48.21,1:45:49.34,Default,,0,0,0,,Tớ đã không làm được.
+Dialogue: 0,1:45:57.05,1:45:58.14,Default,,0,0,0,,Trung học Oya…
+Dialogue: 0,1:45:59.43,1:46:00.35,Default,,0,0,0,,thật sự rất mạnh.
+Dialogue: 0,1:46:08.90,1:46:09.98,Default,,0,0,0,,Từ giờ trở đi…
+Dialogue: 0,1:46:11.61,1:46:13.15,Default,,0,0,0,,chúng ta sẽ là công cụ của Oya.
+Dialogue: 0,1:46:21.16,1:46:22.58,Default,,0,0,0,,Cậu đang nói gì vậy?
+Dialogue: 0,1:46:24.91,1:46:26.33,Default,,0,0,0,,Cậu chỉ mới thua một lần.
+Dialogue: 0,1:46:27.75,1:46:28.58,Default,,0,0,0,,Thế thôi.
+Dialogue: 0,1:46:33.96,1:46:35.92,Default,,0,0,0,,Ta chiến đấu để xem ai là người mạnh nhất,
+Dialogue: 0,1:46:37.42,1:46:39.42,Default,,0,0,0,,nhưng việc ai trên ai dưới\Nquan trọng gì chứ?
+Dialogue: 0,1:46:49.27,1:46:51.73,Default,,0,0,0,,Ta có bạn bè xung quanh\Nsẵn sàng chiến đấu vì mình.
+Dialogue: 0,1:46:53.94,1:46:55.69,Default,,0,0,0,,Thế chưa đủ sao?
+Dialogue: 0,1:47:06.08,1:47:07.41,Default,,0,0,0,,{\i1}Từ trên trời nhìn xuống,{\i0}
+Dialogue: 0,1:47:08.54,1:47:10.63,Default,,0,0,0,,{\i1}có thể thấy\Ntất cả chúng ta đều ở dưới này.{\i0}
+Dialogue: 0,1:47:26.10,1:47:26.93,Default,,0,0,0,,Này.
+Dialogue: 0,1:47:28.60,1:47:29.98,Default,,0,0,0,,Chúng ta cùng bắt đầu lại đi.
+Dialogue: 0,1:47:33.40,1:47:35.24,Default,,0,0,0,,Cậu làm bạn với tớ nhé?
+Dialogue: 0,1:47:38.19,1:47:39.07,Default,,0,0,0,,Ko.
+Dialogue: 0,1:47:46.70,1:47:47.70,Default,,0,0,0,,Ngu ngốc thật đấy.
+Dialogue: 0,1:48:01.67,1:48:03.42,Default,,0,0,0,,Lần này bọn tôi đã thua,
+Dialogue: 0,1:48:05.14,1:48:07.81,Default,,0,0,0,,nhưng tôi thề là sẽ tiêu diệt các người.
+Dialogue: 0,1:48:12.69,1:48:13.82,Default,,0,0,0,,Ryo và tôi sẽ cùng làm.
+Dialogue: 0,1:48:34.83,1:48:36.21,Default,,0,0,0,,Khỉ gió, khóc cái gì.
+Dialogue: 0,1:48:37.79,1:48:38.63,Default,,0,0,0,,Tớ xin lỗi.
+Dialogue: 0,1:48:45.84,1:48:47.09,Default,,0,0,0,,Jinkawa!
+Dialogue: 0,1:48:48.01,1:48:49.35,Default,,0,0,0,,Được rồi!
+Dialogue: 0,1:48:53.31,1:48:55.02,Default,,0,0,0,,Mệt quá.
+Dialogue: 0,1:48:59.73,1:49:00.56,Default,,0,0,0,,Cậu…
+Dialogue: 0,1:49:02.82,1:49:03.66,Default,,0,0,0,,Cậu mạnh đấy.
+Dialogue: 0,1:49:05.78,1:49:07.07,Default,,0,0,0,,Khi nào đấu lại nhé.
+Dialogue: 0,1:49:11.99,1:49:14.08,Default,,0,0,0,,Được rồi! Làm tốt lắm!
+Dialogue: 0,1:49:14.16,1:49:16.50,Default,,0,0,0,,- Chúng ta đi thôi!\N- Vâng!
+Dialogue: 0,1:49:16.58,1:49:18.62,Default,,0,0,0,,Fujio, cậu làm tôi lo quá!
+Dialogue: 0,1:49:32.31,1:49:33.69,Default,,0,0,0,,Thật là.
+Dialogue: 0,1:49:35.02,1:49:36.77,Default,,0,0,0,,Chúng ta còn không thấy được bầu trời.
+Dialogue: 0,1:49:38.44,1:49:40.99,Default,,0,0,0,,Cậu và tớ… Hãy bắt đầu lại từ đầu.
+Dialogue: 0,1:50:35.83,1:50:36.87,Default,,0,0,0,,Biết Rao nói gì không?
+Dialogue: 0,1:50:37.87,1:50:41.67,Default,,0,0,0,,Đó là lần đầu tiên\Ncó người muốn kết bạn với cậu ấy.
+Dialogue: 0,1:50:43.42,1:50:45.38,Default,,0,0,0,,Nhìn vậy thôi chứ cậu ấy vui lắm đấy.
+Dialogue: 0,1:50:48.47,1:50:50.14,Default,,0,0,0,,Bảo sếp của cậu là tôi cảm ơn nhé.
+Dialogue: 0,1:50:51.05,1:50:51.88,Default,,0,0,0,,Được.
+Dialogue: 0,1:50:53.85,1:50:54.81,Default,,0,0,0,,Fujio.
+Dialogue: 0,1:51:10.49,1:51:11.62,Default,,0,0,0,,Sachio?
+Dialogue: 0,1:51:11.70,1:51:12.58,Default,,0,0,0,,Hả?
+Dialogue: 0,1:51:14.70,1:51:15.66,Default,,0,0,0,,Sachio!
+Dialogue: 0,1:51:16.33,1:51:18.29,Default,,0,0,0,,Này! Là Sachio!
+Dialogue: 0,1:51:18.37,1:51:20.71,Default,,0,0,0,,Tôi vừa về là đã bận bịu rồi.
+Dialogue: 0,1:51:22.08,1:51:24.08,Default,,0,0,0,,Này! Satchi!
+Dialogue: 0,1:51:24.17,1:51:25.38,Default,,0,0,0,,Chào.
+Dialogue: 0,1:51:28.63,1:51:29.55,Default,,0,0,0,,Đùa đấy à?
+Dialogue: 0,1:51:30.88,1:51:32.01,Default,,0,0,0,,Suzuran làm gì ở đây?
+Dialogue: 0,1:51:33.55,1:51:37.76,Default,,0,0,0,,Cậu bảo tôi đừng đi,\Nnhưng tôi phải gặp Rao.
+Dialogue: 0,1:51:38.77,1:51:40.36,Default,,0,0,0,,Chúng tôi kết bạn rồi!
+Dialogue: 0,1:51:41.23,1:51:43.32,Default,,0,0,0,,Đã lâu không gặp, Sachio.
+Dialogue: 0,1:51:55.95,1:51:56.78,Default,,0,0,0,,Rao!
+Dialogue: 0,1:52:00.96,1:52:02.17,Default,,0,0,0,,Khi nào đấu một trận nhé.
+Dialogue: 0,1:52:06.67,1:52:07.50,Default,,0,0,0,,Tôi cũng vậy.
+Dialogue: 0,1:52:09.67,1:52:11.30,Default,,0,0,0,,Tôi muốn có thêm một cơ hội nữa.
+Dialogue: 0,1:52:11.38,1:52:13.34,Default,,0,0,0,,Được! Cả ba chúng ta có thể đấu với nhau!
+Dialogue: 0,1:52:14.09,1:52:15.72,Default,,0,0,0,,Vậy sẽ không phiền đến ai cả.
+Dialogue: 0,1:52:49.25,1:52:51.34,Default,,0,0,0,,Sachio!
+Dialogue: 0,1:52:51.42,1:52:53.96,Default,,0,0,0,,Mừng cậu về nhà.\NĐược rồi, tất cả quay về thôi.
+Dialogue: 0,1:52:55.34,1:52:58.09,Default,,0,0,0,,Cái này chưa hết hạn đấy chứ?\NTôi đã ăn rồi đấy.
+Dialogue: 0,1:52:58.68,1:53:01.14,Default,,0,0,0,,Cậu chẳng thay đổi gì cả.
+Dialogue: 0,1:53:02.35,1:53:04.52,Default,,0,0,0,,- Hết hạn chưa?\N- Chưa! Không sao đâu mà!
+Dialogue: 0,1:53:04.60,1:53:06.52,Default,,0,0,0,,Cậu vừa nói gì?
+Dialogue: 0,1:53:06.60,1:53:11.27,Default,,0,0,0,,Trường Nữ sinh Meiwa\Nmời bọn em đến buổi giao lưu độc thân!
+Dialogue: 0,1:53:12.86,1:53:14.82,Default,,0,0,0,,Nakaoka và em được mời
+Dialogue: 0,1:53:15.49,1:53:16.78,Default,,0,0,0,,nhưng còn bốn chỗ nữa!
+Dialogue: 0,1:53:16.86,1:53:17.78,Default,,0,0,0,,Phải.
+Dialogue: 0,1:53:17.87,1:53:18.83,Default,,0,0,0,,Làm thế này đi!
+Dialogue: 0,1:53:18.91,1:53:22.21,Default,,0,0,0,,Có bốn con át trong bộ bài này.
+Dialogue: 0,1:53:23.83,1:53:26.29,Default,,0,0,0,,Ai tìm được con át
+Dialogue: 0,1:53:26.96,1:53:29.71,Default,,0,0,0,,sẽ được đến buổi giao lưu!
+Dialogue: 0,1:53:31.55,1:53:34.26,Default,,0,0,0,,Nhìn kìa! Đi lấy đi! Mau!
+Dialogue: 0,1:53:34.34,1:53:36.26,Default,,0,0,0,,Nó kìa! Đi đi!
+Dialogue: 0,1:53:36.34,1:53:40.18,Default,,0,0,0,,{\i1}Chúng tôi là\Nnhững tên ngốc hung dữ và thô lỗ.{\i0}
+Dialogue: 0,1:53:41.10,1:53:43.39,Default,,0,0,0,,{\i1}Chúng tôi là\Nlũ bất tài người đầy thương tích.{\i0}
+Dialogue: 0,1:53:44.56,1:53:46.40,Default,,0,0,0,,{\i1}Sẽ có người chế nhạo chúng tôi.{\i0}
+Dialogue: 0,1:53:47.94,1:53:51.03,Default,,0,0,0,,{\i1}Sẽ có người còn giơ ngón tay thối\Nvà nhổ nước bọt vào chúng tôi.{\i0}
+Dialogue: 0,1:53:55.57,1:53:56.82,Default,,0,0,0,,{\i1}Dù là vậy, tôi cũng mặc kệ.{\i0}
+Dialogue: 0,1:53:58.28,1:53:59.95,Default,,0,0,0,,{\i1}Chúng tôi chỉ muốn là chính mình.{\i0}
+Dialogue: 0,1:54:01.78,1:54:03.78,Default,,0,0,0,,{\i1}Chúng tôi sẽ luôn sống đúng với bản thân{\i0}
+Dialogue: 0,1:54:05.08,1:54:06.87,Default,,0,0,0,,{\i1}và sống theo cách mình muốn.{\i0}
+Dialogue: 0,1:54:13.00,1:54:14.00,Default,,0,0,0,,{\i1}Còn bạn thì sao?{\i0}
+Dialogue: 0,1:56:06.99,1:56:07.82,Default,,0,0,0,,Này!
+Dialogue: 0,1:56:10.12,1:56:13.29,Default,,0,0,0,,Cậu ấy nói muốn đấu với cậu lần nữa.
+Dialogue: 0,1:56:16.63,1:56:20.51,Default,,0,0,0,,Fujio của bọn tôi rất nổi tiếng,\Nvì vậy cậu cần lấy số đấy.
+Dialogue: 0,1:56:41.03,1:56:42.37,Default,,0,0,0,,Số của cậu đấy.
+Dialogue: 0,1:59:17.35,1:59:22.36,Default,,0,0,0,,{\an8}Biên dịch: Đỗ Đức Thường

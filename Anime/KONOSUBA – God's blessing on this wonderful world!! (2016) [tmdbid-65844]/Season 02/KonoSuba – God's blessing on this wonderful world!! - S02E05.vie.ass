@@ -1,0 +1,532 @@
+[Script Info]
+; This is an Advanced Sub Station Alpha v4+ script.
+Title: 
+ScriptType: v4.00+
+PlayDepth: 0
+ScaledBorderAndShadow: Yes
+PlayResX: 1920
+PlayResY: 1080
+[V4+ Styles]
+Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
+Style: Default,Noto Sans,80.0,&H00FFFFFF,&H000000FF,&H00002208,&H00000000,-1,0,0,0,100,100,0,0,1,3.0,2.0,2,0,0,65,1
+
+[Events]
+Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
+Dialogue: 0,0:00:00.99,0:00:01.96,Default,,0,0,0,,Sato Kazuma.
+Dialogue: 0,0:00:02.64,0:00:05.50,Default,,0,0,0,,Sau khi điều tra đám quái vật xuất hiện\Nnhiều quanh thị trấn vài ngày trước,
+Dialogue: 0,0:00:06.23,0:00:09.98,Default,,0,0,0,,chúng tôi phát hiện chúng chui ra từ Thành\Nphố ngầm Kiel mà cậu vào mấy hôm trước.
+Dialogue: 0,0:00:10.52,0:00:12.29,Default,,0,0,0,,Sao chuyện gì cũng úp lên đầu chúng tôi thế?
+Dialogue: 0,0:00:13.27,0:00:16.11,Default,,0,0,0,,Tôi hỏi chút cho chắc, các cô có biết không?
+Dialogue: 0,0:00:16.89,0:00:20.16,Default,,0,0,0,,Việc không liên quan đến\NBạo Liệt ma pháp em đều không biết.
+Dialogue: 0,0:00:20.69,0:00:21.42,Default,,0,0,0,,Tôi cũng thế.
+Dialogue: 0,0:00:22.35,0:00:24.55,Default,,0,0,0,,Bình thường tôi không gây họa gì đâu.
+Dialogue: 0,0:00:25.19,0:00:25.76,Default,,0,0,0,,Cô thì sao?
+Dialogue: 0,0:00:26.56,0:00:27.70,Default,,0,0,0,,Đương nhiên là không.
+Dialogue: 0,0:00:28.05,0:00:30.09,Default,,0,0,0,,Cậu nghi ngờ ta quá rồi đó.
+Dialogue: 0,0:00:30.58,0:00:31.60,Default,,0,0,0,,Nói đến Thành phố ngầm đó,
+Dialogue: 0,0:00:31.95,0:00:34.63,Default,,0,0,0,,nhờ ta mà lũ quái vật không đến đó được nữa đấy.
+Dialogue: 0,0:00:35.35,0:00:36.81,Default,,0,0,0,,"Nhờ ta"?
+Dialogue: 0,0:00:38.17,0:00:38.54,Default,,0,0,0,,Qua đây tí.
+Dialogue: 0,0:00:39.89,0:00:40.40,Default,,0,0,0,,Nói tiếp đi.
+Dialogue: 0,0:00:41.33,0:00:41.90,Default,,0,0,0,,Thực ra, thực ra
+Dialogue: 0,0:00:42.48,0:00:44.33,Default,,0,0,0,,vòng tròn phép thuật dùng lúc ở trong phòng Lich
+Dialogue: 0,0:00:44.68,0:00:45.69,Default,,0,0,0,,là ta tốn công làm ra đó.
+Dialogue: 0,0:00:45.69,0:00:46.31,Default,,0,0,0,,(Bộ phim được dịch sang tiếng Trung bởi đại lý\Nbản quyền độc quyền của Lingbang MediaLink.)
+Dialogue: 0,0:00:46.31,0:00:47.78,Default,,0,0,0,,Bây giờ nó vẫn còn nguyên vẹn,
+Dialogue: 0,0:00:48.21,0:00:50.76,Default,,0,0,0,,đám quái vật xấu xa đó đều không vào được.
+Dialogue: 0,0:00:51.65,0:00:52.62,Default,,0,0,0,,Cô vừa nói gì?
+Dialogue: 0,0:00:52.87,0:00:55.22,Default,,0,0,0,,Sao tự nhiên lại hỏi ta vậy? Ta nói rồi mà.
+Dialogue: 0,0:00:55.63,0:00:57.93,Default,,0,0,0,,Ở đó vẫn còn vòng tròn phép thuật mà ta tốn sức vẽ,
+Dialogue: 0,0:00:58.07,0:00:59.67,Default,,0,0,0,,vì vậy lũ quái vật không thể đến gần.
+Dialogue: 0,0:00:59.74,0:01:00.85,Default,,0,0,0,,Cô...
+Dialogue: 0,0:01:01.31,0:01:02.72,Default,,0,0,0,,Đồ đần.
+Dialogue: 0,0:01:04.59,0:01:06.90,Default,,0,0,0,,(Chương 5: Hãy quy phục Kỵ sĩ đeo mặt nạ.)
+Dialogue: 0,0:01:06.90,0:01:09.17,Default,,0,0,0,,Không phải lỗi của ta mà.
+Dialogue: 0,0:01:09.83,0:01:10.86,Default,,0,0,0,,Lần nào cũng thế.
+Dialogue: 0,0:01:11.23,0:01:14.72,Default,,0,0,0,,Cô được lắm, không phá công sức của\Nchúng tôi thì cô khó chịu à? Thần kinh à?
+Dialogue: 0,0:01:15.38,0:01:16.29,Default,,0,0,0,,Tạm không nói đến bọn quái vật,
+Dialogue: 0,0:01:16.79,0:01:18.75,Default,,0,0,0,,là một nhà mạo hiểm, tôi cũng không thể\Nlàm ngơ trước những người dân gặp khó khăn.
+Dialogue: 0,0:01:19.36,0:01:20.34,Default,,0,0,0,,Hãy để tôi góp sức đi.
+Dialogue: 0,0:01:21.15,0:01:22.49,Default,,0,0,0,,Xem như tạm tránh được họa rồi,
+Dialogue: 0,0:01:22.75,0:01:23.79,Default,,0,0,0,,nhưng phải xóa vòng tròn phép thuật đó đi.
+Dialogue: 0,0:01:33.44,0:01:34.00,Default,,0,0,0,,Thì ra là thế.
+Dialogue: 0,0:01:34.61,0:01:36.11,Default,,0,0,0,,Đúng là quái vật vô danh.
+Dialogue: 0,0:01:36.69,0:01:37.15,Default,,0,0,0,,Sato-san.
+Dialogue: 0,0:01:37.23,0:01:37.68,Default,,0,0,0,,Có Sato đây.
+Dialogue: 0,0:01:38.33,0:01:39.44,Default,,0,0,0,,Cảm ơn sự giúp đỡ của cậu.
+Dialogue: 0,0:01:40.31,0:01:43.11,Default,,0,0,0,,Xem ra có ai đó đang triệu hồi quái vật.
+Dialogue: 0,0:01:44.26,0:01:45.50,Default,,0,0,0,,Vì vậy hãy đánh bại kẻ đó,
+Dialogue: 0,0:01:45.98,0:01:47.94,Default,,0,0,0,,và dán cái này vào vòng tròn phép thuật triệu hồi.
+Dialogue: 0,0:01:49.12,0:01:50.45,Default,,0,0,0,,Là bùa phong ấn mạnh nhất đấy.
+Dialogue: 0,0:01:50.99,0:01:54.65,Default,,0,0,0,,Không thể chấp nhận được\Nmặt nạ của mấy con búp bê đó.
+Dialogue: 0,0:01:55.27,0:01:55.89,Default,,0,0,0,,Tại sao chứ?
+Dialogue: 0,0:01:56.51,0:01:58.30,Default,,0,0,0,,Sao cứ thấy rất đáng ghét nhỉ.
+Dialogue: 0,0:01:59.95,0:02:00.30,Default,,0,0,0,,Chờ đã.
+Dialogue: 0,0:02:00.91,0:02:01.78,Default,,0,0,0,,Làm... làm gì vậy?
+Dialogue: 0,0:02:02.90,0:02:03.99,Default,,0,0,0,,Ớ?
+Dialogue: 0,0:02:04.57,0:02:05.28,Default,,0,0,0,,Sao thế nhỉ.
+Dialogue: 0,0:02:05.72,0:02:06.82,Default,,0,0,0,,Đang làm nũng sao?
+Dialogue: 0,0:02:07.40,0:02:09.30,Default,,0,0,0,,Mặc dù mặt nạ trông rất nóng mắt,
+Dialogue: 0,0:02:09.82,0:02:11.69,Default,,0,0,0,,nhưng cũng thấy đáng yêu đó.
+Dialogue: 0,0:02:15.82,0:02:16.46,Default,,0,0,0,,Như các cậu thấy đó,
+Dialogue: 0,0:02:16.93,0:02:20.16,Default,,0,0,0,,quái vật này có thói quen\Nbám vào cơ thể người rồi phát nổ.
+Dialogue: 0,0:02:21.00,0:02:21.57,Default,,0,0,0,,Vậy sao?
+Dialogue: 0,0:02:21.77,0:02:23.59,Default,,0,0,0,,Sao lại bình tĩnh thế chứ!
+Dialogue: 0,0:02:33.09,0:02:34.93,Default,,0,0,0,,Tôi đi trước mở đường,
+Dialogue: 0,0:02:35.80,0:02:37.27,Default,,0,0,0,,Kazuma theo sau tôi nhé.
+Dialogue: 0,0:02:37.63,0:02:38.36,Default,,0,0,0,,Ồ, được.
+Dialogue: 0,0:02:38.91,0:02:39.64,Default,,0,0,0,,Kazuma Kazuma,
+Dialogue: 0,0:02:40.35,0:02:43.50,Default,,0,0,0,,em sẽ làm vướng chân mọi người đó, em ở đây chờ nhé.
+Dialogue: 0,0:02:43.63,0:02:44.51,Default,,0,0,0,,Ta cũng thế.
+Dialogue: 0,0:02:44.77,0:02:46.13,Default,,0,0,0,,Cô phải đi cùng.
+Dialogue: 0,0:02:49.12,0:02:50.63,Default,,0,0,0,,Ta đã chịu đủ cái Thành phố ngầm đó rồi.
+Dialogue: 0,0:02:51.20,0:02:53.64,Default,,0,0,0,,Vào đó chắc chắn lại bị bỏ lại.
+Dialogue: 0,0:02:55.15,0:02:57.84,Default,,0,0,0,,Không muốn vào đó, không muốn.
+Dialogue: 0,0:02:58.45,0:03:00.07,Default,,0,0,0,,Thế thì chỉ có tôi và Darkness rồi.
+Dialogue: 0,0:03:00.94,0:03:02.04,Default,,0,0,0,,Chỉ có tôi và Kazuma sao.
+Dialogue: 0,0:03:02.57,0:03:05.89,Default,,0,0,0,,So với quái vật, Kazuma còn nguy hiểm hơn.
+Dialogue: 0,0:03:06.41,0:03:08.05,Default,,0,0,0,,Tôi cũng có thể bỏ lại cô trong Thành phố ngầm,
+Dialogue: 0,0:03:08.55,0:03:10.98,Default,,0,0,0,,để cô bị ám ảnh tâm lý như Aqua đấy.
+Dialogue: 0,0:03:11.88,0:03:14.24,Default,,0,0,0,,(Nhiệm vụ thám hiểm: Điều tra\Nbất thường trong Thành phố ngầm Kiel.)
+Dialogue: 0,0:03:15.37,0:03:17.06,Default,,0,0,0,,Khác với lần trước khi đến đây,
+Dialogue: 0,0:03:17.63,0:03:19.59,Default,,0,0,0,,đèn sáng trưng như thể chủ nhân đang ở bên trong.
+Dialogue: 0,0:03:20.27,0:03:22.72,Default,,0,0,0,,Đây cũng là ảnh hưởng của\Nnhững con quái vật vô danh đó sao?
+Dialogue: 0,0:03:26.11,0:03:27.48,Default,,0,0,0,,Trúng, trúng rồi.
+Dialogue: 0,0:03:28.32,0:03:31.32,Default,,0,0,0,,Nhìn này Kazuma, đám nhóc\Nnày đã bám trúng kiếm của tôi.
+Dialogue: 0,0:03:32.02,0:03:33.12,Default,,0,0,0,,Cô vui quá nhỉ.
+Dialogue: 0,0:03:34.15,0:03:35.96,Default,,0,0,0,,Nhưng mà đi cùng đám người này
+Dialogue: 0,0:03:36.24,0:03:38.22,Default,,0,0,0,,sẽ không thể lén lút xóa\Nvòng tròn phép thuật của Aqua đi.
+Dialogue: 0,0:03:38.45,0:03:40.65,Default,,0,0,0,,Chờ chút, chậm thôi.
+Dialogue: 0,0:03:41.65,0:03:44.16,Default,,0,0,0,,Bị bám vào rồi, ai đem chúng đi đi.
+Dialogue: 0,0:03:45.17,0:03:45.70,Default,,0,0,0,,Đừng qua đây.
+Dialogue: 0,0:03:48.00,0:03:49.50,Default,,0,0,0,,Được rồi, Darkness, cứ như thế tiến vào đi.
+Dialogue: 0,0:03:50.08,0:03:50.49,Default,,0,0,0,,Giao cho tôi.
+Dialogue: 0,0:03:51.83,0:03:53.19,Default,,0,0,0,,Hưng phấn quá đi mất.
+Dialogue: 0,0:03:54.70,0:03:55.98,Default,,0,0,0,,Là một Kỵ sĩ Thập tự chinh,
+Dialogue: 0,0:03:56.25,0:03:58.51,Default,,0,0,0,,lần đầu tiên được dùng bản lĩnh thực sự của mình.
+Dialogue: 0,0:04:02.37,0:04:03.41,Default,,0,0,0,,Rốt cuộc là sao nhỉ?
+Dialogue: 0,0:04:06.84,0:04:08.96,Default,,0,0,0,,Hắn ta chắc là chủ nhân của đám búp bê đó nhỉ.
+Dialogue: 0,0:04:11.08,0:04:11.50,Default,,0,0,0,,Này.
+Dialogue: 0,0:04:12.95,0:04:13.95,Default,,0,0,0,,Ngươi chính là tên đầu sỏ sao?
+Dialogue: 0,0:04:17.68,0:04:20.15,Default,,0,0,0,,Thế mà lại vào được đây.
+Dialogue: 0,0:04:21.38,0:04:23.88,Default,,0,0,0,,Chào mừng đến với Thành phố\Nngầm của ta, những nhà mạo hiểm.
+Dialogue: 0,0:04:24.52,0:04:27.45,Default,,0,0,0,,Ta chính là kẻ đầu têu,\Nlà căn nguyên của nhiều tội ác,
+Dialogue: 0,0:04:28.11,0:04:29.31,Default,,0,0,0,,đồng thời cũng là một\NTướng lĩnh của Quân đội Ma Vương,
+Dialogue: 0,0:04:29.76,0:04:32.20,Default,,0,0,0,,công tước địa ngục, lãnh đạo đám ác quỷ,
+Dialogue: 0,0:04:32.98,0:04:35.24,Default,,0,0,0,,đại ác quỷ nhìn thấu thế giới,
+Dialogue: 0,0:04:37.30,0:04:38.21,Default,,0,0,0,,Vanir.
+Dialogue: 0,0:04:38.88,0:04:42.10,Default,,0,0,0,,(Xuất hiện nhiệm vụ khẩn cấp:\Nđánh bại Tướng lĩnh của quân Ma Vương, Vanir.)
+Dialogue: 0,0:04:42.60,0:04:43.79,Default,,0,0,0,,Tướng lĩnh của quân Ma Vương.
+Dialogue: 0,0:04:45.24,0:04:45.64,Default,,0,0,0,,Mau chạy thôi.
+Dialogue: 0,0:04:46.27,0:04:47.88,Default,,0,0,0,,Người thờ phụng Nữ thần Eris,
+Dialogue: 0,0:04:48.18,0:04:49.88,Default,,0,0,0,,sao có thể chùn chân trước ác quỷ chứ.
+Dialogue: 0,0:04:51.77,0:04:55.79,Default,,0,0,0,,Muốn đánh bại kẻ mạnh ngang Ma Vương như ta sao?
+Dialogue: 0,0:04:57.81,0:04:58.79,Default,,0,0,0,,Bình tĩnh chút nào.
+Dialogue: 0,0:04:59.47,0:05:01.03,Default,,0,0,0,,Dù nói là Tướng lĩnh của Ma Vương,
+Dialogue: 0,0:05:01.54,0:05:03.29,Default,,0,0,0,,ta cũng chỉ là đang\Nduy trì kết giới của thành trì thôi.
+Dialogue: 0,0:05:03.92,0:05:05.24,Default,,0,0,0,,Cũng có thể nói là Tướng lĩnh hữu danh vô thực.
+Dialogue: 0,0:05:06.00,0:05:09.23,Default,,0,0,0,,Ma Vương bảo ta điều tra chuyện của Verdia,
+Dialogue: 0,0:05:12.09,0:05:13.84,Default,,0,0,0,,nhân tiện đến tìm chủ tiệm ăn hại
+Dialogue: 0,0:05:14.28,0:05:18.05,Default,,0,0,0,,sống ở thị trấn Axel,
+Dialogue: 0,0:05:18.42,0:05:20.67,Default,,0,0,0,,người có kỹ năng khó hiểu "càng làm việc càng nghèo".
+Dialogue: 0,0:05:22.05,0:05:25.55,Default,,0,0,0,,Ngoài ra, ta chính là\NÁc quỷ tộc mà người ta thường nói.
+Dialogue: 0,0:05:26.09,0:05:27.63,Default,,0,0,0,,Món ăn yêu thích của ác quỷ
+Dialogue: 0,0:05:28.08,0:05:31.77,Default,,0,0,0,,chính là cảm xúc ghê tởm\Nmà con người sinh ra khi cảm thấy ghét bỏ.
+Dialogue: 0,0:05:32.22,0:05:34.19,Default,,0,0,0,,Mỗi người các ngươi sinh ra,
+Dialogue: 0,0:05:34.71,0:05:37.05,Default,,0,0,0,,chúng ta đều vui sướng chạy khắp nơi.
+Dialogue: 0,0:05:38.19,0:05:40.52,Default,,0,0,0,,Đám búp bê này cứ chui ra từ Thành phố ngầm suốt,
+Dialogue: 0,0:05:40.80,0:05:42.78,Default,,0,0,0,,con người cảm thấy rất phiền.
+Dialogue: 0,0:05:43.23,0:05:43.64,Default,,0,0,0,,Cái gì?
+Dialogue: 0,0:05:44.30,0:05:47.41,Default,,0,0,0,,Ta dùng chúng để xua đuổi\Nquái vật trong Thành phố ngầm,
+Dialogue: 0,0:05:49.11,0:05:52.50,Default,,0,0,0,,mà chúng lại chạy ra ngoài,\Nnghĩa là không có quái vật nào ở đây.
+Dialogue: 0,0:05:53.11,0:05:53.71,Default,,0,0,0,,Vậy thì...
+Dialogue: 0,0:05:56.03,0:05:58.53,Default,,0,0,0,,Bước vào kế hoạch tiếp theo.
+Dialogue: 0,0:05:59.32,0:06:00.44,Default,,0,0,0,,Ngươi có mưu đồ gì?
+Dialogue: 0,0:06:01.13,0:06:01.66,Default,,0,0,0,,Thật mất lịch sự,
+Dialogue: 0,0:06:02.32,0:06:04.75,Default,,0,0,0,,gã đàn ông mà người phụ nữ\Nmặc áo giáp mấy ngày không về
+Dialogue: 0,0:06:05.18,0:06:08.33,Default,,0,0,0,,đã ở nhà đứng ngồi không yên, lo lắng vô cùng kia...
+Dialogue: 0,0:06:08.83,0:06:09.67,Default,,0,0,0,,Im miệng.
+Dialogue: 0,0:06:10.07,0:06:11.63,Default,,0,0,0,,Sao lại nói như ngươi tận mắt chứng kiến vậy.
+Dialogue: 0,0:06:13.42,0:06:14.95,Default,,0,0,0,,Chị cũng đừng có ngượng ngùng thế.
+Dialogue: 0,0:06:15.47,0:06:18.92,Default,,0,0,0,,Ta có khát vọng hủy diệt vượt xa người thường.
+Dialogue: 0,0:06:20.21,0:06:21.75,Default,,0,0,0,,Ta sẽ chiếm Thành phố ngầm trước,
+Dialogue: 0,0:06:22.45,0:06:25.31,Default,,0,0,0,,cho đám ác quỷ chờ lệnh trong mỗi phòng, đặt bẫy,
+Dialogue: 0,0:06:25.95,0:06:28.47,Default,,0,0,0,,chờ đám nhà mạo hiểm\Ncó chiến tích tốt đến khiêu chiến,
+Dialogue: 0,0:06:29.15,0:06:31.53,Default,,0,0,0,,cuối cùng vượt qua thử thách tàn khốc,
+Dialogue: 0,0:06:31.73,0:06:34.78,Default,,0,0,0,,nhà mạo hiểm dũng cảm\Nđến được căn phòng trong cùng,
+Dialogue: 0,0:06:35.12,0:06:37.03,Default,,0,0,0,,người chờ ở nơi đó, đương nhiên là ta.
+Dialogue: 0,0:06:37.61,0:06:39.68,Default,,0,0,0,,Thật tốt khi các ngươi đã ở đây, những nhà mạo hiểm,
+Dialogue: 0,0:06:40.15,0:06:43.06,Default,,0,0,0,,hãy đánh bại ta và lấy tài sản khổng lồ đi.
+Dialogue: 0,0:06:43.61,0:06:45.46,Default,,0,0,0,,Trận chiến sau cùng cuối cùng cũng bắt đầu.
+Dialogue: 0,0:06:46.61,0:06:47.29,Default,,0,0,0,,Trận chiến khốc liệt,
+Dialogue: 0,0:06:47.71,0:06:49.97,Default,,0,0,0,,cuối cùng ta đã bị đánh gục.
+Dialogue: 0,0:06:50.36,0:06:52.60,Default,,0,0,0,,Một rương kho báu bị phong ấn xuất hiện sau lưng ta.
+Dialogue: 0,0:06:53.36,0:06:56.01,Default,,0,0,0,,Sau khi nhà mạo hiểm vượt qua gian khó, mở nó ra,
+Dialogue: 0,0:06:56.26,0:06:56.97,Default,,0,0,0,,bên trong là
+Dialogue: 0,0:06:58.33,0:06:59.99,Default,,0,0,0,,mảnh giấy viết chữ "Không trúng".
+Dialogue: 0,0:07:00.97,0:07:03.63,Default,,0,0,0,,Nhìn khuôn mặt chết lặng của các nhà mạo hiểm,
+Dialogue: 0,0:07:06.42,0:07:07.80,Default,,0,0,0,,ta dần dần chết đi.
+Dialogue: 0,0:07:11.61,0:07:13.00,Default,,0,0,0,,Để thực hiện kế hoạch này,
+Dialogue: 0,0:07:13.63,0:07:15.03,Default,,0,0,0,,ta vốn muốn kiếm ít tiền ở cửa hàng của bạn,
+Dialogue: 0,0:07:15.05,0:07:17.56,Default,,0,0,0,,xây một Thành phố ngầm khổng lồ.
+Dialogue: 0,0:07:18.29,0:07:19.99,Default,,0,0,0,,Thỉnh thoảng đi qua đây,
+Dialogue: 0,0:07:20.60,0:07:21.95,Default,,0,0,0,,thấy hình như chủ nhân đã không còn ở đây nữa,
+Dialogue: 0,0:07:22.14,0:07:24.43,Default,,0,0,0,,ta liền quyết định sử dụng Thành phố ngầm này.
+Dialogue: 0,0:07:25.35,0:07:27.95,Default,,0,0,0,,Nhưng có một vòng tròn\Nphép thuật vô cùng mạnh ở bên trong,
+Dialogue: 0,0:07:28.58,0:07:30.20,Default,,0,0,0,,không thể vào được.
+Dialogue: 0,0:07:30.75,0:07:31.72,Default,,0,0,0,,Lại là cô ta.
+Dialogue: 0,0:07:33.33,0:07:35.17,Default,,0,0,0,,Là do đồng đội của ngươi thiết lập phải không?
+Dialogue: 0,0:07:36.60,0:07:37.30,Default,,0,0,0,,Rốt cuộc thế nào,
+Dialogue: 0,0:07:39.60,0:07:40.68,Default,,0,0,0,,để ta xem xem.
+Dialogue: 0,0:07:44.53,0:07:45.53,Default,,0,0,0,,Quá kinh ngạc.
+Dialogue: 0,0:07:46.11,0:07:50.49,Default,,0,0,0,,Đồng đội Đại Mục sư của\Ncác ngươi đã thiết lập vòng tròn đó.
+Dialogue: 0,0:07:51.34,0:07:52.73,Default,,0,0,0,,Nhìn thấy rồi, ta nhìn thấy rồi.
+Dialogue: 0,0:07:53.69,0:07:56.23,Default,,0,0,0,,Có thể nhìn thấy Mục sư đang nghỉ ngơi uống trà.
+Dialogue: 0,0:07:56.90,0:07:57.52,Default,,0,0,0,,Con nhỏ đó.
+Dialogue: 0,0:07:58.26,0:07:59.66,Default,,0,0,0,,Cô gái ban nãy hoảng hốt ngượng ngùng,
+Dialogue: 0,0:07:59.91,0:08:01.42,Default,,0,0,0,,người đánh cược với tên kia thua
+Dialogue: 0,0:08:01.56,0:08:04.85,Default,,0,0,0,,xong lại luôn mong chờ\N"yêu cầu quá đáng" từ miệng hắn ta kia.
+Dialogue: 0,0:08:05.39,0:08:07.45,Default,,0,0,0,,Ta không có hoảng hốt, cũng không ngượng ngùng,
+Dialogue: 0,0:08:07.85,0:08:08.84,Default,,0,0,0,,đừng nói bậy.
+Dialogue: 0,0:08:10.07,0:08:10.96,Default,,0,0,0,,Đừng... đừng nói nữa.
+Dialogue: 0,0:08:11.35,0:08:13.12,Default,,0,0,0,,Gã đàn ông hoảng loạn suy nghĩ
+Dialogue: 0,0:08:13.16,0:08:16.11,Default,,0,0,0,,sẽ đưa ra yêu cầu gì\Nvới cô ấy sau khi sự việc kết thúc.
+Dialogue: 0,0:08:16.37,0:08:18.12,Default,,0,0,0,,Ta... ta không có hoảng loạn.
+Dialogue: 0,0:08:18.43,0:08:19.66,Default,,0,0,0,,Không... không có.
+Dialogue: 0,0:08:19.98,0:08:21.11,Default,,0,0,0,,Tránh ra cho ta.
+Dialogue: 0,0:08:21.76,0:08:25.19,Default,,0,0,0,,Mặc dù nguyên tắc của ta là "không giết con người".
+Dialogue: 0,0:08:26.37,0:08:28.39,Default,,0,0,0,,Ừm, con người thì không giết.
+Dialogue: 0,0:08:29.57,0:08:30.58,Default,,0,0,0,,Chỉ có con người thôi.
+Dialogue: 0,0:08:32.20,0:08:34.39,Default,,0,0,0,,Nhưng con nhỏ tạo ra vòng tròn\Nphép thuật phiền phức như vậy,
+Dialogue: 0,0:08:34.82,0:08:36.59,Default,,0,0,0,,phải để ngươi nếm sự lợi hại của ta.
+Dialogue: 0,0:08:37.21,0:08:38.76,Default,,0,0,0,,Hắn ta biết thân phận thật của Aqua.
+Dialogue: 0,0:08:39.55,0:08:41.32,Default,,0,0,0,,Nếu ngươi đã muốn làm hại Aqua,
+Dialogue: 0,0:08:41.89,0:08:42.72,Default,,0,0,0,,thì chúng ta không thể chùn bước.
+Dialogue: 0,0:08:43.19,0:08:45.13,Default,,0,0,0,,Đứa con gái có cả cơ bụng lẫn đầu óc rắn chắc kia,
+Dialogue: 0,0:08:45.69,0:08:46.49,Default,,0,0,0,,lập tức tránh ra cho ta.
+Dialogue: 0,0:08:46.81,0:08:48.45,Default,,0,0,0,,Các ngươi sẽ không phải chịu phiền phức gì.
+Dialogue: 0,0:08:48.55,0:08:52.25,Default,,0,0,0,,Ở đây thực hiện "yêu cầu quá đáng" như ý nguyện đi.
+Dialogue: 0,0:08:53.07,0:08:54.82,Default,,0,0,0,,Đừng nghe, đây là lời nỉ non của ác quỷ,
+Dialogue: 0,0:08:54.85,0:08:55.73,Default,,0,0,0,,đừng bị mê hoặc.
+Dialogue: 0,0:08:56.31,0:08:57.73,Default,,0,0,0,,Ai, ai bị mê hoặc chứ.
+Dialogue: 0,0:08:57.99,0:09:00.18,Default,,0,0,0,,Cậu thì có, phải xem xét\Nthời gian và trường hợp chứ.
+Dialogue: 0,0:09:00.68,0:09:01.66,Default,,0,0,0,,Ôi, ôi.
+Dialogue: 0,0:09:02.00,0:09:04.70,Default,,0,0,0,,Trong lòng mình rõ ràng là đang lung lay.
+Dialogue: 0,0:09:05.12,0:09:05.75,Default,,0,0,0,,Đủ rồi,
+Dialogue: 0,0:09:06.15,0:09:09.07,Default,,0,0,0,,nói chuyện với ngươi, não cũng trở nên kỳ cục.
+Dialogue: 0,0:09:10.31,0:09:12.49,Default,,0,0,0,,Vậy thì hãy ở trong căn\Nphòng có vòng tròn phép thuật,
+Dialogue: 0,0:09:12.68,0:09:14.30,Default,,0,0,0,,nghỉ ngơi rồi hãy về nhé.
+Dialogue: 0,0:09:16.04,0:09:17.52,Default,,0,0,0,,Kazuma đừng có bối rối nữa.
+Dialogue: 0,0:09:17.85,0:09:19.23,Default,,0,0,0,,Sống chung dưới một mái nhà,
+Dialogue: 0,0:09:19.36,0:09:21.57,Default,,0,0,0,,sao có thể phát triển\Nthành mối quan hệ kỳ lạ đó chứ.
+Dialogue: 0,0:09:22.07,0:09:22.77,Default,,0,0,0,,Tỉnh táo một chút.
+Dialogue: 0,0:09:24.00,0:09:24.77,Default,,0,0,0,,Vẻ ngoài đúng ra rất đẹp,
+Dialogue: 0,0:09:24.81,0:09:27.13,Default,,0,0,0,,thân thể là gu của mình, nhưng nội tâm\NDarkness thì không thể khen được.
+Dialogue: 0,0:09:27.68,0:09:28.63,Default,,0,0,0,,Mình phải tỉnh táo một chút.
+Dialogue: 0,0:09:29.33,0:09:30.71,Default,,0,0,0,,Về nhà chờ đó cho tôi.
+Dialogue: 0,0:09:34.75,0:09:37.42,Default,,0,0,0,,Hung hăng đấy, nhưng đều không trúng.
+Dialogue: 0,0:09:42.49,0:09:43.95,Default,,0,0,0,,Gã đàn ông tùy hứng đó đi đâu rồi.
+Dialogue: 0,0:09:44.54,0:09:45.77,Default,,0,0,0,,So với Kỵ sĩ Thập tự chinh này,
+Dialogue: 0,0:09:45.82,0:09:48.11,Default,,0,0,0,,người như hắn chắc sẽ khó đối phó hơn.
+Dialogue: 0,0:09:49.45,0:09:50.32,Default,,0,0,0,,Ngươi nhìn đi đâu đấy?
+Dialogue: 0,0:09:50.81,0:09:52.35,Default,,0,0,0,,Đối thủ của ngươi là ta mà.
+Dialogue: 0,0:09:54.04,0:09:54.88,Default,,0,0,0,,Thật đáng tiếc.
+Dialogue: 0,0:09:55.18,0:09:55.61,Default,,0,0,0,,Cơ hội tốt.
+Dialogue: 0,0:09:56.46,0:09:57.77,Default,,0,0,0,,Thuận tay rồi.
+Dialogue: 0,0:10:01.25,0:10:01.70,Default,,0,0,0,,Cái gì vậy?
+Dialogue: 0,0:10:07.69,0:10:08.25,Default,,0,0,0,,Lẽ nào
+Dialogue: 0,0:10:08.84,0:10:09.70,Default,,0,0,0,,bị tiêu diệt ở đây ư?
+Dialogue: 0,0:10:13.62,0:10:14.30,Default,,0,0,0,,Giải quyết xong rồi sao?
+Dialogue: 0,0:10:14.87,0:10:17.39,Default,,0,0,0,,Đáng ghét, hóa ra là quả bóng.
+Dialogue: 0,0:10:18.52,0:10:19.47,Default,,0,0,0,,Nhưng cái này...
+Dialogue: 0,0:10:19.85,0:10:20.99,Default,,0,0,0,,Thật sự thành công rồi sao?
+Dialogue: 0,0:10:22.33,0:10:23.73,Default,,0,0,0,,Khiến các ngươi mong chờ,
+Dialogue: 0,0:10:24.06,0:10:24.40,Default,,0,0,0,,nhưng lại hụt hẫng rồi.
+Dialogue: 0,0:10:27.44,0:10:29.31,Default,,0,0,0,,Tưởng rằng đã đánh bại ta rồi sao?
+Dialogue: 0,0:10:29.96,0:10:30.38,Default,,0,0,0,,Thật đáng tiếc.
+Dialogue: 0,0:10:30.73,0:10:32.60,Default,,0,0,0,,Không hề gây hại gì được.
+Dialogue: 0,0:10:33.32,0:10:37.74,Default,,0,0,0,,Cảm xúc ghê tởm của hai ngươi đúng là mỹ vị.
+Dialogue: 0,0:10:39.88,0:10:40.43,Default,,0,0,0,,Darkness.
+Dialogue: 0,0:10:45.29,0:10:45.76,Default,,0,0,0,,Darkness!
+Dialogue: 0,0:10:46.65,0:10:47.96,Default,,0,0,0,,Trả lời tôi đi chứ.
+Dialogue: 0,0:10:54.62,0:10:55.80,Default,,0,0,0,,Tên nhóc kia, nghe rõ đây.
+Dialogue: 0,0:10:56.34,0:10:57.54,Default,,0,0,0,,Dưới sức mạnh của ta...
+Dialogue: 0,0:10:57.66,0:10:58.70,Default,,0,0,0,,Làm sao đây Kazuma?
+Dialogue: 0,0:10:58.89,0:11:00.29,Default,,0,0,0,,Cơ thể bị chiếm mất rồi.
+Dialogue: 0,0:11:00.61,0:11:01.22,Default,,0,0,0,,Thế nào tên nhóc?
+Dialogue: 0,0:11:01.63,0:11:03.76,Default,,0,0,0,,Nếu ngươi có thể tấn công cô ta...
+Dialogue: 0,0:11:04.06,0:11:06.68,Default,,0,0,0,,Không cần bận tâm, không cần\Nsuy nghĩ đâu, tấn công tôi đi.
+Dialogue: 0,0:11:06.90,0:11:09.48,Default,,0,0,0,,Mau lên, đây là cơ hội tốt.
+Dialogue: 0,0:11:09.95,0:11:11.95,Default,,0,0,0,,Ồn chết đi được. Ngươi làm sao vậy?
+Dialogue: 0,0:11:15.10,0:11:16.62,Default,,0,0,0,,Sao có thể chứ, đứa con gái này sao vậy chứ?
+Dialogue: 0,0:11:16.66,0:11:17.24,Default,,0,0,0,,Đẹp quá.
+Dialogue: 0,0:11:17.53,0:11:20.34,Default,,0,0,0,,Tinh thần của cô ta có thể ngoan cường đến đâu chứ.
+Dialogue: 0,0:11:20.39,0:11:22.70,Default,,0,0,0,,Ta là Kỵ sĩ Thập tự chinh kiểu mẫu đấy.
+Dialogue: 0,0:11:23.75,0:11:24.45,Default,,0,0,0,,Ồn chết đi được.
+Dialogue: 0,0:11:27.65,0:11:31.05,Default,,0,0,0,,Có thể chống lại sự chi phối\Ncủa ta, đúng là người phụ nữ lợi hại.
+Dialogue: 0,0:11:31.23,0:11:31.91,Default,,0,0,0,,Cũng... cũng tạm.
+Dialogue: 0,0:11:32.26,0:11:33.49,Default,,0,0,0,,Nhưng mà càng nhẫn nhịn,
+Dialogue: 0,0:11:33.56,0:11:35.98,Default,,0,0,0,,cơ thể ngươi càng tạo ra\Nnhiều cơn đau không thể chống lại.
+Dialogue: 0,0:11:36.04,0:11:37.05,Default,,0,0,0,,Cái... cái gì?
+Dialogue: 0,0:11:38.38,0:11:40.10,Default,,0,0,0,,Ngươi có thế chống chọi đến khi nào chứ.
+Dialogue: 0,0:11:42.80,0:11:43.38,Default,,0,0,0,,Chuyện gì thế này?
+Dialogue: 0,0:11:44.57,0:11:45.58,Default,,0,0,0,,Tâm trạng vui sao?
+Dialogue: 0,0:11:47.43,0:11:48.28,Default,,0,0,0,,Cho tôi qua chút.
+Dialogue: 0,0:11:50.46,0:11:53.26,Default,,0,0,0,,Ta không chịu thua trước chút đau đớn này đâu.
+Dialogue: 0,0:11:53.49,0:11:55.47,Default,,0,0,0,,Có khí phách lắm, nhưng mà
+Dialogue: 0,0:11:55.80,0:11:58.62,Default,,0,0,0,,còn nhẫn nhịn nữa thì\Ntinh thần của ngươi sẽ sụp đổ.
+Dialogue: 0,0:11:59.86,0:12:02.47,Default,,0,0,0,,Ngươi lẽ nào đang hưởng thụ cảm giác này sao?
+Dialogue: 0,0:12:04.30,0:12:04.95,Default,,0,0,0,,Được rồi Darkness.
+Dialogue: 0,0:12:05.56,0:12:07.26,Default,,0,0,0,,Mau đi tụ họp với Aqua rồi chạy thôi.
+Dialogue: 0,0:12:08.43,0:12:09.72,Default,,0,0,0,,Đừng qua đây tên nhóc.
+Dialogue: 0,0:12:10.39,0:12:12.40,Default,,0,0,0,,Kazuma, đừng lo cho tôi. Đi trước đi.
+Dialogue: 0,0:12:12.93,0:12:14.91,Default,,0,0,0,,Thực ra trong lòng ngươi...
+Dialogue: 0,0:12:15.63,0:12:17.45,Default,,0,0,0,,Tôi muốn nói điều này từ lâu rồi.
+Dialogue: 0,0:12:17.94,0:12:21.43,Default,,0,0,0,,Cũng không muốn làm tổn thương\Ncô gái đáng yêu như vậy phải không?
+Dialogue: 0,0:12:23.04,0:12:25.43,Default,,0,0,0,,Nếu cô ta còn nhẫn nhịn sức mạnh của ta...
+Dialogue: 0,0:12:25.45,0:12:27.84,Default,,0,0,0,,Ka-Kazuma, tên ác quỷ\Ntự xưng có thể nhìn thấu tất cả này,
+Dialogue: 0,0:12:27.87,0:12:29.49,Default,,0,0,0,,những lời hắn nói vừa nãy, tôi rất để tâm.
+Dialogue: 0,0:12:29.88,0:12:31.01,Default,,0,0,0,,Phiền chết đi được.
+Dialogue: 0,0:12:35.58,0:12:37.00,Default,,0,0,0,,Cơ thể này thật thất bại.
+Dialogue: 0,0:12:37.28,0:12:40.02,Default,,0,0,0,,Nói cơ thể người khác thất bại, thật bất lịch sự.
+Dialogue: 0,0:12:40.16,0:12:41.34,Default,,0,0,0,,Phiền chết đi được!
+Dialogue: 0,0:12:42.31,0:12:43.22,Default,,0,0,0,,Ta muốn ra ngoài.
+Dialogue: 0,0:12:43.86,0:12:44.57,Default,,0,0,0,,Cái này thì không được.
+Dialogue: 0,0:12:45.43,0:12:46.12,Default,,0,0,0,,Cái bùa này là sao?
+Dialogue: 0,0:12:46.77,0:12:48.51,Default,,0,0,0,,Chờ đã Kazuma, đây hình như là...
+Dialogue: 0,0:12:49.00,0:12:50.80,Default,,0,0,0,,Bùa phong ấn mà Sena đưa đấy.
+Dialogue: 0,0:12:51.68,0:12:54.18,Default,,0,0,0,,Cứ thế này ra ngoài đi, để Aqua tinh hóa hắn.
+Dialogue: 0,0:12:54.72,0:12:55.23,Default,,0,0,0,,Cái gì?
+Dialogue: 0,0:12:58.93,0:13:02.41,Default,,0,0,0,,Tên nhóc, cô gái này nhẫn nhịn sự chi phối của ta,
+Dialogue: 0,0:13:02.63,0:13:04.34,Default,,0,0,0,,cơ thể đã đau lắm rồi.
+Dialogue: 0,0:13:04.94,0:13:07.41,Default,,0,0,0,,Cứ thế này tâm trí cô ta sẽ vỡ vụn mất.
+Dialogue: 0,0:13:07.84,0:13:08.89,Default,,0,0,0,,Cứ thế đi Kazuma.
+Dialogue: 0,0:13:09.45,0:13:11.13,Default,,0,0,0,,Đây là lần đầu tiên tôi có cảm giác mạnh như vậy.
+Dialogue: 0,0:13:11.60,0:13:13.13,Default,,0,0,0,,Không hổ là Tướng lĩnh của Ma Vương.
+Dialogue: 0,0:13:13.40,0:13:14.52,Default,,0,0,0,,Sắp sa ngã rồi.
+Dialogue: 0,0:13:14.92,0:13:17.85,Default,,0,0,0,,Cố chịu đi, lên đến mặt đất sẽ được giải thoát.
+Dialogue: 0,0:13:18.84,0:13:19.39,Default,,0,0,0,,Không cần đâu.
+Dialogue: 0,0:13:21.14,0:13:21.94,Default,,0,0,0,,Chị vừa nói gì?
+Dialogue: 0,0:13:22.70,0:13:23.36,Default,,0,0,0,,Không cần đâu.
+Dialogue: 0,0:13:24.24,0:13:25.63,Default,,0,0,0,,Darkness, may mà chị chống đỡ được.
+Dialogue: 0,0:13:27.77,0:13:28.09,Default,,0,0,0,,Darkness.
+Dialogue: 0,0:13:31.57,0:13:32.74,Default,,0,0,0,,Chi phối hoàn thành.
+Dialogue: 0,0:13:33.21,0:13:33.60,Default,,0,0,0,,Không phải chứ?
+Dialogue: 0,0:13:35.70,0:13:37.94,Default,,0,0,0,,Đại Mục sư của các ngươi sẽ\Nđến chào đón mà không phòng bị gì.
+Dialogue: 0,0:13:38.25,0:13:40.39,Default,,0,0,0,,Ta phải khiến cô ta nếm mùi đau khổ.
+Dialogue: 0,0:13:41.18,0:13:42.42,Default,,0,0,0,,Darkness, mau tỉnh lại đi.
+Dialogue: 0,0:13:42.68,0:13:44.15,Default,,0,0,0,,Ngươi vẫn cố tốn sức à?
+Dialogue: 0,0:13:44.43,0:13:45.24,Default,,0,0,0,,Vô dụng thôi tên nhóc.
+Dialogue: 0,0:13:45.80,0:13:49.60,Default,,0,0,0,,Đồng đội trở về an toàn, cảnh gặp gỡ cảm động.
+Dialogue: 0,0:13:50.33,0:13:52.03,Default,,0,0,0,,Kẻ thù đáng hận của ta,
+Dialogue: 0,0:13:52.71,0:13:54.52,Default,,0,0,0,,đối mặt với cơ thể của đồng đội bị chiếm mất,
+Dialogue: 0,0:13:55.02,0:13:56.27,Default,,0,0,0,,rốt cuộc sẽ làm thế nào đây?
+Dialogue: 0,0:13:57.31,0:13:58.99,Default,,0,0,0,,Sacred Exorcism!\NThần linh xua tà!
+Dialogue: 0,0:14:04.72,0:14:06.02,Default,,0,0,0,,Da-Darkness.
+Dialogue: 0,0:14:06.59,0:14:08.94,Default,,0,0,0,,Đồ ngốc, đừng dùng phép thuật bừa bãi thế.
+Dialogue: 0,0:14:09.64,0:14:11.70,Default,,0,0,0,,Cảm thấy một luồng khí xấu xa xông đến,
+Dialogue: 0,0:14:11.73,0:14:12.99,Default,,0,0,0,,nên ta mới ra tay.
+Dialogue: 0,0:14:13.63,0:14:17.14,Default,,0,0,0,,Cơ thể của Darkness bị Tướng lĩnh\Nquân đội Ma Vương chiếm giữ rồi.
+Dialogue: 0,0:14:17.55,0:14:19.08,Default,,0,0,0,,Ma... Tướng lĩnh quân đội Ma Vương?
+Dialogue: 0,0:14:19.60,0:14:21.32,Default,,0,0,0,,Hôi quá, sao lại hôi thế chứ.
+Dialogue: 0,0:14:21.56,0:14:23.97,Default,,0,0,0,,Đúng rồi, đúng là hơi thở của ác quỷ.
+Dialogue: 0,0:14:24.17,0:14:25.55,Default,,0,0,0,,Darkness đừng lại gần đây.
+Dialogue: 0,0:14:28.08,0:14:29.37,Default,,0,0,0,,Để ta tự giới thiệu trước đi.
+Dialogue: 0,0:14:29.83,0:14:31.20,Default,,0,0,0,,Đại Mục sư cùng tên với
+Dialogue: 0,0:14:31.35,0:14:33.31,Default,,0,0,0,,Nữ thần nước khét tiếng đáng ghét kia,
+Dialogue: 0,0:14:34.08,0:14:34.52,Default,,0,0,0,,tên ta là...
+Dialogue: 0,0:14:34.83,0:14:35.27,Default,,0,0,0,,Aqua,
+Dialogue: 0,0:14:35.37,0:14:37.71,Default,,0,0,0,,tôi... tôi không ngửi thấy mà.
+Dialogue: 0,0:14:38.00,0:14:38.96,Default,,0,0,0,,Ta tên là Vanir...
+Dialogue: 0,0:14:38.98,0:14:41.48,Default,,0,0,0,,Kazuma cũng ngửi xem, hình như không hôi mà.
+Dialogue: 0,0:14:41.74,0:14:42.53,Default,,0,0,0,,Phiền chết đi được.
+Dialogue: 0,0:14:44.07,0:14:44.90,Default,,0,0,0,,Ta tên là Vanir.
+Dialogue: 0,0:14:45.78,0:14:47.16,Default,,0,0,0,,Vừa chạm mặt đã dùng phép trừ tà rồi,
+Dialogue: 0,0:14:47.68,0:14:51.45,Default,,0,0,0,,cho nên người của giáo đoàn Axis\Nmới tiếng dữ đồn xa, làm người ta ghét.
+Dialogue: 0,0:14:52.17,0:14:53.35,Default,,0,0,0,,Không biết lịch sự hả?
+Dialogue: 0,0:14:54.05,0:14:57.62,Default,,0,0,0,,Thật là, lịch sự gì với ác quỷ chứ.
+Dialogue: 0,0:14:57.93,0:14:59.82,Default,,0,0,0,,Không có cảm xúc ghê tởm\Ncủa con người thì không sống nổi,
+Dialogue: 0,0:14:59.85,0:15:01.51,Default,,0,0,0,,ngươi không phải ký sinh trùng sao?
+Dialogue: 0,0:15:05.83,0:15:07.76,Default,,0,0,0,,Sacred Highness Exorcism!\NThần linh xua tà cấp cao!
+Dialogue: 0,0:15:08.41,0:15:08.82,Default,,0,0,0,,Quá nhạt.
+Dialogue: 0,0:15:08.92,0:15:09.43,Default,,0,0,0,,Nguy hiểm quá.
+Dialogue: 0,0:15:09.80,0:15:11.74,Default,,0,0,0,,Darkness, sao lại tránh chứ.
+Dialogue: 0,0:15:12.00,0:15:12.89,Default,,0,0,0,,Đứng lại cho ta.
+Dialogue: 0,0:15:13.26,0:15:14.59,Default,,0,0,0,,Dù... dù em nói như vậy...
+Dialogue: 0,0:15:14.95,0:15:15.53,Default,,0,0,0,,Quá quỷ quyệt.
+Dialogue: 0,0:15:15.95,0:15:17.61,Default,,0,0,0,,Em cũng muốn cái mặt nạ đó.
+Dialogue: 0,0:15:18.23,0:15:20.18,Default,,0,0,0,,Trái tim của Hồng ma tộc đang phản ứng dữ dội.
+Dialogue: 0,0:15:20.50,0:15:22.53,Default,,0,0,0,,Đồ ngốc, mặt nạ đó là bản thể của hắn.
+Dialogue: 0,0:15:23.09,0:15:25.95,Default,,0,0,0,,Đó đúng là "Quỷ nhìn thấu" trên lệnh truy nã rồi.
+Dialogue: 0,0:15:26.37,0:15:27.43,Default,,0,0,0,,Mọi người, bắt hắn ta đi.
+Dialogue: 0,0:15:34.76,0:15:36.10,Default,,0,0,0,,Darkness đứng im đi.
+Dialogue: 0,0:15:36.55,0:15:38.45,Default,,0,0,0,,Muốn được cứu không? Không muốn được cứu sao?
+Dialogue: 0,0:15:38.76,0:15:40.84,Default,,0,0,0,,Không ngờ Darkness lại khó đối phó như vậy.
+Dialogue: 0,0:15:41.01,0:15:41.78,Default,,0,0,0,,Đánh không trúng.
+Dialogue: 0,0:15:42.23,0:15:44.20,Default,,0,0,0,,Cô ta dùng kiếm đánh chúng ta dễ như trở bàn tay.
+Dialogue: 0,0:15:45.27,0:15:46.61,Default,,0,0,0,,Cơ thể này thật tốt.
+Dialogue: 0,0:15:47.49,0:15:49.11,Default,,0,0,0,,Có sức mạnh cũng có bền bỉ.
+Dialogue: 0,0:15:49.94,0:15:53.40,Default,,0,0,0,,Nhờ có cô ta mà ta chống lại\Nđược phép thuật của đám thần đáng ghét.
+Dialogue: 0,0:15:53.81,0:15:55.03,Default,,0,0,0,,Xin lỗi mọi người.
+Dialogue: 0,0:15:56.49,0:15:57.66,Default,,0,0,0,,Cứ việc tới đi,
+Dialogue: 0,0:15:57.77,0:15:59.37,Default,,0,0,0,,đám nhà mạo hiểm vô năng.
+Dialogue: 0,0:15:59.98,0:16:00.50,Default,,0,0,0,,Darkness,
+Dialogue: 0,0:16:00.79,0:16:03.88,Default,,0,0,0,,kiếm thuật tốt hơn chút mà đã đắc ý như vậy.
+Dialogue: 0,0:16:04.09,0:16:07.35,Default,,0,0,0,,Tôi luôn cho rằng cô là người\Nngay thẳng nhất trong đội của Kazuma.
+Dialogue: 0,0:16:07.70,0:16:08.61,Default,,0,0,0,,Bao vây, bao vây.
+Dialogue: 0,0:16:08.98,0:16:10.92,Default,,0,0,0,,Vây lấy Kỵ sĩ Thập tự chinh xấu xa này.
+Dialogue: 0,0:16:12.42,0:16:14.94,Default,,0,0,0,,Những nhà mạo hiểm\Nthường nói chuyện vui vẻ với tôi
+Dialogue: 0,0:16:15.12,0:16:16.86,Default,,0,0,0,,lại nhìn tôi với ánh mắt khinh miệt như vậy.
+Dialogue: 0,0:16:17.82,0:16:19.58,Default,,0,0,0,,Cô ta lại cảm thấy vui sướng,
+Dialogue: 0,0:16:20.16,0:16:21.65,Default,,0,0,0,,đây là sao chứ?
+Dialogue: 0,0:16:22.33,0:16:23.57,Default,,0,0,0,,Xin hãy nghĩ cách đi.
+Dialogue: 0,0:16:24.66,0:16:26.59,Default,,0,0,0,,Kazuma-san, cậu không tham chiến sao?
+Dialogue: 0,0:16:28.22,0:16:29.09,Default,,0,0,0,,Ka-Kazuma.
+Dialogue: 0,0:16:29.61,0:16:31.67,Default,,0,0,0,,Bây giờ nguy to rồi,
+Dialogue: 0,0:16:32.23,0:16:35.00,Default,,0,0,0,,là nguy hiểm lớn nhất ta gặp từ trước đến giờ.
+Dialogue: 0,0:16:35.50,0:16:37.79,Default,,0,0,0,,Kazuma, Kazuma.
+Dialogue: 0,0:16:39.18,0:16:41.10,Default,,0,0,0,,Bây giờ muốn nhân cơ hội\Ndạy cho Sena một bài học quá.
+Dialogue: 0,0:16:41.70,0:16:43.98,Default,,0,0,0,,Không phải lần nào cũng là mình gây loạn,
+Dialogue: 0,0:16:44.34,0:16:46.01,Default,,0,0,0,,mình chỉ là bị kéo vào thôi mà.
+Dialogue: 0,0:16:46.77,0:16:48.19,Default,,0,0,0,,Đây là do vận may của mình thôi hiểu không?
+Dialogue: 0,0:16:48.96,0:16:51.35,Default,,0,0,0,,Kazuma-san.
+Dialogue: 0,0:16:53.12,0:16:54.63,Default,,0,0,0,,Thật hết cách.
+Dialogue: 0,0:16:58.08,0:16:58.54,Default,,0,0,0,,Darkness,
+Dialogue: 0,0:16:58.90,0:17:00.76,Default,,0,0,0,,chị dễ dàng bị ác quỷ điều khiển vậy ư?
+Dialogue: 0,0:17:01.60,0:17:04.10,Default,,0,0,0,,Chị là người phụ nữ dễ dãi như vậy ư?
+Dialogue: 0,0:17:04.74,0:17:07.17,Default,,0,0,0,,Vô dụng thôi, cô ta không nghe thấy tiếng ngươi đâu.
+Dialogue: 0,0:17:07.35,0:17:08.96,Default,,0,0,0,,Ai là người phụ nữ dễ dãi chứ?
+Dialogue: 0,0:17:09.11,0:17:10.75,Default,,0,0,0,,Tôi không có bị điều khiển đâu.
+Dialogue: 0,0:17:13.26,0:17:14.53,Default,,0,0,0,,Tinh thần cương quyết như vậy.
+Dialogue: 0,0:17:14.98,0:17:17.52,Default,,0,0,0,,Bây giờ tôi phải giải phong ấn trên mặt nạ.
+Dialogue: 0,0:17:18.00,0:17:18.94,Default,,0,0,0,,Sau đó chị hãy tranh thủ một khắc đó,
+Dialogue: 0,0:17:19.38,0:17:20.75,Default,,0,0,0,,lấy lại quyền kiểm soát từ Vanir,
+Dialogue: 0,0:17:21.00,0:17:22.40,Default,,0,0,0,,gỡ mặt nạ xuống vứt đi nhé.
+Dialogue: 0,0:17:23.01,0:17:24.05,Default,,0,0,0,,Dựa vào thứ vô dụng như ngươi á,
+Dialogue: 0,0:17:24.69,0:17:27.61,Default,,0,0,0,,với lại sức mạnh của cô ta\Nhoàn toàn bị ta khai thác rồi.
+Dialogue: 0,0:17:28.09,0:17:29.91,Default,,0,0,0,,Ngươi muốn giải phong ấn thế nào?
+Dialogue: 0,0:17:30.23,0:17:33.21,Default,,0,0,0,,Ừm, bây giờ tôi cảm thấy mình sẽ không thua bất cứ ai.
+Dialogue: 0,0:17:35.97,0:17:37.66,Default,,0,0,0,,Thật biết áp chế ta.
+Dialogue: 0,0:17:37.72,0:17:38.82,Default,,0,0,0,,Nếu có thể
+Dialogue: 0,0:17:38.94,0:17:39.74,Default,,0,0,0,,giải trừ
+Dialogue: 0,0:17:39.87,0:17:40.52,Default,,0,0,0,,phong ấn này,
+Dialogue: 0,0:17:40.60,0:17:41.52,Default,,0,0,0,,có bản lĩnh
+Dialogue: 0,0:17:41.53,0:17:42.49,Default,,0,0,0,,thì tới đi.
+Dialogue: 0,0:17:42.85,0:17:43.73,Default,,0,0,0,,Phiền chết đi được.
+Dialogue: 0,0:17:44.79,0:17:46.04,Default,,0,0,0,,Đừng cướp lời thoại độc quyền của ta.
+Dialogue: 0,0:17:49.37,0:17:49.91,Default,,0,0,0,,Steal,
+Dialogue: 0,0:17:50.25,0:17:52.87,Default,,0,0,0,,Kazuma rất giỏi dùng Steal mà phải không.
+Dialogue: 0,0:17:53.21,0:17:55.29,Default,,0,0,0,,Chị làm lộ kỹ năng rồi, làm sao đây chứ.
+Dialogue: 0,0:17:55.77,0:17:56.33,Default,,0,0,0,,Kazuma,
+Dialogue: 0,0:17:56.39,0:17:58.27,Default,,0,0,0,,đằng sau cậu còn có ta mà.
+Dialogue: 0,0:17:58.59,0:17:59.76,Default,,0,0,0,,Dùng tinh thần của dũng sĩ ra tay đi.
+Dialogue: 0,0:18:00.53,0:18:02.97,Default,,0,0,0,,Darkness, lần này cũng đặt cược đi.
+Dialogue: 0,0:18:03.52,0:18:04.69,Default,,0,0,0,,Nếu như tôi thắng,
+Dialogue: 0,0:18:04.88,0:18:07.00,Default,,0,0,0,,tôi sẽ thêm chuyện xằng bậy hơn
+Dialogue: 0,0:18:07.11,0:18:09.52,Default,,0,0,0,,vào "yêu cầu quá đáng" đã nói trước kia.
+Dialogue: 0,0:18:10.60,0:18:11.85,Default,,0,0,0,,Đang thế này rồi mà lại nói chuyện ấy sao!
+Dialogue: 0,0:18:12.29,0:18:14.00,Default,,0,0,0,,Ta nói ngươi này, đừng bị lời ngon ngọt lừa gạt.
+Dialogue: 0,0:18:14.77,0:18:16.51,Default,,0,0,0,,Hãy nâng cao pháp lực, đề phòng Steal đi.
+Dialogue: 0,0:18:17.05,0:18:17.50,Default,,0,0,0,,Darkness,
+Dialogue: 0,0:18:17.94,0:18:19.79,Default,,0,0,0,,hãy tiếp tục chống cự, đừng để Vanir thuyết phục.
+Dialogue: 0,0:18:20.39,0:18:22.53,Default,,0,0,0,,Ngươi tưởng Steal của\Nnhà mạo hiểm sẽ có tác dụng sao?
+Dialogue: 0,0:18:23.24,0:18:24.21,Default,,0,0,0,,Ta đến đây.
+Dialogue: 0,0:18:24.94,0:18:25.22,Default,,0,0,0,,Đến đi.
+Dialogue: 0,0:18:28.68,0:18:29.78,Default,,0,0,0,,Tinder!\NNgòi lấy lửa!
+Dialogue: 0,0:18:40.62,0:18:42.08,Default,,0,0,0,,Thật quá xảo quyệt, Kazuma đê tiện.
+Dialogue: 0,0:18:42.81,0:18:45.21,Default,,0,0,0,,Không ngờ ngươi có thể lừa được "Quỷ nhìn thấu".
+Dialogue: 0,0:18:45.76,0:18:46.98,Default,,0,0,0,,Darkness, dùng nghị lực.
+Dialogue: 0,0:18:48.27,0:18:48.97,Default,,0,0,0,,Không gỡ xuống được.
+Dialogue: 0,0:18:50.61,0:18:51.05,Default,,0,0,0,,Cái gì?
+Dialogue: 0,0:18:51.52,0:18:52.88,Default,,0,0,0,,Kazuma-san, phải làm sao đây?
+Dialogue: 0,0:18:53.22,0:18:54.50,Default,,0,0,0,,Ta có thể ra tay chưa?
+Dialogue: 0,0:18:54.79,0:18:55.28,Default,,0,0,0,,Không.
+Dialogue: 0,0:18:55.85,0:18:57.08,Default,,0,0,0,,Dù cho dùng phép thuật,
+Dialogue: 0,0:18:57.66,0:18:58.63,Default,,0,0,0,,Darkness cũng có thể chịu được.
+Dialogue: 0,0:19:00.89,0:19:01.29,Default,,0,0,0,,Phóng đi.
+Dialogue: 0,0:19:02.11,0:19:03.66,Default,,0,0,0,,Nếu phép thuật của Aqua không có tác dụng,
+Dialogue: 0,0:19:04.95,0:19:05.35,Default,,0,0,0,,vậy cũng không sao.
+Dialogue: 0,0:19:06.33,0:19:09.45,Default,,0,0,0,,Hãy dùng Bạo Liệt ma pháp với tôi đi.
+Dialogue: 0,0:19:10.30,0:19:10.85,Default,,0,0,0,,Không được.
+Dialogue: 0,0:19:11.35,0:19:13.71,Default,,0,0,0,,Bạo Liệt ma pháp của em\Nđã được rèn luyện không ngừng,
+Dialogue: 0,0:19:14.02,0:19:16.44,Default,,0,0,0,,uy lực cao hơn trước nhiều rồi.
+Dialogue: 0,0:19:16.92,0:19:18.08,Default,,0,0,0,,Dù là Darkness cũng...
+Dialogue: 0,0:19:24.87,0:19:25.32,Default,,0,0,0,,Vanir,
+Dialogue: 0,0:19:25.81,0:19:27.11,Default,,0,0,0,,mặc dù thời gian không nhiều,
+Dialogue: 0,0:19:27.61,0:19:29.30,Default,,0,0,0,,nhưng ở cùng ngươi không hề xấu.
+Dialogue: 0,0:19:31.12,0:19:31.95,Default,,0,0,0,,Cho nên ít nhất ngươi
+Dialogue: 0,0:19:32.70,0:19:33.03,Default,,0,0,0,,hãy lựa chọn đi.
+Dialogue: 0,0:19:33.93,0:19:35.73,Default,,0,0,0,,Ra khỏi ta rồi bị tinh hóa,
+Dialogue: 0,0:19:36.15,0:19:37.91,Default,,0,0,0,,hay cùng nhận Bạo Liệt ma pháp?
+Dialogue: 0,0:19:40.87,0:19:43.97,Default,,0,0,0,,Đối với người theo chủ nghĩa\Nhủy diệt, đúng là một lựa chọn tuyệt nhất.
+Dialogue: 0,0:19:44.50,0:19:45.82,Default,,0,0,0,,Không ngờ tâm nguyện hủy diệt của ta,
+Dialogue: 0,0:19:46.13,0:19:48.20,Default,,0,0,0,,lại được thực hiện bằng cách này.
+Dialogue: 0,0:19:51.23,0:19:52.90,Default,,0,0,0,,Với ta mà nói, bám trên người ngươi
+Dialogue: 0,0:19:53.36,0:19:54.71,Default,,0,0,0,,cũng rất vui.
+Dialogue: 0,0:19:58.52,0:19:59.73,Default,,0,0,0,,Ta là ác quỷ,
+Dialogue: 0,0:20:00.88,0:20:03.00,Default,,0,0,0,,bị một Nữ thần đáng ghét tinh hóa,
+Dialogue: 0,0:20:03.29,0:20:04.01,Default,,0,0,0,,tuyệt đối không phục.
+Dialogue: 0,0:20:04.90,0:20:05.89,Default,,0,0,0,,Làm đi Megumin.
+Dialogue: 0,0:20:10.19,0:20:13.62,Default,,0,0,0,,Lỡ có xảy ra chuyện gì, hãy nói là ý của tôi.
+Dialogue: 0,0:20:14.41,0:20:15.57,Default,,0,0,0,,Cô làm nhân chứng.
+Dialogue: 0,0:20:16.88,0:20:19.19,Default,,0,0,0,,Lần này tôi cũng sẽ hoàn toàn chịu trách nhiệm.
+Dialogue: 0,0:20:23.86,0:20:24.33,Default,,0,0,0,,Megumin.
+Dialogue: 0,0:20:29.38,0:20:31.59,Default,,0,0,0,,Hỡi tháp lửa nổi loạn ẩn nấp trên thế giới,
+Dialogue: 0,0:20:32.22,0:20:34.78,Default,,0,0,0,,hỡi thần sấm im lặng xuất hiện trước mặt ta,
+Dialogue: 0,0:20:35.42,0:20:36.04,Default,,0,0,0,,thời cơ đã tới,
+Dialogue: 0,0:20:36.79,0:20:38.37,Default,,0,0,0,,hãy thức tỉnh đi.
+Dialogue: 0,0:20:38.75,0:20:40.80,Default,,0,0,0,,Hãy phòng bị bằng sự kiêu ngạo của ta,
+Dialogue: 0,0:20:41.49,0:20:41.98,Default,,0,0,0,,xuyên qua đi.
+Dialogue: 0,0:20:42.51,0:20:44.17,Default,,0,0,0,,Explosion!\NPhát nổ!
+Dialogue: 0,0:20:54.58,0:20:56.38,Default,,0,0,0,,Nhà mạo hiểm Sato Kazuma,
+Dialogue: 0,0:20:57.25,0:21:00.82,Default,,0,0,0,,thị trấn trao tặng cậu\Nthư cảm ơn để biểu dương cậu,
+Dialogue: 0,0:21:01.35,0:21:02.83,Default,,0,0,0,,đồng thời gửi lời xin lỗi sâu sắc
+Dialogue: 0,0:21:03.41,0:21:05.10,Default,,0,0,0,,vì trước kia đã nghi ngờ cậu.
+Dialogue: 0,0:21:08.22,0:21:09.53,Default,,0,0,0,,Chiến đấu với Vanir xong,
+Dialogue: 0,0:21:10.62,0:21:11.76,Default,,0,0,0,,"Người có liên quan với quân đội Ma Vương
+Dialogue: 0,0:21:12.23,0:21:15.34,Default,,0,0,0,,chắc sẽ không không màng tính mạng\Nđánh bại Tướng lĩnh của Ma Vương như thế",
+Dialogue: 0,0:21:15.84,0:21:18.89,Default,,0,0,0,,lý do này đã xóa đi sự nghi\Nngờ tôi là gián điệp của Ma Vương.
+Dialogue: 0,0:21:19.79,0:21:22.35,Default,,0,0,0,,Trước hết, tôi rất vui vì không cần\Nlo lắng bị kết án tử hình nữa.
+Dialogue: 0,0:21:23.91,0:21:24.40,Default,,0,0,0,,Tiếp theo,
+Dialogue: 0,0:21:25.24,0:21:26.89,Default,,0,0,0,,Dustiness Ford Lalatina,
+Dialogue: 0,0:21:27.81,0:21:30.09,Default,,0,0,0,,cô đã thể hiện tinh thần\Nhiến thân vĩ đại trong chuyện này.
+Dialogue: 0,0:21:30.80,0:21:32.94,Default,,0,0,0,,Hành vi này rất xứng đáng\Nvới danh tiếng của nhà Dustiness.
+Dialogue: 0,0:21:33.62,0:21:35.19,Default,,0,0,0,,Vương tộc gửi thư cảm ơn cô,
+Dialogue: 0,0:21:35.81,0:21:38.22,Default,,0,0,0,,đồng thời ban tặng bộ giáp\Nđược chế tạo bởi thợ thủ công hàng đầu
+Dialogue: 0,0:21:38.94,0:21:41.78,Default,,0,0,0,,để đền bù chiếc áo giáp\Nđã bị hủy trong trận chiến của cô.
+Dialogue: 0,0:21:43.53,0:21:45.14,Default,,0,0,0,,Vì Bạo Liệt ma pháp của Megumin,
+Dialogue: 0,0:21:45.59,0:21:47.26,Default,,0,0,0,,Darkness bị thương nặng, chỉ còn thoi thóp.
+Dialogue: 0,0:21:47.93,0:21:49.57,Default,,0,0,0,,Bộ giáp mà chị ta rất yêu thích không còn nữa.
+Dialogue: 0,0:21:50.62,0:21:52.36,Default,,0,0,0,,Sau đó nhờ Aqua chăm sóc,
+Dialogue: 0,0:21:52.38,0:21:54.76,Default,,0,0,0,,chị ta đã hồi phục lại trạng thái bây giờ.
+Dialogue: 0,0:21:56.16,0:21:57.53,Default,,0,0,0,,Chúc mừng cô, Lalatina.
+Dialogue: 0,0:21:57.80,0:21:59.09,Default,,0,0,0,,Lalatina, làm tốt lắm.
+Dialogue: 0,0:21:59.47,0:22:00.71,Default,,0,0,0,,Không hổ là Lalatina.
+Dialogue: 0,0:22:01.28,0:22:04.13,Default,,0,0,0,,Lalatina đáng yêu quá, Lalatina.
+Dialogue: 0,0:22:05.94,0:22:07.93,Default,,0,0,0,,Chuyện... chuyện xấu hổ như vậy,
+Dialogue: 0,0:22:08.14,0:22:10.51,Default,,0,0,0,,không phải là "điều quá đáng" mà tôi muốn.
+Dialogue: 0,0:22:10.99,0:22:11.91,Default,,0,0,0,,Darkness,
+Dialogue: 0,0:22:12.27,0:22:15.21,Default,,0,0,0,,ta thấy cái tên Lalatina vô cùng đáng yêu.
+Dialogue: 0,0:22:15.75,0:22:18.46,Default,,0,0,0,,Kazuma đã đem cái tên này\Nra đùa giỡn, tung khắp nơi rồi.
+Dialogue: 0,0:22:18.80,0:22:20.51,Default,,0,0,0,,Lát nữa ta giúp chị dạy dỗ cậu ta nhé.
+Dialogue: 0,0:22:21.17,0:22:23.86,Default,,0,0,0,,Cho nên hãy tự tin về cái tên Lalatina này đi.
+Dialogue: 0,0:22:25.67,0:22:29.19,Default,,0,0,0,,Còn nữa, nhóm của nhà mạo hiểm Sato Kazuma
+Dialogue: 0,0:22:30.42,0:22:34.17,Default,,0,0,0,,đã có cống hiến to lớn trong việc\Ntiêu diệt pháo đài cơ động Destroyer.
+Dialogue: 0,0:22:35.08,0:22:36.44,Default,,0,0,0,,Tiếp đó, trong lần tiêu diệt Vanir,
+Dialogue: 0,0:22:36.71,0:22:37.63,Default,,0,0,0,,Tướng lĩnh quân đội Ma Vương,
+Dialogue: 0,0:22:38.15,0:22:40.50,Default,,0,0,0,,nếu không có biểu hiện tích cực\Ncủa các cậu, chúng ta sẽ không thể thành công.
+Dialogue: 0,0:22:41.18,0:22:41.86,Default,,0,0,0,,Cho nên tại đây,
+Dialogue: 0,0:22:42.40,0:22:43.85,Default,,0,0,0,,chúng tôi dùng tiền thù lao
+Dialogue: 0,0:22:44.11,0:22:46.69,Default,,0,0,0,,khấu trừ hết khoản nợ của cậu
+Dialogue: 0,0:22:47.05,0:22:48.37,Default,,0,0,0,,và cả tiền bồi thường cho dinh thự của lãnh chúa,
+Dialogue: 0,0:22:48.96,0:22:50.71,Default,,0,0,0,,sau khi đã trả hết nợ,
+Dialogue: 0,0:22:51.30,0:22:53.11,Default,,0,0,0,,ban tặng 40 triệu Eris nữa
+Dialogue: 0,0:22:53.88,0:22:55.72,Default,,0,0,0,,để biểu dương thành tích của các cậu.
+Dialogue: 0,0:23:02.86,0:23:03.88,Default,,0,0,0,,Thật ồn ào.
+Dialogue: 0,0:23:04.78,0:23:06.95,Default,,0,0,0,,Có điều những ngày tháng này cũng không tồi.
+Dialogue: 0,0:23:07.29,0:23:08.53,Default,,0,0,0,,Hoa điểu phong nguyệt.
+Dialogue: 0,0:23:09.25,0:23:09.77,Default,,0,0,0,,Bây giờ tôi
+Dialogue: 0,0:23:10.97,0:23:12.98,Default,,0,0,0,,đã được thoát khỏi xiềng xích nặng nề
+Dialogue: 0,0:23:14.29,0:23:16.14,Default,,0,0,0,,từng khiến mình ngộp thở rồi.
+Dialogue: 0,0:23:21.27,0:23:24.54,Default,,0,0,0,,Có được đôi cánh tự do rồi!
+Dialogue: 0,0:23:25.27,0:23:30.36,Default,,0,0,0,,(Điều tra bất thường trong Thành phố ngầm, đánh\Nbại ác quỷ Vanir, trả hết nợ, nhận được 40 triệu Eris.)

@@ -1,0 +1,324 @@
+[Script Info]
+; This is an Advanced Sub Station Alpha v4+ script.
+Title: 
+ScriptType: v4.00+
+PlayDepth: 0
+ScaledBorderAndShadow: Yes
+PlayResX: 1920
+PlayResY: 1080
+
+[V4+ Styles]
+Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
+Style: Default,Noto Sans,80.0,&H00FFFFFF,&H000000FF,&H00002208,&H00000000,-1,0,0,0,100,100,0,0,1,3.0,2.0,2,0,0,65,1
+
+[Events]
+Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
+Dialogue: 0,0:00:00.63,0:00:03.38,Default,,0,0,0,,{\i1}Bộ áo giáp này bị sao thế?{\i0}
+Dialogue: 0,0:00:04.71,0:00:08.63,Default,,0,0,0,,{\i1}Vừa mặc lên, cơn đau đã tiêu biến.{\i0}
+Dialogue: 0,0:00:09.89,0:00:13.93,Default,,0,0,0,,{\i1}Đúng hơn là{\i0}\N{\i1}mình không còn màng đau đớn nữa.{\i0}
+Dialogue: 0,0:00:14.43,0:00:15.31,Default,,0,0,0,,{\i1}Không hề.{\i0}
+Dialogue: 0,0:00:16.48,0:00:17.81,Default,,0,0,0,,{\i1}Điều quan trọng hơn...{\i0}
+Dialogue: 0,0:00:18.85,0:00:22.02,Default,,0,0,0,,{\i1}sự thôi thúc dâng trào trong mình.{\i0}
+Dialogue: 0,0:00:23.48,0:00:26.90,Default,,0,0,0,,{\i1}Có gì đó mãnh liệt sôi sục bên trong.{\i0}
+Dialogue: 0,0:00:27.07,0:00:28.95,Default,,0,0,0,,{\i1}Giải phóng đi...{\i0}
+Dialogue: 0,0:00:29.07,0:00:30.16,Default,,0,0,0,,{\i1}Hiểu rồi.{\i0}
+Dialogue: 0,0:00:30.24,0:00:34.54,Default,,0,0,0,,{\i1}- Đây là...{\i0}\N{\i1}- Giải phóng hết đi.{\i0}
+Dialogue: 0,0:00:34.62,0:00:36.04,Default,,0,0,0,,{\i1}Đây là...{\i0}
+Dialogue: 0,0:00:36.12,0:00:37.66,Default,,0,0,0,,{\i1}Giải phóng đi...{\i0}
+Dialogue: 0,0:00:38.08,0:00:40.75,Default,,0,0,0,,{\i1}Giải phóng hết đi...{\i0}
+Dialogue: 0,0:00:41.38,0:00:43.00,Default,,0,0,0,,{\i1}Giải phóng đi!{\i0}
+Dialogue: 0,0:00:45.63,0:00:47.59,Default,,0,0,0,,Hình dạng áo giáp thay đổi!
+Dialogue: 0,0:02:26.15,0:02:27.36,Default,,0,0,0,,Thú vị đây!
+Dialogue: 0,0:02:27.73,0:02:30.03,Default,,0,0,0,,Vậy đây là sức mạnh thật của ngươi?
+Dialogue: 0,0:02:30.32,0:02:33.74,Default,,0,0,0,,Thế càng làm ngươi đáng bị tiêu diệt!
+Dialogue: 0,0:02:40.87,0:02:43.04,Default,,0,0,0,,{\i1}Hắn đánh bật cơ thể to lớn của mình?{\i0}
+Dialogue: 0,0:02:48.17,0:02:50.17,Default,,0,0,0,,{\i1}Mạnh thật!{\i0}
+Dialogue: 0,0:02:50.46,0:02:53.63,Default,,0,0,0,,{\i1}Đợt tấn công đến từ cùng một người sao?{\i0}
+Dialogue: 0,0:02:58.18,0:03:02.06,Default,,0,0,0,,Khiên của ta có thể làm chệch hướng\Nđạn thần công, nhưng hắn phá được nó?
+Dialogue: 0,0:03:03.18,0:03:06.48,Default,,0,0,0,,Không ai mặc áo giáp nặng thế\Nvà cầm cây kiếm to thế...
+Dialogue: 0,0:03:06.69,0:03:10.86,Default,,0,0,0,,Không, không người phàm nào\Ncó thể di chuyển như thế!
+Dialogue: 0,0:03:18.49,0:03:22.20,Default,,0,0,0,,{\i1}Hắn có súng thần công{\i0}\N{\i1}trong bàn tay nhân tạo sao?{\i0}
+Dialogue: 0,0:03:22.87,0:03:25.33,Default,,0,0,0,,Anh ấy vốn mạnh như quái vật,
+Dialogue: 0,0:03:25.62,0:03:28.50,Default,,0,0,0,,nhưng hôm nay có vẻ còn mạnh hơn\Nbình thường.
+Dialogue: 0,0:03:28.63,0:03:30.96,Default,,0,0,0,,Bàn tay nhân tạo đó là khẩu pháo à?
+Dialogue: 0,0:03:31.21,0:03:32.63,Default,,0,0,0,,Sợ thật đấy!
+Dialogue: 0,0:03:32.80,0:03:36.34,Default,,0,0,0,,Anh ấy cứ chiến đấu thế thì nguy hiểm lắm.
+Dialogue: 0,0:03:37.26,0:03:38.97,Default,,0,0,0,,Cậu đang nói gì thế?
+Dialogue: 0,0:03:39.47,0:03:42.51,Default,,0,0,0,,Vết thương của Guts vẫn chưa lành.
+Dialogue: 0,0:03:42.85,0:03:44.85,Default,,0,0,0,,Anh ấy chỉ không thấy đau thôi.
+Dialogue: 0,0:03:45.18,0:03:46.27,Default,,0,0,0,,Đau à?
+Dialogue: 0,0:03:47.60,0:03:50.52,Default,,0,0,0,,Thánh tích đó do người lùn rèn nên.
+Dialogue: 0,0:03:51.11,0:03:52.69,Default,,0,0,0,,Áo giáp của lính Berserk.
+Dialogue: 0,0:03:53.19,0:03:54.78,Default,,0,0,0,,Berserk...
+Dialogue: 0,0:03:54.90,0:03:56.20,Default,,0,0,0,,Áo giáp?
+Dialogue: 0,0:03:56.53,0:03:58.41,Default,,0,0,0,,Người mặc bộ giáp đó
+Dialogue: 0,0:03:58.53,0:04:02.08,Default,,0,0,0,,sẽ hòa mình với dòng khí lực khủng khiếp\Nbên trong,
+Dialogue: 0,0:04:02.33,0:04:03.95,Default,,0,0,0,,thành không thể ngăn được.
+Dialogue: 0,0:04:04.66,0:04:08.92,Default,,0,0,0,,Sự giận dữ bên trong mãnh liệt\Nkhiến anh ấy quên cả đau hay sợ.
+Dialogue: 0,0:04:09.88,0:04:12.88,Default,,0,0,0,,Con người vô thức giới hạn
+Dialogue: 0,0:04:13.00,0:04:15.84,Default,,0,0,0,,sức mạnh của họ để tự bảo vệ bản thân.
+Dialogue: 0,0:04:16.92,0:04:20.26,Default,,0,0,0,,Đau đớn là lời cảnh báo\Nđể cơ thể tránh bị hủy hoại.
+Dialogue: 0,0:04:21.14,0:04:25.47,Default,,0,0,0,,Không còn đau đớn, con người trở nên\Nmạnh mẽ và nhanh nhẹn khủng khiếp.
+Dialogue: 0,0:04:26.39,0:04:29.98,Default,,0,0,0,,Họ vượt qua giới hạn của cơ thể,\Ngây nguy hiểm đến tính mạng.
+Dialogue: 0,0:04:37.44,0:04:39.57,Default,,0,0,0,,Chuyện gì sẽ xảy ra với Guts?
+Dialogue: 0,0:04:40.53,0:04:41.41,Default,,0,0,0,,{\i1}Không...{\i0}
+Dialogue: 0,0:04:41.53,0:04:45.70,Default,,0,0,0,,{\i1}mình không đủ mạnh để vượt qua{\i0}\N{\i1}dòng lực vũ bão đó để nói với anh ấy.{\i0}
+Dialogue: 0,0:04:46.08,0:04:48.46,Default,,0,0,0,,Ấn tượng lắm, Kiếm sĩ Đen,
+Dialogue: 0,0:04:48.58,0:04:50.33,Default,,0,0,0,,kẻ thù của ta.
+Dialogue: 0,0:04:50.71,0:04:56.17,Default,,0,0,0,,Vậy đón đòn mạnh nhất của ta đây!
+Dialogue: 0,0:04:58.13,0:04:59.09,Default,,0,0,0,,Gì cơ?
+Dialogue: 0,0:05:07.64,0:05:08.68,Default,,0,0,0,,Anh ấy làm được!
+Dialogue: 0,0:05:09.27,0:05:10.14,Default,,0,0,0,,{\i1}Nhưng...{\i0}
+Dialogue: 0,0:05:14.73,0:05:16.15,Default,,0,0,0,,Hay lắm.
+Dialogue: 0,0:05:16.82,0:05:19.90,Default,,0,0,0,,Ngươi thắng trận tay đôi này.
+Dialogue: 0,0:05:20.20,0:05:22.20,Default,,0,0,0,,Tin đồn là thật.
+Dialogue: 0,0:05:22.28,0:05:24.99,Default,,0,0,0,,Không, ngươi còn giỏi hơn cả lời đồn.
+Dialogue: 0,0:05:26.33,0:05:27.33,Default,,0,0,0,,Tuy nhiên,
+Dialogue: 0,0:05:27.75,0:05:30.41,Default,,0,0,0,,giờ ta có việc phải làm cho xong.
+Dialogue: 0,0:05:30.83,0:05:32.75,Default,,0,0,0,,Vì chủ nhân của ta...
+Dialogue: 0,0:05:32.96,0:05:35.21,Default,,0,0,0,,Là một Tông đồ của Quang Điểu,
+Dialogue: 0,0:05:35.29,0:05:37.30,Default,,0,0,0,,ta sẽ kết liễu ngươi!
+Dialogue: 0,0:05:43.84,0:05:45.14,Default,,0,0,0,,Một con rồng!
+Dialogue: 0,0:05:45.51,0:05:49.43,Default,,0,0,0,,Là một Tông đồ, ta đã được ban sức mạnh,
+Dialogue: 0,0:05:49.98,0:05:52.60,Default,,0,0,0,,ta sẽ kết liễu Kiếm sĩ Đen!
+Dialogue: 0,0:05:55.36,0:05:56.36,Default,,0,0,0,,Hắn tấn công rồi.
+Dialogue: 0,0:05:56.44,0:05:57.44,Default,,0,0,0,,Khỉ thật...
+Dialogue: 0,0:05:57.52,0:05:59.32,Default,,0,0,0,,Không thể nào.
+Dialogue: 0,0:05:59.49,0:06:00.44,Default,,0,0,0,,Hắn chặn nó sao?
+Dialogue: 0,0:06:01.20,0:06:04.28,Default,,0,0,0,,Một con người chặn đòn tấn công\Ncủa một Tông đồ?
+Dialogue: 0,0:06:05.32,0:06:07.33,Default,,0,0,0,,Ta không chấp nhận!
+Dialogue: 0,0:06:15.38,0:06:20.96,Default,,0,0,0,,Da corundum của ta còn cứng hơn thép,\Nnhưng ngươi đập vỡ nó sao?
+Dialogue: 0,0:06:22.05,0:06:23.30,Default,,0,0,0,,Không thể nào được.
+Dialogue: 0,0:06:33.14,0:06:36.86,Default,,0,0,0,,Này, tay chân anh ấy\Nvừa chỉ hướng không nên chỉ kìa?
+Dialogue: 0,0:06:37.56,0:06:38.98,Default,,0,0,0,,Sức mạnh của bộ giáp.
+Dialogue: 0,0:06:39.69,0:06:42.61,Default,,0,0,0,,Bộ giáp sẽ chống đỡ\Ncho phần gãy của anh ấy.
+Dialogue: 0,0:06:43.32,0:06:45.74,Default,,0,0,0,,Bằng cách đâm vào thịt và cắm vào xương.
+Dialogue: 0,0:06:46.37,0:06:48.24,Default,,0,0,0,,Người cuối cùng mặc bộ giáp
+Dialogue: 0,0:06:48.33,0:06:51.20,Default,,0,0,0,,đã để áo thép đâm sâu vào người.
+Dialogue: 0,0:06:51.50,0:06:55.58,Default,,0,0,0,,Anh ta chiến đấu đến khi toàn bộ xương\Nvỡ vụn và máu chảy hết,
+Dialogue: 0,0:06:55.96,0:06:57.84,Default,,0,0,0,,cho đến lúc chết.
+Dialogue: 0,0:06:59.55,0:07:03.26,Default,,0,0,0,,Sao lại dùng thứ nguy hiểm vậy cho Guts\Nkhi anh ấy gần chết rồi!
+Dialogue: 0,0:07:03.34,0:07:07.14,Default,,0,0,0,,Hy sinh cho bạn bè\Nlà sự hy sinh cao cả mà!
+Dialogue: 0,0:07:08.60,0:07:09.68,Default,,0,0,0,,{\i1}Mình nên làm gì?{\i0}
+Dialogue: 0,0:07:09.76,0:07:11.85,Default,,0,0,0,,{\i1}Lại là lỗi của mình!{\i0}
+Dialogue: 0,0:07:13.18,0:07:14.94,Default,,0,0,0,,{\i1}Sư phụ ơi, tại sao?{\i0}
+Dialogue: 0,0:07:15.39,0:07:16.69,Default,,0,0,0,,{\i1}Sao lại thế?{\i0}
+Dialogue: 0,0:07:17.40,0:07:19.23,Default,,0,0,0,,{\i1}Cháu nên làm gì đây?{\i0}
+Dialogue: 0,0:07:20.11,0:07:21.82,Default,,0,0,0,,{\i1}Cháu phải lo thôi.{\i0}
+Dialogue: 0,0:07:22.36,0:07:25.78,Default,,0,0,0,,{\i1}Chỉ có cháu, một phù thủy,{\i0}\N{\i1}có thể làm được.{\i0}
+Dialogue: 0,0:07:26.32,0:07:27.49,Default,,0,0,0,,Sư phụ!
+Dialogue: 0,0:07:28.57,0:07:30.58,Default,,0,0,0,,Nhưng cháu không có kinh nghiệm.
+Dialogue: 0,0:07:31.29,0:07:33.50,Default,,0,0,0,,Trái tim cháu rối bời\Nvà phép thuật...
+Dialogue: 0,0:07:34.29,0:07:38.33,Default,,0,0,0,,{\i1}Chỉ khi cháu biết cháu thiếu kinh nghiệm,{\i0}
+Dialogue: 0,0:07:38.42,0:07:41.71,Default,,0,0,0,,{\i1}và đắm chìm trong quyền lực dễ ra sao,{\i0}\N{\i1}cháu mới làm được.{\i0}
+Dialogue: 0,0:07:42.55,0:07:45.72,Default,,0,0,0,,{\i1}Với người kiếm sĩ có dòng sức mạnh{\i0}\N{\i1}ở bên trong,{\i0}
+Dialogue: 0,0:07:46.01,0:07:48.39,Default,,0,0,0,,{\i1}cháu phải chỉ đường cho cậu ấy.{\i0}
+Dialogue: 0,0:07:49.76,0:07:51.35,Default,,0,0,0,,Này, cậu định làm gì vậy?
+Dialogue: 0,0:07:51.81,0:07:53.68,Default,,0,0,0,,Đưa anh Guts về.
+Dialogue: 0,0:07:54.14,0:07:56.39,Default,,0,0,0,,Xin hãy lo cho cơ thể tôi!
+Dialogue: 0,0:07:57.27,0:07:58.65,Default,,0,0,0,,{\i1}Cháu sẽ thử, sư phụ!{\i0}
+Dialogue: 0,0:07:58.73,0:08:00.56,Default,,0,0,0,,Lo hả? Này!
+Dialogue: 0,0:08:01.36,0:08:03.23,Default,,0,0,0,,{\i1}Cháu sẽ cứu anh ấy.{\i0}
+Dialogue: 0,0:08:04.74,0:08:06.40,Default,,0,0,0,,Ta không tin được.
+Dialogue: 0,0:08:06.82,0:08:10.32,Default,,0,0,0,,Ngươi chịu được hai đòn tấn công của ta\Ntrong dạng này.
+Dialogue: 0,0:08:10.82,0:08:13.24,Default,,0,0,0,,Thậm chí còn làm ta bị thương?
+Dialogue: 0,0:08:13.58,0:08:15.33,Default,,0,0,0,,Ngươi là gì?
+Dialogue: 0,0:08:15.41,0:08:17.00,Default,,0,0,0,,Thưa Hỏa Long.
+Dialogue: 0,0:08:17.41,0:08:19.42,Default,,0,0,0,,Cho chúng tôi tham gia với.
+Dialogue: 0,0:08:20.13,0:08:22.88,Default,,0,0,0,,Chúng tôi chưa được giết con phù thủy
+Dialogue: 0,0:08:23.00,0:08:25.80,Default,,0,0,0,,và giờ chẳng có gì để làm.
+Dialogue: 0,0:08:25.88,0:08:27.84,Default,,0,0,0,,Có vẻ ngài đang gặp khó khăn.
+Dialogue: 0,0:08:27.93,0:08:29.59,Default,,0,0,0,,Các ngươi...
+Dialogue: 0,0:08:29.68,0:08:30.84,Default,,0,0,0,,Thôi nào,
+Dialogue: 0,0:08:30.93,0:08:34.14,Default,,0,0,0,,nếu đánh nhau với danh nghĩa Tông đồ,\Nkhông phải tay đôi, chả phải...
+Dialogue: 0,0:08:36.43,0:08:39.27,Default,,0,0,0,,Không công bằng! Hắn đang biến hình!
+Dialogue: 0,0:08:42.19,0:08:43.86,Default,,0,0,0,,Đồ khốn!
+Dialogue: 0,0:08:44.44,0:08:47.74,Default,,0,0,0,,Cảm giác này...\Nchắc mình vỡ bốn hay năm cái sườn nhỉ?
+Dialogue: 0,0:08:56.25,0:08:59.62,Default,,0,0,0,,Anh ấy chiến đấu\Ncàng lúc càng ít giống người.
+Dialogue: 0,0:09:00.46,0:09:01.29,Default,,0,0,0,,{\i1}Người...{\i0}
+Dialogue: 0,0:09:02.33,0:09:04.59,Default,,0,0,0,,{\i1}Không, đó gần như là...{\i0}
+Dialogue: 0,0:09:07.30,0:09:10.26,Default,,0,0,0,,Ta thấy có gì đó ngon ở đây này.
+Dialogue: 0,0:09:12.43,0:09:15.64,Default,,0,0,0,,Nếu cần thì ta sẽ cõng Schierke chạy đi.
+Dialogue: 0,0:09:15.72,0:09:16.60,Default,,0,0,0,,Được!
+Dialogue: 0,0:09:16.85,0:09:18.10,Default,,0,0,0,,Schierke...
+Dialogue: 0,0:09:18.93,0:09:19.77,Default,,0,0,0,,{\i1}Đây...{\i0}
+Dialogue: 0,0:09:24.90,0:09:28.44,Default,,0,0,0,,Đây là dòng chảy thù hận\Nbên trong áo giáp.
+Dialogue: 0,0:09:29.44,0:09:30.61,Default,,0,0,0,,Mình đến kịp không?
+Dialogue: 0,0:09:31.07,0:09:35.37,Default,,0,0,0,,Cái tôi của bất kỳ người phàm nào\Ncũng vụn vỡ khi bị cái này nuốt chửng.
+Dialogue: 0,0:09:37.74,0:09:38.58,Default,,0,0,0,,Đây là...
+Dialogue: 0,0:09:44.63,0:09:49.17,Default,,0,0,0,,nỗi hận của Guts,\Nđược khí lực của bộ giáp tạo hình à?
+Dialogue: 0,0:09:50.22,0:09:51.63,Default,,0,0,0,,Guts có trong đó không?
+Dialogue: 0,0:09:55.22,0:09:56.93,Default,,0,0,0,,Mình làm được không?
+Dialogue: 0,0:09:57.68,0:10:01.35,Default,,0,0,0,,Mình có thể cứu anh ấy\Nkhỏi dòng chảy tệ hại này?
+Dialogue: 0,0:10:02.10,0:10:04.81,Default,,0,0,0,,Một lỗi nhỏ là mình bị kéo theo luôn.
+Dialogue: 0,0:10:09.99,0:10:11.49,Default,,0,0,0,,Giờ không phải lúc do dự!
+Dialogue: 0,0:10:19.58,0:10:21.00,Default,,0,0,0,,Bong bóng ánh sáng?
+Dialogue: 0,0:10:23.21,0:10:25.42,Default,,0,0,0,,{\i1}Những mảnh vỡ trong ký ức của Guts?{\i0}
+Dialogue: 0,0:10:30.55,0:10:32.42,Default,,0,0,0,,{\i1}Chúng như ánh đuốc.{\i0}
+Dialogue: 0,0:10:34.59,0:10:35.72,Default,,0,0,0,,{\i1}Bóng tối kéo đến!{\i0}
+Dialogue: 0,0:10:43.35,0:10:44.77,Default,,0,0,0,,{\i1}Gì thế? Mình sợ quá!{\i0}
+Dialogue: 0,0:10:45.19,0:10:46.44,Default,,0,0,0,,{\i1}Mình đang bị lôi vào!{\i0}
+Dialogue: 0,0:10:47.27,0:10:48.98,Default,,0,0,0,,{\i1}Sư phụ ơi!{\i0}
+Dialogue: 0,0:10:58.37,0:11:01.83,Default,,0,0,0,,{\i1}Đó là của sư phụ...{\i0}
+Dialogue: 0,0:11:15.05,0:11:17.93,Default,,0,0,0,,Hiểu rồi. Đó là bản ngã của Guts.
+Dialogue: 0,0:11:19.14,0:11:22.64,Default,,0,0,0,,Phép của sư phụ\Nđã ngăn không cho nó vỡ vụn.
+Dialogue: 0,0:11:25.81,0:11:28.02,Default,,0,0,0,,Không! Không được đầu hàng dòng chảy!
+Dialogue: 0,0:11:28.90,0:11:30.90,Default,,0,0,0,,{\i1}Đầu... hàng?{\i0}
+Dialogue: 0,0:11:31.69,0:11:32.53,Default,,0,0,0,,Đúng vậy.
+Dialogue: 0,0:11:32.78,0:11:34.86,Default,,0,0,0,,Anh sẽ không thể là chính mình nữa.
+Dialogue: 0,0:11:35.24,0:11:37.24,Default,,0,0,0,,Nơi này sẽ nuốt chửng anh!
+Dialogue: 0,0:11:38.28,0:11:40.28,Default,,0,0,0,,Hãy nhớ anh là ai!
+Dialogue: 0,0:11:41.20,0:11:43.20,Default,,0,0,0,,{\i1}Không quan trọng nữa.{\i0}
+Dialogue: 0,0:11:44.04,0:11:45.58,Default,,0,0,0,,{\i1}Giết. Tiêu diệt. Hủy diệt.{\i0}
+Dialogue: 0,0:11:46.83,0:11:48.83,Default,,0,0,0,,{\i1}Chém. Chiến đấu. Kẻ thù.{\i0}
+Dialogue: 0,0:11:49.29,0:11:51.29,Default,,0,0,0,,{\i1}Tông đồ. Kẻ thù. Bạn bè.{\i0}
+Dialogue: 0,0:11:51.67,0:11:52.67,Default,,0,0,0,,{\i1}Griffith...{\i0}
+Dialogue: 0,0:11:53.38,0:11:54.30,Default,,0,0,0,,{\i1}Nóng quá!{\i0}
+Dialogue: 0,0:11:55.55,0:11:56.97,Default,,0,0,0,,Có quan trọng chứ!
+Dialogue: 0,0:11:57.59,0:12:00.18,Default,,0,0,0,,Hãy nhớ lý do anh du hành.
+Dialogue: 0,0:12:00.80,0:12:02.72,Default,,0,0,0,,Lý do mà giờ anh đang chiến đấu!
+Dialogue: 0,0:12:03.89,0:12:05.68,Default,,0,0,0,,Một linh hồn người sẽ không để
+Dialogue: 0,0:12:05.77,0:12:09.44,Default,,0,0,0,,chính nó bị tổn thương\Nvì một thứ không đáng!
+Dialogue: 0,0:12:10.06,0:12:10.94,Default,,0,0,0,,{\i1}Du hành.{\i0}
+Dialogue: 0,0:12:11.15,0:12:12.11,Default,,0,0,0,,{\i1}Chiến đấu.{\i0}
+Dialogue: 0,0:12:12.57,0:12:13.44,Default,,0,0,0,,{\i1}Lý do.{\i0}
+Dialogue: 0,0:12:21.20,0:12:22.83,Default,,0,0,0,,{\i1}Là cái gì?{\i0}
+Dialogue: 0,0:12:27.62,0:12:29.79,Default,,0,0,0,,{\i1}Đây là ai?{\i0}
+Dialogue: 0,0:12:36.05,0:12:37.05,Default,,0,0,0,,{\i1}Mình biết cô ấy.{\i0}
+Dialogue: 0,0:12:39.59,0:12:42.10,Default,,0,0,0,,{\i1}Dừng. Đừng động vào cô ấy.{\i0}
+Dialogue: 0,0:12:43.26,0:12:44.22,Default,,0,0,0,,Hãy nhớ chị ấy!
+Dialogue: 0,0:12:44.51,0:12:46.10,Default,,0,0,0,,Chị ấy là Casca!
+Dialogue: 0,0:12:47.06,0:12:48.94,Default,,0,0,0,,{\i1}Casca...{\i0}
+Dialogue: 0,0:12:50.48,0:12:52.73,Default,,0,0,0,,Tên anh là Guts!
+Dialogue: 0,0:12:53.48,0:12:55.44,Default,,0,0,0,,Kiếm sĩ mang dấu ấn, Guts!
+Dialogue: 0,0:12:57.07,0:12:59.95,Default,,0,0,0,,Anh bảo vệ\Nngười phụ nữ mang dấu ấn, Casca!
+Dialogue: 0,0:13:04.79,0:13:07.20,Default,,0,0,0,,Nếm mùi hỏa nhiệt của ta đây!
+Dialogue: 0,0:13:12.42,0:13:13.34,Default,,0,0,0,,Cái gì?
+Dialogue: 0,0:13:20.80,0:13:22.39,Default,,0,0,0,,- Vô nhân đạo!\N- Guts!
+Dialogue: 0,0:13:22.68,0:13:24.10,Default,,0,0,0,,Không, Casca!
+Dialogue: 0,0:13:37.82,0:13:38.86,Default,,0,0,0,,Ngươi là ai?
+Dialogue: 0,0:13:48.41,0:13:49.25,Default,,0,0,0,,Guts...
+Dialogue: 0,0:13:49.96,0:13:50.96,Default,,0,0,0,,Thật kinh khủng!
+Dialogue: 0,0:14:00.55,0:14:02.18,Default,,0,0,0,,Ta không để ngươi chạy đâu!
+Dialogue: 0,0:14:03.30,0:14:04.64,Default,,0,0,0,,{\i1}Ổn cả rồi.{\i0}
+Dialogue: 0,0:14:09.06,0:14:10.18,Default,,0,0,0,,Đó là...
+Dialogue: 0,0:14:15.98,0:14:17.19,Default,,0,0,0,,Sư phụ!
+Dialogue: 0,0:14:23.99,0:14:24.91,Default,,0,0,0,,Bà ấy lớn quá!
+Dialogue: 0,0:14:24.99,0:14:25.99,Default,,0,0,0,,Và trẻ nữa.
+Dialogue: 0,0:14:27.03,0:14:29.79,Default,,0,0,0,,Cháu làm tốt lắm, Schierke.
+Dialogue: 0,0:14:31.12,0:14:32.16,Default,,0,0,0,,Đi đi.
+Dialogue: 0,0:14:32.66,0:14:35.17,Default,,0,0,0,,Khu rừng này không trụ được lâu đâu.
+Dialogue: 0,0:14:35.83,0:14:37.54,Default,,0,0,0,,Khi cây linh hồn ngã,
+Dialogue: 0,0:14:38.09,0:14:40.09,Default,,0,0,0,,vùng này sẽ biến mất.
+Dialogue: 0,0:14:41.42,0:14:44.51,Default,,0,0,0,,Không... Cháu không muốn...
+Dialogue: 0,0:14:45.76,0:14:50.02,Default,,0,0,0,,Đây là tầng trung, nơi thời gian trôi đi\Nvà rung rinh bởi mấy điều cũ kỹ.
+Dialogue: 0,0:14:50.31,0:14:53.98,Default,,0,0,0,,Cây này và ta đã sống quá lâu rồi.
+Dialogue: 0,0:14:54.64,0:14:57.19,Default,,0,0,0,,Dù ánh mặt trời có thú vị thế nào,
+Dialogue: 0,0:14:57.44,0:15:01.57,Default,,0,0,0,,người trẻ không thể ở đây mãi mãi được.
+Dialogue: 0,0:15:02.78,0:15:04.61,Default,,0,0,0,,Đã đến lúc rời tổ rồi.
+Dialogue: 0,0:15:05.82,0:15:10.87,Default,,0,0,0,,Hãy rời khỏi đây và tìm con đường\Ncủa riêng cháu, học trò thương mến.
+Dialogue: 0,0:15:11.83,0:15:14.87,Default,,0,0,0,,Ngày của ta với cháu tuy ngắn,
+Dialogue: 0,0:15:15.46,0:15:20.75,Default,,0,0,0,,nhưng trong cuộc đời dài đằng đẵng của ta,\Nđó là những ngày bình yên nhất.
+Dialogue: 0,0:15:21.76,0:15:22.63,Default,,0,0,0,,Cảm ơn cháu.
+Dialogue: 0,0:15:23.09,0:15:24.59,Default,,0,0,0,,Sư phụ ơi!
+Dialogue: 0,0:15:25.09,0:15:26.55,Default,,0,0,0,,Này, cô ngốc kia!
+Dialogue: 0,0:15:29.01,0:15:29.85,Default,,0,0,0,,Đi thôi!
+Dialogue: 0,0:15:30.64,0:15:32.64,Default,,0,0,0,,Đợi đã! Kiếm sĩ Đen!
+Dialogue: 0,0:15:33.93,0:15:36.19,Default,,0,0,0,,Ngọn lửa này là gì?
+Dialogue: 0,0:15:37.06,0:15:40.02,Default,,0,0,0,,Mà ngay cả ta, một con rồng lửa,\Nkhông thể xua đi?
+Dialogue: 0,0:15:40.44,0:15:43.74,Default,,0,0,0,,{\i1}Sự sống chỉ là chuyển sang{\i0}\N{\i1}dạng thức khác.{\i0}
+Dialogue: 0,0:15:44.24,0:15:47.03,Default,,0,0,0,,{\i1}Ta sẽ gặp lại nhau trong giấc mơ.{\i0}
+Dialogue: 0,0:15:48.24,0:15:52.29,Default,,0,0,0,,{\i1}Tùy vào cháu có nắm bắt lấy số phận{\i0}\N{\i1}ở trước mắt hay không.{\i0}
+Dialogue: 0,0:15:53.16,0:15:57.62,Default,,0,0,0,,{\i1}Chúc phúc cho hành trình mới của cháu,{\i0}\N{\i1}đứa trẻ ta yêu thương.{\i0}
+Dialogue: 0,0:16:00.13,0:16:03.25,Default,,0,0,0,,{\i1}Vĩnh biệt, ánh mặt trời của cháu.{\i0}
+Dialogue: 0,0:16:24.73,0:16:25.57,Default,,0,0,0,,Đó.
+Dialogue: 0,0:16:34.12,0:16:36.08,Default,,0,0,0,,Ngươi đi cùng đội kháng chiến à?
+Dialogue: 0,0:16:36.50,0:16:37.58,Default,,0,0,0,,Đúng vậy.
+Dialogue: 0,0:16:37.79,0:16:39.46,Default,,0,0,0,,Hân hạnh được gặp các vị.
+Dialogue: 0,0:16:40.63,0:16:44.84,Default,,0,0,0,,Tôi là Laban, Thủ lĩnh\Ncủa Hiệp sĩ Trung du Arklow.
+Dialogue: 0,0:16:46.21,0:16:47.30,Default,,0,0,0,,Ngài Laban.
+Dialogue: 0,0:16:47.88,0:16:51.09,Default,,0,0,0,,Thủ lĩnh đích thân gặp ta?
+Dialogue: 0,0:16:51.80,0:16:57.39,Default,,0,0,0,,Là một quân nhân, tôi ngưỡng mộ\Nnhững gì ông đã làm được cho đến bây giờ.
+Dialogue: 0,0:16:59.27,0:17:03.69,Default,,0,0,0,,Không, "quân kháng chiến"\Nchỉ là một cái tên.
+Dialogue: 0,0:17:04.40,0:17:08.86,Default,,0,0,0,,Bọn tôi chỉ có thể trốn dưới lòng đất,\Nnhư chuột chũi.
+Dialogue: 0,0:17:10.49,0:17:12.20,Default,,0,0,0,,Windham đã trở thành
+Dialogue: 0,0:17:12.45,0:17:16.24,Default,,0,0,0,,thành phố quỷ, như thể nó chưa từng\Nlà một phần của thế giới này.
+Dialogue: 0,0:17:16.87,0:17:18.87,Default,,0,0,0,,Ai chống lại đều bị giết.
+Dialogue: 0,0:17:19.25,0:17:22.58,Default,,0,0,0,,Những ai bị bắt, dù ở tầng lớp nào,
+Dialogue: 0,0:17:22.67,0:17:25.55,Default,,0,0,0,,đều bị đưa ra chiến trường\Nlàm nô lệ chiến tranh.
+Dialogue: 0,0:17:26.25,0:17:28.51,Default,,0,0,0,,Nhiều phụ nữ bị đưa đến lâu đài
+Dialogue: 0,0:17:28.67,0:17:32.72,Default,,0,0,0,,nơi họ bị hiến tế\Ncho các nghi thức Kushan kỳ lạ.
+Dialogue: 0,0:17:32.93,0:17:34.85,Default,,0,0,0,,Chưa biết họ sống chết ra sao.
+Dialogue: 0,0:17:35.10,0:17:38.73,Default,,0,0,0,,Chỉ còn trẻ em không giúp gì được\Nvà người già.
+Dialogue: 0,0:17:40.19,0:17:42.02,Default,,0,0,0,,Thật là tai họa.
+Dialogue: 0,0:17:42.65,0:17:45.61,Default,,0,0,0,,Nhưng cũng có một tin tốt.
+Dialogue: 0,0:17:46.86,0:17:48.99,Default,,0,0,0,,Công chúa Charlotte còn sống.
+Dialogue: 0,0:17:49.65,0:17:52.16,Default,,0,0,0,,Chúng tôi được biết cô ấy bị nhốt
+Dialogue: 0,0:17:52.24,0:17:54.49,Default,,0,0,0,,trên tầng cao nhất của Tháp Tái sinh.
+Dialogue: 0,0:17:55.83,0:17:57.41,Default,,0,0,0,,Có thật không?
+Dialogue: 0,0:17:57.54,0:17:58.58,Default,,0,0,0,,Chắc chắn rồi.
+Dialogue: 0,0:17:59.08,0:18:03.25,Default,,0,0,0,,Chúng tôi mất nhiều đồng đội\Nđể có được thông tin này.
+Dialogue: 0,0:18:03.83,0:18:05.46,Default,,0,0,0,,Nếu công chúa an toàn,
+Dialogue: 0,0:18:05.75,0:18:09.46,Default,,0,0,0,,nếu dòng máu hoàng tộc vẫn còn chảy,\Nta vẫn còn hi vọng!
+Dialogue: 0,0:18:09.92,0:18:13.84,Default,,0,0,0,,Ngài Laban, chúng tôi bị cô lập ở đây,\Nở thủ phủ.
+Dialogue: 0,0:18:14.26,0:18:17.76,Default,,0,0,0,,Chúng tôi biết rất ít\Nvề những gì đang xảy ra bên ngoài,
+Dialogue: 0,0:18:18.31,0:18:21.43,Default,,0,0,0,,tôi muốn hỏi về một tin đồn.
+Dialogue: 0,0:18:22.94,0:18:24.94,Default,,0,0,0,,Phi điểu ở đâu?
+Dialogue: 0,0:18:27.32,0:18:29.90,Default,,0,0,0,,- Cái gì?\N- Không... Là chúng!
+Dialogue: 0,0:18:34.70,0:18:36.12,Default,,0,0,0,,Đó... đó là...
+Dialogue: 0,0:18:36.91,0:18:38.37,Default,,0,0,0,,Ngài Laban, lối này!
+Dialogue: 0,0:18:42.04,0:18:43.87,Default,,0,0,0,,Quái vật đó là gì?
+Dialogue: 0,0:18:43.96,0:18:45.54,Default,,0,0,0,,Phép thuật Kushan.
+Dialogue: 0,0:18:46.21,0:18:52.55,Default,,0,0,0,,Kushan dùng phép thuật để ra lệnh\Ncho các sinh vật nửa người nửa thú!
+Dialogue: 0,0:18:57.85,0:18:59.26,Default,,0,0,0,,Không thể tin được.
+Dialogue: 0,0:18:59.85,0:19:02.60,Default,,0,0,0,,Dù tôi vừa tận mắt chứng kiến.
+Dialogue: 0,0:19:03.14,0:19:04.85,Default,,0,0,0,,Ta có chung cảm nhận đấy.
+Dialogue: 0,0:19:05.65,0:19:08.61,Default,,0,0,0,,Một lúc nào đó,\Nsương mù bao phủ thành phố.
+Dialogue: 0,0:19:08.90,0:19:11.61,Default,,0,0,0,,Và quái vật đến\Nnhư thể bị sương mù quyến rũ.
+Dialogue: 0,0:19:11.69,0:19:15.28,Default,,0,0,0,,Chúng bắt đầu phá hủy thành phố.
+Dialogue: 0,0:19:15.70,0:19:20.20,Default,,0,0,0,,Người dân sợ chúng và trốn trong nhà.
+Dialogue: 0,0:19:34.34,0:19:35.38,Default,,0,0,0,,Ta mắc bẫy rồi!
+Dialogue: 0,0:19:43.68,0:19:45.52,Default,,0,0,0,,Mũi tên à? Từ đâu ra vậy?
+Dialogue: 0,0:19:50.36,0:19:51.23,Default,,0,0,0,,Đó là...
+Dialogue: 0,0:20:03.91,0:20:05.62,Default,,0,0,0,,Người dân Windham,
+Dialogue: 0,0:20:05.96,0:20:07.87,Default,,0,0,0,,bây giờ hãy trốn và chờ đợi.
+Dialogue: 0,0:20:08.75,0:20:13.80,Default,,0,0,0,,Một cơn gió mạnh sẽ đến để thổi bay\Nkhí độc trong thành phố.
+Dialogue: 0,0:20:14.80,0:20:17.26,Default,,0,0,0,,Ông là ai?
+Dialogue: 0,0:20:18.09,0:20:21.26,Default,,0,0,0,,Ta đang làm nhiệm vụ và phải đi.
+Dialogue: 0,0:20:22.06,0:20:23.43,Default,,0,0,0,,Trốn và chuẩn bị,
+Dialogue: 0,0:20:24.10,0:20:26.56,Default,,0,0,0,,đón cơn bão mà phi điểu sẽ mang đến.
+Dialogue: 0,0:22:06.95,0:22:08.95,Default,,0,0,0,,Sóng lớn quá!
+Dialogue: 0,0:22:11.50,0:22:12.96,Default,,0,0,0,,Cậu ấy có vẻ vui ghê.
+Dialogue: 0,0:22:13.04,0:22:14.46,Default,,0,0,0,,Đúng là trẻ con.
+Dialogue: 0,0:22:14.54,0:22:16.71,Default,,0,0,0,,Chỉ là một vũng nước mà.
+Dialogue: 0,0:22:17.00,0:22:18.30,Default,,0,0,0,,Phải không Schierke?
+Dialogue: 0,0:22:31.60,0:22:32.48,Default,,0,0,0,,Cảm ơn anh.
+Dialogue: 0,0:22:40.53,0:22:41.40,Default,,0,0,0,,Guts...
+Dialogue: 0,0:22:42.49,0:22:44.86,Default,,0,0,0,,Ừm, anh ổn không?
+Dialogue: 0,0:22:47.78,0:22:50.83,Default,,0,0,0,,Cơ thể anh không mỏng manh đến thế đâu.
+Dialogue: 0,0:22:50.95,0:22:52.00,Default,,0,0,0,,Đừng lo.
+Dialogue: 0,0:22:54.04,0:22:54.87,Default,,0,0,0,,Nhưng,
+Dialogue: 0,0:22:55.12,0:22:57.29,Default,,0,0,0,,em vẫn nghĩ anh nên thay bộ giáp ra
+Dialogue: 0,0:22:57.63,0:23:00.55,Default,,0,0,0,,và nghỉ ngơi ít nhất bốn đến năm ngày.
+Dialogue: 0,0:23:00.63,0:23:03.42,Default,,0,0,0,,Anh đã hồi phục gần một tháng rồi.
+Dialogue: 0,0:23:03.59,0:23:05.68,Default,,0,0,0,,Ta không còn thời gian để lãng phí.
+Dialogue: 0,0:23:06.80,0:23:09.51,Default,,0,0,0,,Cơn đau không giảm nhiều\Nnhư khi anh chiến đấu,
+Dialogue: 0,0:23:09.64,0:23:12.35,Default,,0,0,0,,nhưng anh vẫn có thể du hành nhờ nó.
+Dialogue: 0,0:23:12.64,0:23:14.31,Default,,0,0,0,,Anh không nên mất cảnh giác.
+Dialogue: 0,0:23:14.39,0:23:15.77,Default,,0,0,0,,Áo giáp đó bị nguyền.
+Dialogue: 0,0:23:15.85,0:23:18.36,Default,,0,0,0,,Nếu vào trận,\Nanh có thể lại mất kiểm soát.
+Dialogue: 0,0:23:18.61,0:23:22.28,Default,,0,0,0,,Nếu có chuyện đó thì anh có cô phù thủy\Nđể trông cậy mà nhỉ?
+Dialogue: 0,0:23:25.74,0:23:27.57,Default,,0,0,0,,{\i1}Anh đúng là liều lĩnh.{\i0}
+Dialogue: 0,0:23:28.62,0:23:30.79,Default,,0,0,0,,{\i1}Nếu điều đó lại xảy ra...{\i0}
+Dialogue: 0,0:23:31.49,0:23:34.71,Default,,0,0,0,,{\i1}Không, ngay cả giờ,{\i0}\N{\i1}chẳng có gì đảm bảo anh ấy sẽ sống.{\i0}
+Dialogue: 0,0:23:36.00,0:23:37.29,Default,,0,0,0,,Đẹp quá.
+Dialogue: 0,0:23:43.63,0:23:45.30,Default,,0,0,0,,Cứ tưởng sẽ chẳng thấy nữa.
+Dialogue: 0,0:23:47.39,0:23:51.47,Default,,0,0,0,,Thanh thản ngắm nhìn hoàng hôn.
+Dialogue: 0,0:23:55.06,0:23:56.94,Default,,0,0,0,,CÒN TIẾP
+Dialogue: 0,0:23:57.06,0:24:00.90,Default,,0,0,0,,{\an8}GIỚI THIỆU TẬP SAU
+Dialogue: 0,0:24:02.73,0:24:04.44,Default,,0,0,0,,{\an8}...XỨ QUỶ TỬ
+Dialogue: 0,0:24:07.03,0:24:09.03,Default,,0,0,0,,{\an8}DẠY CHỊ PHÉP THUẬT NHÉ?
+Dialogue: 0,0:24:11.24,0:24:13.33,Default,,0,0,0,,{\an8}EM ĐANG ĐI HÀNH TRÌNH\NKHÔNG CÓ ĐƯỜNG VỀ.
+Dialogue: 0,0:24:15.50,0:24:17.50,Default,,0,0,0,,{\an8}GÌ ĐÓ ĐANG ĐẾN,\NẨN TRONG SƯƠNG MÙ.
+Dialogue: 0,0:24:19.63,0:24:21.50,Default,,0,0,0,,{\an8}ĐÂY LÀ CƠ HỘI\NĐỂ CƠ THỂ BÌNH THƯỜNG LẠI.
+Dialogue: 0,0:24:24.01,0:24:27.01,Default,,0,0,0,,TẬP SAU\NĐIỀM BÁO ĐƯỢC TIẾT LỘ

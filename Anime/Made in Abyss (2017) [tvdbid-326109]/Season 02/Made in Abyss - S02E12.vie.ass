@@ -1,0 +1,662 @@
+[Script Info]
+; This is an Advanced Sub Station Alpha v4+ script.
+Title:
+ScriptType: v4.00+
+PlayDepth: 0
+ScaledBorderAndShadow: Yes
+PlayResX: 1920
+PlayResY: 1080
+
+[V4+ Styles]
+Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
+Style: Default,Noto Sans,80.0,&H00FFFFFF,&H000000FF,&H00002208,&H00000000,-1,0,0,0,100,100,0,0,1,3.0,2.0,2,0,0,65,1
+
+[Events]
+Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
+Dialogue: 0,0:00:17.58,0:00:19.74,Default,,0,0,0,,Tới giờ làm việc rồi, tên lưu manh.
+Dialogue: 0,0:00:26.33,0:00:27.84,Default,,0,0,0,,Càn nát chúng!
+Dialogue: 0,0:00:36.30,0:00:39.26,Default,,0,0,0,,Sao ngươi phàm ăn dữ vậy hả!
+Dialogue: 0,0:00:46.65,0:00:48.15,Default,,0,0,0,,Không đủ!
+Dialogue: 0,0:00:48.15,0:00:50.48,Default,,0,0,0,,Cỡ này không đủ để ngăn lại
+Dialogue: 0,0:00:50.48,0:00:53.32,Default,,0,0,0,,cơn cuồng nhiệt của ta đâu!
+Dialogue: 0,0:00:56.07,0:00:57.37,Default,,0,0,0,,Cái gì thế kia?
+Dialogue: 0,0:00:57.70,0:01:00.03,Default,,0,0,0,,Máu của Faputa đang ăn bọn chúng?
+Dialogue: 0,0:01:00.03,0:01:03.04,Default,,0,0,0,,Lũ ngu xuẩn ấp ủ khát vọng.
+Dialogue: 0,0:01:03.33,0:01:05.87,Default,,0,0,0,,Faputa là kẻ nói thay tiếng lòng của mẹ,
+Dialogue: 0,0:01:05.87,0:01:06.87,Default,,0,0,0,,cũng là các ngươi.
+Dialogue: 0,0:01:07.38,0:01:09.13,Default,,0,0,0,,Kẻ xưa nay ngu xuẩn
+Dialogue: 0,0:01:09.63,0:01:11.13,Default,,0,0,0,,nhìn vào trong bóng tối,
+Dialogue: 0,0:01:11.13,0:01:13.84,Default,,0,0,0,,vào con đường mà ta phải bước.
+Dialogue: 0,0:01:14.26,0:01:17.14,Default,,0,0,0,,Vảy độc phát nổ bị tróc ra rồi!
+Dialogue: 0,0:01:18.26,0:01:20.93,Default,,0,0,0,,Faputa bằng lòng làm kẻ ngu xuẩn!
+Dialogue: 0,0:01:20.93,0:01:23.93,Default,,0,0,0,,Hoàn thành bổn phận, Faputa xông pha!
+Dialogue: 0,0:01:24.77,0:01:27.94,Default,,0,0,0,,Ngọn lửa này chính là Faputa bùng cháy!
+Dialogue: 0,0:01:30.19,0:01:32.11,Default,,0,0,0,,Nếu cản được
+Dialogue: 0,0:01:33.44,0:01:35.57,Default,,0,0,0,,thì cứ thử đi!
+Dialogue: 0,0:03:08.87,0:03:13.58,Default,,0,0,0,,(Vàng)
+Dialogue: 0,0:03:56.75,0:03:57.71,Default,,0,0,0,,C... cô...?
+Dialogue: 0,0:03:58.25,0:04:03.30,Default,,0,0,0,,Tôi biết hình dạng của cô thông qua\Ntin truyền từ những máy can thiệp kia.
+Dialogue: 0,0:04:05.60,0:04:07.81,Default,,0,0,0,,Tôi cũng là máy can thiệp.
+Dialogue: 0,0:04:07.81,0:04:10.52,Default,,0,0,0,,Cũng giống như những kẻ
+Dialogue: 0,0:04:10.52,0:04:12.52,Default,,0,0,0,,mà cô đã phá hoại.
+Dialogue: 0,0:04:12.52,0:04:16.61,Default,,0,0,0,,Nhưng tôi vốn đã bị phá hoại,\Nkhông còn cử động được.
+Dialogue: 0,0:04:16.61,0:04:20.44,Default,,0,0,0,,Mong cô không phá hoại tôi nhiều hơn...
+Dialogue: 0,0:04:21.19,0:04:24.36,Default,,0,0,0,,Cô không biết ngôn ngữ à?
+Dialogue: 0,0:04:24.95,0:04:26.74,Default,,0,0,0,,Cô đang làm gì?
+Dialogue: 0,0:04:26.74,0:04:28.45,Default,,0,0,0,,Hành động này...
+Dialogue: 0,0:04:29.54,0:04:32.25,Default,,0,0,0,,Đánh dấu bằng mùi sao?
+Dialogue: 0,0:04:33.25,0:04:34.29,Default,,0,0,0,,Sao thế?
+Dialogue: 0,0:04:36.13,0:04:37.67,Default,,0,0,0,,Nghỉ ngơi sao?
+Dialogue: 0,0:04:37.67,0:04:39.05,Default,,0,0,0,,Tại sao lại ở đây?
+Dialogue: 0,0:04:39.05,0:04:40.38,Default,,0,0,0,,Vì nhiệt độ?
+Dialogue: 0,0:04:40.38,0:04:41.96,Default,,0,0,0,,Vì độ ẩm?
+Dialogue: 0,0:04:42.47,0:04:45.97,Default,,0,0,0,,Vì tôi không có mùi như những kẻ kia sao?
+Dialogue: 0,0:04:45.97,0:04:48.35,Default,,0,0,0,,Đánh một giấc sao?
+Dialogue: 0,0:04:48.35,0:04:52.10,Default,,0,0,0,,Tôi thuộc địa bàn của cô rồi sao?
+Dialogue: 0,0:04:52.56,0:04:54.85,Default,,0,0,0,,Nếu vậy thì yên lòng.
+Dialogue: 0,0:04:55.44,0:04:59.98,Default,,0,0,0,,Tôi muốn nhìn, tiếp xúc, biết nhiều hơn về cô.
+Dialogue: 0,0:04:59.98,0:05:03.19,Default,,0,0,0,,Về dáng hình của cô, về sức mạnh của cô.
+Dialogue: 0,0:05:03.78,0:05:07.24,Default,,0,0,0,,Cô rốt cuộc là người như thế nào.
+Dialogue: 0,0:05:20.50,0:05:22.88,Default,,0,0,0,,Tìm thấy Kuu rồi nè. Ông có vui không?
+Dialogue: 0,0:05:25.17,0:05:26.88,Default,,0,0,0,,Tôi rất vui.
+Dialogue: 0,0:05:27.51,0:05:32.89,Default,,0,0,0,,Giờ tôi đang gọt giũa vật liệu cô tìm cho\Nđể lắp được vào cơ thể mình.
+Dialogue: 0,0:05:32.89,0:05:35.52,Default,,0,0,0,,Hay quá, hay quá đi.
+Dialogue: 0,0:05:35.52,0:05:37.19,Default,,0,0,0,,Cô không phải dạng tầm thường.
+Dialogue: 0,0:05:37.19,0:05:39.06,Default,,0,0,0,,Cơ thể biến hình
+Dialogue: 0,0:05:39.06,0:05:41.19,Default,,0,0,0,,cùng tốc độ tiếp thu tri thức đáng kể này
+Dialogue: 0,0:05:41.19,0:05:43.32,Default,,0,0,0,,hoàn toàn không có trong ghi chép.
+Dialogue: 0,0:05:43.32,0:05:45.32,Default,,0,0,0,,Cô rốt cuộc là ai?
+Dialogue: 0,0:05:45.32,0:05:47.15,Default,,0,0,0,,Không biết. Lằng nhằng.
+Dialogue: 0,0:05:47.45,0:05:49.74,Default,,0,0,0,,Điều duy nhất tôi biết là\Ncơn thịnh nộ dành cho chúng.
+Dialogue: 0,0:05:50.37,0:05:52.62,Default,,0,0,0,,Nhưng... phải rồi.
+Dialogue: 0,0:05:52.62,0:05:56.46,Default,,0,0,0,,Tôi biết được chuyện mới rồi.\NTrò chơi tìm giá trị này vui ghê.
+Dialogue: 0,0:05:56.46,0:05:59.79,Default,,0,0,0,,Càng góp nhặt lại thì ông lại càng hoàn thiện.
+Dialogue: 0,0:05:59.79,0:06:00.96,Default,,0,0,0,,Shii.
+Dialogue: 0,0:06:00.96,0:06:03.21,Default,,0,0,0,,Tập hợp nhiều Shii thành Kuu.
+Dialogue: 0,0:06:03.88,0:06:05.80,Default,,0,0,0,,Ông bảo còn mấy cái khác nữa mà ha?
+Dialogue: 0,0:06:05.80,0:06:08.43,Default,,0,0,0,,Dạy tôi thêm về tiếng của mẹ đi!
+Dialogue: 0,0:06:08.97,0:06:11.51,Default,,0,0,0,,Shii là giá trị đầu tiên.
+Dialogue: 0,0:06:11.51,0:06:15.56,Default,,0,0,0,,Còn có nghĩa là sự khởi đầu dục vọng,\Nhay điều ước vụn vặt.
+Dialogue: 0,0:06:16.14,0:06:20.02,Default,,0,0,0,,Kuu. Giá trị chồng chất,\Nhướng đến của dục vọng.
+Dialogue: 0,0:06:20.02,0:06:22.61,Default,,0,0,0,,Nghĩa là ước nguyện được tích lũy.
+Dialogue: 0,0:06:23.19,0:06:25.15,Default,,0,0,0,,Ngoài ra có Gutsu,
+Dialogue: 0,0:06:25.15,0:06:30.20,Default,,0,0,0,,Ước nguyện cô đọng, kết tinh của giá trị.\NNghĩa là sự thuần khiết.
+Dialogue: 0,0:06:30.62,0:06:31.82,Default,,0,0,0,,Mei.
+Dialogue: 0,0:06:31.82,0:06:35.24,Default,,0,0,0,,Giá trị không tưởng, sự giải phóng ước nguyện.
+Dialogue: 0,0:06:35.24,0:06:38.21,Default,,0,0,0,,Còn có nghĩa là thanh khiết hay hỗn độn.
+Dialogue: 0,0:06:39.58,0:06:40.63,Default,,0,0,0,,Haku.
+Dialogue: 0,0:06:40.63,0:06:43.13,Default,,0,0,0,,Đây là giá trị cao nhất.
+Dialogue: 0,0:06:43.79,0:06:45.59,Default,,0,0,0,,Biểu hình của ước nguyện.
+Dialogue: 0,0:06:45.59,0:06:48.01,Default,,0,0,0,,Nghĩa là hình dáng của linh hồn.
+Dialogue: 0,0:06:48.30,0:06:49.51,Default,,0,0,0,,Haku.
+Dialogue: 0,0:06:49.88,0:06:51.01,Default,,0,0,0,,Phải rồi.
+Dialogue: 0,0:06:51.01,0:06:53.97,Default,,0,0,0,,Họ còn gọi đây là "điều vô giá".
+Dialogue: 0,0:06:53.97,0:06:57.06,Default,,0,0,0,,Chắc hẳn họ cũng gọi cô bằng cái tên nào đó.
+Dialogue: 0,0:06:57.06,0:06:58.81,Default,,0,0,0,,Lằng nhằng, không biết.
+Dialogue: 0,0:06:59.27,0:07:01.65,Default,,0,0,0,,Mẹ đã đánh mất cả khả năng nói chuyện rồi.
+Dialogue: 0,0:07:01.94,0:07:04.48,Default,,0,0,0,,Chúng gọi tôi bằng cái tên nào, tôi cũng căm ghét.
+Dialogue: 0,0:07:04.69,0:07:06.23,Default,,0,0,0,,Không muốn biết.
+Dialogue: 0,0:07:06.23,0:07:08.61,Default,,0,0,0,,Nếu vậy thì, Faputa!
+Dialogue: 0,0:07:09.61,0:07:10.66,Default,,0,0,0,,Nói gì!?
+Dialogue: 0,0:07:10.66,0:07:14.37,Default,,0,0,0,,Không có sinh vật nào đáng sợ như cô.
+Dialogue: 0,0:07:14.37,0:07:16.62,Default,,0,0,0,,Cô cần một cái tên mới.
+Dialogue: 0,0:07:16.62,0:07:19.00,Default,,0,0,0,,Fau, người con gái đáng quý.
+Dialogue: 0,0:07:19.00,0:07:21.00,Default,,0,0,0,,Aputa, kẻ bất diệt.
+Dialogue: 0,0:07:21.00,0:07:22.75,Default,,0,0,0,,Nó biểu thị sự vĩnh cửu.
+Dialogue: 0,0:07:22.75,0:07:24.75,Default,,0,0,0,,Công chúa trường tồn bất diệt.
+Dialogue: 0,0:07:24.75,0:07:25.75,Default,,0,0,0,,Faputa.
+Dialogue: 0,0:07:26.96,0:07:28.30,Default,,0,0,0,,Faputa.
+Dialogue: 0,0:07:29.63,0:07:32.55,Default,,0,0,0,,Faputa ưng cái tên Faputa đó.
+Dialogue: 0,0:07:32.55,0:07:34.10,Default,,0,0,0,,Vậy thì ông là...
+Dialogue: 0,0:07:34.10,0:07:35.68,Default,,0,0,0,,Tôi là máy can...
+Dialogue: 0,0:07:35.68,0:07:37.81,Default,,0,0,0,,Không, ông là Gaburoon!
+Dialogue: 0,0:07:39.39,0:07:42.65,Default,,0,0,0,,Trong tiếng của mẹ nghĩa là\N"hộ vệ của nữ vương" đúng không nào?
+Dialogue: 0,0:07:42.65,0:07:43.98,Default,,0,0,0,,Phải, nhưng...
+Dialogue: 0,0:07:43.98,0:07:44.90,Default,,0,0,0,,Không thích hả?
+Dialogue: 0,0:07:44.90,0:07:46.69,Default,,0,0,0,,Chỉ là có chút nghi vấn.
+Dialogue: 0,0:07:46.69,0:07:50.53,Default,,0,0,0,,Một hộ vệ mong manh dễ vỡ hơn công chúa,\Nliệu có thể không?
+Dialogue: 0,0:07:50.53,0:07:51.57,Default,,0,0,0,,Ừ!
+Dialogue: 0,0:07:51.57,0:07:53.82,Default,,0,0,0,,Ông bảo vệ tôi nào giờ rồi.
+Dialogue: 0,0:07:56.62,0:07:59.83,Default,,0,0,0,,Nào, ta đi tìm giá trị kế tiếp thôi!
+Dialogue: 0,0:08:16.14,0:08:19.68,Default,,0,0,0,,Reg, tại sao cậu không gọi Faputa?
+Dialogue: 0,0:08:21.81,0:08:24.73,Default,,0,0,0,,Cậu có đúng là Reg không?
+Dialogue: 0,0:08:26.52,0:08:28.52,Default,,0,0,0,,Đây là đứa con loài người.
+Dialogue: 0,0:08:28.52,0:08:30.82,Default,,0,0,0,,Haku của Reg?
+Dialogue: 0,0:08:30.82,0:08:33.78,Default,,0,0,0,,Trông thì nó rất giống mẹ...
+Dialogue: 0,0:08:34.36,0:08:35.95,Default,,0,0,0,,Nhưng có gì khang khác.
+Dialogue: 0,0:08:35.95,0:08:37.20,Default,,0,0,0,,Nó...
+Dialogue: 0,0:08:37.20,0:08:40.58,Default,,0,0,0,,Linh hồn của nó đến từ đâu vậy?
+Dialogue: 0,0:08:50.09,0:08:52.09,Default,,0,0,0,,Đứa con Hate này thì...
+Dialogue: 0,0:08:57.43,0:09:00.43,Default,,0,0,0,,Thơm... thơm nức mũi luôn!
+Dialogue: 0,0:09:01.47,0:09:04.02,Default,,0,0,0,,Reg dẫn chúng theo để làm chuyện ấy ư?
+Dialogue: 0,0:09:04.48,0:09:08.27,Default,,0,0,0,,Reg, cậu đã có Faputa vậy mà...
+Dialogue: 0,0:09:10.86,0:09:13.61,Default,,0,0,0,,Nếu đây là Haku
+Dialogue: 0,0:09:13.61,0:09:16.11,Default,,0,0,0,,vậy thì đây là Shii à?
+Dialogue: 0,0:09:16.95,0:09:19.78,Default,,0,0,0,,Mông Faputa cũng thơm lắm chứ bộ.
+Dialogue: 0,0:09:26.58,0:09:30.63,Default,,0,0,0,,Kẻ đá này không thể lên tiếng\Ntrong hình dáng hiện giờ.
+Dialogue: 0,0:09:31.21,0:09:32.46,Default,,0,0,0,,Đừng hoảng sợ.
+Dialogue: 0,0:09:32.46,0:09:36.13,Default,,0,0,0,,Ngươi có sứ mệnh phải tự giải phóng bản thân mình.
+Dialogue: 0,0:09:36.59,0:09:39.26,Default,,0,0,0,,Người có sứ mệnh của người.\NĐá có sứ mệnh của đá.
+Dialogue: 0,0:09:39.26,0:09:41.72,Default,,0,0,0,,Mỗi cá nhân đều có sứ mệnh riêng của mình.
+Dialogue: 0,0:09:43.35,0:09:46.64,Default,,0,0,0,,Một kẻ trong làng có khả năng "hóa trang".
+Dialogue: 0,0:09:46.64,0:09:48.23,Default,,0,0,0,,Tay nghề hắn đã được xác nhận.
+Dialogue: 0,0:09:48.23,0:09:49.94,Default,,0,0,0,,Ghét thật chứ
+Dialogue: 0,0:09:49.94,0:09:52.27,Default,,0,0,0,,nhưng không còn cách nào khác.
+Dialogue: 0,0:09:52.27,0:09:55.15,Default,,0,0,0,,Kẻ đá hiền dịu đang không thể nói lên thành lời.
+Dialogue: 0,0:09:55.65,0:09:56.95,Default,,0,0,0,,Nên nhờ ông đấy.
+Dialogue: 0,0:09:57.36,0:09:58.66,Default,,0,0,0,,Tôi đã nhận.
+Dialogue: 0,0:09:58.66,0:10:01.49,Default,,0,0,0,,Tôi sẽ trở về trước khi họ kịp mở lời.
+Dialogue: 0,0:10:01.49,0:10:05.79,Default,,0,0,0,,Với lại Reg chắc chắn sẽ nhớ ra tôi\Nngay khi nhìn thấy mẹ.
+Dialogue: 0,0:10:05.79,0:10:07.96,Default,,0,0,0,,Những sợi lông tóc ấy là gì?
+Dialogue: 0,0:10:08.37,0:10:10.96,Default,,0,0,0,,Hai đứa đi với Reg mỏng manh lắm.
+Dialogue: 0,0:10:11.29,0:10:14.88,Default,,0,0,0,,Tôi sẽ trộn đống này với lông của cú hãi\Nlàm thành bùa đuổi thú.
+Dialogue: 0,0:10:18.68,0:10:19.80,Default,,0,0,0,,Gì đấy?
+Dialogue: 0,0:10:20.59,0:10:23.51,Default,,0,0,0,,Tại sao cô không trực tiếp đi\Nnói chuyện với nhóm Reg?
+Dialogue: 0,0:10:27.14,0:10:31.90,Default,,0,0,0,,Có cô dẫn đường thì đâu cần phải\Ndùng đến ngón nghề này?
+Dialogue: 0,0:10:32.40,0:10:34.15,Default,,0,0,0,,Nhiều mắt lắm.
+Dialogue: 0,0:10:34.15,0:10:35.82,Default,,0,0,0,,Không thích đâu.
+Dialogue: 0,0:10:37.53,0:10:41.07,Default,,0,0,0,,Tôi lo không biết cô có làm được không đây.
+Dialogue: 0,0:10:43.33,0:10:44.79,Default,,0,0,0,,Nhiều chuyện!
+Dialogue: 0,0:11:19.07,0:11:20.49,Default,,0,0,0,,Tỉnh rồi à?
+Dialogue: 0,0:11:23.12,0:11:25.70,Default,,0,0,0,,Rung lắc vậy. Đây là đâu?
+Dialogue: 0,0:11:26.62,0:11:29.12,Default,,0,0,0,,Đây là trên người của Majikaja.
+Dialogue: 0,0:11:29.12,0:11:31.54,Default,,0,0,0,,Mojaribo đã chậm trễ.
+Dialogue: 0,0:11:31.54,0:11:33.92,Default,,0,0,0,,Cám ơn ông Majikaja.
+Dialogue: 0,0:11:33.92,0:11:35.50,Default,,0,0,0,,Nanachi đâu?
+Dialogue: 0,0:11:35.79,0:11:37.50,Default,,0,0,0,,Reg nữa, ta bỏ họ lại rồi ư?
+Dialogue: 0,0:11:38.46,0:11:39.88,Default,,0,0,0,,Nhìn lại đi.
+Dialogue: 0,0:11:45.93,0:11:49.22,Default,,0,0,0,,Xin lỗi nhé, thật sự mất mặt quá chừng.
+Dialogue: 0,0:11:49.22,0:11:52.31,Default,,0,0,0,,Tớ mới phải xin lỗi đã đẩy các cậu vào nguy hiểm.
+Dialogue: 0,0:11:52.31,0:11:55.36,Default,,0,0,0,,Tớ cũng không thể ngăn Faputa lại.
+Dialogue: 0,0:11:55.36,0:11:56.61,Default,,0,0,0,,Thật vô dụng mà.
+Dialogue: 0,0:11:56.61,0:11:59.07,Default,,0,0,0,,Cần gì phải phiền lòng đến thế.
+Dialogue: 0,0:11:59.07,0:12:01.28,Default,,0,0,0,,Nhưng mọi người và cả ngôi làng...
+Dialogue: 0,0:12:01.28,0:12:05.95,Default,,0,0,0,,Chúng tôi chẳng bao giờ\Nđổ lỗi cho ba đứa trẻ con đâu.
+Dialogue: 0,0:12:06.20,0:12:08.62,Default,,0,0,0,,Giờ đây chúng tôi biết về\Nsự tích hình thành Ilblu.
+Dialogue: 0,0:12:09.20,0:12:11.62,Default,,0,0,0,,Thậm chí nghe được cả giọng nói của Faputa.
+Dialogue: 0,0:12:11.62,0:12:15.75,Default,,0,0,0,,Ngày xửa ngày xưa,\Nmột cô bé đã chìm vào ác mộng.
+Dialogue: 0,0:12:15.75,0:12:19.96,Default,,0,0,0,,Đứa con gái út của cô ta muốn\Nđánh thức mẹ mình khỏi cơn mộng dài.
+Dialogue: 0,0:12:19.96,0:12:21.51,Default,,0,0,0,,Và cuối cùng nó đã đến, thế thôi.
+Dialogue: 0,0:12:21.51,0:12:25.18,Default,,0,0,0,,Kaja vốn biết ngày này rồi cũng sẽ tới.
+Dialogue: 0,0:12:25.18,0:12:28.35,Default,,0,0,0,,Myskeso và Gaume cũng nói vậy.
+Dialogue: 0,0:12:28.35,0:12:32.81,Default,,0,0,0,,Có rượu vào người thì đám người này\Ntự dưng nói chuyện nghiêm túc phát sợ.
+Dialogue: 0,0:12:33.02,0:12:36.02,Default,,0,0,0,,Rằng là bản thân từng phấn đấu\Ncho chuyến thám hiểm không tưởng
+Dialogue: 0,0:12:36.31,0:12:39.73,Default,,0,0,0,,vậy mà đó giờ lại làm\Ncái gì vậy không biết, vân vân...
+Dialogue: 0,0:12:41.19,0:12:43.15,Default,,0,0,0,,Dù sao nếu muốn biết chi tiết
+Dialogue: 0,0:12:43.15,0:12:46.91,Default,,0,0,0,,mấy đứa nên hỏi chính tay đầu sỏ\Nđã gây ra mọi chuyện chứ nhỉ?
+Dialogue: 0,0:12:55.54,0:12:58.79,Default,,0,0,0,,Chào! Mọi người đến cả rồi à?
+Dialogue: 0,0:12:59.29,0:13:01.55,Default,,0,0,0,,Tốt quá, tốt quá!
+Dialogue: 0,0:13:01.55,0:13:03.55,Default,,0,0,0,,Thứ lỗi vì đang thế này nhé.
+Dialogue: 0,0:13:03.84,0:13:07.43,Default,,0,0,0,,Ây da, chán thiệt chứ.\NGiờ ta rỗng tuếch luôn rồi.
+Dialogue: 0,0:13:07.68,0:13:11.31,Default,,0,0,0,,Mà Moogie nè, nói gì kì ghê, đầu sỏ gì chứ~
+Dialogue: 0,0:13:12.10,0:13:14.02,Default,,0,0,0,,Đây là kết quả mà tất cả mọi người
+Dialogue: 0,0:13:14.02,0:13:16.81,Default,,0,0,0,,đã tự mình nghĩ, tự mình hành động,
+Dialogue: 0,0:13:16.81,0:13:19.65,Default,,0,0,0,,tích lũy lại rồi xảy ra, vậy mới phải chứ?
+Dialogue: 0,0:13:19.94,0:13:21.57,Default,,0,0,0,,Đúng là như vậy
+Dialogue: 0,0:13:21.57,0:13:23.99,Default,,0,0,0,,nhưng cách ông ta nói làm mình phát bực.
+Dialogue: 0,0:13:23.99,0:13:25.28,Default,,0,0,0,,Riko.
+Dialogue: 0,0:13:25.57,0:13:27.61,Default,,0,0,0,,Ta có chuyện muốn hỏi nè.
+Dialogue: 0,0:13:28.24,0:13:30.12,Default,,0,0,0,,Nhóc có nghĩ thật may mắn\Nđã đến đây không?
+Dialogue: 0,0:13:32.75,0:13:34.37,Default,,0,0,0,,Cực kỳ may mắn ạ!
+Dialogue: 0,0:13:36.92,0:13:41.63,Default,,0,0,0,,Nếu tôi cứ thảnh thơi sống trên mặt đất mà\Nkhông đặt mục tiêu xuống dưới đáy vực
+Dialogue: 0,0:13:41.63,0:13:43.63,Default,,0,0,0,,thì chắc chắn đã không biết những điều này.
+Dialogue: 0,0:13:43.92,0:13:47.51,Default,,0,0,0,,Rằng tại Tuyệt giới đầy ắp lời nguyền\Nlại có một nơi như thế này.
+Dialogue: 0,0:13:47.89,0:13:50.47,Default,,0,0,0,,Rằng nơi đây có những người\Ntuyệt vời đến thế này.
+Dialogue: 0,0:13:50.76,0:13:53.93,Default,,0,0,0,,Nên tôi cảm thấy thật sự may mắn\Nvì đã đến được đây.
+Dialogue: 0,0:13:54.81,0:13:55.93,Default,,0,0,0,,Ừm.
+Dialogue: 0,0:13:55.93,0:13:57.44,Default,,0,0,0,,Ông Wazukyan này.
+Dialogue: 0,0:13:57.44,0:13:58.35,Default,,0,0,0,,Hửm?
+Dialogue: 0,0:13:58.81,0:14:02.35,Default,,0,0,0,,Thật ra một thời gian trước\Ntôi có giữ La bàn ngôi sao.
+Dialogue: 0,0:14:02.35,0:14:05.40,Default,,0,0,0,,Thiệt hả? Cái này bất ngờ thiệt nghen!
+Dialogue: 0,0:14:05.40,0:14:06.95,Default,,0,0,0,,Tuy tôi đã lỡ đánh mất nó
+Dialogue: 0,0:14:07.53,0:14:11.58,Default,,0,0,0,,nhưng người nhặt được nó nhất định cũng sẽ\Nkhởi hành chuyến thám hiểm của mình
+Dialogue: 0,0:14:11.58,0:14:13.54,Default,,0,0,0,,và nghĩ rằng thật may mắn đã đến đây.
+Dialogue: 0,0:14:13.54,0:14:14.54,Default,,0,0,0,,Chẳng phải rất hay sao?
+Dialogue: 0,0:14:15.00,0:14:17.71,Default,,0,0,0,,Ta không còn nhìn thấy được đến đó
+Dialogue: 0,0:14:18.17,0:14:19.54,Default,,0,0,0,,nhưng hay thật đấy, rất hay.
+Dialogue: 0,0:14:20.13,0:14:22.21,Default,,0,0,0,,Wazukyan.
+Dialogue: 0,0:14:22.21,0:14:24.30,Default,,0,0,0,,Ông tính làm gì vậy hả?
+Dialogue: 0,0:14:24.30,0:14:25.51,Default,,0,0,0,,Nanachi!
+Dialogue: 0,0:14:25.51,0:14:27.84,Default,,0,0,0,,Giờ nhóc đã có được ý chí của Belaf rồi ha?
+Dialogue: 0,0:14:27.84,0:14:30.26,Default,,0,0,0,,Mùi hương của nhóc đã được\Ntôi luyện thơm hơn trước.
+Dialogue: 0,0:14:31.35,0:14:36.02,Default,,0,0,0,,Chúng ta từng muốn trở thành sự tồn tại\Nvượt trên cả con người.
+Dialogue: 0,0:14:37.10,0:14:41.19,Default,,0,0,0,,Bởi chỉ những kẻ đứng trên loài người\Nmới có thể vạch trần vực thẳm này.
+Dialogue: 0,0:14:41.52,0:14:45.03,Default,,0,0,0,,Tức là ta muốn trở thành Narehate\Nvới tư cách cư dân của Địa Ngục,
+Dialogue: 0,0:14:45.40,0:14:47.78,Default,,0,0,0,,được ban phước lành, nắm được sức mạnh,
+Dialogue: 0,0:14:48.45,0:14:51.37,Default,,0,0,0,,sở hữu thân thể có khả năng đánh bại lời nguyền.
+Dialogue: 0,0:14:53.28,0:14:55.08,Default,,0,0,0,,Nhưng tất cả đều không phải.
+Dialogue: 0,0:14:55.08,0:14:56.70,Default,,0,0,0,,Tất cả đều không phải ư?
+Dialogue: 0,0:14:57.08,0:14:58.91,Default,,0,0,0,,Chỉ sự tích lũy.
+Dialogue: 0,0:14:59.37,0:15:01.54,Default,,0,0,0,,Chỉ có sự tích lũy những điều này
+Dialogue: 0,0:15:01.83,0:15:04.13,Default,,0,0,0,,mới khiến con người vượt trên con người.
+Dialogue: 0,0:15:05.84,0:15:09.01,Default,,0,0,0,,Thứ sức mạnh được tích lũy\Nsau bao nhiêu tháng ngày đằng đẵng
+Dialogue: 0,0:15:09.01,0:15:11.01,Default,,0,0,0,,ăn nằm cùng với Địa Ngục.
+Dialogue: 0,0:15:11.97,0:15:15.01,Default,,0,0,0,,Lòng hiếu kỳ và thuần túy\Nmột lòng truy cầu điểm kết.
+Dialogue: 0,0:15:15.47,0:15:17.60,Default,,0,0,0,,Những đứa trẻ được dẫn lối đến đây.
+Dialogue: 0,0:15:17.60,0:15:20.02,Default,,0,0,0,,Chỉ lớp trầm tích đã được\Nhòa trộn và bồi đắp ấy mới có thể.
+Dialogue: 0,0:15:20.98,0:15:21.69,Default,,0,0,0,,Lúc này...
+Dialogue: 0,0:15:22.44,0:15:24.86,Default,,0,0,0,,người đang đứng ở chóp đỉnh ấy là các cô cậu
+Dialogue: 0,0:15:25.57,0:15:26.44,Default,,0,0,0,,và...
+Dialogue: 0,0:15:27.44,0:15:30.32,Default,,0,0,0,,Faputa, người đang muốn\Nđịnh đoạt con đường tiến bước.
+Dialogue: 0,0:15:30.90,0:15:34.66,Default,,0,0,0,,Cho nên điều duy nhất ta muốn làm lúc này
+Dialogue: 0,0:15:34.91,0:15:36.91,Default,,0,0,0,,chỉ là nói điều này với mấy đứa.
+Dialogue: 0,0:15:37.33,0:15:39.83,Default,,0,0,0,,Xin hãy chăm sóc đứa trẻ ấy.
+Dialogue: 0,0:15:40.33,0:15:41.17,Default,,0,0,0,,Chết tiệt.
+Dialogue: 0,0:15:41.54,0:15:43.17,Default,,0,0,0,,Giờ này chẳng cần ông phải nhắc đâu.
+Dialogue: 0,0:15:43.54,0:15:44.96,Default,,0,0,0,,Nỗi nhớ cố hương...
+Dialogue: 0,0:15:46.42,0:15:50.34,Default,,0,0,0,,Những đứa con của Địa Ngục ôm ấp\Nnỗi nhớ cố hương ở phía trước cuộc hành trình.
+Dialogue: 0,0:15:51.30,0:15:53.93,Default,,0,0,0,,Thứ còn đáng sợ hơn cả việc\Nmơ ước không thành
+Dialogue: 0,0:15:54.43,0:15:56.26,Default,,0,0,0,,sẽ chờ mấy đứa trên con đường bằng vàng ấy.
+Dialogue: 0,0:15:56.81,0:16:00.52,Default,,0,0,0,,Chí ít hãy hoàn thành mơ ước\Nrồi hẵng chìm vào tuyệt vọng.
+Dialogue: 0,0:16:01.94,0:16:02.85,Default,,0,0,0,,Hứm!
+Dialogue: 0,0:16:03.40,0:16:06.06,Default,,0,0,0,,Mọi chuyện chắc sẽ không diễn ra như ông nói đâu.
+Dialogue: 0,0:16:06.61,0:16:08.44,Default,,0,0,0,,Vậy thì hay~
+Dialogue: 0,0:16:15.53,0:16:16.62,Default,,0,0,0,,Belaf này.
+Dialogue: 0,0:16:16.62,0:16:20.75,Default,,0,0,0,,ông ta đã nhìn thấy kết cục xa đến đâu nhỉ?
+Dialogue: 0,0:16:25.92,0:16:27.25,Default,,0,0,0,,Giọng nói này là...
+Dialogue: 0,0:16:27.25,0:16:28.30,Default,,0,0,0,,Faputa!
+Dialogue: 0,0:16:31.34,0:16:32.63,Default,,0,0,0,,Ông Majikaja?
+Dialogue: 0,0:16:32.63,0:16:34.22,Default,,0,0,0,,Mingonu.
+Dialogue: 0,0:16:40.43,0:16:42.77,Default,,0,0,0,,Riko, xin lỗi nhé.
+Dialogue: 0,0:16:42.77,0:16:44.73,Default,,0,0,0,,Chúng tôi phải đi rồi.
+Dialogue: 0,0:16:45.02,0:16:47.81,Default,,0,0,0,,Ơ? Đi liệu có ổn không?
+Dialogue: 0,0:16:48.32,0:16:51.90,Default,,0,0,0,,Đây là lần đầu tiên công chúa kêu gọi chúng tôi.
+Dialogue: 0,0:16:52.65,0:16:55.70,Default,,0,0,0,,Giọng nói từng bảo rằng sẽ\Ntiêu diệt tất cả chúng tôi ấy
+Dialogue: 0,0:16:55.70,0:16:58.78,Default,,0,0,0,,giờ đây chỉ đơn thuần triệu gọi chúng tôi lại.
+Dialogue: 0,0:16:58.78,0:17:00.91,Default,,0,0,0,,Nếu không đi, e rằng tôi sẽ phải hối hận.
+Dialogue: 0,0:17:01.29,0:17:05.29,Default,,0,0,0,,Hơn nữa, chúng tôi cũng từng là\Nnhững kẻ ngốc thách thức vực thẳm.
+Dialogue: 0,0:17:05.29,0:17:07.71,Default,,0,0,0,,Thành thử chúng tôi nên tự mình\Nchọn lấy cách kết thúc.
+Dialogue: 0,0:17:08.13,0:17:10.30,Default,,0,0,0,,Vậy mấy đứa định thế nào?
+Dialogue: 0,0:17:10.30,0:17:13.22,Default,,0,0,0,,Ngoài kia đang sụp đổ,\Nlại đầy rẫy quái thú hung dữ.
+Dialogue: 0,0:17:13.22,0:17:16.72,Default,,0,0,0,,Trường lực mà len lỏi vào đây,\Nsợ là ta sẽ không thể đi đâu được nữa.
+Dialogue: 0,0:17:16.72,0:17:17.51,Default,,0,0,0,,Đi thôi!
+Dialogue: 0,0:17:17.51,0:17:18.89,Default,,0,0,0,,Phải đấy!
+Dialogue: 0,0:17:18.89,0:17:21.31,Default,,0,0,0,,Lúc này bốn bề đều là nguy hiểm,
+Dialogue: 0,0:17:21.31,0:17:23.02,Default,,0,0,0,,phải hết sức thận trọng đó.
+Dialogue: 0,0:17:23.02,0:17:23.89,Default,,0,0,0,,Ừ!
+Dialogue: 0,0:17:26.02,0:17:28.02,Default,,0,0,0,,Xin lỗi nhé, chủ quán trọ.
+Dialogue: 0,0:17:29.23,0:17:30.73,Default,,0,0,0,,Đó là bà Mepopohon.
+Dialogue: 0,0:17:30.73,0:17:33.65,Default,,0,0,0,,Mepopohon, cảm ơn đã trông coi\Nhành lý của bọn tôi.
+Dialogue: 0,0:17:33.94,0:17:36.41,Default,,0,0,0,,(Không cần tiền trọ còn thừa nữa, đúng không?)
+Dialogue: 0,0:17:36.41,0:17:37.32,Default,,0,0,0,,Ừm.
+Dialogue: 0,0:17:37.32,0:17:39.83,Default,,0,0,0,,(Thế nên tôi đã thay bằng việc khác)
+Dialogue: 0,0:17:39.83,0:17:40.87,Default,,0,0,0,,Ừm,
+Dialogue: 0,0:17:40.87,0:17:43.25,Default,,0,0,0,,tuy không hiểu bà ấy nói gì
+Dialogue: 0,0:17:43.70,0:17:44.96,Default,,0,0,0,,nhưng dễ thương ghê.
+Dialogue: 0,0:17:44.96,0:17:46.87,Default,,0,0,0,,Mọi người trèo lên Kaja!
+Dialogue: 0,0:17:46.87,0:17:49.17,Default,,0,0,0,,Pakkoyan bảo phải khẩn trương.
+Dialogue: 0,0:17:49.17,0:17:50.21,Default,,0,0,0,,Pakkoyan?
+Dialogue: 0,0:17:50.21,0:17:53.38,Default,,0,0,0,,Cô ấy nói Vueko đáng lẽ phải đi chung với sếp,\Nnhưng lại không thấy đâu.
+Dialogue: 0,0:17:53.80,0:17:56.26,Default,,0,0,0,,Nhắc mới nhớ, có khi nào\Nta đi lướt qua nhau rồi không?
+Dialogue: 0,0:17:56.26,0:17:57.43,Default,,0,0,0,,Mau đuổi theo!
+Dialogue: 0,0:17:57.88,0:17:59.93,Default,,0,0,0,,Chị ấy chậm lắm nên chắc sẽ kịp!
+Dialogue: 0,0:18:05.18,0:18:06.89,Default,,0,0,0,,Đây, Riko.
+Dialogue: 0,0:18:09.19,0:18:10.19,Default,,0,0,0,,Cái gì đây ạ?
+Dialogue: 0,0:18:10.69,0:18:12.86,Default,,0,0,0,,Quà của tôi và Majikaja đó.
+Dialogue: 0,0:18:12.86,0:18:15.11,Default,,0,0,0,,Đọc trên đường di chuyển\Ncoi chừng bị say xe nha.
+Dialogue: 0,0:18:15.11,0:18:17.99,Default,,0,0,0,,Đây là một phần bức thư của mẹ!
+Dialogue: 0,0:18:18.24,0:18:19.53,Default,,0,0,0,,Hình như người đó bán mà?
+Dialogue: 0,0:18:22.62,0:18:25.70,Default,,0,0,0,,Lúc tôi đưa cho Gaume một phần của công chúa
+Dialogue: 0,0:18:25.70,0:18:28.33,Default,,0,0,0,,là anh ta vui vẻ trao đổi ngay.
+Dialogue: 0,0:18:28.33,0:18:30.46,Default,,0,0,0,,Cám ơn bà Moogie.
+Dialogue: 0,0:18:30.46,0:18:31.63,Default,,0,0,0,,Ông Majikaja.
+Dialogue: 0,0:18:31.63,0:18:33.96,Default,,0,0,0,,Konbos. Hadi.
+Dialogue: 0,0:18:33.96,0:18:35.96,Default,,0,0,0,,Nó cũng sẽ tích lũy cho cô!
+Dialogue: 0,0:18:39.34,0:18:40.51,Default,,0,0,0,,Cậu Maaa!
+Dialogue: 0,0:18:40.51,0:18:43.01,Default,,0,0,0,,Cậu có thật sự cảm thấy may mắn\Nvì đi cùng bọn tớ không?
+Dialogue: 0,0:18:51.61,0:18:52.61,Default,,0,0,0,,Cậu Maaa!
+Dialogue: 0,0:18:53.15,0:18:55.23,Default,,0,0,0,,Cám ơn cậu đã chọn tớ.
+Dialogue: 0,0:18:58.07,0:18:59.36,Default,,0,0,0,,Tớ sẽ không quên
+Dialogue: 0,0:18:59.74,0:19:01.24,Default,,0,0,0,,bất cứ điều gì.
+Dialogue: 0,0:19:04.49,0:19:06.62,Default,,0,0,0,,Ta đi thôi mọi người!
+Dialogue: 0,0:19:16.88,0:19:20.55,Default,,0,0,0,,Tại sao mình lại hướng về phía đó?
+Dialogue: 0,0:19:21.76,0:19:23.72,Default,,0,0,0,,Mang theo cái cơ thể này...
+Dialogue: 0,0:19:25.26,0:19:27.43,Default,,0,0,0,,Lúc này thì còn làm gì được kia chứ?
+Dialogue: 0,0:19:32.35,0:19:35.69,Default,,0,0,0,,Mấy đứa trẻ đó liệu đã an toàn rồi chưa?
+Dialogue: 0,0:19:37.23,0:19:38.19,Default,,0,0,0,,Riko.
+Dialogue: 0,0:19:39.36,0:19:41.41,Default,,0,0,0,,Sao mình lại bận tâm về cô bé ấy chứ.
+Dialogue: 0,0:19:41.41,0:19:44.32,Default,,0,0,0,,Đứa trẻ ấy có là gì của mình đâu.
+Dialogue: 0,0:19:47.58,0:19:50.50,Default,,0,0,0,,Đứa trẻ ấy nhất định rất quyết đoán trước giờ.
+Dialogue: 0,0:19:51.92,0:19:53.88,Default,,0,0,0,,Dù rằng cơ thể bé nhỏ hơn mình
+Dialogue: 0,0:19:54.38,0:19:57.00,Default,,0,0,0,,và có thể làm được ít việc hơn mình
+Dialogue: 0,0:19:57.46,0:20:00.92,Default,,0,0,0,,thế nhưng em ấy đã quyết đoán và\Ndang rộng bàn tay
+Dialogue: 0,0:20:01.76,0:20:03.34,Default,,0,0,0,,Bàn tay mời phiêu lưu
+Dialogue: 0,0:20:03.34,0:20:04.68,Default,,0,0,0,,đến những đứa trẻ ấy,
+Dialogue: 0,0:20:06.05,0:20:07.39,Default,,0,0,0,,đến nó
+Dialogue: 0,0:20:08.93,0:20:10.10,Default,,0,0,0,,và cả nó.
+Dialogue: 0,0:20:14.65,0:20:17.15,Default,,0,0,0,,Thậm chí đến cả con người không thể quyết đoán
+Dialogue: 0,0:20:17.57,0:20:18.98,Default,,0,0,0,,như mình.
+Dialogue: 0,0:20:25.07,0:20:26.20,Default,,0,0,0,,Có rồi.
+Dialogue: 0,0:20:26.66,0:20:27.74,Default,,0,0,0,,Đã từng có
+Dialogue: 0,0:20:28.24,0:20:30.16,Default,,0,0,0,,một điều mà mình đã tự quyết lấy.
+Dialogue: 0,0:21:20.21,0:21:22.01,Default,,0,0,0,,Lúc ấy thật là vui.
+Dialogue: 0,0:21:24.72,0:21:26.34,Default,,0,0,0,,Thật là vui...
+Dialogue: 0,0:21:33.89,0:21:34.81,Default,,0,0,0,,Ơ kìa?
+Dialogue: 0,0:21:34.81,0:21:35.94,Default,,0,0,0,,Đau...
+Dialogue: 0,0:21:36.23,0:21:37.06,Default,,0,0,0,,Ui...
+Dialogue: 0,0:21:37.46,0:21:39.27,Default,,0,0,0,,Đau, đau...!
+Dialogue: 0,0:21:42.65,0:21:43.90,Default,,0,0,0,,Bức tường
+Dialogue: 0,0:21:44.65,0:21:45.78,Default,,0,0,0,,đổ nát...
+Dialogue: 0,0:21:45.78,0:21:47.32,Default,,0,0,0,,Đau!
+Dialogue: 0,0:21:48.78,0:21:51.03,Default,,0,0,0,,Đây là...
+Dialogue: 0,0:22:06.38,0:22:08.59,Default,,0,0,0,,Đã quá lâu rồi nên mình quên mất
+Dialogue: 0,0:22:09.18,0:22:10.85,Default,,0,0,0,,lời nguyền vực thẳm.
+Dialogue: 0,0:22:11.43,0:22:13.72,Default,,0,0,0,,Cứ ngỡ mình đã trở thành narehate
+Dialogue: 0,0:22:14.18,0:22:15.23,Default,,0,0,0,,nhưng
+Dialogue: 0,0:22:15.81,0:22:18.52,Default,,0,0,0,,thực chất mình vẫn là con người.
+Dialogue: 0,0:22:24.78,0:22:26.07,Default,,0,0,0,,Xin lỗi.
+Dialogue: 0,0:22:26.70,0:22:27.90,Default,,0,0,0,,Chị xin lỗi.
+Dialogue: 0,0:22:28.74,0:22:30.20,Default,,0,0,0,,Irumyuui.
+Dialogue: 0,0:22:30.66,0:22:31.74,Default,,0,0,0,,Chị xin lỗi.
+Dialogue: 0,0:22:35.50,0:22:36.66,Default,,0,0,0,,Vueko!
+Dialogue: 0,0:22:37.21,0:22:38.50,Default,,0,0,0,,Vueko!
+Dialogue: 0,0:22:38.96,0:22:40.25,Default,,0,0,0,,Vueko!
+Dialogue: 0,0:23:19.08,0:23:21.33,Default,,0,0,0,,Chết tiệt! Vueloeluko!
+Dialogue: 0,0:23:24.59,0:23:25.80,Default,,0,0,0,,Khốn nạn thật!
+Dialogue: 0,0:23:25.80,0:23:29.22,Default,,0,0,0,,Lời nguyền tầng 6 "Đánh mất nhân tính".
+Dialogue: 0,0:23:29.92,0:23:31.51,Default,,0,0,0,,Thế này thì không còn có thể...
+Dialogue: 0,0:23:31.51,0:23:33.35,Default,,0,0,0,,Nanachi, sao thế?
+Dialogue: 0,0:23:33.35,0:23:34.60,Default,,0,0,0,,Reg!
+Dialogue: 0,0:23:34.60,0:23:35.56,Default,,0,0,0,,Không...
+Dialogue: 0,0:23:36.26,0:23:38.10,Default,,0,0,0,,cậu khẩn trương đến chỗ Faputa đi!
+Dialogue: 0,0:23:38.10,0:23:39.18,Default,,0,0,0,,Đã rõ.
+Dialogue: 0,0:23:40.89,0:23:42.23,Default,,0,0,0,,Vueloeluko!
+Dialogue: 0,0:23:42.73,0:23:44.65,Default,,0,0,0,,Vẫn còn sót lại chút ý thức à?
+Dialogue: 0,0:23:45.69,0:23:48.44,Default,,0,0,0,,Pakkoyan. Tôi sẽ không để chị hy sinh vô ích.
+Dialogue: 0,0:23:50.74,0:23:52.99,Default,,0,0,0,,Nanachi? Đấy là...
+Dialogue: 0,0:23:53.41,0:23:54.49,Default,,0,0,0,,Mau đi thôi.
+Dialogue: 0,0:23:54.78,0:23:56.24,Default,,0,0,0,,Tớ sẽ chỉ đường!
+Dialogue: 0,0:23:56.70,0:23:58.58,Default,,0,0,0,,Đây không còn là chuyện người dưng nữa.
+Dialogue: 0,0:23:58.91,0:24:01.58,Default,,0,0,0,,Tôi nhất định sẽ dẫn chị đến đó.
+Dialogue: 0,0:24:31.44,0:24:33.99,Default,,0,0,0,,Rõ ràng ta đã xé nát ngươi gần chết.
+Dialogue: 0,0:24:33.99,0:24:36.41,Default,,0,0,0,,Vậy mà vẫn tiến lên sao?
+Dialogue: 0,0:24:36.74,0:24:39.79,Default,,0,0,0,,Rõ ràng ngươi không phải bất diệt kia mà.
+Dialogue: 0,0:24:40.16,0:24:42.04,Default,,0,0,0,,Bản tính bẩm sinh à?
+Dialogue: 0,0:24:43.37,0:24:44.50,Default,,0,0,0,,Ta hiểu lắm đấy!
+Dialogue: 0,0:24:47.46,0:24:49.17,Default,,0,0,0,,Faputa!
+Dialogue: 0,0:24:56.85,0:24:58.51,Default,,0,0,0,,Cậu tới đây làm gì?
+Dialogue: 0,0:24:58.51,0:25:00.51,Default,,0,0,0,,Tớ sẽ không ngáng chân cậu nữa!
+Dialogue: 0,0:25:00.51,0:25:03.23,Default,,0,0,0,,Cuối cùng tớ đã nhớ ra\Nbổn phận và quyết tâm của cậu.
+Dialogue: 0,0:25:03.52,0:25:05.23,Default,,0,0,0,,Xin lỗi đã thách cậu một cách hời hợt.
+Dialogue: 0,0:25:06.10,0:25:09.11,Default,,0,0,0,,Vậy... cậu tới đây làm gì?
+Dialogue: 0,0:25:09.11,0:25:09.86,Default,,0,0,0,,Nhìn bên kia!
+Dialogue: 0,0:25:10.78,0:25:12.94,Default,,0,0,0,,Những người cậu kêu gọi đang chờ đấy.
+Dialogue: 0,0:25:13.45,0:25:15.11,Default,,0,0,0,,Tớ sẽ xử lý chỗ này.
+Dialogue: 0,0:25:15.45,0:25:17.74,Default,,0,0,0,,Faputa có điều muốn nói nhưng...
+Dialogue: 0,0:25:17.74,0:25:20.03,Default,,0,0,0,,Xin lỗi, cậu hãy nhanh lên.
+Dialogue: 0,0:25:24.71,0:25:25.58,Default,,0,0,0,,Chết tiệt.
+Dialogue: 0,0:25:25.58,0:25:27.63,Default,,0,0,0,,Mình thật đáng thất vọng, bực thiệt chứ.
+Dialogue: 0,0:25:29.13,0:25:32.55,Default,,0,0,0,,Nãy nói vậy chứ có tới hai con thú to tướng.
+Dialogue: 0,0:25:32.55,0:25:33.84,Default,,0,0,0,,Đúng là vô phương.
+Dialogue: 0,0:25:34.59,0:25:37.55,Default,,0,0,0,,Nhưng phải tìm cách tách chúng xa khỏi Faputa.
+Dialogue: 0,0:25:37.93,0:25:40.14,Default,,0,0,0,,Riko, phải phiền cậu rồi.
+Dialogue: 0,0:25:43.43,0:25:44.52,Default,,0,0,0,,Được.
+Dialogue: 0,0:25:45.31,0:25:46.52,Default,,0,0,0,,Cậu nhìn đi!
+Dialogue: 0,0:25:49.40,0:25:52.53,Default,,0,0,0,,Lúc cần, ngay cả bọn tớ cũng sẽ làm được.
+Dialogue: 0,0:26:11.75,0:26:12.84,Default,,0,0,0,,Xin lỗi.
+Dialogue: 0,0:26:12.84,0:26:14.38,Default,,0,0,0,,Cám ơn cậu, Riko.
+Dialogue: 0,0:26:15.51,0:26:16.80,Default,,0,0,0,,Lên nào!
+Dialogue: 0,0:26:17.59,0:26:19.64,Default,,0,0,0,,Ta sẽ dốc toàn lực đối đầu với bọn mày.
+Dialogue: 0,0:26:32.11,0:26:32.90,Default,,0,0,0,,Đằng này!
+Dialogue: 0,0:26:32.90,0:26:34.15,Default,,0,0,0,,Tới đây!
+Dialogue: 0,0:26:41.16,0:26:43.37,Default,,0,0,0,,Vueloeluko, sao thế?
+Dialogue: 0,0:26:51.88,0:26:52.92,Default,,0,0,0,,Faputa.
+Dialogue: 0,0:26:56.26,0:26:58.63,Default,,0,0,0,,Chuyện đó... để lát nữa.
+Dialogue: 0,0:26:58.63,0:26:59.97,Default,,0,0,0,,Tôi biết.
+Dialogue: 0,0:27:00.51,0:27:03.22,Default,,0,0,0,,Tập hợp lại cả rồi nhỉ, lũ ngu xuẩn.
+Dialogue: 0,0:27:03.85,0:27:07.68,Default,,0,0,0,,Faputa sẽ không tha thứ cho các ngươi,\Nnhững kẻ đã đục khoét mẹ.
+Dialogue: 0,0:27:08.23,0:27:09.06,Default,,0,0,0,,Nhưng!
+Dialogue: 0,0:27:09.06,0:27:11.85,Default,,0,0,0,,Nhưng ta sẽ cho các ngươi bổn phận.
+Dialogue: 0,0:27:12.69,0:27:15.48,Default,,0,0,0,,Faputa đã biết cách sử dụng
+Dialogue: 0,0:27:16.32,0:27:18.82,Default,,0,0,0,,tất cả giá trị còn sót lại trong cơ thể mẹ.
+Dialogue: 0,0:27:19.24,0:27:20.24,Default,,0,0,0,,Nhưng
+Dialogue: 0,0:27:20.78,0:27:21.99,Default,,0,0,0,,nó chưa đủ.
+Dialogue: 0,0:27:22.37,0:27:25.79,Default,,0,0,0,,Thứ giá trị để biết\Nđang ngủ yên trong các ngươi.
+Dialogue: 0,0:27:26.37,0:27:27.79,Default,,0,0,0,,Faputa sẽ nuốt chửng các ngươi
+Dialogue: 0,0:27:28.41,0:27:31.04,Default,,0,0,0,,để biết về người mẹ hiện tại.
+Dialogue: 0,0:27:31.04,0:27:35.42,Default,,0,0,0,,Faputa sẽ tước đoạt tất cả\Nnhững giá trị còn sót lại trong mẹ
+Dialogue: 0,0:27:35.80,0:27:37.92,Default,,0,0,0,,Cơ thể mẹ sẽ bị hủy diệt,
+Dialogue: 0,0:27:37.92,0:27:41.59,Default,,0,0,0,,lũ xâm lược kia cũng sẽ\Ngục ngã và bị nghiền nát.
+Dialogue: 0,0:27:42.34,0:27:44.22,Default,,0,0,0,,Phiền cô rồi.
+Dialogue: 0,0:27:45.05,0:27:47.31,Default,,0,0,0,,Chúng tôi đến đây vì ý định ấy.
+Dialogue: 0,0:27:48.22,0:27:52.15,Default,,0,0,0,,Công chúa, hãy thay chúng tôi làm điều đó đi.
+Dialogue: 0,0:27:52.60,0:27:53.69,Default,,0,0,0,,Faun.
+Dialogue: 0,0:27:54.52,0:27:56.48,Default,,0,0,0,,Thời khắc giải phóng đã điểm.
+Dialogue: 0,0:28:08.79,0:28:11.96,Default,,0,0,0,,Đó là phần cơ thể của trưởng làng...\Ncủa Wazukyan sao?
+Dialogue: 0,0:28:11.96,0:28:14.79,Default,,0,0,0,,Lũ thú dữ đã vượt qua đó mà vào đây?
+Dialogue: 0,0:28:15.17,0:28:16.38,Default,,0,0,0,,Gã Wazukyan đó!
+Dialogue: 0,0:28:16.38,0:28:17.34,Default,,0,0,0,,Chết tiệt!
+Dialogue: 0,0:28:17.34,0:28:18.80,Default,,0,0,0,,Chúng gia cố cho làng.
+Dialogue: 0,0:28:19.30,0:28:22.47,Default,,0,0,0,,Mình phải phá hủy nó,\Nbằng không bọn thú sẽ sót lại.
+Dialogue: 0,0:28:22.80,0:28:24.01,Default,,0,0,0,,Pháo hỏa táng!
+Dialogue: 0,0:28:24.01,0:28:26.85,Default,,0,0,0,,Nhưng trong trạng thái này\Nmình sẽ bị ngất sau 10 phút.
+Dialogue: 0,0:28:27.43,0:28:28.77,Default,,0,0,0,,Không được!
+Dialogue: 0,0:28:29.64,0:28:31.06,Default,,0,0,0,,Đã vậy...
+Dialogue: 0,0:28:38.94,0:28:41.07,Default,,0,0,0,,Với sức mạnh này, mình có thể!
+Dialogue: 0,0:28:59.55,0:29:00.84,Default,,0,0,0,,Mẹ ơi.
+Dialogue: 0,0:29:01.34,0:29:05.22,Default,,0,0,0,,Mẹ chính là mục đích sống của Faputa.
+Dialogue: 0,0:29:20.94,0:29:24.45,Default,,0,0,0,,Bây giờ con sẽ hoàn thành bổn phận!
+Dialogue: 0,0:29:40.38,0:29:41.34,Default,,0,0,0,,Tiêu.
+Dialogue: 0,0:29:41.34,0:29:42.80,Default,,0,0,0,,Kaja, khẩn trương lên!
+Dialogue: 0,0:29:42.80,0:29:45.47,Default,,0,0,0,,Kaja khẩn trương đây!
+Dialogue: 0,0:29:45.97,0:29:49.01,Default,,0,0,0,,Ghì chặt Riko để không bị rơi trúng đầu.
+Dialogue: 0,0:29:55.94,0:29:57.27,Default,,0,0,0,,Chị...
+Dialogue: 0,0:29:59.36,0:30:01.40,Default,,0,0,0,,Chị không đáng được tha thứ
+Dialogue: 0,0:30:02.69,0:30:05.65,Default,,0,0,0,,vì đã ăn con của em để sống sót,
+Dialogue: 0,0:30:07.57,0:30:10.83,Default,,0,0,0,,vì đã không thể chết cùng em.
+Dialogue: 0,0:30:13.24,0:30:15.29,Default,,0,0,0,,Chị đã cố thắt chặt mối gắn kết của chúng ta
+Dialogue: 0,0:30:15.96,0:30:19.00,Default,,0,0,0,,bằng việc không tha thứ cho bản thân.
+Dialogue: 0,0:30:20.17,0:30:22.55,Default,,0,0,0,,Giọng nói đầu tiên chị nghe được từ trong em,
+Dialogue: 0,0:30:23.00,0:30:24.80,Default,,0,0,0,,giọng nói không nên lời ấy...
+Dialogue: 0,0:30:25.97,0:30:29.09,Default,,0,0,0,,Chị đã không thể nói được với ai
+Dialogue: 0,0:30:33.81,0:30:36.23,Default,,0,0,0,,rằng điều em thật sự muốn
+Dialogue: 0,0:30:36.23,0:30:38.69,Default,,0,0,0,,không chỉ là những đứa trẻ.
+Dialogue: 0,0:30:41.69,0:30:42.98,Default,,0,0,0,,Tất cả...
+Dialogue: 0,0:30:43.69,0:30:45.90,Default,,0,0,0,,Tất cả đã tan biến thành nỗi nhớ cố hương.
+Dialogue: 0,0:30:46.78,0:30:48.45,Default,,0,0,0,,Giờ đây những gì chị có thể làm
+Dialogue: 0,0:30:49.70,0:30:52.28,Default,,0,0,0,,chỉ là cố gắng để không quên em.
+Dialogue: 0,0:30:53.24,0:30:54.74,Default,,0,0,0,,Chị...
+Dialogue: 0,0:30:55.41,0:30:57.29,Default,,0,0,0,,Chị là một kẻ bất dung.
+Dialogue: 0,0:31:02.84,0:31:06.42,Default,,0,0,0,,Giờ đây ước vọng của em đã\Nđược trao lại cho đứa trẻ ấy.
+Dialogue: 0,0:31:15.01,0:31:18.35,Default,,0,0,0,,Những điều còn đọng lại trong em giờ đây
+Dialogue: 0,0:31:19.06,0:31:20.69,Default,,0,0,0,,đang dần dần tan biến.
+Dialogue: 0,0:31:24.57,0:31:25.82,Default,,0,0,0,,Irumyuui.
+Dialogue: 0,0:31:25.82,0:31:28.36,Default,,0,0,0,,Cảm ơn em đã giữ lại phần người cho chị.
+Dialogue: 0,0:31:28.36,0:31:29.70,Default,,0,0,0,,Cảm ơn em.
+Dialogue: 0,0:31:32.02,0:31:33.91,Default,,0,0,0,,Chị đã có thể chấp nhận
+Dialogue: 0,0:31:34.33,0:31:37.66,Default,,0,0,0,,hình phạt nặng nhất,\Nlà tiễn em đi trước.
+Dialogue: 0,0:31:41.50,0:31:42.92,Default,,0,0,0,,Cảm ơn.
+Dialogue: 0,0:31:43.54,0:31:44.92,Default,,0,0,0,,Yêu em nhiều lắm...
+Dialogue: 0,0:31:46.17,0:31:47.76,Default,,0,0,0,,Bóng tối ấm áp
+Dialogue: 0,0:31:48.46,0:31:50.22,Default,,0,0,0,,của riêng chị.
+Dialogue: 0,0:32:11.36,0:32:13.24,Default,,0,0,0,,X-xong rồi.
+Dialogue: 0,0:32:13.24,0:32:16.24,Default,,0,0,0,,Tất cả đã hoàn thành.
+Dialogue: 0,0:32:23.54,0:32:26.09,Default,,0,0,0,,Kiệt sức cả rồi.
+Dialogue: 0,0:32:27.38,0:32:28.67,Default,,0,0,0,,A...
+Dialogue: 0,0:32:28.67,0:32:32.47,Default,,0,0,0,,Lúc ấy, chí ít thì chúng cũng...
+Dialogue: 0,0:32:33.59,0:32:35.01,Default,,0,0,0,,Đứa trẻ Hate.
+Dialogue: 0,0:32:35.01,0:32:37.26,Default,,0,0,0,,Tên ngươi là Nanachi nhỉ.
+Dialogue: 0,0:32:38.56,0:32:41.64,Default,,0,0,0,,Sau khi hoàn thành bổn phận với chúng,
+Dialogue: 0,0:32:42.14,0:32:44.48,Default,,0,0,0,,nếu như ta không bị tiêu diệt thì...
+Dialogue: 0,0:32:45.31,0:32:48.15,Default,,0,0,0,,Faputa kính trọng những kẻ từ bên ngoài
+Dialogue: 0,0:32:48.15,0:32:50.57,Default,,0,0,0,,đã đến giúp Faputa hoàn thành bổn phận.
+Dialogue: 0,0:32:50.57,0:32:51.57,Default,,0,0,0,,Majikaja.
+Dialogue: 0,0:32:52.40,0:32:54.40,Default,,0,0,0,,Kẻ Hate vô danh.
+Dialogue: 0,0:32:54.70,0:32:56.87,Default,,0,0,0,,Ta sẽ ban các ngươi bổn phận.
+Dialogue: 0,0:32:57.41,0:32:59.91,Default,,0,0,0,,Đưa bọn chúng ra khỏi mẹ!
+Dialogue: 0,0:33:04.75,0:33:05.75,Default,,0,0,0,,Egu.
+Dialogue: 0,0:33:06.38,0:33:08.71,Default,,0,0,0,,Vậy ra ngươi tên Maaa à.
+Dialogue: 0,0:33:09.09,0:33:10.42,Default,,0,0,0,,Trông cậy vào ngươi đấy.
+Dialogue: 0,0:33:12.05,0:33:13.38,Default,,0,0,0,,Lúc ấy
+Dialogue: 0,0:33:14.43,0:33:17.05,Default,,0,0,0,,nếu Faputa ăn chúng
+Dialogue: 0,0:33:17.30,0:33:19.81,Default,,0,0,0,,thì bây giờ có giữ được chút sức lực nào không?
+Dialogue: 0,0:33:20.43,0:33:22.64,Default,,0,0,0,,Không, đủ rồi.
+Dialogue: 0,0:33:22.64,0:33:25.27,Default,,0,0,0,,Kết thúc cả rồi.
+Dialogue: 0,0:33:42.45,0:33:43.45,Default,,0,0,0,,Cậu Maaa.
+Dialogue: 0,0:33:45.00,0:33:47.88,Default,,0,0,0,,Đây là... cho cậu.
+Dialogue: 0,0:33:50.29,0:33:53.13,Default,,0,0,0,,Xin lỗi... tớ vẫn đang làm lỡ dở nên
+Dialogue: 0,0:33:54.13,0:33:56.09,Default,,0,0,0,,còn băn khoăn không biết có nên đưa không.
+Dialogue: 0,0:33:56.47,0:34:00.05,Default,,0,0,0,,Tuy không thể thay thế nó được, nhưng...
+Dialogue: 0,0:34:04.56,0:34:06.77,Default,,0,0,0,,Majikaja! Có sao không?
+Dialogue: 0,0:34:07.48,0:34:09.86,Default,,0,0,0,,Chân tôi hỏng hết rồi.
+Dialogue: 0,0:34:09.86,0:34:11.07,Default,,0,0,0,,Không di chuyển được.
+Dialogue: 0,0:34:11.48,0:34:15.07,Default,,0,0,0,,Hadi... tôi chắc chắn không thể được tha thứ
+Dialogue: 0,0:34:15.07,0:34:18.49,Default,,0,0,0,,nhưng vì bổn phận, để hoàn thành bổn phận...
+Dialogue: 0,0:34:22.33,0:34:23.41,Default,,0,0,0,,Majikaja!
+Dialogue: 0,0:34:39.89,0:34:43.72,Default,,0,0,0,,Việc này không làm đúng cách nên Kaja sẽ chết.
+Dialogue: 0,0:34:44.27,0:34:45.72,Default,,0,0,0,,Lần cuối cùng.
+Dialogue: 0,0:34:45.72,0:34:48.19,Default,,0,0,0,,Bởi vì đây là lần cuối cùng của Kaja!
+Dialogue: 0,0:34:53.07,0:34:55.15,Default,,0,0,0,,Majikaya đấy ư!?
+Dialogue: 0,0:35:00.70,0:35:04.08,Default,,0,0,0,,Kaja... pami vui quá!
+Dialogue: 0,0:35:27.77,0:35:29.14,Default,,0,0,0,,Cậu Maaa.
+Dialogue: 0,0:35:29.48,0:35:30.64,Default,,0,0,0,,Cảm ơn cậu.
+Dialogue: 0,0:35:43.16,0:35:44.49,Default,,0,0,0,,Cậu Maaa?
+Dialogue: 0,0:35:45.08,0:35:46.45,Default,,0,0,0,,Cậu Maaa!?
+Dialogue: 0,0:36:54.69,0:36:55.94,Default,,0,0,0,,Vui...
+Dialogue: 0,0:37:01.44,0:37:04.11,Default,,0,0,0,,Giấc mơ kì quặc thật.
+Dialogue: 0,0:37:19.88,0:37:21.30,Default,,0,0,0,,Là cô à.
+Dialogue: 0,0:37:23.80,0:37:25.97,Default,,0,0,0,,Không ngờ cả hai ta đều còn sống.
+Dialogue: 0,0:37:33.98,0:37:36.27,Default,,0,0,0,,Riko, có sao không?
+Dialogue: 0,0:37:36.27,0:37:37.06,Default,,0,0,0,,Ừ.
+Dialogue: 0,0:37:38.61,0:37:40.90,Default,,0,0,0,,Tuy rằng mọi người đều đã tan biến.
+Dialogue: 0,0:37:41.28,0:37:41.98,Default,,0,0,0,,Ừ.
+Dialogue: 0,0:37:41.98,0:37:44.11,Default,,0,0,0,,Họ đã từ chiếc nôi vĩnh hằng
+Dialogue: 0,0:37:44.70,0:37:46.78,Default,,0,0,0,,trở về Abyss mà thôi.
+Dialogue: 0,0:37:49.74,0:37:53.20,Default,,0,0,0,,Họ đã trở về trên cùng một\Ncon đường giống với chúng ta.
+Dialogue: 0,0:37:53.45,0:37:54.75,Default,,0,0,0,,Chính vì vậy...
+Dialogue: 0,0:37:54.75,0:37:55.62,Default,,0,0,0,,Nanachi.
+Dialogue: 0,0:37:58.17,0:37:59.42,Default,,0,0,0,,Tớ không sao.
+Dialogue: 0,0:37:59.42,0:38:02.67,Default,,0,0,0,,Tớ sẽ nhớ mãi tất cả\Nnhững người đã giúp đỡ bọn mình.
+Dialogue: 0,0:38:04.88,0:38:07.43,Default,,0,0,0,,Ừ, tớ cũng thế.
+Dialogue: 0,0:38:13.02,0:38:15.23,Default,,0,0,0,,Không cần phải lên tiếng đâu.
+Dialogue: 0,0:38:15.52,0:38:17.69,Default,,0,0,0,,Faputa đang nghe đây.
+Dialogue: 0,0:38:18.27,0:38:21.02,Default,,0,0,0,,Phải sau khi hít mùi hương của gã dài dài đó
+Dialogue: 0,0:38:21.36,0:38:23.78,Default,,0,0,0,,Faputa mới biết về cô.
+Dialogue: 0,0:38:24.36,0:38:28.78,Default,,0,0,0,,Hãy kể cho Faputa nghe\Nvề người mẹ xa lạ của mình.
+Dialogue: 0,0:38:29.99,0:38:31.03,Default,,0,0,0,,Irumyuui.
+Dialogue: 0,0:38:31.78,0:38:35.37,Default,,0,0,0,,Faputa giống mẹ đến thế sao?
+Dialogue: 0,0:38:37.37,0:38:39.75,Default,,0,0,0,,Có lẽ là... không.
+Dialogue: 0,0:38:40.92,0:38:42.38,Default,,0,0,0,,Iru... là...
+Dialogue: 0,0:38:43.00,0:38:45.84,Default,,0,0,0,,đứa trẻ rất hay làm nũng,
+Dialogue: 0,0:38:46.55,0:38:49.55,Default,,0,0,0,,vô cùng nhút nhát.
+Dialogue: 0,0:38:50.80,0:38:52.01,Default,,0,0,0,,Nhưng mà
+Dialogue: 0,0:38:52.01,0:38:53.31,Default,,0,0,0,,làn da láng mượt,
+Dialogue: 0,0:38:53.31,0:38:54.72,Default,,0,0,0,,sự láng mượt này
+Dialogue: 0,0:38:55.10,0:38:56.35,Default,,0,0,0,,rất giống,
+Dialogue: 0,0:38:57.52,0:39:00.65,Default,,0,0,0,,rất, rất ấm áp
+Dialogue: 0,0:39:00.65,0:39:01.77,Default,,0,0,0,,và
+Dialogue: 0,0:39:01.77,0:39:03.65,Default,,0,0,0,,dù có làm gì
+Dialogue: 0,0:39:04.15,0:39:04.90,Default,,0,0,0,,cũng
+Dialogue: 0,0:39:09.28,0:39:11.62,Default,,0,0,0,,không bao giờ trở lại nữa.
+Dialogue: 0,0:39:14.41,0:39:15.79,Default,,0,0,0,,Vậy ư.
+Dialogue: 0,0:39:15.79,0:39:17.29,Default,,0,0,0,,Vậy ư...
+Dialogue: 0,0:39:20.37,0:39:21.58,Default,,0,0,0,,Cô
+Dialogue: 0,0:39:21.96,0:39:23.67,Default,,0,0,0,,đã ở bên trong mẹ nhỉ.
+Dialogue: 0,0:39:24.17,0:39:26.01,Default,,0,0,0,,Và cô sống cùng mẹ
+Dialogue: 0,0:39:26.80,0:39:28.67,Default,,0,0,0,,đến tận giây phút cuối cùng.
+Dialogue: 0,0:39:30.22,0:39:31.43,Default,,0,0,0,,May quá.
+Dialogue: 0,0:39:32.43,0:39:36.35,Default,,0,0,0,,Faputa cứ ngỡ đã kế thừa tất cả từ mẹ.
+Dialogue: 0,0:39:36.81,0:39:38.93,Default,,0,0,0,,Thế nhưng Vueloeluko,
+Dialogue: 0,0:39:39.39,0:39:44.23,Default,,0,0,0,,riêng sự tồn tại của cô là không hề\Nở bất cứ đâu trong ký ức của Faputa.
+Dialogue: 0,0:39:44.94,0:39:46.86,Default,,0,0,0,,Vueko,
+Dialogue: 0,0:39:47.65,0:39:50.78,Default,,0,0,0,,dù rằng mẹ đã có Faputa nhưng riêng cô
+Dialogue: 0,0:39:51.41,0:39:54.07,Default,,0,0,0,,là người duy nhất mẹ không muốn trao lại.
+Dialogue: 0,0:39:55.62,0:39:57.33,Default,,0,0,0,,Nghe nói tại Làng Hoàng Kim
+Dialogue: 0,0:39:57.33,0:40:00.71,Default,,0,0,0,,ngay cả rác rưởi cũng có thể hóa thành vàng đó.
+Dialogue: 0,0:40:01.96,0:40:03.88,Default,,0,0,0,,Giọng nói ấy vốn đã không còn.
+Dialogue: 0,0:40:04.13,0:40:06.05,Default,,0,0,0,,Dẫu đã bỏ đi xa thật xa
+Dialogue: 0,0:40:07.38,0:40:09.01,Default,,0,0,0,,vậy mà giờ đây mình nhớ lại.
+Dialogue: 0,0:40:16.43,0:40:17.64,Default,,0,0,0,,Irumyuui.
+Dialogue: 0,0:40:21.48,0:40:22.56,Default,,0,0,0,,Sao thế?
+Dialogue: 0,0:40:23.52,0:40:27.02,Default,,0,0,0,,Chị hay bị nói rằng có đôi mắt tối tăm
+Dialogue: 0,0:40:27.02,0:40:28.61,Default,,0,0,0,,nhưng chị vui vì có nó.
+Dialogue: 0,0:40:28.61,0:40:29.78,Default,,0,0,0,,Vậy à.
+Dialogue: 0,0:40:30.19,0:40:31.11,Default,,0,0,0,,Bởi vì nhờ nó
+Dialogue: 0,0:40:32.15,0:40:33.41,Default,,0,0,0,,chị có thể thấy em.
+Dialogue: 0,0:40:33.74,0:40:34.53,Default,,0,0,0,,Ừm.
+Dialogue: 0,0:40:34.53,0:40:35.66,Default,,0,0,0,,Vì nhờ nó
+Dialogue: 0,0:40:35.66,0:40:38.58,Default,,0,0,0,,em đã tìm thấy chị.
+Dialogue: 0,0:40:38.95,0:40:39.91,Default,,0,0,0,,Ừm.
+Dialogue: 0,0:40:40.29,0:40:41.50,Default,,0,0,0,,Iru,
+Dialogue: 0,0:40:41.50,0:40:43.71,Default,,0,0,0,,chính em
+Dialogue: 0,0:40:43.71,0:40:45.67,Default,,0,0,0,,đã hóa chị thành vàng.
+Dialogue: 0,0:40:59.89,0:41:01.27,Default,,0,0,0,,Người này
+Dialogue: 0,0:41:01.52,0:41:02.81,Default,,0,0,0,,là của mẹ
+Dialogue: 0,0:41:03.39,0:41:05.56,Default,,0,0,0,,không phải của Faputa.
+Dialogue: 0,0:41:06.06,0:41:07.02,Default,,0,0,0,,Vậy mà
+Dialogue: 0,0:41:08.94,0:41:10.48,Default,,0,0,0,,tại sao...
+Dialogue: 0,0:41:10.82,0:41:14.28,Default,,0,0,0,,Tại sao Faputa lại cảm thấy như thế này?
+Dialogue: 0,0:41:23.71,0:41:25.33,Default,,0,0,0,,Tại sao...
+Dialogue: 0,0:41:29.00,0:41:31.55,Default,,0,0,0,,Không còn bóng dáng lũ thú đâu nữa.
+Dialogue: 0,0:41:33.01,0:41:37.55,Default,,0,0,0,,Có lẽ mùi của ngôi làng bị thương tổn\Nđã thu hút chúng.
+Dialogue: 0,0:41:37.55,0:41:40.39,Default,,0,0,0,,Mọi người đều đã trở về rồi.
+Dialogue: 0,0:41:42.93,0:41:44.31,Default,,0,0,0,,Mộ à?
+Dialogue: 0,0:41:44.69,0:41:46.81,Default,,0,0,0,,Cậu muốn làm cho họ ư?
+Dialogue: 0,0:41:47.23,0:41:48.61,Default,,0,0,0,,Gaburoon bảo
+Dialogue: 0,0:41:48.86,0:41:52.15,Default,,0,0,0,,nếu chúng chết rồi thì làm thế.
+Dialogue: 0,0:41:57.28,0:42:00.66,Default,,0,0,0,,Nima. Nima sos. Sos.
+Dialogue: 0,0:42:05.62,0:42:06.62,Default,,0,0,0,,Nnaa sos.
+Dialogue: 0,0:42:07.37,0:42:08.54,Default,,0,0,0,,Sos.
+Dialogue: 0,0:42:13.17,0:42:14.42,Default,,0,0,0,,Làm thế này
+Dialogue: 0,0:42:15.34,0:42:17.22,Default,,0,0,0,,chúng sẽ không cô đơn.
+Dialogue: 0,0:42:19.05,0:42:21.47,Default,,0,0,0,,Cho đến khi linh hồn quây quần lần nữa,
+Dialogue: 0,0:42:22.60,0:42:24.52,Default,,0,0,0,,Gabu nói thế.
+Dialogue: 0,0:42:25.52,0:42:26.64,Default,,0,0,0,,Gabu...
+Dialogue: 0,0:42:27.35,0:42:28.94,Default,,0,0,0,,Gabu...
+Dialogue: 0,0:42:29.31,0:42:30.15,Default,,0,0,0,,Faputa...
+Dialogue: 0,0:42:30.15,0:42:31.15,Default,,0,0,0,,Faputa!
+Dialogue: 0,0:42:31.82,0:42:33.03,Default,,0,0,0,,Faputa!
+Dialogue: 0,0:42:33.03,0:42:34.36,Default,,0,0,0,,Cậu...
+Dialogue: 0,0:42:34.90,0:42:38.11,Default,,0,0,0,,Cậu có muốn đi cùng bọn tớ không?
+Dialogue: 0,0:42:44.41,0:42:49.29,Default,,0,0,0,,Đi chung với Reg, người thậm chí\Nđã quên hết về Faputa sao?
+Dialogue: 0,0:42:50.17,0:42:51.13,Default,,0,0,0,,Ư, ừm...
+Dialogue: 0,0:42:51.13,0:42:54.30,Default,,0,0,0,,Đi chung với Reg, người\Nthậm chí quên mất lời hứa á?
+Dialogue: 0,0:42:54.30,0:42:56.55,Default,,0,0,0,,Cái đó... tớ xin lỗi.
+Dialogue: 0,0:42:57.30,0:43:00.34,Default,,0,0,0,,Đến tận giờ tớ vẫn chưa nhớ ra được gì.
+Dialogue: 0,0:43:00.34,0:43:01.60,Default,,0,0,0,,Tớ thật sự hổ thẹn.
+Dialogue: 0,0:43:02.18,0:43:04.14,Default,,0,0,0,,Cái gì vậy chứ?
+Dialogue: 0,0:43:04.14,0:43:07.27,Default,,0,0,0,,Vậy thì Reg cũng có còn\Ncan hệ gì với Faputa đâu!
+Dialogue: 0,0:43:07.27,0:43:08.39,Default,,0,0,0,,Không đâu!
+Dialogue: 0,0:43:08.39,0:43:12.11,Default,,0,0,0,,Tớ của ngày xưa liệu có nhìn thấy\Ndáng vẻ cậu như bây giờ không?
+Dialogue: 0,0:43:13.94,0:43:15.30,Default,,0,0,0,,Hadi... ma...
+Dialogue: 0,0:43:15.82,0:43:17.19,Default,,0,0,0,,Tớ đã thấy!
+Dialogue: 0,0:43:17.19,0:43:20.70,Default,,0,0,0,,Vẻ đáng sợ, nỗi buồn, vẻ đẹp của cậu.
+Dialogue: 0,0:43:20.70,0:43:22.20,Default,,0,0,0,,Tớ đã thấy tất cả.
+Dialogue: 0,0:43:22.20,0:43:25.12,Default,,0,0,0,,Tớ đã trót gặp cậu mất rồi.
+Dialogue: 0,0:43:25.70,0:43:27.00,Default,,0,0,0,,Đi thôi!
+Dialogue: 0,0:43:27.00,0:43:29.67,Default,,0,0,0,,Tớ muốn cùng cậu lên đường thám hiểm!
+Dialogue: 0,0:43:38.59,0:43:40.22,Default,,0,0,0,,Cái gì vậy chứ?
+Dialogue: 0,0:43:40.22,0:43:42.84,Default,,0,0,0,,Tập hợp một đám ngu xuẩn à?
+Dialogue: 0,0:43:46.16,0:43:48.27,Default,,0,0,0,,Quả nhiên bị nghĩ thế rồi.
+Dialogue: 0,0:43:51.27,0:43:53.90,Default,,0,0,0,,Riko, bổn phận của cô.
+Dialogue: 0,0:43:54.48,0:43:57.36,Default,,0,0,0,,Trân quý tất cả những người cô gặp gỡ.
+Dialogue: 0,0:43:57.36,0:44:00.99,Default,,0,0,0,,Đó chính là bổn phận của cô, kẻ đá này nói vậy.
+Dialogue: 0,0:44:02.36,0:44:04.91,Default,,0,0,0,,Cậu nghe thấy tiếng nói của Prushka sao?
+Dialogue: 0,0:44:04.91,0:44:07.79,Default,,0,0,0,,Cô ấy nói "không được cãi nhau đâu đấy".
+Dialogue: 0,0:44:11.67,0:44:12.92,Default,,0,0,0,,Mặc dù
+Dialogue: 0,0:44:12.92,0:44:16.09,Default,,0,0,0,,Reg đã quên hết tất cả\Nnhưng vẫn giữ được bản tính dịu dàng
+Dialogue: 0,0:44:16.09,0:44:17.92,Default,,0,0,0,,hẳn là nhờ có mấy người.
+Dialogue: 0,0:44:18.76,0:44:20.67,Default,,0,0,0,,Faputa cũng sẽ đi.
+Dialogue: 0,0:44:22.09,0:44:26.05,Default,,0,0,0,,Faputa sẽ nhìn, tiếp xúc, và thu thập.
+Dialogue: 0,0:44:26.68,0:44:28.97,Default,,0,0,0,,Cậu sẽ đi với bọn tớ sao?
+Dialogue: 0,0:44:35.40,0:44:37.19,Default,,0,0,0,,Để suy nghĩ đã.
+Dialogue: 0,0:44:41.96,0:44:42.84,Default,,0,0,0,,Nhất định nhé!
+Dialogue: 0,0:44:43.41,0:44:45.12,Default,,0,0,0,,Nhất định hãy suy nghĩ nhé!
+Dialogue: 0,0:44:47.70,0:44:49.79,Default,,0,0,0,,Này này, thôi ngay đi!
+Dialogue: 0,0:44:50.41,0:44:53.79,Default,,0,0,0,,Cái tên đó miễn có gì bông xù\Nlà không phân biệt gì hết.
+Dialogue: 0,0:44:53.79,0:44:56.25,Default,,0,0,0,,Tớ cũng luôn nghĩ vậy đó.
+Dialogue: 0,0:44:56.59,0:44:58.46,Default,,0,0,0,,Bên kia nỗi nhớ cố hương
+Dialogue: 0,0:44:58.46,0:45:00.05,Default,,0,0,0,,mà ta sẽ không còn quay trở lại,
+Dialogue: 0,0:45:00.96,0:45:02.55,Default,,0,0,0,,trong bóng tối đích thực
+Dialogue: 0,0:45:03.22,0:45:07.39,Default,,0,0,0,,quả thực tồn tại thứ ánh sáng không ai tìm ra.
+Dialogue: 0,0:45:07.85,0:45:11.64,Default,,0,0,0,,Nhưng kẻ giành được nó không phải bất kỳ ai.
+Dialogue: 0,0:45:12.52,0:45:14.90,Default,,0,0,0,,Thứ vàng sinh ra từ trong em
+Dialogue: 0,0:45:16.48,0:45:19.19,Default,,0,0,0,,đã được giải phóng khỏi cái ách mang tên giá trị
+Dialogue: 0,0:45:19.61,0:45:22.36,Default,,0,0,0,,và đang bước đi trên hành trình của mình.
+Dialogue: 0,0:45:23.24,0:45:25.74,Default,,0,0,0,,Dù biết rằng tình yêu chính là lời nguyền,
+Dialogue: 0,0:45:26.62,0:45:30.45,Default,,0,0,0,,dù biết rằng ở nơi cuối con đường\Nchỉ có bóng tối chờ đợi,
+Dialogue: 0,0:45:35.21,0:45:36.92,Default,,0,0,0,,nhưng chính vì thế đấy nhỉ.
+Dialogue: 0,0:45:36.92,0:45:38.38,Default,,0,0,0,,Chính vì thế
+Dialogue: 0,0:45:39.75,0:45:41.63,Default,,0,0,0,,mà em mới tỏa sáng chói lọi.
+Dialogue: 0,0:45:46.59,0:45:48.10,Default,,0,0,0,,(Mọi người)
+Dialogue: 0,0:45:48.10,0:45:50.47,Default,,0,0,0,,(Tôi đi đây)

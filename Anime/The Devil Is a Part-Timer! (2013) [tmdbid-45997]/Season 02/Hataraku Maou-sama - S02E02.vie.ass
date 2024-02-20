@@ -1,0 +1,522 @@
+[Script Info]
+Title: Bilibili Subtitle
+ScriptType: v4.00+
+WrapStyle: 0
+ScaledBorderAndShadow: yes
+YCbCr Matrix: TV.601
+PlayResX: 1920
+PlayResY: 1080
+
+[V4+ Styles]
+Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
+Style: Default,Noto Sans,100,&H00FFFFFF,&H000000FF,&H05000000,&H80000000,-1,0,0,0,100,100,0,0,1,5,1.5,2,96,96,65,1
+Style: Banner,UVN Da Lat,50,&H00D89815,&H000000FF,&H00FFFFFF,&H00000000,0,0,0,0,100,100,0,0,1,0,0,8,10,10,10,1
+Style: Banner - Copy,000 Chinacat [TeddyBear],60,&H00D89815,&H000000FF,&H00FFFFFF,&H00000000,0,0,0,0,100,100,0,0,1,2,0,8,10,10,10,1
+Style: On Top,uvn van,78,&H00FFFFFF,&H000000FF,&H00000000,&H00DD8F79,0,0,0,0,100,100,0,0,1,1,3,8,61,61,70,0
+Style: top,uvn van,78,&H00FFFFFF,&H000000FF,&H00000000,&H00000000,0,0,0,0,100,100,0,0,1,3.9,0,8,60,60,69,0
+Style: main,uvn van,78,&H00FFFFFF,&H000000FF,&H00000000,&H00000000,0,0,0,0,100,100,0,0,1,3.9,0,2,60,60,69,0
+Style: italics,uvn van,78,&H00FFFFFF,&H000000FF,&H00000000,&H00000000,0,-1,0,0,100,100,0,0,1,3.9,0,2,60,60,69,0
+Style: flashback,uvn van,78,&H00FFFFFF,&H000000FF,&H00000000,&H00000000,0,0,0,0,100,100,0,0,1,3.9,0,2,60,60,69,1
+Style: italicstop,uvn van,78,&H00FFFFFF,&H000000FF,&H00000000,&H00000000,0,-1,0,0,100,100,0,0,1,3.9,0,8,60,60,69,0
+Style: flashbackitalics,uvn van,78,&H00FFFFFF,&H000000FF,&H00000000,&H00000000,0,-1,0,0,100,100,0,0,1,3.9,0,2,60,60,69,0
+Style: flashbacktop,uvn van,78,&H00FFFFFF,&H000000FF,&H00000000,&H00000000,0,0,0,0,100,100,0,0,1,3.9,0,8,60,60,69,0
+Style: flashbackitalicstop,uvn van,78,&H00FFFFFF,&H000000FF,&H00000000,&H00000000,0,-1,0,0,100,100,0,0,1,3.9,0,8,60,60,69,0
+Style: Trans op,UVN Ky Thuat,80,&H00F2DB87,&H000000FF,&H00000000,&H00000000,0,0,0,0,100,100,0,0,1,3,0,2,10,10,40,1
+Style: flashback italics,uvn van,78,&H00FFFFFF,&H000000FF,&H00000000,&H00000000,0,-1,0,0,100,100,0,0,1,3.89999,0,2,61,61,69,1
+Style: Default - Top,uvn van,79,&H00FFFFFF,&H000000FF,&H00000000,&H00000000,0,0,0,0,100,100,0,0,1,3.89999,0,8,61,61,70,1
+Style: Next_Ep_Number,Times New Roman,66,&H00FFFFFF,&H000000FF,&HC8000000,&H00000000,-1,0,0,0,110,110,0,0,1,3,0,2,30,30,888,1
+Style: Next_Ep_Title,Times New Roman,102,&H00FFFFFF,&H00FFFFFF,&HC8000000,&H00000000,-1,0,0,0,100,140,0,0,1,3,0,2,30,30,135,1
+Style: OP,HGP教科書体,75,&H00FFFFFF,&H000000FF,&H004B9FEB,&H008DCD98,-1,0,0,0,100,100,0,0,1,2,4,2,10,10,40,1
+Style: ED,あくあＰフォント,70,&H007DD58E,&H000000FF,&H00FFFFFF,&H00000000,0,0,0,0,100,100,0,0,1,4,0,2,10,10,40,1
+Style: OP VI,UVN Giay Trang,75,&H00FFFFFF,&H000000FF,&H004B9FEB,&H008DCD98,-1,0,0,0,100,100,0,0,1,2,4,2,10,10,140,1
+Style: ED VI,000 CCHedgeBackwards Lower,65,&H003E9AEE,&H000000FF,&H00FFFFFF,&H00000000,0,0,0,0,100,100,0,0,1,4,0,2,10,10,140,1
+Style: OP - eng,HGP教科書体,75,&H00FFFFFF,&H000000FF,&H004B9FEB,&H008DCD98,-1,0,0,0,100,100,0,0,1,2,4,2,10,10,40,1
+Style: 4-normal,Noto Sans,65,&H00FFFFFF,&H000000FF,&H00000000,&H00000000,0,0,0,0,100,100,0,0,1,2,0,4,10,10,10,1
+Style: 5-normal,Noto Sans,65,&H00FFFFFF,&H000000FF,&H00000000,&H00000000,0,0,0,0,100,100,0,0,1,2,0,5,10,10,10,1
+Style: 6-normal,Noto Sans,65,&H00FFFFFF,&H000000FF,&H00000000,&H00000000,0,0,0,0,100,100,0,0,1,2,0,6,10,10,10,1
+Style: 6-exlight,Noto Sans ExtraLight,65,&H00FFFFFF,&H000000FF,&H00000000,&H00000000,0,0,0,0,100,100,0,0,1,0,0,6,10,10,10,1
+Style: 5-exlight,Noto Sans ExtraLight,65,&H00FFFFFF,&H000000FF,&H00000000,&H00000000,0,0,0,0,100,100,0,0,1,0,0,5,10,10,10,1
+Style: 4-exlight,Noto Sans ExtraLight,65,&H00FFFFFF,&H000000FF,&H00000000,&H00000000,0,0,0,0,100,100,0,0,1,0,0,4,10,10,10,1
+Style: 4-black,Noto Sans Black,65,&H00FFFFFF,&H000000FF,&H00000000,&H00000000,0,0,0,0,100,100,0,0,1,2,0,4,10,10,10,1
+Style: 5-black,Noto Sans Black,65,&H00FFFFFF,&H000000FF,&H00000000,&H00000000,0,0,0,0,100,100,0,0,1,2,0,5,10,10,10,1
+Style: 6-black,Noto Sans Black,65,&H00FFFFFF,&H000000FF,&H00000000,&H00000000,0,0,0,0,100,100,0,0,1,2,0,6,10,10,10,1
+Style: 4-light,Noto Sans Light,65,&H00FFFFFF,&H000000FF,&H00000000,&H00000000,0,0,0,0,100,100,0,0,1,2,0,4,10,10,10,1
+Style: 5-light,Noto Sans Light,65,&H00FFFFFF,&H000000FF,&H00000000,&H00000000,0,0,0,0,100,100,0,0,1,2,0,5,10,10,10,1
+Style: 6-light,Noto Sans Light,65,&H00FFFFFF,&H000000FF,&H00000000,&H00000000,0,0,0,0,100,100,0,0,1,2,0,5,10,10,10,1
+Style: 定位用777,Noto Sans,100,&H00FFFFFF,&H000000FF,&H00000000,&H00000000,0,0,0,0,100,100,0,0,1,0,0,7,10,10,10,1
+Style: 4-normal - 复制,Noto Sans,65,&H00FFFFFF,&H000000FF,&H00000000,&H00000000,0,0,0,0,100,100,0,0,1,2,0,5,10,10,10,1
+
+[Events]
+Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
+Dialogue: 0,0:02:41.72,0:02:44.26,6-normal,,0,0,0,,{\fad(400,00)\c&HF7FDFA&\b1\bord1\3c&H0F0F0F&\pos(1520.047,621.512)\frz15.44}Ma Vương và Dũng Sĩ,
+Dialogue: 0,0:02:42.68,0:02:44.26,4-normal,,0,0,0,,{\fad(600,00)\c&HFFFFFF&\b1\bord1\frz16.91\pos(1129.113,795.696)} thành {\c&H09FFFC&}bố mẹ{\c&HFFFFFF&} mà chẳng hay biết gì
+Dialogue: 0,0:04:51.39,0:04:53.64,4-normal - 复制,,0,0,0,,{\b1\c&H30393E&\fs90\bord0\3c&H5F6773&\frz0.0293\pos(911.859,154.952)}Tâm - Thành
+Dialogue: 0,0:05:27.43,0:05:29.05,4-normal,,0,0,0,,{\b1\3c&H87B6DF&\fax0.1\frz353\pos(398.365,233.496)}\hTiệm thuốc
+Dialogue: 0,0:05:27.43,0:05:29.05,4-normal,,0,0,0,,{\b1\3c&HFDA3F5&\fax0.18\bord5\c&H7D5F38&\frz351.1\pos(383.828,43.566)}\hThuốc
+Dialogue: 0,0:05:27.43,0:05:29.05,6-normal,,0,0,0,这里以及后面的\h和'都请保留,{\b1\3c&H87B6DF&\frz349.7\fax0.18\pos(1339.575,186.666)}\hSqualane
+Dialogue: 0,0:05:29.05,0:05:30.80,5-normal,,0,0,0,,{\frz270.1\bord5\pos(243.728,147.1)}{\b1\c&H4EB9B5&\3c&HF6D5BC&}Khăn ướt
+Dialogue: 0,0:05:29.05,0:05:30.80,5-normal,,0,0,0,,{\frz270.1\bord1.5\pos(243.728,147.1)}{\b1\c&H4EB9B5&\3c&H4D6C72&}Khăn ướt
+Dialogue: 0,0:05:29.05,0:05:30.80,5-normal,,0,0,0,,{\bord8\pos(819.121,92.75)}{\b1\c&H5C4DB9&\3c&H72E1DB&}Giấy vệ sinh
+Dialogue: 0,0:05:29.05,0:05:30.80,5-normal,,0,0,0,,{\bord2\pos(819.121,92.75)}{\b1\c&H5C4DB9&\3c&H3C6B8C&}Giấy vệ sinh
+Dialogue: 0,0:05:34.56,0:05:36.43,5-normal,,0,0,0,,{\bord8\fax-0.1\b1\c&H52399D&\3c&H543A9B&\pos(802.422,611.15)\frz4.71}Tiệm thuốc\h
+Dialogue: 0,0:05:34.56,0:05:36.43,5-normal,,0,0,0,,{\bord4.5\fax-0.1\b1\c&H52399D&\3c&HDFE6E6&\pos(802.422,611.15)\frz4.71}Tiệm thuốc\h
+Dialogue: 0,0:06:15.22,0:06:20.23,4-normal,,0,0,0,,{\bord0\c&H912E3C&\b1\fax-0.3\frz270.7\move(552.864,41.304,-154.367,41.304,29,4992)}Bỉm dán\h
+Dialogue: 0,0:06:15.22,0:06:20.23,4-normal,,0,0,0,,{\bord0\c&HFAFAF4&\fs60\b1\fax-0.3\move(1660.074,298,952.843,298,29,4992)\frz269.6}Dòng sản phẩm dạng dán\h
+Dialogue: 0,0:06:15.22,0:06:20.23,4-normal,,0,0,0,,{\bord0\c&HFAFAF4&\fs60\b1\fax-0.3\frz270.7\move(286.632,63.217,-420.599,63.217,29,4992)}80 miếng\h
+Dialogue: 0,0:06:15.22,0:06:20.23,4-normal,,0,0,0,,{\bord0\c&H434343&\fs50\b1\fax0.3\frz344.6\move(944.38,548.434,237.149,548.434,29,4992)}\h\hCỡ S - 58 miếng
+Dialogue: 0,0:06:15.22,0:06:20.23,5-normal,,0,0,0,,{\bord0\c&HFAFAF4&\fs50\b1\fax-0.3\move(1511.298,344.956,804.067,344.956,29,4992)\frz269.8}Trẻ sơ sinh\h
+Dialogue: 0,0:06:15.22,0:06:20.23,5-normal,,0,0,0,,{\bord0\c&H5B1F21&\fs50\b1\fax-0.3\move(222.424,767.565,-484.807,767.565,29,4992)\frz272.5}Chi tiết liên hệ\h
+Dialogue: 0,0:06:15.22,0:06:20.23,5-normal,,0,0,0,,{\bord0\c&HFAFAF4&\fs50\b1\fax0.3\frz344\move(980.401,623.565,273.17,623.565,29,4992)}\h\hChú ý khi dùng
+Dialogue: 0,0:06:15.22,0:06:20.23,5-normal,,0,0,0,,{\bord0\c&H554B1B&\fs50\b1\fax0.3\frz344\move(967.872,388.782,260.641,388.782,29,4992)}\h\hBỉm không rò rỉ
+Dialogue: 0,0:06:15.22,0:06:20.23,5-normal,,0,0,0,,{\bord0\c&HFAFAF4&\fs50\b1\fax-0.3\frz270.1\move(1721.151,672.087,1013.92,672.087,29,4992)}Dán\h
+Dialogue: 0,0:06:20.23,0:06:23.73,4-normal,,0,0,0,,{\fax-0.55\bord3\c&HF5F7F8&\3c&HE07CD3&\b1\move(831.046,361.909,615.413,361.909,24,3486)\frz344.5}Khăn{\3c&H92F0A2&} lau{\3c&H8FA3E2&} tay {\3c&HE29990&}miệ{\3c&H9087DE&}ng\h\h
+Dialogue: 0,0:06:20.23,0:06:23.73,5-normal,,0,0,0,,{\fax-0.58\bord5\fs50\c&HFCEBE6&\3c&HA33530&\b1\frz342.4\move(370.622,372.865,154.989,372.865,24,3486)}Không cồn\h\h
+Dialogue: 0,0:06:20.23,0:06:23.73,5-normal,,0,0,0,,{\fax-0.5\c&HAB4B41&\bord0\3c&HF7FFFF&\b1\fs50\move(300.149,449.561,84.516,449.561,24,3486)\frz343.4}Khăn ướt\h\h
+Dialogue: 0,0:06:20.23,0:06:23.73,5-normal,,0,0,0,,{\fax-0.5\fs58\bord8\c&HA03835&\3c&HA33B38&\b1\move(1184.977,590.431,969.344,590.431,24,3486)\frz342.7}Diệt khuẩn\h\h
+Dialogue: 0,0:06:20.23,0:06:23.73,5-normal,,0,0,0,,{\fax-0.5\bord3\fs58\c&HA03835&\3c&HF7FFFF&\b1\move(1184.977,590.431,969.344,590.431,24,3486)\frz342.7}Diệt khuẩn\h\h
+Dialogue: 0,0:06:20.23,0:06:23.73,5-normal,,0,0,0,,{\fax-0.5\fs58\frz341.8\bord3\c&HA03835&\3c&HF7FFFF&\b1\move(1184.977,590.431,969.344,590.431,24,3486)}Diệt khuẩn\h\h
+Dialogue: 0,0:06:20.23,0:06:23.73,5-normal,,0,0,0,,{\fax-0.4\bord8\fs58\fscy80\c&HDBBC7E&\3c&HD5CD9A&\b1\move(1405.793,418.258,1190.16,418.258,24,3486)\frz355.5}Nhiều nước\h\h
+Dialogue: 0,0:06:20.23,0:06:23.73,5-normal,,0,0,0,,{\fax-0.4\bord3\fs58\fscy80\c&HDBBC7E&\3c&HF7FFFF&\b1\frz355.5\move(1405.793,418.258,1190.16,418.258,24,3486)}Nhiều nước\h\h
+Dialogue: 0,0:06:20.23,0:06:23.73,5-normal,,0,0,0,,{\fax-0.68\bord2.5\fs50\c&HFCEBE6&\3c&HB14E50&\b1\frz344.4\move(669.741,174.083,454.108,174.083,24,3486)}Khăn lau miệng, lau tay khi ăn\h\h\h
+Dialogue: 0,0:06:20.23,0:06:23.73,6-normal,,0,0,0,,{\fax-0.5\frz341.8\c&HA03835&\3c&HF7FFFF&\b1\move(859.235,537.213,643.602,537.213,24,3486)} 30 miếng\h\h
+Dialogue: 0,0:06:23.73,0:06:27.99,4-normal,,0,0,0,,{\c&HE3DDE1&\fs50\fax0.4\3c&H8C3C56&\move(1837.6,496.299,2077.435,496.299,27,4243)\frz235.5\b1}\h\hBàn chải đánh răng trẻ em
+Dialogue: 0,0:06:23.73,0:06:27.99,4-normal,,0,0,0,,{\c&H5B575C&\fs50\fax-0.4\3c&HEBE4C3&\move(733.065,980.049,972.9,980.049,27,4243)\frz338.2\b1}Mềm mại\h\h
+Dialogue: 0,0:06:23.73,0:06:27.99,4-normal,,0,0,0,,{\c&H4526A3&\fs50\fax0.37\3c&HD8E3EE&\b1\frz324.3\move(341.47,241.722,581.305,241.722,27,4243)}\h\hNgon tuyệt
+Dialogue: 0,0:06:23.73,0:06:27.99,6-normal,,0,0,0,,{\c&H5E636E&\fs35\bord0\fax0.37\3c&H14192D&\frz338.7\b1\move(744.852,745.722,984.687,745.722,27,4243)}\h\hTúi
+Dialogue: 0,0:06:23.73,0:06:27.99,6-normal,,0,0,0,,{\frz342.5\c&HBDFF85&\fs50\fax-0.4\3c&HAEAD0F&\move(1585.649,157.674,1825.484,157.674,27,4243)\b1}Sáng lóa\h\h
+Dialogue: 0,0:06:23.73,0:06:27.99,6-normal,,0,0,0,,{\frz342.5\c&HE2D1DC&\fax-0.4\fs50\bord3\3c&H9C3D62&\move(1910.711,204.924,2150.546,204.924,27,4243)\b1}Răng sữa\h\h
+Dialogue: 0,0:06:23.73,0:06:27.99,6-normal,,0,0,0,,{\c&H27326B&\fs60\bord0\fax0.37\3c&H14192D&\frz338.7\b1\move(718.659,358.231,958.494,358.231,27,4243)}\h\hTrà lúa mạch trẻ em
+Dialogue: 0,0:08:14.47,0:08:15.97,5-normal,,0,0,0,,{\fad(220,0)\fs40\bord\frz4.052\c&HFCD8FD&\3c&HDA78F4&\pos(833.192,324.513)\b1}Trả lời
+Dialogue: 0,0:08:14.47,0:08:15.97,5-normal,,0,0,0,,{\fad(220,0)\fs40\bord1\frz4.052\c&HF1E6D8&\3c&H776D5C&\pos(846.004,458.292)\b1}Đang làm việc
+Dialogue: 0,0:10:38.49,0:10:41.03,6-normal,,0,0,0,,{\fad(300,0)\bord0\c&H3F3F3F&\fax-0.2\frz335.8\pos(1278.642,773.222)\b1}Vé ưu đãi đặc biệt\h
+Dialogue: 0,0:13:44.71,0:13:56.73,4-normal,,0,0,0,,{\bord0\c&H3E4040&\fs55\move(886.753,651.844,886.753,695.044,30,12000)\b1}Luôn tươi cười
+Dialogue: 0,0:13:44.71,0:13:56.73,4-normal,,0,0,0,,{\bord0\c&H3E4040&\fs55\move(868.417,689.808,868.417,733.008,30,12000)\b1}Làm việc thật chăm
+Dialogue: 0,0:14:25.13,0:14:29.26,4-normal,,0,0,0,,{\frz353.3\fs45\bord0\fax0.1\c&H3E4342&\pos(770.095,737.673)\b1}\hLuôn tươi cười ở quầy
+Dialogue: 0,0:14:25.13,0:14:29.26,4-normal,,0,0,0,,{\frz353.3\fs45\bord0\fax0.1\c&H3E4342&\pos(751.76,769.091)\b1}\hLàm việc thật chăm chỉ
+Dialogue: 0,0:15:34.20,0:15:37.20,6-normal,,0,0,0,,{\bord0\c&H353535&\fs50\fax-0.2\frz294.1\pos(726.876,926.837)\b1}Vé ưu đãi đặc biệt\h
+Dialogue: 0,0:15:34.20,0:15:37.20,6-normal,,0,0,0,,{\bord0\c&H353535&\fs50\fax-0.2\pos(1521.855,848.292)\frz295.6\b1}Vé ưu đãi đặc biệt\h
+Dialogue: 0,0:18:01.72,0:18:04.18,6-normal,,0,0,0,,{\fad(300,300)\bord4\b1\c&H24383F&\3c&H689EAC&\pos(499.824,68.625)}Maou
+Dialogue: 0,0:18:01.72,0:18:04.18,6-normal,,0,0,0,备用,{\fad(300,300)\bord4\b1\c&H24383F&\3c&H689EAC&\pos(499.824,124.916)} Sadao
+Dialogue: 0,0:18:04.56,0:18:05.73,6-normal,,0,0,0,,{\fad(300,00)\bord4\b1\c&H24383F&\3c&H689EAC&\pos(499.824,68.625)}Ashiya
+Dialogue: 0,0:18:04.56,0:18:05.73,6-normal,,0,0,0,备用,{\fad(300,00)\bord4\b1\c&H24383F&\3c&H689EAC&\pos(499.824,124.916)}Shirou
+Dialogue: 0,0:19:52.71,0:19:54.46,4-normal,,0,0,0,,{\fax-0.08\fs50\bord0\c&H8B705A&\b1\pos(621.623,193.091)\frz5.2}Ga Suidoubashi {\b1\fs45}(Cổng Tây)\h
+Dialogue: 0,0:19:54.46,0:19:56.75,4-normal,,0,0,0,,{\fax-0.08\blur3\bord3\c&H4E65BD&\3c&H243476&\move(256.155,100.622,256.155,400.799,24,2276)\b1\frz6.523}Điểm dừng Meieki - Tsudanuma\h
+Dialogue: 0,0:00:04.90,0:00:06.61,Default,,0,0,0,,Bình tĩnh nào Alas Ramus.
+Dialogue: 0,0:00:06.61,0:00:09.52,Default,,0,0,0,,Cả anh lẫn chị này\Nđều không phải bố mẹ của em...
+Dialogue: 0,0:00:09.52,0:00:12.03,Default,,0,0,0,,- Hông chịu! Satan Papa cơ!
+Dialogue: 0,0:00:12.03,0:00:14.66,Default,,0,0,0,,- Nên làm gì đây? Này, Emi!\N- Hông chịu! Satan Papa cơ!
+Dialogue: 0,0:00:14.66,0:00:16.53,Default,,0,0,0,,N-Ngươi hỏi nên làm gì á?
+Dialogue: 0,0:00:17.20,0:00:19.08,Default,,0,0,0,,Mama.
+Dialogue: 0,0:00:26.08,0:00:27.92,Default,,0,0,0,,Đừng có nhìn như vậy mà.
+Dialogue: 0,0:00:27.92,0:00:30.13,Default,,0,0,0,,Cô bé này đỡ được Thánh Kiếm đó?
+Dialogue: 0,0:00:30.13,0:00:33.05,Default,,0,0,0,,Chắc không phải\Nmột đứa bé như vẻ bề ngoài đâu!
+Dialogue: 0,0:00:33.05,0:00:36.39,Default,,0,0,0,,Nhưng dù có nói vậy thì cũng chẳng\Nthay đổi được gì trong tình huống này.
+Dialogue: 0,0:00:36.39,0:00:40.01,Default,,0,0,0,,Nghĩ cho cảm xúc của đứa bé này đi,\Nnó đang quấn Emilia như quấn một người mẹ đó!
+Dialogue: 0,0:00:40.01,0:00:42.89,Default,,0,0,0,,Đừng tùy tiện nói như thể\Nđây là việc của người ta thế chứ!
+Dialogue: 0,0:00:42.89,0:00:44.64,Default,,0,0,0,,Tốt quá rồi còn gì, chị Yusa.
+Dialogue: 0,0:00:44.64,0:00:47.06,Default,,0,0,0,,Nếu được thì em cũng muốn thế chỗ chị lắm.
+Dialogue: 0,0:00:47.06,0:00:50.27,Default,,0,0,0,,Chị đang lờ mờ thấy\Nbé Chiho có ý đồ khác đấy.
+Dialogue: 0,0:00:53.61,0:00:55.49,Default,,0,0,0,,Ôi trời.
+Dialogue: 0,0:00:55.61,0:00:58.24,Default,,0,0,0,,Đã bảo chị không phải Mama của em mà...
+Dialogue: 0,0:01:02.91,0:01:04.37,Default,,0,0,0,,Mama.
+Dialogue: 0,0:01:04.37,0:01:07.83,Default,,0,0,0,,Trời ạ, hết cách rồi ha.
+Dialogue: 0,0:02:40.01,0:02:42.26,Default,,0,0,0,,Đây sẽ là một đứa bé sơ sinh bình thường
+Dialogue: 0,0:02:42.26,0:02:44.26,Default,,0,0,0,,nếu như không có vụ quả táo đó nhỉ.
+Dialogue: 0,0:02:45.22,0:02:46.43,Default,,0,0,0,,Chọt chọt.
+Dialogue: 0,0:02:46.43,0:02:49.10,Default,,0,0,0,,Thôi ngay đi!\NTốn bao công em nó mới ngủ đấy!
+Dialogue: 0,0:02:49.10,0:02:52.94,Default,,0,0,0,,Này, sao cô bé này\Nlại nói "Papa là Satan" nhỉ?
+Dialogue: 0,0:02:53.23,0:02:55.02,Default,,0,0,0,,Chẳng phải là do dấu ấn in vào tâm trí sao?
+Dialogue: 0,0:02:55.02,0:02:59.24,Default,,0,0,0,,Em ấy nghĩ hai người đầu tiên em ấy\Nthấy kể từ khi sinh ra từ quả táo là bố mẹ nhỉ?
+Dialogue: 0,0:02:59.61,0:03:00.86,Default,,0,0,0,,Ý không phải thế.
+Dialogue: 0,0:03:00.86,0:03:03.06,Default,,0,0,0,,Đang nói về việc khi\Nvừa thấy bóng dáng của Maou
+Dialogue: 0,0:03:03.09,0:03:05.28,Default,,0,0,0,,sao nó đã biết\Nđể mà gọi là "Satan" cơ!
+Dialogue: 0,0:03:05.78,0:03:10.21,Default,,0,0,0,,Ý ngươi là nó từng nghe thấy\Nai đó gọi ta là "Satan" đúng không.
+Dialogue: 0,0:03:10.21,0:03:13.46,Default,,0,0,0,,Và người đó đã ngụy trang\Ncho Alas Ramus
+Dialogue: 0,0:03:13.49,0:03:16.75,Default,,0,0,0,,dưới hình dạng quả táo và gửi\Nđến chỗ của Đại Vương.
+Dialogue: 0,0:03:17.09,0:03:17.80,Default,,0,0,0,,Ừ.
+Dialogue: 0,0:03:17.80,0:03:21.47,Default,,0,0,0,,Vậy là anh Maou thừa nhận\NAlas Ramus là con của mình phải không?
+Dialogue: 0,0:03:21.47,0:03:22.88,Default,,0,0,0,,Bé Chi ơi bé Chi!
+Dialogue: 0,0:03:22.88,0:03:24.76,Default,,0,0,0,,Tại cách dùng từ sinh động quá đó!
+Dialogue: 0,0:03:25.39,0:03:28.18,Default,,0,0,0,,Không biết là kẻ thù hay đồng minh nữa,
+Dialogue: 0,0:03:28.18,0:03:30.64,Default,,0,0,0,,nhưng người đó sẽ đến đây\Ntrong một ngày không xa ha.
+Dialogue: 0,0:03:31.81,0:03:33.77,Default,,0,0,0,,Không lẽ lại là tên Sariel?
+Dialogue: 0,0:03:33.77,0:03:36.86,Default,,0,0,0,,Không, có lẽ không liên quan\Nđến ngài Sariel đâu.
+Dialogue: 0,0:03:36.86,0:03:40.32,Default,,0,0,0,,Vốn dĩ thì "Alas Ramus"\Ncũng không phải từ ngữ của Thiên Giới.
+Dialogue: 0,0:03:40.32,0:03:43.11,Default,,0,0,0,,Nó là từ ngữ được sử dụng\Nbởi con người ở Ente Isla.
+Dialogue: 0,0:03:43.70,0:03:46.70,Default,,0,0,0,,"Alas" là "Cánh". "Ramus" là "Cành".
+Dialogue: 0,0:03:46.70,0:03:51.04,Default,,0,0,0,,Nói cách khác, cha mẹ đỡ đầu đặt tên\Ncho đứa bé này đang ở đâu đó ở Ente Isla.
+Dialogue: 0,0:03:51.04,0:03:54.21,Default,,0,0,0,,Chúng ta phải ôm thêm một\Nđứa bé Alas Ramus lai lịch bất minh
+Dialogue: 0,0:03:54.21,0:03:57.92,Default,,0,0,0,,và đợi kẻ gửi nó đến\Ndù chẳng biết đấy là bạn hay thù à?
+Dialogue: 0,0:03:58.21,0:04:03.55,Default,,0,0,0,,Rốt cuộc thì vẫn phải trở lại với câu hỏi\Nai sẽ là người chăm sóc đứa bé này thôi.
+Dialogue: 0,0:04:04.22,0:04:08.43,Default,,0,0,0,,Ta sống một mình, còn phải\Nđi làm nên không nhận được đâu.
+Dialogue: 0,0:04:08.72,0:04:12.27,Default,,0,0,0,,Nhưng bọn ta mà nhận em ấy\Nthì kinh tế của cái nhà này tàn mất.
+Dialogue: 0,0:04:12.27,0:04:14.56,Default,,0,0,0,,Hơn nữa còn là ba thằng đàn ông.
+Dialogue: 0,0:04:14.56,0:04:17.48,Default,,0,0,0,,Lựa chọn không phù hợp nhất để\Nchăm sóc cho một đứa bé sơ sinh!
+Dialogue: 0,0:04:17.52,0:04:19.02,Default,,0,0,0,,Xin lỗi ạ.
+Dialogue: 0,0:04:19.02,0:04:23.45,Default,,0,0,0,,Em cũng muốn giúp lắm nhưng\Nchẳng nghĩ ra được lý do gì để bố mẹ hiểu.
+Dialogue: 0,0:04:23.45,0:04:26.03,Default,,0,0,0,,Tôi thì không phiền\Nkhi nhận đứa bé này đâu.
+Dialogue: 0,0:04:26.03,0:04:29.45,Default,,0,0,0,,Tôi cũng có kinh nghiệm chăm sóc\Ncho nhiều trẻ con trong giáo hội mà.
+Dialogue: 0,0:04:34.16,0:04:36.83,Default,,0,0,0,,Anh Maou, có chuyện gì à?
+Dialogue: 0,0:04:36.83,0:04:38.17,Default,,0,0,0,,À không...
+Dialogue: 0,0:04:38.17,0:04:40.55,Default,,0,0,0,,Có vài việc anh không tài nào lý giải nổi.
+Dialogue: 0,0:04:41.84,0:04:43.09,Default,,0,0,0,,Quyết rồi!
+Dialogue: 0,0:04:43.72,0:04:46.38,Default,,0,0,0,,Ma Vương Điện sẽ là\Nnơi bảo hộ cho Alas Ramus.
+Dialogue: 0,0:04:48.09,0:04:50.68,Default,,0,0,0,,Vậy cậu tỏ tình rồi chứ?
+Dialogue: 0,0:04:50.68,0:04:51.39,Default,,0,0,0,,Với cái anh Maou ở chỗ làm đúng không nhỉ?
+Dialogue: 0,0:04:51.39,0:04:53.60,Default,,0,0,0,,Với cái anh Maou ở chỗ làm đúng không nhỉ?
+Dialogue: 0,0:04:53.60,0:04:57.06,Default,,0,0,0,,Ừ, tỏ tình rồi nhưng\Nvẫn chưa nhận được câu trả lời...
+Dialogue: 0,0:04:58.36,0:05:00.61,Default,,0,0,0,,Tức là vẫn chưa đủ bạo nhỉ?
+Dialogue: 0,0:05:00.61,0:05:02.57,Default,,0,0,0,,Bạo ấy à?
+Dialogue: 0,0:05:02.57,0:05:05.40,Default,,0,0,0,,Bé Chi là một người đàn em\Nvà cấp dưới mà ta rất trân trọng!
+Dialogue: 0,0:05:05.40,0:05:09.78,Default,,0,0,0,,Là Ma Vương và một người quản lý ca,\Nta sẽ bảo vệ cấp dưới của mình!
+Dialogue: 0,0:05:10.24,0:05:14.58,Default,,0,0,0,,Rốt cuộc bất kể thế nào thì tớ vẫn\Nchỉ là một đứa nhận được sự bảo vệ,
+Dialogue: 0,0:05:14.58,0:05:16.75,Default,,0,0,0,,chẳng thể sánh được với anh ấy nhỉ.
+Dialogue: 0,0:05:16.75,0:05:20.04,Default,,0,0,0,,Sẽ ổn thôi, Sasachi rất đáng tin cậy mà.
+Dialogue: 0,0:05:20.04,0:05:21.17,Default,,0,0,0,,Được!
+Dialogue: 0,0:05:21.17,0:05:24.09,Default,,0,0,0,,Vậy hoạt động câu lạc bộ xong,\Nchúng ta đến Mg họp chiến lược thôi!
+Dialogue: 0,0:05:24.09,0:05:26.72,Default,,0,0,0,,À, hôm nay tớ có chút việc rồi.
+Dialogue: 0,0:05:40.61,0:05:43.19,Default,,0,0,0,,Chào em, Sasaki.
+Dialogue: 0,0:05:43.19,0:05:45.49,Default,,0,0,0,,Tình hình hiện vẫn ổn chứ ạ?
+Dialogue: 0,0:05:45.49,0:05:49.03,Default,,0,0,0,,Ừ, em ấy vừa thiếp đi lúc nãy.
+Dialogue: 0,0:05:49.32,0:05:51.32,Default,,0,0,0,,Làm phiền cả nhà.
+Dialogue: 0,0:05:51.32,0:05:54.58,Default,,0,0,0,,Đêm qua phải dỗ Alas Ramus khóc dạ đề...
+Dialogue: 0,0:05:54.58,0:05:56.84,Default,,0,0,0,,Đại Vương và anh đã\Ncố gắng ru con bé nhưng
+Dialogue: 0,0:05:56.86,0:05:59.12,Default,,0,0,0,,nó cứ khóc hoài và\Nchẳng có vẻ gì là sẽ nín.
+Dialogue: 0,0:05:59.12,0:06:01.46,Default,,0,0,0,,Cứ hỏi Mama đâu, Mama đâu rồi.
+Dialogue: 0,0:06:01.46,0:06:03.42,Default,,0,0,0,,Chuyện đồ ăn thì sao ạ?
+Dialogue: 0,0:06:03.42,0:06:06.46,Default,,0,0,0,,Anh đã nấu nhừ mì Udon ra,\Nem ấy ăn ngoan lắm.
+Dialogue: 0,0:06:06.46,0:06:09.59,Default,,0,0,0,,Xem chừng là hấp thụ được\Nthức ăn của con người.
+Dialogue: 0,0:06:09.93,0:06:11.39,Default,,0,0,0,,Vậy ạ.
+Dialogue: 0,0:06:11.39,0:06:12.26,Default,,0,0,0,,À, mấy cái này...
+Dialogue: 0,0:06:12.26,0:06:15.22,Default,,0,0,0,,Trước mắt thì em đã mua\Nbất cứ thứ gì mà em có thể nghĩ ra.
+Dialogue: 0,0:06:15.68,0:06:17.31,Default,,0,0,0,,Đây là tất cả các loại bỉm.
+Dialogue: 0,0:06:17.31,0:06:20.19,Default,,0,0,0,,Hãy thử thật nhiều loại rồi chọn\Ncái phù hợp nhất cho em ấy ạ.
+Dialogue: 0,0:06:20.48,0:06:23.69,Default,,0,0,0,,Còn nữa, đây là khăn ướt\Nkhử trùng dùng khi bị bẩn.
+Dialogue: 0,0:06:24.15,0:06:27.82,Default,,0,0,0,,Bàn chải đánh răng cho trẻ con,\Ntrà lúa mạch cho trẻ con và cốc có ống hút.
+Dialogue: 0,0:06:28.19,0:06:31.03,Default,,0,0,0,,Thật sự cảm ơn Sasaki vì\Nđã giúp đỡ bọn anh rất nhiều.
+Dialogue: 0,0:06:31.03,0:06:34.99,Default,,0,0,0,,Ashiya này không thể nghĩ ra\Nlời nào để bày tỏ hết lòng thành.
+Dialogue: 0,0:06:34.99,0:06:37.20,Default,,0,0,0,,Không to tát tới mức ấy đâu.
+Dialogue: 0,0:06:37.20,0:06:39.37,Default,,0,0,0,,Không, nếu Sasaki bằng lòng\Nthì anh muốn đề cử em
+Dialogue: 0,0:06:39.37,0:06:45.25,Default,,0,0,0,,làm Đại Nguyên Soái của Quân Đội Ma Vương mới\Nkhi Đại Vương lên nắm quyền tại Nhật Bản!
+Dialogue: 0,0:06:45.63,0:06:46.96,Default,,0,0,0,,Cái đó thì thôi em xin kiếu.
+Dialogue: 0,0:06:46.96,0:06:51.09,Default,,0,0,0,,Em dùng tiền của anh Maou\Nđưa cho mua những thứ cần thiết thôi mà.
+Dialogue: 0,0:06:51.09,0:06:53.72,Default,,0,0,0,,Hơn nữa, em cũng thấy hơi vui vui.
+Dialogue: 0,0:06:54.39,0:06:56.97,Default,,0,0,0,,Với cả... à thì...
+Dialogue: 0,0:06:56.97,0:06:59.81,Default,,0,0,0,,Một ngày nào đó em mà được...
+Dialogue: 0,0:06:59.81,0:07:02.40,Default,,0,0,0,,Với anh Maou thì... tốt biết mấy...
+Dialogue: 0,0:07:02.81,0:07:03.90,Default,,0,0,0,,Sasaki này.
+Dialogue: 0,0:07:03.90,0:07:06.90,Default,,0,0,0,,Không, không có gì, không có gì hết á!
+Dialogue: 0,0:07:08.49,0:07:11.91,Default,,0,0,0,,Alciel, cơm hộp và nước tăng lực\Nanh nhờ tôi mua đây.
+Dialogue: 0,0:07:12.70,0:07:14.74,Default,,0,0,0,,Tôi không cảm ơn cô đâu, Bell!
+Dialogue: 0,0:07:15.33,0:07:16.20,Default,,0,0,0,,Bao nhiêu?
+Dialogue: 0,0:07:16.79,0:07:20.58,Default,,0,0,0,,Anh Ashiya cũng phải xì tiền\Nra mua cơm hộp Orion về ăn ư?
+Dialogue: 0,0:07:21.33,0:07:22.79,Default,,0,0,0,,Ơ, cơm hả?
+Dialogue: 0,0:07:23.00,0:07:24.88,Default,,0,0,0,,Câm miệng đi, tên ăn bám!
+Dialogue: 0,0:07:26.17,0:07:27.59,Default,,0,0,0,,Anh Ashiya!
+Dialogue: 0,0:07:28.30,0:07:31.05,Default,,0,0,0,,Quả khóc dạ đề đêm qua\Nthật ngoài sức tưởng tượng.
+Dialogue: 0,0:07:31.05,0:07:35.01,Default,,0,0,0,,Ngay cả tôi, nằm cách một bức tường\Nmà cũng bị đánh thức không biết bao nhiêu lần.
+Dialogue: 0,0:07:35.01,0:07:36.60,Default,,0,0,0,,Papa.
+Dialogue: 0,0:07:37.89,0:07:39.93,Default,,0,0,0,,Papa.
+Dialogue: 0,0:07:40.93,0:07:41.89,Default,,0,0,0,,Lại nữa.
+Dialogue: 0,0:07:43.14,0:07:46.15,Default,,0,0,0,,Emi, có điều gì khiến cậu bận tâm à?
+Dialogue: 0,0:07:46.36,0:07:47.15,Default,,0,0,0,,Hả?
+Dialogue: 0,0:07:47.15,0:07:50.82,Default,,0,0,0,,Tại thấy cậu cứ nheo mày\Nsuốt từ sáng ấy mà.
+Dialogue: 0,0:07:50.82,0:07:53.41,Default,,0,0,0,,Lại là chuyện về Maou hả,\Ncó xích mích gì à?
+Dialogue: 0,0:07:53.78,0:07:55.91,Default,,0,0,0,,Sao trông cậu có vẻ vui thế?
+Dialogue: 0,0:07:57.03,0:08:00.54,Default,,0,0,0,,Rắc rối lần này đặt tớ vào\Nhoàn cảnh khó lòng có thể lờ đi được.
+Dialogue: 0,0:08:00.54,0:08:02.62,Default,,0,0,0,,Chuyện liên quan đến một đứa nhỏ.
+Dialogue: 0,0:08:02.83,0:08:04.58,Default,,0,0,0,,Con của Emi và Maou à?
+Dialogue: 0,0:08:05.21,0:08:07.54,Default,,0,0,0,,Chính con bé tự nói vậy thôi.
+Dialogue: 0,0:08:07.54,0:08:08.34,Default,,0,0,0,,Ơ.
+Dialogue: 0,0:08:08.34,0:08:10.26,Default,,0,0,0,,Hả, là thật ư?
+Dialogue: 0,0:08:10.26,0:08:13.55,Default,,0,0,0,,N-Nhầm rồi. Không phải vậy, à thì...
+Dialogue: 0,0:08:13.55,0:08:14.51,Default,,0,0,0,,Cũng không sai... mà không phải đâu!
+Dialogue: 0,0:08:14.51,0:08:15.97,Default,,0,0,0,,Cũng không sai... mà không phải đâu!
+Dialogue: 0,0:08:17.30,0:08:18.93,Default,,0,0,0,,Cảm ơn vì đã gọi đến.
+Dialogue: 0,0:08:18.93,0:08:21.64,Default,,0,0,0,,Tôi là Yusa thuộc trung tâm\Ntư vấn khách hàng của Docodemo.
+Dialogue: 0,0:08:21.93,0:08:23.64,Default,,0,0,0,,Vậy là được rồi.
+Dialogue: 0,0:08:24.02,0:08:25.56,Default,,0,0,0,,Tay nghề thật điêu luyện!
+Dialogue: 0,0:08:25.56,0:08:29.02,Default,,0,0,0,,Quả nhiên anh không thể\Nsánh ngang được với Sasaki.
+Dialogue: 0,0:08:29.02,0:08:32.28,Default,,0,0,0,,Thật lấy làm xấu hổ khi được\Nngười ta tâng bốc và gọi là một vị tướng tài.
+Dialogue: 0,0:08:32.65,0:08:36.07,Default,,0,0,0,,Em từng chăm sóc cho con của anh họ thôi.
+Dialogue: 0,0:08:36.07,0:08:39.20,Default,,0,0,0,,Nhỉ, bé không muốn bị bẩn đâu nhỉ.
+Dialogue: 0,0:08:39.20,0:08:42.58,Default,,0,0,0,,Chút nữa cả Papa và Mama sẽ về với bé nhé.
+Dialogue: 0,0:08:42.58,0:08:44.00,Default,,0,0,0,,Ngoan ngoãn đợi nha.
+Dialogue: 0,0:08:44.00,0:08:44.83,Default,,0,0,0,,Ạ!
+Dialogue: 0,0:08:45.08,0:08:47.38,Default,,0,0,0,,Chị tên là Chiho.
+Dialogue: 0,0:08:48.04,0:08:49.29,Default,,0,0,0,,Chio?
+Dialogue: 0,0:08:49.29,0:08:50.71,Default,,0,0,0,,Chi-Ho!
+Dialogue: 0,0:08:50.71,0:08:53.59,Default,,0,0,0,,Papa của em ấy mà,\Nanh ấy gọi chị là bé Chi.
+Dialogue: 0,0:08:54.38,0:08:55.68,Default,,0,0,0,,Pé Chi?
+Dialogue: 0,0:08:55.68,0:08:57.26,Default,,0,0,0,,Nào Alas Ramus.
+Dialogue: 0,0:08:57.26,0:09:00.22,Default,,0,0,0,,Cô Chiho đây như là\Nmột người chị của em vậy.
+Dialogue: 0,0:09:00.22,0:09:02.47,Default,,0,0,0,,Gọi là "Bé Chi" thì tùy tiện quá.
+Dialogue: 0,0:09:04.23,0:09:05.64,Default,,0,0,0,,Để coi...
+Dialogue: 0,0:09:05.64,0:09:07.27,Default,,0,0,0,,Thử gọi là "Chị Chiho" đi.
+Dialogue: 0,0:09:07.90,0:09:09.56,Default,,0,0,0,,Chio... Chi...
+Dialogue: 0,0:09:10.23,0:09:11.48,Default,,0,0,0,,Chị...
+Dialogue: 0,0:09:11.94,0:09:13.11,Default,,0,0,0,,Chị Chi!
+Dialogue: 0,0:09:13.11,0:09:14.99,Default,,0,0,0,,Dễ thương quá đi mất.
+Dialogue: 0,0:09:14.99,0:09:17.70,Default,,0,0,0,,Chị Chi! Chị Chi!
+Dialogue: 0,0:09:19.16,0:09:21.66,Default,,0,0,0,,Còn chị bên này là chị Suzuno.
+Dialogue: 0,0:09:23.08,0:09:24.16,Default,,0,0,0,,Chị Suzu!
+Dialogue: 0,0:09:24.37,0:09:25.96,Default,,0,0,0,,Chị Suzu...
+Dialogue: 0,0:09:25.96,0:09:29.96,Default,,0,0,0,,Không... mà thôi, cũng chẳng phiền gì.
+Dialogue: 0,0:09:30.59,0:09:31.92,Default,,0,0,0,,Chị Chi!
+Dialogue: 0,0:09:31.92,0:09:33.17,Default,,0,0,0,,Chị Suzu!
+Dialogue: 0,0:09:33.17,0:09:35.47,Default,,0,0,0,,Ôi, dễ thương quá trời!
+Dialogue: 0,0:09:35.47,0:09:37.72,Default,,0,0,0,,Đ-Đừng gọi liên tục như vậy.
+Dialogue: 0,0:09:37.72,0:09:40.35,Default,,0,0,0,,Không, đừng nhìn bằng ánh mắt đó.
+Dialogue: 0,0:09:40.35,0:09:43.01,Default,,0,0,0,,Thật xảo quyệt! Không dễ thương gì hết!
+Dialogue: 0,0:09:43.35,0:09:45.64,Default,,0,0,0,,Đầu óc đơn giản quá ha.
+Dialogue: 0,0:09:46.35,0:09:48.23,Default,,0,0,0,,Họ hàng của Maou?
+Dialogue: 0,0:09:48.56,0:09:50.48,Default,,0,0,0,,Tớ không biết rõ chi tiết đâu.
+Dialogue: 0,0:09:50.48,0:09:53.61,Default,,0,0,0,,Nói chung là tớ đột nhiên\Nbị đứa bé đó gọi là Mama.
+Dialogue: 0,0:09:54.19,0:09:56.11,Default,,0,0,0,,Vậy thì đau đầu thật đấy.
+Dialogue: 0,0:09:56.11,0:10:00.41,Default,,0,0,0,,Quấn cậu thì đã đành,\Nđây lại còn nhận nhầm là mẹ ư?
+Dialogue: 0,0:10:00.70,0:10:03.66,Default,,0,0,0,,Những việc người ngoài\Ncó thể làm là có giới hạn,
+Dialogue: 0,0:10:03.66,0:10:07.04,Default,,0,0,0,,nên đã giúp thì phải theo tới cùng,\Nnếu không thì đừng xen vào nữa nhé.
+Dialogue: 0,0:10:07.66,0:10:08.67,Default,,0,0,0,,Nhưng mà...
+Dialogue: 0,0:10:08.67,0:10:10.79,Default,,0,0,0,,Hôm nay tớ lỡ bảo là sẽ ghé qua rồi.
+Dialogue: 0,0:10:10.79,0:10:13.96,Default,,0,0,0,,Này, cậu hoàn toàn\Nsẵn lòng giúp họ rồi đấy hả?
+Dialogue: 0,0:10:14.50,0:10:17.76,Default,,0,0,0,,Tớ cũng không định\Nthương xót đứa bé hay gì...
+Dialogue: 0,0:10:17.76,0:10:22.47,Default,,0,0,0,,Tớ chỉ nghĩ, nếu con bé có một khoảng\Nthời gian vui vẻ khi ở đây thì tốt biết mấy nhỉ.
+Dialogue: 0,0:10:22.80,0:10:25.68,Default,,0,0,0,,Emi vẫn luôn sắm vai\Nngười tốt bất kể thiệt hơn nhỉ.
+Dialogue: 0,0:10:25.68,0:10:27.56,Default,,0,0,0,,Cơ mà tình cảm là thứ dễ lây lan lắm.
+Dialogue: 0,0:10:27.56,0:10:31.65,Default,,0,0,0,,Đến lúc kết con bé quá rồi thì đừng\Ncó buồn khi nó trở về với bố mẹ ruột đấy.
+Dialogue: 0,0:10:32.56,0:10:34.44,Default,,0,0,0,,Ừ, tớ xin khắc cốt ghi tâm.
+Dialogue: 0,0:10:34.86,0:10:36.28,Default,,0,0,0,,Đúng rồi.
+Dialogue: 0,0:10:36.28,0:10:38.03,Default,,0,0,0,,Nếu đang nghĩ cách tạo kỉ niệm với bé
+Dialogue: 0,0:10:38.03,0:10:39.32,Default,,0,0,0,,thì dùng cái này cũng được ha.
+Dialogue: 0,0:10:39.32,0:10:41.03,Default,,0,0,0,,Vé ưu đãi vào công viên giải trí đó.
+Dialogue: 0,0:10:41.03,0:10:45.37,Default,,0,0,0,,Bất kì nhân viên nào cũng có thể dùng cái\Nvé này kể từ khi Docodemo đầu tư vào nơi đó.
+Dialogue: 0,0:10:49.79,0:10:51.04,Default,,0,0,0,,Papa.
+Dialogue: 0,0:10:51.04,0:10:52.83,Default,,0,0,0,,Đến gặp Papa nè.
+Dialogue: 0,0:10:52.83,0:10:54.04,Default,,0,0,0,,Khoan...
+Dialogue: 0,0:10:55.13,0:10:57.34,Default,,0,0,0,,Hả, sao lại dẫn tới đây?
+Dialogue: 0,0:10:57.34,0:10:58.84,Default,,0,0,0,,Đùa không vui đâu nha!
+Dialogue: 0,0:10:58.84,0:11:00.13,Default,,0,0,0,,Xin lỗi ạ.
+Dialogue: 0,0:11:00.13,0:11:04.39,Default,,0,0,0,,Em nghĩ nếu đi dạo thì sẽ có thể thay đổi\Ntâm trạng và biết đâu nhớ lại được gì đó...
+Dialogue: 0,0:11:04.39,0:11:06.51,Default,,0,0,0,,Và chắc em ấy cũng muốn\Nsớm được gặp "Papa".
+Dialogue: 0,0:11:06.51,0:11:08.27,Default,,0,0,0,,Papa! Papa!
+Dialogue: 0,0:11:08.27,0:11:10.23,Default,,0,0,0,,Xin đấy, đừng gọi liên tục như vậy!
+Dialogue: 0,0:11:10.23,0:11:12.15,Default,,0,0,0,,Con của cậu Ma và bé Chi hả?
+Dialogue: 0,0:11:12.15,0:11:12.81,Default,,0,0,0,,Còn lâu!
+Dialogue: 0,0:11:12.81,0:11:15.06,Default,,0,0,0,,Nếu có thật thì tôi sẽ hạ sát Maou!
+Dialogue: 0,0:11:15.06,0:11:16.44,Default,,0,0,0,,Chôn cậu ta luôn!
+Dialogue: 0,0:11:16.44,0:11:19.74,Default,,0,0,0,,Quan trọng hơn, chị Kisaki đâu rồi?\NNếu chị ấy nghe được chuyện này thì...
+Dialogue: 0,0:11:20.53,0:11:22.66,Default,,0,0,0,,Cậu Ma!!!
+Dialogue: 0,0:11:23.11,0:11:25.20,Default,,0,0,0,,Nếu tai mắt của chị vẫn bình thường
+Dialogue: 0,0:11:25.20,0:11:30.20,Default,,0,0,0,,thì có phải bé gái mà bé Chi dẫn đến\Nmới gọi cậu là "Papa" đúng không nhỉ?
+Dialogue: 0,0:11:30.20,0:11:31.83,Default,,0,0,0,,Hả?
+Dialogue: 0,0:11:31.83,0:11:33.37,Default,,0,0,0,,Đúng là vậy ạ!
+Dialogue: 0,0:11:33.37,0:11:36.84,Default,,0,0,0,,Không nhầm thì em là\Nbạn của Maou và Sasaki...
+Dialogue: 0,0:11:36.84,0:11:38.63,Default,,0,0,0,,Tên là Kamazuki đúng không nhỉ?
+Dialogue: 0,0:11:38.84,0:11:42.26,Default,,0,0,0,,Cho chị mượn Sasaki một lát nhé?
+Dialogue: 0,0:11:43.01,0:11:45.72,Default,,0,0,0,,E-Em... không phiền gì đâu ạ.
+Dialogue: 0,0:11:45.72,0:11:46.85,Default,,0,0,0,,Thật ngại quá.
+Dialogue: 0,0:11:47.39,0:11:50.73,Default,,0,0,0,,Này cậu Ma, đưa Kamazuki ra chỗ ngồi đi.
+Dialogue: 0,0:11:51.14,0:11:53.81,Default,,0,0,0,,Bé Chi, để chị bế đứa bé cho.
+Dialogue: 0,0:11:55.69,0:11:59.32,Default,,0,0,0,,Xin lỗi, có vẻ đây là\Nmột ý tưởng nông nổi nhỉ.
+Dialogue: 0,0:11:59.32,0:12:03.20,Default,,0,0,0,,À không, vì nghĩ cho Alas Ramus\Nnên các em mới làm vậy mà.
+Dialogue: 0,0:12:03.20,0:12:04.95,Default,,0,0,0,,Anh không có phàn nàn gì hết.
+Dialogue: 0,0:12:07.28,0:12:10.37,Default,,0,0,0,,Trời cao đã bỏ rơi ta rồi sao?
+Dialogue: 0,0:12:10.37,0:12:14.58,Default,,0,0,0,,Trái tim của Nữ Thần Vĩnh Cửu của ta\Nđã bị một gã đàn ông khác chiếm giữ...
+Dialogue: 0,0:12:14.58,0:12:16.67,Default,,0,0,0,,Và đó là kết tinh của tình yêu ư?
+Dialogue: 0,0:12:16.88,0:12:18.67,Default,,0,0,0,,À, Suzuno, giao cho em nhé.
+Dialogue: 0,0:12:18.67,0:12:20.21,Default,,0,0,0,,Ơ, này!
+Dialogue: 0,0:12:20.21,0:12:23.80,Default,,0,0,0,,Crestia Bell, đây là giấc mơ ư?\NHãy nói đây là giấc mơ đi!
+Dialogue: 0,0:12:24.18,0:12:28.30,Default,,0,0,0,,Ngài Sariel không biết manh mối gì\Nvề xuất thân của đứa bé sơ sinh đó nhỉ.
+Dialogue: 0,0:12:28.30,0:12:32.02,Default,,0,0,0,,Nếu xuất thân của cô bé ấy\Nlà từ ta mà ra thì thật tốt biết bao!
+Dialogue: 0,0:12:32.89,0:12:37.86,Default,,0,0,0,,Liệu xã hội sẽ nghĩ thế nào\Nkhi thấy một nữ sinh cấp ba
+Dialogue: 0,0:12:37.86,0:12:41.07,Default,,0,0,0,,ra vào nhà một người con trai\Nvà chăm sóc cho một đứa trẻ con hả?
+Dialogue: 0,0:12:42.53,0:12:46.49,Default,,0,0,0,,N-Nhưng anh Maou\Nkhông còn ai khác để nhờ cả.
+Dialogue: 0,0:12:46.49,0:12:48.32,Default,,0,0,0,,Thật sự bọn em không có gì đâu ạ.
+Dialogue: 0,0:12:48.57,0:12:51.29,Default,,0,0,0,,Có lẽ bé Chi vẫn chưa hiểu nhỉ.
+Dialogue: 0,0:12:51.29,0:12:53.70,Default,,0,0,0,,Nhưng mà nhé, "Người đời"\Nluôn đưa ra kết luận
+Dialogue: 0,0:12:53.72,0:12:56.46,Default,,0,0,0,,vội vàng và nông cạn,\Nlời chỉ trích thì lan nhanh.
+Dialogue: 0,0:12:56.46,0:12:59.46,Default,,0,0,0,,Còn những điều tồi tệ\Nthì muôn hình muôn vẻ.
+Dialogue: 0,0:13:01.13,0:13:03.09,Default,,0,0,0,,Mùi giống Papa.
+Dialogue: 0,0:13:03.72,0:13:06.01,Default,,0,0,0,,Thế hả, giống à?
+Dialogue: 0,0:13:06.01,0:13:07.68,Default,,0,0,0,,Chắc là mùi khoai tây nhỉ.
+Dialogue: 0,0:13:10.22,0:13:11.68,Default,,0,0,0,,Khi bị nói như vậy,
+Dialogue: 0,0:13:11.68,0:13:14.27,Default,,0,0,0,,những người trẻ tuổi cũng\Nsẽ nông cạn hệt như người đời
+Dialogue: 0,0:13:14.27,0:13:17.06,Default,,0,0,0,,và cãi lại "Người đời thì\Nbiết gì về bọn tôi chứ?".
+Dialogue: 0,0:13:17.06,0:13:19.73,Default,,0,0,0,,Riêng việc không cự cãi\Nlà hai đứa đã rất ra dáng rồi đó.
+Dialogue: 0,0:13:19.73,0:13:24.32,Default,,0,0,0,,Em còn chưa biết gì về xã hội này nên\Nem không nghĩ mình có thể nói ra những câu đó.
+Dialogue: 0,0:13:25.78,0:13:28.45,Default,,0,0,0,,Nói được vậy thì cậu cũng\Ntrưởng thành được một nửa rồi.
+Dialogue: 0,0:13:28.87,0:13:31.49,Default,,0,0,0,,Cậu Ma, nay cậu có thể về.
+Dialogue: 0,0:13:32.24,0:13:34.16,Default,,0,0,0,,Ơ, không, nhưng mà...
+Dialogue: 0,0:13:34.62,0:13:36.83,Default,,0,0,0,,Cậu là "Papa" của đứa bé này nhỉ.
+Dialogue: 0,0:13:36.83,0:13:39.13,Default,,0,0,0,,Nếu vậy thì hãy\Ntrân trọng thời gian bên con
+Dialogue: 0,0:13:39.16,0:13:41.46,Default,,0,0,0,,thay vì số tiền lương\Ntrả theo giờ trước mắt.
+Dialogue: 0,0:13:43.21,0:13:44.51,Default,,0,0,0,,Bé Chi này.
+Dialogue: 0,0:13:45.47,0:13:46.84,Default,,0,0,0,,Vâng.
+Dialogue: 0,0:13:46.84,0:13:49.89,Default,,0,0,0,,Sau khi đã ghi nhớ những gì\Nchị Kisaki nói, anh muốn nhờ em điều này.
+Dialogue: 0,0:13:50.30,0:13:54.43,Default,,0,0,0,,Liệu anh có thể nương tựa vào\Nsự tín nhiệm ấy thêm chút nữa được không?
+Dialogue: 0,0:13:56.85,0:13:58.98,Default,,0,0,0,,Tuy hiện giờ cũng tương đối bình yên rồi...
+Dialogue: 0,0:13:58.98,0:14:02.40,Default,,0,0,0,,Nhưng quả nhiên Emi và Suzuno\Nvẫn coi anh là kẻ thù của họ.
+Dialogue: 0,0:14:02.40,0:14:03.40,Default,,0,0,0,,Nói sao nhỉ...
+Dialogue: 0,0:14:03.40,0:14:05.94,Default,,0,0,0,,Hiện giờ, người duy nhất\Nở Nhật anh hoàn toàn tin tưởng
+Dialogue: 0,0:14:05.94,0:14:08.95,Default,,0,0,0,,và có thể giao phó cho làm\Nđiều gì đó chỉ có mình bé Chi thôi.
+Dialogue: 0,0:14:10.07,0:14:14.29,Default,,0,0,0,,Và về những gì bé Chi nói với anh\Nlúc trước, anh vẫn chưa trả lời đàng hoàng...
+Dialogue: 0,0:14:14.29,0:14:16.95,Default,,0,0,0,,Anh biết nhờ vả như vậy\Nthật không công bằng với em.
+Dialogue: 0,0:14:17.00,0:14:18.58,Default,,0,0,0,,Nhưng nếu có thể thì...
+Dialogue: 0,0:14:18.92,0:14:21.67,Default,,0,0,0,,Từ giờ trở đi, em tiếp tục giúp đỡ\Ncho anh được thì thật tốt quá.
+Dialogue: 0,0:14:25.17,0:14:27.26,Default,,0,0,0,,N-Này!? Sao em lại khóc?
+Dialogue: 0,0:14:27.26,0:14:29.18,Default,,0,0,0,,Anh vừa nói gì không phải à?
+Dialogue: 0,0:14:29.93,0:14:31.80,Default,,0,0,0,,À, em xin lỗi... chẳng hiểu sao...
+Dialogue: 0,0:14:31.80,0:14:34.06,Default,,0,0,0,,Chắc do em mừng quá thôi ạ.
+Dialogue: 0,0:14:34.64,0:14:37.56,Default,,0,0,0,,Em rất mừng khi biết anh Maou tin tưởng em.
+Dialogue: 0,0:14:38.02,0:14:39.60,Default,,0,0,0,,Ơ, mừng á?
+Dialogue: 0,0:14:39.89,0:14:42.77,Default,,0,0,0,,Vậy... tại sao em lại khóc?
+Dialogue: 0,0:14:42.77,0:14:44.07,Default,,0,0,0,,Xin lỗi ạ.
+Dialogue: 0,0:14:44.07,0:14:46.57,Default,,0,0,0,,Nhưng con người là vậy đó.
+Dialogue: 0,0:14:46.57,0:14:47.99,Default,,0,0,0,,Họ có thể khóc kể cả khi vui mừng.
+Dialogue: 0,0:14:48.28,0:14:50.45,Default,,0,0,0,,Hết hiểu nổi luôn.
+Dialogue: 0,0:14:50.45,0:14:51.66,Default,,0,0,0,,À, còn về chuyện đó...
+Dialogue: 0,0:14:52.41,0:14:55.62,Default,,0,0,0,,Em biết anh Maou\Nkhông thể trả lời em ngay lập tức.
+Dialogue: 0,0:14:55.62,0:14:59.00,Default,,0,0,0,,Em sẽ đợi đến khi nhận\Nđược câu trả lời, dù có là gì đi nữa...
+Dialogue: 0,0:14:59.00,0:14:59.79,Default,,0,0,0,,Vậy nên...
+Dialogue: 0,0:15:02.75,0:15:04.00,Default,,0,0,0,,Chị Chi?
+Dialogue: 0,0:15:07.13,0:15:09.76,Default,,0,0,0,,Em sẽ cố gắng và giúp đỡ cho anh Maou.
+Dialogue: 0,0:15:10.30,0:15:12.89,Default,,0,0,0,,V-Vậy à, phiền em quá.
+Dialogue: 0,0:15:12.89,0:15:13.72,Default,,0,0,0,,Cảm ơn nhé.
+Dialogue: 0,0:15:14.30,0:15:15.43,Default,,0,0,0,,Vâng.
+Dialogue: 0,0:15:16.22,0:15:18.27,Default,,0,0,0,,À, đúng rồi cậu Ma này.
+Dialogue: 0,0:15:18.27,0:15:19.52,Default,,0,0,0,,Ở trong ngăn kéo có...
+Dialogue: 0,0:15:23.56,0:15:26.11,Default,,0,0,0,,Bên chào mua báo đưa cho chị đấy.
+Dialogue: 0,0:15:26.11,0:15:29.07,Default,,0,0,0,,Vì chị không dùng nên đang\Nnghĩ đến việc cho cậu, cơ mà...
+Dialogue: 0,0:15:30.95,0:15:33.57,Default,,0,0,0,,Cậu hiểu rõ những gì\Nchị nói lúc nãy chưa đó?
+Dialogue: 0,0:15:34.20,0:15:37.20,Default,,0,0,0,,Dù là ngẫu nhiên thì cũng lỡ thu về cả đống rồi...
+Dialogue: 0,0:15:37.20,0:15:40.62,Default,,0,0,0,,Tokyo Big-Egg Town tóm lại\Nlà một công viên giải trí chứ gì?
+Dialogue: 0,0:15:40.62,0:15:42.79,Default,,0,0,0,,Là một nơi trẻ con đến vui chơi.
+Dialogue: 0,0:15:42.79,0:15:44.92,Default,,0,0,0,,Cầm vé giảm giá này và đi thì quá hay rồi!
+Dialogue: 0,0:15:44.92,0:15:46.96,Default,,0,0,0,,Đi chơi với Papa và Mama.
+Dialogue: 0,0:15:48.67,0:15:52.84,Default,,0,0,0,,Cô mang cái này đến tức là\Ncũng đã xác định tâm lý tương đối rồi ha.
+Dialogue: 0,0:15:52.84,0:15:54.51,Default,,0,0,0,,C-Cái gì cơ?
+Dialogue: 0,0:15:54.51,0:15:55.93,Default,,0,0,0,,Alas Ramus này.
+Dialogue: 0,0:15:55.93,0:15:58.97,Default,,0,0,0,,Đang tính đi chơi ấy mà,\Nchúng ta cứ đi dù không có Mama nhé?
+Dialogue: 0,0:15:58.97,0:16:00.56,Default,,0,0,0,,Hông! Đi cùng cơ!
+Dialogue: 0,0:16:00.56,0:16:03.85,Default,,0,0,0,,Vậy đi cùng Mama...
+Dialogue: 0,0:16:03.85,0:16:05.56,Default,,0,0,0,,Mà không có Papa đi cùng, được chứ?
+Dialogue: 0,0:16:05.56,0:16:06.27,Default,,0,0,0,,Hông!
+Dialogue: 0,0:16:06.90,0:16:08.23,Default,,0,0,0,,Là vậy đó!
+Dialogue: 0,0:16:08.23,0:16:12.24,Default,,0,0,0,,Ai có ý tưởng nào hay thì\Nthuyết phục Alas Ramus ngay đi.
+Dialogue: 0,0:16:12.24,0:16:14.49,Default,,0,0,0,,Ta và Emi cũng sẽ ủng hộ hết sức!
+Dialogue: 0,0:16:14.78,0:16:16.12,Default,,0,0,0,,N-Nhưng mà...
+Dialogue: 0,0:16:16.12,0:16:20.04,Default,,0,0,0,,Để ba người gồm Đại Vương,\NEmilia và Alas Ramus đi với nhau thì...
+Dialogue: 0,0:16:20.58,0:16:22.62,Default,,0,0,0,,Chị Yusa à, nhờ chị đó.
+Dialogue: 0,0:16:22.62,0:16:24.46,Default,,0,0,0,,Chị đi có được không ạ?
+Dialogue: 0,0:16:24.46,0:16:26.21,Default,,0,0,0,,Ơ, bé Chiho...
+Dialogue: 0,0:16:26.63,0:16:27.38,Default,,0,0,0,,Chị thấy đó...
+Dialogue: 0,0:16:27.38,0:16:31.30,Default,,0,0,0,,Sao chị không nghĩ là đang canh chừng\Nđể ngăn anh Maou không làm gì kì quặc?
+Dialogue: 0,0:16:31.30,0:16:33.59,Default,,0,0,0,,Nhưng còn bé Chiho...
+Dialogue: 0,0:16:33.59,0:16:35.80,Default,,0,0,0,,Em sao cũng được hết á.
+Dialogue: 0,0:16:35.80,0:16:39.72,Default,,0,0,0,,Xin chị hãy dành thời gian ở bên\Nbé Alas Ramus lâu hết sức có thể nhé.
+Dialogue: 0,0:16:44.19,0:16:45.48,Default,,0,0,0,,Quá đủ rồi!
+Dialogue: 0,0:16:47.10,0:16:49.27,Default,,0,0,0,,Sao mình lại thành đứa nhu nhược thế này?
+Dialogue: 0,0:16:49.27,0:16:52.19,Default,,0,0,0,,Thế chỗ cho mẹ của Alas Ramus ư?
+Dialogue: 0,0:16:52.19,0:16:55.91,Default,,0,0,0,,Không phải là một cặp v-vợ chồ-...
+Dialogue: 0,0:16:55.91,0:16:58.37,Default,,0,0,0,,Với Ma Vương đâu nhé!
+Dialogue: 0,0:16:59.78,0:17:01.87,Default,,0,0,0,,Có nên đi thẩm mĩ viện không nhỉ.
+Dialogue: 0,0:17:03.62,0:17:05.08,Default,,0,0,0,,A-Alo.
+Dialogue: 0,0:17:05.08,0:17:08.75,Default,,0,0,0,,Alo, Emerada nè.
+Dialogue: 0,0:17:08.75,0:17:09.92,Default,,0,0,0,,Hả, Eme?
+Dialogue: 0,0:17:09.92,0:17:12.63,Default,,0,0,0,,Không phải là tớ đang háo hức đâu nhé.
+Dialogue: 0,0:17:12.96,0:17:15.30,Default,,0,0,0,,S-Sao tự dưng nói gì vậy?
+Dialogue: 0,0:17:15.55,0:17:17.76,Default,,0,0,0,,À không, không có gì đâu.
+Dialogue: 0,0:17:17.76,0:17:19.26,Default,,0,0,0,,Ổn cả, không vấn đề gì hết!
+Dialogue: 0,0:17:19.26,0:17:21.51,Default,,0,0,0,,Tớ đang làm việc rất nghiêm chỉnh.
+Dialogue: 0,0:17:21.51,0:17:23.77,Default,,0,0,0,,Không hề quên sứ mệnh của Dũng Sĩ đâu!
+Dialogue: 0,0:17:23.77,0:17:28.10,Default,,0,0,0,,Thiên Sứ nhắm vào\NThánh Kiếm vẫn còn ở bên đó nhỉ?
+Dialogue: 0,0:17:28.10,0:17:31.23,Default,,0,0,0,,Thời điểm này không cần\Nbận tâm tới Sariel đâu.
+Dialogue: 0,0:17:31.23,0:17:34.53,Default,,0,0,0,,Dù vẫn chưa biết được lý do\Nhắn nhắm đến Thánh Kiếm là gì.
+Dialogue: 0,0:17:34.53,0:17:37.95,Default,,0,0,0,,À còn nữa, dù không biết\Nchuyện này có liên quan gì không...
+Dialogue: 0,0:17:38.32,0:17:43.24,Default,,0,0,0,,Một đứa bé xuất hiện\Nvới hình dạng quả táo á?
+Dialogue: 0,0:17:43.58,0:17:48.00,Default,,0,0,0,,Tớ chưa nghe ai nói về một\Nngười hay ác ma nào như thế bao giờ.
+Dialogue: 0,0:17:48.29,0:17:50.84,Default,,0,0,0,,Vậy à, đúng vậy ha.
+Dialogue: 0,0:17:50.84,0:17:54.34,Default,,0,0,0,,Vậy để tớ thử điều tra\Nvề cô bé đó xem sao nhé.
+Dialogue: 0,0:17:56.47,0:17:58.63,Default,,0,0,0,,Quả nhiên là phải đi thẩm mỹ viện thôi.
+Dialogue: 0,0:17:58.63,0:18:01.22,Default,,0,0,0,,Xuất hiện với bộ dạng\Nmệt mỏi trước mặt họ thì bực lắm.
+Dialogue: 0,0:18:02.56,0:18:04.39,Default,,0,0,0,,Đại Vương ơi! Quả nhiên rất nguy hiểm!
+Dialogue: 0,0:18:04.39,0:18:05.73,Default,,0,0,0,,Xin ngài hãy suy nghĩ lại!
+Dialogue: 0,0:18:05.73,0:18:07.31,Default,,0,0,0,,Bình tĩnh nào.
+Dialogue: 0,0:18:07.31,0:18:10.81,Default,,0,0,0,,Tới nước này rồi thì Emi cũng\Nchả chém ta trước mặt thiên hạ đâu.
+Dialogue: 0,0:18:11.06,0:18:12.82,Default,,0,0,0,,Dù Emilia không phải mối nguy đi nữa,
+Dialogue: 0,0:18:12.82,0:18:15.78,Default,,0,0,0,,nhưng nếu có kẻ nào\Nnhắm vào Alas Ramus thì sao...
+Dialogue: 0,0:18:15.78,0:18:19.61,Default,,0,0,0,,Dù vậy thì để con bé ở lì trong căn hộ\Nrách nát này cũng có thay đổi được gì đâu.
+Dialogue: 0,0:18:19.61,0:18:22.37,Default,,0,0,0,,Alas Ramus mà thành một\Nđứa giống Urushihara thì sao hả?
+Dialogue: 0,0:18:22.37,0:18:24.08,Default,,0,0,0,,Kiến thức nền tảng của cả hai rất khác!
+Dialogue: 0,0:18:24.08,0:18:27.50,Default,,0,0,0,,Alas Ramus luôn ý thức dọn dẹp\Nbát đĩa đàng hoàng sau khi ăn xong...
+Dialogue: 0,0:18:27.50,0:18:30.12,Default,,0,0,0,,Mang đến chỗ thần\Nvà nói lời cảm ơn vì bữa ăn.
+Dialogue: 0,0:18:30.12,0:18:31.67,Default,,0,0,0,,Urushihara thua cả Alas Ramus á?
+Dialogue: 0,0:18:31.67,0:18:32.84,Default,,0,0,0,,Đúng như ngài nói.
+Dialogue: 0,0:18:32.84,0:18:34.13,Default,,0,0,0,,Này nhé!
+Dialogue: 0,0:18:34.13,0:18:36.09,Default,,0,0,0,,Nếu lo lắng đến vậy
+Dialogue: 0,0:18:36.09,0:18:38.55,Default,,0,0,0,,thì sao Alciel không lén theo đi?
+Dialogue: 0,0:18:38.55,0:18:40.55,Default,,0,0,0,,Vẫn còn dư vé giảm giá mà.
+Dialogue: 0,0:18:40.55,0:18:42.05,Default,,0,0,0,,N-Nhưng mà...
+Dialogue: 0,0:18:42.05,0:18:45.64,Default,,0,0,0,,Thế ngươi đi không?\NTa ở lại trông nhà như mọi khi cho!
+Dialogue: 0,0:18:45.64,0:18:47.31,Default,,0,0,0,,Tên khốn Urushihara!
+Dialogue: 0,0:18:47.31,0:18:49.88,Default,,0,0,0,,Ngươi tính đặt đồ trên\NJungle Prime nhân lúc
+Dialogue: 0,0:18:49.91,0:18:52.48,Default,,0,0,0,,ta vắng nhà trong một\Nthời gian dài chứ gì?
+Dialogue: 0,0:18:52.77,0:18:57.07,Default,,0,0,0,,Nếu có thể đi thì cứ đi đi.\NTôi sẽ để mắt đến Lucifer mà.
+Dialogue: 0,0:18:57.40,0:19:02.24,Default,,0,0,0,,Thôi, chạy trời không khỏi nắng,\Nsao biết được sẽ xảy ra chuyện gì chứ?
+Dialogue: 0,0:19:02.24,0:19:04.70,Default,,0,0,0,,Vậy nên ta sẽ hành động\Ndựa trên mối lo thực tế nhất
+Dialogue: 0,0:19:04.72,0:19:07.45,Default,,0,0,0,,chính là những ngày\Nbình thường nối tiếp này.
+Dialogue: 0,0:19:08.54,0:19:10.12,Default,,0,0,0,,Tức là sao chứ?
+Dialogue: 0,0:19:10.12,0:19:11.29,Default,,0,0,0,,Rõ ràng quá rồi còn gì!
+Dialogue: 0,0:19:11.79,0:19:15.25,Default,,0,0,0,,Nếu không thể cho\Nđám này cơm ăn thì coi như xong.
+Dialogue: 0,0:19:15.75,0:19:18.21,Default,,0,0,0,,Anh sẽ cố gắng làm việc! Chỉ vậy thôi!
+Dialogue: 0,0:19:19.34,0:19:22.68,Default,,0,0,0,,Đại Vương, thần hỏi ngài\Nmột câu được không?
+Dialogue: 0,0:19:23.01,0:19:26.60,Default,,0,0,0,,Sao ngài lại quyết tâm\Nnhận nuôi Alas Ramus vậy?
+Dialogue: 0,0:19:26.81,0:19:31.31,Default,,0,0,0,,Mà thực tế thì người chăm sóc\Ncho con bé là ngươi, Suzuno và bé Chi nhỉ.
+Dialogue: 0,0:19:31.77,0:19:32.81,Default,,0,0,0,,Xin lỗi nhé.
+Dialogue: 0,0:19:32.81,0:19:35.98,Default,,0,0,0,,Chỉ là ta nghĩ\Nnếu cuối cùng có vấn đề gì xảy ra...
+Dialogue: 0,0:19:35.98,0:19:39.44,Default,,0,0,0,,Thì ta nên là người chịu trách nhiệm.
+Dialogue: 0,0:19:39.44,0:19:42.99,Default,,0,0,0,,Chả có gì để chứng thực và chính\Nbản thân ta đương nhiên cũng chả nhớ gì.
+Dialogue: 0,0:19:42.99,0:19:45.32,Default,,0,0,0,,Điều đó khiến ta hơi bận tâm một chút.
+Dialogue: 0,0:19:57.38,0:19:58.88,Default,,0,0,0,,Không có gì khả nghi cả.
+Dialogue: 0,0:19:59.67,0:20:02.88,Default,,0,0,0,,Anh Ashiya làm vậy\Ntrông mới khả nghi nhất đó.
+Dialogue: 0,0:20:02.88,0:20:04.09,Default,,0,0,0,,S-Sasaki.
+Dialogue: 0,0:20:04.09,0:20:05.26,Default,,0,0,0,,Em ở đó từ bao giờ thế?
+Dialogue: 0,0:20:05.80,0:20:08.06,Default,,0,0,0,,Suzuno kể cho em biết ạ.
+Dialogue: 0,0:20:08.06,0:20:10.31,Default,,0,0,0,,Quan trọng hơn,\Nkhi có chuyện xảy ra thì chẳng phải
+Dialogue: 0,0:20:10.31,0:20:13.48,Default,,0,0,0,,anh sẽ là người\Ngặp rắc rối thay vì anh Maou à?
+Dialogue: 0,0:20:13.48,0:20:15.02,Default,,0,0,0,,Ý em là sao?
+Dialogue: 0,0:20:15.02,0:20:17.48,Default,,0,0,0,,Anh Ashiya không có điện thoại di động nhỉ.
+Dialogue: 0,0:20:17.48,0:20:19.69,Default,,0,0,0,,Anh định liên lạc bằng cách nào chứ?
+Dialogue: 0,0:20:19.69,0:20:22.19,Default,,0,0,0,,Anh định đi tìm điện thoại công cộng.
+Dialogue: 0,0:20:22.49,0:20:24.78,Default,,0,0,0,,Em cũng đã nghĩ như vậy.
+Dialogue: 0,0:20:24.78,0:20:27.41,Default,,0,0,0,,Em sẽ cho anh mượn\Nđiện thoại của em khi cần.
+Dialogue: 0,0:20:27.41,0:20:31.00,Default,,0,0,0,,Với cả cái kính râm này trông\Nkhả nghi quá, làm ơn bỏ ra giúp em!
+Dialogue: 0,0:20:31.00,0:20:33.37,Default,,0,0,0,,Nhưng tại sao Sasaki lại...
+Dialogue: 0,0:20:33.91,0:20:37.29,Default,,0,0,0,,Em hiểu tại sao họ lại làm vậy\Ncơ mà vẫn tò mò lắm chứ.
+Dialogue: 0,0:20:41.01,0:20:43.17,Default,,0,0,0,,C-Có chuyện gì sao?
+Dialogue: 0,0:20:43.17,0:20:44.30,Default,,0,0,0,,Chị Yusa...
+Dialogue: 0,0:20:44.30,0:20:46.34,Default,,0,0,0,,Quyết tâm đến mức em không ngờ.
+Dialogue: 0,0:20:46.34,0:20:48.93,Default,,0,0,0,,Không lẽ... đó là Emilia ư?
+Dialogue: 0,0:20:48.93,0:20:53.52,Default,,0,0,0,,Chiến đấu trong bộ đồ đó có vẻ rất khó,\Ncô ta không biết bản thân là Dũng Sĩ hả?
+Dialogue: 0,0:20:54.77,0:20:56.69,Default,,0,0,0,,Hai người thấy sao?
+Dialogue: 0,0:20:56.69,0:20:58.73,Default,,0,0,0,,Thấy cách phối đồ\Ncủa Yusa Emi hôm nay thế nào?
+Dialogue: 0,0:20:58.73,0:21:00.94,Default,,0,0,0,,Ơ, bạn của chị Yusa...
+Dialogue: 0,0:21:00.94,0:21:02.23,Default,,0,0,0,,C-Cô Suzuki.
+Dialogue: 0,0:21:02.23,0:21:03.65,Default,,0,0,0,,Tại sao chị lại ở đây vậy?
+Dialogue: 0,0:21:03.65,0:21:05.36,Default,,0,0,0,,Chị bám đuôi cậu ấy từ công ty.
+Dialogue: 0,0:21:05.36,0:21:06.95,Default,,0,0,0,,Chị ấy mặc như vậy đi làm ư?
+Dialogue: 0,0:21:06.95,0:21:09.83,Default,,0,0,0,,Hôm nay cả chị và Emi\Nđều có ca vào buổi sáng.
+Dialogue: 0,0:21:09.83,0:21:12.41,Default,,0,0,0,,Mà bất ngờ thật chứ!
+Dialogue: 0,0:21:12.41,0:21:15.92,Default,,0,0,0,,Trước giờ chị chưa từng thấy Emi\Ntới công ty trong bộ dạng đó bao giờ.
+Dialogue: 0,0:21:15.92,0:21:17.88,Default,,0,0,0,,Nên chị nghĩ\N"Chắc chắn chính là ngày hôm nay".
+Dialogue: 0,0:21:19.34,0:21:22.00,Default,,0,0,0,,Cơ mà cố quá thì quá cố thôi.
+Dialogue: 0,0:21:22.51,0:21:25.93,Default,,0,0,0,,Đây là một chiến thắng thuộc về\NMaou một cách hoàn toàn tự nhiên rồi ha.
+Dialogue: 0,0:21:26.26,0:21:29.72,Default,,0,0,0,,Nào, giờ tính sao đây hả hai người?
+Dialogue: 0,0:21:31.31,0:21:33.02,Default,,0,0,0,,Tốt quá rồi.
+Dialogue: 0,0:21:33.02,0:21:34.93,Default,,0,0,0,,Tìm ra khá là sớm đấy nhỉ.
+Dialogue: 0,0:21:44.69,0:21:45.86,Default,,0,0,0,,Đi thôi nhỉ.
+Dialogue: 0,0:21:45.86,0:21:49.28,Default,,0,0,0,,Qua đó để đưa Cây Sephiroth\Nquay về với hình dáng lý tưởng nào.
+Dialogue: 0,0:21:54.83,0:21:58.29,Default,,0,0,0,,Một nửa là gà rán Teriyaki và\Nmột nửa là phô mai Mozzarella nóng chảy.
+Dialogue: 0,0:21:58.29,0:22:01.09,Default,,0,0,0,,Có nên mua thêm gà chiên\Ntrong thực đơn món phụ không nhỉ?
+Dialogue: 0,0:22:01.09,0:22:02.17,Default,,0,0,0,,Bấm đặt nè!
+Dialogue: 0,0:22:05.88,0:22:09.43,Default,,0,0,0,,Vừa có "Cổng" rất lớn\Nmở ra ở một nơi nào đó!

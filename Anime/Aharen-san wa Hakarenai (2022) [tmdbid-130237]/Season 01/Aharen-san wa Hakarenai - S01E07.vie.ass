@@ -1,0 +1,724 @@
+[Script Info]
+; This is an Advanced Sub Station Alpha v4+ script.
+Title: 
+ScriptType: v4.00+
+PlayDepth: 0
+ScaledBorderAndShadow: Yes
+PlayResX: 1920
+PlayResY: 1080
+[V4+ Styles]
+Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
+Style: Default,Noto Sans,80.0,&H00FFFFFF,&H000000FF,&H00002208,&H00000000,-1,0,0,0,100,100,0,0,1,3.0,2.0,2,0,0,65,1
+
+[Events]
+Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
+Dialogue: 0,0:00:04.40,0:00:05.46,Default,,0,0,0,,Aharen-san,
+Dialogue: 0,0:00:05.46,0:00:05.46,Default,,0,0,0,,Aharen-san,\Nchúng ta ăn trưa thôi nhỉ?
+Dialogue: 0,0:00:05.46,0:00:07.18,Default,,0,0,0,,chúng ta ăn trưa thôi nhỉ?
+Dialogue: 0,0:00:09.87,0:00:10.67,Default,,0,0,0,,Hơ...
+Dialogue: 0,0:00:13.04,0:00:15.64,Default,,0,0,0,,Aharen-san, chẳng lẽ...
+Dialogue: 0,0:00:15.64,0:00:17.25,Default,,0,0,0,,Cậu quên mang hộp cơm rồi à?
+Dialogue: 0,0:00:21.94,0:00:23.73,Default,,0,0,0,,Không sao chứ, Aharen-san!?
+Dialogue: 0,0:00:24.70,0:00:27.39,Default,,0,0,0,,Tớ có làm cơm hộp rồi, nhưng lại quên mang theo...
+Dialogue: 0,0:00:27.39,0:00:29.39,Default,,0,0,0,,Thế thì tiếc thật.
+Dialogue: 0,0:00:30.74,0:00:33.09,Default,,0,0,0,,Tớ đến căn-tin mua đây,
+Dialogue: 0,0:00:33.09,0:00:33.09,Default,,0,0,0,,Tớ đến căn-tin mua đây,\Nchờ tớ nhé...
+Dialogue: 0,0:00:33.09,0:00:34.94,Default,,0,0,0,,chờ tớ nhé...
+Dialogue: 0,0:00:35.28,0:00:36.90,Default,,0,0,0,,Căn-tin à...
+Dialogue: 0,0:00:36.90,0:00:38.89,Default,,0,0,0,,Không được đâu Aharen-san...
+Dialogue: 0,0:00:38.89,0:00:40.11,Default,,0,0,0,,Căn-tin là...
+Dialogue: 0,0:00:40.70,0:00:42.65,Default,,0,0,0,,Hang ổ của thây ma!
+Dialogue: 0,0:00:42.65,0:00:42.66,Default,,0,0,0,,Hang ổ của thây ma!\NĐịa ngục nơi vô vàn quỷ đói chen chúc!
+Dialogue: 0,0:00:42.66,0:00:45.84,Default,,0,0,0,,Địa ngục nơi vô vàn quỷ đói chen chúc!
+Dialogue: 0,0:00:45.84,0:00:49.32,Default,,0,0,0,,Đi đến đó nguy hiểm lắm!
+Dialogue: 0,0:00:50.09,0:00:52.47,Default,,0,0,0,,Aharen-san, tớ không để...
+Dialogue: 0,0:00:52.47,0:00:54.25,Default,,0,0,0,,cậu đối mặt với nó một mình đâu!
+Dialogue: 0,0:02:24.05,0:02:26.01,Default,,0,0,0,,(Căn-tin)
+Dialogue: 0,0:02:26.01,0:02:26.02,Default,,0,0,0,,(Căn-tin)\NDì ơi, cơm nắm!
+Dialogue: 0,0:02:26.02,0:02:27.37,Default,,0,0,0,,Dì ơi, cơm nắm!
+Dialogue: 0,0:02:27.37,0:02:27.38,Default,,0,0,0,,Dì ơi, cơm nắm!\N- Cơm thịt nướng!
+Dialogue: 0,0:02:27.38,0:02:29.57,Default,,0,0,0,,- Cơm thịt nướng!\N- Gà chiên cuộn rong biển!
+Dialogue: 0,0:02:29.57,0:02:29.57,Default,,0,0,0,,- Cơm thịt nướng!\N- Gà chiên cuộn rong biển!
+Dialogue: 0,0:02:29.57,0:02:30.83,Default,,0,0,0,,Hừm...
+Dialogue: 0,0:02:30.83,0:02:30.83,Default,,0,0,0,,Hừm...\NĐúng là đông người thật.
+Dialogue: 0,0:02:30.83,0:02:32.77,Default,,0,0,0,,Đúng là đông người thật.
+Dialogue: 0,0:02:33.41,0:02:34.76,Default,,0,0,0,,Vậy thôi tớ đi đây.
+Dialogue: 0,0:02:34.76,0:02:35.62,Default,,0,0,0,,Ể?
+Dialogue: 0,0:02:35.62,0:02:35.62,Default,,0,0,0,,Ể?\NCậu chắc chứ?
+Dialogue: 0,0:02:35.62,0:02:37.16,Default,,0,0,0,,Cậu chắc chứ?
+Dialogue: 0,0:02:37.16,0:02:38.12,Default,,0,0,0,,Ừm.
+Dialogue: 0,0:02:39.65,0:02:40.72,Default,,0,0,0,,Chẳng lẽ...
+Dialogue: 0,0:02:40.72,0:02:40.72,Default,,0,0,0,,Chẳng lẽ...\NAharen-san có thể nhìn thấy nó sao?
+Dialogue: 0,0:02:40.72,0:02:42.44,Default,,0,0,0,,Aharen-san có thể nhìn thấy nó sao?
+Dialogue: 0,0:02:43.13,0:02:44.74,Default,,0,0,0,,Do cơ thể nhỏ con.
+Dialogue: 0,0:02:44.74,0:02:44.75,Default,,0,0,0,,Do cơ thể nhỏ con.\Nnên những khe hở đó
+Dialogue: 0,0:02:44.75,0:02:47.34,Default,,0,0,0,,nên những khe hở đó\Nchỉ mình Aharen-san mới lọt qua được!
+Dialogue: 0,0:02:47.34,0:02:47.34,Default,,0,0,0,,nên những khe hở đó\Nchỉ mình Aharen-san mới lọt qua được!
+Dialogue: 0,0:02:47.34,0:02:48.91,Default,,0,0,0,,Con đường ánh sáng!
+Dialogue: 0,0:02:51.38,0:02:52.85,Default,,0,0,0,,Cậu ổn chứ, Aharen-san?
+Dialogue: 0,0:02:53.62,0:02:55.33,Default,,0,0,0,,Đúng là không được rồi...
+Dialogue: 0,0:02:55.87,0:02:58.52,Default,,0,0,0,,Phải chờ đến khi vắng người bớt thôi.
+Dialogue: 0,0:02:58.52,0:02:58.53,Default,,0,0,0,,Phải chờ đến khi vắng người bớt thôi.\NCơm...bán hết mất...
+Dialogue: 0,0:02:58.53,0:03:01.79,Default,,0,0,0,,Cơm...bán hết mất...
+Dialogue: 0,0:03:01.79,0:03:01.79,Default,,0,0,0,,Cơm...bán hết mất...\NĐúng thật...
+Dialogue: 0,0:03:01.79,0:03:03.34,Default,,0,0,0,,Đúng thật...
+Dialogue: 0,0:03:03.34,0:03:03.34,Default,,0,0,0,,Đúng thật...\NCứ thế này cơm sẽ bị mua hết, chỉ còn lại bánh thôi.
+Dialogue: 0,0:03:03.34,0:03:07.46,Default,,0,0,0,,Cứ thế này cơm sẽ bị mua hết, chỉ còn lại bánh thôi.
+Dialogue: 0,0:03:07.46,0:03:07.46,Default,,0,0,0,,Cứ thế này cơm sẽ bị mua hết, chỉ còn lại bánh thôi.\NTrong khi Aharen-san
+Dialogue: 0,0:03:07.46,0:03:10.80,Default,,0,0,0,,Trong khi Aharen-san\Nthì phải ăn cơm mới có sức được.
+Dialogue: 0,0:03:11.49,0:03:15.51,Default,,0,0,0,,Chỉ còn một cách để Aharen-san\Ncó thể tiến lên giữa biển người này thôi...
+Dialogue: 0,0:03:15.88,0:03:17.16,Default,,0,0,0,,Aharen-san.
+Dialogue: 0,0:03:17.16,0:03:18.02,Default,,0,0,0,,Hở?
+Dialogue: 0,0:03:18.02,0:03:18.02,Default,,0,0,0,,Hở?\NLên nào!
+Dialogue: 0,0:03:18.02,0:03:19.41,Default,,0,0,0,,Lên nào!
+Dialogue: 0,0:03:23.58,0:03:24.92,Default,,0,0,0,,Bám chặt chưa?
+Dialogue: 0,0:03:24.92,0:03:25.71,Default,,0,0,0,,Ừm.
+Dialogue: 0,0:03:25.71,0:03:25.71,Default,,0,0,0,,Ừm.\NVậy đi thôi!
+Dialogue: 0,0:03:25.71,0:03:27.07,Default,,0,0,0,,Vậy đi thôi!
+Dialogue: 0,0:03:28.11,0:03:29.00,Default,,0,0,0,,Xin lỗi!
+Dialogue: 0,0:03:29.00,0:03:29.01,Default,,0,0,0,,Xin lỗi!\NXin cho qua!
+Dialogue: 0,0:03:29.01,0:03:30.72,Default,,0,0,0,,Xin cho qua!
+Dialogue: 0,0:03:30.72,0:03:30.73,Default,,0,0,0,,Xin cho qua!\NRồi đó.
+Dialogue: 0,0:03:30.73,0:03:31.89,Default,,0,0,0,,Rồi đó.
+Dialogue: 0,0:03:31.89,0:03:31.90,Default,,0,0,0,,Rồi đó.\NCậu gọi món đi, Aharen-san.
+Dialogue: 0,0:03:31.90,0:03:34.09,Default,,0,0,0,,Cậu gọi món đi, Aharen-san.
+Dialogue: 0,0:03:34.09,0:03:34.10,Default,,0,0,0,,Cậu gọi món đi, Aharen-san.\NỪm.
+Dialogue: 0,0:03:34.10,0:03:35.01,Default,,0,0,0,,Ừm.
+Dialogue: 0,0:03:35.01,0:03:35.02,Default,,0,0,0,,Ừm.\NDì ơi, cái này!
+Dialogue: 0,0:03:35.02,0:03:36.45,Default,,0,0,0,,Dì ơi, cái này!
+Dialogue: 0,0:03:36.45,0:03:36.45,Default,,0,0,0,,Dì ơi, cái này!\NBán một cái bánh!
+Dialogue: 0,0:03:36.45,0:03:37.49,Default,,0,0,0,,Bán một cái bánh!
+Dialogue: 0,0:03:37.49,0:03:37.50,Default,,0,0,0,,Bán một cái bánh!\NCho cháu cơm rong biển!
+Dialogue: 0,0:03:37.50,0:03:39.04,Default,,0,0,0,,Cho cháu cơm rong biển!
+Dialogue: 0,0:03:39.65,0:03:41.49,Default,,0,0,0,,Tiếng gọi món chẳng truyền tới được à?
+Dialogue: 0,0:03:41.49,0:03:41.50,Default,,0,0,0,,Tiếng gọi món chẳng truyền tới được à?\NĐành chịu vậy.
+Dialogue: 0,0:03:41.50,0:03:43.16,Default,,0,0,0,,Đành chịu vậy.
+Dialogue: 0,0:03:43.16,0:03:44.51,Default,,0,0,0,,Quay về chỉnh đốn đội hình thôi.
+Dialogue: 0,0:03:44.51,0:03:44.51,Default,,0,0,0,,Quay về chỉnh đốn đội hình thôi.\NBánh kẹp mì xào!
+Dialogue: 0,0:03:44.51,0:03:45.38,Default,,0,0,0,,Bánh kẹp mì xào!
+Dialogue: 0,0:03:45.38,0:03:45.39,Default,,0,0,0,,Bánh kẹp mì xào!\NBánh kẹp cốt lết!
+Dialogue: 0,0:03:45.39,0:03:46.80,Default,,0,0,0,,Bánh kẹp cốt lết!
+Dialogue: 0,0:03:52.21,0:03:54.02,Default,,0,0,0,,Mình bị đẩy ra rồi...
+Dialogue: 0,0:03:54.40,0:03:55.96,Default,,0,0,0,,Aharen-san!
+Dialogue: 0,0:03:57.42,0:03:59.90,Default,,0,0,0,,Đó...chẳng lẽ là...!
+Dialogue: 0,0:04:00.46,0:04:01.86,Default,,0,0,0,,Lướt sóng!
+Dialogue: 0,0:04:01.86,0:04:01.86,Default,,0,0,0,,Lướt sóng!\NCách di chuyển
+Dialogue: 0,0:04:01.86,0:04:04.86,Default,,0,0,0,,Cách di chuyển\Nphía trên người khác ở các buổi diễn!
+Dialogue: 0,0:04:05.94,0:04:07.57,Default,,0,0,0,,Nào, cháu ăn gì?
+Dialogue: 0,0:04:07.57,0:04:07.57,Default,,0,0,0,,Nào, cháu ăn gì?\NMột phần gạo hạt nhỏ, thêm...
+Dialogue: 0,0:04:07.57,0:04:11.54,Default,,0,0,0,,Một phần gạo hạt nhỏ, thêm...
+Dialogue: 0,0:04:11.54,0:04:13.53,Default,,0,0,0,,Aharen-san...
+Dialogue: 0,0:04:15.38,0:04:16.37,Default,,0,0,0,,Bắt nào!
+Dialogue: 0,0:04:16.82,0:04:18.12,Default,,0,0,0,,Không sao chứ?
+Dialogue: 0,0:04:18.12,0:04:19.14,Default,,0,0,0,,Có mua được không?
+Dialogue: 0,0:04:19.14,0:04:19.14,Default,,0,0,0,,Có mua được không?\NHọ bán hết cơm rồi...
+Dialogue: 0,0:04:19.14,0:04:21.59,Default,,0,0,0,,Họ bán hết cơm rồi...
+Dialogue: 0,0:04:21.59,0:04:24.12,Default,,0,0,0,,Tớ chỉ mua được bánh dưa thôi...
+Dialogue: 0,0:04:24.12,0:04:24.13,Default,,0,0,0,,Tớ chỉ mua được bánh dưa thôi...\NThế à...
+Dialogue: 0,0:04:24.13,0:04:25.62,Default,,0,0,0,,Thế à...
+Dialogue: 0,0:04:25.62,0:04:25.62,Default,,0,0,0,,Thế à...\NTiếc thật nhỉ.
+Dialogue: 0,0:04:25.62,0:04:26.98,Default,,0,0,0,,Tiếc thật nhỉ.
+Dialogue: 0,0:04:26.98,0:04:26.98,Default,,0,0,0,,Tiếc thật nhỉ.\NNhư thế có đủ no không?
+Dialogue: 0,0:04:26.98,0:04:28.10,Default,,0,0,0,,Như thế có đủ no không?
+Dialogue: 0,0:04:28.86,0:04:31.04,Default,,0,0,0,,Đủ mà...
+Dialogue: 0,0:04:31.04,0:04:31.04,Default,,0,0,0,,Đủ mà...\NĐủ mới lạ ấy.
+Dialogue: 0,0:04:31.04,0:04:33.46,Default,,0,0,0,,Đủ mới lạ ấy.
+Dialogue: 0,0:04:33.46,0:04:33.46,Default,,0,0,0,,Đủ mới lạ ấy.\NShirorin!
+Dialogue: 0,0:04:33.46,0:04:34.26,Default,,0,0,0,,Shirorin!
+Dialogue: 0,0:04:34.46,0:04:36.39,Default,,0,0,0,,Đành vậy, Aharen-san...
+Dialogue: 0,0:04:36.39,0:04:38.13,Default,,0,0,0,,Đây...
+Dialogue: 0,0:04:38.13,0:04:38.13,Default,,0,0,0,,Đây...\NLà sao...?
+Dialogue: 0,0:04:38.13,0:04:39.54,Default,,0,0,0,,Là sao...?
+Dialogue: 0,0:04:39.54,0:04:39.54,Default,,0,0,0,,Là sao...?\NCậu đổi cái bánh dưa đó lấy hộp cơm của tớ đi.
+Dialogue: 0,0:04:39.54,0:04:42.56,Default,,0,0,0,,Cậu đổi cái bánh dưa đó lấy hộp cơm của tớ đi.
+Dialogue: 0,0:04:42.56,0:04:42.56,Default,,0,0,0,,Cậu đổi cái bánh dưa đó lấy hộp cơm của tớ đi.\NNhư vậy thì Raidou-kun ăn không đủ no mất.
+Dialogue: 0,0:04:42.56,0:04:46.14,Default,,0,0,0,,Như vậy thì Raidou-kun ăn không đủ no mất.
+Dialogue: 0,0:04:46.14,0:04:46.14,Default,,0,0,0,,Như vậy thì Raidou-kun ăn không đủ no mất.\NĐừng lo cho tớ.
+Dialogue: 0,0:04:46.14,0:04:47.57,Default,,0,0,0,,Đừng lo cho tớ.
+Dialogue: 0,0:04:47.57,0:04:47.57,Default,,0,0,0,,Đừng lo cho tớ.\NTớ cũng không đói đến thế.
+Dialogue: 0,0:04:47.57,0:04:49.28,Default,,0,0,0,,Tớ cũng không đói đến thế.
+Dialogue: 0,0:04:49.28,0:04:49.28,Default,,0,0,0,,Tớ cũng không đói đến thế.\NChưa kể...
+Dialogue: 0,0:04:49.28,0:04:50.33,Default,,0,0,0,,Chưa kể...
+Dialogue: 0,0:04:50.33,0:04:50.34,Default,,0,0,0,,Chưa kể...\NTớ lúc nào cũng toàn ăn ké cơm của cậu mà.
+Dialogue: 0,0:04:50.34,0:04:53.77,Default,,0,0,0,,Tớ lúc nào cũng toàn ăn ké cơm của cậu mà.
+Dialogue: 0,0:04:53.77,0:04:53.78,Default,,0,0,0,,Tớ lúc nào cũng toàn ăn ké cơm của cậu mà.\NCoi như trả ơn đi.
+Dialogue: 0,0:04:53.78,0:04:55.24,Default,,0,0,0,,Coi như trả ơn đi.
+Dialogue: 0,0:04:55.24,0:04:55.25,Default,,0,0,0,,Coi như trả ơn đi.\NCảm ơn vì từ trước đến nay nhé.
+Dialogue: 0,0:04:55.25,0:04:56.90,Default,,0,0,0,,Cảm ơn vì từ trước đến nay nhé.
+Dialogue: 0,0:04:56.90,0:04:56.90,Default,,0,0,0,,Cảm ơn vì từ trước đến nay nhé.\NHơ...
+Dialogue: 0,0:04:56.90,0:04:58.10,Default,,0,0,0,,Hơ...
+Dialogue: 0,0:04:58.10,0:04:58.11,Default,,0,0,0,,Hơ...\NỪm.
+Dialogue: 0,0:04:58.11,0:04:59.30,Default,,0,0,0,,Ừm.
+Dialogue: 0,0:04:59.30,0:04:59.31,Default,,0,0,0,,Ừm.\NTớ cũng cảm ơn cậu.
+Dialogue: 0,0:04:59.31,0:05:00.97,Default,,0,0,0,,Tớ cũng cảm ơn cậu.
+Dialogue: 0,0:05:00.97,0:05:02.96,Default,,0,0,0,,Vậy đổi nào.
+Dialogue: 0,0:05:02.96,0:05:04.24,Default,,0,0,0,,Ừm.
+Dialogue: 0,0:05:04.24,0:05:04.24,Default,,0,0,0,,Ừm.\NChúng ta lên sân thượng ăn thôi nhỉ.
+Dialogue: 0,0:05:04.24,0:05:06.04,Default,,0,0,0,,Chúng ta lên sân thượng ăn thôi nhỉ.
+Dialogue: 0,0:05:06.04,0:05:06.93,Default,,0,0,0,,Ừm.
+Dialogue: 0,0:05:07.79,0:05:10.14,Default,,0,0,0,,Đi tắt bằng đường nối giữa hai khu cho nhanh.
+Dialogue: 0,0:05:11.29,0:05:12.52,Default,,0,0,0,,Ơ?
+Dialogue: 0,0:05:14.07,0:05:16.28,Default,,0,0,0,,Tại sao lại...?
+Dialogue: 0,0:05:16.28,0:05:19.81,Default,,0,0,0,,Sao con quái thú khổng lồ\Nnhà Aharen-san lại có mặt ở trường!?
+Dialogue: 0,0:05:23.06,0:05:26.02,Default,,0,0,0,,Nó mang hộp cơm đến cho tớ.
+Dialogue: 0,0:05:26.02,0:05:26.02,Default,,0,0,0,,Nó mang hộp cơm đến cho tớ.\NTh-Thế à...
+Dialogue: 0,0:05:26.02,0:05:28.10,Default,,0,0,0,,Th-Thế à...
+Dialogue: 0,0:05:28.10,0:05:28.11,Default,,0,0,0,,Th-Thế à...\NTốt quá rồi.
+Dialogue: 0,0:05:28.11,0:05:29.02,Default,,0,0,0,,Tốt quá rồi.
+Dialogue: 0,0:05:29.02,0:05:29.02,Default,,0,0,0,,Tốt quá rồi.\NỪm.
+Dialogue: 0,0:05:29.02,0:05:30.27,Default,,0,0,0,,Ừm.
+Dialogue: 0,0:05:31.38,0:05:33.86,Default,,0,0,0,,Cảm ơn em nhé, Nui.
+Dialogue: 0,0:05:33.86,0:05:33.87,Default,,0,0,0,,Cảm ơn em nhé, Nui.\NEm về được rồi.
+Dialogue: 0,0:05:33.87,0:05:34.99,Default,,0,0,0,,Em về được rồi.
+Dialogue: 0,0:05:35.89,0:05:38.75,Default,,0,0,0,,Chó gì thông minh quá vậy?
+Dialogue: 0,0:05:40.26,0:05:41.96,Default,,0,0,0,,Tớ có hộp cơm ở đây rồi.
+Dialogue: 0,0:05:41.96,0:05:47.45,Default,,0,0,0,,Nhưng sẵn có dịp, tớ vẫn muốn đổi lấy\Ncơm của Raidou-kun có được không?
+Dialogue: 0,0:05:47.45,0:05:47.46,Default,,0,0,0,,Nhưng sẵn có dịp, tớ vẫn muốn đổi lấy\Ncơm của Raidou-kun có được không?
+Dialogue: 0,0:05:47.46,0:05:48.96,Default,,0,0,0,,Đương nhiên là được.
+Dialogue: 0,0:05:53.46,0:05:56.30,Default,,0,0,0,,Cảm ơn vì bữa ăn.
+Dialogue: 0,0:05:56.30,0:05:56.30,Default,,0,0,0,,Cảm ơn vì bữa ăn.\NGiờ thắc mắc thì hơi trễ...
+Dialogue: 0,0:05:56.30,0:05:58.08,Default,,0,0,0,,Giờ thắc mắc thì hơi trễ...
+Dialogue: 0,0:05:58.08,0:05:58.09,Default,,0,0,0,,Giờ thắc mắc thì hơi trễ...\NNhưng sao hộp cơm của Aharen-san...nhiều quá vậy!?
+Dialogue: 0,0:05:58.09,0:06:02.81,Default,,0,0,0,,Nhưng sao hộp cơm của Aharen-san...nhiều quá vậy!?
+Dialogue: 0,0:06:06.42,0:06:08.70,Default,,0,0,0,,Khó chịu ghê.
+Dialogue: 0,0:06:09.06,0:06:10.38,Default,,0,0,0,,Ê Raidou!
+Dialogue: 0,0:06:10.38,0:06:10.38,Default,,0,0,0,,Ê Raidou!\NIshikawa?
+Dialogue: 0,0:06:10.38,0:06:11.55,Default,,0,0,0,,Ishikawa?
+Dialogue: 0,0:06:11.55,0:06:11.55,Default,,0,0,0,,Ishikawa?\NSao thế, đau bụng à?
+Dialogue: 0,0:06:11.55,0:06:14.39,Default,,0,0,0,,Sao thế, đau bụng à?
+Dialogue: 0,0:06:14.39,0:06:15.81,Default,,0,0,0,,Không, không có gì...
+Dialogue: 0,0:06:15.81,0:06:15.82,Default,,0,0,0,,Không, không có gì...\NCòn ít lâu nữa mới vào tiết.
+Dialogue: 0,0:06:15.82,0:06:17.57,Default,,0,0,0,,Còn ít lâu nữa mới vào tiết.
+Dialogue: 0,0:06:17.57,0:06:17.57,Default,,0,0,0,,Còn ít lâu nữa mới vào tiết.\NChơi với bọn tớ một chút không?
+Dialogue: 0,0:06:17.57,0:06:18.99,Default,,0,0,0,,Chơi với bọn tớ một chút không?
+Dialogue: 0,0:06:18.99,0:06:18.99,Default,,0,0,0,,Chơi với bọn tớ một chút không?\NHửm?
+Dialogue: 0,0:06:18.99,0:06:20.14,Default,,0,0,0,,Hửm?
+Dialogue: 0,0:06:21.04,0:06:24.32,Default,,0,0,0,,Chuyện là Satou-san có mang theo bộ bài tây.
+Dialogue: 0,0:06:24.32,0:06:24.33,Default,,0,0,0,,Chuyện là Satou-san có mang theo bộ bài tây.\NChơi càng đông càng vui mà.
+Dialogue: 0,0:06:24.33,0:06:27.00,Default,,0,0,0,,Chơi càng đông càng vui mà.
+Dialogue: 0,0:06:27.00,0:06:29.22,Default,,0,0,0,,Vậy chúng ta chơi rút bài nhé?
+Dialogue: 0,0:06:29.22,0:06:29.22,Default,,0,0,0,,Vậy chúng ta chơi rút bài nhé?\NĐược đó!
+Dialogue: 0,0:06:29.22,0:06:30.86,Default,,0,0,0,,Được đó!
+Dialogue: 0,0:06:30.86,0:06:30.86,Default,,0,0,0,,Được đó!\NĐể tớ chia cho.
+Dialogue: 0,0:06:30.86,0:06:32.17,Default,,0,0,0,,Để tớ chia cho.
+Dialogue: 0,0:06:32.17,0:06:32.18,Default,,0,0,0,,Để tớ chia cho.\NỜ, cảm ơn cậu.
+Dialogue: 0,0:06:32.18,0:06:33.47,Default,,0,0,0,,Ờ, cảm ơn cậu.
+Dialogue: 0,0:06:35.78,0:06:37.62,Default,,0,0,0,,Xin lỗi mọi người,
+Dialogue: 0,0:06:37.62,0:06:37.63,Default,,0,0,0,,Xin lỗi mọi người,\Nnhưng tớ hơi bị tự tin vào trò rút bài này.
+Dialogue: 0,0:06:37.63,0:06:39.50,Default,,0,0,0,,nhưng tớ hơi bị tự tin vào trò rút bài này.
+Dialogue: 0,0:06:40.42,0:06:44.08,Default,,0,0,0,,Nhìn sơ qua thì rút bài là một trò chơi\Ndựa vào may mắn và lừa gạt đối phương.
+Dialogue: 0,0:06:44.08,0:06:44.09,Default,,0,0,0,,Nhìn sơ qua thì rút bài là một trò chơi\Ndựa vào may mắn và lừa gạt đối phương.
+Dialogue: 0,0:06:44.09,0:06:46.91,Default,,0,0,0,,Nhưng thật ra nó có chiến thuật rõ ràng.
+Dialogue: 0,0:06:46.91,0:06:48.91,Default,,0,0,0,,Nói tóm lại là...
+Dialogue: 0,0:06:48.91,0:06:54.03,Default,,0,0,0,,Từ trước khi chia bài, các cậu\Nđã nằm trong lòng bàn tay của tớ rồi!
+Dialogue: 0,0:06:54.67,0:06:58.02,Default,,0,0,0,,Trong trò rút bài, nếu số bài cuối cùng là số lẻ.
+Dialogue: 0,0:06:58.02,0:06:58.03,Default,,0,0,0,,Trong trò rút bài, nếu số bài cuối cùng là số lẻ.\Nthì tỷ lệ thắng sẽ gấp đôi người có số bài chẵn.
+Dialogue: 0,0:06:58.03,0:07:02.50,Default,,0,0,0,,thì tỷ lệ thắng sẽ gấp đôi người có số bài chẵn.
+Dialogue: 0,0:07:03.04,0:07:04.53,Default,,0,0,0,,Lý do là khi đến lúc quyết định.
+Dialogue: 0,0:07:04.53,0:07:06.53,Default,,0,0,0,,Người có số bài chẵn,
+Dialogue: 0,0:07:06.53,0:07:08.96,Default,,0,0,0,,sẽ cần đến 2 loại bài để chiến thắng.
+Dialogue: 0,0:07:08.96,0:07:08.97,Default,,0,0,0,,sẽ cần đến 2 loại bài để chiến thắng.\NTrong khi người có bài số lẻ
+Dialogue: 0,0:07:08.97,0:07:14.09,Default,,0,0,0,,Trong khi người có bài số lẻ\Nchỉ cần một loại bài thôi.
+Dialogue: 0,0:07:14.62,0:07:16.44,Default,,0,0,0,,Sẽ có ba người có 13 lá.
+Dialogue: 0,0:07:16.44,0:07:18.24,Default,,0,0,0,,Một người có 14 lá.
+Dialogue: 0,0:07:18.24,0:07:18.24,Default,,0,0,0,,Một người có 14 lá.\NSố bài ít sẽ lợi hơn,
+Dialogue: 0,0:07:18.24,0:07:22.19,Default,,0,0,0,,Số bài ít sẽ lợi hơn,\Ncho nên mình sẽ chia cho bản thân 13 lá.
+Dialogue: 0,0:07:23.00,0:07:24.77,Default,,0,0,0,,Phương pháp chiến thắng số 1!
+Dialogue: 0,0:07:24.77,0:07:24.78,Default,,0,0,0,,Phương pháp chiến thắng số 1!\NNói ra lời dẫn dụ.
+Dialogue: 0,0:07:24.78,0:07:26.29,Default,,0,0,0,,Nói ra lời dẫn dụ.
+Dialogue: 0,0:07:26.29,0:07:26.29,Default,,0,0,0,,Nói ra lời dẫn dụ.\NTớ đã chia bài rồi.
+Dialogue: 0,0:07:26.29,0:07:28.73,Default,,0,0,0,,Tớ đã chia bài rồi.
+Dialogue: 0,0:07:28.73,0:07:28.74,Default,,0,0,0,,Tớ đã chia bài rồi.\NNên bắt đầu từ Satou-san rút bài của tớ đi.
+Dialogue: 0,0:07:28.74,0:07:32.05,Default,,0,0,0,,Nên bắt đầu từ Satou-san rút bài của tớ đi.
+Dialogue: 0,0:07:32.05,0:07:32.05,Default,,0,0,0,,Nên bắt đầu từ Satou-san rút bài của tớ đi.\NỪm.
+Dialogue: 0,0:07:32.05,0:07:33.54,Default,,0,0,0,,Ừm.
+Dialogue: 0,0:07:33.54,0:07:33.55,Default,,0,0,0,,Ừm.\NĐể người khác rút bài của mình.
+Dialogue: 0,0:07:33.55,0:07:35.17,Default,,0,0,0,,Để người khác rút bài của mình.
+Dialogue: 0,0:07:35.17,0:07:35.17,Default,,0,0,0,,Để người khác rút bài của mình.\NGiữ số lá bài chẵn.
+Dialogue: 0,0:07:35.17,0:07:37.29,Default,,0,0,0,,Giữ số lá bài chẵn.
+Dialogue: 0,0:07:37.29,0:07:37.30,Default,,0,0,0,,Giữ số lá bài chẵn.\NHay lắm, rất hoàn hảo.
+Dialogue: 0,0:07:37.30,0:07:38.99,Default,,0,0,0,,Hay lắm, rất hoàn hảo.
+Dialogue: 0,0:07:39.58,0:07:41.44,Default,,0,0,0,,Nào, sân khấu đã được dựng lên rồi!
+Dialogue: 0,0:07:41.44,0:07:41.45,Default,,0,0,0,,Nào, sân khấu đã được dựng lên rồi!\NQuyết đấu thôi!
+Dialogue: 0,0:07:41.45,0:07:42.70,Default,,0,0,0,,Quyết đấu thôi!
+Dialogue: 0,0:07:44.94,0:07:46.93,Default,,0,0,0,,Hết bài rồi.
+Dialogue: 0,0:07:46.93,0:07:46.93,Default,,0,0,0,,Hết bài rồi.\NDữ quá!
+Dialogue: 0,0:07:46.93,0:07:48.42,Default,,0,0,0,,Dữ quá!
+Dialogue: 0,0:07:48.42,0:07:48.42,Default,,0,0,0,,Dữ quá!\NMới đó đã tới rồi sao?
+Dialogue: 0,0:07:48.42,0:07:50.10,Default,,0,0,0,,Mới đó đã tới rồi sao?
+Dialogue: 0,0:07:50.10,0:07:50.11,Default,,0,0,0,,Mới đó đã tới rồi sao?\NỪm.
+Dialogue: 0,0:07:50.11,0:07:51.08,Default,,0,0,0,,Ừm.
+Dialogue: 0,0:07:52.16,0:07:53.35,Default,,0,0,0,,Rút bài rốt cuộc...
+Dialogue: 0,0:07:53.35,0:07:55.08,Default,,0,0,0,,cũng chỉ là may mắn thôi sao?
+Dialogue: 0,0:07:55.08,0:07:55.09,Default,,0,0,0,,cũng chỉ là may mắn thôi sao?\NTới này!
+Dialogue: 0,0:07:55.09,0:07:56.82,Default,,0,0,0,,Tới này!
+Dialogue: 0,0:07:56.82,0:07:56.82,Default,,0,0,0,,Tới này!\NTớ nữa!
+Dialogue: 0,0:07:56.82,0:07:58.08,Default,,0,0,0,,Tớ nữa!
+Dialogue: 0,0:08:00.05,0:08:01.22,Default,,0,0,0,,Không...
+Dialogue: 0,0:08:01.22,0:08:01.22,Default,,0,0,0,,Không...\NKế sách của mình không chỉ có thế.
+Dialogue: 0,0:08:01.22,0:08:03.76,Default,,0,0,0,,Kế sách của mình không chỉ có thế.
+Dialogue: 0,0:08:03.76,0:08:05.76,Default,,0,0,0,,Chơi ván nữa thôi.
+Dialogue: 0,0:08:05.76,0:08:07.73,Default,,0,0,0,,Không ai may mắn mãi đâu.
+Dialogue: 0,0:08:07.73,0:08:09.72,Default,,0,0,0,,Phương pháp chiến thắng số 2!
+Dialogue: 0,0:08:10.06,0:08:14.47,Default,,0,0,0,,Đó là rút ngay lá bài Aharen-san vừa rút.
+Dialogue: 0,0:08:14.47,0:08:15.65,Default,,0,0,0,,Lá bài đó...
+Dialogue: 0,0:08:15.65,0:08:17.64,Default,,0,0,0,,nếu nó không hợp thành đôi với bài của Aharen-san,
+Dialogue: 0,0:08:17.64,0:08:21.16,Default,,0,0,0,,thì có nghĩa nó sẽ thành đôi\Nvới bài của mình hoặc Satou-san.
+Dialogue: 0,0:08:21.16,0:08:22.74,Default,,0,0,0,,Nào, rút đây.
+Dialogue: 0,0:08:26.41,0:08:27.87,Default,,0,0,0,,Hửm?
+Dialogue: 0,0:08:31.62,0:08:33.16,Default,,0,0,0,,Rút phải Joker rồi chứ gì?
+Dialogue: 0,0:08:33.16,0:08:33.17,Default,,0,0,0,,Rút phải Joker rồi chứ gì?\NAharen-san...
+Dialogue: 0,0:08:33.17,0:08:34.73,Default,,0,0,0,,Aharen-san...
+Dialogue: 0,0:08:34.73,0:08:34.74,Default,,0,0,0,,Aharen-san...\NNhìn vào thì mặt không cảm xúc.
+Dialogue: 0,0:08:34.74,0:08:36.66,Default,,0,0,0,,Nhìn vào thì mặt không cảm xúc.
+Dialogue: 0,0:08:36.66,0:08:36.67,Default,,0,0,0,,Nhìn vào thì mặt không cảm xúc.\NNhưng thật ra cậu ấy rất dở khoảng này.
+Dialogue: 0,0:08:36.67,0:08:39.93,Default,,0,0,0,,Nhưng thật ra cậu ấy rất dở khoảng này.
+Dialogue: 0,0:08:39.93,0:08:39.94,Default,,0,0,0,,Nhưng thật ra cậu ấy rất dở khoảng này.\NMình sẽ không bị dụ.
+Dialogue: 0,0:08:39.94,0:08:42.41,Default,,0,0,0,,Mình sẽ không bị dụ.
+Dialogue: 0,0:08:42.41,0:08:42.42,Default,,0,0,0,,Mình sẽ không bị dụ.\NRút lá bài khác thôi...
+Dialogue: 0,0:08:42.42,0:08:44.21,Default,,0,0,0,,Rút lá bài khác thôi...
+Dialogue: 0,0:08:44.89,0:08:46.18,Default,,0,0,0,,Khoan đã nào...
+Dialogue: 0,0:08:46.18,0:08:46.18,Default,,0,0,0,,Khoan đã nào...\NNghĩ cho kỹ xem...
+Dialogue: 0,0:08:46.18,0:08:47.84,Default,,0,0,0,,Nghĩ cho kỹ xem...
+Dialogue: 0,0:08:47.84,0:08:47.84,Default,,0,0,0,,Nghĩ cho kỹ xem...\NMình lúc nào cũng bị Aharen-san dắt mũi.
+Dialogue: 0,0:08:47.84,0:08:51.34,Default,,0,0,0,,Mình lúc nào cũng bị Aharen-san dắt mũi.
+Dialogue: 0,0:08:51.83,0:08:55.54,Default,,0,0,0,,Đây cũng là cái bẫy Aharen-san dựng lên cho mình.
+Dialogue: 0,0:08:56.03,0:08:58.52,Default,,0,0,0,,Suýt chút thì nguy.
+Dialogue: 0,0:08:58.52,0:08:58.53,Default,,0,0,0,,Suýt chút thì nguy.\NNhưng tớ tính trước cậu một bước rồi!
+Dialogue: 0,0:08:58.53,0:09:01.57,Default,,0,0,0,,Nhưng tớ tính trước cậu một bước rồi!
+Dialogue: 0,0:09:04.03,0:09:05.20,Default,,0,0,0,,Hửm?
+Dialogue: 0,0:09:07.03,0:09:09.24,Default,,0,0,0,,Mình bị dính bẫy trong bẫy.
+Dialogue: 0,0:09:09.24,0:09:12.72,Default,,0,0,0,,Nhưng thời điểm này\Nrút được Joker lại là một lợi thế.
+Dialogue: 0,0:09:12.72,0:09:14.71,Default,,0,0,0,,Phương pháp chiến thắng số 3!
+Dialogue: 0,0:09:15.71,0:09:17.62,Default,,0,0,0,,Trong khi tất cả đều còn nhiều bài trên tay.
+Dialogue: 0,0:09:17.62,0:09:17.62,Default,,0,0,0,,Trong khi tất cả đều còn nhiều bài trên tay.\NCứ giữ lấy Joker đi.
+Dialogue: 0,0:09:17.62,0:09:19.48,Default,,0,0,0,,Cứ giữ lấy Joker đi.
+Dialogue: 0,0:09:19.48,0:09:23.35,Default,,0,0,0,,Rồi đến đoạn cao trào,\Nkhi tất cả còn ít bài mình sẽ thả nó ra.
+Dialogue: 0,0:09:23.35,0:09:23.36,Default,,0,0,0,,Rồi đến đoạn cao trào,\Nkhi tất cả còn ít bài mình sẽ thả nó ra.
+Dialogue: 0,0:09:23.36,0:09:24.83,Default,,0,0,0,,Khi đó,
+Dialogue: 0,0:09:24.83,0:09:24.83,Default,,0,0,0,,Khi đó,\Nđể Joker quay lại với mình,
+Dialogue: 0,0:09:24.83,0:09:29.41,Default,,0,0,0,,để Joker quay lại với mình,\Nít nhất phải thông qua ba người nữa.
+Dialogue: 0,0:09:29.41,0:09:29.41,Default,,0,0,0,,để Joker quay lại với mình,\Nít nhất phải thông qua ba người nữa.
+Dialogue: 0,0:09:29.41,0:09:31.97,Default,,0,0,0,,Thời gian an toàn sẽ được kéo dài ra.
+Dialogue: 0,0:09:31.97,0:09:31.98,Default,,0,0,0,,Thời gian an toàn sẽ được kéo dài ra.\NViệc điều khiển lá bài nào bị rút
+Dialogue: 0,0:09:31.98,0:09:35.19,Default,,0,0,0,,Việc điều khiển lá bài nào bị rút\Nlà hoàn toàn khả thi.
+Dialogue: 0,0:09:35.19,0:09:38.11,Default,,0,0,0,,Khi tâm lý con người cảm thấy lo lắng,
+Dialogue: 0,0:09:38.11,0:09:38.11,Default,,0,0,0,,Khi tâm lý con người cảm thấy lo lắng,\Nhọ sẽ có xu hướng chọn bên
+Dialogue: 0,0:09:38.11,0:09:41.44,Default,,0,0,0,,họ sẽ có xu hướng chọn bên\Nngược với tay thuận của mình.
+Dialogue: 0,0:09:41.44,0:09:43.14,Default,,0,0,0,,- Lá này đi\N- Hay lắm!
+Dialogue: 0,0:09:43.14,0:09:43.14,Default,,0,0,0,,- Lá này đi\N- Hay lắm!
+Dialogue: 0,0:09:43.14,0:09:45.76,Default,,0,0,0,,Mình sẽ cứ giữ nó như thế này, rồi thả vào vòng cuối.
+Dialogue: 0,0:09:55.39,0:09:56.84,Default,,0,0,0,,Đến lúc rồi!
+Dialogue: 0,0:09:56.84,0:09:56.85,Default,,0,0,0,,Đến lúc rồi!\NTiến lên, Joker của ta!
+Dialogue: 0,0:09:56.85,0:09:58.38,Default,,0,0,0,,Tiến lên, Joker của ta!
+Dialogue: 0,0:10:04.06,0:10:05.92,Default,,0,0,0,,Hay quá, tới rồi!
+Dialogue: 0,0:10:08.21,0:10:09.87,Default,,0,0,0,,Tớ cũng tới!
+Dialogue: 0,0:10:10.53,0:10:13.56,Default,,0,0,0,,- Hồi hộp ghê á.\N- Phải cảm ơn trời đã tạo cho con tình huống này!
+Dialogue: 0,0:10:13.56,0:10:16.02,Default,,0,0,0,,Đây là chiến trường tuyệt vời nhất,
+Dialogue: 0,0:10:16.02,0:10:16.02,Default,,0,0,0,,Đây là chiến trường tuyệt vời nhất,\Nđể mình một đấu một với Aharen-san mà.
+Dialogue: 0,0:10:16.02,0:10:19.27,Default,,0,0,0,,để mình một đấu một với Aharen-san mà.
+Dialogue: 0,0:10:19.27,0:10:19.28,Default,,0,0,0,,để mình một đấu một với Aharen-san mà.\NPhương pháp chiến thắng số 4!
+Dialogue: 0,0:10:19.28,0:10:21.11,Default,,0,0,0,,Phương pháp chiến thắng số 4!
+Dialogue: 0,0:10:21.11,0:10:21.12,Default,,0,0,0,,Phương pháp chiến thắng số 4!\NQuan sát!
+Dialogue: 0,0:10:21.12,0:10:22.63,Default,,0,0,0,,Quan sát!
+Dialogue: 0,0:10:22.63,0:10:22.64,Default,,0,0,0,,Quan sát!\NĐôi mắt là thứ thể hiện rõ tâm lý của một người nhất.
+Dialogue: 0,0:10:22.64,0:10:26.45,Default,,0,0,0,,Đôi mắt là thứ thể hiện rõ tâm lý của một người nhất.
+Dialogue: 0,0:10:35.20,0:10:36.33,Default,,0,0,0,,Nhìn thấu rồi!
+Dialogue: 0,0:10:36.33,0:10:36.34,Default,,0,0,0,,Nhìn thấu rồi!\NLá này!
+Dialogue: 0,0:10:36.34,0:10:37.95,Default,,0,0,0,,Lá này!
+Dialogue: 0,0:10:38.98,0:10:40.82,Default,,0,0,0,,Hay quá!
+Dialogue: 0,0:10:40.82,0:10:42.82,Default,,0,0,0,,Thắng rồi!
+Dialogue: 0,0:10:51.10,0:10:53.28,Default,,0,0,0,,Aharen-san thắng!
+Dialogue: 0,0:10:53.28,0:10:53.29,Default,,0,0,0,,Aharen-san thắng!\NChúc mừng cậu.
+Dialogue: 0,0:10:53.29,0:10:54.61,Default,,0,0,0,,Chúc mừng cậu.
+Dialogue: 0,0:10:55.25,0:10:57.10,Default,,0,0,0,,Aharen-san...
+Dialogue: 0,0:10:57.10,0:10:57.10,Default,,0,0,0,,Aharen-san...\NTớ...
+Dialogue: 0,0:10:57.10,0:10:58.58,Default,,0,0,0,,Tớ...
+Dialogue: 0,0:10:59.27,0:11:03.19,Default,,0,0,0,,sẽ không bao giờ còn tin cậu được nữa mất.
+Dialogue: 0,0:11:03.19,0:11:03.20,Default,,0,0,0,,sẽ không bao giờ còn tin cậu được nữa mất.\NTại sao...
+Dialogue: 0,0:11:03.20,0:11:05.17,Default,,0,0,0,,Tại sao...
+Dialogue: 0,0:11:05.17,0:11:05.18,Default,,0,0,0,,Tại sao...\NLúc đó rõ ràng cậu đã đảo mắt mà.
+Dialogue: 0,0:11:05.18,0:11:07.67,Default,,0,0,0,,Lúc đó rõ ràng cậu đã đảo mắt mà.
+Dialogue: 0,0:11:08.61,0:11:12.36,Default,,0,0,0,,Tại cậu nhìn thẳng vào mắt làm tớ ngại...
+Dialogue: 0,0:11:12.36,0:11:14.94,Default,,0,0,0,,À, ra là thế.
+Dialogue: 0,0:11:14.94,0:11:14.94,Default,,0,0,0,,À, ra là thế.\NThế thì cho tớ xin lỗi.
+Dialogue: 0,0:11:14.94,0:11:16.44,Default,,0,0,0,,Thế thì cho tớ xin lỗi.
+Dialogue: 0,0:11:16.44,0:11:16.45,Default,,0,0,0,,Thế thì cho tớ xin lỗi.\NỪm.
+Dialogue: 0,0:11:16.45,0:11:17.71,Default,,0,0,0,,Ừm.
+Dialogue: 0,0:11:23.92,0:11:26.28,Default,,0,0,0,,Mình lại không thắng được Aharen-san.
+Dialogue: 0,0:11:28.49,0:11:31.25,Default,,0,0,0,,Dù đã tiến gần đến vậy mà...!
+Dialogue: 0,0:11:34.43,0:11:36.10,Default,,0,0,0,,Ở đây chúng ta có...
+Dialogue: 0,0:11:36.10,0:11:36.11,Default,,0,0,0,,Ở đây chúng ta có...\NNên sẽ thành ra thế này...
+Dialogue: 0,0:11:36.11,0:11:38.02,Default,,0,0,0,,Nên sẽ thành ra thế này...
+Dialogue: 0,0:11:38.72,0:11:40.96,Default,,0,0,0,,Công thức này sẽ có trong bài kiểm tra đấy.
+Dialogue: 0,0:11:40.96,0:11:40.96,Default,,0,0,0,,Công thức này sẽ có trong bài kiểm tra đấy.\N- Nên các em nhớ học cho kỹ.
+Dialogue: 0,0:11:40.96,0:11:43.28,Default,,0,0,0,,- Nên các em nhớ học cho kỹ.\N- Tướng ngủ hoành tráng dữ.
+Dialogue: 0,0:11:44.75,0:11:46.72,Default,,0,0,0,,Được rồi, hôm nay đến đây thôi.
+Dialogue: 0,0:11:46.72,0:11:46.73,Default,,0,0,0,,Được rồi, hôm nay đến đây thôi.\NTiết sau phải đổi phòng học nhỉ?
+Dialogue: 0,0:11:46.73,0:11:49.28,Default,,0,0,0,,Tiết sau phải đổi phòng học nhỉ?
+Dialogue: 0,0:11:49.28,0:11:49.28,Default,,0,0,0,,Tiết sau phải đổi phòng học nhỉ?\NỪ.
+Dialogue: 0,0:11:49.28,0:11:50.21,Default,,0,0,0,,Ừ.
+Dialogue: 0,0:11:53.03,0:11:54.06,Default,,0,0,0,,Aharen-san.
+Dialogue: 0,0:11:54.06,0:11:54.06,Default,,0,0,0,,Aharen-san.\NChúng ta phải đổi phòng học đó.
+Dialogue: 0,0:11:54.06,0:11:55.61,Default,,0,0,0,,Chúng ta phải đổi phòng học đó.
+Dialogue: 0,0:11:55.61,0:11:55.62,Default,,0,0,0,,Chúng ta phải đổi phòng học đó.\NHơ?
+Dialogue: 0,0:11:55.62,0:11:56.25,Default,,0,0,0,,Hơ?
+Dialogue: 0,0:12:00.29,0:12:01.28,Default,,0,0,0,,Tỉnh táo chưa?
+Dialogue: 0,0:12:01.28,0:12:01.28,Default,,0,0,0,,Tỉnh táo chưa?\NRồi.
+Dialogue: 0,0:12:01.28,0:12:02.21,Default,,0,0,0,,Rồi.
+Dialogue: 0,0:12:02.96,0:12:04.64,Default,,0,0,0,,Tiết sau là khoa học đấy.
+Dialogue: 0,0:12:04.64,0:12:04.64,Default,,0,0,0,,Tiết sau là khoa học đấy.\NCậu chuẩn bị nhanh rồi đi.
+Dialogue: 0,0:12:04.64,0:12:05.75,Default,,0,0,0,,Cậu chuẩn bị nhanh rồi đi.
+Dialogue: 0,0:12:12.56,0:12:14.69,Default,,0,0,0,,Aharen-san không hề cử động...
+Dialogue: 0,0:12:14.69,0:12:16.68,Default,,0,0,0,,Rốt cuộc là tại sao?
+Dialogue: 0,0:12:16.68,0:12:18.68,Default,,0,0,0,,Nói thế thôi chứ mình biết...
+Dialogue: 0,0:12:18.68,0:12:20.36,Default,,0,0,0,,Aharen-san...
+Dialogue: 0,0:12:20.36,0:12:22.12,Default,,0,0,0,,Đang trong thời kỳ đa sầu đa cảm.
+Dialogue: 0,0:12:22.12,0:12:24.05,Default,,0,0,0,,Khi mà mấy đứa nam nữ cấp hai
+Dialogue: 0,0:12:24.05,0:12:24.06,Default,,0,0,0,,Khi mà mấy đứa nam nữ cấp hai\Nmuốn cúp học mà chẳng vì lý do gì.
+Dialogue: 0,0:12:24.06,0:12:27.41,Default,,0,0,0,,muốn cúp học mà chẳng vì lý do gì.
+Dialogue: 0,0:12:27.41,0:12:27.41,Default,,0,0,0,,muốn cúp học mà chẳng vì lý do gì.\NChưa kể Aharen-san...
+Dialogue: 0,0:12:27.41,0:12:28.98,Default,,0,0,0,,Chưa kể Aharen-san...
+Dialogue: 0,0:12:28.98,0:12:28.99,Default,,0,0,0,,Chưa kể Aharen-san...\NChẳng nói chẳng rằng, cũng không làm gì.
+Dialogue: 0,0:12:28.99,0:12:30.89,Default,,0,0,0,,Chẳng nói chẳng rằng, cũng không làm gì.
+Dialogue: 0,0:12:30.89,0:12:30.90,Default,,0,0,0,,Chẳng nói chẳng rằng, cũng không làm gì.\NPhản kháng một cách yên lặng.
+Dialogue: 0,0:12:30.90,0:12:32.52,Default,,0,0,0,,Phản kháng một cách yên lặng.
+Dialogue: 0,0:12:32.52,0:12:33.87,Default,,0,0,0,,Chủ trương không lời.
+Dialogue: 0,0:12:34.42,0:12:36.74,Default,,0,0,0,,Không phá hoại hay gây ra\Nbất kỳ hành động sai trái nào.
+Dialogue: 0,0:12:36.74,0:12:36.75,Default,,0,0,0,,Không phá hoại hay gây ra\Nbất kỳ hành động sai trái nào.
+Dialogue: 0,0:12:36.75,0:12:39.34,Default,,0,0,0,,Như thế mới thượng đẳng làm sao.
+Dialogue: 0,0:12:39.96,0:12:41.34,Default,,0,0,0,,Do tớ...
+Dialogue: 0,0:12:41.34,0:12:42.29,Default,,0,0,0,,Hể?
+Dialogue: 0,0:12:42.29,0:12:42.30,Default,,0,0,0,,Hể?\NDo tớ ngủ mãi một tư thế...
+Dialogue: 0,0:12:42.30,0:12:45.17,Default,,0,0,0,,Do tớ ngủ mãi một tư thế...
+Dialogue: 0,0:12:45.17,0:12:45.17,Default,,0,0,0,,Do tớ ngủ mãi một tư thế...\NNên cả người tê hết rồi, không cử động được.
+Dialogue: 0,0:12:45.17,0:12:48.12,Default,,0,0,0,,Nên cả người tê hết rồi, không cử động được.
+Dialogue: 0,0:12:48.59,0:12:49.53,Default,,0,0,0,,Hừm.
+Dialogue: 0,0:12:51.15,0:12:52.80,Default,,0,0,0,,Ừm, hẳn là vậy rồi.
+Dialogue: 0,0:12:52.80,0:12:52.81,Default,,0,0,0,,Ừm, hẳn là vậy rồi.\NTớ hiểu mà.
+Dialogue: 0,0:12:52.81,0:12:54.43,Default,,0,0,0,,Tớ hiểu mà.
+Dialogue: 0,0:12:54.43,0:12:54.43,Default,,0,0,0,,Tớ hiểu mà.\NCậu bị tê nhỉ?
+Dialogue: 0,0:12:54.43,0:12:56.05,Default,,0,0,0,,Cậu bị tê nhỉ?
+Dialogue: 0,0:12:56.57,0:12:58.04,Default,,0,0,0,,Tính sao đây?
+Dialogue: 0,0:12:58.72,0:12:59.81,Default,,0,0,0,,Được!
+Dialogue: 0,0:13:02.13,0:13:04.83,Default,,0,0,0,,Chúng ta dùng cách này đến phòng khoa học nhé.
+Dialogue: 0,0:13:04.83,0:13:04.83,Default,,0,0,0,,Chúng ta dùng cách này đến phòng khoa học nhé.\NCảm ơn cậu.
+Dialogue: 0,0:13:04.83,0:13:06.45,Default,,0,0,0,,Cảm ơn cậu.
+Dialogue: 0,0:13:06.45,0:13:06.45,Default,,0,0,0,,Cảm ơn cậu.\NShirorin!
+Dialogue: 0,0:13:06.45,0:13:07.66,Default,,0,0,0,,Shirorin!
+Dialogue: 0,0:13:09.27,0:13:10.31,Default,,0,0,0,,Sao rồi?
+Dialogue: 0,0:13:10.31,0:13:10.32,Default,,0,0,0,,Sao rồi?\NHết tê chưa?
+Dialogue: 0,0:13:10.32,0:13:11.86,Default,,0,0,0,,Hết tê chưa?
+Dialogue: 0,0:13:11.86,0:13:11.87,Default,,0,0,0,,Hết tê chưa?\NHết rồi.
+Dialogue: 0,0:13:11.87,0:13:13.11,Default,,0,0,0,,Hết rồi.
+Dialogue: 0,0:13:13.11,0:13:14.26,Default,,0,0,0,,Hay lắm.
+Dialogue: 0,0:13:14.26,0:13:14.27,Default,,0,0,0,,Hay lắm.\NThế này là vụ án kết thúc.
+Dialogue: 0,0:13:14.27,0:13:16.82,Default,,0,0,0,,Thế này là vụ án kết thúc.
+Dialogue: 0,0:13:17.50,0:13:19.54,Default,,0,0,0,,Hôm nay tạm dừng ở đây.
+Dialogue: 0,0:13:20.91,0:13:22.85,Default,,0,0,0,,Đi thôi Aharen-san...
+Dialogue: 0,0:13:24.35,0:13:25.35,Default,,0,0,0,,Aharen-san...
+Dialogue: 0,0:13:25.35,0:13:26.82,Default,,0,0,0,,Hết tiết học rồi.
+Dialogue: 0,0:13:29.58,0:13:31.83,Default,,0,0,0,,Tớ lại bị tê nữa...
+Dialogue: 0,0:13:31.83,0:13:31.84,Default,,0,0,0,,Tớ lại bị tê nữa...\NBị thường xuyên quá vậy?
+Dialogue: 0,0:13:31.84,0:13:33.55,Default,,0,0,0,,Bị thường xuyên quá vậy?
+Dialogue: 0,0:13:34.18,0:13:36.80,Default,,0,0,0,,Nếu cậu ấy cứ bị tê định kỳ thế này...
+Dialogue: 0,0:13:36.80,0:13:36.80,Default,,0,0,0,,Nếu cậu ấy cứ bị tê định kỳ thế này...\NThì có khả năng...
+Dialogue: 0,0:13:36.80,0:13:41.52,Default,,0,0,0,,Thì có khả năng...\Nsẽ không bao giờ ra khỏi trường được nữa!
+Dialogue: 0,0:13:41.52,0:13:41.53,Default,,0,0,0,,Thì có khả năng...\Nsẽ không bao giờ ra khỏi trường được nữa!
+Dialogue: 0,0:13:41.53,0:13:42.85,Default,,0,0,0,,Bình tĩnh lại nào.
+Dialogue: 0,0:13:42.85,0:13:42.85,Default,,0,0,0,,Bình tĩnh lại nào.\NĐây là thói quen xấu của mình thôi.
+Dialogue: 0,0:13:42.85,0:13:44.66,Default,,0,0,0,,Đây là thói quen xấu của mình thôi.
+Dialogue: 0,0:13:44.66,0:13:44.66,Default,,0,0,0,,Đây là thói quen xấu của mình thôi.\NLúc nào cũng nghĩ theo hướng tiêu cực.
+Dialogue: 0,0:13:44.66,0:13:46.99,Default,,0,0,0,,Lúc nào cũng nghĩ theo hướng tiêu cực.
+Dialogue: 0,0:13:47.50,0:13:50.43,Default,,0,0,0,,Nhưng bình thường nếu\Nkhông lường trước những tình huống xấu,
+Dialogue: 0,0:13:50.44,0:13:53.38,Default,,0,0,0,,thì khi chúng xảy ra thật sẽ không kịp xử lý.
+Dialogue: 0,0:13:53.38,0:13:54.89,Default,,0,0,0,,Cơ mà...
+Dialogue: 0,0:13:54.89,0:13:54.90,Default,,0,0,0,,Cơ mà...\NLiệu tớ đã sẵn sàng
+Dialogue: 0,0:13:54.90,0:13:59.83,Default,,0,0,0,,Liệu tớ đã sẵn sàng\Nđể cõng cậu trên vai suốt cuộc đời này chưa?
+Dialogue: 0,0:14:03.40,0:14:05.03,Default,,0,0,0,,Aharen-san...
+Dialogue: 0,0:14:05.03,0:14:05.04,Default,,0,0,0,,Aharen-san...\NSao hôm nay cậu ngủ gật nhiều vậy?
+Dialogue: 0,0:14:05.04,0:14:08.00,Default,,0,0,0,,Sao hôm nay cậu ngủ gật nhiều vậy?
+Dialogue: 0,0:14:13.44,0:14:19.06,Default,,0,0,0,,Tớ thức khuya để nghĩ món ăn kèm\Ncho hộp cơm của Raidou-kun.
+Dialogue: 0,0:14:19.06,0:14:19.06,Default,,0,0,0,,Tớ thức khuya để nghĩ món ăn kèm\Ncho hộp cơm của Raidou-kun.
+Dialogue: 0,0:14:19.06,0:14:21.02,Default,,0,0,0,,Vì tớ...!?
+Dialogue: 0,0:14:21.69,0:14:24.98,Default,,0,0,0,,Tại vì hôm qua cậu có chừa lại một chút...
+Dialogue: 0,0:14:24.98,0:14:24.98,Default,,0,0,0,,Tại vì hôm qua cậu có chừa lại một chút...\NKhông, chúng rất ngon mà.
+Dialogue: 0,0:14:24.98,0:14:27.43,Default,,0,0,0,,Không, chúng rất ngon mà.
+Dialogue: 0,0:14:27.43,0:14:31.10,Default,,0,0,0,,Chỉ là vượt quá sức chứa bao tử của tớ thôi.
+Dialogue: 0,0:14:31.48,0:14:33.33,Default,,0,0,0,,Nhưng nghe vậy tớ đã quyết tâm rồi, Aharen-san.
+Dialogue: 0,0:14:33.33,0:14:33.34,Default,,0,0,0,,Nhưng nghe vậy tớ đã quyết tâm rồi, Aharen-san.\NTớ...
+Dialogue: 0,0:14:33.34,0:14:34.74,Default,,0,0,0,,Tớ...
+Dialogue: 0,0:14:34.74,0:14:34.75,Default,,0,0,0,,Tớ...\NCả đời này tớ sẽ...
+Dialogue: 0,0:14:34.75,0:14:37.07,Default,,0,0,0,,Cả đời này tớ sẽ...
+Dialogue: 0,0:14:38.00,0:14:38.92,Default,,0,0,0,,Ơ...?
+Dialogue: 0,0:14:38.93,0:14:40.16,Default,,0,0,0,,Hết tê rồi à?
+Dialogue: 0,0:14:40.16,0:14:40.17,Default,,0,0,0,,Hết tê rồi à?\NỪm.
+Dialogue: 0,0:14:40.17,0:14:40.95,Default,,0,0,0,,Ừm.
+Dialogue: 0,0:14:40.95,0:14:40.96,Default,,0,0,0,,Ừm.\NHừm, vậy thì tốt...
+Dialogue: 0,0:14:40.96,0:14:43.28,Default,,0,0,0,,Hừm, vậy thì tốt...
+Dialogue: 0,0:14:46.48,0:14:49.21,Default,,0,0,0,,Mai là đến chuyến dã ngoại rồi!
+Dialogue: 0,0:14:49.21,0:14:49.22,Default,,0,0,0,,Mai là đến chuyến dã ngoại rồi!\NMình sẽ cho Akkun ăn cơm hộp mình tự làm,
+Dialogue: 0,0:14:49.22,0:14:52.24,Default,,0,0,0,,Mình sẽ cho Akkun ăn cơm hộp mình tự làm,
+Dialogue: 0,0:14:52.24,0:14:52.25,Default,,0,0,0,,Mình sẽ cho Akkun ăn cơm hộp mình tự làm,\Nrồi thu phục luôn bao tử của cậu ấy!
+Dialogue: 0,0:14:52.25,0:14:54.55,Default,,0,0,0,,rồi thu phục luôn bao tử của cậu ấy!
+Dialogue: 0,0:14:55.75,0:14:58.10,Default,,0,0,0,,Hôm nay đã làm sẵn hàng mẫu rồi,
+Dialogue: 0,0:14:58.10,0:14:58.11,Default,,0,0,0,,Hôm nay đã làm sẵn hàng mẫu rồi,\Năn thử xem sao.
+Dialogue: 0,0:14:58.11,0:14:59.71,Default,,0,0,0,,ăn thử xem sao.
+Dialogue: 0,0:15:00.54,0:15:01.67,Default,,0,0,0,,Ơ kìa?
+Dialogue: 0,0:15:02.05,0:15:05.29,Default,,0,0,0,,Xin lỗi, tớ quên mất hôm nay chỉ có tiết sáng.
+Dialogue: 0,0:15:05.29,0:15:05.30,Default,,0,0,0,,Xin lỗi, tớ quên mất hôm nay chỉ có tiết sáng.\NKhông sao.
+Dialogue: 0,0:15:05.30,0:15:06.56,Default,,0,0,0,,Không sao.
+Dialogue: 0,0:15:06.56,0:15:06.57,Default,,0,0,0,,Không sao.\NCậu đã tốn công làm mà.
+Dialogue: 0,0:15:06.57,0:15:08.79,Default,,0,0,0,,Cậu đã tốn công làm mà.
+Dialogue: 0,0:15:08.79,0:15:08.80,Default,,0,0,0,,Cậu đã tốn công làm mà.\NLâu lâu ra công viên ăn cũng hay nhỉ.
+Dialogue: 0,0:15:08.80,0:15:11.59,Default,,0,0,0,,Lâu lâu ra công viên ăn cũng hay nhỉ.
+Dialogue: 0,0:15:11.59,0:15:11.60,Default,,0,0,0,,Lâu lâu ra công viên ăn cũng hay nhỉ.\NẢ xảo quyệt này!
+Dialogue: 0,0:15:11.60,0:15:13.65,Default,,0,0,0,,Ả xảo quyệt này!
+Dialogue: 0,0:15:13.65,0:15:13.66,Default,,0,0,0,,Ả xảo quyệt này!\NChị cũng âm mưu làm cơm hộp
+Dialogue: 0,0:15:13.66,0:15:18.83,Default,,0,0,0,,Chị cũng âm mưu làm cơm hộp\Ncho Akkun để tóm lấy cậu ấy chứ gì!
+Dialogue: 0,0:15:18.83,0:15:18.83,Default,,0,0,0,,Chị cũng âm mưu làm cơm hộp\Ncho Akkun để tóm lấy cậu ấy chứ gì!
+Dialogue: 0,0:15:18.83,0:15:20.95,Default,,0,0,0,,Tôi không để chị toại nguyện đâu!
+Dialogue: 0,0:15:20.95,0:15:20.96,Default,,0,0,0,,Tôi không để chị toại nguyện đâu!\NAharen Reina!
+Dialogue: 0,0:15:20.96,0:15:22.29,Default,,0,0,0,,Aharen Reina!
+Dialogue: 0,0:15:22.30,0:15:23.07,Default,,0,0,0,,Hơ?
+Dialogue: 0,0:15:23.07,0:15:24.28,Default,,0,0,0,,Futaba-chan?
+Dialogue: 0,0:15:24.28,0:15:26.79,Default,,0,0,0,,Chị lấy cơm hộp ra đấu với tôi đi!
+Dialogue: 0,0:15:27.18,0:15:28.63,Default,,0,0,0,,Em thôi đi thì hơn.
+Dialogue: 0,0:15:28.63,0:15:29.96,Default,,0,0,0,,Hừ!
+Dialogue: 0,0:15:29.96,0:15:29.97,Default,,0,0,0,,Hừ!\NThôi, cho anh xin lỗi.
+Dialogue: 0,0:15:29.97,0:15:31.68,Default,,0,0,0,,Thôi, cho anh xin lỗi.
+Dialogue: 0,0:15:31.68,0:15:31.68,Default,,0,0,0,,Thôi, cho anh xin lỗi.\NChị cũng tính tặng cơm hộp cho Akkun chứ gì!
+Dialogue: 0,0:15:31.68,0:15:34.93,Default,,0,0,0,,Chị cũng tính tặng cơm hộp cho Akkun chứ gì!
+Dialogue: 0,0:15:34.93,0:15:34.94,Default,,0,0,0,,Chị cũng tính tặng cơm hộp cho Akkun chứ gì!\NHơ?
+Dialogue: 0,0:15:34.94,0:15:35.88,Default,,0,0,0,,Hơ?
+Dialogue: 0,0:15:35.88,0:15:39.46,Default,,0,0,0,,Hộp cơm của tôi ngon hơn là cái chắc!
+Dialogue: 0,0:15:39.46,0:15:39.47,Default,,0,0,0,,Hộp cơm của tôi ngon hơn là cái chắc!\NHể...
+Dialogue: 0,0:15:39.47,0:15:40.56,Default,,0,0,0,,Hể...
+Dialogue: 0,0:15:40.56,0:15:40.56,Default,,0,0,0,,Hể...\NEm tự nấu à?
+Dialogue: 0,0:15:40.56,0:15:42.11,Default,,0,0,0,,Em tự nấu à?
+Dialogue: 0,0:15:42.11,0:15:42.11,Default,,0,0,0,,Em tự nấu à?\NĂn thử đi thì biết.
+Dialogue: 0,0:15:42.11,0:15:43.93,Default,,0,0,0,,Ăn thử đi thì biết.
+Dialogue: 0,0:15:52.37,0:15:53.56,Default,,0,0,0,,Để xem...
+Dialogue: 0,0:15:53.56,0:15:53.57,Default,,0,0,0,,Để xem...\NTrứng chiên này có nhiều vị thật nhỉ...
+Dialogue: 0,0:15:53.57,0:15:56.64,Default,,0,0,0,,Trứng chiên này có nhiều vị thật nhỉ...
+Dialogue: 0,0:15:56.64,0:15:56.65,Default,,0,0,0,,Trứng chiên này có nhiều vị thật nhỉ...\N- Ngọt, mặn, chua, đắng...
+Dialogue: 0,0:15:56.65,0:16:00.88,Default,,0,0,0,,- Ngọt, mặn, chua, đắng...\N- Đương nhiên phải thế, tôi tự tay nêm nếm mà.
+Dialogue: 0,0:16:01.46,0:16:04.00,Default,,0,0,0,,Giờ tôi ăn thử hộp cơm của chị đây.
+Dialogue: 0,0:16:04.00,0:16:04.00,Default,,0,0,0,,Giờ tôi ăn thử hộp cơm của chị đây.\NKiểu gì thì của tôi cũng ngon hơn thôi.
+Dialogue: 0,0:16:04.00,0:16:07.52,Default,,0,0,0,,Kiểu gì thì của tôi cũng ngon hơn thôi.
+Dialogue: 0,0:16:10.84,0:16:13.51,Default,,0,0,0,,Ngon quá...
+Dialogue: 0,0:16:13.51,0:16:14.64,Default,,0,0,0,,Ơ...
+Dialogue: 0,0:16:14.64,0:16:14.65,Default,,0,0,0,,Ơ...\NC-Cái thứ như trứng chiên
+Dialogue: 0,0:16:14.65,0:16:18.71,Default,,0,0,0,,C-Cái thứ như trứng chiên\Nthì ai mà chẳng làm ngon được chứ.
+Dialogue: 0,0:16:18.71,0:16:22.30,Default,,0,0,0,,Để tôi thử món thịt viên này tiếp xem.
+Dialogue: 0,0:16:22.30,0:16:22.30,Default,,0,0,0,,Để tôi thử món thịt viên này tiếp xem.\NXem hình dáng nó méo mó này, nhìn là biết tự làm rồi.
+Dialogue: 0,0:16:22.30,0:16:25.89,Default,,0,0,0,,Xem hình dáng nó méo mó này, nhìn là biết tự làm rồi.
+Dialogue: 0,0:16:25.89,0:16:25.89,Default,,0,0,0,,Xem hình dáng nó méo mó này, nhìn là biết tự làm rồi.\NCái thứ như này thì...
+Dialogue: 0,0:16:25.89,0:16:28.10,Default,,0,0,0,,Cái thứ như này thì...
+Dialogue: 0,0:16:30.16,0:16:31.79,Default,,0,0,0,,Ngon quá...
+Dialogue: 0,0:16:31.79,0:16:31.79,Default,,0,0,0,,Ngon quá...\NCòn đúng kiểu mình thích nữa!
+Dialogue: 0,0:16:31.79,0:16:33.35,Default,,0,0,0,,Còn đúng kiểu mình thích nữa!
+Dialogue: 0,0:16:33.35,0:16:37.32,Default,,0,0,0,,Tức thật, nhưng chị ta nấu ăn rất giỏi.
+Dialogue: 0,0:16:37.32,0:16:38.79,Default,,0,0,0,,Trong khi đó mình...
+Dialogue: 0,0:16:38.79,0:16:38.80,Default,,0,0,0,,Trong khi đó mình...\NCơm hộp mình làm vị thì lạ, vẻ ngoài cũng không...
+Dialogue: 0,0:16:38.80,0:16:43.28,Default,,0,0,0,,Cơm hộp mình làm vị thì lạ, vẻ ngoài cũng không...
+Dialogue: 0,0:16:43.28,0:16:43.28,Default,,0,0,0,,Cơm hộp mình làm vị thì lạ, vẻ ngoài cũng không...\NA...
+Dialogue: 0,0:16:43.28,0:16:44.74,Default,,0,0,0,,A...
+Dialogue: 0,0:16:44.74,0:16:44.74,Default,,0,0,0,,A...\NAharen Reina...
+Dialogue: 0,0:16:44.74,0:16:46.70,Default,,0,0,0,,Aharen Reina...
+Dialogue: 0,0:16:46.70,0:16:46.70,Default,,0,0,0,,Aharen Reina...\NXin chị...
+Dialogue: 0,0:16:46.70,0:16:48.29,Default,,0,0,0,,Xin chị...
+Dialogue: 0,0:16:48.29,0:16:48.30,Default,,0,0,0,,Xin chị...\Ndạy cho em...
+Dialogue: 0,0:16:48.30,0:16:49.89,Default,,0,0,0,,dạy cho em...
+Dialogue: 0,0:16:49.89,0:16:49.89,Default,,0,0,0,,dạy cho em...\Ncách nấu ăn ạ.
+Dialogue: 0,0:16:49.89,0:16:52.21,Default,,0,0,0,,cách nấu ăn ạ.
+Dialogue: 0,0:16:53.79,0:16:55.50,Default,,0,0,0,,Hai người ngạc nhiên cái gì hả!?
+Dialogue: 0,0:16:55.50,0:16:55.50,Default,,0,0,0,,Hai người ngạc nhiên cái gì hả!?\NEm đây cũng biết lễ phép khi nhờ vả người ta đó nha!
+Dialogue: 0,0:16:55.50,0:16:59.33,Default,,0,0,0,,Em đây cũng biết lễ phép khi nhờ vả người ta đó nha!
+Dialogue: 0,0:16:59.33,0:16:59.34,Default,,0,0,0,,Em đây cũng biết lễ phép khi nhờ vả người ta đó nha!\NEm cũng muốn làm được hộp cơm
+Dialogue: 0,0:16:59.34,0:17:01.65,Default,,0,0,0,,Em cũng muốn làm được hộp cơm
+Dialogue: 0,0:17:01.65,0:17:01.66,Default,,0,0,0,,Em cũng muốn làm được hộp cơm\Nngon như của chị làm.
+Dialogue: 0,0:17:01.66,0:17:04.55,Default,,0,0,0,,ngon như của chị làm.
+Dialogue: 0,0:17:06.28,0:17:07.89,Default,,0,0,0,,Shirorin!
+Dialogue: 0,0:17:10.13,0:17:13.35,Default,,0,0,0,,May mà xin dùng được phòng gia chánh nhỉ.
+Dialogue: 0,0:17:13.35,0:17:13.36,Default,,0,0,0,,May mà xin dùng được phòng gia chánh nhỉ.\NCòn được phép dùng nguyên liệu còn thừa nữa.
+Dialogue: 0,0:17:13.36,0:17:15.67,Default,,0,0,0,,Còn được phép dùng nguyên liệu còn thừa nữa.
+Dialogue: 0,0:17:15.67,0:17:16.71,Default,,0,0,0,,- Ừm.\N-Vâng.
+Dialogue: 0,0:17:16.71,0:17:18.24,Default,,0,0,0,,Trước tiên là rửa tay,
+Dialogue: 0,0:17:18.24,0:17:18.24,Default,,0,0,0,,Trước tiên là rửa tay,\Nsau đó cùng làm thử xem sao nhé.
+Dialogue: 0,0:17:18.24,0:17:20.16,Default,,0,0,0,,sau đó cùng làm thử xem sao nhé.
+Dialogue: 0,0:17:20.16,0:17:20.16,Default,,0,0,0,,sau đó cùng làm thử xem sao nhé.\NV-Vâng.
+Dialogue: 0,0:17:20.16,0:17:21.41,Default,,0,0,0,,V-Vâng.
+Dialogue: 0,0:17:23.39,0:17:25.31,Default,,0,0,0,,Xong rồi!
+Dialogue: 0,0:17:25.31,0:17:25.31,Default,,0,0,0,,Xong rồi!\NĐây là do mình tự làm...
+Dialogue: 0,0:17:25.31,0:17:27.79,Default,,0,0,0,,Đây là do mình tự làm...
+Dialogue: 0,0:17:33.08,0:17:34.21,Default,,0,0,0,,Ngon quá!
+Dialogue: 0,0:17:34.21,0:17:34.21,Default,,0,0,0,,Ngon quá!\NĐều do công Futaba-chan cố gắng đấy.
+Dialogue: 0,0:17:34.21,0:17:36.97,Default,,0,0,0,,Đều do công Futaba-chan cố gắng đấy.
+Dialogue: 0,0:17:36.97,0:17:36.98,Default,,0,0,0,,Đều do công Futaba-chan cố gắng đấy.\NChắc chắn người được nhận nó sẽ rất vui.
+Dialogue: 0,0:17:36.98,0:17:39.94,Default,,0,0,0,,Chắc chắn người được nhận nó sẽ rất vui.
+Dialogue: 0,0:17:41.13,0:17:44.94,Default,,0,0,0,,Kh-Không cần chị nói tôi cũng biết!
+Dialogue: 0,0:17:46.06,0:17:47.64,Default,,0,0,0,,Aharen Reina.
+Dialogue: 0,0:17:47.64,0:17:50.22,Default,,0,0,0,,Hôm nay...
+Dialogue: 0,0:17:50.22,0:17:50.22,Default,,0,0,0,,Hôm nay...\Nthật sự...
+Dialogue: 0,0:17:50.22,0:17:52.45,Default,,0,0,0,,thật sự...
+Dialogue: 0,0:17:53.65,0:17:57.12,Default,,0,0,0,,Chị thật sự đúng là đồ ngốc! Bị tôi lừa rồi!
+Dialogue: 0,0:17:57.71,0:18:00.77,Default,,0,0,0,,Giờ tôi nấu ăn ngon hơn chị luôn rồi.
+Dialogue: 0,0:18:00.77,0:18:00.78,Default,,0,0,0,,Giờ tôi nấu ăn ngon hơn chị luôn rồi.\NAi lại đi giúp đỡ kẻ thù chứ, đúng là cả tin mà.
+Dialogue: 0,0:18:00.78,0:18:04.05,Default,,0,0,0,,Ai lại đi giúp đỡ kẻ thù chứ, đúng là cả tin mà.
+Dialogue: 0,0:18:04.05,0:18:06.05,Default,,0,0,0,,Tạm biệt!
+Dialogue: 0,0:18:06.75,0:18:08.13,Default,,0,0,0,,Hừm.
+Dialogue: 0,0:18:08.13,0:18:08.14,Default,,0,0,0,,Hừm.\NĐúng là một cô bé hiếu động nhỉ.
+Dialogue: 0,0:18:08.14,0:18:09.70,Default,,0,0,0,,Đúng là một cô bé hiếu động nhỉ.
+Dialogue: 0,0:18:13.23,0:18:15.51,Default,,0,0,0,,Mình lại không thể cảm ơn đàng hoàng rồi...
+Dialogue: 0,0:18:26.31,0:18:28.18,Default,,0,0,0,,Chủ đề lần này là "Tự do".
+Dialogue: 0,0:18:28.18,0:18:30.17,Default,,0,0,0,,Thời hạn nộp bài là cuối tuần sau.
+Dialogue: 0,0:18:30.17,0:18:32.95,Default,,0,0,0,,Các em có thể tự do dùng đạo cụ\Nvà nguyên liệu trong phòng mỹ thuật.
+Dialogue: 0,0:18:32.95,0:18:32.96,Default,,0,0,0,,Các em có thể tự do dùng đạo cụ\Nvà nguyên liệu trong phòng mỹ thuật.
+Dialogue: 0,0:18:32.96,0:18:34.15,Default,,0,0,0,,Vâng!
+Dialogue: 0,0:18:34.15,0:18:34.16,Default,,0,0,0,,Vâng!\NChủ đề "Tự do" mới khiến mình không biết làm gì á.
+Dialogue: 0,0:18:34.16,0:18:36.89,Default,,0,0,0,,Chủ đề "Tự do" mới khiến mình không biết làm gì á.
+Dialogue: 0,0:18:36.89,0:18:36.90,Default,,0,0,0,,Chủ đề "Tự do" mới khiến mình không biết làm gì á.\NPhải nhỉ.
+Dialogue: 0,0:18:36.90,0:18:38.35,Default,,0,0,0,,Phải nhỉ.
+Dialogue: 0,0:18:39.58,0:18:41.15,Default,,0,0,0,,Aharen-san cũng phân vân à?
+Dialogue: 0,0:18:41.15,0:18:41.15,Default,,0,0,0,,Aharen-san cũng phân vân à?\NỪm.
+Dialogue: 0,0:18:41.15,0:18:42.32,Default,,0,0,0,,Ừm.
+Dialogue: 0,0:18:42.32,0:18:42.32,Default,,0,0,0,,Ừm.\NVậy chúng ta cùng suy nghĩ nhé.
+Dialogue: 0,0:18:42.32,0:18:44.19,Default,,0,0,0,,Vậy chúng ta cùng suy nghĩ nhé.
+Dialogue: 0,0:18:44.19,0:18:44.19,Default,,0,0,0,,Vậy chúng ta cùng suy nghĩ nhé.\NChắc nên vẽ tranh phong cảnh nhỉ?
+Dialogue: 0,0:18:44.19,0:18:46.87,Default,,0,0,0,,Chắc nên vẽ tranh phong cảnh nhỉ?
+Dialogue: 0,0:18:46.87,0:18:48.87,Default,,0,0,0,,Tranh phong cảnh à...
+Dialogue: 0,0:18:48.87,0:18:51.74,Default,,0,0,0,,Đúng là theo trào lưu có khi lại hay không chừng...
+Dialogue: 0,0:18:54.53,0:18:56.10,Default,,0,0,0,,Điểm mấu chốt của tranh phong cảnh,
+Dialogue: 0,0:18:56.10,0:18:56.11,Default,,0,0,0,,Điểm mấu chốt của tranh phong cảnh,\Nlà làm cách nào thể hiện được khoảng cách và độ sâu.
+Dialogue: 0,0:18:56.11,0:18:58.42,Default,,0,0,0,,là làm cách nào thể hiện được khoảng cách và độ sâu.
+Dialogue: 0,0:18:59.39,0:19:01.72,Default,,0,0,0,,Tranh phong cảnh khó thế nhỉ?
+Dialogue: 0,0:19:01.72,0:19:01.73,Default,,0,0,0,,Tranh phong cảnh khó thế nhỉ?\NÊ hai người kia!
+Dialogue: 0,0:19:01.73,0:19:04.17,Default,,0,0,0,,Ê hai người kia!
+Dialogue: 0,0:19:04.77,0:19:06.14,Default,,0,0,0,,Futaba-chan?
+Dialogue: 0,0:19:06.14,0:19:08.14,Default,,0,0,0,,Vụ hộp cơm của em sao rồi?
+Dialogue: 0,0:19:08.14,0:19:10.93,Default,,0,0,0,,Không sao trăng gì hết á!
+Dialogue: 0,0:19:10.93,0:19:10.94,Default,,0,0,0,,Không sao trăng gì hết á!\NAharen Reina!
+Dialogue: 0,0:19:10.94,0:19:12.64,Default,,0,0,0,,Aharen Reina!
+Dialogue: 0,0:19:12.64,0:19:12.64,Default,,0,0,0,,Aharen Reina!\NSao chị...
+Dialogue: 0,0:19:12.64,0:19:15.70,Default,,0,0,0,,Sao chị...
+Dialogue: 0,0:19:15.70,0:19:15.70,Default,,0,0,0,,Sao chị...\NSao chị dám đầu độc vào hộp cơm hả!
+Dialogue: 0,0:19:15.70,0:19:18.59,Default,,0,0,0,,Sao chị dám đầu độc vào hộp cơm hả!
+Dialogue: 0,0:19:18.59,0:19:18.59,Default,,0,0,0,,Sao chị dám đầu độc vào hộp cơm hả!\NHơ?
+Dialogue: 0,0:19:18.59,0:19:19.45,Default,,0,0,0,,Hơ?
+Dialogue: 0,0:19:20.48,0:19:21.19,Default,,0,0,0,,Độc á?
+Dialogue: 0,0:19:21.19,0:19:21.20,Default,,0,0,0,,Độc á?\NTại chị mà Akkun bị đau bụng rồi kìa!
+Dialogue: 0,0:19:21.20,0:19:24.54,Default,,0,0,0,,Tại chị mà Akkun bị đau bụng rồi kìa!
+Dialogue: 0,0:19:25.20,0:19:26.52,Default,,0,0,0,,Chẳng lẽ...
+Dialogue: 0,0:19:26.52,0:19:26.98,Default,,0,0,0,,Hả?
+Dialogue: 0,0:19:26.98,0:19:26.99,Default,,0,0,0,,Hả?\NEm mang nguyên hộp cơm lúc đó
+Dialogue: 0,0:19:26.99,0:19:28.44,Default,,0,0,0,,Em mang nguyên hộp cơm lúc đó
+Dialogue: 0,0:19:28.44,0:19:28.45,Default,,0,0,0,,Em mang nguyên hộp cơm lúc đó\Nđem tặng cho người ta hả?
+Dialogue: 0,0:19:28.45,0:19:29.98,Default,,0,0,0,,đem tặng cho người ta hả?
+Dialogue: 0,0:19:29.98,0:19:29.98,Default,,0,0,0,,đem tặng cho người ta hả?\NHở?
+Dialogue: 0,0:19:29.98,0:19:30.74,Default,,0,0,0,,Hở?
+Dialogue: 0,0:19:30.74,0:19:32.73,Default,,0,0,0,,Ơ? Không được à?
+Dialogue: 0,0:19:32.73,0:19:33.88,Default,,0,0,0,,Đương nhiên là không!
+Dialogue: 0,0:19:33.88,0:19:36.58,Default,,0,0,0,,Cơm phải nấu trong ngày,\Nnếu không nguyên liệu sẽ hỏng hết.
+Dialogue: 0,0:19:36.58,0:19:36.58,Default,,0,0,0,,Cơm phải nấu trong ngày,\Nnếu không nguyên liệu sẽ hỏng hết.
+Dialogue: 0,0:19:36.58,0:19:37.87,Default,,0,0,0,,Hể!?
+Dialogue: 0,0:19:39.83,0:19:42.92,Default,,0,0,0,,Chắc bọn mình hợp vẽ người hơn.
+Dialogue: 0,0:19:42.92,0:19:42.93,Default,,0,0,0,,Chắc bọn mình hợp vẽ người hơn.\NĐiều quan trọng đầu tiên,
+Dialogue: 0,0:19:42.93,0:19:44.53,Default,,0,0,0,,Điều quan trọng đầu tiên,
+Dialogue: 0,0:19:44.53,0:19:46.53,Default,,0,0,0,,là phải quan sát người mẫu thật kỹ.
+Dialogue: 0,0:19:46.53,0:19:47.81,Default,,0,0,0,,Ừm.
+Dialogue: 0,0:19:52.27,0:19:53.83,Default,,0,0,0,,Này cậu...
+Dialogue: 0,0:19:53.83,0:19:57.23,Default,,0,0,0,,Kiểu gì thì quan sát như vậy cũng kỹ quá rồi đó...
+Dialogue: 0,0:19:57.90,0:20:00.26,Default,,0,0,0,,Lần này đến lượt Aharen-san làm người mẫu.
+Dialogue: 0,0:20:00.26,0:20:00.27,Default,,0,0,0,,Lần này đến lượt Aharen-san làm người mẫu.\NỪm.
+Dialogue: 0,0:20:00.27,0:20:01.43,Default,,0,0,0,,Ừm.
+Dialogue: 0,0:20:04.57,0:20:08.14,Default,,0,0,0,,Cậu là người mẫu mà, đừng cử động nhiều quá.
+Dialogue: 0,0:20:08.14,0:20:08.14,Default,,0,0,0,,Cậu là người mẫu mà, đừng cử động nhiều quá.\NCậu nhìn chằm chằm làm tớ ngại.
+Dialogue: 0,0:20:08.14,0:20:10.58,Default,,0,0,0,,Cậu nhìn chằm chằm làm tớ ngại.
+Dialogue: 0,0:20:10.58,0:20:10.58,Default,,0,0,0,,Cậu nhìn chằm chằm làm tớ ngại.\NThế à, xin lỗi.
+Dialogue: 0,0:20:10.58,0:20:12.24,Default,,0,0,0,,Thế à, xin lỗi.
+Dialogue: 0,0:20:12.24,0:20:12.24,Default,,0,0,0,,Thế à, xin lỗi.\NChúng ta làm cái khác thôi nhỉ.
+Dialogue: 0,0:20:12.24,0:20:13.62,Default,,0,0,0,,Chúng ta làm cái khác thôi nhỉ.
+Dialogue: 0,0:20:15.70,0:20:18.88,Default,,0,0,0,,Nặn đất sét là cơ bản của tạo hình lập thể.
+Dialogue: 0,0:20:18.88,0:20:18.88,Default,,0,0,0,,Nặn đất sét là cơ bản của tạo hình lập thể.\NĐiều quan trọng là phải thể hiện được sức nặng.
+Dialogue: 0,0:20:18.88,0:20:21.36,Default,,0,0,0,,Điều quan trọng là phải thể hiện được sức nặng.
+Dialogue: 0,0:20:21.36,0:20:21.37,Default,,0,0,0,,Điều quan trọng là phải thể hiện được sức nặng.\NỪm.
+Dialogue: 0,0:20:21.37,0:20:22.28,Default,,0,0,0,,Ừm.
+Dialogue: 0,0:20:22.28,0:20:24.75,Default,,0,0,0,,Thử làm nhỏ em mình xem.
+Dialogue: 0,0:20:25.01,0:20:26.66,Default,,0,0,0,,Rồi xong.
+Dialogue: 0,0:20:29.52,0:20:31.73,Default,,0,0,0,,Nặn đất sét khó thế nhỉ?
+Dialogue: 0,0:20:32.34,0:20:33.69,Default,,0,0,0,,Aharen-san thì sao?
+Dialogue: 0,0:20:36.15,0:20:39.01,Default,,0,0,0,,Cái đó phải mất bao lâu mới xong vậy?
+Dialogue: 0,0:20:39.01,0:20:41.01,Default,,0,0,0,,Hai tháng nữa.
+Dialogue: 0,0:20:41.01,0:20:43.24,Default,,0,0,0,,Trễ hạn nộp quá rồi.
+Dialogue: 0,0:20:48.19,0:20:50.76,Default,,0,0,0,,Cuối cùng thì mình chọn tranh tự họa.
+Dialogue: 0,0:20:50.76,0:20:52.28,Default,,0,0,0,,Hôm nay là ngày nộp bài rồi.
+Dialogue: 0,0:20:52.28,0:20:55.83,Default,,0,0,0,,Mà Aharen-san cứ giam mình trong xưởng,\Nchẳng mảy may bước ra.
+Dialogue: 0,0:20:57.84,0:20:59.59,Default,,0,0,0,,Aharen-san, bên cậu sao rồi?
+Dialogue: 0,0:20:59.59,0:21:01.25,Default,,0,0,0,,Làm xong chưa?
+Dialogue: 0,0:21:01.25,0:21:01.26,Default,,0,0,0,,Làm xong chưa?\NSao tớ không thấy gì hết?
+Dialogue: 0,0:21:01.26,0:21:02.68,Default,,0,0,0,,Sao tớ không thấy gì hết?
+Dialogue: 0,0:21:02.68,0:21:05.62,Default,,0,0,0,,Cậu đã làm gì vậy, Aharen-san?
+Dialogue: 0,0:21:06.20,0:21:07.57,Default,,0,0,0,,Aharen-san?
+Dialogue: 0,0:21:08.29,0:21:09.56,Default,,0,0,0,,Cậu không sao chứ?
+Dialogue: 0,0:21:11.13,0:21:12.32,Default,,0,0,0,,Hơ...
+Dialogue: 0,0:21:13.68,0:21:14.68,Default,,0,0,0,,Ơ kìa!?
+Dialogue: 0,0:21:14.68,0:21:16.01,Default,,0,0,0,,Aharen-san!?
+Dialogue: 0,0:21:16.01,0:21:18.00,Default,,0,0,0,,C-Cậu đang ngủ sao?
+Dialogue: 0,0:21:18.93,0:21:20.38,Default,,0,0,0,,Tớ xin phép chút nhé.
+Dialogue: 0,0:21:20.38,0:21:20.38,Default,,0,0,0,,Tớ xin phép chút nhé.\NCậu ấy không thở!
+Dialogue: 0,0:21:20.38,0:21:21.94,Default,,0,0,0,,Cậu ấy không thở!
+Dialogue: 0,0:21:21.94,0:21:21.95,Default,,0,0,0,,Cậu ấy không thở!\NTim cũng không đập!
+Dialogue: 0,0:21:21.95,0:21:23.54,Default,,0,0,0,,Tim cũng không đập!
+Dialogue: 0,0:21:24.64,0:21:27.70,Default,,0,0,0,,Mình đã lỡ giết cậu ấy rồi sao!?
+Dialogue: 0,0:21:28.22,0:21:29.39,Default,,0,0,0,,Bình tĩnh lại nào!
+Dialogue: 0,0:21:29.39,0:21:32.69,Default,,0,0,0,,Những lúc thế này,\Nmình phải gọi người giúp và mát-xa tim!
+Dialogue: 0,0:21:32.69,0:21:32.70,Default,,0,0,0,,Những lúc thế này,\Nmình phải gọi người giúp và mát-xa tim!
+Dialogue: 0,0:21:32.70,0:21:34.51,Default,,0,0,0,,Có ai không giúp với!
+Dialogue: 0,0:21:35.46,0:21:36.58,Default,,0,0,0,,Chuyện gì?
+Dialogue: 0,0:21:36.58,0:21:36.59,Default,,0,0,0,,Chuyện gì?\NMay quá, Aharen-san!
+Dialogue: 0,0:21:36.59,0:21:37.94,Default,,0,0,0,,May quá, Aharen-san!
+Dialogue: 0,0:21:37.94,0:21:37.95,Default,,0,0,0,,May quá, Aharen-san!\NAharen-san bị ngất rồi này!
+Dialogue: 0,0:21:37.95,0:21:39.70,Default,,0,0,0,,Aharen-san bị ngất rồi này!
+Dialogue: 0,0:21:39.70,0:21:39.71,Default,,0,0,0,,Aharen-san bị ngất rồi này!\NCậu gọi giáo viên
+Dialogue: 0,0:21:39.71,0:21:43.91,Default,,0,0,0,,Cậu gọi giáo viên\Nmang máy khử rung tim đến đây, rồi gọi 119...
+Dialogue: 0,0:21:43.91,0:21:43.92,Default,,0,0,0,,Cậu gọi giáo viên\Nmang máy khử rung tim đến đây, rồi gọi 119...
+Dialogue: 0,0:21:43.92,0:21:45.01,Default,,0,0,0,,Hơ?
+Dialogue: 0,0:21:45.01,0:21:45.02,Default,,0,0,0,,Hơ?\NHửm?
+Dialogue: 0,0:21:45.02,0:21:45.88,Default,,0,0,0,,Hửm?
+Dialogue: 0,0:21:45.88,0:21:46.85,Default,,0,0,0,,Ơ kìa!?
+Dialogue: 0,0:21:46.85,0:21:48.84,Default,,0,0,0,,Có hai Aharen-san sao!?
+Dialogue: 0,0:21:48.84,0:21:49.84,Default,,0,0,0,,À...
+Dialogue: 0,0:21:49.84,0:21:49.84,Default,,0,0,0,,À...\NĐây là...
+Dialogue: 0,0:21:49.84,0:21:51.58,Default,,0,0,0,,Đây là...
+Dialogue: 0,0:21:51.58,0:21:51.58,Default,,0,0,0,,Đây là...\NHình nộm do tớ tạo ra.
+Dialogue: 0,0:21:51.58,0:21:55.08,Default,,0,0,0,,Hình nộm do tớ tạo ra.
+Dialogue: 0,0:21:55.08,0:21:55.09,Default,,0,0,0,,Hình nộm do tớ tạo ra.\NVậy ra tác phẩm của cậu là hình nộm cỡ người?
+Dialogue: 0,0:21:55.09,0:21:58.51,Default,,0,0,0,,Vậy ra tác phẩm của cậu là hình nộm cỡ người?
+Dialogue: 0,0:21:59.38,0:22:01.28,Default,,0,0,0,,Chất lượng cao quá vậy!?
+Dialogue: 0,0:23:35.35,0:23:37.59,Default,,0,0,0,,Được điểm cao tốt quá nhỉ.
+Dialogue: 0,0:23:37.59,0:23:37.60,Default,,0,0,0,,Được điểm cao tốt quá nhỉ.\NỪm.
+Dialogue: 0,0:23:37.60,0:23:38.88,Default,,0,0,0,,Ừm.
+Dialogue: 0,0:23:38.88,0:23:38.89,Default,,0,0,0,,Ừm.\NCậu làm tuyệt thật đấy.
+Dialogue: 0,0:23:38.89,0:23:40.64,Default,,0,0,0,,Cậu làm tuyệt thật đấy.
+Dialogue: 0,0:23:41.62,0:23:43.92,Default,,0,0,0,,Nếu cậu thích đến vậy thì tớ cho nè.
+Dialogue: 0,0:23:43.92,0:23:43.93,Default,,0,0,0,,Nếu cậu thích đến vậy thì tớ cho nè.\NThôi, làm thế coi sao được.
+Dialogue: 0,0:23:43.93,0:23:46.20,Default,,0,0,0,,Thôi, làm thế coi sao được.
+Dialogue: 0,0:23:46.20,0:23:48.58,Default,,0,0,0,,Tác phẩm của Aharen-san mà.
+Dialogue: 0,0:23:54.95,0:23:57.62,Default,,0,0,0,,Sao mà ngủ nổi đây?\N\N...
+Dialogue: 0,0:22:00.84,0:22:02.58,Default,,0,0,0,,Đây là...
+Dialogue: 0,0:22:02.58,0:22:02.58,Default,,0,0,0,,Đây là...\NHình nộm do tớ tạo ra.
+Dialogue: 0,0:22:02.58,0:22:06.08,Default,,0,0,0,,Hình nộm do tớ tạo ra.
+Dialogue: 0,0:22:06.08,0:22:06.09,Default,,0,0,0,,Hình nộm do tớ tạo ra.\NVậy ra tác phẩm của cậu là hình nộm cỡ người?
+Dialogue: 0,0:22:06.09,0:22:09.51,Default,,0,0,0,,Vậy ra tác phẩm của cậu là hình nộm cỡ người?
+Dialogue: 0,0:22:10.38,0:22:12.28,Default,,0,0,0,,Chất lượng cao quá vậy!?
+Dialogue: 0,0:23:46.35,0:23:48.59,Default,,0,0,0,,Được điểm cao tốt quá nhỉ.
+Dialogue: 0,0:23:48.59,0:23:48.60,Default,,0,0,0,,Được điểm cao tốt quá nhỉ.\NỪm.
+Dialogue: 0,0:23:48.60,0:23:49.88,Default,,0,0,0,,Ừm.
+Dialogue: 0,0:23:49.88,0:23:49.89,Default,,0,0,0,,Ừm.\NCậu làm tuyệt thật đấy.
+Dialogue: 0,0:23:49.89,0:23:51.64,Default,,0,0,0,,Cậu làm tuyệt thật đấy.
+Dialogue: 0,0:23:52.62,0:23:54.92,Default,,0,0,0,,Nếu cậu thích đến vậy thì tớ cho nè.
+Dialogue: 0,0:23:54.92,0:23:54.93,Default,,0,0,0,,Nếu cậu thích đến vậy thì tớ cho nè.\NThôi, làm thế coi sao được.
+Dialogue: 0,0:23:54.93,0:23:57.20,Default,,0,0,0,,Thôi, làm thế coi sao được.
+Dialogue: 0,0:23:57.20,0:23:59.58,Default,,0,0,0,,Tác phẩm của Aharen-san mà.
+Dialogue: 0,0:24:05.95,0:24:08.62,Default,,0,0,0,,Sao mà ngủ nổi đây?

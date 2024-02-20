@@ -1,0 +1,697 @@
+[Script Info]
+; This is an Advanced Sub Station Alpha v4+ script.
+Title:
+ScriptType: v4.00+
+PlayDepth: 0
+ScaledBorderAndShadow: Yes
+PlayResX: 1920
+PlayResY: 1080
+
+[V4+ Styles]
+Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
+Style: Default,Noto Sans,80.0,&H00FFFFFF,&H000000FF,&H00002208,&H00000000,-1,0,0,0,100,100,0,0,1,3.0,2.0,2,0,0,65,1
+
+[Events]
+Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
+Dialogue: 0,0:00:11.34,0:00:15.09,Default,,0,0,0,,NGHỊCH LÝ KẺ SÁT NHÂN
+Dialogue: 0,0:00:15.18,0:00:17.31,Default,,0,0,0,,NGHỊCH LÝ KẺ SÁT NHÂN
+Dialogue: 0,0:00:31.74,0:00:34.28,Default,,0,0,0,,Số sướng thật. Xuất ngũ rồi, sướng nhỉ?
+Dialogue: 0,0:00:34.99,0:00:37.12,Default,,0,0,0,,Trời ạ, giờ còn xuất ngũ gì nữa.
+Dialogue: 0,0:00:37.20,0:00:38.83,Default,,0,0,0,,Em xuất ngũ sáu tháng rồi.
+Dialogue: 0,0:00:38.91,0:00:40.00,Default,,0,0,0,,Nhanh thế cơ à?
+Dialogue: 0,0:00:42.25,0:00:44.34,Default,,0,0,0,,Sao nhanh thế? Vì em chơi không ư?
+Dialogue: 0,0:00:45.71,0:00:48.17,Default,,0,0,0,,Yeong, Tang về rồi thì bảo em phụ cho.
+Dialogue: 0,0:00:48.67,0:00:50.88,Default,,0,0,0,,- Phụ việc gì ạ?\N- Việc đó còn gì.
+Dialogue: 0,0:00:51.80,0:00:52.63,Default,,0,0,0,,À!
+Dialogue: 0,0:00:53.51,0:00:56.35,Default,,0,0,0,,Chà, chắc không nhận ra mặt chú rể mất.
+Dialogue: 0,0:00:56.89,0:00:58.06,Default,,0,0,0,,Phải gọi là anh rể.
+Dialogue: 0,0:00:58.73,0:01:00.65,Default,,0,0,0,,- Đúng.\N- Em chơi thâu đêm qua à?
+Dialogue: 0,0:01:01.14,0:01:03.56,Default,,0,0,0,,Em cũng đang cố gắng đây.
+Dialogue: 0,0:01:03.65,0:01:05.53,Default,,0,0,0,,- Em làm thêm về muộn.\N- Điêu.
+Dialogue: 0,0:01:06.11,0:01:10.16,Default,,0,0,0,,Ôi trời, làm thêm hay chơi điện tử\Nthì vẫn phải đi ngủ đúng giờ chứ.
+Dialogue: 0,0:01:10.24,0:01:11.41,Default,,0,0,0,,Vâng.
+Dialogue: 0,0:01:11.49,0:01:12.49,Default,,0,0,0,,Ảnh đẹp không?
+Dialogue: 0,0:01:13.20,0:01:15.58,Default,,0,0,0,,Ôi, trông còn xấu hơn cả ngoài đời.
+Dialogue: 0,0:01:15.66,0:01:16.91,Default,,0,0,0,,Chỉ có bố nghĩ vậy.
+Dialogue: 0,0:01:16.99,0:01:20.16,Default,,0,0,0,,Mà này, thấy bảo\Ncon trai nhà Jae Deok làm gia sư.
+Dialogue: 0,0:01:20.25,0:01:21.79,Default,,0,0,0,,Ôi, bố ơi!
+Dialogue: 0,0:01:21.87,0:01:23.66,Default,,0,0,0,,Trời, chỉ làm vài tiếng thôi.
+Dialogue: 0,0:01:23.75,0:01:27.75,Default,,0,0,0,,Cậu ấy ở trình độ khác. Bố thử nghĩ\Ntrên quan điểm của phụ huynh đi.
+Dialogue: 0,0:01:27.84,0:01:30.05,Default,,0,0,0,,Có nhờ con trai bố làm gia sư không?
+Dialogue: 0,0:01:30.13,0:01:31.63,Default,,0,0,0,,Ừ, kể cũng đúng.
+Dialogue: 0,0:01:32.43,0:01:33.81,Default,,0,0,0,,Sao tự dưng lại về nhà?
+Dialogue: 0,0:01:33.89,0:01:34.72,Default,,0,0,0,,À!
+Dialogue: 0,0:01:35.43,0:01:39.81,Default,,0,0,0,,Em định đi lao động kết hợp kỳ nghỉ.
+Dialogue: 0,0:01:39.89,0:01:42.31,Default,,0,0,0,,- Lao động kỳ nghỉ?\N- Sang Úc hái dâu tây?
+Dialogue: 0,0:01:42.81,0:01:46.15,Default,,0,0,0,,Úc? Sao lại đi Úc?\NDâu tây bên đó ngon lắm à?
+Dialogue: 0,0:01:46.23,0:01:47.44,Default,,0,0,0,,Canada, đâu phải Úc.
+Dialogue: 0,0:01:47.52,0:01:51.77,Default,,0,0,0,,Ý là, muốn hái dâu tây thì đến\Nnông trại của bác ở Nonsan mà hái.
+Dialogue: 0,0:01:51.86,0:01:54.61,Default,,0,0,0,,Sang tận nơi xa xôi đó làm gì cho khổ.
+Dialogue: 0,0:01:54.70,0:01:58.41,Default,,0,0,0,,- Con muốn trải nghiệm.\N- Tiếng Anh thì kém. Tìm hiểu kỹ đi.
+Dialogue: 0,0:01:58.49,0:02:00.49,Default,,0,0,0,,Con cũng chưa đi ngay.
+Dialogue: 0,0:02:00.58,0:02:02.75,Default,,0,0,0,,Phải xin visa và chuẩn bị sáu tháng.
+Dialogue: 0,0:02:02.83,0:02:05.92,Default,,0,0,0,,Con đã khám sức khỏe\Nvà chuẩn bị đủ giấy tờ rồi.
+Dialogue: 0,0:02:06.00,0:02:06.84,Default,,0,0,0,,Để xem.
+Dialogue: 0,0:02:06.92,0:02:09.84,Default,,0,0,0,,- Nếu đi Úc thì sổ tiết kiệm mua nhà…\N- Đâu phải Úc.
+Dialogue: 0,0:02:09.92,0:02:11.59,Default,,0,0,0,,- …không được dùng à?\N- Có tiền chưa?
+Dialogue: 0,0:02:12.09,0:02:13.13,Default,,0,0,0,,Được, được chứ.
+Dialogue: 0,0:02:13.22,0:02:15.97,Default,,0,0,0,,- Mẹ, con có sổ tiết kiệm á?\N- Vừa gấp vừa nói.
+Dialogue: 0,0:02:19.76,0:02:20.59,Default,,0,0,0,,Đồ vô tích sự.
+Dialogue: 0,0:02:21.35,0:02:22.23,Default,,0,0,0,,Bỏ cuộc rồi à?
+Dialogue: 0,0:02:23.06,0:02:24.48,Default,,0,0,0,,Bỏ cuộc gì chứ? Đồ điên.
+Dialogue: 0,0:02:25.23,0:02:26.98,Default,,0,0,0,,Cả tìm việc lẫn cuộc sống.
+Dialogue: 0,0:02:28.44,0:02:29.28,Default,,0,0,0,,Tìm việc ư?
+Dialogue: 0,0:02:29.90,0:02:31.86,Default,,0,0,0,,Tôi đã bắt đầu đâu mà bỏ cuộc.
+Dialogue: 0,0:02:33.07,0:02:36.20,Default,,0,0,0,,Còn kỳ nghỉ lao động?\NKhông phải cậu định bỏ trốn sao?
+Dialogue: 0,0:02:37.82,0:02:38.65,Default,,0,0,0,,Này.
+Dialogue: 0,0:02:39.62,0:02:41.62,Default,,0,0,0,,Cậu còn nhớ hồi cấp ba không?
+Dialogue: 0,0:02:43.45,0:02:45.49,Default,,0,0,0,,- Tự nhiên hỏi vậy?\N- Ừ.
+Dialogue: 0,0:02:48.17,0:02:49.21,Default,,0,0,0,,Ờ…
+Dialogue: 0,0:02:50.09,0:02:50.92,Default,,0,0,0,,Không rõ nữa.
+Dialogue: 0,0:02:52.67,0:02:54.76,Default,,0,0,0,,Có vẻ món mì Ý ở quán ăn cũng ngon.
+Dialogue: 0,0:02:55.34,0:02:57.97,Default,,0,0,0,,- Và chị ấy…\N- Hai anh ít kể về hồi cấp ba.
+Dialogue: 0,0:02:59.18,0:03:00.22,Default,,0,0,0,,Không thân mấy ư?
+Dialogue: 0,0:03:01.31,0:03:03.31,Default,,0,0,0,,Vì bọn anh nghĩ cho em thôi.
+Dialogue: 0,0:03:03.39,0:03:05.27,Default,,0,0,0,,Không muốn em thấy lạc lõng.
+Dialogue: 0,0:03:06.10,0:03:07.44,Default,,0,0,0,,Thế à?
+Dialogue: 0,0:03:09.65,0:03:10.48,Default,,0,0,0,,Mà hỏi làm gì?
+Dialogue: 0,0:03:11.36,0:03:12.20,Default,,0,0,0,,Thì…
+Dialogue: 0,0:03:13.11,0:03:16.07,Default,,0,0,0,,từ hồi đó, mọi chuyện vẫn suôn sẻ.
+Dialogue: 0,0:03:17.49,0:03:20.16,Default,,0,0,0,,Tôi cũng muốn sống thử một cuộc đời khác.
+Dialogue: 0,0:03:21.03,0:03:24.20,Default,,0,0,0,,Sao cuộc đời của ta lại cứ yên ổn thế nhỉ?
+Dialogue: 0,0:03:25.33,0:03:27.75,Default,,0,0,0,,Đời cậu cũng có vài sự kiện rồi còn gì.
+Dialogue: 0,0:03:29.50,0:03:30.42,Default,,0,0,0,,Tôi sao?
+Dialogue: 0,0:03:31.00,0:03:36.01,Default,,0,0,0,,Này, nói không chừng, cậu sẽ lại là\Nthiên sứ đi làm từ thiện đấy.
+Dialogue: 0,0:03:36.63,0:03:39.67,Default,,0,0,0,,Hồi xưa, cậu đòi tập thể hình\Nrồi đi được một ngày.
+Dialogue: 0,0:03:40.18,0:03:41.26,Default,,0,0,0,,Đồ nông nổi.
+Dialogue: 0,0:03:42.01,0:03:45.43,Default,,0,0,0,,Lại còn bỏ ra 200.000 won\Nmua cái thứ để tự tập ở nhà.
+Dialogue: 0,0:03:45.52,0:03:47.40,Default,,0,0,0,,Chết tiệt, xà đơn ư?
+Dialogue: 0,0:03:48.10,0:03:49.10,Default,,0,0,0,,Đồ vô tích sự.
+Dialogue: 0,0:03:50.10,0:03:51.94,Default,,0,0,0,,Rồi trước khi nhập ngũ thì sao?
+Dialogue: 0,0:03:52.44,0:03:56.19,Default,,0,0,0,,Đam mê chơi cờ bàn\Nđến nỗi miệt mài đến câu lạc bộ. Trời ạ!
+Dialogue: 0,0:03:56.28,0:03:58.41,Default,,0,0,0,,Cậu cứ nói như kiểu cậu không thế.
+Dialogue: 0,0:03:58.49,0:03:59.99,Default,,0,0,0,,Anh, xem này.
+Dialogue: 0,0:04:01.49,0:04:03.41,Default,,0,0,0,,"Tôi đã có một đêm tuyệt vời".
+Dialogue: 0,0:04:03.49,0:04:05.41,Default,,0,0,0,,Không phải bài đó, đây cơ.
+Dialogue: 0,0:04:06.96,0:04:11.17,Default,,0,0,0,,"Xin chào. Tôi đã xuất ngũ, định\Nđi học lại sau khi đi lao động kỳ nghỉ.
+Dialogue: 0,0:04:11.25,0:04:13.67,Default,,0,0,0,,Bạn bè tôi đều đã tìm được việc làm rồi.
+Dialogue: 0,0:04:13.75,0:04:16.17,Default,,0,0,0,,Tôi bế tắc, không biết sẽ làm gì\Nnên viết bài này.
+Dialogue: 0,0:04:16.26,0:04:17.43,Default,,0,0,0,,Là cậu đó.
+Dialogue: 0,0:04:17.51,0:04:18.55,Default,,0,0,0,,Chết tiệt.
+Dialogue: 0,0:04:18.63,0:04:19.92,Default,,0,0,0,,Anh Tang ba năm sau.
+Dialogue: 0,0:04:26.89,0:04:30.27,Default,,0,0,0,,Đây chính là Rocky Mountains ở Canada.
+Dialogue: 0,0:04:31.56,0:04:32.40,Default,,0,0,0,,Chà…
+Dialogue: 0,0:04:32.90,0:04:34.69,Default,,0,0,0,,Ôi, đẹp thật đấy.
+Dialogue: 0,0:04:35.82,0:04:37.28,Default,,0,0,0,,Mọi người đến đây đi.
+Dialogue: 0,0:04:38.32,0:04:40.57,Default,,0,0,0,,Mọi người ơi, thực sự rất đẹp.
+Dialogue: 0,0:04:40.66,0:04:42.00,Default,,0,0,0,,Cảnh tuyệt diệu chưa?
+Dialogue: 0,0:04:42.70,0:04:44.12,Default,,0,0,0,,Để đến được đây…
+Dialogue: 0,0:04:46.66,0:04:47.49,Default,,0,0,0,,Chết mất.
+Dialogue: 0,0:04:49.71,0:04:51.13,Default,,0,0,0,,Vừa phải thôi.
+Dialogue: 0,0:04:52.08,0:04:52.91,Default,,0,0,0,,…rất vất vả.
+Dialogue: 0,0:04:54.71,0:04:55.54,Default,,0,0,0,,Mọi người ơi.
+Dialogue: 0,0:04:56.13,0:04:59.30,Default,,0,0,0,,Nếu có thiên đường thì là đây chăng?
+Dialogue: 0,0:05:00.84,0:05:01.76,Default,,0,0,0,,CHỈ SỐ CƠ THỂ 70
+Dialogue: 0,0:05:01.84,0:05:03.43,Default,,0,0,0,,PHẤN ĐẤU THỂ LỰC TRUNG BÌNH
+Dialogue: 0,0:05:25.95,0:05:26.78,Default,,0,0,0,,Ơ?
+Dialogue: 0,0:05:32.50,0:05:34.13,Default,,0,0,0,,GIAO HÀNG\NKHUNG ẢNH ROCKY MOUNTAINS
+Dialogue: 0,0:05:51.35,0:05:52.43,Default,,0,0,0,,Chết tiệt.
+Dialogue: 0,0:05:59.03,0:05:59.86,Default,,0,0,0,,Trời đất ơi.
+Dialogue: 0,0:06:05.62,0:06:06.75,Default,,0,0,0,,Hoàn tiền cho tôi.
+Dialogue: 0,0:06:07.74,0:06:08.57,Default,,0,0,0,,Dạ?
+Dialogue: 0,0:06:09.12,0:06:11.16,Default,,0,0,0,,Hoàn tiền đi, hình như thiu rồi.
+Dialogue: 0,0:06:14.54,0:06:16.25,Default,,0,0,0,,Chưa quá hạn sử dụng mà?
+Dialogue: 0,0:06:16.92,0:06:19.42,Default,,0,0,0,,Chưa quá hạn thì chắc do cô bảo quản kém.
+Dialogue: 0,0:06:19.92,0:06:23.84,Default,,0,0,0,,Thịt này chua rồi còn gì?\NKhông tin thì cô ăn thử xem.
+Dialogue: 0,0:06:25.55,0:06:28.35,Default,,0,0,0,,Món này vốn có vị chua như thế mà.
+Dialogue: 0,0:06:30.35,0:06:31.27,Default,,0,0,0,,Vốn có vị chua?
+Dialogue: 0,0:06:32.23,0:06:33.94,Default,,0,0,0,,Cô tên là gì? Jung Eun Seon?
+Dialogue: 0,0:06:34.02,0:06:34.85,Default,,0,0,0,,Này!
+Dialogue: 0,0:06:35.52,0:06:37.36,Default,,0,0,0,,Trời ạ! Cô nghĩ tôi giở trò à?
+Dialogue: 0,0:06:37.44,0:06:38.82,Default,,0,0,0,,- Hả?\N- Chúc ngày tốt lành.
+Dialogue: 0,0:06:38.90,0:06:41.11,Default,,0,0,0,,Coi thường người khác vừa thôi.\NLàm cho tử tế.
+Dialogue: 0,0:06:41.19,0:06:42.02,Default,,0,0,0,,Hoàn tiền rồi.
+Dialogue: 0,0:06:44.95,0:06:45.78,Default,,0,0,0,,Cô dọn đi.
+Dialogue: 0,0:06:49.03,0:06:50.20,Default,,0,0,0,,Chúc ngày tốt lành.
+Dialogue: 0,0:06:52.41,0:06:54.04,Default,,0,0,0,,Sao không đến sớm năm phút?
+Dialogue: 0,0:07:21.19,0:07:22.78,Default,,0,0,0,,Đây chính là… Ôi!
+Dialogue: 0,0:07:24.69,0:07:25.52,Default,,0,0,0,,Lại nhé.
+Dialogue: 0,0:07:25.61,0:07:27.11,Default,,0,0,0,,- Làm chai nữa.\N- Này.
+Dialogue: 0,0:07:27.61,0:07:29.20,Default,,0,0,0,,Đây là khách sạn tôi ở…
+Dialogue: 0,0:07:30.45,0:07:31.87,Default,,0,0,0,,- Để em mua.\N- Cậu này!
+Dialogue: 0,0:07:31.95,0:07:34.41,Default,,0,0,0,,Không cần. Để anh mua cho.
+Dialogue: 0,0:07:34.50,0:07:36.46,Default,,0,0,0,,- Ra kia ngồi đi.\N- Xin mời vào.
+Dialogue: 0,0:07:36.54,0:07:37.37,Default,,0,0,0,,Chỗ nào ấm?
+Dialogue: 0,0:07:38.04,0:07:39.04,Default,,0,0,0,,Cho loại Esse.
+Dialogue: 0,0:07:42.75,0:07:46.38,Default,,0,0,0,,Ấy, không phải loại đó.\NLoại Soon, có vẽ hình cây tre ấy.
+Dialogue: 0,0:07:47.01,0:07:47.84,Default,,0,0,0,,Loại Soo ạ?
+Dialogue: 0,0:07:49.05,0:07:49.89,Default,,0,0,0,,Đúng chưa ạ?
+Dialogue: 0,0:07:50.80,0:07:52.84,Default,,0,0,0,,Chết tiệt. Loại 0,5 mg cơ.
+Dialogue: 0,0:08:02.19,0:08:03.69,Default,,0,0,0,,THUỐC LÁ GÂY RỐI LOẠN CƯƠNG DƯƠNG
+Dialogue: 0,0:08:03.77,0:08:06.19,Default,,0,0,0,,Mẹ kiếp. Bực mình thật.
+Dialogue: 0,0:08:07.36,0:08:09.57,Default,,0,0,0,,Không phải hình này, hình khác cơ.
+Dialogue: 0,0:08:26.59,0:08:27.93,Default,,0,0,0,,Đây. Thêm một bao nữa.
+Dialogue: 0,0:08:29.80,0:08:31.09,Default,,0,0,0,,Hai bao là 9.000 won.
+Dialogue: 0,0:08:31.18,0:08:32.43,Default,,0,0,0,,- Hả?\N- Là 9.000 won.
+Dialogue: 0,0:08:33.47,0:08:35.97,Default,,0,0,0,,Mẹ kiếp. Tiền đâu rồi?
+Dialogue: 0,0:08:41.56,0:08:45.69,Default,,0,0,0,,Thấy bảo giới trẻ thời nay\Ntạo hình trái tim khi nói "Anh yêu em".
+Dialogue: 0,0:08:47.03,0:08:47.86,Default,,0,0,0,,Không vui à?
+Dialogue: 0,0:08:48.69,0:08:49.82,Default,,0,0,0,,Cái thằng.
+Dialogue: 0,0:08:52.28,0:08:55.49,Default,,0,0,0,,Mang cho tôi một chai bia Cass\Nvà khô mực ra ngoài này.
+Dialogue: 0,0:08:55.58,0:08:58.08,Default,,0,0,0,,Dạ? Chú ơi. Chú tự mang ra…
+Dialogue: 0,0:09:02.54,0:09:04.25,Default,,0,0,0,,Sao anh không mang gì ra thế?
+Dialogue: 0,0:09:04.34,0:09:05.84,Default,,0,0,0,,Sẽ ra ngay thôi.
+Dialogue: 0,0:09:06.38,0:09:11.13,Default,,0,0,0,,- Chú ơi, chú…\N- Có mực nướng bơ thay cho khô mực không?
+Dialogue: 0,0:09:11.88,0:09:14.88,Default,,0,0,0,,Cháu không mang ra được.\NChú phải thanh toán trước.
+Dialogue: 0,0:09:14.97,0:09:15.80,Default,,0,0,0,,Mẹ kiếp.
+Dialogue: 0,0:09:15.89,0:09:18.35,Default,,0,0,0,,- Tưởng tôi không có tiền à?\N- Sao thế?
+Dialogue: 0,0:09:18.43,0:09:20.72,Default,,0,0,0,,Xin lỗi cậu. Ai nói thế với nhân viên?
+Dialogue: 0,0:09:20.81,0:09:22.60,Default,,0,0,0,,Mẹ kiếp. Vì nó nói hỗn.
+Dialogue: 0,0:09:22.69,0:09:24.40,Default,,0,0,0,,- Hỗn.\N- Đúng là! Tôi xin lỗi.
+Dialogue: 0,0:09:24.48,0:09:26.82,Default,,0,0,0,,Bình thường anh ấy không thế đâu.
+Dialogue: 0,0:09:26.90,0:09:27.73,Default,,0,0,0,,Xin lỗi cậu.
+Dialogue: 0,0:09:30.32,0:09:34.66,Default,,0,0,0,,Anh ấy vốn hiền lành, ít nói và trầm tính.
+Dialogue: 0,0:09:35.41,0:09:37.29,Default,,0,0,0,,Không hiểu sao lại như thế.
+Dialogue: 0,0:09:38.29,0:09:39.50,Default,,0,0,0,,Rõ thật là!
+Dialogue: 0,0:09:39.58,0:09:42.00,Default,,0,0,0,,Do bị quản lý công trường mắng cả ngày
+Dialogue: 0,0:09:42.62,0:09:44.66,Default,,0,0,0,,nên mới thế.
+Dialogue: 0,0:09:44.75,0:09:46.59,Default,,0,0,0,,- Vâng.\N- Có túi không?
+Dialogue: 0,0:09:46.67,0:09:48.84,Default,,0,0,0,,- Có ạ.\N- Chờ tôi một lát.
+Dialogue: 0,0:09:51.47,0:09:52.31,Default,,0,0,0,,Rõ thật là!
+Dialogue: 0,0:09:53.34,0:09:54.63,Default,,0,0,0,,Con tôi đi làm
+Dialogue: 0,0:09:54.72,0:09:57.31,Default,,0,0,0,,chắc cũng khổ sở thế này.
+Dialogue: 0,0:09:57.39,0:09:58.85,Default,,0,0,0,,- Vâng.\N- Chúng tôi đi ngay.
+Dialogue: 0,0:09:58.93,0:10:00.22,Default,,0,0,0,,- Vâng.\N- Bao nhiêu?
+Dialogue: 0,0:10:00.31,0:10:02.19,Default,,0,0,0,,Tổng cộng là 15.150 won.
+Dialogue: 0,0:10:02.27,0:10:04.31,Default,,0,0,0,,- À.\N- Chú có lấy biên lai không?
+Dialogue: 0,0:10:04.40,0:10:05.94,Default,,0,0,0,,- Không cần đâu.\N- Vâng.
+Dialogue: 0,0:10:06.02,0:10:08.98,Default,,0,0,0,,Rồi. Là 15.150 won. Đây.
+Dialogue: 0,0:10:09.53,0:10:11.74,Default,,0,0,0,,- Đây là 50 won.\N- Thêm hai chai nhé.
+Dialogue: 0,0:10:11.82,0:10:13.32,Default,,0,0,0,,Chú không được hút thuốc ở đây.
+Dialogue: 0,0:10:13.40,0:10:14.99,Default,,0,0,0,,- Ôi trời.\N- Cứ hút đấy.
+Dialogue: 0,0:10:15.07,0:10:16.70,Default,,0,0,0,,Sao anh hút thuốc ở đây?
+Dialogue: 0,0:10:16.78,0:10:17.87,Default,,0,0,0,,- Này!\N- Ra đi!
+Dialogue: 0,0:10:17.95,0:10:19.91,Default,,0,0,0,,- Thanh toán cả rồi à?\N- Ôi trời.
+Dialogue: 0,0:10:21.08,0:10:22.46,Default,,0,0,0,,Rõ thật là!
+Dialogue: 0,0:10:23.71,0:10:24.79,Default,,0,0,0,,Dập thuốc lá đi.
+Dialogue: 0,0:10:24.87,0:10:26.00,Default,,0,0,0,,- Xấu hổ quá.\N- Này.
+Dialogue: 0,0:10:28.38,0:10:29.63,Default,,0,0,0,,Ôi, anh này, lại nữa!
+Dialogue: 0,0:10:29.71,0:10:31.00,Default,,0,0,0,,Không sợ chị mắng à?
+Dialogue: 0,0:10:31.09,0:10:33.47,Default,,0,0,0,,Sao cứ mở miệng là nhắc đến vợ tôi thế?
+Dialogue: 0,0:10:35.13,0:10:36.05,Default,,0,0,0,,Trời ơi!
+Dialogue: 0,0:10:37.76,0:10:39.30,Default,,0,0,0,,Thật nhiều sự kiện quá đi.
+Dialogue: 0,0:10:51.40,0:10:52.36,Default,,0,0,0,,Chúc ngày tốt lành.
+Dialogue: 0,0:10:54.11,0:10:54.99,Default,,0,0,0,,Cảm ơn Tang.
+Dialogue: 0,0:10:56.03,0:10:56.95,Default,,0,0,0,,- Về đi.\N- Vâng.
+Dialogue: 0,0:10:58.70,0:11:01.24,Default,,0,0,0,,Quản lý, tôi mượn búa…
+Dialogue: 0,0:11:44.04,0:11:44.87,Default,,0,0,0,,Chú ơi.
+Dialogue: 0,0:11:47.37,0:11:48.75,Default,,0,0,0,,Chú không nên ngủ ở đó…
+Dialogue: 0,0:11:50.21,0:11:51.04,Default,,0,0,0,,Trời đất.
+Dialogue: 0,0:12:04.27,0:12:05.10,Default,,0,0,0,,Chú ơi.
+Dialogue: 0,0:12:09.40,0:12:10.40,Default,,0,0,0,,Chú ơi.
+Dialogue: 0,0:12:11.56,0:12:12.81,Default,,0,0,0,,Chú ơi!
+Dialogue: 0,0:12:14.40,0:12:15.23,Default,,0,0,0,,Sao?
+Dialogue: 0,0:12:15.90,0:12:19.15,Default,,0,0,0,,Bạn chú đang ngủ đằng kia.
+Dialogue: 0,0:12:20.45,0:12:22.83,Default,,0,0,0,,À, không sao đâu.
+Dialogue: 0,0:12:24.12,0:12:25.58,Default,,0,0,0,,- Cậu về đi.\N- Dạ?
+Dialogue: 0,0:12:26.33,0:12:29.29,Default,,0,0,0,,Dự báo trời sắp mưa đấy.
+Dialogue: 0,0:12:33.13,0:12:33.96,Default,,0,0,0,,Biến đi.
+Dialogue: 0,0:12:35.25,0:12:36.08,Default,,0,0,0,,Biến đi.
+Dialogue: 0,0:13:00.24,0:13:01.41,Default,,0,0,0,,Không, cháu…
+Dialogue: 0,0:13:09.00,0:13:10.25,Default,,0,0,0,,Lại đây, thằng khốn!
+Dialogue: 0,0:13:11.42,0:13:13.09,Default,,0,0,0,,- Thằng khốn này!\N- Dừng tay!
+Dialogue: 0,0:13:13.75,0:13:15.54,Default,,0,0,0,,Đã bảo biến đi rồi.
+Dialogue: 0,0:13:16.21,0:13:17.29,Default,,0,0,0,,Bảo biến đi cơ mà.
+Dialogue: 0,0:13:22.72,0:13:25.14,Default,,0,0,0,,- Gyeong Hwan, thằng nhãi ranh.\N- Mẹ kiếp.
+Dialogue: 0,0:13:25.68,0:13:28.35,Default,,0,0,0,,- Đồ khốn.\N- Đói mức nào mà phải chen lên?
+Dialogue: 0,0:13:28.43,0:13:30.89,Default,,0,0,0,,Này. Được chen lên trước hay không?
+Dialogue: 0,0:13:30.98,0:13:32.52,Default,,0,0,0,,- Không giúp à?\N- Đồ khốn.
+Dialogue: 0,0:13:32.60,0:13:34.64,Default,,0,0,0,,- Này, Gyeong Hwan…\N- Không giúp ư?
+Dialogue: 0,0:13:34.73,0:13:36.02,Default,,0,0,0,,…no rồi thì phải.
+Dialogue: 0,0:13:36.94,0:13:37.77,Default,,0,0,0,,Đồ chết tiệt.
+Dialogue: 0,0:13:37.86,0:13:39.20,Default,,0,0,0,,Ngẩng đầu lên, Gyeong Hwan.
+Dialogue: 0,0:13:39.28,0:13:40.32,Default,,0,0,0,,Gyeong Hwan đau đấy.
+Dialogue: 0,0:13:40.95,0:13:42.33,Default,,0,0,0,,Một đòn nữa rồi thôi.
+Dialogue: 0,0:13:43.91,0:13:45.33,Default,,0,0,0,,Một đòn. Này, Canh Cá.
+Dialogue: 0,0:13:45.41,0:13:47.29,Default,,0,0,0,,- Hơi tiếc nhỉ!\N- Cậu phải chọn.
+Dialogue: 0,0:13:47.37,0:13:48.37,Default,,0,0,0,,Một là yết hầu.
+Dialogue: 0,0:13:48.99,0:13:50.33,Default,,0,0,0,,Hai là vùng thượng vị.
+Dialogue: 0,0:13:51.66,0:13:52.58,Default,,0,0,0,,Ba…
+Dialogue: 0,0:13:53.21,0:13:54.59,Default,,0,0,0,,- Ở đâu nhỉ?\N- À, ở đây.
+Dialogue: 0,0:13:54.67,0:13:55.75,Default,,0,0,0,,- Ba, bi.\N- Được.
+Dialogue: 0,0:13:56.34,0:13:57.55,Default,,0,0,0,,Chọn một chỗ thôi.
+Dialogue: 0,0:13:57.63,0:14:00.01,Default,,0,0,0,,- Bi, ý hay đấy.\N- Chọn nhanh lên.
+Dialogue: 0,0:14:01.26,0:14:04.51,Default,,0,0,0,,- Nhanh lên.\N- Gyeong Hwan, còn một hòn không sao nhỉ?
+Dialogue: 0,0:14:04.59,0:14:05.68,Default,,0,0,0,,- Khó quá à?\N- Hả?
+Dialogue: 0,0:14:06.22,0:14:08.06,Default,,0,0,0,,Gyeong Hwan, búng thế này à?
+Dialogue: 0,0:14:08.14,0:14:10.35,Default,,0,0,0,,- Hay đá thế này?\N- Chọn đi.
+Dialogue: 0,0:14:11.48,0:14:12.82,Default,,0,0,0,,Mẹ kiếp. Câm cả rồi à?
+Dialogue: 0,0:14:12.89,0:14:14.39,Default,,0,0,0,,Mẹ kiếp, không vui gì cả.
+Dialogue: 0,0:14:14.48,0:14:16.82,Default,,0,0,0,,- Gyeong Hwan đau quá rồi.\N- Chán quá.
+Dialogue: 0,0:14:16.90,0:14:18.24,Default,,0,0,0,,- Chán thật.\N- Đồ khốn.
+Dialogue: 0,0:14:18.32,0:14:20.11,Default,,0,0,0,,- Chán.\N- Sao không trả lời?
+Dialogue: 0,0:14:41.63,0:14:42.46,Default,,0,0,0,,Phản kháng,
+Dialogue: 0,0:14:43.26,0:14:45.18,Default,,0,0,0,,chưa từng là lựa chọn trong đời tôi.
+Dialogue: 0,0:14:48.85,0:14:53.19,Default,,0,0,0,,Đời này của tôi không phải là câu hỏi\Ntự luận, mà là câu hỏi trắc nghiệm.
+Dialogue: 0,0:14:55.77,0:14:56.81,Default,,0,0,0,,Hôm đó thì sao?
+Dialogue: 0,0:14:59.73,0:15:02.19,Default,,0,0,0,,Rốt cuộc, tôi đã lấy đâu ra dũng khí?
+Dialogue: 0,0:16:00.46,0:16:01.29,Default,,0,0,0,,Mọi người ơi.
+Dialogue: 0,0:16:02.04,0:16:05.29,Default,,0,0,0,,Nếu có thiên đường thì là đây chăng?
+Dialogue: 0,0:16:35.87,0:16:36.71,Default,,0,0,0,,Chú ơi.
+Dialogue: 0,0:16:42.79,0:16:43.62,Default,,0,0,0,,Ôi trời…
+Dialogue: 0,0:16:46.46,0:16:47.29,Default,,0,0,0,,Chú ơi.
+Dialogue: 0,0:16:48.05,0:16:49.30,Default,,0,0,0,,Chú có sao không?
+Dialogue: 0,0:17:12.16,0:17:13.58,Default,,0,0,0,,Chú.
+Dialogue: 0,0:17:17.91,0:17:20.83,Default,,0,0,0,,Chú!
+Dialogue: 0,0:17:23.38,0:17:25.17,Default,,0,0,0,,Lại đây, đi uống thêm đi.
+Dialogue: 0,0:17:25.25,0:17:26.42,Default,,0,0,0,,Thôi.
+Dialogue: 0,0:17:26.50,0:17:29.00,Default,,0,0,0,,Này, mưa thế này thì nên đi đâu nhỉ?
+Dialogue: 0,0:17:29.09,0:17:31.47,Default,,0,0,0,,Có quán bì lợn nướng ngon lắm.
+Dialogue: 0,0:17:31.97,0:17:33.97,Default,,0,0,0,,- Chịu thôi, tôi về đây.\N- Này!
+Dialogue: 0,0:17:34.51,0:17:36.51,Default,,0,0,0,,Uống thêm đã. Uống cùng tôi đi.
+Dialogue: 0,0:17:37.26,0:17:38.68,Default,,0,0,0,,Này! Đi đâu thế?
+Dialogue: 0,0:17:43.81,0:17:44.98,Default,,0,0,0,,Rex.
+Dialogue: 0,0:17:46.82,0:17:47.65,Default,,0,0,0,,Sao thế?
+Dialogue: 0,0:17:49.23,0:17:50.07,Default,,0,0,0,,Phải đi chứ.
+Dialogue: 0,0:17:50.74,0:17:51.57,Default,,0,0,0,,Ừ.
+Dialogue: 0,0:17:52.40,0:17:53.23,Default,,0,0,0,,Đi nào.
+Dialogue: 0,0:17:57.37,0:17:59.16,Default,,0,0,0,,Sao có tiếng nhạc từ mặt đất?
+Dialogue: 0,0:18:00.58,0:18:01.96,Default,,0,0,0,,Bài này cổ quá rồi.
+Dialogue: 0,0:18:13.18,0:18:15.10,Default,,0,0,0,,Ừ, Rex.
+Dialogue: 0,0:18:15.97,0:18:18.39,Default,,0,0,0,,Đi đâu thế? Đi nhầm đường rồi.
+Dialogue: 0,0:18:18.97,0:18:19.85,Default,,0,0,0,,CHÓ DẪN ĐƯỜNG
+Dialogue: 0,0:18:19.93,0:18:22.93,Default,,0,0,0,,Rex, làm gì thế?
+Dialogue: 0,0:18:24.10,0:18:25.27,Default,,0,0,0,,Rex.
+Dialogue: 0,0:18:25.35,0:18:27.94,Default,,0,0,0,,Làm gì thế không biết? Đi nào.
+Dialogue: 0,0:18:30.94,0:18:32.69,Default,,0,0,0,,Ừ, ngoan lắm.
+Dialogue: 0,0:18:32.78,0:18:34.12,Default,,0,0,0,,Đi thôi.
+Dialogue: 0,0:19:17.66,0:19:18.74,Default,,0,0,0,,Thấy oan ức không?
+Dialogue: 0,0:19:19.91,0:19:21.29,Default,,0,0,0,,Có oan ức không?
+Dialogue: 0,0:19:24.75,0:19:25.96,Default,,0,0,0,,Đúng là.
+Dialogue: 0,0:19:27.96,0:19:29.42,Default,,0,0,0,,Này, nhân viên thời vụ.
+Dialogue: 0,0:19:30.92,0:19:33.13,Default,,0,0,0,,Khiến người ta ra nông nỗi này
+Dialogue: 0,0:19:33.84,0:19:35.43,Default,,0,0,0,,mà chỉ lo cho bản thân.
+Dialogue: 0,0:19:37.43,0:19:38.60,Default,,0,0,0,,Thế mà là người à?
+Dialogue: 0,0:19:40.93,0:19:41.76,Default,,0,0,0,,Tôi…
+Dialogue: 0,0:19:43.43,0:19:44.26,Default,,0,0,0,,Tôi…
+Dialogue: 0,0:19:45.77,0:19:48.69,Default,,0,0,0,,có một mẹ già lẩm cẩm.
+Dialogue: 0,0:19:50.77,0:19:53.36,Default,,0,0,0,,Còn có tận ba đứa con nữa.
+Dialogue: 0,0:19:54.23,0:19:56.36,Default,,0,0,0,,Ngày qua ngày tôi vẫn bươn chải
+Dialogue: 0,0:19:57.32,0:19:58.61,Default,,0,0,0,,là vì chúng.
+Dialogue: 0,0:20:00.62,0:20:01.54,Default,,0,0,0,,Tính sao đây?
+Dialogue: 0,0:20:02.53,0:20:03.36,Default,,0,0,0,,Hả?
+Dialogue: 0,0:20:03.95,0:20:06.49,Default,,0,0,0,,Cậu đã khiến tôi ra nông nỗi này rồi.
+Dialogue: 0,0:20:07.79,0:20:08.71,Default,,0,0,0,,Nhân viên thời vụ.
+Dialogue: 0,0:20:09.83,0:20:11.12,Default,,0,0,0,,Tôi đã nói gì hả?
+Dialogue: 0,0:20:13.21,0:20:16.00,Default,,0,0,0,,Tôi đã năn nỉ cậu còn gì.
+Dialogue: 0,0:20:16.59,0:20:18.97,Default,,0,0,0,,Bảo cứ đi đi rồi, đồ chết tiệt này.
+Dialogue: 0,0:20:59.76,0:21:00.89,Default,,0,0,0,,Mở cửa cho tôi.
+Dialogue: 0,0:21:02.05,0:21:03.05,Default,,0,0,0,,Gyeong Hwan đây.
+Dialogue: 0,0:21:06.39,0:21:07.56,Default,,0,0,0,,Mở cửa cho tôi.
+Dialogue: 0,0:21:09.69,0:21:10.73,Default,,0,0,0,,Cảm ơn cậu.
+Dialogue: 0,0:21:11.40,0:21:13.15,Default,,0,0,0,,Sao không nghe máy, đồ khốn?
+Dialogue: 0,0:21:13.98,0:21:15.06,Default,,0,0,0,,Tôi chết mất.
+Dialogue: 0,0:21:15.65,0:21:17.69,Default,,0,0,0,,Rót cho tôi cốc nước được không?
+Dialogue: 0,0:21:18.65,0:21:21.15,Default,,0,0,0,,Tôi vừa đi nhậu với mấy anh chơi điện tử.
+Dialogue: 0,0:21:22.28,0:21:24.24,Default,,0,0,0,,Tất nhiên, tôi đã hạ gục họ.
+Dialogue: 0,0:21:27.08,0:21:29.50,Default,,0,0,0,,Tôi nói với Mi Yeong là đi nhậu với cậu.
+Dialogue: 0,0:21:30.33,0:21:31.79,Default,,0,0,0,,Cậu nhớ nói đỡ cho tôi.
+Dialogue: 0,0:21:32.87,0:21:36.54,Default,,0,0,0,,NGỘ SÁT CÓ ĐƯỢC KHOAN HỒNG KHÔNG?
+Dialogue: 0,0:21:59.03,0:22:00.70,Default,,0,0,0,,- Anh về đi.\N- Hắn đánh tôi.
+Dialogue: 0,0:22:06.95,0:22:08.95,Default,,0,0,0,,Này, ngủ chưa?
+Dialogue: 0,0:22:13.54,0:22:15.63,Default,,0,0,0,,Không rõ Park Gi Hun và lũ khốn đó…
+Dialogue: 0,0:22:17.75,0:22:19.17,Default,,0,0,0,,đang sống thế nào nhỉ?
+Dialogue: 0,0:22:24.43,0:22:25.26,Default,,0,0,0,,Chết tiệt.
+Dialogue: 0,0:22:27.10,0:22:30.65,Default,,0,0,0,,Chắc vẫn sống như lũ lêu lổng, vô dụng.
+Dialogue: 0,0:22:34.27,0:22:35.94,Default,,0,0,0,,- Chết tiệt.\N- Không.
+Dialogue: 0,0:22:36.73,0:22:37.94,Default,,0,0,0,,Họ sống tốt lắm.
+Dialogue: 0,0:22:41.61,0:22:43.03,Default,,0,0,0,,Tôi đã xem Instagram.
+Dialogue: 0,0:22:45.78,0:22:48.41,Default,,0,0,0,,Hình như Park Gi Hun kinh doanh gì đó.
+Dialogue: 0,0:22:49.95,0:22:52.16,Default,,0,0,0,,Khoe xe Mercedes Benz trên Instagram.
+Dialogue: 0,0:22:53.50,0:22:55.54,Default,,0,0,0,,Kẻ thì thành công chức bậc bảy.
+Dialogue: 0,0:22:56.58,0:22:57.92,Default,,0,0,0,,Kẻ đã lập gia đình.
+Dialogue: 0,0:22:59.96,0:23:01.80,Default,,0,0,0,,Lũ chết tiệt đó
+Dialogue: 0,0:23:02.80,0:23:03.63,Default,,0,0,0,,thành đạt cả.
+Dialogue: 0,0:23:05.55,0:23:06.39,Default,,0,0,0,,Làm gì thế?
+Dialogue: 0,0:23:08.22,0:23:09.05,Default,,0,0,0,,Gì cơ?
+Dialogue: 0,0:23:10.18,0:23:12.10,Default,,0,0,0,,Đang tìm gì thế?
+Dialogue: 0,0:23:12.85,0:23:15.06,Default,,0,0,0,,À, nhẫn đôi.
+Dialogue: 0,0:23:16.44,0:23:17.27,Default,,0,0,0,,Nhẫn đôi ư?
+Dialogue: 0,0:23:18.31,0:23:19.35,Default,,0,0,0,,Trông nó thế nào?
+Dialogue: 0,0:23:20.32,0:23:23.78,Default,,0,0,0,,Hồi tôi cặp với chị ở câu lạc bộ\Ntrước khi nhập ngũ cũng vậy.
+Dialogue: 0,0:23:24.69,0:23:28.07,Default,,0,0,0,,Tôi cũng định sẽ chia tay bạn gái\Nnếu bị phát hiện.
+Dialogue: 0,0:23:28.62,0:23:29.50,Default,,0,0,0,,Tìm kỹ xem.
+Dialogue: 0,0:23:32.04,0:23:33.42,Default,,0,0,0,,May là đã không sao.
+Dialogue: 0,0:23:37.33,0:23:38.25,Default,,0,0,0,,Chết tiệt.
+Dialogue: 0,0:23:45.05,0:23:45.88,Default,,0,0,0,,Làm gì đấy?
+Dialogue: 0,0:23:47.55,0:23:49.59,Default,,0,0,0,,Trời. Tìm máy tính bảng.
+Dialogue: 0,0:23:49.68,0:23:50.76,Default,,0,0,0,,Đi hát karaoke đi.
+Dialogue: 0,0:23:50.85,0:23:51.77,Default,,0,0,0,,Cái đó ư?
+Dialogue: 0,0:23:53.89,0:23:55.85,Default,,0,0,0,,Đi cùng Ji Eun cũng được đấy.
+Dialogue: 0,0:23:57.64,0:23:59.10,Default,,0,0,0,,Thằng khốn.
+Dialogue: 0,0:24:03.73,0:24:06.40,Default,,0,0,0,,Hồi cấp ba, cả chuyện tôi lấy trộm đồ
+Dialogue: 0,0:24:06.49,0:24:08.28,Default,,0,0,0,,cũng may mắn trót lọt.
+Dialogue: 0,0:24:09.03,0:24:11.58,Default,,0,0,0,,Giờ ăn trưa, tôi vẫn thấy cậu cầm cơ mà.
+Dialogue: 0,0:24:17.21,0:24:18.88,Default,,0,0,0,,Không ai nghi ngờ tôi.
+Dialogue: 0,0:24:21.17,0:24:22.42,Default,,0,0,0,,Có vẻ mọi tình huống
+Dialogue: 0,0:24:23.25,0:24:24.67,Default,,0,0,0,,đều có lợi cho tôi.
+Dialogue: 0,0:24:35.64,0:24:36.48,Default,,0,0,0,,Này!
+Dialogue: 0,0:24:38.89,0:24:41.98,Default,,0,0,0,,Vừa nãy, cậu đến nhà tôi lúc mấy giờ?
+Dialogue: 0,0:24:44.44,0:24:45.48,Default,,0,0,0,,Lúc 11:00.
+Dialogue: 0,0:24:47.74,0:24:49.16,Default,,0,0,0,,Không phải đâu, đồ hâm.
+Dialogue: 0,0:24:50.24,0:24:52.49,Default,,0,0,0,,Làm xong, tôi về luôn thì là 10:00.
+Dialogue: 0,0:24:53.74,0:24:55.45,Default,,0,0,0,,Ừ, đúng rồi, 10:00.
+Dialogue: 0,0:25:00.46,0:25:01.29,Default,,0,0,0,,Không phải.
+Dialogue: 0,0:25:01.92,0:25:04.63,Default,,0,0,0,,Tôi xem bóng đá rồi đến đây\Nthì là 11:00 chứ.
+Dialogue: 0,0:25:05.21,0:25:06.04,Default,,0,0,0,,Đồ ngốc này.
+Dialogue: 0,0:25:15.22,0:25:19.22,Default,,0,0,0,,Cậu mà đi Canada\Nthì cho tôi xà đơn được không?
+Dialogue: 0,0:25:21.02,0:25:21.85,Default,,0,0,0,,Đúng là.
+Dialogue: 0,0:25:24.36,0:25:26.49,Default,,0,0,0,,Ngủ đi, đồ ngủ chực.
+Dialogue: 0,0:25:27.53,0:25:29.62,Default,,0,0,0,,Đừng bắt tôi nói nữa, để tôi ngủ.
+Dialogue: 0,0:25:30.86,0:25:32.11,Default,,0,0,0,,Sáng mai có tiết đầu.
+Dialogue: 0,0:25:40.54,0:25:41.83,Default,,0,0,0,,Quản lý, tôi mượn búa…
+Dialogue: 0,0:26:00.06,0:26:01.35,Default,,0,0,0,,Chết tiệt.
+Dialogue: 0,0:26:16.24,0:26:17.58,Default,,0,0,0,,- Yong Jae.\N- Vâng.
+Dialogue: 0,0:26:20.62,0:26:21.79,Default,,0,0,0,,Bên đó có gì không?
+Dialogue: 0,0:26:22.29,0:26:26.13,Default,,0,0,0,,Ngõ bên cạnh chợ có camera giám sát\Nnhưng bên này thì không có.
+Dialogue: 0,0:26:26.63,0:26:30.01,Default,,0,0,0,,Khu này nằm trong dự án quy hoạch\Nnên bỏ không lâu rồi.
+Dialogue: 0,0:26:30.09,0:26:32.76,Default,,0,0,0,,Này, nhà đằng kia cũng bỏ không à?
+Dialogue: 0,0:26:32.84,0:26:34.63,Default,,0,0,0,,Nhà trên đó ư? Để tôi lên xem.
+Dialogue: 0,0:26:34.72,0:26:36.22,Default,,0,0,0,,Nhờ cảnh sát khu vực đi.
+Dialogue: 0,0:26:36.30,0:26:37.88,Default,,0,0,0,,- Mau đi đi.\N- Tôi đi đây.
+Dialogue: 0,0:26:37.97,0:26:39.18,Default,,0,0,0,,Trời đất.
+Dialogue: 0,0:26:39.26,0:26:42.14,Default,,0,0,0,,Này, bảo cậu ấy đeo găng tay vào đi.\NCả cậu nữa.
+Dialogue: 0,0:26:42.77,0:26:44.27,Default,,0,0,0,,Sao cứ nói tôi thế?
+Dialogue: 0,0:26:44.35,0:26:46.39,Default,,0,0,0,,Đeo găng tay vào, Thám tử Jang.
+Dialogue: 0,0:26:47.44,0:26:48.27,Default,,0,0,0,,Ơ?
+Dialogue: 0,0:26:49.23,0:26:50.82,Default,,0,0,0,,Không chịu nghe lời gì cả.
+Dialogue: 0,0:26:55.86,0:26:58.32,Default,,0,0,0,,Sao không tắt đi? Đâu rồi?
+Dialogue: 0,0:27:00.95,0:27:01.95,Default,,0,0,0,,Cậu ấy sao thế?
+Dialogue: 0,0:27:03.66,0:27:05.79,Default,,0,0,0,,Chết rồi, muộn rồi.
+Dialogue: 0,0:27:08.25,0:27:09.42,Default,,0,0,0,,Đầu sắp nổ tung.
+Dialogue: 0,0:27:10.30,0:27:11.13,Default,,0,0,0,,Tiêu đời rồi.
+Dialogue: 0,0:27:11.80,0:27:12.93,Default,,0,0,0,,Muộn rồi.
+Dialogue: 0,0:27:13.76,0:27:15.64,Default,,0,0,0,,Tôi đi trước đây, muộn rồi.
+Dialogue: 0,0:27:18.76,0:27:20.89,Default,,0,0,0,,Nhân viên làm thêm ca ngày nghỉ ốm.
+Dialogue: 0,0:27:21.68,0:27:25.06,Default,,0,0,0,,Tôi đoán là không phải ốm\Nmà là đi chơi với bạn trai.
+Dialogue: 0,0:27:25.14,0:27:26.35,Default,,0,0,0,,QUẢN LÝ CỬA HÀNG
+Dialogue: 0,0:27:26.44,0:27:28.28,Default,,0,0,0,,Sao giờ? Cô ấy không đến được.
+Dialogue: 0,0:27:29.44,0:27:31.78,Default,,0,0,0,,Cậu làm thay cô ấy được không?
+Dialogue: 0,0:27:33.15,0:27:35.36,Default,,0,0,0,,Đến sớm nhất có thể nhé.
+Dialogue: 0,0:27:36.20,0:27:37.37,Default,,0,0,0,,Tôi đang trông tạm.
+Dialogue: 0,0:27:38.28,0:27:40.12,Default,,0,0,0,,Tôi thức cả đêm, mệt quá rồi.
+Dialogue: 0,0:28:03.35,0:28:07.27,Default,,0,0,0,,- Chúc ngày tốt lành.\N- Có tận hai người chết trong chợ.
+Dialogue: 0,0:28:07.77,0:28:09.77,Default,,0,0,0,,Khủng khiếp thật. Xin mời vào.
+Dialogue: 0,0:28:11.02,0:28:13.06,Default,,0,0,0,,Này, không hiểu khu này thế nào.
+Dialogue: 0,0:28:13.65,0:28:17.40,Default,,0,0,0,,Không thấy cảnh sát đâu.\NTôi chưa thấy xe tuần tra ở khu này.
+Dialogue: 0,0:28:19.11,0:28:19.99,Default,,0,0,0,,Anh mua thuốc lá à?
+Dialogue: 0,0:28:20.49,0:28:24.04,Default,,0,0,0,,- Chúc ngày tốt lành.\N- Ở đây có mấy camera giám sát?
+Dialogue: 0,0:28:25.04,0:28:25.87,Default,,0,0,0,,Dạ?
+Dialogue: 0,0:28:25.95,0:28:27.12,Default,,0,0,0,,Chúc ngày tốt lành.
+Dialogue: 0,0:28:36.51,0:28:38.47,Default,,0,0,0,,- Rồi sao?\N- Cô ta toàn hại tôi.
+Dialogue: 0,0:28:39.13,0:28:41.55,Default,,0,0,0,,Tôi không muốn gặp đồ điên đó nữa.
+Dialogue: 0,0:28:42.30,0:28:43.64,Default,,0,0,0,,Nhưng là ai?
+Dialogue: 0,0:28:43.72,0:28:46.89,Default,,0,0,0,,Cậu biết mà.\NCô mà mỗi lần đi qua, có mùi nước xả vải.
+Dialogue: 0,0:28:46.98,0:28:49.61,Default,,0,0,0,,Chịu. Đến mặt giáo viên\Ntôi còn không biết, hiểu không?
+Dialogue: 0,0:28:49.69,0:28:50.90,Default,,0,0,0,,Đồ vô tích sự.
+Dialogue: 0,0:28:50.98,0:28:52.52,Default,,0,0,0,,- Đi học đi.\N- Xin lửa đã.
+Dialogue: 0,0:28:55.15,0:28:58.86,Default,,0,0,0,,Chú ơi, phiền chú cho cháu\Nmượn bật lửa được không?
+Dialogue: 0,0:29:01.61,0:29:02.95,Default,,0,0,0,,Không hút thuốc.
+Dialogue: 0,0:29:03.70,0:29:04.66,Default,,0,0,0,,À, vâng.
+Dialogue: 0,0:29:08.00,0:29:08.83,Default,,0,0,0,,Chán thật.
+Dialogue: 0,0:29:09.58,0:29:10.50,Default,,0,0,0,,Sao thế?
+Dialogue: 0,0:29:12.13,0:29:14.05,Default,,0,0,0,,- Mà sao chú nói cộc lốc?\N- Này.
+Dialogue: 0,0:29:14.13,0:29:15.47,Default,,0,0,0,,- Đi.\N- Có thuốc lá điện tử.
+Dialogue: 0,0:29:15.55,0:29:17.01,Default,,0,0,0,,- Cậu hút mà.\N- Đi thôi.
+Dialogue: 0,0:29:17.09,0:29:18.43,Default,,0,0,0,,Trông cậu quen quen.
+Dialogue: 0,0:29:18.51,0:29:20.30,Default,,0,0,0,,- Chú biết cháu à?\N- Chúc ngày tốt lành.
+Dialogue: 0,0:29:20.38,0:29:21.30,Default,,0,0,0,,Đồ ngốc, đi đi.
+Dialogue: 0,0:29:21.38,0:29:24.63,Default,,0,0,0,,- Về đồn luôn chứ ạ?\N- Ừ, thu hết ổ cứng chưa?
+Dialogue: 0,0:29:24.72,0:29:26.43,Default,,0,0,0,,À, vâng, tôi thu hết rồi.
+Dialogue: 0,0:29:26.51,0:29:28.60,Default,,0,0,0,,Này, cho cả hai thằng lên xe đi.
+Dialogue: 0,0:29:28.68,0:29:30.31,Default,,0,0,0,,- Để chấn chỉnh.\N- Dạ?
+Dialogue: 0,0:29:31.02,0:29:32.73,Default,,0,0,0,,Bọn cháu không phải học sinh.
+Dialogue: 0,0:29:33.40,0:29:35.28,Default,,0,0,0,,- Không phải đâu.\N- Lên xe đen.
+Dialogue: 0,0:29:35.36,0:29:36.74,Default,,0,0,0,,Không phải học sinh cấp ba.
+Dialogue: 0,0:29:36.82,0:29:38.07,Default,,0,0,0,,- Thật mà.\N- Biết rồi.
+Dialogue: 0,0:29:38.15,0:29:39.65,Default,,0,0,0,,Biết rồi.
+Dialogue: 0,0:29:40.15,0:29:42.07,Default,,0,0,0,,- Lên xe.\N- Không phải thật mà.
+Dialogue: 0,0:29:42.16,0:29:43.83,Default,,0,0,0,,Mấy thằng này.
+Dialogue: 0,0:29:43.91,0:29:45.08,Default,,0,0,0,,Lần này là vụ gì?
+Dialogue: 0,0:29:45.95,0:29:48.62,Default,,0,0,0,,- Bọn cháu không làm gì thật.\N- Còn không cái gì!
+Dialogue: 0,0:29:49.62,0:29:51.37,Default,,0,0,0,,- Nhìn tóc này.\N- Chú đừng sờ.
+Dialogue: 0,0:29:52.33,0:29:53.46,Default,,0,0,0,,Chúng làm gì sai à?
+Dialogue: 0,0:29:53.54,0:29:54.63,Default,,0,0,0,,Tội nhẹ ấy mà.
+Dialogue: 0,0:29:57.09,0:29:58.01,Default,,0,0,0,,Ôi trời.
+Dialogue: 0,0:29:58.76,0:30:00.26,Default,,0,0,0,,Tại hai đứa ngồi ngả ngốn
+Dialogue: 0,0:30:00.34,0:30:02.22,Default,,0,0,0,,nên chú ấy mới mắng mỏ.
+Dialogue: 0,0:30:03.59,0:30:06.47,Default,,0,0,0,,Chú không giúp gì được cho hai đứa đâu.
+Dialogue: 0,0:30:08.97,0:30:10.26,Default,,0,0,0,,Chỉ là nhắc nhở thôi.
+Dialogue: 0,0:30:11.43,0:30:14.48,Default,,0,0,0,,Vì tương lai của những người như hai đứa,
+Dialogue: 0,0:30:14.56,0:30:18.27,Default,,0,0,0,,phải giáo huấn cho tu tỉnh,\Ndù là phạt tiền hay tống đi tù.
+Dialogue: 0,0:30:20.03,0:30:21.99,Default,,0,0,0,,- Thám tử Jang nhỉ?\N- Này.
+Dialogue: 0,0:30:22.07,0:30:24.86,Default,,0,0,0,,Hai đứa đừng để chú tóm được một lần nữa.
+Dialogue: 0,0:30:25.37,0:30:26.33,Default,,0,0,0,,Nghe rõ chưa?
+Dialogue: 0,0:30:27.28,0:30:28.11,Default,,0,0,0,,Ngay ngắn lên.
+Dialogue: 0,0:30:28.20,0:30:29.49,Default,,0,0,0,,Camera giám sát có gì chưa?
+Dialogue: 0,0:30:29.58,0:30:31.04,Default,,0,0,0,,Vẫn chưa, chỉ là
+Dialogue: 0,0:30:31.12,0:30:34.12,Default,,0,0,0,,tôi đang tìm hiểu vài người\Nchủ cửa hàng có thể gặp.
+Dialogue: 0,0:30:35.25,0:30:37.54,Default,,0,0,0,,Sao họ đánh nhau rồi cùng chết được?
+Dialogue: 0,0:30:38.59,0:30:40.05,Default,,0,0,0,,Hai thi thể xa nhau mà?
+Dialogue: 0,0:30:40.55,0:30:41.38,Default,,0,0,0,,Có thể chứ.
+Dialogue: 0,0:30:41.92,0:30:43.51,Default,,0,0,0,,Giả sử bị xuất huyết não,
+Dialogue: 0,0:30:43.59,0:30:45.93,Default,,0,0,0,,vậy thì không thể chết cùng lúc được.
+Dialogue: 0,0:30:46.64,0:30:49.27,Default,,0,0,0,,Có thể giết xong bỏ đi rồi mới gục chết.
+Dialogue: 0,0:30:49.35,0:30:50.18,Default,,0,0,0,,Anh nói có lý.
+Dialogue: 0,0:30:51.52,0:30:53.86,Default,,0,0,0,,Có kết quả giám định pháp y là xong.
+Dialogue: 0,0:30:53.94,0:30:56.28,Default,,0,0,0,,Việc gì phải điều tra bằng trực giác?
+Dialogue: 0,0:30:56.35,0:30:58.98,Default,,0,0,0,,- Cứ tin những gì nhìn thấy.\N- Đang nhìn đây.
+Dialogue: 0,0:31:01.11,0:31:02.61,Default,,0,0,0,,Không chịu nghe lời gì.
+Dialogue: 0,0:31:02.69,0:31:04.23,Default,,0,0,0,,Muốn giống chú đó không?
+Dialogue: 0,0:31:04.32,0:31:05.74,Default,,0,0,0,,Sao quần rách thế này?
+Dialogue: 0,0:31:06.70,0:31:08.49,Default,,0,0,0,,Mặc cho ngầu rồi chết cóng, đồ hâm.
+Dialogue: 0,0:31:14.96,0:31:16.71,Default,,0,0,0,,Người hôm qua làm việc ở đây.
+Dialogue: 0,0:31:17.75,0:31:19.59,Default,,0,0,0,,- Hôm qua ư?\N- Vâng.
+Dialogue: 0,0:31:20.63,0:31:23.59,Default,,0,0,0,,Sinh viên làm thêm\Ntừ 04:00 chiều đến 10:00 tối.
+Dialogue: 0,0:31:23.67,0:31:27.09,Default,,0,0,0,,À! Chắc anh nhắc đến Tang. Lee Tang?
+Dialogue: 0,0:31:28.68,0:31:30.02,Default,,0,0,0,,Tên là Lee Tang à?
+Dialogue: 0,0:31:30.81,0:31:32.44,Default,,0,0,0,,Lee Tang. Tên độc lạ.
+Dialogue: 0,0:31:33.02,0:31:34.40,Default,,0,0,0,,Cho tôi số điện thoại.
+Dialogue: 0,0:31:34.48,0:31:36.07,Default,,0,0,0,,À, vâng, số điện thoại.
+Dialogue: 0,0:31:37.31,0:31:38.14,Default,,0,0,0,,Đến rồi kìa.
+Dialogue: 0,0:31:39.69,0:31:42.11,Default,,0,0,0,,Sao đến đúng lúc thế? Vào đi.
+Dialogue: 0,0:31:42.65,0:31:44.07,Default,,0,0,0,,Cậu biết vụ hôm qua chứ?
+Dialogue: 0,0:31:44.15,0:31:45.61,Default,,0,0,0,,- Dạ?\N- Vụ giết người ấy.
+Dialogue: 0,0:31:45.70,0:31:47.20,Default,,0,0,0,,Có anh cảnh sát đến đây.
+Dialogue: 0,0:31:47.28,0:31:50.03,Default,,0,0,0,,Này, ra nói chuyện với anh ấy đi.
+Dialogue: 0,0:31:50.12,0:31:51.33,Default,,0,0,0,,Chúc ngày tốt lành.
+Dialogue: 0,0:31:53.12,0:31:53.95,Default,,0,0,0,,Cậu ngồi đi.
+Dialogue: 0,0:32:03.25,0:32:04.08,Default,,0,0,0,,Ôi trời.
+Dialogue: 0,0:32:05.76,0:32:07.05,Default,,0,0,0,,Tôi mất ngủ mấy hôm.
+Dialogue: 0,0:32:10.64,0:32:13.06,Default,,0,0,0,,Cậu học gần đây thì là Đại học Usang à?
+Dialogue: 0,0:32:15.64,0:32:16.64,Default,,0,0,0,,- Vâng.\N- Ừ.
+Dialogue: 0,0:32:20.31,0:32:21.14,Default,,0,0,0,,Nhưng…
+Dialogue: 0,0:32:24.73,0:32:26.27,Default,,0,0,0,,nói chuyện ở đây sao ạ?
+Dialogue: 0,0:32:29.32,0:32:30.45,Default,,0,0,0,,Muốn về đồn nói à?
+Dialogue: 0,0:32:31.82,0:32:32.95,Default,,0,0,0,,Dạ, không.
+Dialogue: 0,0:32:36.62,0:32:38.96,Default,,0,0,0,,Còn nhớ hai chú đó chứ? Ký hiệu tay.
+Dialogue: 0,0:32:40.33,0:32:41.16,Default,,0,0,0,,Hả?
+Dialogue: 0,0:32:45.42,0:32:46.46,Default,,0,0,0,,Vứt tiền cho…
+Dialogue: 0,0:32:48.68,0:32:50.06,Default,,0,0,0,,và còn bắt phục vụ.
+Dialogue: 0,0:32:51.43,0:32:52.39,Default,,0,0,0,,Đi mà không dọn.
+Dialogue: 0,0:32:53.14,0:32:54.23,Default,,0,0,0,,Họ uống say quá.
+Dialogue: 0,0:32:56.52,0:32:57.52,Default,,0,0,0,,Nên cậu giết à?
+Dialogue: 0,0:32:58.98,0:32:59.81,Default,,0,0,0,,Dạ?
+Dialogue: 0,0:33:05.53,0:33:08.78,Default,,0,0,0,,Tôi đùa thôi. Vì thấy cậu căng thẳng quá.
+Dialogue: 0,0:33:13.95,0:33:15.58,Default,,0,0,0,,Hình như hôm qua,
+Dialogue: 0,0:33:16.33,0:33:19.04,Default,,0,0,0,,họ đã uống rượu khoảng hai tiếng\Nở bàn này.
+Dialogue: 0,0:33:20.67,0:33:22.30,Default,,0,0,0,,Quan trọng là họ đã nói gì.
+Dialogue: 0,0:33:23.13,0:33:25.88,Default,,0,0,0,,Đêm khuya nên chắc\Ntừ bên trong cũng nghe thấy.
+Dialogue: 0,0:33:26.55,0:33:27.76,Default,,0,0,0,,Cậu có nhớ gì không?
+Dialogue: 0,0:33:29.80,0:33:30.72,Default,,0,0,0,,Họ chỉ…
+Dialogue: 0,0:33:33.22,0:33:34.72,Default,,0,0,0,,nói về gia đình thôi.
+Dialogue: 0,0:33:36.26,0:33:37.18,Default,,0,0,0,,Gia đình ư?
+Dialogue: 0,0:33:38.31,0:33:39.65,Default,,0,0,0,,Chú ấy nói vất vả.
+Dialogue: 0,0:33:41.94,0:33:44.57,Default,,0,0,0,,Ở nhà có một mẹ già lẩm cẩm…
+Dialogue: 0,0:33:46.40,0:33:47.61,Default,,0,0,0,,và ba đứa con.
+Dialogue: 0,0:33:48.74,0:33:49.70,Default,,0,0,0,,Sau đó thì sao?
+Dialogue: 0,0:33:51.07,0:33:52.24,Default,,0,0,0,,AN YONG JAE
+Dialogue: 0,0:34:37.53,0:34:38.66,Default,,0,0,0,,Sau đó…
+Dialogue: 0,0:34:38.74,0:34:39.66,Default,,0,0,0,,Thám tử Jang.
+Dialogue: 0,0:34:40.16,0:34:43.00,Default,,0,0,0,,Xác định được dấu vân tay rồi. Trùng khớp.
+Dialogue: 0,0:34:43.08,0:34:45.37,Default,,0,0,0,,Thám tử Park đúng, họ giết lẫn nhau.
+Dialogue: 0,0:34:45.88,0:34:49.22,Default,,0,0,0,,Tìm được cả nhân chứng.\NLời khai của ông ấy cũng khớp.
+Dialogue: 0,0:34:49.30,0:34:51.59,Default,,0,0,0,,Ông ấy nói họ say rượu rồi xô xát.
+Dialogue: 0,0:34:51.67,0:34:54.01,Default,,0,0,0,,Chắc Lee Gwang Hun cầm gạch đánh trước.
+Dialogue: 0,0:34:54.84,0:34:58.72,Default,,0,0,0,,Vết máu trên đầu Lee Gwang Hun\Nlà do loa của Kim Myeong Jin.
+Dialogue: 0,0:34:59.22,0:35:02.68,Default,,0,0,0,,Có vẻ như họ đã giết lẫn nhau.
+Dialogue: 0,0:35:03.31,0:35:04.14,Default,,0,0,0,,Ừ.
+Dialogue: 0,0:35:16.20,0:35:17.79,Default,,0,0,0,,Quản lý, tôi mượn búa…
+Dialogue: 0,0:35:34.09,0:35:35.68,Default,,0,0,0,,- Yong Jae này.\N- Vâng.
+Dialogue: 0,0:35:38.30,0:35:39.14,Default,,0,0,0,,Làm tốt lắm.
+Dialogue: 0,0:35:42.31,0:35:44.44,Default,,0,0,0,,Tìm được cả nhân chứng. Rất khéo.
+Dialogue: 0,0:35:45.89,0:35:46.72,Default,,0,0,0,,Cảm ơn anh.
+Dialogue: 0,0:35:48.15,0:35:50.65,Default,,0,0,0,,Cậu làm tốt nhưng nên cẩn thận.
+Dialogue: 0,0:35:51.36,0:35:52.19,Default,,0,0,0,,Về chuyện gì?
+Dialogue: 0,0:35:52.90,0:35:55.07,Default,,0,0,0,,Nói về vụ án trước mặt nhân chứng ư?
+Dialogue: 0,0:35:57.20,0:35:58.20,Default,,0,0,0,,Đừng ngạo mạn.
+Dialogue: 0,0:36:03.24,0:36:04.58,Default,,0,0,0,,Tôi sai rồi.
+Dialogue: 0,0:36:05.75,0:36:07.17,Default,,0,0,0,,Làm anh khó xử như cái tên rồi.
+Dialogue: 0,0:36:10.25,0:36:12.38,Default,,0,0,0,,À, tôi nói đùa thôi.
+Dialogue: 0,0:36:18.38,0:36:21.59,Default,,0,0,0,,Chẳng lẽ họ đánh nhau\Nở chỗ không có camera giám sát?
+Dialogue: 0,0:36:21.68,0:36:22.60,Default,,0,0,0,,Lạ lùng thật.
+Dialogue: 0,0:36:23.39,0:36:25.39,Default,,0,0,0,,Có cả những chuyện thế này ư?
+Dialogue: 0,0:36:26.35,0:36:28.90,Default,,0,0,0,,Bị đánh ở đó và lết ra tận đây rồi chết ư?
+Dialogue: 0,0:36:28.98,0:36:30.44,Default,,0,0,0,,Nghe có hợp lý không?
+Dialogue: 0,0:36:30.52,0:36:33.06,Default,,0,0,0,,Thôi kệ đi. Đưa cho tôi cái kìm tuốt dây.
+Dialogue: 0,0:36:33.90,0:36:35.40,Default,,0,0,0,,Ừ. Đây.
+Dialogue: 0,0:36:36.28,0:36:38.57,Default,,0,0,0,,Nhìn đôi mắt anh ta sưng,
+Dialogue: 0,0:36:38.65,0:36:41.86,Default,,0,0,0,,chứng tỏ là đã có triệu chứng\Nngay lúc bị đánh.
+Dialogue: 0,0:36:43.03,0:36:47.41,Default,,0,0,0,,Nhưng theo kết quả khám nghiệm tử thi,\Nnồng độ cồn trong máu là 0,132
+Dialogue: 0,0:36:47.91,0:36:50.66,Default,,0,0,0,,nên có thể không ra được.
+Dialogue: 0,0:36:53.88,0:36:56.05,Default,,0,0,0,,Chị quen anh Kim Myeong Jin bao lâu rồi?
+Dialogue: 0,0:36:59.63,0:37:02.93,Default,,0,0,0,,Tôi quen cậu ấy được khoảng ba năm rồi.
+Dialogue: 0,0:37:03.76,0:37:06.89,Default,,0,0,0,,Vợ ơi, anh đưa bạn về chơi này,\Nkhông sao chứ?
+Dialogue: 0,0:37:06.97,0:37:07.97,Default,,0,0,0,,Bọn trẻ đang ngủ.
+Dialogue: 0,0:37:08.06,0:37:09.27,Default,,0,0,0,,Biết rồi.
+Dialogue: 0,0:37:09.35,0:37:11.35,Default,,0,0,0,,- Lấy rượu đi.\N- Chị, em xin lỗi.
+Dialogue: 0,0:37:11.44,0:37:12.73,Default,,0,0,0,,Một hôm, chồng tôi
+Dialogue: 0,0:37:13.94,0:37:17.65,Default,,0,0,0,,đưa một người bảo là đồng nghiệp về nhà.
+Dialogue: 0,0:37:18.61,0:37:19.99,Default,,0,0,0,,Con đi đây.
+Dialogue: 0,0:37:20.07,0:37:21.49,Default,,0,0,0,,- Này!\N- Ừ.
+Dialogue: 0,0:37:21.57,0:37:22.49,Default,,0,0,0,,Này Hyeong Jun.
+Dialogue: 0,0:37:22.57,0:37:26.24,Default,,0,0,0,,Tính cách cậu ấy cũng hòa nhã\Nvà rất thân thiện.
+Dialogue: 0,0:37:26.91,0:37:27.99,Default,,0,0,0,,Không đáng là bao.
+Dialogue: 0,0:37:28.62,0:37:30.25,Default,,0,0,0,,- Cầm lấy đi.\N- Cháu xin.
+Dialogue: 0,0:37:30.33,0:37:31.67,Default,,0,0,0,,Cái thằng.
+Dialogue: 0,0:37:31.75,0:37:33.75,Default,,0,0,0,,Chú cứ cho thế là làm hư nó đấy.
+Dialogue: 0,0:37:34.25,0:37:35.67,Default,,0,0,0,,- Kệ đi.\N- Cháu đi đây.
+Dialogue: 0,0:37:35.75,0:37:36.88,Default,,0,0,0,,Ừ, đi nhé.
+Dialogue: 0,0:37:38.34,0:37:41.64,Default,,0,0,0,,Cậu ấy thân thiết với bọn trẻ\Nvà cho cả tiền tiêu vặt.
+Dialogue: 0,0:37:42.18,0:37:45.93,Default,,0,0,0,,Nhớ cả sinh nhật của tôi\Ntrong khi chồng tôi chưa bao giờ nhớ.
+Dialogue: 0,0:37:46.51,0:37:50.35,Default,,0,0,0,,Tay nghề nấu nướng của chị\Nđúng là chuyên nghiệp.
+Dialogue: 0,0:37:51.27,0:37:52.27,Default,,0,0,0,,Thật đấy.
+Dialogue: 0,0:37:52.35,0:37:55.10,Default,,0,0,0,,Chị chỉ ở nhà làm nội trợ thì quá phí.
+Dialogue: 0,0:37:59.15,0:37:59.99,Default,,0,0,0,,Chị ơi.
+Dialogue: 0,0:38:00.74,0:38:02.70,Default,,0,0,0,,- Hả?\N- Uống một chén nhé?
+Dialogue: 0,0:38:30.81,0:38:35.90,Default,,0,0,0,,Thế nên, chị đã dự định\Nlà chỉ cần con trai tự lập
+Dialogue: 0,0:38:35.98,0:38:38.77,Default,,0,0,0,,thì ly hôn ngay rồi tái hôn với bạn chồng.
+Dialogue: 0,0:38:40.15,0:38:41.07,Default,,0,0,0,,Đúng không?
+Dialogue: 0,0:38:44.45,0:38:45.28,Default,,0,0,0,,Vâng.
+Dialogue: 0,0:38:45.78,0:38:46.66,Default,,0,0,0,,Ngưu tầm ngưu.
+Dialogue: 0,0:38:47.49,0:38:50.66,Default,,0,0,0,,Cứ thoải mái để cho người ta tán,\Nthế kết hôn làm gì?
+Dialogue: 0,0:38:51.70,0:38:55.83,Default,,0,0,0,,Chồng chết mà lại đi phục vụ ở tang lễ\Ncủa người tình. Có điên không?
+Dialogue: 0,0:38:58.25,0:38:59.08,Default,,0,0,0,,Nhìn kìa.
+Dialogue: 0,0:39:01.96,0:39:05.30,Default,,0,0,0,,Con lớn rồi mà làm trò đó?\NLà tôi thì tôi cũng vác dao.
+Dialogue: 0,0:39:05.80,0:39:06.84,Default,,0,0,0,,Dao đâu. Gạch mà.
+Dialogue: 0,0:39:07.68,0:39:10.77,Default,,0,0,0,,- Cậu thì giỏi.\N- Không thấy vết máu dính trên gạch.
+Dialogue: 0,0:39:10.85,0:39:11.68,Default,,0,0,0,,Có thể chứ.
+Dialogue: 0,0:39:11.77,0:39:15.77,Default,,0,0,0,,Chẳng phải danh tính của Kim Myeong Jin\Ncũng hơi kỳ lạ hay sao?
+Dialogue: 0,0:39:16.27,0:39:17.27,Default,,0,0,0,,Chuyện gì nữa?
+Dialogue: 0,0:39:17.86,0:39:19.15,Default,,0,0,0,,Tôi điều tra lý lịch
+Dialogue: 0,0:39:19.23,0:39:24.28,Default,,0,0,0,,nhưng không phát hiện được gì.\NHình như tôi từng thấy anh ta ở đâu rồi.
+Dialogue: 0,0:39:24.78,0:39:27.70,Default,,0,0,0,,Từng thấy chưa đủ.\NChỉ tin những gì đang thấy.
+Dialogue: 0,0:39:30.70,0:39:32.87,Default,,0,0,0,,Chúc anh ngon miệng. Tôi đi đã.
+Dialogue: 0,0:39:32.95,0:39:33.83,Default,,0,0,0,,Tôi cũng đi.
+Dialogue: 0,0:39:46.84,0:39:48.34,Default,,0,0,0,,Loại kẹo cao su nào ngon?
+Dialogue: 0,0:39:49.10,0:39:50.31,Default,,0,0,0,,Ồ! KẸO CAO SU BONG BÓNG.
+Dialogue: 0,0:39:50.39,0:39:51.35,Default,,0,0,0,,Kẹo cao su bong bóng?
+Dialogue: 0,0:39:51.89,0:39:54.89,Default,,0,0,0,,Vâng, lần trước\Ncháu thấy chú thổi bong bóng.
+Dialogue: 0,0:39:58.85,0:40:00.89,Default,,0,0,0,,Với loại thường, tôi vẫn thổi to.
+Dialogue: 0,0:40:02.94,0:40:04.86,Default,,0,0,0,,- À.\N- Cậu đang nghĩ "Thì sao?"
+Dialogue: 0,0:40:09.24,0:40:13.16,Default,,0,0,0,,Cậu nghĩ kẹo cao su thường\Nkhác kẹo cao su bong bóng ở chỗ nào?
+Dialogue: 0,0:40:16.25,0:40:19.42,Default,,0,0,0,,Nhai mãi thì rồi cũng thổi được\Nbong bóng như nhau cả.
+Dialogue: 0,0:40:22.63,0:40:23.46,Default,,0,0,0,,Nói sao nhỉ?
+Dialogue: 0,0:40:26.42,0:40:29.97,Default,,0,0,0,,Giết người cũng vậy.\NLà chuyện thường tình trong cuộc sống.
+Dialogue: 0,0:40:34.81,0:40:36.56,Default,,0,0,0,,Dù không phải nhân chứng
+Dialogue: 0,0:40:37.35,0:40:40.60,Default,,0,0,0,,nhưng những người cuối cùng\Nnạn nhân gặp trước khi chết,
+Dialogue: 0,0:40:40.69,0:40:42.28,Default,,0,0,0,,thi thoảng sẽ bị ám ảnh.
+Dialogue: 0,0:40:42.90,0:40:45.28,Default,,0,0,0,,Hôm trước tôi đến đây và làm cậu sợ.
+Dialogue: 0,0:40:48.53,0:40:51.53,Default,,0,0,0,,Xét vẻ bề ngoài và tên của cậu Lee Tang,
+Dialogue: 0,0:40:52.24,0:40:55.29,Default,,0,0,0,,tôi đoán cậu chịu nhiều thiệt thòi\Ntrong cuộc sống.
+Dialogue: 0,0:40:56.58,0:40:58.33,Default,,0,0,0,,Nên gọi là đồng cảm chăng?
+Dialogue: 0,0:40:59.37,0:41:00.20,Default,,0,0,0,,Đây!
+Dialogue: 0,0:41:00.29,0:41:02.67,Default,,0,0,0,,CƠ QUAN CẢNH SÁT\NJANG NAN GAM
+Dialogue: 0,0:41:05.63,0:41:07.92,Default,,0,0,0,,Tôi làm cảnh sát vì ghét bị khinh rẻ.
+Dialogue: 0,0:41:09.05,0:41:10.26,Default,,0,0,0,,Hiểu ý tôi chứ?
+Dialogue: 0,0:41:13.93,0:41:14.89,Default,,0,0,0,,Cố gắng lên.
+Dialogue: 0,0:41:15.81,0:41:17.19,Default,,0,0,0,,Vâng, chú lại đến ạ.
+Dialogue: 0,0:41:17.27,0:41:20.52,Default,,0,0,0,,Đến nữa làm gì?\NTừ giờ không có chuyện gì cần gặp nữa.
+Dialogue: 0,0:41:36.29,0:41:39.08,Default,,0,0,0,,- Chúc ngày tốt lành.\N- Trời đất ơi!
+Dialogue: 0,0:41:39.79,0:41:40.79,Default,,0,0,0,,Chết tiệt.
+Dialogue: 0,0:41:42.25,0:41:43.29,Default,,0,0,0,,Sao đến tận đây?
+Dialogue: 0,0:41:44.29,0:41:45.25,Default,,0,0,0,,Thế còn cậu?
+Dialogue: 0,0:41:46.13,0:41:49.68,Default,,0,0,0,,- Không nghe điện thoại, không đọc tin.\N- À, tôi chưa nói à?
+Dialogue: 0,0:41:50.55,0:41:51.59,Default,,0,0,0,,Điện thoại hỏng.
+Dialogue: 0,0:41:51.68,0:41:53.31,Default,,0,0,0,,Thế sao vẫn chưa sửa đi?
+Dialogue: 0,0:41:54.18,0:41:55.10,Default,,0,0,0,,Đúng là.
+Dialogue: 0,0:41:56.06,0:41:57.19,Default,,0,0,0,,Sao không đi học?
+Dialogue: 0,0:41:59.06,0:42:00.56,Default,,0,0,0,,Nhà tôi có việc.
+Dialogue: 0,0:42:02.85,0:42:06.15,Default,,0,0,0,,Này! Nghe nói gần đây\Nmới xảy ra vụ giết người.
+Dialogue: 0,0:42:06.86,0:42:08.65,Default,,0,0,0,,À, tôi có chuyện này hay lắm.
+Dialogue: 0,0:42:09.24,0:42:10.66,Default,,0,0,0,,Hôm qua, tan học xong,
+Dialogue: 0,0:42:11.32,0:42:14.78,Default,,0,0,0,,cảnh sát giữ tôi và Mi Yeong lại\Nvà hỏi như thẩm vấn ấy.
+Dialogue: 0,0:42:15.62,0:42:19.33,Default,,0,0,0,,Hỏi hôm đó cậu đã làm gì, ở đâu.\NCó vẻ rất nghiêm trọng.
+Dialogue: 0,0:42:19.91,0:42:22.91,Default,,0,0,0,,Ai nghe thấy lại tưởng cậu giết người đấy.
+Dialogue: 0,0:42:23.42,0:42:26.05,Default,,0,0,0,,Giáo sư đi ngang qua cũng nhìn chằm chằm.
+Dialogue: 0,0:42:26.13,0:42:28.05,Default,,0,0,0,,Giờ tôi uống mãi không say.
+Dialogue: 0,0:42:30.55,0:42:31.68,Default,,0,0,0,,Gì đây? Nước à?
+Dialogue: 0,0:42:32.55,0:42:36.14,Default,,0,0,0,,Uống nốt một chén nữa thôi.\NDạo này tôi không say thật.
+Dialogue: 0,0:42:36.22,0:42:38.43,Default,,0,0,0,,Hôm nay lại là ngày tôi không say.
+Dialogue: 0,0:42:39.89,0:42:41.85,Default,,0,0,0,,Hôm nọ, tôi đi nhậu với mấy anh.
+Dialogue: 0,0:42:42.52,0:42:45.57,Default,,0,0,0,,Tôi đã hạ gục họ, uống tận mười chai đấy.
+Dialogue: 0,0:42:46.98,0:42:47.81,Default,,0,0,0,,Ừ, được.
+Dialogue: 0,0:42:59.03,0:43:00.91,Default,,0,0,0,,Thám tử Jang.
+Dialogue: 0,0:43:07.63,0:43:08.88,Default,,0,0,0,,Đây là tin sốc.
+Dialogue: 0,0:43:09.46,0:43:13.88,Default,,0,0,0,,Quý vị có nhớ vụ sát nhân trong ngõ\Nở Yuseong-gu, Daejeon-si vài ngày trước?
+Dialogue: 0,0:43:14.51,0:43:17.81,Default,,0,0,0,,Đã xác định danh tính ông Kim,\Nngười tử vong trong vụ án,
+Dialogue: 0,0:43:17.89,0:43:22.27,Default,,0,0,0,,tên đầy đủ là ông Kim Myeong Jin,\Ncông nhân thời vụ trong khu vực.
+Dialogue: 0,0:43:22.77,0:43:25.73,Default,,0,0,0,,Theo kết quả giám định,\NADN của ông Kim Myeong Jin…
+Dialogue: 0,0:43:26.40,0:43:28.32,Default,,0,0,0,,Kim Myeong Jin mà cậu nghi ngờ
+Dialogue: 0,0:43:29.73,0:43:31.82,Default,,0,0,0,,giả mạo từ tuổi tác đến thân thế.
+Dialogue: 0,0:43:32.61,0:43:36.41,Default,,0,0,0,,Tôi điều tra lý lịch thì thấy\Ncó thể đây là Yeo Bu Il.
+Dialogue: 0,0:43:37.57,0:43:39.95,Default,,0,0,0,,…trùng khớp với ADN của ông Yeo,
+Dialogue: 0,0:43:40.03,0:43:45.04,Default,,0,0,0,,nghi phạm trong vụ án giết người hàng loạt\Nxảy ra ở Gangwon-do vào năm 2009.
+Dialogue: 0,0:43:46.04,0:43:49.54,Default,,0,0,0,,Cảnh sát phát hiện sự thật này\Nkhi giám định chi tiết ADN
+Dialogue: 0,0:43:49.63,0:43:53.26,Default,,0,0,0,,do nghi ngờ về danh tính của ông Kim.
+Dialogue: 0,0:43:53.34,0:43:55.22,Default,,0,0,0,,Việc ADN của nạn nhân, ông Kim,
+Dialogue: 0,0:43:55.30,0:43:58.22,Default,,0,0,0,,khớp với ADN của\Nnghi phạm giết người hàng loạt, ông Yeo,
+Dialogue: 0,0:43:58.30,0:44:02.68,Default,,0,0,0,,và việc nghi phạm đã giả mạo danh tính\Nbao lâu nay, khiến dư luật bất ngờ.
+Dialogue: 0,0:44:03.43,0:44:04.72,Default,,0,0,0,,Ồ, Yeo Bu Il!
+Dialogue: 0,0:44:06.77,0:44:07.77,Default,,0,0,0,,Tôi cũng ngờ ngợ.
+Dialogue: 0,0:44:08.40,0:44:10.49,Default,,0,0,0,,Vừa nhìn ảnh là tôi nhận ra ngay.
+Dialogue: 0,0:44:10.56,0:44:12.48,Default,,0,0,0,,TRUY NÃ NGHI PHẠM GIẾT NGƯỜI\NYEO BU IL
+Dialogue: 0,0:44:12.57,0:44:14.36,Default,,0,0,0,,Người biến thái nhân cách
+Dialogue: 0,0:44:14.90,0:44:18.70,Default,,0,0,0,,có đặc điểm là rất giỏi thao túng tâm lý,\Nnói dối và ngụy trang.
+Dialogue: 0,0:44:22.58,0:44:24.54,Default,,0,0,0,,Không thể ngờ được.
+Dialogue: 0,0:44:25.33,0:44:27.00,Default,,0,0,0,,Đây chính là gì nhỉ?
+Dialogue: 0,0:44:27.83,0:44:29.17,Default,,0,0,0,,Nhân quả báo ứng.
+Dialogue: 0,0:44:29.83,0:44:31.29,Default,,0,0,0,,Đây là nhân quả báo ứng.
+Dialogue: 0,0:44:31.79,0:44:36.38,Default,,0,0,0,,Ông Kim là ông Yeo, nghi phạm trong vụ án\Ngiết người hàng loạt ở Gangwon-do.
+Dialogue: 0,0:44:36.47,0:44:39.31,Default,,0,0,0,,Điều này khơi gợi lại\Nnhững vụ án tàn bạo năm đó.
+Dialogue: 0,0:44:39.80,0:44:42.72,Default,,0,0,0,,Đột nhập bất ngờ vào một nhà,\Nlấy tiền bảo hiểm…
+Dialogue: 0,0:45:04.16,0:45:07.66,Default,,0,0,0,,Cậu đang tự thưởng cho mình\Nvì giết được kẻ xấu xa đấy à?
+Dialogue: 0,0:45:11.88,0:45:13.26,Default,,0,0,0,,Con người
+Dialogue: 0,0:45:14.55,0:45:15.38,Default,,0,0,0,,thật là
+Dialogue: 0,0:45:16.05,0:45:17.05,Default,,0,0,0,,xảo quyệt.
+Dialogue: 0,0:45:18.38,0:45:19.30,Default,,0,0,0,,Đúng không?
+Dialogue: 0,0:45:23.35,0:45:27.86,Default,,0,0,0,,Ông giết cả một gia đình vì tiền bảo hiểm\Nrồi trốn chui trốn lủi trên núi.
+Dialogue: 0,0:45:27.93,0:45:30.39,Default,,0,0,0,,Cưỡng hiếp sinh viên leo núi và giấu xác.
+Dialogue: 0,0:45:32.65,0:45:33.74,Default,,0,0,0,,Kẻ như vậy nói gì?
+Dialogue: 0,0:45:45.16,0:45:48.58,Default,,0,0,0,,Tôi có mẹ già ở nhà.
+Dialogue: 0,0:45:49.16,0:45:52.33,Default,,0,0,0,,Còn có cả ba đứa con nữa.
+Dialogue: 0,0:45:52.42,0:45:55.55,Default,,0,0,0,,Nghe nói ông trốn chui trốn lủi\Nvà giết nhiều người?
+Dialogue: 0,0:45:56.84,0:45:58.80,Default,,0,0,0,,Liên tục tới lúc bị tôi giết.
+Dialogue: 0,0:46:00.22,0:46:01.60,Default,,0,0,0,,Tôi…
+Dialogue: 0,0:46:01.68,0:46:04.43,Default,,0,0,0,,Còn rất nhiều nạn nhân chưa được đưa tin?
+Dialogue: 0,0:46:05.01,0:46:06.26,Default,,0,0,0,,Kẻ như vậy nói gì?
+Dialogue: 0,0:46:07.14,0:46:08.73,Default,,0,0,0,,Có mẹ già và con cái ư?
+Dialogue: 0,0:46:08.81,0:46:10.56,Default,,0,0,0,,Khỉ gió, đều là dối trá.
+Dialogue: 0,0:46:35.13,0:46:36.01,Default,,0,0,0,,Trời đất.
+Dialogue: 0,0:47:20.00,0:47:21.38,Default,,0,0,0,,Đúng rồi, giỏi lắm.
+Dialogue: 0,0:47:23.63,0:47:25.76,Default,,0,0,0,,Đúng rồi, giỏi lắm.
+Dialogue: 0,0:47:26.43,0:47:27.85,Default,,0,0,0,,Thêm một lần nữa nhé?
+Dialogue: 0,0:47:28.39,0:47:29.22,Default,,0,0,0,,Đi nào.
+Dialogue: 0,0:47:32.85,0:47:35.73,Default,,0,0,0,,Đúng rồi, giỏi lắm.
+Dialogue: 0,0:47:36.60,0:47:38.98,Default,,0,0,0,,Lần nữa. Đi nào.
+Dialogue: 0,0:49:19.04,0:49:21.04,Default,,0,0,0,,Biên dịch: Giang Trần

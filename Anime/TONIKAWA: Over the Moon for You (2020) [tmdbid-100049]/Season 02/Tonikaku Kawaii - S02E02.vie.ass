@@ -1,0 +1,508 @@
+[Script Info]
+; This is an Advanced Sub Station Alpha v4+ script.
+Title:
+ScriptType: v4.00+
+PlayDepth: 0
+ScaledBorderAndShadow: Yes
+PlayResX: 1920
+PlayResY: 1080
+
+[V4+ Styles]
+Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
+Style: Default,Noto Sans,80.0,&H00FFFFFF,&H000000FF,&H00002208,&H00000000,-1,0,0,0,100,100,0,0,1,3.0,2.0,2,0,0,65,1
+
+[Events]
+Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
+Dialogue: 0,0:00:02.20,0:00:04.80,Default,,0,0,0,,Các em có giải được\Ncông thức này không đây?!
+Dialogue: 0,0:00:05.10,0:00:07.20,Default,,0,0,0,,Nhầm công thức rồi nhỉ.
+Dialogue: 0,0:00:07.20,0:00:07.80,Default,,0,0,0,,Hả?
+Dialogue: 0,0:00:08.10,0:00:11.74,Default,,0,0,0,,Anh nghĩ thầy ấy đã chép từ sách tham khảo ra\Nnhưng bị thiếu mất một dòng rồi.
+Dialogue: 0,0:00:12.10,0:00:14.74,Default,,0,0,0,,Lỗi nhỏ thế mà anh cũng nhận ra nhỉ.
+Dialogue: 0,0:00:15.10,0:00:19.50,Default,,0,0,0,,Hồi đi học chắc là anh cũng như thế\Nrồi làm giáo viên gặp rắc rối phải không?
+Dialogue: 0,0:00:19.50,0:00:20.40,Default,,0,0,0,,Hể?
+Dialogue: 0,0:00:20.40,0:00:22.00,Default,,0,0,0,,Không có chuyện đó đâu.
+Dialogue: 0,0:00:26.30,0:00:27.00,Default,,0,0,0,,À, không.
+Dialogue: 0,0:00:27.30,0:00:28.51,Default,,0,0,0,,Nói mới nhớ...
+Dialogue: 0,0:00:29.20,0:00:30.30,Default,,0,0,0,,có không nhỉ?
+Dialogue: 0,0:00:30.80,0:00:31.90,Default,,0,0,0,,Quả nhiên.
+Dialogue: 0,0:02:02.97,0:02:05.70,Default,,0,0,0,,(Tập hai: Bàn về hạnh phúc)
+Dialogue: 0,0:02:05.70,0:02:09.10,Default,,0,0,0,,Điểm trung bình kỳ thi thử\Ncủa cả lớp lại giảm nữa rồi.
+Dialogue: 0,0:02:09.60,0:02:10.99,Default,,0,0,0,,Không, không phải.
+Dialogue: 0,0:02:11.60,0:02:15.49,Default,,0,0,0,,Vốn dĩ thành tích này đối với trường mình\Nthì cũng là bình thường.
+Dialogue: 0,0:02:16.20,0:02:20.00,Default,,0,0,0,,Chỉ tại cậu nhóc đi từ dưới đáy vực lên\Nđã không còn nữa thôi.
+Dialogue: 0,0:02:20.00,0:02:21.10,Default,,0,0,0,,Cô Yanagi.
+Dialogue: 0,0:02:21.62,0:02:25.00,Default,,0,0,0,,Bảng báo cáo PTA\Nmà tôi đã nhờ cô làm hôm trước...
+Dialogue: 0,0:02:25.00,0:02:27.10,Default,,0,0,0,,Hể? À, tôi xin lỗi!
+Dialogue: 0,0:02:27.10,0:02:28.63,Default,,0,0,0,,Tôi sẽ xong và nộp trong hôm nay!
+Dialogue: 0,0:02:29.30,0:02:32.39,Default,,0,0,0,,Công việc của giáo viên khiến mình hầu như\Nkhông được nghỉ ngày nào.
+Dialogue: 0,0:02:33.10,0:02:35.40,Default,,0,0,0,,Soạn giáo án để dạy mỗi ngày.
+Dialogue: 0,0:02:35.70,0:02:37.20,Default,,0,0,0,,Buổi tập huấn của câu lạc bộ.
+Dialogue: 0,0:02:37.20,0:02:38.10,Default,,0,0,0,,Rồi PTA.
+Dialogue: 0,0:02:38.50,0:02:40.40,Default,,0,0,0,,Nếu học sinh gặp vấn đề gì
+Dialogue: 0,0:02:40.50,0:02:42.60,Default,,0,0,0,,thì phải giải quyết trong 24 giờ.
+Dialogue: 0,0:02:42.80,0:02:45.40,Default,,0,0,0,,Nói là vậy nhưng lương\Nthì cũng chẳng cao chút nào.
+Dialogue: 0,0:02:46.00,0:02:49.00,Default,,0,0,0,,Dù là vậy,\Nhôm nay mình cũng sẽ vì học sinh!
+Dialogue: 0,0:02:49.00,0:02:49.80,Default,,0,0,0,,Cô Yanagi!
+Dialogue: 0,0:02:50.90,0:02:53.90,Default,,0,0,0,,Lần sau cô có thể đi khu vui chơi\Nvới tôi không?
+Dialogue: 0,0:02:54.60,0:02:55.30,Default,,0,0,0,,Hả?
+Dialogue: 0,0:02:55.50,0:02:56.50,Default,,0,0,0,,À không!
+Dialogue: 0,0:02:56.50,0:02:59.16,Default,,0,0,0,,Vì tôi tình cờ có hai vé đi khu vui chơi
+Dialogue: 0,0:02:59.40,0:03:03.16,Default,,0,0,0,,- ... nên nếu được thì cô có thể...\N- Anh đang nói cái gì vậy hả, thầy Taniguchi?
+Dialogue: 0,0:03:03.40,0:03:05.50,Default,,0,0,0,,Tôi không có thời gian cho việc đó đâu!
+Dialogue: 0,0:03:05.50,0:03:08.10,Default,,0,0,0,,N-Nhưng đôi khi ta cũng cần phải\Nđi xả hơi một chút...
+Dialogue: 0,0:03:08.10,0:03:09.60,Default,,0,0,0,,Anh đang nói cái gì vậy hả?
+Dialogue: 0,0:03:09.60,0:03:11.60,Default,,0,0,0,,Tất nhiên là tôi không đi được rồi.
+Dialogue: 0,0:03:14.50,0:03:15.80,Default,,0,0,0,,Thiệt tình.
+Dialogue: 0,0:03:15.90,0:03:19.68,Default,,0,0,0,,Cùng là giáo viên với nhau mà con người này\Nnghĩ cái gì không vậy?
+Dialogue: 0,0:03:23.00,0:03:24.80,Default,,0,0,0,,Ủa, cô Yanagi đó sao?
+Dialogue: 0,0:03:24.80,0:03:25.40,Default,,0,0,0,,Hả?
+Dialogue: 0,0:03:25.93,0:03:27.82,Default,,0,0,0,,Đúng là cô Yanagi rồi.
+Dialogue: 0,0:03:28.30,0:03:30.10,Default,,0,0,0,,Ủa, là em Yuzaki nè!
+Dialogue: 0,0:03:30.10,0:03:30.80,Default,,0,0,0,,Vâng!
+Dialogue: 0,0:03:31.00,0:03:32.31,Default,,0,0,0,,Đã lâu không gặp ạ.
+Dialogue: 0,0:03:33.10,0:03:34.30,Default,,0,0,0,,Lâu không gặp em!
+Dialogue: 0,0:03:34.30,0:03:35.60,Default,,0,0,0,,Em vẫn khỏe chứ?
+Dialogue: 0,0:03:35.60,0:03:37.40,Default,,0,0,0,,Vâng, nhờ trời ạ.
+Dialogue: 0,0:03:37.40,0:03:39.95,Default,,0,0,0,,Cô nghe nói là em đang gặp\Nnhiều chuyện khó khăn.
+Dialogue: 0,0:03:40.30,0:03:43.20,Default,,0,0,0,,Rằng em đã nhập viện\Nnên không thể đến trường được.
+Dialogue: 0,0:03:43.20,0:03:45.33,Default,,0,0,0,,Mà cũng có nhiều chuyện xảy ra.
+Dialogue: 0,0:03:45.60,0:03:47.00,Default,,0,0,0,,Nhiều chuyện...
+Dialogue: 0,0:03:47.10,0:03:47.83,Default,,0,0,0,,Hả?!
+Dialogue: 0,0:03:50.08,0:03:53.70,Default,,0,0,0,,Em Yuzaki có thứ gì đó đang đeo\Ntrên ngón áp út tay trái...
+Dialogue: 0,0:03:53.70,0:03:55.34,Default,,0,0,0,,À, chiếc nhẫn cưới ấy ạ?
+Dialogue: 0,0:03:55.50,0:03:56.80,Default,,0,0,0,,Đúng là vậy đó.
+Dialogue: 0,0:03:56.90,0:03:58.68,Default,,0,0,0,,Em đã kết hôn rồi.
+Dialogue: 0,0:03:59.10,0:04:03.10,Default,,0,0,0,,Em đã kết hôn rồi, em đã kết hôn rồi...
+Dialogue: 0,0:04:03.10,0:04:05.20,Default,,0,0,0,,K-Không ngờ là em Yuzaki...
+Dialogue: 0,0:04:05.20,0:04:09.35,Default,,0,0,0,,vì cú sốc không thể đến trường nên bị Yakuza hóa\Nvà kết hôn với một cô gái tệ hại!
+Dialogue: 0,0:04:09.50,0:04:10.80,Default,,0,0,0,,Chuyện đó thì là...
+Dialogue: 0,0:04:10.80,0:04:11.98,Default,,0,0,0,,Em Yuzaki!
+Dialogue: 0,0:04:12.10,0:04:14.36,Default,,0,0,0,,Cô sẽ đến thăm nhà em ngay bây giờ!
+Dialogue: 0,0:04:14.50,0:04:15.80,Default,,0,0,0,,Hể? Nhưng em đã tốt nghiệp rồi...
+Dialogue: 0,0:04:15.80,0:04:17.10,Default,,0,0,0,,Đây là để kiểm tra ý thức!
+Dialogue: 0,0:04:17.10,0:04:19.11,Default,,0,0,0,,Bây giờ em phải dẫn cô\Nvề nhà của em ngay!
+Dialogue: 0,0:04:21.10,0:04:23.80,Default,,0,0,0,,Chồng ơi, người này là?
+Dialogue: 0,0:04:24.00,0:04:26.12,Default,,0,0,0,,À... ừm...
+Dialogue: 0,0:04:26.40,0:04:28.20,Default,,0,0,0,,Anh nghĩ là đã nói với em từ trước rồi...
+Dialogue: 0,0:04:28.20,0:04:29.12,Default,,0,0,0,,Cô bé này...
+Dialogue: 0,0:04:29.60,0:04:31.80,Default,,0,0,0,,là cô dâu của em Yuzaki?
+Dialogue: 0,0:04:33.50,0:04:35.20,Default,,0,0,0,,Mà thế này là sao đây?
+Dialogue: 0,0:04:35.20,0:04:36.80,Default,,0,0,0,,Vợ em dễ thương đấy chứ.
+Dialogue: 0,0:04:36.80,0:04:37.26,Default,,0,0,0,,Dạ?
+Dialogue: 0,0:04:37.26,0:04:39.70,Default,,0,0,0,,Em đã kết hôn với một cô bé\Ndễ thương như này sao?
+Dialogue: 0,0:04:40.50,0:04:41.50,Default,,0,0,0,,À, dạ...
+Dialogue: 0,0:04:42.90,0:04:45.80,Default,,0,0,0,,Người này là giáo viên\Nđảm nhiệm lớp anh hồi cấp hai.
+Dialogue: 0,0:04:45.80,0:04:47.80,Default,,0,0,0,,Cô tên là Yanagi Naoko.
+Dialogue: 0,0:04:47.80,0:04:49.52,Default,,0,0,0,,Cô là giáo viên nhỉ.
+Dialogue: 0,0:04:52.40,0:04:54.90,Default,,0,0,0,,Em chưa giới thiệu về mình\Ncho cô Yanagi rồi.
+Dialogue: 0,0:04:54.90,0:04:57.78,Default,,0,0,0,,Em là vợ của Nasa, Yuzaki Tsukasa ạ.
+Dialogue: 0,0:04:57.78,0:05:01.40,Default,,0,0,0,,À vâng, cô cũng mong được em giúp đỡ.
+Dialogue: 0,0:05:01.40,0:05:02.28,Default,,0,0,0,,(Bồn chồn)
+Dialogue: 0,0:05:03.00,0:05:06.60,Default,,0,0,0,,Cô ấy tự xưng là "vợ"\Nlàm mình lỡ rung động mất...
+Dialogue: 0,0:05:06.60,0:05:08.00,Default,,0,0,0,,Một cô bé đàng hoàng đấy.
+Dialogue: 0,0:05:08.20,0:05:10.10,Default,,0,0,0,,Hoàn toàn khác với tưởng tượng của cô.
+Dialogue: 0,0:05:10.10,0:05:12.00,Default,,0,0,0,,Cô đã tưởng tượng ra người\Nnhư nào vậy ạ?
+Dialogue: 0,0:05:13.00,0:05:15.50,Default,,0,0,0,,Ôi trời, vẫn không thể lơ là được.
+Dialogue: 0,0:05:15.50,0:05:16.30,Default,,0,0,0,,Có thể...
+Dialogue: 0,0:05:16.50,0:05:20.00,Default,,0,0,0,,nhìn vậy thôi chứ vẫn đang\Ngiấu một bí mật đáng sợ nào đó thì sao.
+Dialogue: 0,0:05:23.00,0:05:25.60,Default,,0,0,0,,Nếu được thì cô ở lại cùng ăn tối nhé?
+Dialogue: 0,0:05:26.20,0:05:27.90,Default,,0,0,0,,À, chuyện đó thì không được đâu!
+Dialogue: 0,0:05:27.90,0:05:30.80,Default,,0,0,0,,Đã xông vào nhà của học sinh cũ rồi\Nmà còn được đãi ăn cơm thì...
+Dialogue: 0,0:05:31.40,0:05:33.44,Default,,0,0,0,,Ngon quá!
+Dialogue: 0,0:05:33.44,0:05:34.70,Default,,0,0,0,,Gì thế này?
+Dialogue: 0,0:05:34.80,0:05:38.00,Default,,0,0,0,,Ngày nào em Yuzaki cũng được ăn\Nnhững món ngon như này sao?
+Dialogue: 0,0:05:38.00,0:05:39.69,Default,,0,0,0,,Vâng, đúng thế ạ.
+Dialogue: 0,0:05:40.20,0:05:42.00,Default,,0,0,0,,Cô cứ ăn nhiều vào nhé.
+Dialogue: 0,0:05:42.00,0:05:42.94,Default,,0,0,0,,Được hả?
+Dialogue: 0,0:05:44.60,0:05:47.30,Default,,0,0,0,,Lần cuối mình được ăn ngon như này\Nlà khi nào vậy ta?
+Dialogue: 0,0:05:47.90,0:05:48.96,Default,,0,0,0,,Gần đây...
+Dialogue: 0,0:05:49.50,0:05:52.96,Default,,0,0,0,,cũng tại mình chỉ ăn cơm hộp tiện lợi\Nhoặc mì ly thôi nhỉ.
+Dialogue: 0,0:05:53.20,0:05:54.80,Default,,0,0,0,,K-Không được, Naoko.
+Dialogue: 0,0:05:54.80,0:05:56.96,Default,,0,0,0,,Sao mày lại chấp nhận ngay vậy chứ?
+Dialogue: 0,0:05:57.10,0:05:58.72,Default,,0,0,0,,Dù cho đồ ăn có ngon đến mấy
+Dialogue: 0,0:05:58.90,0:06:01.10,Default,,0,0,0,,nhưng chuyện kết hôn\Nkhi vẫn còn non trẻ thế này,
+Dialogue: 0,0:06:01.10,0:06:03.00,Default,,0,0,0,,nhất định có khúc mắc gì đó.
+Dialogue: 0,0:06:03.10,0:06:05.97,Default,,0,0,0,,Món ngưu bàng xào cà rốt này\Nngon thật đấy!
+Dialogue: 0,0:06:05.97,0:06:07.10,Default,,0,0,0,,Đúng chứ?
+Dialogue: 0,0:06:07.10,0:06:09.10,Default,,0,0,0,,Tại em nghĩ là chồng sẽ thích.
+Dialogue: 0,0:06:09.10,0:06:12.98,Default,,0,0,0,,Ừm, Tsukasa đã nấu\Nthì món gì cũng ngon hết.
+Dialogue: 0,0:06:13.30,0:06:15.20,Default,,0,0,0,,Đúng rồi, đúng rồi.
+Dialogue: 0,0:06:15.20,0:06:16.20,Default,,0,0,0,,Ừ, không hổ danh!
+Dialogue: 0,0:06:22.10,0:06:23.74,Default,,0,0,0,,À, ra vậy.
+Dialogue: 0,0:06:24.50,0:06:27.60,Default,,0,0,0,,Những món ăn đã thể hiện được\Ntình yêu sâu đậm của họ.
+Dialogue: 0,0:06:31.40,0:06:33.75,Default,,0,0,0,,Em Yuzaki sau này định làm gì thế?
+Dialogue: 0,0:06:33.90,0:06:34.50,Default,,0,0,0,,Dạ?
+Dialogue: 0,0:06:34.50,0:06:35.71,Default,,0,0,0,,Thì tại em thấy đấy.
+Dialogue: 0,0:06:35.90,0:06:40.60,Default,,0,0,0,,Đã kết hôn rồi thì sẽ làm nhân viên công ty\Nhoặc lấy bằng cấp ba để lên đại học chẳng hạn.
+Dialogue: 0,0:06:40.60,0:06:41.63,Default,,0,0,0,,À...
+Dialogue: 0,0:06:41.80,0:06:43.20,Default,,0,0,0,,Chuyện đó thì...
+Dialogue: 0,0:06:43.50,0:06:45.51,Default,,0,0,0,,hiện tại em chưa nghĩ tới.
+Dialogue: 0,0:06:45.60,0:06:46.30,Default,,0,0,0,,Hể?
+Dialogue: 0,0:06:46.70,0:06:49.39,Default,,0,0,0,,Đúng là em nghĩ có lẽ sẽ học đại học.
+Dialogue: 0,0:06:49.70,0:06:52.00,Default,,0,0,0,,Nếu em chăm chỉ làm việc hơn\Nsẽ kiếm được thu nhập.
+Dialogue: 0,0:06:52.70,0:06:57.52,Default,,0,0,0,,Nhưng hiện tại, em muốn ưu tiên chuyện sống chung\Nvới Tsukasa càng lâu càng tốt.
+Dialogue: 0,0:06:57.60,0:07:01.40,Default,,0,0,0,,Nhưng em không cảm thấy lo lắng\Nkhi nghĩ về tương lai sao?
+Dialogue: 0,0:07:01.50,0:07:03.52,Default,,0,0,0,,Không thể đoán trước\Nđược tương lai đâu ạ.
+Dialogue: 0,0:07:03.80,0:07:07.70,Default,,0,0,0,,Vậy nên em nghĩ\Nviệc trân quý hiện tại là rất quan trọng.
+Dialogue: 0,0:07:07.90,0:07:09.00,Default,,0,0,0,,Chuyện tương lai thì...
+Dialogue: 0,0:07:09.18,0:07:11.80,Default,,0,0,0,,bản thân trong tương lai\Nsẽ tự giải quyết bằng cách nào đó.
+Dialogue: 0,0:07:13.50,0:07:14.90,Default,,0,0,0,,Để anh giúp cho, Tsukasa.
+Dialogue: 0,0:07:14.90,0:07:16.70,Default,,0,0,0,,Cảm ơn chồng nhé.
+Dialogue: 0,0:07:18.10,0:07:20.70,Default,,0,0,0,,Trân quý cả hiện tại...
+Dialogue: 0,0:07:21.60,0:07:23.30,Default,,0,0,0,,Hôm nay cảm ơn vì đã đãi cô.
+Dialogue: 0,0:07:23.50,0:07:25.60,Default,,0,0,0,,Vậy thì gặp lại em sau nhé, Yuzaki.
+Dialogue: 0,0:07:25.60,0:07:26.30,Default,,0,0,0,,Vâng.
+Dialogue: 0,0:07:26.50,0:07:28.40,Default,,0,0,0,,Hôm nay cảm ơn cô rất nhiều.
+Dialogue: 0,0:07:28.60,0:07:30.40,Default,,0,0,0,,Cô về cẩn thận ạ.
+Dialogue: 0,0:07:30.40,0:07:32.31,Default,,0,0,0,,Ừm, cảm ơn các em!
+Dialogue: 0,0:07:37.90,0:07:39.30,Default,,0,0,0,,Ra vậy.
+Dialogue: 0,0:07:39.70,0:07:43.70,Default,,0,0,0,,Sống trên đời là để trở nên hạnh phúc à...
+Dialogue: 0,0:07:44.90,0:07:49.00,Default,,0,0,0,,Dù cho đó là một ngày bị dồn ép\Nvà uổng phí đi chăng nữa
+Dialogue: 0,0:07:49.70,0:07:53.00,Default,,0,0,0,,thì vẫn là một ngày đáng quý\Ncủa cuộc đời nhỉ.
+Dialogue: 0,0:08:03.00,0:08:05.30,Default,,0,0,0,,Alô, là Yanagi đây ạ.
+Dialogue: 0,0:08:05.30,0:08:06.47,Default,,0,0,0,,À thì...
+Dialogue: 0,0:08:07.00,0:08:10.10,Default,,0,0,0,,anh còn muốn\Nđi khu vui chơi nữa không?
+Dialogue: 0,0:08:11.20,0:08:12.47,Default,,0,0,0,,Tốt quá.
+Dialogue: 0,0:08:13.00,0:08:14.98,Default,,0,0,0,,Vậy thì ta cùng đi nhé.
+Dialogue: 0,0:08:15.90,0:08:17.00,Default,,0,0,0,,Công việc?
+Dialogue: 0,0:08:17.00,0:08:18.40,Default,,0,0,0,,Không sao đâu.
+Dialogue: 0,0:08:18.50,0:08:21.80,Default,,0,0,0,,Tôi trong tương lai sẽ giải quyết\Nbằng cách nào đó thôi.
+Dialogue: 0,0:08:23.60,0:08:25.48,Default,,0,0,0,,Chị Tsukasa làm lễ tân đã lâu rồi
+Dialogue: 0,0:08:25.60,0:08:28.24,Default,,0,0,0,,nên chị cũng quen rồi nhỉ.
+Dialogue: 0,0:08:28.24,0:08:29.30,Default,,0,0,0,,Thế hả?
+Dialogue: 0,0:08:29.30,0:08:32.00,Default,,0,0,0,,Giúp ích được nhiều cho em\Nthì tốt quá rồi.
+Dialogue: 0,0:08:33.30,0:08:34.37,Default,,0,0,0,,À, kính chào...
+Dialogue: 0,0:08:34.37,0:08:36.37,Default,,0,0,0,,quý khách...
+Dialogue: 0,0:08:38.10,0:08:40.60,Default,,0,0,0,,Một người nhìn rất đáng sợ đã đến đây.
+Dialogue: 0,0:08:40.60,0:08:42.20,Default,,0,0,0,,Đ-Đúng nhỉ.
+Dialogue: 0,0:08:45.00,0:08:48.14,Default,,0,0,0,,Có người nào tên Yuzaki ở đây không?
+Dialogue: 0,0:08:48.30,0:08:48.90,Default,,0,0,0,,Hể?
+Dialogue: 0,0:08:49.30,0:08:50.93,Default,,0,0,0,,Yuzaki là tôi đây.
+Dialogue: 0,0:08:51.30,0:08:52.30,Default,,0,0,0,,Có chuyện gì không?
+Dialogue: 0,0:08:52.30,0:08:52.93,Default,,0,0,0,,Hả?
+Dialogue: 0,0:08:53.30,0:08:56.60,Default,,0,0,0,,Người có chuyện với tôi là Yuzaki Nasa.
+Dialogue: 0,0:08:56.60,0:08:58.06,Default,,0,0,0,,Không phải cô.
+Dialogue: 0,0:08:58.50,0:08:59.80,Default,,0,0,0,,Có ở đây đúng không?
+Dialogue: 0,0:08:59.90,0:09:03.57,Default,,0,0,0,,Cái người thông minh tên Nasa\Nđược viết là "Sao trời"  ấy.
+Dialogue: 0,0:09:03.90,0:09:06.40,Default,,0,0,0,,Sao một tên Yakuza\Nlại có công chuyện với tiền bối chứ?
+Dialogue: 0,0:09:06.40,0:09:07.40,Default,,0,0,0,,Không được đâu.
+Dialogue: 0,0:09:09.20,0:09:10.07,Default,,0,0,0,,Khoan đã...
+Dialogue: 0,0:09:10.20,0:09:13.80,Default,,0,0,0,,Chẳng có lí do gì để tôi nói cho tên nhóc ranh\Nkhông biết cách ăn nói như cậu.
+Dialogue: 0,0:09:13.90,0:09:15.30,Default,,0,0,0,,Chỗ này là nhà tắm công cộng.
+Dialogue: 0,0:09:15.40,0:09:17.08,Default,,0,0,0,,Không muốn vào thì về dùm cho.
+Dialogue: 0,0:09:17.30,0:09:18.58,Default,,0,0,0,,Cô nói gì cơ?
+Dialogue: 0,0:09:18.70,0:09:20.60,Default,,0,0,0,,C-C-Chị Tsukasa!
+Dialogue: 0,0:09:20.60,0:09:21.08,Default,,0,0,0,,Hả?
+Dialogue: 0,0:09:21.08,0:09:22.60,Default,,0,0,0,,Chị không thấy sợ sao?
+Dialogue: 0,0:09:22.60,0:09:25.20,Default,,0,0,0,,Có khi tên đó là người có chữ "Ya" đấy ạ.
+Dialogue: 0,0:09:25.20,0:09:26.84,Default,,0,0,0,,Chuyện đó thì đã làm sao?
+Dialogue: 0,0:09:27.80,0:09:31.26,Default,,0,0,0,,Không có lí do gì\Nđể chị phải sợ tên nhóc này cả.
+Dialogue: 0,0:09:31.26,0:09:35.35,Default,,0,0,0,,Chị Tsukasa là kiểu người sẽ không chịu lùi bước\Ntrước những tình huống như này!
+Dialogue: 0,0:09:35.50,0:09:36.80,Default,,0,0,0,,Giờ thì tính sao?
+Dialogue: 0,0:09:36.80,0:09:38.85,Default,,0,0,0,,Chạy hay vào, nhanh quyết đi.
+Dialogue: 0,0:09:38.85,0:09:41.10,Default,,0,0,0,,C-Cô...
+Dialogue: 0,0:09:41.30,0:09:43.23,Default,,0,0,0,,Phí vào tắm là bao nhiêu hả, đồ khốn?!
+Dialogue: 0,0:09:43.40,0:09:44.90,Default,,0,0,0,,Phí vào tắm là 500 yên!
+Dialogue: 0,0:09:44.90,0:09:46.60,Default,,0,0,0,,Muốn dùng phòng tắm hơi thì 1000 yên!
+Dialogue: 0,0:09:46.60,0:09:48.00,Default,,0,0,0,,Suất có khăn thì 1300 yên!
+Dialogue: 0,0:09:48.00,0:09:50.24,Default,,0,0,0,,Học sinh thì được giảm\N100 yên đấy đồ khốn!
+Dialogue: 0,0:09:50.24,0:09:52.82,Default,,0,0,0,,Thế thì cho tôi một suất có khăn\Ndành cho học sinh cấp ba!
+Dialogue: 0,0:09:52.82,0:09:54.00,Default,,0,0,0,,Cảm ơn quý khách rất nhiều!
+Dialogue: 0,0:09:54.00,0:09:56.25,Default,,0,0,0,,Quý khách hãy qua bên\Nmáy bán vé đằng kia để lấy vé!
+Dialogue: 0,0:09:57.50,0:09:58.24,Default,,0,0,0,,(Vé vào phòng tắm)
+Dialogue: 0,0:09:58.50,0:10:00.75,Default,,0,0,0,,Cô là tên quái nào vậy?
+Dialogue: 0,0:10:01.00,0:10:03.00,Default,,0,0,0,,Đằng đó cũng là ai vậy hả?
+Dialogue: 0,0:10:03.20,0:10:05.90,Default,,0,0,0,,Ngộ nhỡ cậu dám làm gì\Ngây hại tới chồng tôi
+Dialogue: 0,0:10:05.90,0:10:07.50,Default,,0,0,0,,thì không xong chuyện với tôi đâu.
+Dialogue: 0,0:10:08.20,0:10:09.00,Default,,0,0,0,,Ủa?
+Dialogue: 0,0:10:09.20,0:10:10.60,Default,,0,0,0,,Là cậu Ginga này.
+Dialogue: 0,0:10:10.60,0:10:11.70,Default,,0,0,0,,Lâu ngày không gặp.
+Dialogue: 0,0:10:11.70,0:10:12.51,Default,,0,0,0,,Hả?
+Dialogue: 0,0:10:12.70,0:10:14.51,Default,,0,0,0,,Ồ, anh Nasa!
+Dialogue: 0,0:10:15.00,0:10:16.70,Default,,0,0,0,,Đã lâu không gặp ạ.
+Dialogue: 0,0:10:17.40,0:10:19.60,Default,,0,0,0,,C-Cậu Ginga?
+Dialogue: 0,0:10:21.50,0:10:25.00,Default,,0,0,0,,Không lẽ người này là thân thích\Ncủa tiền bối sao?
+Dialogue: 0,0:10:25.00,0:10:27.10,Default,,0,0,0,,Ừm, là em họ của anh, Ginga.
+Dialogue: 0,0:10:27.40,0:10:29.53,Default,,0,0,0,,Sao em lại biết là thân thích của anh?
+Dialogue: 0,0:10:30.30,0:10:32.91,Default,,0,0,0,,Chắc là tại vì cách đặt tên ấy...\N(Nasa: Sao trời - Ginga: Ngân hà)
+Dialogue: 0,0:10:33.50,0:10:36.10,Default,,0,0,0,,Người này là em họ của chồng sao?
+Dialogue: 0,0:10:36.10,0:10:38.40,Default,,0,0,0,,Đúng rồi đó, cậu Onimaru Ginga.
+Dialogue: 0,0:10:38.70,0:10:40.50,Default,,0,0,0,,Học sinh cấp ba, 17 tuổi.
+Dialogue: 0,0:10:40.50,0:10:42.50,Default,,0,0,0,,Nhưng mà anh Nasa này.
+Dialogue: 0,0:10:42.50,0:10:44.79,Default,,0,0,0,,Cái cô từ nãy đến giờ này là...
+Dialogue: 0,0:10:44.90,0:10:47.50,Default,,0,0,0,,À, anh chưa giới thiệu cho cậu nhỉ.
+Dialogue: 0,0:10:47.50,0:10:49.30,Default,,0,0,0,,Anh đã kết hôn rồi.
+Dialogue: 0,0:10:49.50,0:10:51.60,Default,,0,0,0,,Và đây là cô dâu của anh, Tsukasa.
+Dialogue: 0,0:10:51.67,0:10:52.30,Default,,0,0,0,,Hả?!
+Dialogue: 0,0:10:52.60,0:10:53.80,Default,,0,0,0,,Cô dâu?
+Dialogue: 0,0:10:54.00,0:10:54.70,Default,,0,0,0,,Ừm.
+Dialogue: 0,0:10:55.10,0:10:56.10,Default,,0,0,0,,Anh ơi...
+Dialogue: 0,0:10:56.30,0:10:59.20,Default,,0,0,0,,Từ khi nào anh đã bước lên bậc thang\Ncủa người lớn vậy...
+Dialogue: 0,0:10:59.80,0:11:01.30,Default,,0,0,0,,Này, Ginga?!
+Dialogue: 0,0:11:01.30,0:11:03.00,Default,,0,0,0,,Ginga!
+Dialogue: 0,0:11:04.20,0:11:06.30,Default,,0,0,0,,Em rất xin lỗi ạ!
+Dialogue: 0,0:11:06.60,0:11:10.90,Default,,0,0,0,,Em không nghĩ là anh Nasa\Nđã kết hôn mà thất lễ rồi!
+Dialogue: 0,0:11:10.90,0:11:12.20,Default,,0,0,0,,Bên anh cũng vậy.
+Dialogue: 0,0:11:12.20,0:11:13.99,Default,,0,0,0,,Xin lỗi vì đã không nói sớm cho cậu nhé.
+Dialogue: 0,0:11:14.40,0:11:17.80,Default,,0,0,0,,Chồng ơi, người này không phải\Nlà Yakuza đâu nhỉ?
+Dialogue: 0,0:11:17.80,0:11:19.10,Default,,0,0,0,,Không phải đâu.
+Dialogue: 0,0:11:19.10,0:11:21.49,Default,,0,0,0,,Cậu Ginga chỉ là một học sinh cấp ba\Nbình thường thôi.
+Dialogue: 0,0:11:22.00,0:11:24.60,Default,,0,0,0,,Mà đó là ngôi trường rất năng động.
+Dialogue: 0,0:11:24.60,0:11:27.20,Default,,0,0,0,,Và cậu thì đang làm Hội Trưởng ở đó nhỉ.
+Dialogue: 0,0:11:27.20,0:11:30.50,Default,,0,0,0,,Vâng, em đang là đầu đảng của băng.
+Dialogue: 0,0:11:30.90,0:11:33.38,Default,,0,0,0,,Có thật là học sinh cấp ba không vậy?
+Dialogue: 0,0:11:33.70,0:11:37.80,Default,,0,0,0,,Anh Nasa từ nhỏ đến giờ\Nđã giúp em nhiều lần.
+Dialogue: 0,0:11:38.00,0:11:42.01,Default,,0,0,0,,Em lúc nào cũng theo đuổi bóng lưng đó.
+Dialogue: 0,0:11:42.20,0:11:44.40,Default,,0,0,0,,Hôm trước em\Nđã đến xin lời khuyên của anh ấy
+Dialogue: 0,0:11:44.40,0:11:47.68,Default,,0,0,0,,về chuyện làm sao để kết thúc\Ncuộc xung đột giữa các băng đảng.
+Dialogue: 0,0:11:48.01,0:11:48.80,Default,,0,0,0,,À!
+Dialogue: 0,0:11:48.80,0:11:52.80,Default,,0,0,0,,Cậu đang nói về thuyết chiến tranh của Clausewitz\Nđể giành chiến thắng tại hội thao hả?
+Dialogue: 0,0:11:52.80,0:11:55.11,Default,,0,0,0,,"Băng đảng" là đang nói trường học nhỉ?\N(Đại hội thể thao)
+Dialogue: 0,0:11:55.30,0:11:59.57,Default,,0,0,0,,Hoặc là xây dựng chiến lược giúp em\Ncó thể bắn đạn vào băng khác.
+Dialogue: 0,0:11:59.70,0:12:00.60,Default,,0,0,0,,À...
+Dialogue: 0,0:12:00.70,0:12:02.90,Default,,0,0,0,,Chiến lược đối phó\Nvới bài kiểm tra đột xuất nhỉ?
+Dialogue: 0,0:12:03.00,0:12:05.67,Default,,0,0,0,,"Đạn" tức là điểm bài kiểm tra à?
+Dialogue: 0,0:12:05.90,0:12:08.17,Default,,0,0,0,,Nói chung là nhờ có anh Nasa
+Dialogue: 0,0:12:08.17,0:12:10.20,Default,,0,0,0,,mà cách thức cũng trở nên đơn giản hơn.
+Dialogue: 0,0:12:10.20,0:12:12.10,Default,,0,0,0,,Và ông chủ cũng vui nữa.
+Dialogue: 0,0:12:12.30,0:12:13.60,Default,,0,0,0,,"Ông chủ"...
+Dialogue: 0,0:12:13.60,0:12:15.80,Default,,0,0,0,,Đang nói đến thầy hiệu trưởng chăng?
+Dialogue: 0,0:12:16.00,0:12:18.70,Default,,0,0,0,,Nhân tiện thì trước khi vào chuyện chính,
+Dialogue: 0,0:12:18.80,0:12:22.00,Default,,0,0,0,,em có chuyện muốn hỏi anh Nasa.
+Dialogue: 0,0:12:22.00,0:12:23.50,Default,,0,0,0,,Hả? Chuyện gì?
+Dialogue: 0,0:12:24.10,0:12:27.93,Default,,0,0,0,,Ừm, có lẽ anh sẽ không thích\Ntrả lời câu hỏi này.
+Dialogue: 0,0:12:28.30,0:12:31.32,Default,,0,0,0,,T-Tại sao anh lại kết hôn thế?
+Dialogue: 0,0:12:32.20,0:12:34.30,Default,,0,0,0,,Tại sao ấy à...
+Dialogue: 0,0:12:34.30,0:12:35.32,Default,,0,0,0,,Chuyện đó...
+Dialogue: 0,0:12:36.00,0:12:37.70,Default,,0,0,0,,chắc là vì anh yêu cô ấy.
+Dialogue: 0,0:12:37.70,0:12:40.83,Default,,0,0,0,,Chờ đã, đừng có nói chuyện đó\Ntrước mặt người khác chứ!
+Dialogue: 0,0:12:41.50,0:12:42.45,Default,,0,0,0,,Nếu thế thì...!
+Dialogue: 0,0:12:42.70,0:12:45.29,Default,,0,0,0,,A-Anh có hôn hay đại loại vậy không ạ?
+Dialogue: 0,0:12:46.90,0:12:47.80,Default,,0,0,0,,Hả?
+Dialogue: 0,0:12:48.00,0:12:50.50,Default,,0,0,0,,Em đang muốn hỏi là tình yêu đó\Ncó phải hàng thật không?!
+Dialogue: 0,0:12:50.50,0:12:51.70,Default,,0,0,0,,Nếu là yêu thật
+Dialogue: 0,0:12:51.70,0:12:54.30,Default,,0,0,0,,thì hai người chắc phải hôn nhau\Ntrước mặt em được nhỉ!
+Dialogue: 0,0:12:54.40,0:12:56.80,Default,,0,0,0,,Không không,\Ntự dưng cậu nói cái gì vậy hả?
+Dialogue: 0,0:12:56.80,0:12:58.92,Default,,0,0,0,,Đây là vấn đề trọng đại đấy ạ.
+Dialogue: 0,0:12:59.30,0:13:02.30,Default,,0,0,0,,Cô dâu của anh cả thì đương nhiên\Ncũng là chị đại của em!
+Dialogue: 0,0:13:02.30,0:13:05.36,Default,,0,0,0,,Đó là mối quan hệ mà em sẵn sàng\Nđánh đổi sinh mạng trong lúc nguy cấp
+Dialogue: 0,0:13:05.36,0:13:08.37,Default,,0,0,0,,nên em không thể đánh cược mạng sống\Nvào cuộc hôn nhân nửa vời được!
+Dialogue: 0,0:13:08.40,0:13:09.80,Default,,0,0,0,,Anh trai nói đúng đấy!
+Dialogue: 0,0:13:09.80,0:13:14.10,Default,,0,0,0,,Buổi đêm mà chả nghe tiếng rên nào thì thật đáng nghi\Nrằng tình yêu của hai người có thật không!
+Dialogue: 0,0:13:14.10,0:13:15.83,Default,,0,0,0,,Vậy nên hãy làm một nụ hôn thề nguyện đi.
+Dialogue: 0,0:13:15.83,0:13:17.60,Default,,0,0,0,,Mấy đứa bị ngốc hả?
+Dialogue: 0,0:13:17.60,0:13:20.03,Default,,0,0,0,,Thôi nào, chồng cũng nói gì đi chứ!
+Dialogue: 0,0:13:20.30,0:13:21.00,Default,,0,0,0,,Được thôi.
+Dialogue: 0,0:13:21.00,0:13:21.61,Default,,0,0,0,,Hả?
+Dialogue: 0,0:13:22.40,0:13:25.90,Default,,0,0,0,,Anh hoàn toàn tin tưởng vào tình yêu\Ncủa mình dành cho Tsukasa
+Dialogue: 0,0:13:25.90,0:13:28.91,Default,,0,0,0,,nên anh cũng không ngại cho họ thấy\Nnụ hôn thề nguyện của hai ta đâu.
+Dialogue: 0,0:13:28.91,0:13:31.00,Default,,0,0,0,,Không, anh phải ngại chuyện đó đi chứ.
+Dialogue: 0,0:13:31.00,0:13:33.71,Default,,0,0,0,,Nhưng nếu Tsukasa cảm thấy\Nngại chuyện đó
+Dialogue: 0,0:13:34.20,0:13:36.71,Default,,0,0,0,,thì anh sẽ tôn trọng cảm xúc đó của em.
+Dialogue: 0,0:13:42.30,0:13:44.47,Default,,0,0,0,,E-Em hiểu rồi...
+Dialogue: 0,0:13:44.90,0:13:45.80,Default,,0,0,0,,Vậy thì...
+Dialogue: 0,0:13:52.30,0:13:54.23,Default,,0,0,0,,Thôi, em đã hiểu rồi!
+Dialogue: 0,0:13:54.60,0:13:55.48,Default,,0,0,0,,Hả?
+Dialogue: 0,0:13:55.70,0:13:58.80,Default,,0,0,0,,Tình yêu của hai người đã truyền đủ\Nđến em rồi.
+Dialogue: 0,0:13:59.20,0:14:01.15,Default,,0,0,0,,Thật sự đã quá đủ rồi ạ.
+Dialogue: 0,0:14:01.30,0:14:01.90,Default,,0,0,0,,Hể?
+Dialogue: 0,0:14:02.20,0:14:03.30,Default,,0,0,0,,Được thật không đấy?
+Dialogue: 0,0:14:03.30,0:14:05.75,Default,,0,0,0,,Vâng, đã quá đủ rồi.
+Dialogue: 0,0:14:06.10,0:14:09.60,Default,,0,0,0,,Với lại sao hai người có thể làm chuyện xấu hổ đó\Ntrước mặt người khác như thế...
+Dialogue: 0,0:14:09.60,0:14:11.00,Default,,0,0,0,,Em không thể nhìn được đâu.
+Dialogue: 0,0:14:11.30,0:14:12.00,Default,,0,0,0,,Hả?
+Dialogue: 0,0:14:12.25,0:14:14.10,Default,,0,0,0,,Cậu là người muốn bọn tôi làm mà!
+Dialogue: 0,0:14:14.10,0:14:16.00,Default,,0,0,0,,Sao giờ lại nổi hứng dừng lại thế?!
+Dialogue: 0,0:14:16.00,0:14:18.00,Default,,0,0,0,,Cái tên Yakuza ăn hại này!
+Dialogue: 0,0:14:18.20,0:14:19.90,Default,,0,0,0,,Chị đại, bình tĩnh đi!
+Dialogue: 0,0:14:19.90,0:14:22.00,Default,,0,0,0,,Bình tĩnh đi mà...
+Dialogue: 0,0:14:23.10,0:14:23.70,Default,,0,0,0,,Thế...
+Dialogue: 0,0:14:24.10,0:14:26.90,Default,,0,0,0,,rốt cuộc thì hôm nay cậu Ginga\Ntới đây có chuyện gì vậy?
+Dialogue: 0,0:14:26.90,0:14:30.77,Default,,0,0,0,,Vâng, hôm nay em tới đây là muốn\Nmượn kiến thức của anh Nasa.
+Dialogue: 0,0:14:31.00,0:14:33.90,Default,,0,0,0,,Không phải là chuyện làm cách nào\Nđể tạo tài khoản giả đâu nhỉ?
+Dialogue: 0,0:14:34.10,0:14:35.40,Default,,0,0,0,,Đã bảo là...
+Dialogue: 0,0:14:35.60,0:14:38.40,Default,,0,0,0,,Đầu tiên thì em muốn anh\Nnhìn thấy thứ này.
+Dialogue: 0,0:14:38.40,0:14:39.10,Default,,0,0,0,,Ê!
+Dialogue: 0,0:14:39.90,0:14:41.20,Default,,0,0,0,,Bọn bây!\N(Tất cả đều là học sinh cấp ba)
+Dialogue: 0,0:14:41.20,0:14:43.10,Default,,0,0,0,,Dám đối xử tàn bạo với nó là tao giết đấy!
+Dialogue: 0,0:14:43.10,0:14:43.66,Default,,0,0,0,,Vâng!
+Dialogue: 0,0:14:46.20,0:14:47.40,Default,,0,0,0,,Xin thất lễ!
+Dialogue: 0,0:14:48.40,0:14:52.41,Default,,0,0,0,,Đây là con mồi mà em muốn\Nmượn kiến thức của anh Nasa để giải quyết.
+Dialogue: 0,0:14:55.50,0:14:57.30,Default,,0,0,0,,Không lẽ đây là...
+Dialogue: 0,0:14:57.30,0:15:00.20,Default,,0,0,0,,Là cái hộp thường để con đấy\Nvào trong mà nhỉ?
+Dialogue: 0,0:15:02.90,0:15:04.10,Default,,0,0,0,,Quả nhiên là mèo mà!
+Dialogue: 0,0:15:04.10,0:15:05.50,Default,,0,0,0,,Anh nhặt được mèo sao?
+Dialogue: 0,0:15:05.50,0:15:06.20,Default,,0,0,0,,Vâng.
+Dialogue: 0,0:15:06.30,0:15:11.20,Default,,0,0,0,,Cậu chủ trẻ của em sáng nay khi đang đi lạc người thân\Nthì thấy nó gục giữa đường nên cứu.
+Dialogue: 0,0:15:11.20,0:15:13.31,Default,,0,0,0,,Không không, tự dưng đem nó theo\Nlàm gì vậy chứ?
+Dialogue: 0,0:15:13.50,0:15:17.80,Default,,0,0,0,,Chuyện đó thì quả thật là vì hết cách rồi.
+Dialogue: 0,0:15:18.60,0:15:22.24,Default,,0,0,0,,Em định chỉ để đồ ăn ở đó cho nó\Nvà trả về hoang dã
+Dialogue: 0,0:15:22.40,0:15:25.29,Default,,0,0,0,,nhưng hình như một khi đã nhặt được mèo
+Dialogue: 0,0:15:25.60,0:15:28.40,Default,,0,0,0,,thì sẽ vi phạm luật quản lí\Nvà bảo vệ động vật.
+Dialogue: 0,0:15:28.40,0:15:29.74,Default,,0,0,0,,(Hình như cũng có những trường hợp như vậy)
+Dialogue: 0,0:15:29.74,0:15:32.75,Default,,0,0,0,,Cũng không thể đưa cho cảnh sát\Ngiải quyết được.
+Dialogue: 0,0:15:32.99,0:15:34.37,Default,,0,0,0,,Bọn em đã cùng đi tìm chủ.
+Dialogue: 0,0:15:34.60,0:15:35.87,Default,,0,0,0,,Nộp biên bản.
+Dialogue: 0,0:15:36.40,0:15:40.70,Default,,0,0,0,,Đã thế nó còn làm loạn cả băng lên\Nkể từ khi đem về.
+Dialogue: 0,0:15:40.80,0:15:42.63,Default,,0,0,0,,Trường cậu đáng yêu thật đấy!
+Dialogue: 0,0:15:42.80,0:15:47.10,Default,,0,0,0,,Thế là em chỉ còn cách trông cậy\Nvào anh Nasa.
+Dialogue: 0,0:15:47.10,0:15:51.50,Default,,0,0,0,,Thì tại hồi xưa anh Nasa\Ncó trông nom cẩn thận một con mèo mà.
+Dialogue: 0,0:15:51.60,0:15:53.40,Default,,0,0,0,,Ơ? Thật hả?
+Dialogue: 0,0:15:53.40,0:15:54.00,Default,,0,0,0,,Ừm.
+Dialogue: 0,0:15:54.70,0:15:56.52,Default,,0,0,0,,Mà Ginga này.
+Dialogue: 0,0:15:57.50,0:16:00.70,Default,,0,0,0,,Bảo hộ cho mèo con mà tại sao\Ncậu vẫn hờ hững thế?
+Dialogue: 0,0:16:00.80,0:16:01.50,Default,,0,0,0,,Hả?
+Dialogue: 0,0:16:01.80,0:16:03.65,Default,,0,0,0,,Đầu tiên là phải đến bệnh viện chứ.
+Dialogue: 0,0:16:03.80,0:16:04.80,Default,,0,0,0,,V-Vâng!
+Dialogue: 0,0:16:04.80,0:16:06.10,Default,,0,0,0,,Này, bọn bây!
+Dialogue: 0,0:16:06.10,0:16:07.40,Default,,0,0,0,,Quay xe đi!
+Dialogue: 0,0:16:07.60,0:16:08.40,Default,,0,0,0,,Vâng!
+Dialogue: 0,0:16:11.20,0:16:14.16,Default,,0,0,0,,À, cậu đang bảo hộ cho mèo con sao?\N(Bệnh viện thú y Dadakuri)
+Dialogue: 0,0:16:14.30,0:16:15.00,Default,,0,0,0,,Vâng.
+Dialogue: 0,0:16:15.00,0:16:18.30,Default,,0,0,0,,Nên đầu tiên nhờ bác sĩ kiểm tra virus\Nrồi xem có ký sinh trùng không.
+Dialogue: 0,0:16:18.30,0:16:20.30,Default,,0,0,0,,Sau đó thì loại bỏ bọ chét hay rệp gì đó.
+Dialogue: 0,0:16:20.30,0:16:22.17,Default,,0,0,0,,Kiểm tra xong thì xén lông cho nó luôn ạ.
+Dialogue: 0,0:16:22.40,0:16:26.10,Default,,0,0,0,,Ngoài ra, nếu được thì nhờ anh\Ntiêm vắc-xin hỗn hợp ba loại.
+Dialogue: 0,0:16:26.10,0:16:28.50,Default,,0,0,0,,À vâng vâng, cậu biết rõ thật nhỉ.
+Dialogue: 0,0:16:28.60,0:16:31.30,Default,,0,0,0,,Vậy thì tôi sẽ kiểm tra\Ntrong khoảng hai tiếng nhé.
+Dialogue: 0,0:16:31.60,0:16:32.68,Default,,0,0,0,,Thế cậu nhóc này...
+Dialogue: 0,0:16:32.80,0:16:33.80,Default,,0,0,0,,tên là gì thế?
+Dialogue: 0,0:16:34.10,0:16:37.30,Default,,0,0,0,,Hể? À thì tên của nó...
+Dialogue: 0,0:16:37.70,0:16:39.80,Default,,0,0,0,,Ta còn chưa nhìn thấy nó nữa mà.
+Dialogue: 0,0:16:39.90,0:16:42.44,Default,,0,0,0,,Vậy thì cho nó ra ngoài một chút nha.
+Dialogue: 0,0:16:49.40,0:16:50.20,Default,,0,0,0,,Oa.
+Dialogue: 0,0:16:50.20,0:16:52.45,Default,,0,0,0,,Bị nó dọa mà muốn tránh xa ra luôn.
+Dialogue: 0,0:16:53.80,0:16:56.10,Default,,0,0,0,,Thật là một cậu nhóc năng động và tốt tính.
+Dialogue: 0,0:16:56.10,0:16:57.96,Default,,0,0,0,,À này, nó đang cắn anh đấy.
+Dialogue: 0,0:16:58.20,0:16:59.80,Default,,0,0,0,,Không sao, không sao.
+Dialogue: 0,0:16:59.90,0:17:02.09,Default,,0,0,0,,Thế định đặt tên gì cho nó đây?
+Dialogue: 0,0:17:02.40,0:17:04.50,Default,,0,0,0,,T-Tên gì mới được nhỉ?
+Dialogue: 0,0:17:04.50,0:17:05.80,Default,,0,0,0,,Để em xem...
+Dialogue: 0,0:17:08.00,0:17:11.18,Default,,0,0,0,,Có một hoa văn hình vuông màu trắng\Ntrên lưng màu nâu...
+Dialogue: 0,0:17:11.80,0:17:13.10,Default,,0,0,0,,Vậy thì Bánh Mì Nướng đi.
+Dialogue: 0,0:17:13.30,0:17:15.30,Default,,0,0,0,,Hể? B-Bánh Mì Nướng?
+Dialogue: 0,0:17:15.40,0:17:16.10,Default,,0,0,0,,Ừm.
+Dialogue: 0,0:17:16.30,0:17:17.50,Default,,0,0,0,,Đáng yêu mà phải không?
+Dialogue: 0,0:17:21.50,0:17:25.36,Default,,0,0,0,,Ừm mà, tên càng đáng yêu càng tốt nhỉ.
+Dialogue: 0,0:17:26.20,0:17:28.10,Default,,0,0,0,,Giờ tính sao với nó đây?
+Dialogue: 0,0:17:29.20,0:17:34.12,Default,,0,0,0,,Dù cho có tìm được người nhận nuôi đi nữa\Nthì cũng phải trông nó một thời gian rồi.
+Dialogue: 0,0:17:34.50,0:17:37.30,Default,,0,0,0,,Để cho nhóm của cậu Ginga giữ\Nthì bất an lắm.
+Dialogue: 0,0:17:37.60,0:17:41.60,Default,,0,0,0,,Cũng phải chăm nó cho đến khi tái kiểm tra virus\Nvào hai ba tháng sau nữa.
+Dialogue: 0,0:17:42.00,0:17:44.70,Default,,0,0,0,,Nếu không tìm được người nhận nuôi
+Dialogue: 0,0:17:44.70,0:17:46.70,Default,,0,0,0,,thì nhà mình\Nnuôi Bánh Mì Nướng được không?
+Dialogue: 0,0:17:52.50,0:17:56.00,Default,,0,0,0,,Nói thật thì anh\Nkhông đủ tự tin để nuôi nó đâu.
+Dialogue: 0,0:17:56.10,0:17:57.30,Default,,0,0,0,,Quả thật.
+Dialogue: 0,0:17:57.80,0:17:58.80,Default,,0,0,0,,Anh ơi!
+Dialogue: 0,0:17:58.80,0:18:00.60,Default,,0,0,0,,Tình trạng của quý tử sao rồi ạ?
+Dialogue: 0,0:18:00.60,0:18:01.20,Default,,0,0,0,,Hả?
+Dialogue: 0,0:18:01.50,0:18:03.60,Default,,0,0,0,,À, có vẻ nó vẫn khỏe lắm.
+Dialogue: 0,0:18:03.70,0:18:05.60,Default,,0,0,0,,Vậy thì an tâm được rồi.
+Dialogue: 0,0:18:05.60,0:18:07.52,Default,,0,0,0,,Nhóc đó vẫn khỏe là quan trọng nhất mà.
+Dialogue: 0,0:18:08.00,0:18:10.50,Default,,0,0,0,,Trước hết thì cậu nhóc đó\Ncứ để nhà anh trông cho.
+Dialogue: 0,0:18:10.50,0:18:12.50,Default,,0,0,0,,Bây giờ bọn anh sẽ đi sắm đồ cho nó.
+Dialogue: 0,0:18:12.50,0:18:13.40,Default,,0,0,0,,Thật ạ?
+Dialogue: 0,0:18:13.40,0:18:14.54,Default,,0,0,0,,Vậy thì tốt quá.
+Dialogue: 0,0:18:14.90,0:18:17.00,Default,,0,0,0,,Anh cứ giao việc điều động lại cho em.
+Dialogue: 0,0:18:17.00,0:18:19.90,Default,,0,0,0,,Nhà em từ bột trắng (sữa bột)\Ncho đến vũ khí (đồ chơi).
+Dialogue: 0,0:18:19.90,0:18:22.00,Default,,0,0,0,,Bất cứ thứ gì\Nem cũng có thể lấy cho anh được.
+Dialogue: 0,0:18:22.00,0:18:24.00,Default,,0,0,0,,Cậu ăn nói cẩn thận lại đi.
+Dialogue: 0,0:18:24.00,0:18:26.92,Default,,0,0,0,,Vậy thì em sẽ đi nhìn xem coi\Nchọn đại được gì không.
+Dialogue: 0,0:18:27.30,0:18:29.50,Default,,0,0,0,,Không chọn đại được đâu, Ginga.
+Dialogue: 0,0:18:29.50,0:18:30.20,Default,,0,0,0,,Ơ?
+Dialogue: 0,0:18:30.41,0:18:33.20,Default,,0,0,0,,Phải chọn loại cát mà mèo\Ncó nuốt nhầm cũng không sao
+Dialogue: 0,0:18:33.20,0:18:36.20,Default,,0,0,0,,nên cần chú ý không dùng\Nnhững nguyên liệu có hóa chất.
+Dialogue: 0,0:18:36.50,0:18:38.00,Default,,0,0,0,,Dù có từ tự nhiên đi nữa,
+Dialogue: 0,0:18:38.00,0:18:39.70,Default,,0,0,0,,nếu có chất bảo quản\Nhay chất khử mùi
+Dialogue: 0,0:18:39.70,0:18:42.31,Default,,0,0,0,,và thành phần hóa hợp\Nthì tất nhiên là không được.
+Dialogue: 0,0:18:42.31,0:18:46.50,Default,,0,0,0,,Ngoài ra thì phải chọn những loại thức ăn\Nmà con người có ăn cũng không sao đấy.
+Dialogue: 0,0:18:46.50,0:18:49.40,Default,,0,0,0,,Bột yến mạch có những nguyên liệu\Nkhông rõ ràng cũng không được.
+Dialogue: 0,0:18:49.40,0:18:53.20,Default,,0,0,0,,Ngoài ra, thức ăn rẻ tiền đôi khi sẽ chứa\Nngũ cốc mà mèo không thể tiêu hóa
+Dialogue: 0,0:18:53.20,0:18:54.10,Default,,0,0,0,,nên phải cố tránh...
+Dialogue: 0,0:18:54.10,0:18:55.07,Default,,0,0,0,,Chờ em một chút ạ!
+Dialogue: 0,0:18:55.30,0:18:57.80,Default,,0,0,0,,Tóm lại để giữ cho thú cưng\Nđược khỏe mạnh
+Dialogue: 0,0:18:57.80,0:19:00.60,Default,,0,0,0,,cần phải có cả kiến thức,\Nnỗ lực và chi phí
+Dialogue: 0,0:19:00.60,0:19:01.95,Default,,0,0,0,,nên cậu cố tìm đi nhé.
+Dialogue: 0,0:19:02.10,0:19:04.30,Default,,0,0,0,,Vâng, em hiểu rồi.
+Dialogue: 0,0:19:05.20,0:19:08.00,Default,,0,0,0,,Chồng cũng hiểu rõ về mèo quá nhỉ.
+Dialogue: 0,0:19:08.20,0:19:11.50,Default,,0,0,0,,Con người có thể quản lí\Nđược tình trạng sức khỏe của mình
+Dialogue: 0,0:19:11.90,0:19:13.96,Default,,0,0,0,,nhưng thú cưng\Nthì lại không được như vậy.
+Dialogue: 0,0:19:14.70,0:19:17.30,Default,,0,0,0,,Sức khỏe của thú cưng\Nlà trách nhiệm của chủ nuôi
+Dialogue: 0,0:19:17.30,0:19:19.22,Default,,0,0,0,,nên phải cẩn thận mà chăm sóc.
+Dialogue: 0,0:19:19.50,0:19:21.48,Default,,0,0,0,,Thú cưng được anh Nasa chăm sóc...
+Dialogue: 0,0:19:21.80,0:19:23.48,Default,,0,0,0,,nhất định sẽ trở nên hạnh phúc đấy.
+Dialogue: 0,0:19:23.48,0:19:25.30,Default,,0,0,0,,T-Thật không nhỉ...
+Dialogue: 0,0:19:25.48,0:19:27.60,Default,,0,0,0,,Chà, đã để mọi người chờ lâu.\N(Bệnh viện thú y Dadakuri)
+Dialogue: 0,0:19:27.60,0:19:30.30,Default,,0,0,0,,Không có chỗ nào đáng lo ngại hết.
+Dialogue: 0,0:19:31.10,0:19:32.40,Default,,0,0,0,,Tốt quá.
+Dialogue: 0,0:19:32.60,0:19:34.20,Default,,0,0,0,,Nó có làm loạn không ạ?
+Dialogue: 0,0:19:34.20,0:19:37.70,Default,,0,0,0,,Không, ăn cơm xong\Nthì nó trở nên rất ngoan.
+Dialogue: 0,0:19:37.80,0:19:39.49,Default,,0,0,0,,Tốt quá rồi nhỉ, Bánh Mì Nướng.
+Dialogue: 0,0:19:40.00,0:19:41.90,Default,,0,0,0,,Bác sĩ bảo mày khỏe lắm.
+Dialogue: 0,0:19:42.70,0:19:44.00,Default,,0,0,0,,Trời ạ, thôi nào.
+Dialogue: 0,0:19:44.90,0:19:47.70,Default,,0,0,0,,Dễ thương rồi lại cộng thêm dễ thương
+Dialogue: 0,0:19:47.80,0:19:50.00,Default,,0,0,0,,thì lại càng dễ thương hơn nữa.
+Dialogue: 0,0:19:50.20,0:19:51.70,Default,,0,0,0,,Vậy thì ta về thôi.
+Dialogue: 0,0:19:51.90,0:19:54.60,Default,,0,0,0,,Từ tối hôm nay, Bánh Mì Nướng\Nsẽ là một phần của gia đình ta.
+Dialogue: 0,0:19:56.50,0:19:58.40,Default,,0,0,0,,Tại sao chứ?!
+Dialogue: 0,0:20:13.00,0:20:14.50,Default,,0,0,0,,Làm sao thế?
+Dialogue: 0,0:20:18.40,0:20:21.61,Default,,0,0,0,,Không lẽ nó muốn mình cho ăn?
+Dialogue: 0,0:20:22.50,0:20:24.37,Default,,0,0,0,,Ôi, vẫn còn là nửa đêm mà.
+Dialogue: 0,0:20:24.90,0:20:26.12,Default,,0,0,0,,Không lẽ là...
+Dialogue: 0,0:20:27.10,0:20:30.60,Default,,0,0,0,,nó nghĩ đánh thức mình sẽ tốt hơn à?
+Dialogue: 0,0:20:36.90,0:20:40.00,Default,,0,0,0,,Không hiểu sao nó ăn nhiệt tình ghê.
+Dialogue: 0,0:20:43.40,0:20:47.02,Default,,0,0,0,,À, khi nó no bụng cũng là lúc\Nkhông còn hứng thú với mình nữa.
+Dialogue: 0,0:20:54.70,0:20:57.70,Default,,0,0,0,,Ủa, hình như nó giữ khoảng cách\Nvới mình hơi quá thì phải?
+Dialogue: 0,0:20:59.50,0:21:01.91,Default,,0,0,0,,Anh đã vất vả lúc nửa đêm rồi.
+Dialogue: 0,0:21:02.00,0:21:05.80,Default,,0,0,0,,Nhưng thế cũng có nghĩa là nó\Nđang tin vào chồng đấy.
+Dialogue: 0,0:21:05.80,0:21:07.10,Default,,0,0,0,,Thật không nhỉ?
+Dialogue: 0,0:21:07.10,0:21:07.92,Default,,0,0,0,,Thật mà.
+Dialogue: 0,0:21:08.20,0:21:12.92,Default,,0,0,0,,Nó cũng tin anh như em vậy\Nnên mới vô tình làm nũng thế đấy.
+Dialogue: 0,0:21:13.10,0:21:13.70,Default,,0,0,0,,Hể?
+Dialogue: 0,0:21:14.70,0:21:17.80,Default,,0,0,0,,Tsukasa làm nũng với anh sao?
+Dialogue: 0,0:21:17.80,0:21:18.80,Default,,0,0,0,,Tất nhiên rồi.
+Dialogue: 0,0:21:21.10,0:21:22.00,Default,,0,0,0,,Em...
+Dialogue: 0,0:21:22.40,0:21:25.93,Default,,0,0,0,,sẽ không ngủ không phòng bị bên cạnh người\Nmà em không muốn làm nũng đâu.
+Dialogue: 0,0:21:29.23,0:21:30.68,Default,,0,0,0,,Nhưng đúng là...
+Dialogue: 0,0:21:31.00,0:21:33.10,Default,,0,0,0,,mèo đáng yêu thật nhỉ.
+Dialogue: 0,0:21:33.10,0:21:35.30,Default,,0,0,0,,Đ-Đúng vậy ha.
+Dialogue: 0,0:21:36.20,0:21:39.32,Default,,0,0,0,,Tsukasa cũng đáng yêu lắm.
+Dialogue: 0,0:21:39.70,0:21:40.40,Default,,0,0,0,,Hả?
+Dialogue: 0,0:21:42.70,0:21:47.00,Default,,0,0,0,,Vậy thì giữa em với Bánh Mì Nướng,\Nai đáng yêu hơn?
+Dialogue: 0,0:21:47.00,0:21:49.45,Default,,0,0,0,,Hể? Không, chuyện đó...
+Dialogue: 0,0:21:50.60,0:21:51.80,Default,,0,0,0,,Chuyện đó?
+Dialogue: 0,0:21:58.80,0:22:01.00,Default,,0,0,0,,B-Bé Kaname?\NEm đứng đó từ khi nào vậy?!
+Dialogue: 0,0:22:01.00,0:22:04.00,Default,,0,0,0,,Chắc là từ khi hai người bắt đầu\Ndiễn tiểu phẩm vợ chồng ấy.
+Dialogue: 0,0:22:04.00,0:22:05.97,Default,,0,0,0,,K-Không phải đâu, đây chỉ là...
+Dialogue: 0,0:22:10.00,0:22:11.60,Default,,0,0,0,,Tsukasa, Tsukasa ơi.
+Dialogue: 0,0:22:11.70,0:22:13.60,Default,,0,0,0,,Bánh Mì Nướng đang ăn nè.
+Dialogue: 0,0:22:13.60,0:22:14.20,Default,,0,0,0,,Hửm?
+Dialogue: 0,0:22:14.30,0:22:15.98,Default,,0,0,0,,À, thật nè.
+Dialogue: 0,0:22:16.10,0:22:17.50,Default,,0,0,0,,Đáng yêu quá!
+Dialogue: 0,0:22:18.90,0:22:20.90,Default,,0,0,0,,Đ-Đáng yêu thật nhỉ?
+Dialogue: 0,0:22:20.90,0:22:22.49,Default,,0,0,0,,Ừm, đúng thế.
+Dialogue: 0,0:22:23.00,0:22:28.20,Default,,0,0,0,,Cũng tại mới tắm xong\Nnên đứng gần thôi cũng đã thấy thơm rồi.
+Dialogue: 0,0:22:30.50,0:22:31.21,Default,,0,0,0,,Ơ?
+Dialogue: 0,0:22:31.50,0:22:32.80,Default,,0,0,0,,Chồng ơi?
+Dialogue: 0,0:22:33.90,0:22:36.30,Default,,0,0,0,,Không lẽ anh gọi em là vì chuyện này?
+Dialogue: 0,0:22:36.60,0:22:38.60,Default,,0,0,0,,K-Không, chuyện đó là...
+Dialogue: 0,0:22:38.60,0:22:42.40,Default,,0,0,0,,tại trưa nay Tsukasa bảo với anh\Nlà sẽ làm nũng nên...
+Dialogue: 0,0:22:43.50,0:22:44.70,Default,,0,0,0,,đang phân vân em làm gì...
+Dialogue: 0,0:22:45.50,0:22:48.76,Default,,0,0,0,,để làm nũng với anh...
+Dialogue: 0,0:22:49.20,0:22:51.02,Default,,0,0,0,,Mà, quả thật...
+Dialogue: 0,0:22:51.20,0:22:54.50,Default,,0,0,0,,chắc tại gần đây không đủ\Nngọt ngào cho lắm.
+Dialogue: 0,0:23:00.52,0:23:02.52,Default,,0,0,0,,(Chằm chằm)
+Dialogue: 0,0:23:06.90,0:23:09.40,Default,,0,0,0,,À này, Bánh Mì Nướng...
+Dialogue: 0,0:23:09.40,0:23:12.00,Default,,0,0,0,,M-Mày nhìn sang bên kia\Nmột chút được không?
+Dialogue: 0,0:23:14.30,0:23:15.40,Default,,0,0,0,,À, không phải...
+Dialogue: 0,0:23:15.40,0:23:17.92,Default,,0,0,0,,Chút nữa tao cho mày ăn thêm sau mà.
+Dialogue: 0,0:23:18.50,0:23:20.40,Default,,0,0,0,,K-Không, đã bảo là...
+Dialogue: 0,0:23:20.40,0:23:21.40,Default,,0,0,0,,Chỉ năm giây thôi.
+Dialogue: 0,0:23:21.40,0:23:23.40,Default,,0,0,0,,Năm giây thôi là xong rồi, nhé?
+Dialogue: 0,0:23:24.93,0:23:25.70,Default,,0,0,0,,(Giới thiệu tập sau)
+Dialogue: 0,0:23:25.70,0:23:26.19,Default,,0,0,0,,Tập tới.
+Dialogue: 0,0:23:26.19,0:23:29.20,Default,,0,0,0,,Chuyện xảy ra khi tôi chuyển sinh\Nđến vương quốc ma pháp và giấc mơ.
+Dialogue: 0,0:23:29.20,0:23:31.80,Default,,0,0,0,,Gần đây hình như\Nkhông cần chuyển sinh vẫn đi được đó.
+Dialogue: 0,0:23:31.80,0:23:33.10,Default,,0,0,0,,Mà còn ở ngay nội thành cơ.
+Dialogue: 0,0:23:33.10,0:23:35.06,Default,,0,0,0,,Vậy thì ta đi thôi!
+Dialogue: 0,0:23:35.06,0:23:36.10,Default,,0,0,0,,Nhìn đây nào.
+Dialogue: 0,0:23:36.10,0:23:39.98,Default,,0,0,0,,Tôi sẽ vạch trần ma pháp đã làm cho hai vợ chồng này\Ncứ âu yếm nhau cho mà xem.

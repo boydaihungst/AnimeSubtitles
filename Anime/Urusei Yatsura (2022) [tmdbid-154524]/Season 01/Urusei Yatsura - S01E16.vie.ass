@@ -1,0 +1,551 @@
+[Script Info]
+Title: Bilibili Subtitle
+ScriptType: v4.00+
+WrapStyle: 0
+ScaledBorderAndShadow: yes
+YCbCr Matrix: TV.601
+PlayResX: 1920
+PlayResY: 1080
+
+[V4+ Styles]
+Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
+Style: Default,Arial,20,&H00FFFFFF,&H000000FF,&H00000000,&H00000000,0,0,0,0,100,100,0,0,1,2,2,2,10,10,10,1
+Style: 4-normal,Noto Sans,65,&H00FFFFFF,&H000000FF,&H00000000,&H00000000,0,0,0,0,100,100,0,0,1,2,0,4,10,10,10,1
+Style: 5-normal,Noto Sans,65,&H00FFFFFF,&H000000FF,&H00000000,&H00000000,0,0,0,0,100,100,0,0,1,2,0,5,10,10,10,1
+Style: 6-normal,Noto Sans,65,&H00FFFFFF,&H000000FF,&H00000000,&H00000000,0,0,0,0,100,100,0,0,1,2,0,6,10,10,10,1
+Style: 6-exlight,Noto Sans ExtraLight,65,&H00FFFFFF,&H000000FF,&H00000000,&H00000000,0,0,0,0,100,100,0,0,1,0,0,6,10,10,10,1
+Style: 5-exlight,Noto Sans ExtraLight,65,&H00FFFFFF,&H000000FF,&H00000000,&H00000000,0,0,0,0,100,100,0,0,1,0,0,5,10,10,10,1
+Style: 4-exlight,Noto Sans ExtraLight,65,&H00FFFFFF,&H000000FF,&H00000000,&H00000000,0,0,0,0,100,100,0,0,1,0,0,4,10,10,10,1
+Style: 4-black,Noto Sans Black,65,&H00FFFFFF,&H000000FF,&H00000000,&H00000000,0,0,0,0,100,100,0,0,1,2,0,4,10,10,10,1
+Style: 5-black,Noto Sans Black,65,&H00FFFFFF,&H000000FF,&H00000000,&H00000000,0,0,0,0,100,100,0,0,1,2,0,5,10,10,10,1
+Style: 6-black,Noto Sans Black,65,&H00FFFFFF,&H000000FF,&H00000000,&H00000000,0,0,0,0,100,100,0,0,1,2,0,6,10,10,10,1
+Style: 4-light,Noto Sans Light,65,&H00FFFFFF,&H000000FF,&H00000000,&H00000000,0,0,0,0,100,100,0,0,1,2,0,4,10,10,10,1
+Style: 5-light,Noto Sans Light,65,&H00FFFFFF,&H000000FF,&H00000000,&H00000000,0,0,0,0,100,100,0,0,1,2,0,5,10,10,10,1
+Style: 6-light,Noto Sans Light,65,&H00FFFFFF,&H000000FF,&H00000000,&H00000000,0,0,0,0,100,100,0,0,1,2,0,6,10,10,10,1
+Style: 定位用777,Noto Sans,100,&H00FFFFFF,&H000000FF,&H00000000,&H00000000,0,0,0,0,100,100,0,0,1,0,0,7,10,10,10,1
+Style: tuong dong,Noto Sans,120,&H004B8C81,&H000000FF,&H0041685B,&H00000000,-1,0,0,0,100,100,0,0,1,4,2,2,10,120,10,1
+Style: 对白字,Noto Sans,100,&H00FFFFFF,&H000000FF,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,5,1.5,2,96,96,65,1
+Style: Lines,Noto Sans,100,&H00FFFFFF,&H000000FF,&H00000005,&H80000000,-1,0,0,0,100,100,0,0,1,5,1.5,2,96,96,65,1
+
+[Events]
+Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
+Dialogue: 0,0:00:02.00,0:00:04.94,4-normal,,0,0,0,,{\blur0\fscy112\b1\fs58\bord0\fad(0,0)\c&H6632D7&\3c&H584D72&\pos(1164,226.704)}Thông báo
+Dialogue: 0,0:00:02.00,0:00:04.94,4-normal,,0,0,0,,{\blur0\fscy115\b1\fs0\bord0\fad(0,0)\c&H443E3B&\3c&H231E1C&\pos(1164,297.8)}Cấm bơi do sóng dữ
+Dialogue: 0,0:00:20.74,0:00:23.70,4-normal,,0,0,0,,{\fax0.22\blur0\fscy120\b1\fs55\bord1\fad(0,0)\c&H906C58&\3c&H70564B&\frz346.4\move(800,31,508.667,31.333,0,2948)}\h Nhà hàng bãi biển
+Dialogue: 0,0:00:20.74,0:00:23.70,4-normal,,0,0,0,,{\fax0.22\blur0\fscy120\b1\fs45\bord1\fad(0,0)\c&H9F99D5&\3c&H8282A7&\frz346.4\move(1578,213,1291.422,215.333,28,2948)}\h Tạp hóa
+Dialogue: 0,0:00:32.00,0:00:32.76,4-normal,,0,0,0,,{\fax-0.2\blur0\fscy115\b1\fs0\bord0\fad(0,0)\c&H110813&\3c&H231E1C&\frz8.894\pos(482.286,782.543)}Tôi yêu biển '
+Dialogue: 0,0:00:32.76,0:00:33.51,4-normal,,0,0,0,,{\fax0.02\blur0\fscy115\b1\fs0\bord0\fad(0,0)\c&H110813&\3c&H231E1C&\pos(507.886,465.743)\frz337.9}\hTôi yêu biển
+Dialogue: 0,0:00:48.02,0:00:51.69,6-normal,,0,0,0,,{\fax0.1\blur0\fscy110\b1\fs40\bord1\fad(0,0)\c&H909BDA&\3c&H796FA4&\frz352.6\pos(971.2,143)}\hTôi yêu biển
+Dialogue: 0,0:00:48.02,0:00:51.69,5-normal,,0,0,0,,{\fax0.02\blur0\fscy110\b1\fs35\bord1.5\fad(0,0)\c&H6E4BAA&\3c&HF7F5F2&\frz356.5\pos(363.301,339.267)}\h Kem
+Dialogue: 0,0:00:56.07,0:00:57.91,5-normal,,0,0,0,,{\fax0.03\blur0\fscy105\b1\fs100\bord4\fad(300,0)\c&H8D4EF1&\3c&H4D0040&\pos(1258.501,793.667)\frz6.05}\hBiển là đồ ngốc
+Dialogue: 0,0:00:57.91,0:00:58.82,5-normal,,0,0,0,,{\fax0.03\blur0\fscy105\b1\fs100\bord4\fad(120,210)\c&H4D245D&\3c&H4D0040&\pos(1258.501,793.667)\frz6.05}\hBiển là đồ ngốc
+Dialogue: 0,0:00:59.41,0:01:01.62,4-normal,,0,0,0,,{\fax\blur0\fscy110\b1\fs\bord5\fad(0,0)\c&HF34837&\3c&HFEFAFA&\move(605.2,38.6,574.622,39.333,22,2191)}Ồ...
+Dialogue: 0,0:01:10.96,0:01:13.30,5-normal,,0,0,0,,{\fax\blur0\fscy110\b1\fs0\bord10\fad(60,0)\c&H745794&\\move(316.2,818.6,605.625,360.333,25,192)\3c&H745794&}Bang
+Dialogue: 0,0:01:10.96,0:01:13.30,5-normal,,0,0,0,,{\fax\blur0\fscy110\b1\fs0\bord9\fad(60,0)\c&H5D36F0&\3c&HFEFAFA&\move(321.2,814.6,608.622,357.333,25,192)}Bang
+Dialogue: 0,0:01:10.96,0:01:13.30,5-normal,,0,0,0,,{\fax\blur0\fscy110\b1\fs0\bord7\fad(60,0)\c&H5D36F0&\3c&HDD5C40&\move(321.2,814.6,608.622,357.333,25,192)}Bang
+Dialogue: 0,0:01:10.96,0:01:13.30,5-normal,,0,0,0,,{\fax\blur0\fscy110\b1\fs0\bord3\fad(60,0)\c&H5D36F0&\3c&HFEFAFA&\move(321.2,814.6,608.622,357.333,25,192)}Bang
+Dialogue: 0,0:01:25.43,0:01:28.06,4-normal,,0,0,0,,{\fax-0.12\blur0\fscy120\b1\fs45\bord0\fad(210,0)\c&H4E36E2&\3c&H4E36E2&\frz23.4\move(163.489,522.436,968.763,286.314,28,236)}Đấm thẳng tay trái '
+Dialogue: 0,0:01:25.43,0:01:28.06,4-normal,,0,0,0,,{\fax-0.12\blur0\fscy120\b1\fs45\bord0\fad(210,0)\c&H1D1D29&\3c&H70564B&\frz23.4\move(162.489,520.422,965.763,286.314,28,236)}Đấm thẳng tay trái '
+Dialogue: 0,0:01:25.43,0:01:28.06,5-normal,,0,0,0,,{\fax-0.02\blur0\fscy110\b1\fs\bord7\fad(210,0)\c&HE49141&\3c&HE49141&\frz23.4\move(1299.489,676.422,1542.363,577.914,28,236)}Ba '{\fax-0.02\blur0\fscy110\b1\fs\bord7\fad(210,0)\c&HE49141&\3c&HE49141&\frz23.4\move(1300.489,672.422,1543.363,573.914,28,236)}ng '
+Dialogue: 0,0:01:25.43,0:01:28.06,5-normal,,0,0,0,,{\fax-0.02\blur0\fscy110\b1\fs\bord5\fad(210,0)\c&H4BCDFA&\3c&HA1C9E8&\frz23.4\move(1300.489,672.422,1543.363,573.914,28,236)}Ba '{\fax-0.02\blur0\fscy110\b1\fs\bord5\fad(210,0)\c&H4BCDFA&\3c&H4B92F4&\frz23.4\move(1300.489,672.422,1543.363,573.914,28,236)}ng '
+Dialogue: 0,0:01:25.43,0:01:28.06,5-normal,,0,0,0,,{\fax-0.02\blur0\fscy110\b1\fs\bord3\fad(210,0)\c&H4BCDFA&\3c&HF6FAFB&\frz23.4\move(1300.489,672.422,1543.363,573.914,28,236)}Ba '{\fax-0.02\blur0\fscy110\b1\fs\bord3\fad(210,0)\c&H4B92F4&\3c&HF6FAFB&\frz23.4\move(1300.489,672.422,1543.363,573.914,28,236)}ng '
+Dialogue: 0,0:01:42.53,0:01:45.62,5-normal,,0,0,0,,{\fax\blur0\fscy110\b1\fs\bord7\fad(210,0)\c&H5563E2&\3c&H5D141F&\pos(1267.363,619.914)}Ầm ầm
+Dialogue: 0,0:01:42.53,0:01:45.62,5-normal,,0,0,0,,{\fax\blur0\fscy110\b1\fs\bord3\fad(210,0)\c&H3A3DE1&\3c&HF6FAFB&\pos(1267.363,619.914)}Ầm ầm
+Dialogue: 0,0:01:58.01,0:01:58.26,5-normal,,0,0,0,,{\fax\blur0\fscy110\b1\fs\bord5\fad(0,90)\c&HEDA35F&\3c&HEDA35F&\frz344.7\move(1570.363,303.514,1629.2,132.2,0,231)}Bang
+Dialogue: 0,0:01:58.01,0:01:58.26,5-normal,,0,0,0,,{\fax\blur0\fscy110\b1\fs\bord3\fad(0,90)\c&H1C06DB&\3c&H78FFFB&\frz344.7\move(1571.363,301.514,1627.2,131.2,0,231)}Bang
+Dialogue: 0,0:02:14.44,0:02:18.15,5-normal,,0,0,0,,{\b1\fs80\blur8\bord5\fad(30,150)\c&H2500E9&\3c&H8E6568&\move(960,199.55,958.667,214.667,25,3529)}Lum
+Dialogue: 0,0:02:14.44,0:02:18.15,5-normal,,0,0,0,,{\b1\fs80\bord4\fad(30,150)\c&H2500E9&\3c&HF77D89&\move(960,199.55,958.667,214.667,25,3529)}Lum
+Dialogue: 0,0:03:39.98,0:03:42.44,4-normal,,0,0,0,,{\fax0.1\blur0\fscy110\b1\fs30\bord0\fad(0,0)\c&HC8C694&\3c&HC7C1B5&\pos(836.8,112.333)\frz348.4}\hNhà hàng bãi biển
+Dialogue: 0,0:03:39.98,0:03:42.44,5-normal,,0,0,0,,{\fax\blur0\fscy110\b1\fs30\bord6\fad(0,0)\c&H3FBE92&\3c&H588DC1&\frz348.4\pos(373.829,747.647)}Nhà hàng bãi biển
+Dialogue: 0,0:03:39.98,0:03:42.44,5-normal,,0,0,0,,{\fax\blur0\fscy110\b1\fs30\bord4\fad(0,0)\c&H3FBE92&\3c&H8EFFFC&\frz348.4\pos(373.829,747.647)}Nhà hàng bãi biển
+Dialogue: 0,0:03:39.98,0:03:42.44,4-normal,,0,0,0,,{\fax0.02\blur0\fscy110\b1\fs40\bord1.5\fad(0,0)\c&H98B9DD&\3c&H7B8998&\pos(875.2,259.533)\frz351.5}\hTôi yêu biển
+Dialogue: 0,0:03:39.98,0:03:42.44,5-normal,,0,0,0,,{\fax0.02\blur0\fscy110\b1\fs30\bord2\fad(0,0)\c&H706DD1&\3c&HAAA196&\frz357.9\pos(904.101,528.067)}\hKem
+Dialogue: 0,0:03:39.98,0:03:42.44,5-normal,,0,0,0,,{\fax0.02\blur0\fscy110\b1\fs30\bord1\fad(0,0)\c&H706DD1&\3c&HF7F5F2&\pos(904.101,528.067)\frz359.1}\hKem
+Dialogue: 0,0:03:42.44,0:03:44.66,4-normal,,0,0,0,,{\fax\blur0\fscx104\fscy108\b1\fs80\bord0\fad(0,0)\c&H5E5D5E&\3c&H5F8052&\pos(1226.129,249.752)\frz341.9}Đại chiến {\fax\blur0\fscx104\fscy108\b1\fs\bord0\fad(0,0)\c&H5F35CB&\3c&H5F8052&\pos(1226.129,249.752)\frz341.9}cha con!!
+Dialogue: 0,0:03:44.66,0:03:50.54,5-normal,,0,0,0,,{\fax\blur0\fscy108\b1\fs50\bord4\fad(0,0)\c&H894E4D&\3c&H894E4D&\frz358.8\move(787.005,159,859.657,159,20,5859)}Tôi yêu biển
+Dialogue: 0,0:03:44.66,0:03:50.54,5-normal,,0,0,0,,{\fax0.0\blur0\fscy108\b1\fs50\bord2\fad(0,0)\c&H894E4D&\3c&HEBE0A6&\frz358.8\move(787.005,159,859.657,159,20,5859)}Tôi yêu biển
+Dialogue: 0,0:03:44.66,0:03:50.54,4-normal,,0,0,0,,{\fax-0.02\blur0\fscy105\b1\fs28\bord0\fad(0,0)\c&H563937&\3c&H7B8998&\frz1.041\move(648.254,542,720,542,0,5859)}Bia '
+Dialogue: 0,0:04:00.21,0:04:01.42,5-normal,,0,0,0,,{\fax\blur0\fscy110\b1\fs100\bord8\fad(120,0)\c&HAF1C05&\3c&H23FFAF&\pos(1112,73.114)}Choang
+Dialogue: 0,0:04:00.21,0:04:01.42,5-normal,,0,0,0,,{\fax\blur0\fscy110\b1\fs100\bord4\fad(120,0)\c&HAF1C05&\3c&H48D4FA&\pos(1112,73.114)}Choang
+Dialogue: 0,0:04:33.50,0:04:35.21,5-normal,,0,0,0,,{\fax\blur0\fscy110\b1\fs80\bord7\fad(150,0)\c&H5563E2&\3c&H5D141F&\pos(960,135.914)}Ầm
+Dialogue: 0,0:04:33.50,0:04:35.21,5-normal,,0,0,0,,{\fax\blur0\fscy110\b1\fs80\bord3\fad(150,0)\c&H3A3DE1&\3c&HF6FAFB&\pos(960,135.914)}Ầm
+Dialogue: 0,0:05:17.79,0:05:20.71,4-normal,,0,0,0,,{\fax\blur0\fscy110\b1\fs50\bord4.5\fad(0,300)\c&H635E5D&\3c&HE8E2E0&\move(456.4,29.647,395.2,28.8,2528,2903)}Có bán Udon
+Dialogue: 0,0:05:52.32,0:05:58.66,5-normal,,0,0,0,,{\fax\blur0\fscy110\b1\fs50\bord1.5\fad(0,0)\c&H6E4BAA&\3c&HF7F5F2&\frz359\pos(1659.586,383.267)}Kem
+Dialogue: 0,0:06:02.04,0:06:03.75,6-normal,,0,0,0,,{\fax\blur0\fscy108\b1\fs0\bord4\fad(0,0)\c&H040404&\3c&HF6FAFB&\pos(883.714,127.429)}Đứa con đầu tiên của nhà Fujinami
+Dialogue: 0,0:06:02.04,0:06:03.75,6-normal,,0,0,0,,{\fax\blur0\fscy108\b1\fs45\bord3\fad(0,0)\c&H040404&\3c&HF6FAFB&\pos(867.714,167.429)}Long chi giới
+Dialogue: 0,0:06:02.04,0:06:03.75,6-normal,,0,0,0,,{\fax\blur0\fscy108\b1\fs0\bord4\fad(0,0)\c&H1600E4&\3c&HF6FAFB&\pos(883.714,207.429)}Fujinami {\fax\blur0\fscy108\b1\fs80\bord3\fad(0,0)\c&H040404&\3c&HF6FAFB&\pos(886,180)}Ryunosuke
+Dialogue: 0,0:06:02.04,0:06:03.75,5-normal,,0,0,0,,{\fax\blur0\fscy108\b1\fs0\bord3\fad(0,0)\c&H5631D2&\3c&HF6FAFB&\pos(668,746)}Chính thức
+Dialogue: 0,0:06:45.00,0:06:45.96,5-normal,,0,0,0,,{\fax\blur0\fscy108\b1\fs100\bord5\fad(0,0)\c&HE8DC2F&\3c&H272729&\pos(960,166)}Binh {\fax\blur0\fscy108\b1\fs100\bord5\fad(0,0)\c&HB725EF&\3c&H272729&\pos(960,166)}Bang
+Dialogue: 0,0:07:11.24,0:07:14.41,6-normal,,0,0,0,,{\fax\blur0\fscy115\b1\fs50\bord4\fad(0,0)\c&HE0E9C7&\3c&H4E5768&\pos(1304,606)}Cánh cụt
+Dialogue: 0,0:07:16.83,0:07:18.74,4-normal,,0,0,0,,{\fax\blur0\fscy110\b1\fs70\bord3\fad(150,0)\c&H4800EC&\3c&HFEFEFA&\frz328.5\pos(218,690)}Q{\fax\blur0\fscy110\b1\fs70\bord3\fad(150,0)\c&H465DF1&\3c&HFEFEFA&\pos(138,658)\frz328.5}u{\fax\blur0\fscy110\b1\fs70\bord3\fad(150,0)\c&H4DEFFB&\3c&HFEFEFA&\pos(138,658)\frz328.5}ẳ{\fax\blur0\fscy110\b1\fs70\bord3\fad(150,0)\c&HA9C935&\3c&HFEFEFA&\pos(138,658)\frz328.5}ng
+Dialogue: 0,0:07:22.41,0:07:23.87,4-normal,,0,0,0,,{\fax\blur0\fscy115\b1\fs0\bord4\fad(120,360)\c&HFDEFC6&\3c&HF73942&\move(318,272,216,178,196,1448)}Bang
+Dialogue: 0,0:07:25.75,0:07:26.38,5-normal,,0,0,0,,{\fax\blur0\fscy115\b1\fs58\bord4\fad(0,0)\c&H34FFAD&\3c&H845548&\frz33.13\move(425.2,993.6,308.8,894.8,26,610)}Đ{\fax\blur0\fscy115\b1\fs58\bord4\fad(0,0)\c&H39DDE5&\3c&H845548&\frz33.13\move(425.2,993.6,308.8,894.8,26,610)}á{\fax\blur0\fscy115\b1\fs58\bord4\fad(0,0)\c&HD1000F&\3c&H845548&\frz33.13\move(425.2,993.6,308.8,894.8,26,610)}p
+Dialogue: 0,0:07:32.92,0:07:33.55,5-normal,,0,0,0,,{\fax\blur0\fscy115\b1\fs0\bord4\fad(0,150)\c&H9157F2&\3c&HFBFBF9&\frz12.77\move(341.6,518.4,248.4,402.8,30,614)}Ôm
+Dialogue: 0,0:07:35.05,0:07:35.68,5-normal,,0,0,0,,{\fax\blur0\fscy110\b1\fs80\bord10\fad(150,0)\c&H5563E2&\3c&HFEFBF3&\frz333.6\pos(1281.6,630.714)}Bang
+Dialogue: 0,0:07:35.05,0:07:35.68,5-normal,,0,0,0,,{\fax\blur0\fscy110\b1\fs80\bord4\fad(150,0)\c&HF4934F&\3c&H9C3005&\frz333.6\pos(1281.6,630.714)}Bang
+Dialogue: 0,0:07:48.69,0:07:52.53,5-normal,,0,0,0,,{\alpha&H30&\fax\blur0\fscy110\b1\fs80\bord1\fad(0,0)\c&H7468B2&\3c&H7468B2&\frz31.76\pos(635.029,58.428)}Đàn ông
+Dialogue: 0,0:07:48.69,0:07:52.53,5-normal,,0,0,0,,{\fax\blur0\fscy110\b1\fs80\bord0\fad(0,0)\c&H010101&\3c&H9C3005&\frz31.76\pos(631.6,56.714)}Đàn ông
+Dialogue: 0,0:07:53.03,0:07:55.99,5-normal,,0,0,0,,{\fax\blur0\fscy110\b1\fs70\bord8\fad(150,0)\c&H66C7F8&\3c&H0700C2&\frz\pos(408.267,628.714)}Bang
+Dialogue: 0,0:07:53.03,0:07:55.99,5-normal,,0,0,0,,{\fax\blur0\fscy110\b1\fs70\bord4\fad(150,0)\c&H66C7F8&\3c&H0738E9&\frz\pos(408.267,628.714)}Bang
+Dialogue: 0,0:07:53.03,0:07:55.99,4-normal,,0,0,0,,{\fax0.02\blur0\fscy110\b1\fs50\bord2\fad(150,0)\c&H0C0E0D&\3c&HF5B776&\frz27.89\pos(1106.533,401.848)}\h Đấm móc tay phải
+Dialogue: 0,0:08:36.32,0:08:39.95,5-normal,,0,0,0,,{\fax-0.12\blur0\fscy110\b1\fs0\bord0\fad(0,360)\c&H492EDE&\3c&H492EDE&\frz344.3\move(1892.489,959.222,1286.163,453.114,27,235)}Đấm thẳng tay trái '
+Dialogue: 0,0:08:36.32,0:08:39.95,5-normal,,0,0,0,,{\fax-0.12\blur0\fscy110\b1\fs0\bord0\fad(0,360)\c&H1D1D29&\3c&H70564B&\frz344.3\move(1890.489,957.222,1284.163,451.114,27,235)}Đấm thẳng tay trái '
+Dialogue: 0,0:08:42.37,0:08:43.37,5-normal,,0,0,0,,{\alpha&H25 &\fax0.02\blur0\fscy110\b1\fs70\bord4\fad(0,0)\c&H21577A&\3c&H21577A&\move(1579.867,881.314,1586,819,24,984)\frz17.31}\hBang
+Dialogue: 0,0:08:42.37,0:08:43.37,5-normal,,0,0,0,,{\fax0.02\blur0\fscy110\b1\fs70\bord4\fad(0,0)\c&H5886F2&\3c&H0B0084&\move(1583.867,876.314,1590,814,24,984)\frz17.31}\hBang
+Dialogue: 0,0:09:00.80,0:09:04.31,4-normal,,0,0,0,,{\fax-0.05\blur0\fscy110\b1\fs30\bord2\fad(0,0)\c&HEFCCA6&\3c&H9A9184&\frz357\move(551.2,559.533,598.857,558.857,29,3491)}Nhà hàng bãi biển '
+Dialogue: 0,0:09:00.80,0:09:04.31,4-normal,,0,0,0,,{\fax-0.05\blur0\fscy110\b1\fs40\bord1.5\fad(0,0)\c&H86A9D6&\3c&H4B4860&\frz357.1\move(578.629,712.676,626.285,713.143,0,3491)}Tôi yêu biển '
+Dialogue: 0,0:09:08.81,0:09:10.77,5-normal,,0,0,0,,{\fax\blur0\fscy110\b1\fs0\bord4\fad(0,0)\c&HE6AB65&\3c&HEBE2E0&\frz6.185\pos(1603.6,158.714)}Bia
+Dialogue: 0,0:09:12.23,0:09:18.45,5-normal,,0,0,0,,{\fax\blur0\fscy110\b1\fs50\bord4\fad(240,0)\c&HEC2236&\3c&H30222A&\frz4.483\pos(353.2,201.514)}Xạch
+Dialogue: 0,0:09:12.23,0:09:18.45,5-normal,,0,0,0,,{\fax\blur0\fscy110\b1\fs50\bord1.5\fad(240,0)\c&HEC2236&\3c&HEEABA9&\frz4.483\pos(353.2,201.514)}Xạch
+Dialogue: 0,0:09:18.66,0:09:21.49,6-normal,,0,0,0,,{\fax\blur0\fscy110\b1\fs50\bord4\fad(0,0)\c&H43FFE0&\3c&H252221&\frz21.59\pos(324.4,639.914)}Leng keng
+Dialogue: 0,0:09:42.85,0:09:43.39,6-normal,,0,0,0,,{\fax\blur0\fscy110\b1\fs0\bord4\fad(0,0)\c&HB89820&\3c&HF9FAFB&\frz\pos(367.2,711.114)}R{\fax\blur0\fscy110\b1\fs0\bord4\fad(0,0)\c&HB1BE30&\3c&HF9FAFB&\frz\pos(367.2,711.114)}ắ{\fax\blur0\fscy110\b1\fs0\bord4\fad(0,0)\c&HCD9E41&\3c&HF9FAFB&\frz\pos(367.2,711.114)}c
+Dialogue: 0,0:09:43.60,0:09:44.18,4-normal,,0,0,0,,{\fax\blur0\fscy110\b1\fs0\bord4\fad(0,0)\c&H1D0081&\3c&HF9FAFB&\frz\pos(1529.2,515.114)}R{\fax\blur0\fscy110\b1\fs0\bord4\fad(0,0)\c&H590091&\3c&HF9FAFB&\frz\pos(367.2,711.114)}ụ{\fax\blur0\fscy110\b1\fs0\bord4\fad(0,0)\c&H1D0081&\3c&HF9FAFB&\frz\pos(367.2,711.114)}p
+Dialogue: 0,0:10:11.71,0:10:13.04,6-normal,,0,0,0,,{\fad(90,0)\fs60\b1\c&H2600E8&\bord3\3c&HFEFDFF&\pos(734.696,805.018)}Lum
+Dialogue: 0,0:10:16.50,0:10:18.63,6-normal,,0,0,0,,{\fax-0.02\blur0\fscy110\b1\fs50\bord1.5\fad(0,0)\c&H563A3B&\3c&HE5F6F8&\pos(1364,368.667)\frz27.93}Tôi yêu biển '
+Dialogue: 0,0:10:18.63,0:10:22.47,4-normal,,0,0,0,,{\fax-0.08\blur0\fscy110\b1\fs55\bord1.5\fad(0,0)\c&H623832&\3c&HE5F6F8&\pos(498,604.667)\frz36.34}Tôi yêu biển '
+Dialogue: 0,0:10:33.86,0:10:34.52,4-normal,,0,0,0,,{\fax\blur0\fscy110\b1\fs55\bord4\fad(0,0)\c&HFAED35&\3c&HFBFCFB&\pos(1132.001,308.096)\frz8.439}Thả
+Dialogue: 0,0:12:00.48,0:12:01.11,4-normal,,0,0,0,,{\fax\blur0\fscy110\b1\fs80\bord5\fad(90,0)\c&H0745E2&\3c&H712032&\pos(1296.001,590.096)\frz1.4}Bang
+Dialogue: 0,0:12:27.43,0:12:28.93,6-normal,,0,0,0,,{\fax\blur0\fscy110\b1\fs0\bord4\fad(0,0)\c&HFDFFB3&\3c&HF34344&\frz1.4\move(549.258,409.753,457.6,377,23,1482)}Cởi
+Dialogue: 0,0:12:36.56,0:12:37.98,6-normal,,0,0,0,,{\fax\blur0\fscy110\b1\fs0\bord4\fad(0,0)\c&HD9461B&\3c&HFAF9FB&\frz347.3\move(1328.458,662.553,1487.6,585,27,569)}Bay
+Dialogue: 0,0:12:38.23,0:12:39.27,4-normal,,0,0,0,,{\fax\blur0\fscy110\b1\fs0\bord4\fad(0,0)\c&H8036A1&\3c&HFAF9FB&\frz354.2\pos(1315.258,405.353)}Bang
+Dialogue: 0,0:12:38.23,0:12:39.27,4-normal,,0,0,0,,{\fax\blur0\fscy110\b1\fs0\bord4\fad(150,0)\c&H8036A1&\3c&HFAF9FB&\frz354.2\pos(1315.258,405.353)}Ba{\fax\blur0\fscy110\b1\fs0\bord4\fad(0,0)\c&HD1698C&\3c&HFAF9FB&\pos(1278.458,400.553)\frz354.2}ng
+Dialogue: 0,0:12:49.95,0:12:50.45,5-normal,,0,0,0,,{\fax\blur0\fscy110\b1\fs80\bord9\fad(120,0)\c&H65C3D6&\3c&HD7D8D7&\frz0.1911\pos(1351.201,348.096)}Bang
+Dialogue: 0,0:12:49.95,0:12:50.45,5-normal,,0,0,0,,{\fax\blur0\fscy110\b1\fs80\bord5\fad(120,0)\c&H347DD1&\3c&H291D23&\frz0.1911\pos(1351.201,348.096)}Bang
+Dialogue: 0,0:12:52.66,0:12:55.37,4-normal,,0,0,0,,{\fax0.12\blur0\fscy108\b1\fs0\bord1\fad(0,0)\c&HDCA80E&\3c&H191A1B&\frz352.6\move(158.858,231.953,249.733,231.045,26,2695)}\hXin chào,
+Dialogue: 0,0:12:52.66,0:12:55.37,4-normal,,0,0,0,,{\fax-0.15\blur0\fscy115\b1\fs\bord0\fad(0,0)\c&H424242&\3c&H191A1B&\move(206.858,625.753,292.933,627.667,26,2695)\frz9.673} đồng phục thủy thủ!! '
+Dialogue: 0,0:12:52.66,0:12:55.37,5-normal,,0,0,0,,{\fax\blur0\fscy105\b1\fs30\bord5\fad(0,0)\c&H90918C&\3c&H90918C&\frz\move(968.826,278,1058.488,278,26,2695)}Lớp 2 - 4
+Dialogue: 0,0:12:52.66,0:12:55.37,5-normal,,0,0,0,,{\fax\blur0\fscy105\b1\fs30\bord3.5\fad(0,0)\c&H90918C&\3c&HEAEDE9&\frz\move(968.826,278,1058.488,278,26,2695)}Lớp 2 - 4
+Dialogue: 0,0:13:40.83,0:13:47.30,5-normal,,0,0,0,,{\fax\blur0\fscy115\b1\fs0\bord12\fad(0,0)\c&H404747&\3c&H253842&\frz0.1911\pos(1111.201,60.096)}Tạp hóa
+Dialogue: 0,0:13:40.83,0:13:47.30,5-normal,,0,0,0,,{\fax\blur0\fscy115\b1\fs0\bord8\fad(0,0)\c&H404747&\3c&H91BDBA&\frz0.1911\pos(1111.201,60.096)}Tạp hóa
+Dialogue: 0,0:13:40.83,0:13:47.30,5-normal,,0,0,0,,{\fax\blur0\fscy115\b1\fs0\bord2\fad(0,0)\c&H404747&\3c&H192120&\frz0.1911\pos(1111.201,60.096)}Tạp hóa
+Dialogue: 0,0:13:51.64,0:13:53.76,6-normal,,0,0,0,,{\fax\blur0\fscy110\b1\fs70\bord4\fad(120,0)\c&H3600BC&\3c&HFAFBF8&\frz\pos(1474.535,391.696)}Ầm
+Dialogue: 0,0:13:54.39,0:13:56.77,5-normal,,0,0,0,,{\fax\blur0\fscy108\b1\fs0\bord8\fad(120,0)\c&HFCFF64&\3c&HCE89F3&\pos(499.2,58.8)\frz5.38}Bang
+Dialogue: 0,0:13:54.39,0:13:56.77,5-normal,,0,0,0,,{\fax\blur0\fscy108\b1\fs0\bord4\fad(120,0)\c&HFCFF64&\3c&HFDFEFE&\pos(499.2,58.8)\frz5.38}Bang
+Dialogue: 0,0:13:54.31,0:13:56.77,5-normal,,0,0,0,,{\fax\blur0\fscy108\b1\fs0\bord8\fad(180,0)\c&H9265F4&\3c&HCE89F3&\frz58.85\pos(654,890)}Binh
+Dialogue: 0,0:13:54.31,0:13:56.77,5-normal,,0,0,0,,{\fax\blur0\fscy108\b1\fs0\bord4\fad(180,0)\c&H9265F4&\3c&HFDFEFE&\frz58.85\pos(654,890)}Binh
+Dialogue: 0,0:13:54.31,0:13:56.77,5-normal,,0,0,0,,{\fax\blur0\fscy108\b1\fs0\bord8\fad(180,0)\c&H4597F4&\3c&HCE89F3&\pos(1250,846)\frz316}Bang
+Dialogue: 0,0:13:54.31,0:13:56.77,5-normal,,0,0,0,,{\fax\blur0\fscy108\b1\fs0\bord4\fad(180,0)\c&H4597F4&\3c&HFDFEFE&\pos(1250,846)\frz316}Bang
+Dialogue: 0,0:14:04.77,0:14:06.73,5-normal,,0,0,0,,{\fax-0.4\blur0\fscy120\b1\fs80\bord10\fad(0,0)\c&H6A7C90&\3c&H24343C&\pos(869.601,247.296)\frz21}Lớp 2 - 4 '
+Dialogue: 0,0:14:04.77,0:14:06.73,5-normal,,0,0,0,,{\fax-0.4\blur0\fscy120\b1\fs80\bord7\fad(0,0)\c&H6A7C90&\3c&HEEECE6&\pos(869.601,247.296)\frz21}Lớp 2 - 4 '
+Dialogue: 0,0:14:04.77,0:14:06.73,5-normal,,0,0,0,,{\fax-0.4\blur0\fscy120\b1\fs80\bord1.5\fad(0,0)\c&H666F79&\3c&H192120&\pos(869.601,247.296)\frz21}Lớp 2 - 4 '
+Dialogue: 0,0:15:58.35,0:15:59.06,5-normal,,0,0,0,,{\fax\blur0\fscy110\b1\fs100\bord5\fad(0,0)\c&HE3F292&\3c&HF61B20&\move(1982.38,55,-81.6,55,22,689)}Thế rồi...
+Dialogue: 0,0:16:05.60,0:16:08.48,4-normal,,0,0,0,,{\fax\blur0\fscy110\b\fs0\bord2\fad(600,0)\c&H242934&\3c&HEFF6F3&\frz346.3\pos(575.001,171.696)}bạn với cậu
+Dialogue: 0,0:16:05.60,0:16:08.48,4-normal,,0,0,0,,{\fax\blur0\fscy110\b\fs0\bord2\fad(600,0)\c&H242934&\3c&HEFF6F3&\pos(659.001,18.304)\frz346.1}Tôi muốn làm
+Dialogue: 0,0:16:05.60,0:16:08.48,4-normal,,0,0,0,,{\fax\blur0\fscy110\b\fs0\bord2\fad(600,0)\c&H242934&\3c&HEFF6F3&\pos(499.001,320.304)\frz345.9}Xin hãy đi chơi với tôi.
+Dialogue: 0,0:16:05.60,0:16:08.48,4-normal,,0,0,0,,{\fax\blur0\fscy110\b\fs0\bord2\fad(600,0)\c&H242934&\3c&HEFF6F3&\pos(575.001,480.304)\frz343.9}Đợi cậu hồi âm!!
+Dialogue: 0,0:16:05.60,0:16:08.48,6-normal,,0,0,0,,{\fax\blur0\fscy110\b\fs0\bord2\fad(600,0)\c&H242934&\3c&HEFF6F3&\frz343.9\pos(1201.001,820.304)}Gửi Lan.
+Dialogue: 0,0:16:05.60,0:16:08.48,4-normal,,0,0,0,,{\fax\blur0\fscy120\b\fs0\bord2\fad(600,0)\c&H242934&\3c&HEFF6F3&\pos(441.001,716.304)\frz338.4}Lớp 2 - 4
+Dialogue: 0,0:16:14.20,0:16:16.16,5-normal,,0,0,0,,{\fax-0.4\blur0\fscy120\b1\fs80\bord10\fad(0,0)\c&H6A7C90&\3c&H24343C&\pos(869.601,247.296)\frz21}Lớp 2 - 4 '
+Dialogue: 0,0:16:14.20,0:16:16.16,5-normal,,0,0,0,,{\fax-0.4\blur0\fscy120\b1\fs80\bord7\fad(0,0)\c&H6A7C90&\3c&HEEECE6&\pos(869.601,247.296)\frz21}Lớp 2 - 4 '
+Dialogue: 0,0:16:14.20,0:16:16.16,5-normal,,0,0,0,,{\fax-0.4\blur0\fscy120\b1\fs80\bord1.5\fad(0,0)\c&H666F79&\3c&H192120&\pos(869.601,247.296)\frz21}Lớp 2 - 4 '
+Dialogue: 0,0:16:16.16,0:16:20.95,5-normal,,0,0,0,,{\fax-0.05\blur0\fscy115\b1\fs45\bord3\fad(0,0)\c&H88B58E&\3c&HF2F4F8&\frz2.441\pos(1018.63,116.096)}Tuần lễ văn hóa '
+Dialogue: 0,0:16:27.58,0:16:33.05,5-normal,,0,0,0,,{\fax-0.05\blur0\fscy115\b1\fs45\bord3\fad(0,0)\c&H88B58E&\3c&HF2F4F8&\frz2.441\pos(957.344,125.239)}Tuần lễ văn hóa '
+Dialogue: 0,0:16:36.18,0:16:37.14,6-normal,,0,0,0,,{\fax\blur0\fscy100\b1\fs0\bord4\fad(150,150)\c&H24C5F5&\3c&HF2F4F7&\frz45.03\move(1070.134,452.096,1017.666,420,21,939)}Cưng
+Dialogue: 0,0:17:26.43,0:17:29.02,5-normal,,0,0,0,,{\fax-0.02\blur0\fscy118\b1\fs45\bord3\fad(0,0)\c&H94AFBB&\3c&H63525D&\frz1.5\move(1394.734,230.706,2054.667,229.333,30,2574)}Cao trung Tomobiki '
+Dialogue: 0,0:18:19.70,0:18:20.11,4-normal,,0,0,0,,{\fax\blur0\fscy100\b1\fs50\bord3\fad(0,150)\c&HF729CB&\3c&HF2F4F7&\move(1476.534,400.896,1552.066,324,21,397)\frz35.16}Cưng
+Dialogue: 0,0:18:48.68,0:18:49.27,6-normal,,0,0,0,,{\fax\blur0\fscy100\b1\fs0\bord4\fad(0,60)\c&H3B8AF7&\3c&HFAFAFA&\move(481.334,428.096,434.999,356,28,571)\frz38.25}Ăn
+Dialogue: 0,0:19:00.90,0:19:01.11,6-normal,,0,0,0,,{\fax\blur0\fscy100\b1\fs0\bord3\fad(0,0)\c&HF0C338&\3c&HFAFAFA&\frz\pos(1507.62,211.41)}đú{\fax\blur0\fscy100\b1\fs0\bord3\fad(0,0)\c&HA6FF71&\3c&HFAFAFA&\frz\pos(1507.62,211.41)}t
+Dialogue: 0,0:19:01.11,0:19:01.36,6-normal,,0,0,0,,{\fax\blur0\fscy100\b1\fs0\bord3\fad(0,0)\c&HE635B0&\3c&HFAFAFA&\frz\pos(1460.02,455.41)}đú{\fax\blur0\fscy100\b1\fs0\bord3\fad(0,0)\c&HE6E728&\3c&HFAFAFA&\frz\pos(1507.62,211.41)}t
+Dialogue: 0,0:19:01.36,0:19:01.61,4-normal,,0,0,0,,{\fax\blur0\fscy100\b1\fs0\bord4\fad(0,0)\c&HE6E728&\3c&HFAFAFA&\frz\pos(1561.62,623.41)}đú{\fax\blur0\fscy100\b1\fs0\bord4\fad(0,0)\c&HE6E728&\3c&HFAFAFA&\frz\pos(1507.62,211.41)}t
+Dialogue: 0,0:19:01.61,0:19:01.86,6-normal,,0,0,0,,{\fax\blur0\fscy100\b1\fs0\bord3\fad(0,0)\c&HF0C338&\3c&HFAFAFA&\frz\pos(1507.62,211.41)}đú{\fax\blur0\fscy100\b1\fs0\bord3\fad(0,0)\c&HA6FF71&\3c&HFAFAFA&\frz\pos(1507.62,211.41)}t
+Dialogue: 0,0:19:01.86,0:19:02.11,6-normal,,0,0,0,,{\fax\blur0\fscy100\b1\fs0\bord3\fad(0,0)\c&HE635B0&\3c&HFAFAFA&\frz\pos(1460.02,455.41)}đú{\fax\blur0\fscy100\b1\fs0\bord3\fad(0,0)\c&HE6E728&\3c&HFAFAFA&\frz\pos(1507.62,211.41)}t
+Dialogue: 0,0:19:02.11,0:19:02.36,4-normal,,0,0,0,,{\fax\blur0\fscy100\b1\fs0\bord4\fad(0,0)\c&HE6E728&\3c&HFAFAFA&\frz\pos(1561.62,623.41)}đú{\fax\blur0\fscy100\b1\fs0\bord4\fad(0,0)\c&HE6E728&\3c&HFAFAFA&\frz\pos(1507.62,211.41)}t
+Dialogue: 0,0:19:02.36,0:19:02.61,6-normal,,0,0,0,,{\fax\blur0\fscy100\b1\fs0\bord3\fad(0,0)\c&HF0C338&\3c&HFAFAFA&\frz\pos(1507.62,211.41)}đú{\fax\blur0\fscy100\b1\fs0\bord3\fad(0,0)\c&HA6FF71&\3c&HFAFAFA&\frz\pos(1507.62,211.41)}t
+Dialogue: 0,0:19:02.61,0:19:02.86,6-normal,,0,0,0,,{\fax\blur0\fscy100\b1\fs0\bord3\fad(0,0)\c&HE635B0&\3c&HFAFAFA&\frz\pos(1460.02,455.41)}đú{\fax\blur0\fscy100\b1\fs0\bord3\fad(0,0)\c&HE6E728&\3c&HFAFAFA&\frz\pos(1507.62,211.41)}t
+Dialogue: 0,0:19:07.62,0:19:08.33,5-normal,,0,0,0,,{\fax\blur0\fscy110\b1\fs80\bord11\fad(120,30)\c&HA861E8&\3c&H6105E4&\frz0.1911\pos(1324.001,665.296)}Bang
+Dialogue: 0,0:19:07.62,0:19:08.33,5-normal,,0,0,0,,{\fax\blur0\fscy110\b1\fs80\bord5\fad(120,30)\c&HA861E8&\3c&H590037&\frz0.1911\pos(1324.001,665.296)}Bang
+Dialogue: 0,0:19:08.41,0:19:10.25,5-normal,,0,0,0,,{\fax\blur0\fscy110\b1\fs0\bord3\fad(180,240)\c&H0400C0&\3c&HFFFFFC&\frz2.339\move(1409.201,310.096,1444.8,296,152,1820)}Ầm
+Dialogue: 0,0:19:23.18,0:19:25.22,4-normal,,0,0,0,,{\fax\blur0\fscy120\b\fs80\bord2\fad(0,0)\ac&HDBDFE4&\3c&H182536&\frz0.1911\pos(1101.601,990.096)\c&HD2DAE1&}Nhà vệ sinh
+Dialogue: 0,0:19:43.28,0:19:44.74,5-normal,,0,0,0,,{\fax\blur0\fscy105\b1\fs35\bord4\fad(0,0)\c&H624384&\3c&HE9E3CD&\frz0.1911\pos(778.601,601.096)}Chỗ lên thuyền
+Dialogue: 0,0:20:32.83,0:20:35.29,5-normal,,0,0,0,,{\alpha&H30&\fax\blur0\fscy105\b1\fs70\bord0\fad(120,0)\c&HC718A4&\3c&HC718A4&\pos(1092,622)\frz12.18}Bủm
+Dialogue: 0,0:20:32.83,0:20:35.29,5-normal,,0,0,0,,{\fax\blur0\fscy105\b1\fs70\bord4\fad(120,0)\c&HF6FEAB&\3c&HD41DEF&\pos(1089.601,614.096)\frz12.18}Bủm
+Dialogue: 0,0:22:47.00,0:22:52.01,5-normal,,0,0,0,,{\b1\fs80\bord4\c&HFDFEFF&\3c&HEE8285&\pos(960,748.689)}Một lòng đầy ngưỡng mộ
+Dialogue: 0,0:22:47.00,0:22:52.01,5-normal,,0,0,0,,{\b1\fs80\bord4\c&HFDFEFF&\3c&HEE8285&\pos(960,495.689)}Điều ước đến vì sao
+Dialogue: 0,0:00:02.48,0:00:04.94,Lines,,0,0,0,,Cấm bơi?
+Dialogue: 0,0:00:15.46,0:00:17.22,Lines,,0,0,0,,Sóng dữ thật.
+Dialogue: 0,0:00:17.22,0:00:20.02,Lines,,0,0,0,,Chẳng thể đi bơi được.
+Dialogue: 0,0:00:20.02,0:00:20.74,Lines,,0,0,0,,Đã vậy...
+Dialogue: 0,0:00:21.00,0:00:23.70,Lines,,0,0,0,,Các quán trà và quán ăn bãi biển\Ncũng đóng cửa luôn.
+Dialogue: 0,0:00:24.08,0:00:25.90,Lines,,0,0,0,,Chết tiệt. Đáng ghét.
+Dialogue: 0,0:00:25.90,0:00:27.33,Lines,,0,0,0,,Phải xả ra mới được.
+Dialogue: 0,0:00:28.67,0:00:32.76,Lines,,0,0,0,,Biển là đồ ngốc!
+Dialogue: 0,0:00:36.10,0:00:37.55,Lines,,0,0,0,,Cái quái gì thế?
+Dialogue: 0,0:00:45.64,0:00:49.29,Lines,,0,0,0,,Yay! Sóng cùi! Sóng cùi!
+Dialogue: 0,0:00:49.76,0:00:52.08,Lines,,0,0,0,,Nào, một lần nữa, Ryunosuke!
+Dialogue: 0,0:00:54.49,0:00:58.78,Lines,,0,0,0,,Biển là đồ ngốc!
+Dialogue: 0,0:01:07.87,0:01:09.25,Lines,,0,0,0,,Đồ ngốc!
+Dialogue: 0,0:01:09.60,0:01:14.30,Lines,,0,0,0,,Ta phải bảo bao nhiêu lần nữa hả?!
+Dialogue: 0,0:01:15.72,0:01:18.76,Lines,,0,0,0,,Đừng có căn thời gian ẩu như thế.
+Dialogue: 0,0:01:18.76,0:01:20.78,Lines,,0,0,0,,Cảm thấy xấu hổ đi!
+Dialogue: 0,0:01:21.55,0:01:22.94,Lines,,0,0,0,,Cái gì chứ?!
+Dialogue: 0,0:01:22.94,0:01:25.56,Lines,,0,0,0,,Người vừa mới ra hiệu xông lên...
+Dialogue: 0,0:01:26.21,0:01:28.77,Lines,,0,0,0,,là ông chứ ai!!!
+Dialogue: 0,0:01:32.36,0:01:34.40,Lines,,0,0,0,,Cú đấm vừa rồi khá đau đấy.
+Dialogue: 0,0:01:35.58,0:01:37.36,Lines,,0,0,0,,Nhưng mà nhé, Ryunosuke.
+Dialogue: 0,0:01:37.81,0:01:42.62,Lines,,0,0,0,,Tại sao? Sao con không dồn cơn thịnh nộ đó\Nvào biển?
+Dialogue: 0,0:01:43.18,0:01:45.62,Lines,,0,0,0,,Sao con lại đánh bố mình hả?!
+Dialogue: 0,0:01:45.62,0:01:48.75,Lines,,0,0,0,,Chính ông là người ra tay trước chứ ai!
+Dialogue: 0,0:01:51.08,0:01:53.90,Lines,,0,0,0,,Xin lỗi, hai người đang làm gì vậy?
+Dialogue: 0,0:01:53.90,0:01:55.88,Lines,,0,0,0,,Đừng cãi nhau mà.
+Dialogue: 0,0:01:56.14,0:01:58.32,Lines,,0,0,0,,Làm gì thì kệ bọn tôi chứ!
+Dialogue: 0,0:01:58.97,0:02:00.22,Lines,,0,0,0,,Mọi người.
+Dialogue: 0,0:02:00.22,0:02:05.49,Lines,,0,0,0,,Xin hãy lắng nghe!
+Dialogue: 0,0:02:06.24,0:02:07.84,Lines,,0,0,0,,Có vẻ sẽ dài đấy.
+Dialogue: 0,0:02:07.84,0:02:09.54,Lines,,0,0,0,,Khí thế chưa kìa.
+Dialogue: 0,0:03:43.16,0:03:44.66,Lines,,0,0,0,,Quán ăn bãi biển à?
+Dialogue: 0,0:03:44.85,0:03:45.89,Lines,,0,0,0,,Vâng.
+Dialogue: 0,0:03:45.89,0:03:49.44,Lines,,0,0,0,,Chúng tôi đã mở quán ăn ở đây\Nđược ba đời rồi.
+Dialogue: 0,0:03:49.44,0:03:50.54,Lines,,0,0,0,,Ba đời...
+Dialogue: 0,0:03:50.77,0:03:53.01,Lines,,0,0,0,,Còn đây là đời thứ tư, Ryunosuke.
+Dialogue: 0,0:03:53.01,0:03:55.20,Lines,,0,0,0,,Tôi chưa nói là sẽ kế thừa nhé!
+Dialogue: 0,0:03:55.20,0:03:57.52,Lines,,0,0,0,,Mày! Vẫn còn nói mấy câu ngu ngốc\Nđó sao?!
+Dialogue: 0,0:03:57.52,0:04:00.25,Lines,,0,0,0,,Ai ngu ngốc cơ?!
+Dialogue: 0,0:04:03.09,0:04:06.64,Lines,,0,0,0,,Đứa con nóng nảy này...\NTội nghiệp cái thân tôi...
+Dialogue: 0,0:04:06.64,0:04:08.60,Lines,,0,0,0,,Bố nào con nấy thôi!
+Dialogue: 0,0:04:08.84,0:04:12.93,Lines,,0,0,0,,Lúc nãy, bác nói "biển là đồ ngốc"...\Nlà sao vậy ạ?
+Dialogue: 0,0:04:13.14,0:04:17.53,Lines,,0,0,0,,Cô bé, biển và quán ăn bãi biển\Ncó chung một vận mệnh.
+Dialogue: 0,0:04:17.53,0:04:18.65,Lines,,0,0,0,,Nói cách khác.
+Dialogue: 0,0:04:18.82,0:04:21.22,Lines,,0,0,0,,Vì có biển nên mới có quán ăn bãi biển.
+Dialogue: 0,0:04:21.22,0:04:23.61,Lines,,0,0,0,,Vì có quán ăn bãi biển\Nnên biển mới hưng thịnh.
+Dialogue: 0,0:04:23.86,0:04:25.11,Lines,,0,0,0,,Ấy vậy mà...
+Dialogue: 0,0:04:25.38,0:04:27.22,Lines,,0,0,0,,Vừa hết hè một cái...
+Dialogue: 0,0:04:27.22,0:04:31.22,Lines,,0,0,0,,là chúng lại nổi cơn sóng lớn,\Ncản trở việc kinh doanh của quán.
+Dialogue: 0,0:04:31.99,0:04:35.33,Lines,,0,0,0,,Biển là đồ phản bội!
+Dialogue: 0,0:04:35.33,0:04:38.17,Lines,,0,0,0,,Biển là đồ ngốc!
+Dialogue: 0,0:04:38.41,0:04:40.13,Lines,,0,0,0,,Thật chẳng thể ưa nổi.
+Dialogue: 0,0:04:40.38,0:04:42.13,Lines,,0,0,0,,Quả nhiên tôi sẽ làm nghề khác.
+Dialogue: 0,0:04:42.13,0:04:43.09,Lines,,0,0,0,,Mày!
+Dialogue: 0,0:04:43.30,0:04:44.90,Lines,,0,0,0,,Vẫn còn nói thế à?!
+Dialogue: 0,0:04:44.90,0:04:46.13,Lines,,0,0,0,,Đợi đã, bác ơi!
+Dialogue: 0,0:04:46.13,0:04:47.41,Lines,,0,0,0,,Không được dùng bạo lực!
+Dialogue: 0,0:04:47.41,0:04:48.55,Lines,,0,0,0,,Mày vẫn chưa hiểu à?!
+Dialogue: 0,0:04:48.55,0:04:52.01,Lines,,0,0,0,,Cậu cũng hiểu cho cảm xúc của bố\Nmột chút đi.
+Dialogue: 0,0:04:52.01,0:04:55.18,Lines,,0,0,0,,Vì... tôi không chịu nổi nữa.
+Dialogue: 0,0:04:56.20,0:04:57.62,Lines,,0,0,0,,Ryunosuke...
+Dialogue: 0,0:04:58.60,0:05:00.17,Lines,,0,0,0,,Nhà tôi...
+Dialogue: 0,0:05:00.37,0:05:03.07,Lines,,0,0,0,,mở quán ăn bãi biển\Nquanh năm suốt tháng đấy.
+Dialogue: 0,0:05:04.24,0:05:05.53,Lines,,0,0,0,,Quanh năm suốt tháng?
+Dialogue: 0,0:05:05.53,0:05:08.85,Lines,,0,0,0,,Đến mùa đông thì thật sự\Nthảm lắm luôn.
+Dialogue: 0,0:05:10.82,0:05:13.73,Lines,,0,0,0,,Ngoài trời thì tuyết rơi dày đặc.
+Dialogue: 0,0:05:13.73,0:05:15.50,Lines,,0,0,0,,Chẳng có mông khách nào, vậy mà...
+Dialogue: 0,0:05:15.50,0:05:17.79,Lines,,0,0,0,,Bố... con lạnh quá...
+Dialogue: 0,0:05:17.79,0:05:20.38,Lines,,0,0,0,,Ngu ngốc! Vậy mà là con của bố sao?!
+Dialogue: 0,0:05:20.38,0:05:22.77,Lines,,0,0,0,,Chẳng có ai đến đâu!
+Dialogue: 0,0:05:23.97,0:05:26.54,Lines,,0,0,0,,Tôi luôn bị bố mắng như thế.
+Dialogue: 0,0:05:28.09,0:05:28.78,Lines,,0,0,0,,Về thôi.
+Dialogue: 0,0:05:28.78,0:05:29.80,Lines,,0,0,0,,Đúng vậy.
+Dialogue: 0,0:05:29.80,0:05:30.85,Lines,,0,0,0,,Anh yêu.
+Dialogue: 0,0:05:30.85,0:05:32.54,Lines,,0,0,0,,Cứ vậy mà về được sao?
+Dialogue: 0,0:05:32.54,0:05:33.22,Lines,,0,0,0,,Thì sao?
+Dialogue: 0,0:05:33.50,0:05:36.16,Lines,,0,0,0,,Chẳng lẽ lại bỏ mặc hai bố con họ?
+Dialogue: 0,0:05:36.36,0:05:38.56,Lines,,0,0,0,,Chúng ta chỉ là người xa lạ.
+Dialogue: 0,0:05:38.56,0:05:41.86,Lines,,0,0,0,,Có tiếp tục quán ăn hay không\Nlà vấn đề nội bộ của họ.
+Dialogue: 0,0:05:42.06,0:05:42.89,Lines,,0,0,0,,Phải.
+Dialogue: 0,0:05:42.89,0:05:45.69,Lines,,0,0,0,,Không có chỗ cho người ngoài\Nlên tiếng.
+Dialogue: 0,0:05:46.49,0:05:48.62,Lines,,0,0,0,,Các vị khách cũng nói thế kìa.
+Dialogue: 0,0:05:48.62,0:05:50.86,Lines,,0,0,0,,Con hãy ngoan ngoãn\Nkế thừa quán đi.
+Dialogue: 0,0:05:50.86,0:05:52.32,Lines,,0,0,0,,Sao lại thành như thế.
+Dialogue: 0,0:05:52.32,0:05:53.49,Lines,,0,0,0,,Mày có phải con của bố không hả?!
+Dialogue: 0,0:05:53.49,0:05:54.84,Lines,,0,0,0,,Cứ thấy không nỡ.
+Dialogue: 0,0:05:54.84,0:05:57.29,Lines,,0,0,0,,Can thiệp vào chuyện nhà người ta\Nlà xấu lắm.
+Dialogue: 0,0:05:57.50,0:05:58.75,Lines,,0,0,0,,Đúng vậy đấy.
+Dialogue: 0,0:05:58.98,0:06:04.02,Lines,,0,0,0,,Bố đã đặt tên mày là Ryunosuke,\Nngười đàn ông chinh phục biển cả!
+Dialogue: 0,0:06:04.02,0:06:06.80,Lines,,0,0,0,,Vậy mà mày vẫn không hiểu à?!
+Dialogue: 0,0:06:06.80,0:06:09.01,Lines,,0,0,0,,Đó là cái tôi ghét nhất đấy!
+Dialogue: 0,0:06:09.01,0:06:11.68,Lines,,0,0,0,,Tại sao tôi phải sống như đàn ông?!
+Dialogue: 0,0:06:12.76,0:06:15.39,Lines,,0,0,0,,Tôi là con gái đó!
+Dialogue: 0,0:06:15.39,0:06:17.39,Lines,,0,0,0,,...là con gái đó ...là con gái đó!
+Dialogue: 0,0:06:17.39,0:06:18.81,Lines,,0,0,0,,Ơ kìa?
+Dialogue: 0,0:06:20.04,0:06:21.06,Lines,,0,0,0,,Chưa về hả?
+Dialogue: 0,0:06:21.06,0:06:23.00,Lines,,0,0,0,,C-Cho tôi...
+Dialogue: 0,0:06:23.00,0:06:24.52,Lines,,0,0,0,,nhìn rõ mặt một chút.
+Dialogue: 0,0:06:24.52,0:06:27.37,Lines,,0,0,0,,G-Gì vậy? Gớm quá.
+Dialogue: 0,0:06:32.22,0:06:33.36,Lines,,0,0,0,,Thế có về không?
+Dialogue: 0,0:06:33.36,0:06:34.49,Lines,,0,0,0,,Nói gì thế?!
+Dialogue: 0,0:06:34.49,0:06:36.62,Lines,,0,0,0,,Sao có thể bỏ mặc bố con họ!
+Dialogue: 0,0:06:38.06,0:06:40.36,Lines,,0,0,0,,Một cô gái thật đáng thương làm sao.
+Dialogue: 0,0:06:40.56,0:06:43.49,Lines,,0,0,0,,Nếu như tôi có thể làm gì thì cứ nói.
+Dialogue: 0,0:06:45.96,0:06:48.30,Lines,,0,0,0,,Đừng có xán vào! Thấy mà gớm!
+Dialogue: 0,0:06:48.30,0:06:51.12,Lines,,0,0,0,,Công nhận là cậu mạnh mẽ thật.
+Dialogue: 0,0:06:51.12,0:06:54.43,Lines,,0,0,0,,Chết tiệt! Tất cả là lỗi của ông già.
+Dialogue: 0,0:06:57.25,0:06:59.33,Lines,,0,0,0,,Các cậu thích thật đấy.
+Dialogue: 0,0:06:59.33,0:07:02.25,Lines,,0,0,0,,Được mặc mấy thứ thú vị như thế.
+Dialogue: 0,0:07:02.25,0:07:03.40,Lines,,0,0,0,,Đồ bơi á?
+Dialogue: 0,0:07:03.58,0:07:07.48,Lines,,0,0,0,,Tôi còn chưa được mặc váy bao giờ.
+Dialogue: 0,0:07:07.48,0:07:10.49,Lines,,0,0,0,,Tôi rất thích đồng phục thủy thủ đó.
+Dialogue: 0,0:07:11.45,0:07:12.77,Lines,,0,0,0,,Ryunosuke.
+Dialogue: 0,0:07:12.77,0:07:13.76,Lines,,0,0,0,,Gì hả?
+Dialogue: 0,0:07:14.49,0:07:16.95,Lines,,0,0,0,,Xuống biển mà làm nguội đầu đi!
+Dialogue: 0,0:07:20.41,0:07:21.21,Lines,,0,0,0,,Nguy hiểm!
+Dialogue: 0,0:07:21.48,0:07:22.46,Lines,,0,0,0,,Cô gái!
+Dialogue: 0,0:07:28.58,0:07:30.14,Lines,,0,0,0,,Xin lỗi nhé.
+Dialogue: 0,0:07:30.14,0:07:32.80,Lines,,0,0,0,,Máu đánh nhau ăn sâu vào người rồi.
+Dialogue: 0,0:07:33.05,0:07:34.58,Lines,,0,0,0,,Thật đáng thương.
+Dialogue: 0,0:07:35.68,0:07:37.81,Lines,,0,0,0,,Đừng có xán vào!
+Dialogue: 0,0:07:39.30,0:07:40.77,Lines,,0,0,0,,Ryunosuke.
+Dialogue: 0,0:07:40.96,0:07:43.73,Lines,,0,0,0,,Hãy nhìn những cơn sóng dữ đó.
+Dialogue: 0,0:07:44.02,0:07:48.34,Lines,,0,0,0,,Sự mạnh mẽ, sự dữ dội,\Nsự hung bạo đó...
+Dialogue: 0,0:07:48.92,0:07:52.53,Lines,,0,0,0,,Chẳng phải đó chính là biểu tượng\Ncủa đàn ông sao?!
+Dialogue: 0,0:07:53.34,0:07:55.99,Lines,,0,0,0,,Tôi là con gái!
+Dialogue: 0,0:07:59.74,0:08:02.66,Lines,,0,0,0,,Cú đấm vừa rồi... khá đau đấy.
+Dialogue: 0,0:08:03.41,0:08:06.44,Lines,,0,0,0,,Nhưng sao con cái lại đấm cha mẹ hả?
+Dialogue: 0,0:08:06.44,0:08:09.25,Lines,,0,0,0,,Ông thì đấm bao lần cũng được nhé!
+Dialogue: 0,0:08:10.06,0:08:11.08,Lines,,0,0,0,,Đúng là về thôi.
+Dialogue: 0,0:08:11.08,0:08:12.97,Lines,,0,0,0,,Ơ, đi đâu vậy!?
+Dialogue: 0,0:08:12.97,0:08:16.34,Lines,,0,0,0,,Định bỏ rơi người bố đáng thương\Nnày sao?
+Dialogue: 0,0:08:16.34,0:08:17.73,Lines,,0,0,0,,Xin lỗi, nhưng mà...
+Dialogue: 0,0:08:17.73,0:08:21.22,Lines,,0,0,0,,Chẳng có chỗ nào để xen vào\Ngiữa hai bố con bác cả.
+Dialogue: 0,0:08:23.77,0:08:26.22,Lines,,0,0,0,,Ra vậy. Miễn phí à?
+Dialogue: 0,0:08:26.22,0:08:27.86,Lines,,0,0,0,,Chà, thật ngại quá.
+Dialogue: 0,0:08:28.10,0:08:31.32,Lines,,0,0,0,,Xin hãy giúp tôi thuyết phục Ryunosuke.
+Dialogue: 0,0:08:31.32,0:08:33.88,Lines,,0,0,0,,Hừ, khó coi quá đó, ông già.
+Dialogue: 0,0:08:33.88,0:08:35.88,Lines,,0,0,0,,Định mượn sức người ngoài à?
+Dialogue: 0,0:08:36.32,0:08:38.24,Lines,,0,0,0,,Cái gì cơ?!
+Dialogue: 0,0:08:38.24,0:08:42.33,Lines,,0,0,0,,Mày nghĩ tao đang cố gắng vì ai hả,\Nđứa con trời đánh?!
+Dialogue: 0,0:08:48.45,0:08:49.66,Lines,,0,0,0,,Lưỡng bại câu thương!
+Dialogue: 0,0:08:49.66,0:08:51.25,Lines,,0,0,0,,Dính đòn cùng lúc.
+Dialogue: 0,0:08:52.60,0:08:53.34,Lines,,0,0,0,,Nè.
+Dialogue: 0,0:08:53.55,0:08:56.18,Lines,,0,0,0,,Thật sự có thể hòa giải\Nhai bố con nhà này sao?
+Dialogue: 0,0:08:56.18,0:08:57.47,Lines,,0,0,0,,Không tự tin cho lắm.
+Dialogue: 0,0:08:58.26,0:09:00.80,Lines,,0,0,0,,Trước mắt cứ làm họ\Nkhông thể đánh nhau được nữa đi.
+Dialogue: 0,0:09:01.25,0:09:04.31,Lines,,0,0,0,,Cái này thì vào đây.\NCái tay này thì thế này.
+Dialogue: 0,0:09:12.32,0:09:15.16,Lines,,0,0,0,,C-Cái gì thế này?!
+Dialogue: 0,0:09:15.16,0:09:17.61,Lines,,0,0,0,,Ông già, đây là trò của ông hả?!
+Dialogue: 0,0:09:17.61,0:09:18.85,Lines,,0,0,0,,Ngu ngốc!
+Dialogue: 0,0:09:18.85,0:09:21.49,Lines,,0,0,0,,Không thấy bố mày cũng như thế này à?!
+Dialogue: 0,0:09:21.49,0:09:23.39,Lines,,0,0,0,,Không đánh nhau được nữa đâu!
+Dialogue: 0,0:09:23.39,0:09:25.53,Lines,,0,0,0,,Hãy nói chuyện mà không dùng bạo lực đi nhé.
+Dialogue: 0,0:09:25.53,0:09:27.79,Lines,,0,0,0,,Chết tiệt, các người!
+Dialogue: 0,0:09:27.79,0:09:31.21,Lines,,0,0,0,,Định trói buộc tôi vào quán ăn bãi biển\Ncả đời đấy hả?!
+Dialogue: 0,0:09:31.21,0:09:35.80,Lines,,0,0,0,,Ryunosuke, mày vẫn không hiểu\Nmọi người đang lo cho mày sao?!
+Dialogue: 0,0:09:35.80,0:09:38.88,Lines,,0,0,0,,Chết tiệt! Quyết đấu nào, ông già!
+Dialogue: 0,0:09:38.88,0:09:41.60,Lines,,0,0,0,,Thích thì bố mày chiều!
+Dialogue: 0,0:09:56.74,0:09:59.02,Lines,,0,0,0,,Này thì! Này thì!
+Dialogue: 0,0:09:59.02,0:10:00.80,Lines,,0,0,0,,Quá tầm thường!
+Dialogue: 0,0:10:00.80,0:10:01.80,Lines,,0,0,0,,Thua rồi.
+Dialogue: 0,0:10:01.94,0:10:03.30,Lines,,0,0,0,,Chẳng thể theo nổi.
+Dialogue: 0,0:10:04.14,0:10:07.76,Lines,,0,0,0,,Để tao cho mày thấy\Nthế giới của đàn ông!
+Dialogue: 0,0:10:07.76,0:10:11.79,Lines,,0,0,0,,Tôi là con gái!
+Dialogue: 0,0:10:18.83,0:10:20.88,Lines,,0,0,0,,Chúng ta đi đâu vậy, ông già?
+Dialogue: 0,0:10:20.88,0:10:22.88,Lines,,0,0,0,,Im lặng mà đi theo bố đi.
+Dialogue: 0,0:10:23.18,0:10:26.24,Lines,,0,0,0,,Ryunosuke, vẫn đang đẩy đằng sau\Nđấy chứ?
+Dialogue: 0,0:10:26.24,0:10:27.35,Lines,,0,0,0,,Vẫn đang đẩy mà.
+Dialogue: 0,0:10:27.35,0:10:29.73,Lines,,0,0,0,,Thế mà tại sao nặng thế nhỉ?
+Dialogue: 0,0:10:29.94,0:10:31.44,Lines,,0,0,0,,Chắc do tuổi già đấy.
+Dialogue: 0,0:10:52.29,0:10:54.08,Lines,,0,0,0,,Anh yêu, là hai bố con đó.
+Dialogue: 0,0:10:54.08,0:10:56.55,Lines,,0,0,0,,A, ở quán ăn bãi biển tuần trước.
+Dialogue: 0,0:10:57.07,0:10:59.07,Lines,,0,0,0,,Hai người làm gì ở đây vậy?
+Dialogue: 0,0:10:59.07,0:11:00.63,Lines,,0,0,0,,Ồ, hai đứa.
+Dialogue: 0,0:11:00.63,0:11:04.08,Lines,,0,0,0,,À, do quán ăn bị sập...
+Dialogue: 0,0:11:04.08,0:11:08.00,Lines,,0,0,0,,tôi đang cần tiền để xây lại...
+Dialogue: 0,0:11:08.00,0:11:12.60,Lines,,0,0,0,,nên chuyển đến làm việc\Ncho quầy ăn của một trường cấp ba ở đây.
+Dialogue: 0,0:11:16.98,0:11:20.24,Lines,,0,0,0,,Đủ rồi đấy!
+Dialogue: 0,0:11:20.44,0:11:22.24,Lines,,0,0,0,,Nhìn đi, Ryunosuke.
+Dialogue: 0,0:11:22.24,0:11:25.20,Lines,,0,0,0,,Đây chính là cơn sóng dữ mới\Ncủa chúng ta.
+Dialogue: 0,0:11:25.33,0:11:28.01,Lines,,0,0,0,,Từ hôm nay, con sẽ là học sinh\Ncủa trường này.
+Dialogue: 0,0:11:35.86,0:11:38.75,Lines,,0,0,0,,Muốn mặc cái này đúng không, Ryunosuke?
+Dialogue: 0,0:11:38.75,0:11:43.53,Lines,,0,0,0,,Đ-Đó là... đ-đồng phục thủy thủ!
+Dialogue: 0,0:11:43.53,0:11:45.55,Lines,,0,0,0,,Nếu muốn mặc thì hãy đánh bại bố!
+Dialogue: 0,0:11:45.55,0:11:47.93,Lines,,0,0,0,,Hãy bước qua xác của người bố này!
+Dialogue: 0,0:11:47.93,0:11:49.72,Lines,,0,0,0,,Nói thật chứ, ông già?
+Dialogue: 0,0:11:49.72,0:11:51.52,Lines,,0,0,0,,Đàn ông không nói hai lời.
+Dialogue: 0,0:11:51.87,0:11:53.38,Lines,,0,0,0,,Gì thế? Cãi nhau à?
+Dialogue: 0,0:11:53.38,0:11:55.31,Lines,,0,0,0,,Ryu, cố lên!
+Dialogue: 0,0:11:55.31,0:11:57.73,Lines,,0,0,0,,Làm gì mà tụ tập đông thế?
+Dialogue: 0,0:11:57.73,0:11:59.57,Lines,,0,0,0,,Này, em là học sinh mới nhỉ?
+Dialogue: 0,0:11:59.57,0:12:00.48,Lines,,0,0,0,,Mau vào phòng giáo viên-
+Dialogue: 0,0:12:01.11,0:12:02.61,Lines,,0,0,0,,Đừng có cản trở!
+Dialogue: 0,0:12:02.61,0:12:06.75,Lines,,0,0,0,,Tôi đang đứng trước\Nbước ngoặt của cuộc đời!
+Dialogue: 0,0:12:07.57,0:12:11.56,Lines,,0,0,0,,Những chị gái cười nói với nhau\Ntrong chiếc váy bồng bềnh...
+Dialogue: 0,0:12:11.56,0:12:15.48,Lines,,0,0,0,,Biết bao lần tôi đã nhìn họ\Ntrong thèm khát.
+Dialogue: 0,0:12:15.67,0:12:17.96,Lines,,0,0,0,,Bây giờ, đồng phục thủy thủ...
+Dialogue: 0,0:12:17.96,0:12:20.38,Lines,,0,0,0,,sẽ là của tôi!
+Dialogue: 0,0:12:21.51,0:12:23.16,Lines,,0,0,0,,Đừng hòng!
+Dialogue: 0,0:12:23.46,0:12:25.72,Lines,,0,0,0,,Có thắng được bố không, Ryunosuke?
+Dialogue: 0,0:12:28.93,0:12:31.39,Lines,,0,0,0,,Ông già, quyết đấu nào!
+Dialogue: 0,0:12:32.17,0:12:33.31,Lines,,0,0,0,,Tôi lên đây!
+Dialogue: 0,0:12:34.90,0:12:35.92,Lines,,0,0,0,,Dễ thương quá!
+Dialogue: 0,0:12:37.32,0:12:39.27,Lines,,0,0,0,,Sơ hở!
+Dialogue: 0,0:12:40.62,0:12:41.56,Lines,,0,0,0,,Ngu ngốc.
+Dialogue: 0,0:12:41.56,0:12:44.03,Lines,,0,0,0,,Muốn thắng bố thì 10 năm nữa đi.
+Dialogue: 0,0:12:45.44,0:12:47.17,Lines,,0,0,0,,Trời ơi...
+Dialogue: 0,0:12:47.94,0:12:48.97,Lines,,0,0,0,,Thật đáng thương.
+Dialogue: 0,0:12:50.49,0:12:52.66,Lines,,0,0,0,,Tại ông chứ ai!
+Dialogue: 0,0:12:53.70,0:12:55.37,Lines,,0,0,0,,Và bây giờ,
+Dialogue: 0,0:12:55.37,0:12:57.25,Lines,,0,0,0,,thầy xin giới thiệu học sinh mới.
+Dialogue: 0,0:12:58.51,0:13:00.21,Lines,,0,0,0,,Fujinami Ryunosuke.
+Dialogue: 0,0:13:00.77,0:13:01.67,Lines,,0,0,0,,Hân hạnh làm quen.
+Dialogue: 0,0:13:01.92,0:13:02.98,Lines,,0,0,0,,Lịch lãm quá.
+Dialogue: 0,0:13:02.98,0:13:04.63,Lines,,0,0,0,,Ryunosuke sao?
+Dialogue: 0,0:13:04.76,0:13:06.46,Lines,,0,0,0,,Tôi là con gái.
+Dialogue: 0,0:13:06.46,0:13:07.63,Lines,,0,0,0,,Dễ thương quá.
+Dialogue: 0,0:13:07.63,0:13:09.05,Lines,,0,0,0,,Kiểu nào cũng tuyệt hết.
+Dialogue: 0,0:13:09.05,0:13:10.24,Lines,,0,0,0,,Đáng yêu quá.
+Dialogue: 0,0:13:10.24,0:13:11.76,Lines,,0,0,0,,Dễ thương quá.
+Dialogue: 0,0:13:12.29,0:13:14.31,Lines,,0,0,0,,Thời đại của Mendo đã kết thúc rồi nhỉ.
+Dialogue: 0,0:13:15.23,0:13:17.15,Lines,,0,0,0,,Tình thế nguy hiểm đấy.
+Dialogue: 0,0:13:19.52,0:13:23.65,Lines,,0,0,0,,Con gái trong lớp\Nđều đang chú ý đến Ryunosuke.
+Dialogue: 0,0:13:23.65,0:13:26.01,Lines,,0,0,0,,Độc chiếm toàn bộ con gái luôn.
+Dialogue: 0,0:13:26.01,0:13:29.11,Lines,,0,0,0,,Cứ đà này, sẽ chẳng ai chú ý\Nđến chúng ta mất.
+Dialogue: 0,0:13:29.47,0:13:30.91,Lines,,0,0,0,,Phải làm sao đây?
+Dialogue: 0,0:13:31.53,0:13:34.56,Lines,,0,0,0,,Muốn thấy Ryuchan mặc đồ thủy thủ ghê.
+Dialogue: 0,0:13:34.56,0:13:35.64,Lines,,0,0,0,,Chính là nó!
+Dialogue: 0,0:13:37.25,0:13:38.33,Lines,,0,0,0,,Ông bác.
+Dialogue: 0,0:13:39.45,0:13:40.83,Lines,,0,0,0,,Cho một đồng phục thủy thủ.
+Dialogue: 0,0:13:40.83,0:13:43.58,Lines,,0,0,0,,Mấy đứa là đồng bọn của Ryunosuke hả?
+Dialogue: 0,0:13:43.58,0:13:44.97,Lines,,0,0,0,,Đúng rồi đấy.
+Dialogue: 0,0:13:44.97,0:13:47.30,Lines,,0,0,0,,Ngoan ngoãn bán đồng phục thủy thủ đi.
+Dialogue: 0,0:13:47.30,0:13:49.04,Lines,,0,0,0,,Còn lâu nhé.
+Dialogue: 0,0:13:49.04,0:13:51.55,Lines,,0,0,0,,Nếu thật sự muốn đồng phục thủy thủ...
+Dialogue: 0,0:13:51.55,0:13:53.76,Lines,,0,0,0,,thì hãy đánh bại ta đi đã!
+Dialogue: 0,0:13:53.76,0:13:54.66,Lines,,0,0,0,,Tấn công!
+Dialogue: 0,0:13:58.38,0:14:01.32,Lines,,0,0,0,,Q-Q-Quân hèn hạ!
+Dialogue: 0,0:14:02.26,0:14:04.13,Lines,,0,0,0,,Đây là chuẩn mực ở đây đó.
+Dialogue: 0,0:14:05.86,0:14:06.74,Lines,,0,0,0,,Hể...
+Dialogue: 0,0:14:06.74,0:14:10.20,Lines,,0,0,0,,Cậu được nuôi dạy như con trai\Nđể kế thừa quán ăn bãi biển sao?
+Dialogue: 0,0:14:10.20,0:14:13.46,Lines,,0,0,0,,Tuy không hiểu lắm,\Nnhưng Ryunosuke tuyệt vời quá.
+Dialogue: 0,0:14:13.46,0:14:16.94,Lines,,0,0,0,,Đúng đấy. Điểm đó thật bí ẩn làm sao.
+Dialogue: 0,0:14:16.94,0:14:18.37,Lines,,0,0,0,,Đồng phục thủy thủ...
+Dialogue: 0,0:14:19.16,0:14:20.37,Lines,,0,0,0,,Muốn mặc ghê.
+Dialogue: 0,0:14:20.83,0:14:22.04,Lines,,0,0,0,,Ryuchan.
+Dialogue: 0,0:14:22.54,0:14:24.21,Lines,,0,0,0,,Đây. Của cậu đấy.
+Dialogue: 0,0:14:24.21,0:14:25.13,Lines,,0,0,0,,Hả?
+Dialogue: 0,0:14:26.12,0:14:27.63,Lines,,0,0,0,,Các cậu, đây là...
+Dialogue: 0,0:14:27.88,0:14:31.05,Lines,,0,0,0,,Bọn tôi đã cố gắng để thuyết phục bố cậu.
+Dialogue: 0,0:14:31.05,0:14:31.64,Lines,,0,0,0,,Hả?
+Dialogue: 0,0:14:31.64,0:14:33.39,Lines,,0,0,0,,Tôi thật sự có thể mặc sao?
+Dialogue: 0,0:14:33.76,0:14:35.25,Lines,,0,0,0,,Thật sự có thể mà.
+Dialogue: 0,0:14:45.18,0:14:48.24,Lines,,0,0,0,,Không, tôi chỉ xin nhận tấm lòng thôi.
+Dialogue: 0,0:14:48.24,0:14:49.19,Lines,,0,0,0,,Hả?
+Dialogue: 0,0:14:49.55,0:14:53.70,Lines,,0,0,0,,Tôi phải tự tay đánh bại ông già rồi lấy được\Nthì mới cam lòng.
+Dialogue: 0,0:14:54.40,0:14:57.16,Lines,,0,0,0,,Một ngày nào đó, tôi sẽ mặc\Nbằng chính sức mình!
+Dialogue: 0,0:14:58.22,0:14:59.12,Lines,,0,0,0,,Tuyệt vời quá.
+Dialogue: 0,0:14:59.79,0:15:03.22,Lines,,0,0,0,,Tôi không nghĩ đó là vấn đề đâu.
+Dialogue: 0,0:15:05.47,0:15:06.88,Lines,,0,0,0,,Với cả...
+Dialogue: 0,0:15:07.44,0:15:12.01,Lines,,0,0,0,,dường như mình còn thiếu gì đó\Nđể mặc đồng phục thủy thủ.
+Dialogue: 0,0:15:15.22,0:15:16.81,Lines,,0,0,0,,Lum có đây không?
+Dialogue: 0,0:15:18.14,0:15:19.73,Lines,,0,0,0,,Đây rồi, đây rồi.
+Dialogue: 0,0:15:24.30,0:15:25.46,Lines,,0,0,0,,Cậu ấy...
+Dialogue: 0,0:15:25.98,0:15:29.46,Lines,,0,0,0,,chính xác là các chị mặc đồng phục thủy thủ\Nmà mình ngưỡng mộ!
+Dialogue: 0,0:15:30.30,0:15:31.46,Lines,,0,0,0,,Trả cậu nhé.
+Dialogue: 0,0:15:31.46,0:15:33.70,Lines,,0,0,0,,Với cả lại cho tớ mượn vở nhé.
+Dialogue: 0,0:15:33.96,0:15:34.97,Lines,,0,0,0,,Được thôi.
+Dialogue: 0,0:15:34.97,0:15:36.97,Lines,,0,0,0,,Yay! Cảm ơn!
+Dialogue: 0,0:15:36.97,0:15:38.37,Lines,,0,0,0,,Tớ sẽ lại đến.
+Dialogue: 0,0:15:39.32,0:15:39.98,Lines,,0,0,0,,Lan.
+Dialogue: 0,0:15:40.18,0:15:41.61,Lines,,0,0,0,,Hôm nay cậu cũng dễ thương lắm.
+Dialogue: 0,0:15:41.61,0:15:44.12,Lines,,0,0,0,,Thôi mà, anh yêu này.
+Dialogue: 0,0:15:46.25,0:15:47.92,Lines,,0,0,0,,Thôi, gặp sau nhé.
+Dialogue: 0,0:15:47.92,0:15:48.98,Lines,,0,0,0,,Gặp sau.
+Dialogue: 0,0:15:49.86,0:15:51.85,Lines,,0,0,0,,Này, đó là ai vậy?
+Dialogue: 0,0:15:51.85,0:15:53.84,Lines,,0,0,0,,Lan, bạn thuở nhỏ của tớ.
+Dialogue: 0,0:15:53.84,0:15:57.38,Lines,,0,0,0,,L-Làm ơn! Cho tôi xin địa chỉ liên lạc\Ncủa cậu ấy đi.
+Dialogue: 0,0:15:57.38,0:15:58.22,Lines,,0,0,0,,Cái gì?!
+Dialogue: 0,0:16:01.88,0:16:02.40,Lines,,0,0,0,,Ủa?
+Dialogue: 0,0:16:03.02,0:16:04.94,Lines,,0,0,0,,Fujinami Ryunosuke?
+Dialogue: 0,0:16:06.37,0:16:08.48,Lines,,0,0,0,,Gì chứ, lại thư tình à?
+Dialogue: 0,0:16:08.67,0:16:10.48,Lines,,0,0,0,,Tên này mới thì phải.
+Dialogue: 0,0:16:10.91,0:16:13.63,Lines,,0,0,0,,Khoan, lớp 2-4?
+Dialogue: 0,0:16:16.16,0:16:18.37,Lines,,0,0,0,,Lum, cảm ơn.
+Dialogue: 0,0:16:18.56,0:16:20.95,Lines,,0,0,0,,Nè, Fujinami là bạn nào?
+Dialogue: 0,0:16:21.50,0:16:23.24,Lines,,0,0,0,,Đó là Ryunosuke đấy.
+Dialogue: 0,0:16:23.41,0:16:25.56,Lines,,0,0,0,,Ra vậy.
+Dialogue: 0,0:16:25.56,0:16:27.58,Lines,,0,0,0,,Sao đây nhỉ...
+Dialogue: 0,0:16:27.82,0:16:31.09,Lines,,0,0,0,,Có nên đồng ý đi chơi\Nđể giết thời gian không?
+Dialogue: 0,0:16:31.09,0:16:33.05,Lines,,0,0,0,,Hm? Là sao?
+Dialogue: 0,0:16:33.44,0:16:37.72,Lines,,0,0,0,,Thật ra tớ đã nhận được thư tình\Ntừ cậu ấy.
+Dialogue: 0,0:16:37.72,0:16:39.72,Lines,,0,0,0,,Ryunosuke là con gái mà.
+Dialogue: 0,0:16:41.66,0:16:42.81,Lines,,0,0,0,,Cái giề?!
+Dialogue: 0,0:16:42.81,0:16:44.53,Lines,,0,0,0,,Giỡn mặt đấy hả, con khùng này?!
+Dialogue: 0,0:16:44.53,0:16:45.77,Lines,,0,0,0,,Thật mà!
+Dialogue: 0,0:16:47.02,0:16:48.42,Lines,,0,0,0,,Ta đọc được đó, Lum.
+Dialogue: 0,0:16:48.42,0:16:49.36,Lines,,0,0,0,,Hể?
+Dialogue: 0,0:16:49.36,0:16:52.69,Lines,,0,0,0,,Ngươi ghen tị vì thấy ta\Nđược yêu mến chứ gì?
+Dialogue: 0,0:16:52.69,0:16:54.42,Lines,,0,0,0,,Hiểu nhầm rồi!
+Dialogue: 0,0:16:54.68,0:16:56.03,Lines,,0,0,0,,Thú vị đấy.
+Dialogue: 0,0:16:56.03,0:16:58.66,Lines,,0,0,0,,Ta rất thích làm những việc\Nmà ngươi ghét.
+Dialogue: 0,0:17:02.84,0:17:04.12,Lines,,0,0,0,,Ryunosuke.
+Dialogue: 0,0:17:04.12,0:17:05.54,Lines,,0,0,0,,À... ừ.
+Dialogue: 0,0:17:05.93,0:17:09.25,Lines,,0,0,0,,Mình đồng ý đi chơi với cậu.
+Dialogue: 0,0:17:09.25,0:17:10.71,Lines,,0,0,0,,Cái giề?!
+Dialogue: 0,0:17:10.71,0:17:13.30,Lines,,0,0,0,,Thật sao? Thật sự đồng ý đi chơi\Nvới tôi sao?
+Dialogue: 0,0:17:16.22,0:17:18.59,Lines,,0,0,0,,Sau giờ học, hãy đợi mình ở cổng trường nhé.
+Dialogue: 0,0:17:19.69,0:17:20.59,Lines,,0,0,0,,Ừ!
+Dialogue: 0,0:17:21.01,0:17:23.47,Lines,,0,0,0,,R-Ryuchan và Lan của mình...
+Dialogue: 0,0:17:23.47,0:17:25.81,Lines,,0,0,0,,Nhất định phải cản lại!
+Dialogue: 0,0:17:29.15,0:17:32.85,Lines,,0,0,0,,Mình muốn mặc được đồng phục thủy thủ\Ngiống Lan.
+Dialogue: 0,0:17:32.85,0:17:36.96,Lines,,0,0,0,,Phải đi theo Lan\Nđể học thật kỹ cách làm con gái.
+Dialogue: 0,0:17:36.96,0:17:39.16,Lines,,0,0,0,,Ryunosuke!
+Dialogue: 0,0:17:39.16,0:17:39.66,Lines,,0,0,0,,Lan.
+Dialogue: 0,0:17:49.52,0:17:50.67,Lines,,0,0,0,,Chậm thế.
+Dialogue: 0,0:17:51.24,0:17:52.67,Lines,,0,0,0,,Không hề vội vàng.
+Dialogue: 0,0:17:53.42,0:17:55.88,Lines,,0,0,0,,Con gái đúng là tuyệt vời thật.
+Dialogue: 0,0:17:56.09,0:17:57.72,Lines,,0,0,0,,Xin lỗi.
+Dialogue: 0,0:17:58.35,0:17:59.68,Lines,,0,0,0,,Cậu đợi lâu không?
+Dialogue: 0,0:17:59.68,0:18:02.10,Lines,,0,0,0,,À, không, chỉ một chút thôi.
+Dialogue: 0,0:18:02.49,0:18:04.10,Lines,,0,0,0,,Ừm, tôi...
+Dialogue: 0,0:18:04.10,0:18:05.16,Lines,,0,0,0,,Gì vậy?
+Dialogue: 0,0:18:05.40,0:18:09.50,Lines,,0,0,0,,Lần đầu đi chung với con gái\Nnhư vậy.
+Dialogue: 0,0:18:09.50,0:18:11.06,Lines,,0,0,0,,Oa, thật sao?
+Dialogue: 0,0:18:11.72,0:18:13.68,Lines,,0,0,0,,Thế nên tôi...
+Dialogue: 0,0:18:14.84,0:18:17.15,Lines,,0,0,0,,muốn nhờ cậu dạy cách làm con gái!
+Dialogue: 0,0:18:20.56,0:18:22.24,Lines,,0,0,0,,Eo ơi!
+Dialogue: 0,0:18:22.89,0:18:25.22,Lines,,0,0,0,,Không ngờ hắn biến thái đến vậy.
+Dialogue: 0,0:18:28.25,0:18:31.74,Lines,,0,0,0,,Đ-Đây là k-k-kem hoa quả?!
+Dialogue: 0,0:18:31.74,0:18:32.92,Lines,,0,0,0,,Sao thế?
+Dialogue: 0,0:18:32.92,0:18:35.34,Lines,,0,0,0,,À, tôi chưa đến chỗ này bao giờ...
+Dialogue: 0,0:18:35.34,0:18:36.62,Lines,,0,0,0,,lại còn gọi kem hoa quả...
+Dialogue: 0,0:18:39.16,0:18:40.52,Lines,,0,0,0,,Không được.
+Dialogue: 0,0:18:40.67,0:18:43.81,Lines,,0,0,0,,Thấy một thứ xa xỉ như kem hoa quả\Nmà mình chót phấn khích quá.
+Dialogue: 0,0:18:44.21,0:18:47.10,Lines,,0,0,0,,Hôm nay, mình đến để học tập Lan.
+Dialogue: 0,0:18:50.32,0:18:51.52,Lines,,0,0,0,,Ngon quá.
+Dialogue: 0,0:18:53.42,0:18:55.33,Lines,,0,0,0,,Đặt khuỷu tay sang hai bên,
+Dialogue: 0,0:18:55.54,0:18:59.49,Lines,,0,0,0,,hếch cằm, xoay cổ tay và cười.
+Dialogue: 0,0:19:01.58,0:19:03.50,Lines,,0,0,0,,Ăn, ăn, ăn.
+Dialogue: 0,0:19:03.50,0:19:04.59,Lines,,0,0,0,,Chuẩn luôn.
+Dialogue: 0,0:19:04.99,0:19:06.25,Lines,,0,0,0,,Là ai nào?
+Dialogue: 0,0:19:06.25,0:19:07.70,Lines,,0,0,0,,Tôi...
+Dialogue: 0,0:19:08.33,0:19:10.50,Lines,,0,0,0,,đang bận nhé!
+Dialogue: 0,0:19:12.91,0:19:14.12,Lines,,0,0,0,,Lum.
+Dialogue: 0,0:19:14.43,0:19:16.38,Lines,,0,0,0,,Tình cờ thôi.
+Dialogue: 0,0:19:16.38,0:19:19.38,Lines,,0,0,0,,Ôi, mình vui quá.
+Dialogue: 0,0:19:20.44,0:19:21.51,Lines,,0,0,0,,Qua đây chút.
+Dialogue: 0,0:19:23.79,0:19:25.22,Lines,,0,0,0,,{\pos(960,150)}Thế là thế nào?!
+Dialogue: 0,0:19:25.46,0:19:27.31,Lines,,0,0,0,,Lén lút đi theo người ta...
+Dialogue: 0,0:19:27.49,0:19:31.68,Lines,,0,0,0,,Thế nào á?\NTớ chỉ đi theo anh yêu thôi.
+Dialogue: 0,0:19:31.95,0:19:33.65,Lines,,0,0,0,,Ta đọc được đó, Lum.
+Dialogue: 0,0:19:33.80,0:19:36.65,Lines,,0,0,0,,Lan có đọc đúng bao giờ đâu.
+Dialogue: 0,0:19:36.65,0:19:40.65,Lines,,0,0,0,,Ngươi chết mê Ryunosuke đúng không,\Nđồ lăng loàn!
+Dialogue: 0,0:19:41.17,0:19:42.92,Lines,,0,0,0,,Biết ngay mà.
+Dialogue: 0,0:19:45.52,0:19:47.16,Lines,,0,0,0,,Cậu chèo giỏi quá nhỉ.
+Dialogue: 0,0:19:47.33,0:19:48.88,Lines,,0,0,0,,Tôi lớn lên ở biển mà
+Dialogue: 0,0:19:49.24,0:19:51.39,Lines,,0,0,0,,Mình cũng muốn chèo thử.
+Dialogue: 0,0:19:51.70,0:19:53.39,Lines,,0,0,0,,Ồ, thế thì qua đây.
+Dialogue: 0,0:19:53.39,0:19:55.13,Lines,,0,0,0,,Eo, sợ lắm.
+Dialogue: 0,0:19:55.13,0:19:56.81,Lines,,0,0,0,,S-Sợ?
+Dialogue: 0,0:19:57.08,0:19:59.79,Lines,,0,0,0,,Con gái sợ mấy cái thế này sao?
+Dialogue: 0,0:20:00.20,0:20:02.88,Lines,,0,0,0,,Liệu mình có làm được không nhỉ?
+Dialogue: 0,0:20:03.10,0:20:04.88,Lines,,0,0,0,,Đỡ mình nhé.
+Dialogue: 0,0:20:09.61,0:20:11.92,Lines,,0,0,0,,Anh yêu, mình về thôi.
+Dialogue: 0,0:20:11.92,0:20:14.19,Lines,,0,0,0,,Không được. Sắp nắm tay kìa.
+Dialogue: 0,0:20:17.05,0:20:19.00,Lines,,0,0,0,,Ối!
+Dialogue: 0,0:20:19.00,0:20:20.36,Lines,,0,0,0,,Ôi...
+Dialogue: 0,0:20:20.36,0:20:23.70,Lines,,0,0,0,,Này! Làm cái gì vậy hả?!
+Dialogue: 0,0:20:23.88,0:20:26.70,Lines,,0,0,0,,Nếu muốn ôm thì ôm tôi đây nè!
+Dialogue: 0,0:20:27.95,0:20:29.33,Lines,,0,0,0,,Hây!
+Dialogue: 0,0:20:29.60,0:20:31.74,Lines,,0,0,0,,Tôi đến đây!
+Dialogue: 0,0:20:36.73,0:20:39.25,Lines,,0,0,0,,Đủ lắm rồi!
+Dialogue: 0,0:20:39.25,0:20:40.83,Lines,,0,0,0,,Khốn kiếp!
+Dialogue: 0,0:20:40.83,0:20:41.96,Lines,,0,0,0,,Làm cái gì vậy hả?!
+Dialogue: 0,0:20:41.96,0:20:45.05,Lines,,0,0,0,,Đồng phục thủy thủ của ta\Nướt hết rồi nè!
+Dialogue: 0,0:20:45.05,0:20:46.21,Lines,,0,0,0,,Lum, bình tĩnh...
+Dialogue: 0,0:20:46.21,0:20:48.14,Lines,,0,0,0,,Bình tĩnh thế quái nào được!
+Dialogue: 0,0:20:48.45,0:20:50.04,Lines,,0,0,0,,Nhớ đấy, Lum.
+Dialogue: 0,0:20:50.04,0:20:53.94,Lines,,0,0,0,,Ta nhất định sẽ không quên\Nmối thù này đâu!
+Dialogue: 0,0:20:57.02,0:20:59.82,Lines,,0,0,0,,Con gái đúng là khó hiểu thật.
+Dialogue: 0,0:21:02.19,0:21:04.48,Lines,,0,0,0,,Nhưng mình sẽ không bỏ cuộc đâu.
+Dialogue: 0,0:21:05.07,0:21:07.57,Lines,,0,0,0,,Sẽ có ngày mình mặc được nó.
+Dialogue: 0,0:21:11.25,0:21:14.88,Lines,,0,0,0,,Hãy đợi đó, đồng phục thủy thủ!
+Dialogue: 0,0:22:47.61,0:22:49.15,Lines,,0,0,0,,Kỳ tới trên Lum.
+Dialogue: 0,0:22:49.15,0:22:50.09,Lines,,0,0,0,,Tiền!
+Dialogue: 0,0:22:50.09,0:22:51.56,Lines,,0,0,0,,Lãng mạn hơn nữa...

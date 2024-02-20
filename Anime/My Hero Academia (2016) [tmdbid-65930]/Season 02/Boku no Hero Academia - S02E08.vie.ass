@@ -1,0 +1,503 @@
+[Script Info]
+; This is an Advanced Sub Station Alpha v4+ script.
+Title: 
+ScriptType: v4.00+
+PlayDepth: 0
+ScaledBorderAndShadow: Yes
+PlayResX: 1920
+PlayResY: 1080
+[V4+ Styles]
+Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
+Style: Default,Noto Sans,80.0,&H00FFFFFF,&H000000FF,&H00002208,&H00000000,-1,0,0,0,100,100,0,0,1,3.0,2.0,2,0,0,65,1
+
+[Events]
+Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
+Dialogue: 0,0:00:01.12,0:00:03.71,Default,,0,0,0,,Hiện nay, khoảng 80% dân số thế giới
+Dialogue: 0,0:00:03.71,0:00:05.46,Default,,0,0,0,,đều sở hữu một "thể chất đặc biệt",
+Dialogue: 0,0:00:05.46,0:00:07.46,Default,,0,0,0,,có thể nói đã trở thành xã hội\Ncủa các siêu nhân.
+Dialogue: 0,0:00:07.46,0:00:09.21,Default,,0,0,0,,Trong một thế giới đầy hỗn loạn như vậy,
+Dialogue: 0,0:00:09.21,0:00:12.01,Default,,0,0,0,,có một anh hùng mà trước đây\Nai cũng đều cho rằng là viễn vông,
+Dialogue: 0,0:00:12.01,0:00:14.43,Default,,0,0,0,,một anh hùng mà mọi người hằng mơ ước\Nvà ngưỡng mộ, được mọi người chú ý đến.
+Dialogue: 0,0:00:14.84,0:00:16.18,Default,,0,0,0,,Chiến đấu với kẻ địch,
+Dialogue: 0,0:00:16.18,0:00:19.39,Default,,0,0,0,,giải cứu người dân khỏi hiểm nguy,\Nchính là những anh hùng công lý.
+Dialogue: 0,0:00:20.02,0:00:21.10,Default,,0,0,0,,Đúng thế!
+Dialogue: 0,0:00:21.10,0:00:22.56,Default,,0,0,0,,Đây chính là…
+Dialogue: 0,0:00:22.56,0:00:25.77,Default,,0,0,0,,Câu chuyện trước khi\Ntôi trở thành anh hùng vĩ đại nhất.
+Dialogue: 0,0:00:41.08,0:00:46.04,Default,,0,0,0,,HỌC VIỆN ANH HÙNG CỦA TÔI
+Dialogue: 0,0:00:46.04,0:00:50.92,Default,,0,0,0,,♫Một ngày nọ xuất hiện một chiếc máy bay\Nbay lượn trên bầu trời♫
+Dialogue: 0,0:00:50.92,0:00:55.80,Default,,0,0,0,,♫Rõ ràng là vô nghĩa nhưng không biết tại sao\Ntôi lại ghi nhớ nó một cách kỳ diệu trong tim mình♫
+Dialogue: 0,0:00:55.80,0:01:00.56,Default,,0,0,0,,♫Vào những đêm mà tôi đã khóc,\Ntôi chỉ ước mình được mạnh mẽ hơn♫
+Dialogue: 0,0:01:00.56,0:01:05.35,Default,,0,0,0,,♫Và dũng khí để làm được điều đó\Nlà điều mà tôi đã luôn kiếm tìm♫
+Dialogue: 0,0:01:05.35,0:01:09.86,Default,,0,0,0,,♫Dù cho số phận tàn khốc\Nđã được an bài từ trước♫
+Dialogue: 0,0:01:09.86,0:01:15.03,Default,,0,0,0,,♫Và dù cho có một ngày,\Nđiều đó xuất hiện trước mắt tôi đi nữa♫
+Dialogue: 0,0:01:15.03,0:01:19.45,Default,,0,0,0,,♫Chỉ cần một khoảnh khắc,\Nlúc này đây, nếu còn có thể thở được♫
+Dialogue: 0,0:01:19.45,0:01:26.37,Default,,0,0,0,,♫Tôi có thể cảm nhận được rằng\Nchẳng có gì quan trọng cả. Hãy để trái tim này…♫
+Dialogue: 0,0:01:26.37,0:01:29.59,Default,,0,0,0,,♫Một lần nữa, hãy tiến xa hơn, xa hơn nữa♫
+Dialogue: 0,0:01:29.59,0:01:32.13,Default,,0,0,0,,♫Dường như sâu thẳm trong tôi\Ncó ai đó đang hát vang♫
+Dialogue: 0,0:01:32.13,0:01:36.09,Default,,0,0,0,,♫Một giọng hát vô cùng mãnh liệt♫
+Dialogue: 0,0:01:36.09,0:01:39.14,Default,,0,0,0,,♫Bất cứ khi nào, miễn là có thể\Nlàm cho đôi mắt đỏ hoe của em♫
+Dialogue: 0,0:01:39.14,0:01:41.72,Default,,0,0,0,,♫không còn đau khổ nữa và có thể nở nụ cười♫
+Dialogue: 0,0:01:41.72,0:01:46.14,Default,,0,0,0,,♫Đó là giai điệu\Nđã động viên tôi trở thành anh hùng♫
+Dialogue: 0,0:01:46.14,0:01:48.65,Default,,0,0,0,,♫Tạm biệt. Hãy giương cao nó lên,\Nbiểu tượng hòa bình♫
+Dialogue: 0,0:01:48.65,0:01:51.36,Default,,0,0,0,,♫Sẽ lăn bánh cho câu chuyện này♫
+Dialogue: 0,0:01:59.28,0:02:00.70,Default,,0,0,0,,Mọi người,
+Dialogue: 0,0:02:00.70,0:02:03.29,Default,,0,0,0,,xin thứ lỗi vì đã để mọi người chờ lâu.
+Dialogue: 0,0:02:03.29,0:02:05.58,Default,,0,0,0,,Sân đấu bị đóng băng sau trận đấu thứ hai,
+Dialogue: 0,0:02:05.58,0:02:09.21,Default,,0,0,0,,cuối cùng đã tan và đã được làm khô.\NCó thể tiếp tục trận đấu rồi.
+Dialogue: 0,0:02:10.38,0:02:12.09,Default,,0,0,0,,Là một sát thủ thuộc lớp B.
+Dialogue: 0,0:02:12.09,0:02:14.71,Default,,0,0,0,,Người ta thường nói, những thứ đẹp đẽ\Nđều có gai đúng không nào?
+Dialogue: 0,0:02:14.71,0:02:17.67,Default,,0,0,0,,Shiozaki Ibara, đến từ khoa Anh Hùng.
+Dialogue: 0,0:02:17.67,0:02:19.05,Default,,0,0,0,,Đấu với
+Dialogue: 0,0:02:19.05,0:02:21.22,Default,,0,0,0,,cậu bé sát thủ tia lửa,
+Dialogue: 0,0:02:21.22,0:02:24.14,Default,,0,0,0,,Kaminari Denki, đến từ khoa Anh Hùng.
+Dialogue: 0,0:02:24.14,0:02:28.23,Default,,0,0,0,,HĂNG HÁI LÊN NÀO! NHỮNG NGƯỜI THÁCH ĐẤU
+Dialogue: 0,0:02:30.31,0:02:32.02,Default,,0,0,0,,Nào, nào,
+Dialogue: 0,0:02:32.02,0:02:34.90,Default,,0,0,0,,lần này cũng sẽ là một trận đấu\Nvô cùng hào nhoáng.
+Dialogue: 0,0:02:34.90,0:02:36.24,Default,,0,0,0,,Cái đó…
+Dialogue: 0,0:02:36.24,0:02:38.32,Default,,0,0,0,,Xin lỗi, em muốn phản khán ạ.
+Dialogue: 0,0:02:38.32,0:02:40.99,Default,,0,0,0,,"Sát thủ" ý thầy là sao vậy?
+Dialogue: 0,0:02:40.99,0:02:44.99,Default,,0,0,0,,Em chỉ đơn thuần là muốn vì mục tiêu của mình\Ngiành lấy chiến thắng nên mới đứng ở đây mà thôi,
+Dialogue: 0,0:02:44.99,0:02:48.04,Default,,0,0,0,,chứ không hề có ý định cướp đi\Nmạng sống của đối phương đâu.
+Dialogue: 0,0:02:48.04,0:02:49.75,Default,,0,0,0,,Thật xin lỗi.
+Dialogue: 0,0:02:49.75,0:02:50.83,Default,,0,0,0,,Em muốn nói là…
+Dialogue: 0,0:02:50.83,0:02:53.63,Default,,0,0,0,,lý do em muốn ghi danh vào\NHọc viện Anh hùng này,
+Dialogue: 0,0:02:53.63,0:02:56.17,Default,,0,0,0,,không phải vì bất kỳ ý nghĩ xấu xa nào.
+Dialogue: 0,0:02:56.17,0:02:59.34,Default,,0,0,0,,Mà là xuất phát từ tấm lòng\Nmuốn cứu những người khác.
+Dialogue: 0,0:02:59.34,0:03:00.97,Default,,0,0,0,,Đã bảo là xin lỗi rồi mà!
+Dialogue: 0,0:03:00.97,0:03:03.64,Default,,0,0,0,,Tất cả là lỗi của tôi.
+Dialogue: 0,0:03:03.64,0:03:06.31,Default,,0,0,0,,Cảm ơn thầy,\Ncảm ơn thầy vì đã thấu hiểu lòng em.
+Dialogue: 0,0:03:07.72,0:03:10.89,Default,,0,0,0,,Lớp B mà cũng có người như thế này nữa sao?
+Dialogue: 0,0:03:11.69,0:03:14.57,Default,,0,0,0,,Mặc dù cô ấy có đôi mắt to tròn\Nvới khuôn mặt ưa nhìn,
+Dialogue: 0,0:03:14.57,0:03:17.15,Default,,0,0,0,,xem ra cô ta khá là mạnh đây.
+Dialogue: 0,0:03:17.15,0:03:20.95,Default,,0,0,0,,Xem ra trận đấu này\Nmình chỉ có thể cố gắng hết sức phóng điện.
+Dialogue: 0,0:03:20.95,0:03:22.45,Default,,0,0,0,,Nhưng mà…
+Dialogue: 0,0:03:22.87,0:03:26.70,Default,,0,0,0,,Cô ấy không chỉ xinh đẹp\Nmà còn đáng yêu nữa ấy chứ.
+Dialogue: 0,0:03:26.70,0:03:29.87,Default,,0,0,0,,Được, lần sau mình sẽ hẹn cô ấy đi chơi.
+Dialogue: 0,0:03:29.87,0:03:31.75,Default,,0,0,0,,Quyết định vậy đi.
+Dialogue: 0,0:03:32.58,0:03:33.46,Default,,0,0,0,,Nói chung là…
+Dialogue: 0,0:03:33.46,0:03:34.88,Default,,0,0,0,,Bắt đầu!
+Dialogue: 0,0:03:34.88,0:03:37.34,Default,,0,0,0,,Sau khi kết thúc trận đấu\Nchúng ta cùng nhau đi ăn nhé?
+Dialogue: 0,0:03:37.34,0:03:39.76,Default,,0,0,0,,Tôi sẽ rất vui khi được an ủi cậu.
+Dialogue: 0,0:03:40.42,0:03:42.38,Default,,0,0,0,,Bởi vì trận đấu này…
+Dialogue: 0,0:03:42.38,0:03:45.47,Default,,0,0,0,,Có thể sẽ kết thúc trong tích tắc thôi.
+Dialogue: 0,0:03:49.43,0:03:51.64,Default,,0,0,0,,Giải phóng điện năng.
+Dialogue: 0,0:03:51.64,0:03:54.86,Default,,0,0,0,,1,3 triệu vôn.
+Dialogue: 0,0:04:09.75,0:04:10.45,Default,,0,0,0,,Ngay lập tức!
+Dialogue: 0,0:04:10.45,0:04:12.29,Default,,0,0,0,,Tôi sẽ lặp lại một lần nữa.
+Dialogue: 0,0:04:12.29,0:04:14.58,Default,,0,0,0,,Ngay lập tức!
+Dialogue: 0,0:04:14.58,0:04:16.25,Default,,0,0,0,,Thí sinh tiến vào vòng thứ hai là…
+Dialogue: 0,0:04:16.25,0:04:17.96,Default,,0,0,0,,Shiozaki.
+Dialogue: 0,0:04:21.42,0:04:23.38,Default,,0,0,0,,Không uổng phí
+Dialogue: 0,0:04:23.38,0:04:26.22,Default,,0,0,0,,cơ hội thứ 2 mà bọn họ đã cho mình rồi.
+Dialogue: 0,0:04:27.51,0:04:30.43,Default,,0,0,0,,Shiozaki Ibara, năng lực Dây leo!
+Dialogue: 0,0:04:30.43,0:04:32.31,Default,,0,0,0,,Chỗ dây leo ấy có thể kéo dài ra được.
+Dialogue: 0,0:04:32.31,0:04:34.27,Default,,0,0,0,,Cũng có thể tách ra tùy ý.
+Dialogue: 0,0:04:34.27,0:04:36.40,Default,,0,0,0,,Chỉ cần cung cấp đủ nước và ánh sáng mặt trời,
+Dialogue: 0,0:04:36.40,0:04:38.07,Default,,0,0,0,,sẽ mọc lại nhanh chóng thôi.
+Dialogue: 0,0:04:38.07,0:04:40.19,Default,,0,0,0,,Cũng có nghĩa là không hói đâu.
+Dialogue: 0,0:04:40.19,0:04:41.61,Default,,0,0,0,,Tuyệt vời!
+Dialogue: 0,0:04:41.61,0:04:43.86,Default,,0,0,0,,"THẬT LỢI HẠI"\NShiozaki, làm tốt lắm.
+Dialogue: 0,0:04:43.86,0:04:45.61,Default,,0,0,0,,Mất mặt quá!
+Dialogue: 0,0:04:45.61,0:04:47.16,Default,,0,0,0,,Thật là lạ!
+Dialogue: 0,0:04:47.16,0:04:49.54,Default,,0,0,0,,Không phải cậu ấy nói là\Nsẽ giải quyết trong tích tắc sao?
+Dialogue: 0,0:04:49.54,0:04:50.79,Default,,0,0,0,,Lạ thật đó!
+Dialogue: 0,0:04:50.79,0:04:53.00,Default,,0,0,0,,Chỉ trong tích tắc thôi mà cậu ấy đã bị hạ rồi.
+Dialogue: 0,0:04:53.00,0:04:55.08,Default,,0,0,0,,Lớp A đáng lẽ phải giỏi hơn lớp B chứ.
+Dialogue: 0,0:04:55.08,0:04:56.75,Default,,0,0,0,,Kỳ lạ quá nhỉ?
+Dialogue: 0,0:05:00.34,0:05:02.67,Default,,0,0,0,,Xin lỗi nhé!
+Dialogue: 0,0:05:02.67,0:05:05.26,Default,,0,0,0,,Vừa rồi là cái quái gì thế?
+Dialogue: 0,0:05:05.26,0:05:07.34,Default,,0,0,0,,Kamui, Kamui!
+Dialogue: 0,0:05:08.01,0:05:11.93,Default,,0,0,0,,Cô bé đó rất thích hợp\Nlàm cộng tác viên cho anh đấy?
+Dialogue: 0,0:05:12.85,0:05:14.64,Default,,0,0,0,,Phải chi vào xem được thì tốt rồi.
+Dialogue: 0,0:05:14.64,0:05:15.94,Default,,0,0,0,,Mặc dù năng lực có phần hơi bảo thủ,
+Dialogue: 0,0:05:15.94,0:05:17.73,Default,,0,0,0,,nhưng cũng đáng yêu quá.
+Dialogue: 0,0:05:17.73,0:05:19.23,Default,,0,0,0,,Quay về làm việc đi.
+Dialogue: 0,0:05:19.65,0:05:21.94,Default,,0,0,0,,Năng lực Dây leo của Shiozaki,
+Dialogue: 0,0:05:21.94,0:05:24.15,Default,,0,0,0,,có thể phân tách tùy ý, đúng là khó đối phó mà.
+Dialogue: 0,0:05:24.15,0:05:27.28,Default,,0,0,0,,Dây leo không chỉ dùng để phòng ngự\Nmà còn được dùng để làm vật cách điện nữa.
+Dialogue: 0,0:05:27.28,0:05:29.20,Default,,0,0,0,,Không đời nào cậu ta có thể\Nlàm cho cô bé bị giật điện được.
+Dialogue: 0,0:05:29.20,0:05:31.79,Default,,0,0,0,,Cô ấy còn kéo dây dài ra để trói cậu ta lại.
+Dialogue: 0,0:05:31.79,0:05:34.45,Default,,0,0,0,,Năng lực của Kaminari hoàn toàn bị chặn đứng.
+Dialogue: 0,0:05:34.45,0:05:36.37,Default,,0,0,0,,Rốt cuộc thì bọn họ\Nđã không cùng nhau vào phòng y tế.
+Dialogue: 0,0:05:36.37,0:05:38.46,Default,,0,0,0,,Trong trường hợp này,\Nnếu cậu ta có thể ứng đối tốt thì biết đâu…
+Dialogue: 0,0:05:38.46,0:05:40.79,Default,,0,0,0,,vẫn còn chút cơ hội vào phòng y tế rồi.
+Dialogue: 0,0:05:42.05,0:05:44.59,Default,,0,0,0,,Năng lực của Kaminari rõ ràng là rất mạnh,
+Dialogue: 0,0:05:44.59,0:05:47.05,Default,,0,0,0,,nhưng Shiozaki là một đối thủ mạnh\Ntừng xếp hạng 4 trong kỳ thi tuyển sinh.
+Dialogue: 0,0:05:47.05,0:05:48.09,Default,,0,0,0,,Dây leo à?
+Dialogue: 0,0:05:48.09,0:05:50.60,Default,,0,0,0,,Không biết so với năng lực của Shinrin Kamui\Nthì có tương tự nhau không nhỉ?
+Dialogue: 0,0:05:50.60,0:05:52.72,Default,,0,0,0,,Quả nhiên năng lực khống chế là tuyệt nhất mà.
+Dialogue: 0,0:05:52.72,0:05:54.35,Default,,0,0,0,,Chưa từng thấy ai có thể thoát ra được.
+Dialogue: 0,0:05:54.35,0:05:55.81,Default,,0,0,0,,Vừa tìm cách tiếp cận\Nvừa phải tránh né chỗ dây leo đó,
+Dialogue: 0,0:05:55.81,0:05:57.39,Default,,0,0,0,,đó là điều không thể rồi.
+Dialogue: 0,0:05:57.39,0:06:01.40,Default,,0,0,0,,Cho nên chỉ còn cách\Ndùng hết sức lực để thoát ra.
+Dialogue: 0,0:06:01.40,0:06:02.94,Default,,0,0,0,,Nhưng chắc chắn để ngăn\Nkhông cho đối phương thoát ra được,
+Dialogue: 0,0:06:02.94,0:06:05.19,Default,,0,0,0,,cậu ấy sẽ trói tay của đối thủ lại trước.
+Dialogue: 0,0:06:05.94,0:06:07.11,Default,,0,0,0,,Trận đấu chỉ vừa mới kết thúc,
+Dialogue: 0,0:06:07.11,0:06:10.12,Default,,0,0,0,,mà cậu đã bắt đầu tính đến\Nbiện pháp đối phó tiếp theo rồi sao?
+Dialogue: 0,0:06:10.78,0:06:11.66,Default,,0,0,0,,Không phải.
+Dialogue: 0,0:06:11.66,0:06:14.16,Default,,0,0,0,,Cái này nói đúng ra\Nthì nó là sở thích của mình thôi.
+Dialogue: 0,0:06:14.16,0:06:17.75,Default,,0,0,0,,Ngoài những người trong lớp, thì hiếm khi mình có\Ncơ hội được trông thấy những năng lực tuyệt vời khác mà.
+Dialogue: 0,0:06:19.83,0:06:20.79,Default,,0,0,0,,Phải rồi.
+Dialogue: 0,0:06:20.79,0:06:23.75,Default,,0,0,0,,Mấy bạn lớp A\Ncũng được mình tổng hợp lại đây nè.
+Dialogue: 0,0:06:23.75,0:06:26.42,Default,,0,0,0,,Tất nhiên cũng bao gồm năng lực\Nkhông trọng lượng của Uraraka nữa!
+Dialogue: 0,0:06:28.26,0:06:30.76,Default,,0,0,0,,Từ lúc gặp nhau mình đã thấy cậu rất lợi hại.
+Dialogue: 0,0:06:30.76,0:06:33.35,Default,,0,0,0,,Nhưng Hội thao này khiến mình nhận ra…
+Dialogue: 0,0:06:33.35,0:06:36.23,Default,,0,0,0,,Deku, cậu thật sự rất mạnh!
+Dialogue: 0,0:06:37.35,0:06:38.27,Default,,0,0,0,,Nào,
+Dialogue: 0,0:06:38.27,0:06:40.06,Default,,0,0,0,,trận đấu thứ tư sắp sửa bắt đầu rồi.
+Dialogue: 0,0:06:40.06,0:06:42.02,Default,,0,0,0,,Cùng khuấy động bầu không khí nào!
+Dialogue: 0,0:06:42.02,0:06:45.07,Default,,0,0,0,,Tăng tốc nhanh chóng về đích nào.
+Dialogue: 0,0:06:46.82,0:06:48.70,Default,,0,0,0,,Giống như một hình mẫu lý tưởng ở tốp giữa.
+Dialogue: 0,0:06:48.70,0:06:50.95,Default,,0,0,0,,Ida Tenya, đến từ khoa Anh Hùng.
+Dialogue: 0,0:06:50.95,0:06:51.91,Default,,0,0,0,,Đấu với
+Dialogue: 0,0:06:51.91,0:06:54.03,Default,,0,0,0,,Người được trang bị đầy đủ dụng cụ hỗ trợ.
+Dialogue: 0,0:06:54.03,0:06:57.08,Default,,0,0,0,,Hatsume Mei, đến từ khoa Hỗ Trợ.
+Dialogue: 0,0:06:57.08,0:06:59.08,Default,,0,0,0,,Cậu ta đối đầu với khoa Hỗ Trợ sao?
+Dialogue: 0,0:06:59.08,0:07:01.58,Default,,0,0,0,,Không biết đây sẽ là trận đấu như thế nào nữa?
+Dialogue: 0,0:07:01.58,0:07:02.54,Default,,0,0,0,,Nhưng mà…
+Dialogue: 0,0:07:02.54,0:07:04.50,Default,,0,0,0,,Cái gì thế kia?
+Dialogue: 0,0:07:05.50,0:07:08.76,Default,,0,0,0,,Ida cũng trang bị đầy đủ dụng cụ hỗ trợ kìa!
+Dialogue: 0,0:07:08.76,0:07:12.55,Default,,0,0,0,,Đối với những ai thuộc khoa Anh Hùng\Nthì việc này trái với nguyên tắc đấy.
+Dialogue: 0,0:07:12.55,0:07:14.39,Default,,0,0,0,,Những người buộc phải sử dụng trang bị
+Dialogue: 0,0:07:14.39,0:07:16.18,Default,,0,0,0,,đều cần có kiến nghị trước.
+Dialogue: 0,0:07:16.18,0:07:17.68,Default,,0,0,0,,Em bất cẩn quên mất điều đó rồi!
+Dialogue: 0,0:07:17.68,0:07:19.48,Default,,0,0,0,,Em thấy Aoyama\Ncũng trang bị một chiếc thắt lưng,
+Dialogue: 0,0:07:19.48,0:07:21.10,Default,,0,0,0,,nên em nghĩ điều này không sao.
+Dialogue: 0,0:07:21.10,0:07:23.44,Default,,0,0,0,,Em ấy đã yêu cầu từ trước rồi.
+Dialogue: 0,0:07:23.44,0:07:25.40,Default,,0,0,0,,Thành thật xin lỗi!
+Dialogue: 0,0:07:25.98,0:07:27.53,Default,,0,0,0,,Xin hãy nghe em nói.
+Dialogue: 0,0:07:27.53,0:07:30.99,Default,,0,0,0,,Thật ra tinh thần thể thao của Hatsume\Nđã làm lay động lòng em.
+Dialogue: 0,0:07:30.99,0:07:33.32,Default,,0,0,0,,Hatsume, dù có thuộc khoa Hỗ Trợ đi chăng nữa,
+Dialogue: 0,0:07:33.32,0:07:35.66,Default,,0,0,0,,vì đã đến được tận đây\Nnên muốn có một trận đấu cân sức.
+Dialogue: 0,0:07:35.66,0:07:37.74,Default,,0,0,0,,Cậu ta muốn một trận đấu công bằng.
+Dialogue: 0,0:07:37.74,0:07:40.50,Default,,0,0,0,,Nên đã đưa cho em những trang bị này.
+Dialogue: 0,0:07:41.50,0:07:43.58,Default,,0,0,0,,Vậy nên em nghĩ…
+Dialogue: 0,0:07:43.58,0:07:46.71,Default,,0,0,0,,Em không thể phớt lờ\Ntinh thần chiến đấu của cậu ta được.
+Dialogue: 0,0:07:46.71,0:07:48.80,Default,,0,0,0,,Thật ngây thơ!
+Dialogue: 0,0:07:50.26,0:07:51.63,Default,,0,0,0,,Cô chấp nhận!
+Dialogue: 0,0:07:51.63,0:07:53.01,Default,,0,0,0,,Điều này có ổn không?
+Dialogue: 0,0:07:53.01,0:07:54.72,Default,,0,0,0,,Vì cả hai bên đều đồng ý,
+Dialogue: 0,0:07:54.72,0:07:56.51,Default,,0,0,0,,trong phạm vi cho phép,
+Dialogue: 0,0:07:56.51,0:07:58.60,Default,,0,0,0,,hãy làm như vậy đi.
+Dialogue: 0,0:07:58.60,0:08:01.81,Default,,0,0,0,,Hatsume mà cũng nói được những câu như thế sao?
+Dialogue: 0,0:08:01.81,0:08:03.81,Default,,0,0,0,,Có khi nào…
+Dialogue: 0,0:08:05.94,0:08:07.69,Default,,0,0,0,,Vì đã được cho phép,
+Dialogue: 0,0:08:07.69,0:08:08.94,Default,,0,0,0,,cho nên trận đấu thứ tư
+Dialogue: 0,0:08:08.94,0:08:10.82,Default,,0,0,0,,bắt đầu!
+Dialogue: 0,0:08:16.28,0:08:18.45,Default,,0,0,0,,Khả năng tăng tốc của cậu tuyệt thật đấy.
+Dialogue: 0,0:08:18.45,0:08:20.45,Default,,0,0,0,,Ida.
+Dialogue: 0,0:08:20.87,0:08:22.25,Default,,0,0,0,,Cái micrô sao?
+Dialogue: 0,0:08:22.25,0:08:23.33,Default,,0,0,0,,Tại sao?
+Dialogue: 0,0:08:23.33,0:08:25.46,Default,,0,0,0,,Cô ấy đã đeo cả loa à?
+Dialogue: 0,0:08:26.08,0:08:28.13,Default,,0,0,0,,Đôi chân của cậu cảm thấy\Nnhẹ hơn bình thường đúng không?
+Dialogue: 0,0:08:28.13,0:08:29.63,Default,,0,0,0,,Đây là điều đương nhiên.
+Dialogue: 0,0:08:29.63,0:08:31.34,Default,,0,0,0,,Bởi vì những thiết bị trên chân của cậu,
+Dialogue: 0,0:08:31.34,0:08:34.26,Default,,0,0,0,,đều hỗ trợ cho chuyển động đấy.
+Dialogue: 0,0:08:34.26,0:08:35.84,Default,,0,0,0,,Đối với tôi,
+Dialogue: 0,0:08:36.64,0:08:40.52,Default,,0,0,0,,cùng với "thanh trượt thủy lực"\Nnày thì có thể tránh né một cách dễ dàng.
+Dialogue: 0,0:08:41.93,0:08:44.73,Default,,0,0,0,,Vị trí các nhân viên của công ty Hỗ Trợ đâu rồi?
+Dialogue: 0,0:08:45.52,0:08:46.98,Default,,0,0,0,,Cắn câu rồi!
+Dialogue: 0,0:08:46.98,0:08:49.23,Default,,0,0,0,,Lấy được sự chú ý của họ rồi!
+Dialogue: 0,0:08:49.23,0:08:51.86,Default,,0,0,0,,Hatsume Mei, năng lực ''phóng to''.
+Dialogue: 0,0:08:51.86,0:08:55.03,Default,,0,0,0,,Nếu nghiêm túc thì\Nvật ở cách xa 5 km cũng nhìn rõ được đấy.
+Dialogue: 0,0:08:56.87,0:08:58.91,Default,,0,0,0,,Vì có cảm biến đa hướng,
+Dialogue: 0,0:08:58.91,0:09:02.04,Default,,0,0,0,,cho nên ngay cả đòn tấn công\Ntừ phía sau cũng có thể đối phó được.
+Dialogue: 0,0:09:09.13,0:09:10.67,Default,,0,0,0,,Cậu định làm gì thế hả?
+Dialogue: 0,0:09:10.67,0:09:13.67,Default,,0,0,0,,Ida quay người,\Nchuyển hướng một cách thật điệu nghệ!
+Dialogue: 0,0:09:13.67,0:09:17.68,Default,,0,0,0,,Chính là nhờ hệ thống\Ncân bằng tự động do tôi chế tạo ra đấy.
+Dialogue: 0,0:09:17.68,0:09:18.72,Default,,0,0,0,,-Bộ phận ở chân thông qua\N-Tình huống này là sao thế nhỉ?
+Dialogue: 0,0:09:18.72,0:09:20.47,Default,,0,0,0,,-sóng não của người dùng để dự đoán hướng di chuyển của họ.\N-Khả năng chào hàng của cô ấy
+Dialogue: 0,0:09:20.47,0:09:21.64,Default,,0,0,0,,-Nên hoàn toàn không cần\N-thật đáng ngưỡng mộ.
+Dialogue: 0,0:09:21.64,0:09:24.48,Default,,0,0,0,,lo về độ trễ thời gian đâu.
+Dialogue: 0,0:09:25.56,0:09:29.82,Default,,0,0,0,,Hệ thống cân bằng tự động được trang bị bộ\Ncảm biến con quay hồi chuyển quanh 32 trục đấy.
+Dialogue: 0,0:09:30.52,0:09:34.44,Default,,0,0,0,,Thiết bị này sẽ giúp người dùng\Ntránh khỏi việc bị ngã ngoài ý muốn.
+Dialogue: 0,0:09:36.15,0:09:38.57,Default,,0,0,0,,Không phải cậu định chiến đấu\Nmột cách công bằng sao?
+Dialogue: 0,0:09:44.50,0:09:45.37,Default,,0,0,0,,Thấy thế nào?
+Dialogue: 0,0:09:45.37,0:09:47.50,Default,,0,0,0,,Chính là sự nhẹ nhàng này.
+Dialogue: 0,0:09:47.50,0:09:51.04,Default,,0,0,0,,Đôi giày điện này có thể\Nđược cảm ứng bởi từ tính ở hai chân,
+Dialogue: 0,0:09:51.04,0:09:54.92,Default,,0,0,0,,nhằm tạo ra những phản xạ\Nné tránh trong chớp mắt.
+Dialogue: 0,0:09:56.72,0:09:59.01,Default,,0,0,0,,Hãy xem tôi tận dụng nhân lúc cậu tiếp đất đây.
+Dialogue: 0,0:10:04.93,0:10:05.68,Default,,0,0,0,,Cái gì đây?
+Dialogue: 0,0:10:05.68,0:10:08.19,Default,,0,0,0,,Là súng bắt giữ\Ndùng khi đối đầu với kẻ địch đấy.
+Dialogue: 0,0:10:08.19,0:10:10.31,Default,,0,0,0,,Lưới bắt giữ nằm trong băng đạn,
+Dialogue: 0,0:10:10.31,0:10:12.98,Default,,0,0,0,,và có thể chứa đến những 5 lần bắn.
+Dialogue: 0,0:10:13.53,0:10:16.49,Default,,0,0,0,,Vâng, người đã phát minh\Nra những thiết bị tuyệt vời này,
+Dialogue: 0,0:10:16.49,0:10:17.57,Default,,0,0,0,,Hatsume Mei!
+Dialogue: 0,0:10:17.57,0:10:19.62,Default,,0,0,0,,Chính là tôi đây!
+Dialogue: 0,0:10:19.62,0:10:21.87,Default,,0,0,0,,Hỡi những người đến từ các công ty Hỗ Trợ,
+Dialogue: 0,0:10:21.87,0:10:24.75,Default,,0,0,0,,Hatsume Mei, Hatsume Mei, Hatsume Mei!
+Dialogue: 0,0:10:24.75,0:10:28.79,Default,,0,0,0,,Sau này còn phải nhờ\Ncác vị quan tâm chỉ bảo nhiều hơn đấy!
+Dialogue: 0,0:10:28.79,0:10:30.33,Default,,0,0,0,,Cô ấy là chính trị gia à?
+Dialogue: 0,0:10:30.33,0:10:33.21,Default,,0,0,0,,Và giờ tôi sẽ nói về thiết bị hỗ trợ tiếp theo.
+Dialogue: 0,0:10:33.21,0:10:35.09,Default,,0,0,0,,Vẫn chưa hết sao?
+Dialogue: 0,0:10:35.09,0:10:37.17,Default,,0,0,0,,10 PHÚT SAU
+Dialogue: 0,0:10:41.80,0:10:45.56,Default,,0,0,0,,Vậy là mình đã giới thiệu tất cả mọi thứ rồi.
+Dialogue: 0,0:10:45.56,0:10:48.60,Default,,0,0,0,,Giờ không còn gì phải tiếc nuối nữa.
+Dialogue: 0,0:10:51.48,0:10:53.61,Default,,0,0,0,,Hatsume Mei đã ra khỏi sân đấu.
+Dialogue: 0,0:10:53.61,0:10:55.73,Default,,0,0,0,,Ida tiến vào vòng hai!
+Dialogue: 0,0:10:55.73,0:10:59.07,Default,,0,0,0,,Cậu lừa tôi!
+Dialogue: 0,0:11:00.78,0:11:02.28,Default,,0,0,0,,Rất xin lỗi.
+Dialogue: 0,0:11:02.28,0:11:03.58,Default,,0,0,0,,Tôi đã mượn trận đấu này
+Dialogue: 0,0:11:03.58,0:11:06.08,Default,,0,0,0,,-lợi dụng cậu.\N-Tôi ghét cậu!
+Dialogue: 0,0:11:06.08,0:11:08.04,Default,,0,0,0,,Nhất định là do cái tính thật thà của Ida,
+Dialogue: 0,0:11:08.04,0:11:10.83,Default,,0,0,0,,đã bị cậu ấy dùng lời ngon ngọt dụ dỗ rồi.
+Dialogue: 0,0:11:10.83,0:11:11.79,Default,,0,0,0,,Hatsume Mei.
+Dialogue: 0,0:11:11.79,0:11:13.42,Default,,0,0,0,,Không chỉ tham vọng,
+Dialogue: 0,0:11:13.42,0:11:16.76,Default,,0,0,0,,mà còn là một người để đạt được mục đích\Nmà không từ một thủ đoạn nào.
+Dialogue: 0,0:11:16.76,0:11:18.55,Default,,0,0,0,,Thật lợi hại!
+Dialogue: 0,0:11:24.72,0:11:26.89,Default,,0,0,0,,HỌC VIỆN ANH HÙNG CỦA TÔI
+Dialogue: 0,0:11:28.56,0:11:30.89,Default,,0,0,0,,HỌC VIỆN ANH HÙNG CỦA TÔI
+Dialogue: 0,0:11:32.19,0:11:35.40,Default,,0,0,0,,Tiếp tục chương trình sẽ là trận đấu thứ năm.
+Dialogue: 0,0:11:35.40,0:11:38.19,Default,,0,0,0,,Ngay cả khi đeo thắt lưng thì\Ncậu ta cũng không biến hình đâu.
+Dialogue: 0,0:11:38.19,0:11:41.03,Default,,0,0,0,,Aoyama Yuga, đến từ khoa Anh Hùng.
+Dialogue: 0,0:11:41.03,0:11:42.20,Default,,0,0,0,,Xin chào!
+Dialogue: 0,0:11:42.20,0:11:43.20,Default,,0,0,0,,Đấu với,
+Dialogue: 0,0:11:43.20,0:11:45.16,Default,,0,0,0,,liệu sẽ có gì bắn ra từ cặp sừng đó không?
+Dialogue: 0,0:11:45.16,0:11:46.33,Default,,0,0,0,,Sẽ có không nhỉ?
+Dialogue: 0,0:11:46.33,0:11:49.00,Default,,0,0,0,,Ashido Mina, đến từ khoa Anh Hùng.
+Dialogue: 0,0:11:49.83,0:11:52.50,Default,,0,0,0,,Trận đầu tiên này\Nsẽ dễ dàng giành chiến thắng thôi.
+Dialogue: 0,0:11:52.50,0:11:55.67,Default,,0,0,0,,Câu nói đó tôi sẽ đáp trả lại cậu ngay thôi.
+Dialogue: 0,0:11:55.67,0:11:57.75,Default,,0,0,0,,Mina, cố lên nhé!
+Dialogue: 0,0:11:57.75,0:11:58.76,Default,,0,0,0,,Aoyama.
+Dialogue: 0,0:11:58.76,0:12:00.13,Default,,0,0,0,,Lên nào!
+Dialogue: 0,0:12:00.13,0:12:03.76,Default,,0,0,0,,Xử cậu ta giống như mấy trò\Nđối kháng lột đồ đấy, xử cậu ta giống vậy đấy.
+Dialogue: 0,0:12:03.76,0:12:05.64,Default,,0,0,0,,Thằng rác rưởi.
+Dialogue: 0,0:12:05.64,0:12:07.97,Default,,0,0,0,,Trận đấu giữa Aoyam và Ashido.
+Dialogue: 0,0:12:07.97,0:12:10.48,Default,,0,0,0,,Xét về năng lực của hai người bọn họ…
+Dialogue: 0,0:12:10.48,0:12:11.60,Default,,0,0,0,,Aoyama,
+Dialogue: 0,0:12:11.60,0:12:14.90,Default,,0,0,0,,có lẽ sẽ dùng laser tấn công từ xa là chính.
+Dialogue: 0,0:12:14.90,0:12:15.98,Default,,0,0,0,,Mấu chốt của việc thắng hay bại,
+Dialogue: 0,0:12:15.98,0:12:19.03,Default,,0,0,0,,là ở chỗ Ashido liệu có tránh được\Nđòn tấn công từ Aoyama không?
+Dialogue: 0,0:12:19.03,0:12:21.24,Default,,0,0,0,,Và tiến hành một trận cận chiến!
+Dialogue: 0,0:12:21.24,0:12:22.24,Default,,0,0,0,,Vấn đề là…
+Dialogue: 0,0:12:22.24,0:12:24.20,Default,,0,0,0,,Trên sân đấu này hoàn toàn\Nkhông có thứ gì dùng để làm tấm chắn được.
+Dialogue: 0,0:12:24.20,0:12:26.28,Default,,0,0,0,,Ashido sẽ gặp bất lợi.
+Dialogue: 0,0:12:26.28,0:12:27.16,Default,,0,0,0,,Nào,
+Dialogue: 0,0:12:27.16,0:12:28.79,Default,,0,0,0,,mau bắt đầu đi chứ.
+Dialogue: 0,0:12:28.79,0:12:29.95,Default,,0,0,0,,Trận đấu thứ năm.
+Dialogue: 0,0:12:29.95,0:12:31.41,Default,,0,0,0,,Bắt đầu!
+Dialogue: 0,0:12:31.41,0:12:32.50,Default,,0,0,0,,Đánh trước…
+Dialogue: 0,0:12:32.50,0:12:33.62,Default,,0,0,0,,giành lợi thế.
+Dialogue: 0,0:12:36.42,0:12:39.25,Default,,0,0,0,,Vì trong đợt tập huấn, chúng ta chung một đội.
+Dialogue: 0,0:12:39.25,0:12:41.72,Default,,0,0,0,,Cho nên Aoyama,\Nnăng lực của cậu tôi biết rõ hết.
+Dialogue: 0,0:12:41.72,0:12:43.93,Default,,0,0,0,,Tôi cũng biết rõ năng lực của cậu thôi.
+Dialogue: 0,0:12:43.93,0:12:46.09,Default,,0,0,0,,Nhưng có một điểm khác biết.
+Dialogue: 0,0:12:46.09,0:12:48.35,Default,,0,0,0,,Đó là ở bài kiểm tra thể chất.
+Dialogue: 0,0:12:49.01,0:12:50.93,Default,,0,0,0,,Chỉ cần bắn lâu hơn một giây,
+Dialogue: 0,0:12:50.93,0:12:52.56,Default,,0,0,0,,bụng sẽ bắt đầu đau.
+Dialogue: 0,0:12:52.56,0:12:54.52,Default,,0,0,0,,Chính cậu đã nói đấy!
+Dialogue: 0,0:13:01.99,0:13:03.15,Default,,0,0,0,,Thật là…
+Dialogue: 0,0:13:03.15,0:13:04.66,Default,,0,0,0,,Cố chấp mà.
+Dialogue: 0,0:13:09.45,0:13:10.95,Default,,0,0,0,,Bụng của mình.
+Dialogue: 0,0:13:10.95,0:13:12.54,Default,,0,0,0,,Chính là lúc này!
+Dialogue: 0,0:13:15.21,0:13:17.92,Default,,0,0,0,,Cái thắt lưng bảo bối của tôi!
+Dialogue: 0,0:13:17.92,0:13:19.42,Default,,0,0,0,,Cả quần nữa!
+Dialogue: 0,0:13:21.00,0:13:23.01,Default,,0,0,0,,Đây chính là,
+Dialogue: 0,0:13:23.01,0:13:25.72,Default,,0,0,0,,đòn kết thúc.
+Dialogue: 0,0:13:34.02,0:13:35.85,Default,,0,0,0,,Aoyama đã mất ý thức!
+Dialogue: 0,0:13:35.85,0:13:37.35,Default,,0,0,0,,Thí sinh lọt vào vòng hai chính là…
+Dialogue: 0,0:13:37.35,0:13:39.19,Default,,0,0,0,,Ashido.
+Dialogue: 0,0:13:41.28,0:13:43.90,Default,,0,0,0,,Aoyama đã bị đánh bại và bất tỉnh.
+Dialogue: 0,0:13:43.90,0:13:47.91,Default,,0,0,0,,Ashido đã giành được\Nmột chiến thắng không thể bàn cãi.
+Dialogue: 0,0:13:47.91,0:13:50.33,Default,,0,0,0,,Cậu tuyệt lắm Mina!
+Dialogue: 0,0:13:53.04,0:13:56.04,Default,,0,0,0,,Nếu Aoyama với Ashido\Nmà hoán đổi năng lực cho nhau thì đã.
+Dialogue: 0,0:13:56.04,0:13:57.54,Default,,0,0,0,,Đồ rác rưởi.
+Dialogue: 0,0:13:57.54,0:14:00.63,Default,,0,0,0,,Tại sao chứ?
+Dialogue: 0,0:14:01.63,0:14:04.09,Default,,0,0,0,,Mặc dù kết quả trận đấu đúng như mình dự đoán,
+Dialogue: 0,0:14:04.09,0:14:06.13,Default,,0,0,0,,nhưng mà về phần thể chất của Ashido\Nmình đã đánh giá sai rồi.
+Dialogue: 0,0:14:06.13,0:14:07.09,Default,,0,0,0,,Đến phòng y tế…
+Dialogue: 0,0:14:07.09,0:14:08.39,Default,,0,0,0,,-Ngay cả trong đợt kiểm tra thẩm định năng lực\N-Tôi biết rồi…
+Dialogue: 0,0:14:08.39,0:14:09.47,Default,,0,0,0,,-Trong cả đám nam sinh\N-Đến phòng y tế…
+Dialogue: 0,0:14:09.47,0:14:11.51,Default,,0,0,0,,-cô ấy vẫn có thể xếp hạng thứ 9 trên tất cả.\N-Tôi biết rồi.
+Dialogue: 0,0:14:11.51,0:14:12.76,Default,,0,0,0,,Không phải nhờ vào năng lực,
+Dialogue: 0,0:14:12.76,0:14:15.31,Default,,0,0,0,,mà là do cậu ta sở hữu một thể chất tuyệt vời.
+Dialogue: 0,0:14:15.31,0:14:17.69,Default,,0,0,0,,Nào, không mất thêm thời gian nữa.
+Dialogue: 0,0:14:17.69,0:14:19.65,Default,,0,0,0,,Cùng tiếp tục với trận đấu thứ sáu thôi nào.
+Dialogue: 0,0:14:19.65,0:14:21.77,Default,,0,0,0,,Đã bảo là quay về làm việc rồi mà.
+Dialogue: 0,0:14:21.77,0:14:23.15,Default,,0,0,0,,Tấn công và phòng thủ hợp nhất.
+Dialogue: 0,0:14:23.15,0:14:25.86,Default,,0,0,0,,Một chiến binh bóng tối\Ncó thể điều khiển bóng tối
+Dialogue: 0,0:14:25.86,0:14:28.57,Default,,0,0,0,,Tokoyami Fumikage, đến từ khoa Anh Hùng.
+Dialogue: 0,0:14:28.57,0:14:29.74,Default,,0,0,0,,Đấu với,
+Dialogue: 0,0:14:29.74,0:14:31.49,Default,,0,0,0,,Sáng tạo vạn vật.
+Dialogue: 0,0:14:31.49,0:14:33.12,Default,,0,0,0,,Do được tiến cử thẳng vào,
+Dialogue: 0,0:14:33.12,0:14:35.25,Default,,0,0,0,,cho nên năng lực\Ncủa em ấy mọi người đều đã quá rõ.
+Dialogue: 0,0:14:35.25,0:14:38.92,Default,,0,0,0,,Yaoyorozu Momo, đến từ khoa Anh Hùng.
+Dialogue: 0,0:14:38.92,0:14:40.54,Default,,0,0,0,,Midoriya, trận đấu này…
+Dialogue: 0,0:14:40.54,0:14:41.79,Default,,0,0,0,,Cậu thấy thế nào?
+Dialogue: 0,0:14:41.79,0:14:43.92,Default,,0,0,0,,Thời gian chính là chìa khóa của trận đấu này.
+Dialogue: 0,0:14:43.92,0:14:45.42,Default,,0,0,0,,Thời gian?
+Dialogue: 0,0:14:45.42,0:14:47.93,Default,,0,0,0,,Đúng như lời thầy Present Mic đã nói,
+Dialogue: 0,0:14:47.93,0:14:49.64,Default,,0,0,0,,Đối thủ của mình\Nchính là một thân thể công thủ hợp nhất,
+Dialogue: 0,0:14:49.64,0:14:51.93,Default,,0,0,0,,Dark Shadow và Tokoyami.
+Dialogue: 0,0:14:51.93,0:14:53.47,Default,,0,0,0,,Còn chưa kể Tokoyami,
+Dialogue: 0,0:14:53.47,0:14:56.89,Default,,0,0,0,,có thể cho Dark Shadow\Nlộ diện chỉ trong tích tắc.
+Dialogue: 0,0:14:56.89,0:15:00.40,Default,,0,0,0,,Cho nên không có gì để nghi ngờ rằng\Ncậu ta sẽ không chủ động đánh trước.
+Dialogue: 0,0:15:00.40,0:15:03.27,Default,,0,0,0,,Nếu trong tích tắc\Ncó thể tạo ra một lớp lá chắn,
+Dialogue: 0,0:15:03.27,0:15:05.07,Default,,0,0,0,,để chặn đòn tấn công của Tokoyami.
+Dialogue: 0,0:15:05.07,0:15:06.90,Default,,0,0,0,,Và có thêm thời gian,
+Dialogue: 0,0:15:06.90,0:15:08.99,Default,,0,0,0,,-để chế tạo vũ khí thì…\N-Trận thứ sáu…
+Dialogue: 0,0:15:08.99,0:15:10.32,Default,,0,0,0,,Bắt đầu!
+Dialogue: 0,0:15:10.32,0:15:10.95,Default,,0,0,0,,Được.
+Dialogue: 0,0:15:10.95,0:15:11.99,Default,,0,0,0,,Dark Shadow.
+Dialogue: 0,0:15:11.99,0:15:13.49,Default,,0,0,0,,Lên nào!
+Dialogue: 0,0:15:13.49,0:15:14.99,Default,,0,0,0,,Phải nhanh chóng tạo khiên.
+Dialogue: 0,0:15:17.20,0:15:19.04,Default,,0,0,0,,Kế đến là tạo vũ khí.
+Dialogue: 0,0:15:21.79,0:15:23.92,Default,,0,0,0,,Không thể tập trung được.
+Dialogue: 0,0:15:35.89,0:15:37.89,Default,,0,0,0,,Cậu ta dừng tấn công rồi sao?
+Dialogue: 0,0:15:37.89,0:15:39.73,Default,,0,0,0,,Chính là lúc này.
+Dialogue: 0,0:15:39.73,0:15:41.40,Default,,0,0,0,,Yaoyorozu.
+Dialogue: 0,0:15:41.40,0:15:43.27,Default,,0,0,0,,Đã rời khỏi sân.
+Dialogue: 0,0:15:47.07,0:15:48.53,Default,,0,0,0,,Thí sinh tiến vào vòng hai,
+Dialogue: 0,0:15:48.53,0:15:50.36,Default,,0,0,0,,Tokoyami.
+Dialogue: 0,0:15:53.16,0:15:54.62,Default,,0,0,0,,Chiến thắng áp đảo.
+Dialogue: 0,0:15:54.62,0:15:56.45,Default,,0,0,0,,Một chiến thắng không còn nghi ngờ gì nữa.
+Dialogue: 0,0:15:56.45,0:15:57.58,Default,,0,0,0,,Dark Shadow của Tokoyami,
+Dialogue: 0,0:15:57.58,0:15:59.54,Default,,0,0,0,,liệu có phải là năng lực\Nmạnh nhất hay không đây?
+Dialogue: 0,0:15:59.54,0:16:01.58,Default,,0,0,0,,Chói quá!
+Dialogue: 0,0:16:02.50,0:16:04.25,Default,,0,0,0,,Sao lại thế này?
+Dialogue: 0,0:16:04.84,0:16:06.75,Default,,0,0,0,,Chuyện gì vậy chứ?
+Dialogue: 0,0:16:07.42,0:16:09.55,Default,,0,0,0,,Mình chẳng làm được gì…
+Dialogue: 0,0:16:10.30,0:16:12.84,Default,,0,0,0,,Tokoyami đúng là quá mạnh.
+Dialogue: 0,0:16:12.84,0:16:16.35,Default,,0,0,0,,Cậu ấy tập trung tấn công\Nvào chiếc khiên được tạo ra bởi Yaoyarozu.
+Dialogue: 0,0:16:16.35,0:16:18.56,Default,,0,0,0,,Đẩy Yaoyozoru ra khỏi sân đấu.
+Dialogue: 0,0:16:18.56,0:16:21.60,Default,,0,0,0,,Không lẽ cậu ta lo rằng\NYaoyozoru sẽ bị thương sao?
+Dialogue: 0,0:16:22.14,0:16:25.19,Default,,0,0,0,,Vậy cậu ta thực hiện nó dễ dàng vậy ư?
+Dialogue: 0,0:16:26.06,0:16:28.28,Default,,0,0,0,,Cậu ấy chắc chắn không cam tâm.
+Dialogue: 0,0:16:32.36,0:16:34.16,Default,,0,0,0,,Tiếp tục nào thưa quý vị.
+Dialogue: 0,0:16:34.16,0:16:36.20,Default,,0,0,0,,Trận đấu tiếp theo,
+Dialogue: 0,0:16:37.83,0:16:41.58,Default,,0,0,0,,Trận thứ bảy chính là sự đối đầu\Ngiữa hai năng lực tương tự nhau.
+Dialogue: 0,0:16:41.58,0:16:44.63,Default,,0,0,0,,Người đàn ông thép đầy nam tính và nghị lực.
+Dialogue: 0,0:16:44.63,0:16:46.84,Default,,0,0,0,,Tetsutesu Tetsutesu, đến từ khoa Anh Hùng.
+Dialogue: 0,0:16:46.84,0:16:48.42,Default,,0,0,0,,Hãy xem tôi đây.
+Dialogue: 0,0:16:48.42,0:16:49.67,Default,,0,0,0,,Đấu với,
+Dialogue: 0,0:16:49.67,0:16:52.51,Default,,0,0,0,,người đàn ông đá đầy nam tính và nghị lực.
+Dialogue: 0,0:16:52.51,0:16:54.72,Default,,0,0,0,,Kirishima Eijiro, đến từ khoa Anh Hùng.
+Dialogue: 0,0:16:54.72,0:16:57.51,Default,,0,0,0,,Giới thiệu mà cũng giống nhau nữa sao?
+Dialogue: 0,0:16:57.51,0:16:59.35,Default,,0,0,0,,Cố lên! Tiến lên nào, Tetsutetsu.
+Dialogue: 0,0:16:59.35,0:17:01.23,Default,,0,0,0,,Theo bước chân của Ibara đấy.
+Dialogue: 0,0:17:03.19,0:17:04.56,Default,,0,0,0,,Tỉnh táo lại dùm đi.
+Dialogue: 0,0:17:04.56,0:17:06.52,Default,,0,0,0,,Đau quá, đau quá!
+Dialogue: 0,0:17:06.52,0:17:08.57,Default,,0,0,0,,Trận thứ bảy đầy nhiệt huyết.
+Dialogue: 0,0:17:08.57,0:17:10.32,Default,,0,0,0,,Bắt đầu!
+Dialogue: 0,0:17:19.28,0:17:23.25,Default,,0,0,0,,PHÒNG CHỜ THÍ SINH 2
+Dialogue: 0,0:17:24.92,0:17:27.42,Default,,0,0,0,,Cậu vất vả rồi, Ida.
+Dialogue: 0,0:17:27.42,0:17:28.59,Default,,0,0,0,,Uraraka…
+Dialogue: 0,0:17:28.59,0:17:29.59,Default,,0,0,0,,Nhầm người rồi!
+Dialogue: 0,0:17:29.59,0:17:31.09,Default,,0,0,0,,Lông mày của cậu đang nhíu lại với nhau kìa.
+Dialogue: 0,0:17:31.09,0:17:32.92,Default,,0,0,0,,Lông mày?
+Dialogue: 0,0:17:33.76,0:17:35.55,Default,,0,0,0,,Thật ra mình có chút lo lắng,
+Dialogue: 0,0:17:35.55,0:17:37.22,Default,,0,0,0,,nên lông mày của mình mới như thế.
+Dialogue: 0,0:17:37.22,0:17:38.05,Default,,0,0,0,,Ra vậy.
+Dialogue: 0,0:17:38.05,0:17:40.31,Default,,0,0,0,,Không có gì đáng kinh ngạc khi đối thủ của cậu
+Dialogue: 0,0:17:40.31,0:17:42.43,Default,,0,0,0,,là Bakugo mà.
+Dialogue: 0,0:17:43.06,0:17:45.98,Default,,0,0,0,,Ừm, thật đáng sợ.
+Dialogue: 0,0:17:45.98,0:17:47.44,Default,,0,0,0,,Nhưng mà…
+Dialogue: 0,0:17:47.44,0:17:49.90,Default,,0,0,0,,sau khi chứng kiến hành động đấy của Ida
+Dialogue: 0,0:17:49.90,0:17:51.61,Default,,0,0,0,,Hàng động đấy?
+Dialogue: 0,0:17:52.48,0:17:54.32,Default,,0,0,0,,Uraraka.
+Dialogue: 0,0:17:54.32,0:17:55.70,Default,,0,0,0,,Deku!
+Dialogue: 0,0:17:55.70,0:17:56.53,Default,,0,0,0,,Ơ kìa,
+Dialogue: 0,0:17:56.53,0:17:59.03,Default,,0,0,0,,cậu không định xem trận đấu\Ncủa những người kia sao?
+Dialogue: 0,0:17:59.03,0:18:01.58,Default,,0,0,0,,Đa số đều diễn ra và kết thúc khá nhanh chóng,
+Dialogue: 0,0:18:01.58,0:18:05.54,Default,,0,0,0,,còn bây giờ thì Kirishima\Nđang cùng một cậu bên lớp B so tài.
+Dialogue: 0,0:18:11.42,0:18:13.92,Default,,0,0,0,,Chẳng đau chút nào cả.
+Dialogue: 0,0:18:18.22,0:18:21.35,Default,,0,0,0,,Tôi cũng chẳng đau chút nào đâu.
+Dialogue: 0,0:18:22.60,0:18:23.93,Default,,0,0,0,,Nếu nói như vậy thì
+Dialogue: 0,0:18:23.93,0:18:25.60,Default,,0,0,0,,ngay lập tức sẽ…
+Dialogue: 0,0:18:26.10,0:18:28.06,Default,,0,0,0,,Tới lượt mình.
+Dialogue: 0,0:18:28.06,0:18:29.23,Default,,0,0,0,,Đừng lo lắng.
+Dialogue: 0,0:18:29.23,0:18:30.36,Default,,0,0,0,,Dù có là Bakugo đi nữa,
+Dialogue: 0,0:18:30.36,0:18:32.77,Default,,0,0,0,,đối đầu với một bạn nữ thì chắc\Ncũng không dùng đến những đòn nổ toàn lực đâu.
+Dialogue: 0,0:18:32.77,0:18:34.23,Default,,0,0,0,,Cậu ta thì có đấy.
+Dialogue: 0,0:18:35.15,0:18:36.15,Default,,0,0,0,,Suy cho cùng,
+Dialogue: 0,0:18:36.15,0:18:37.40,Default,,0,0,0,,mọi người đều sẽ vì ước mơ của họ.
+Dialogue: 0,0:18:37.40,0:18:39.53,Default,,0,0,0,,"PHÒNG CHỜ THÍ SINH 1"\Nngay tại đây muốn trở thành số một,
+Dialogue: 0,0:18:40.16,0:18:41.78,Default,,0,0,0,,Dù đối thủ không phải là Kacchan đi nữa,
+Dialogue: 0,0:18:41.78,0:18:44.29,Default,,0,0,0,,thì cũng không có ai nghĩ đến\Nchuyện nương tay đâu.
+Dialogue: 0,0:18:44.95,0:18:46.62,Default,,0,0,0,,Trước đây mình đã nhận được từ Uraraka
+Dialogue: 0,0:18:46.62,0:18:48.58,Default,,0,0,0,,rất nhiều sự giúp đỡ.
+Dialogue: 0,0:18:48.58,0:18:51.46,Default,,0,0,0,,Thế nên dù không đáng là bao\Nnhưng mình vẫn muốn giúp cậu.
+Dialogue: 0,0:18:51.46,0:18:52.34,Default,,0,0,0,,SỔ PHÂN TÍCH ANH HÙNG TƯƠNG LAI
+Dialogue: 0,0:18:53.38,0:18:56.55,Default,,0,0,0,,Với năng lực của Uraraka thì\Nđây là chiến lược đối đầu với Kacchan.
+Dialogue: 0,0:18:56.55,0:18:59.43,Default,,0,0,0,,Tuy khá là khẩn cấp\Nnhưng mình nghĩ ra được kế này.
+Dialogue: 0,0:19:00.09,0:19:02.72,Default,,0,0,0,,Uraraka, đây thật sự tốt quá rồi.
+Dialogue: 0,0:19:02.72,0:19:05.14,Default,,0,0,0,,Cảm ơn cậu, Deku.
+Dialogue: 0,0:19:06.18,0:19:09.39,Default,,0,0,0,,Nhưng mà, sẽ không cần đâu.
+Dialogue: 0,0:19:10.02,0:19:12.02,Default,,0,0,0,,Deku rất lợi hại.
+Dialogue: 0,0:19:12.02,0:19:14.82,Default,,0,0,0,,Hơn nữa rõ ràng là cậu càng lúc càng mạnh hơn.
+Dialogue: 0,0:19:14.82,0:19:16.28,Default,,0,0,0,,Lúc ở trận Mã Chiến,
+Dialogue: 0,0:19:16.28,0:19:19.82,Default,,0,0,0,,mình chỉ nghĩ rằng lập đội\Nvới bạn bè sẽ dễ hành động hơn.
+Dialogue: 0,0:19:19.82,0:19:21.28,Default,,0,0,0,,Nhưng bây giờ nghĩ lại,
+Dialogue: 0,0:19:21.28,0:19:24.08,Default,,0,0,0,,có lẽ là do mình muốn dựa dẫm vào Deku mà thôi.
+Dialogue: 0,0:19:24.08,0:19:25.49,Default,,0,0,0,,Vậy nên,
+Dialogue: 0,0:19:25.49,0:19:28.46,Default,,0,0,0,,khi Ida bảo rằng sẽ tuyên chiến với cậu.
+Dialogue: 0,0:19:28.46,0:19:31.96,Default,,0,0,0,,Thật sự nó làm mình cảm thấy hơi xấu hổ.
+Dialogue: 0,0:19:31.96,0:19:34.29,Default,,0,0,0,,Uraraka.
+Dialogue: 0,0:19:35.55,0:19:37.01,Default,,0,0,0,,Vậy nên,
+Dialogue: 0,0:19:37.55,0:19:38.88,Default,,0,0,0,,mình sẽ không cần đâu.
+Dialogue: 0,0:19:41.18,0:19:44.56,Default,,0,0,0,,Mọi người đều đang nỗ lực hết mình vì tương lai.
+Dialogue: 0,0:19:45.22,0:19:46.68,Default,,0,0,0,,Vậy thì tất cả chúng ta đều là…
+Dialogue: 0,0:19:46.68,0:19:48.64,Default,,0,0,0,,đối thủ của nhau.
+Dialogue: 0,0:19:49.48,0:19:51.27,Default,,0,0,0,,Thế nên,
+Dialogue: 0,0:19:52.90,0:19:55.69,Default,,0,0,0,,hẹn gặp nhau trong trận chung kết nhé.
+Dialogue: 0,0:20:13.04,0:20:14.79,Default,,0,0,0,,Hai chàng trai với năng lực giống nhau.
+Dialogue: 0,0:20:14.79,0:20:16.80,Default,,0,0,0,,Tetsutetsu đấu với Kirishima.
+Dialogue: 0,0:20:16.80,0:20:19.51,Default,,0,0,0,,Một cuộc đối đầu giữa nắm đấm với nhau.
+Dialogue: 0,0:20:19.51,0:20:21.80,Default,,0,0,0,,Người chiến thắng chính là…
+Dialogue: 0,0:20:25.26,0:20:26.72,Default,,0,0,0,,Cả hai đều gục.
+Dialogue: 0,0:20:26.72,0:20:28.43,Default,,0,0,0,,Kết quả hòa!
+Dialogue: 0,0:20:28.43,0:20:31.27,Default,,0,0,0,,Vì là một trận hòa,\Nsau khi hai thí sinh hồi phục thể lực,
+Dialogue: 0,0:20:31.27,0:20:34.19,Default,,0,0,0,,sẽ thi vật tay để quyết định người thắng cuộc.
+Dialogue: 0,0:20:34.19,0:20:36.73,Default,,0,0,0,,Năng lực cũng tương tự nhau sao?
+Dialogue: 0,0:20:36.73,0:20:39.57,Default,,0,0,0,,Tôi thích những đứa có nhiệt huyết như thế này.
+Dialogue: 0,0:20:39.57,0:20:40.90,Default,,0,0,0,,Chúng có thể truyền cảm hứng.
+Dialogue: 0,0:20:40.90,0:20:43.28,Default,,0,0,0,,Tôi muốn có một người cộng tác như thế.
+Dialogue: 0,0:20:43.28,0:20:45.99,Default,,0,0,0,,-Đến phòng y tế…\N-Trong khi chờ Tetsutetsu và Kirishima hồi phục thể lực,
+Dialogue: 0,0:20:45.99,0:20:48.66,Default,,0,0,0,,-Tôi biết rồi.\N-chúng ta bắt đầu trận đấu tiếp theo luôn nào.
+Dialogue: 0,0:20:56.29,0:20:57.34,Default,,0,0,0,,Trận đấu tiếp theo,
+Dialogue: 0,0:20:57.34,0:20:59.42,Default,,0,0,0,,có lẽ chính là trận đáng quan ngại nhất đấy.
+Dialogue: 0,0:20:59.42,0:21:02.47,Default,,0,0,0,,Thành thật mà nói,\Ntôi chẳng muốn xem chút nào luôn.
+Dialogue: 0,0:21:07.18,0:21:08.76,Default,,0,0,0,,Uraraka.
+Dialogue: 0,0:21:09.68,0:21:11.48,Default,,0,0,0,,Cố lên nhé!
+Dialogue: 0,0:21:13.48,0:21:17.06,Default,,0,0,0,,Trận thứ tám,\Ncũng là trận cuối cùng trong vòng đầu tiên.
+Dialogue: 0,0:21:17.06,0:21:19.65,Default,,0,0,0,,Khá nổi tiếng khi còn học ở Trung học Cơ sở.
+Dialogue: 0,0:21:19.65,0:21:21.57,Default,,0,0,0,,Nhìn thế nào cũng không đứng đắn mà.
+Dialogue: 0,0:21:21.57,0:21:25.07,Default,,0,0,0,,Bakugo Katsuki, đến từ khoa Anh Hùng.
+Dialogue: 0,0:21:25.07,0:21:26.24,Default,,0,0,0,,Đấu với,
+Dialogue: 0,0:21:26.24,0:21:28.20,Default,,0,0,0,,Tôi thật sự muốn cổ vũ cho em ấy.
+Dialogue: 0,0:21:28.20,0:21:31.83,Default,,0,0,0,,Uraraka Ochaco, đến từ khoa Anh Hùng.
+Dialogue: 0,0:21:44.05,0:21:46.05,Default,,0,0,0,,Trận đấu thứ tám.
+Dialogue: 0,0:21:46.05,0:21:49.01,Default,,0,0,0,,Bắt đầu!
+Dialogue: 0,0:21:54.73,0:21:56.19,Default,,0,0,0,,♫Giữ chặt lấy♫
+Dialogue: 0,0:22:06.24,0:22:11.62,Default,,0,0,0,,♫Mắc kẹt trong tình cảnh ngược chiều gió,\Ncớ sao chỉ xảy ra với mỗi mình tôi?♫
+Dialogue: 0,0:22:11.62,0:22:16.04,Default,,0,0,0,,♫Tôi đã từng rất ghét\Nnhững lời ngon ngọt sáo rỗng♫
+Dialogue: 0,0:22:16.92,0:22:22.34,Default,,0,0,0,,♫Tất cả những điều đó đều liên kết với nhau,\Nvà ngay giây phút này♫
+Dialogue: 0,0:22:22.34,0:22:28.59,Default,,0,0,0,,♫Nếu không tiếp tục chạy thì sẽ không bao giờ\Nvương đến ước mơ đó được♫
+Dialogue: 0,0:22:28.59,0:22:34.02,Default,,0,0,0,,♫Chỉ tìm kiếm trên bầu trời♫
+Dialogue: 0,0:22:34.02,0:22:39.27,Default,,0,0,0,,♫thì không thể tìm thấy câu trả lời đâu♫
+Dialogue: 0,0:22:39.27,0:22:43.40,Default,,0,0,0,,♫Ngay bây giờ chính là lúc để chứng tỏ rằng♫
+Dialogue: 0,0:22:43.40,0:22:48.32,Default,,0,0,0,,♫chúng ta vẫn còn sống♫
+Dialogue: 0,0:22:48.32,0:22:51.70,Default,,0,0,0,,♫Hôm nay lại khóc, khóc rất nhiều♫
+Dialogue: 0,0:22:51.70,0:22:56.37,Default,,0,0,0,,♫Nhưng dù có bao nhiêu lần\Nthì tôi cũng sẽ vượt qua được♫
+Dialogue: 0,0:22:56.37,0:22:59.04,Default,,0,0,0,,♫Nắm chặt tay nhau (không sao đâu)♫
+Dialogue: 0,0:22:59.04,0:23:02.29,Default,,0,0,0,,♫Chúng ta không hề cô độc! Không hề!♫
+Dialogue: 0,0:23:02.29,0:23:07.01,Default,,0,0,0,,♫Tuyệt đối không được từ bỏ♫
+Dialogue: 0,0:23:07.01,0:23:12.01,Default,,0,0,0,,♫Hãy hét lên♫
+Dialogue: 0,0:23:12.01,0:23:13.56,Default,,0,0,0,,♫Sẽ không chạy trốn nữa♫
+Dialogue: 0,0:23:17.31,0:23:19.94,Default,,0,0,0,,♫Hãy nắm chặt lấy♫
+Dialogue: 0,0:23:19.94,0:23:21.94,Default,,0,0,0,,GIỚI THIỆU TẬP SAU
+Dialogue: 0,0:23:21.94,0:23:24.61,Default,,0,0,0,,Giới thiệu tập sau đây.
+Dialogue: 0,0:23:24.61,0:23:25.36,Default,,0,0,0,,Uraraka,
+Dialogue: 0,0:23:25.36,0:23:27.40,Default,,0,0,0,,giọng nói của cậu\Nchẳng có chút sức sống nào luôn.
+Dialogue: 0,0:23:27.40,0:23:29.32,Default,,0,0,0,,Mà cũng phải thôi, đối thủ là Kacchan mà.
+Dialogue: 0,0:23:29.32,0:23:31.16,Default,,0,0,0,,Nhưng mà, mình sẽ cố gắng.
+Dialogue: 0,0:23:31.16,0:23:32.70,Default,,0,0,0,,Mình muốn trở thành một anh hùng xuất sắc,
+Dialogue: 0,0:23:32.70,0:23:35.12,Default,,0,0,0,,để bố mẹ có một cuộc sống thoải mái hơn.
+Dialogue: 0,0:23:35.12,0:23:36.04,Default,,0,0,0,,Deku,
+Dialogue: 0,0:23:36.04,0:23:38.04,Default,,0,0,0,,hẹn gặp cậu ở trận chung kết.
+Dialogue: 0,0:23:38.04,0:23:39.46,Default,,0,0,0,,Cố lên nhé, Uraraka.
+Dialogue: 0,0:23:39.46,0:23:41.92,Default,,0,0,0,,Tập tiếp theo, Bakugo đấu với Uraraka.
+Dialogue: 0,0:23:41.92,0:23:43.42,Default,,0,0,0,,Mưa thiên thạch từ trên trời rơi xuống
+Dialogue: 0,0:23:43.42,0:23:45.71,Default,,0,0,0,,sẽ là con đường dẫn đến chiến thắng.
+Dialogue: 0,0:23:45.71,0:23:47.51,Default,,0,0,0,,Tiến xa hơn nữa!
+Dialogue: 0,0:23:47.51,0:23:49.97,Default,,0,0,0,,Plus Ultra!

@@ -1,0 +1,658 @@
+[Script Info]
+; This is an Advanced Sub Station Alpha v4+ script.
+Title:
+ScriptType: v4.00+
+PlayDepth: 0
+ScaledBorderAndShadow: Yes
+PlayResX: 1920
+PlayResY: 1080
+
+[V4+ Styles]
+Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
+Style: Default,Noto Sans,80.0,&H00FFFFFF,&H000000FF,&H00002208,&H00000000,-1,0,0,0,100,100,0,0,1,3.0,2.0,2,0,0,65,1
+
+[Events]
+Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
+Dialogue: 0,0:00:07.33,0:00:11.25,Default,,0,0,0,,Những học sinh của lớp cá biệt\Nđã bị áp đặt một thử thách.
+Dialogue: 0,0:00:11.25,0:00:11.26,Default,,0,0,0,,Những học sinh của lớp cá biệt\Nđã bị áp đặt một thử thách.\NĐó là đến khi lên năm hai,
+Dialogue: 0,0:00:11.26,0:00:13.12,Default,,0,0,0,,Đó là đến khi lên năm hai,
+Dialogue: 0,0:00:13.12,0:00:16.58,Default,,0,0,0,,nếu tất cả học sinh\Nkhông thăng lên được hạng Daleth thì.
+Dialogue: 0,0:00:16.58,0:00:16.58,Default,,0,0,0,,nếu tất cả học sinh\Nkhông thăng lên được hạng Daleth thì.\NHọ sẽ bị tống cổ khỏi Royal One,
+Dialogue: 0,0:00:16.58,0:00:18.95,Default,,0,0,0,,Họ sẽ bị tống cổ khỏi Royal One,
+Dialogue: 0,0:00:18.95,0:00:18.95,Default,,0,0,0,,Họ sẽ bị tống cổ khỏi Royal One,\Nphòng học của Vua\Nmà họ khó khăn lắm mới đạt được!
+Dialogue: 0,0:00:18.95,0:00:22.67,Default,,0,0,0,,phòng học của Vua\Nmà họ khó khăn lắm mới đạt được!
+Dialogue: 0,0:00:22.67,0:00:22.68,Default,,0,0,0,,phòng học của Vua\Nmà họ khó khăn lắm mới đạt được!\NNhóm Iruma giờ đây\Nchuẩn bị đối mặt với bài thi thăng hạng!
+Dialogue: 0,0:00:22.68,0:00:26.34,Default,,0,0,0,,Nhóm Iruma giờ đây\Nchuẩn bị đối mặt với bài thi thăng hạng!
+Dialogue: 0,0:00:26.34,0:00:26.34,Default,,0,0,0,,Nhóm Iruma giờ đây\Nchuẩn bị đối mặt với bài thi thăng hạng!\NĐầu tiên chính là Lễ hội thu hoạch.
+Dialogue: 0,0:00:26.34,0:00:30.27,Default,,0,0,0,,Đầu tiên chính là Lễ hội thu hoạch.
+Dialogue: 0,0:02:03.03,0:02:07.52,Default,,0,0,0,,(Iruma trong mắt tôi)
+Dialogue: 0,0:02:07.52,0:02:07.53,Default,,0,0,0,,(Iruma trong mắt tôi)\NSau ngày đầu tiên của Lễ hội thu hoạch,
+Dialogue: 0,0:02:07.53,0:02:09.86,Default,,0,0,0,,Sau ngày đầu tiên của Lễ hội thu hoạch,
+Dialogue: 0,0:02:09.86,0:02:09.87,Default,,0,0,0,,Sau ngày đầu tiên của Lễ hội thu hoạch,\Nđiểm thu hoạch của các thành viên lớp cá biệt là.
+Dialogue: 0,0:02:09.87,0:02:13.24,Default,,0,0,0,,điểm thu hoạch của các thành viên lớp cá biệt là.
+Dialogue: 0,0:02:13.24,0:02:13.24,Default,,0,0,0,,điểm thu hoạch của các thành viên lớp cá biệt là.\NĐội Iruma và Lied, 0 điểm!
+Dialogue: 0,0:02:13.24,0:02:16.52,Default,,0,0,0,,Đội Iruma và Lied, 0 điểm!
+Dialogue: 0,0:02:16.52,0:02:16.52,Default,,0,0,0,,Đội Iruma và Lied, 0 điểm!\NĐội Picero và Goemon,\N8200 điểm cộng thêm phần chưa tính!
+Dialogue: 0,0:02:16.52,0:02:21.57,Default,,0,0,0,,Đội Picero và Goemon,\N8200 điểm cộng thêm phần chưa tính!
+Dialogue: 0,0:02:21.57,0:02:25.85,Default,,0,0,0,,Đội Elizabetta và Clara, 9400 điểm!
+Dialogue: 0,0:02:25.85,0:02:25.85,Default,,0,0,0,,Đội Elizabetta và Clara, 9400 điểm!\NĐội Jazz và Schneider, 12800 điểm!
+Dialogue: 0,0:02:25.85,0:02:30.48,Default,,0,0,0,,Đội Jazz và Schneider, 12800 điểm!
+Dialogue: 0,0:02:30.48,0:02:30.49,Default,,0,0,0,,Đội Jazz và Schneider, 12800 điểm!\NĐội Kerori và Kamui, 14200 điểm!
+Dialogue: 0,0:02:30.49,0:02:34.50,Default,,0,0,0,,Đội Kerori và Kamui, 14200 điểm!
+Dialogue: 0,0:02:34.50,0:02:34.50,Default,,0,0,0,,Đội Kerori và Kamui, 14200 điểm!\NĐội Asmodeus và Sabnock, 15100 điểm!
+Dialogue: 0,0:02:34.50,0:02:39.56,Default,,0,0,0,,Đội Asmodeus và Sabnock, 15100 điểm!
+Dialogue: 0,0:02:40.20,0:02:43.77,Default,,0,0,0,,Đội Asmodeus và Sabnock đang tạm dẫn đầu!
+Dialogue: 0,0:02:46.15,0:02:48.35,Default,,0,0,0,,(Hồng hạc táo 10800 điểm)\NHồng hạc táo bị phỗng tay trên,
+Dialogue: 0,0:02:48.35,0:02:48.36,Default,,0,0,0,,(Hồng hạc táo 10800 điểm)\NHồng hạc táo bị phỗng tay trên,\Nđiểm thu hoạch cũng bị cướp hết!
+Dialogue: 0,0:02:48.36,0:02:50.16,Default,,0,0,0,,điểm thu hoạch cũng bị cướp hết!
+Dialogue: 0,0:02:50.16,0:02:50.17,Default,,0,0,0,,điểm thu hoạch cũng bị cướp hết!\NTrận đấu này bọn ta thua hoàn toàn rồi!
+Dialogue: 0,0:02:50.17,0:02:52.83,Default,,0,0,0,,Trận đấu này bọn ta thua hoàn toàn rồi!
+Dialogue: 0,0:02:54.54,0:02:56.82,Default,,0,0,0,,Ồ, chơi đẹp quá ta.
+Dialogue: 0,0:02:56.82,0:02:56.82,Default,,0,0,0,,Ồ, chơi đẹp quá ta.\NKhông! Bọn ta tức muốn chết đây!
+Dialogue: 0,0:02:56.82,0:02:59.66,Default,,0,0,0,,Không! Bọn ta tức muốn chết đây!
+Dialogue: 0,0:02:59.66,0:02:59.67,Default,,0,0,0,,Không! Bọn ta tức muốn chết đây!\NBọn họ chơi đẹp á?
+Dialogue: 0,0:02:59.67,0:03:01.42,Default,,0,0,0,,Bọn họ chơi đẹp á?
+Dialogue: 0,0:03:01.96,0:03:03.41,Default,,0,0,0,,Dù tức lắm,
+Dialogue: 0,0:03:03.41,0:03:05.41,Default,,0,0,0,,nhưng đúng là các ngươi giỏi hơn!
+Dialogue: 0,0:03:05.41,0:03:06.68,Default,,0,0,0,,Là những chiến binh thật sự!
+Dialogue: 0,0:03:06.68,0:03:06.68,Default,,0,0,0,,Là những chiến binh thật sự!\NBọn ta phải công nhận\Nthực lực của kẻ mạnh mới được chứ!
+Dialogue: 0,0:03:06.68,0:03:08.93,Default,,0,0,0,,Bọn ta phải công nhận\Nthực lực của kẻ mạnh mới được chứ!
+Dialogue: 0,0:03:08.93,0:03:08.94,Default,,0,0,0,,Bọn ta phải công nhận\Nthực lực của kẻ mạnh mới được chứ!\NỪ!
+Dialogue: 0,0:03:08.94,0:03:09.89,Default,,0,0,0,,Ừ!
+Dialogue: 0,0:03:15.95,0:03:19.31,Default,,0,0,0,,Lễ hội thu hoạch có luật\Nkhông được tấn công đối phương mà.
+Dialogue: 0,0:03:19.31,0:03:19.32,Default,,0,0,0,,Lễ hội thu hoạch có luật\Nkhông được tấn công đối phương mà.\NNếu không có luật đó
+Dialogue: 0,0:03:19.32,0:03:20.53,Default,,0,0,0,,Nếu không có luật đó
+Dialogue: 0,0:03:20.53,0:03:20.54,Default,,0,0,0,,Nếu không có luật đó\Nthì chưa biết thắng bại thế nào đâu.
+Dialogue: 0,0:03:20.54,0:03:22.13,Default,,0,0,0,,thì chưa biết thắng bại thế nào đâu.
+Dialogue: 0,0:03:22.13,0:03:23.11,Default,,0,0,0,,Ừm!
+Dialogue: 0,0:03:23.11,0:03:25.11,Default,,0,0,0,,Đúng là một trận chiến cam go!
+Dialogue: 0,0:03:25.11,0:03:27.40,Default,,0,0,0,,Giữa những kẻ có cùng sư phụ.
+Dialogue: 0,0:03:28.18,0:03:31.39,Default,,0,0,0,,Tôi rất vinh hạnh được đấu với các người.
+Dialogue: 0,0:03:31.39,0:03:31.40,Default,,0,0,0,,Tôi rất vinh hạnh được đấu với các người.\NCác cậu.
+Dialogue: 0,0:03:31.40,0:03:34.16,Default,,0,0,0,,Các cậu.
+Dialogue: 0,0:03:38.49,0:03:39.94,Default,,0,0,0,,Được lắm!
+Dialogue: 0,0:03:39.94,0:03:39.95,Default,,0,0,0,,Được lắm!\NVậy thì đấu thêm lần nữa đi!
+Dialogue: 0,0:03:39.95,0:03:41.84,Default,,0,0,0,,Vậy thì đấu thêm lần nữa đi!
+Dialogue: 0,0:03:41.84,0:03:43.79,Default,,0,0,0,,Lần sau bọn này nhất định không thua đâu!
+Dialogue: 0,0:03:45.29,0:03:47.42,Default,,0,0,0,,Hở? Phải đấu nữa hả!?
+Dialogue: 0,0:03:47.42,0:03:47.43,Default,,0,0,0,,Hở? Phải đấu nữa hả!?\NĐúng thế, đương nhiên là vậy rồi!
+Dialogue: 0,0:03:47.43,0:03:49.58,Default,,0,0,0,,Đúng thế, đương nhiên là vậy rồi!
+Dialogue: 0,0:03:49.57,0:03:49.58,Default,,0,0,0,,Đúng thế, đương nhiên là vậy rồi!\NThua với bỏ cuộc là hai chuyện khác nhau!
+Dialogue: 0,0:03:49.58,0:03:51.56,Default,,0,0,0,,Thua với bỏ cuộc là hai chuyện khác nhau!
+Dialogue: 0,0:03:52.55,0:03:55.72,Default,,0,0,0,,Bọn tôi nhất định phải đưa được sư phụ về!
+Dialogue: 0,0:03:55.72,0:03:55.72,Default,,0,0,0,,Bọn tôi nhất định phải đưa được sư phụ về!\NChúng ta sẽ đấu đến khi nào\Nbọn này hài lòng mới thôi!
+Dialogue: 0,0:03:55.72,0:03:58.45,Default,,0,0,0,,Chúng ta sẽ đấu đến khi nào\Nbọn này hài lòng mới thôi!
+Dialogue: 0,0:03:58.45,0:03:58.46,Default,,0,0,0,,Chúng ta sẽ đấu đến khi nào\Nbọn này hài lòng mới thôi!\NNhỉ?
+Dialogue: 0,0:03:58.46,0:03:59.01,Default,,0,0,0,,Nhỉ?
+Dialogue: 0,0:03:59.01,0:03:59.02,Default,,0,0,0,,Nhỉ?\NỪm.
+Dialogue: 0,0:03:59.02,0:03:59.56,Default,,0,0,0,,Ừm.
+Dialogue: 0,0:03:59.56,0:03:59.56,Default,,0,0,0,,Ừm.\NNhân tiện thì hai anh em này,
+Dialogue: 0,0:03:59.56,0:04:01.68,Default,,0,0,0,,Nhân tiện thì hai anh em này,
+Dialogue: 0,0:04:01.68,0:04:05.55,Default,,0,0,0,,vẫn đang nhận nhầm người một cách rất tai hại!
+Dialogue: 0,0:04:05.55,0:04:05.56,Default,,0,0,0,,vẫn đang nhận nhầm người một cách rất tai hại!\N(Nhận nhầm người là sao ạ?)
+Dialogue: 0,0:04:05.56,0:04:07.45,Default,,0,0,0,,(Nhận nhầm người là sao ạ?)
+Dialogue: 0,0:04:07.45,0:04:07.45,Default,,0,0,0,,(Nhận nhầm người là sao ạ?)\NSư phụ của Asmodeus và Sabnock là thầy Balam.
+Dialogue: 0,0:04:07.45,0:04:12.93,Default,,0,0,0,,Sư phụ của Asmodeus và Sabnock là thầy Balam.
+Dialogue: 0,0:04:12.93,0:04:12.94,Default,,0,0,0,,Sư phụ của Asmodeus và Sabnock là thầy Balam.\NAnh em DoroDoro lại hiểu nhầm\Nngười đó là Trung sĩ Furfur.
+Dialogue: 0,0:04:12.94,0:04:17.78,Default,,0,0,0,,Anh em DoroDoro lại hiểu nhầm\Nngười đó là Trung sĩ Furfur.
+Dialogue: 0,0:04:19.45,0:04:21.55,Default,,0,0,0,,Tiếp theo đi đến đầm lầy đi!
+Dialogue: 0,0:04:21.55,0:04:21.56,Default,,0,0,0,,Tiếp theo đi đến đầm lầy đi!\NCho các cậu chìm nghỉm luôn!
+Dialogue: 0,0:04:21.56,0:04:22.70,Default,,0,0,0,,Cho các cậu chìm nghỉm luôn!
+Dialogue: 0,0:04:22.69,0:04:24.06,Default,,0,0,0,,Đi săn cá sấu à!
+Dialogue: 0,0:04:24.06,0:04:24.07,Default,,0,0,0,,Đi săn cá sấu à!\NNghe hay đó!
+Dialogue: 0,0:04:24.07,0:04:25.02,Default,,0,0,0,,Nghe hay đó!
+Dialogue: 0,0:04:25.01,0:04:26.98,Default,,0,0,0,,Này, đừng có nghe theo họ!
+Dialogue: 0,0:04:26.98,0:04:26.99,Default,,0,0,0,,Này, đừng có nghe theo họ!\NÀ, hiện giờ bọn này\Nkhông có dùng năng lực gia tộc đâu.
+Dialogue: 0,0:04:26.99,0:04:30.23,Default,,0,0,0,,À, hiện giờ bọn này\Nkhông có dùng năng lực gia tộc đâu.
+Dialogue: 0,0:04:31.88,0:04:33.54,Default,,0,0,0,,Các học sinh.
+Dialogue: 0,0:04:33.54,0:04:33.54,Default,,0,0,0,,Các học sinh.\NChào buổi sáng tới các em.
+Dialogue: 0,0:04:33.54,0:04:36.22,Default,,0,0,0,,Chào buổi sáng tới các em.
+Dialogue: 0,0:04:38.73,0:04:42.61,Default,,0,0,0,,(Lễ hội thu hoạch, ngày thứ hai)\NNgày mới đã đến rồi!
+Dialogue: 0,0:04:43.67,0:04:45.10,Default,,0,0,0,,Hôm nay các em,
+Dialogue: 0,0:04:45.10,0:04:45.11,Default,,0,0,0,,Hôm nay các em,\N- Hửm? Sáng rồi à?\N- cũng hãy hợp tác với nhau thật thân thiện.
+Dialogue: 0,0:04:45.11,0:04:47.87,Default,,0,0,0,,- Hửm? Sáng rồi à?\N- cũng hãy hợp tác với nhau thật thân thiện.
+Dialogue: 0,0:04:47.86,0:04:47.87,Default,,0,0,0,,- Hửm? Sáng rồi à?\N- cũng hãy hợp tác với nhau thật thân thiện.\NĐể Lễ hội thu hoạch diễn ra một cách vui vẻ nhé!
+Dialogue: 0,0:04:47.87,0:04:51.11,Default,,0,0,0,,Để Lễ hội thu hoạch diễn ra một cách vui vẻ nhé!
+Dialogue: 0,0:04:51.11,0:04:51.11,Default,,0,0,0,,Để Lễ hội thu hoạch diễn ra một cách vui vẻ nhé!\NNgày thứ hai của Lễ hội thu hoạch,
+Dialogue: 0,0:04:51.11,0:04:53.34,Default,,0,0,0,,Ngày thứ hai của Lễ hội thu hoạch,
+Dialogue: 0,0:04:53.34,0:04:56.60,Default,,0,0,0,,các học sinh có thể chia ra\Nđại khái làm hai nhóm.
+Dialogue: 0,0:04:57.88,0:05:00.13,Default,,0,0,0,,Chẳng ngủ được mấy.
+Dialogue: 0,0:05:00.13,0:05:02.75,Default,,0,0,0,,Những học sinh mệt mỏi rã rời.
+Dialogue: 0,0:05:07.00,0:05:08.02,Default,,0,0,0,,Ngon lành!
+Dialogue: 0,0:05:08.02,0:05:08.02,Default,,0,0,0,,Ngon lành!\NVà những học sinh tràn đầy năng lượng.
+Dialogue: 0,0:05:08.02,0:05:10.00,Default,,0,0,0,,Và những học sinh tràn đầy năng lượng.
+Dialogue: 0,0:05:10.95,0:05:13.42,Default,,0,0,0,,Hôm nay cũng cố lên thôi!
+Dialogue: 0,0:05:16.48,0:05:18.76,Default,,0,0,0,,Rồi, bữa sáng cũng đã ăn xong!
+Dialogue: 0,0:05:18.76,0:05:18.76,Default,,0,0,0,,Rồi, bữa sáng cũng đã ăn xong!\NThể lực khôi phục đầy đủ rồi!
+Dialogue: 0,0:05:18.76,0:05:20.98,Default,,0,0,0,,Thể lực khôi phục đầy đủ rồi!
+Dialogue: 0,0:05:20.98,0:05:20.99,Default,,0,0,0,,Thể lực khôi phục đầy đủ rồi!\NTừ giờ chúng ta phải nhắm đến\Nthật nhiều điểm mới được nhỉ!
+Dialogue: 0,0:05:20.99,0:05:23.93,Default,,0,0,0,,Từ giờ chúng ta phải nhắm đến\Nthật nhiều điểm mới được nhỉ!
+Dialogue: 0,0:05:23.93,0:05:23.93,Default,,0,0,0,,Từ giờ chúng ta phải nhắm đến\Nthật nhiều điểm mới được nhỉ!\NỪm!
+Dialogue: 0,0:05:23.93,0:05:24.77,Default,,0,0,0,,Ừm!
+Dialogue: 0,0:05:24.77,0:05:26.77,Default,,0,0,0,,Nhưng để tớ ăn chén nữa đã.
+Dialogue: 0,0:05:29.24,0:05:31.54,Default,,0,0,0,,Cậu hào hứng quá nhỉ Lied!
+Dialogue: 0,0:05:31.54,0:05:31.55,Default,,0,0,0,,Cậu hào hứng quá nhỉ Lied!\NĐương nhiên phải thế rồi!
+Dialogue: 0,0:05:31.55,0:05:33.23,Default,,0,0,0,,Đương nhiên phải thế rồi!
+Dialogue: 0,0:05:33.23,0:05:33.24,Default,,0,0,0,,Đương nhiên phải thế rồi!\NChỉ còn lại ba ngày thôi!
+Dialogue: 0,0:05:33.24,0:05:34.51,Default,,0,0,0,,Chỉ còn lại ba ngày thôi!
+Dialogue: 0,0:05:34.51,0:05:34.52,Default,,0,0,0,,Chỉ còn lại ba ngày thôi!\NKhông thể cứ thong thả được nữa đâu!
+Dialogue: 0,0:05:34.52,0:05:36.92,Default,,0,0,0,,Không thể cứ thong thả được nữa đâu!
+Dialogue: 0,0:05:36.92,0:05:36.92,Default,,0,0,0,,Không thể cứ thong thả được nữa đâu!\NChưa kể ngày đầu tiên chúng ta
+Dialogue: 0,0:05:36.92,0:05:38.49,Default,,0,0,0,,Chưa kể ngày đầu tiên chúng ta
+Dialogue: 0,0:05:38.49,0:05:38.49,Default,,0,0,0,,Chưa kể ngày đầu tiên chúng ta\Ncòn chẳng có điểm nào nữa đấy!
+Dialogue: 0,0:05:38.49,0:05:39.95,Default,,0,0,0,,còn chẳng có điểm nào nữa đấy!
+Dialogue: 0,0:05:40.95,0:05:43.45,Default,,0,0,0,,Không có điểm nào hả?
+Dialogue: 0,0:05:43.45,0:05:43.45,Default,,0,0,0,,Không có điểm nào hả?\NỪm, số không tròn trĩnh luôn.
+Dialogue: 0,0:05:43.45,0:05:46.14,Default,,0,0,0,,Ừm, số không tròn trĩnh luôn.
+Dialogue: 0,0:05:46.14,0:05:46.15,Default,,0,0,0,,Ừm, số không tròn trĩnh luôn.\NPhải cố lên thôi!
+Dialogue: 0,0:05:46.15,0:05:47.42,Default,,0,0,0,,Phải cố lên thôi!
+Dialogue: 0,0:05:49.60,0:05:50.97,Default,,0,0,0,,(30 điểm)
+Dialogue: 0,0:05:50.97,0:05:52.60,Default,,0,0,0,,Trông ngon quá!
+Dialogue: 0,0:05:54.46,0:05:55.96,Default,,0,0,0,,(15 điểm + 30 điểm)\NNgon quá ngon quá.
+Dialogue: 0,0:05:55.96,0:05:55.96,Default,,0,0,0,,(15 điểm + 30 điểm)\NNgon quá ngon quá.\N(25 điểm)
+Dialogue: 0,0:05:55.96,0:05:57.22,Default,,0,0,0,,(25 điểm)
+Dialogue: 0,0:05:57.22,0:05:57.22,Default,,0,0,0,,(25 điểm)\N(50 điểm)
+Dialogue: 0,0:05:57.22,0:05:58.46,Default,,0,0,0,,(50 điểm)
+Dialogue: 0,0:05:58.46,0:06:00.30,Default,,0,0,0,,Ngon quá xá!
+Dialogue: 0,0:06:00.30,0:06:01.47,Default,,0,0,0,,Ơ kìa?
+Dialogue: 0,0:06:01.47,0:06:01.48,Default,,0,0,0,,Ơ kìa?\NCó khi nào mình.
+Dialogue: 0,0:06:01.48,0:06:04.29,Default,,0,0,0,,Có khi nào mình.
+Dialogue: 0,0:06:04.29,0:06:04.30,Default,,0,0,0,,Có khi nào mình.\NNgồm ngoàm.
+Dialogue: 0,0:06:04.30,0:06:06.81,Default,,0,0,0,,Ngồm ngoàm.
+Dialogue: 0,0:06:06.81,0:06:06.81,Default,,0,0,0,,Ngồm ngoàm.\NĂn quá mức cho phép rồi sao!
+Dialogue: 0,0:06:06.81,0:06:10.10,Default,,0,0,0,,Ăn quá mức cho phép rồi sao!
+Dialogue: 0,0:06:10.10,0:06:10.10,Default,,0,0,0,,Ăn quá mức cho phép rồi sao!\NTh-Thôi chết rồi!
+Dialogue: 0,0:06:10.10,0:06:12.26,Default,,0,0,0,,Th-Thôi chết rồi!
+Dialogue: 0,0:06:12.26,0:06:12.26,Default,,0,0,0,,Th-Thôi chết rồi!\NĐáng lẽ phải để dành điểm lại chứ!
+Dialogue: 0,0:06:12.26,0:06:14.54,Default,,0,0,0,,Đáng lẽ phải để dành điểm lại chứ!
+Dialogue: 0,0:06:14.54,0:06:14.55,Default,,0,0,0,,Đáng lẽ phải để dành điểm lại chứ!\NNhưng tại thói quen\Nthời mình còn sống theo kiểu sinh tồn!
+Dialogue: 0,0:06:14.55,0:06:17.41,Default,,0,0,0,,Nhưng tại thói quen\Nthời mình còn sống theo kiểu sinh tồn!
+Dialogue: 0,0:06:17.40,0:06:17.40,Default,,0,0,0,,Nhưng tại thói quen\Nthời mình còn sống theo kiểu sinh tồn!\NÔi, không hổ danh là Iruma!
+Dialogue: 0,0:06:17.40,0:06:19.85,Default,,0,0,0,,Ôi, không hổ danh là Iruma!
+Dialogue: 0,0:06:19.85,0:06:21.85,Default,,0,0,0,,Tớ cũng thấy kế này hay lắm!
+Dialogue: 0,0:06:21.85,0:06:24.35,Default,,0,0,0,,Đừng lo, tớ hoàn toàn tán thành với cậu mà!
+Dialogue: 0,0:06:24.99,0:06:26.53,Default,,0,0,0,,Là vậy phải không?
+Dialogue: 0,0:06:26.53,0:06:26.53,Default,,0,0,0,,Là vậy phải không?\NCậu nhắm tới "Lá huyền thoại" chứ gì?
+Dialogue: 0,0:06:26.53,0:06:30.99,Default,,0,0,0,,Cậu nhắm tới "Lá huyền thoại" chứ gì?
+Dialogue: 0,0:06:34.33,0:06:36.50,Default,,0,0,0,,(Lá huyền thoại - 100.000 điểm)\NLá huyền thoại,
+Dialogue: 0,0:06:36.50,0:06:36.51,Default,,0,0,0,,(Lá huyền thoại - 100.000 điểm)\NLá huyền thoại,\Ntất cả mọi thứ về nó đều là bí ẩn!
+Dialogue: 0,0:06:36.51,0:06:38.24,Default,,0,0,0,,tất cả mọi thứ về nó đều là bí ẩn!
+Dialogue: 0,0:06:38.24,0:06:38.25,Default,,0,0,0,,tất cả mọi thứ về nó đều là bí ẩn!\NChưa có ai từng thu hoạch được nó!
+Dialogue: 0,0:06:38.25,0:06:41.20,Default,,0,0,0,,Chưa có ai từng thu hoạch được nó!
+Dialogue: 0,0:06:41.20,0:06:41.21,Default,,0,0,0,,Chưa có ai từng thu hoạch được nó!\NSiêu nguyên liệu trị giá 100.000 điểm!
+Dialogue: 0,0:06:41.21,0:06:43.29,Default,,0,0,0,,Siêu nguyên liệu trị giá 100.000 điểm!
+Dialogue: 0,0:06:43.29,0:06:43.29,Default,,0,0,0,,Siêu nguyên liệu trị giá 100.000 điểm!\NĐó đích thị là một huyền thoại!
+Dialogue: 0,0:06:43.29,0:06:45.52,Default,,0,0,0,,Đó đích thị là một huyền thoại!
+Dialogue: 0,0:06:45.52,0:06:48.31,Default,,0,0,0,,Để lật ngược bảng điểm\Nthì chỉ còn cách này thôi.
+Dialogue: 0,0:06:48.31,0:06:50.31,Default,,0,0,0,,Chưa kể còn khá là thơ mộng nữa!
+Dialogue: 0,0:06:50.30,0:06:51.53,Default,,0,0,0,,Dù đây là một canh bạc lớn,
+Dialogue: 0,0:06:51.53,0:06:51.53,Default,,0,0,0,,Dù đây là một canh bạc lớn,\Nnhưng nếu thu hoạch được Lá huyền thoại\Nthì chúng ta thăng hạng là cái chắc!
+Dialogue: 0,0:06:51.53,0:06:54.93,Default,,0,0,0,,nhưng nếu thu hoạch được Lá huyền thoại\Nthì chúng ta thăng hạng là cái chắc!
+Dialogue: 0,0:06:54.93,0:06:54.94,Default,,0,0,0,,nhưng nếu thu hoạch được Lá huyền thoại\Nthì chúng ta thăng hạng là cái chắc!\NNhỉ?
+Dialogue: 0,0:06:54.94,0:06:55.99,Default,,0,0,0,,Nhỉ?
+Dialogue: 0,0:06:55.99,0:06:55.99,Default,,0,0,0,,Nhỉ?\NCậu tính như thế phải không Iruma!
+Dialogue: 0,0:06:55.99,0:06:58.33,Default,,0,0,0,,Cậu tính như thế phải không Iruma!
+Dialogue: 0,0:06:59.57,0:07:00.77,Default,,0,0,0,,Ừm!
+Dialogue: 0,0:07:00.77,0:07:00.78,Default,,0,0,0,,Ừm!\NVà thế là họ làm theo cách đó.
+Dialogue: 0,0:07:00.78,0:07:02.44,Default,,0,0,0,,Và thế là họ làm theo cách đó.
+Dialogue: 0,0:07:02.44,0:07:02.44,Default,,0,0,0,,Và thế là họ làm theo cách đó.\NĐược,
+Dialogue: 0,0:07:02.44,0:07:03.49,Default,,0,0,0,,Được,
+Dialogue: 0,0:07:03.49,0:07:05.80,Default,,0,0,0,,đã quyết định thế rồi thì\Nđi thu thập thông tin thôi!
+Dialogue: 0,0:07:05.80,0:07:05.80,Default,,0,0,0,,đã quyết định thế rồi thì\Nđi thu thập thông tin thôi!\NCơ mà, trong đám học sinh\Nchắc cũng chẳng có ai biết đâu.
+Dialogue: 0,0:07:05.80,0:07:09.41,Default,,0,0,0,,Cơ mà, trong đám học sinh\Nchắc cũng chẳng có ai biết đâu.
+Dialogue: 0,0:07:09.41,0:07:09.42,Default,,0,0,0,,Cơ mà, trong đám học sinh\Nchắc cũng chẳng có ai biết đâu.\NBiết rõ nhất về khu rừng
+Dialogue: 0,0:07:09.42,0:07:11.79,Default,,0,0,0,,Biết rõ nhất về khu rừng
+Dialogue: 0,0:07:11.79,0:07:11.80,Default,,0,0,0,,Biết rõ nhất về khu rừng\Nchắc chỉ có ma thực vật hoặc ma thú thôi nhỉ.
+Dialogue: 0,0:07:11.80,0:07:14.40,Default,,0,0,0,,chắc chỉ có ma thực vật hoặc ma thú thôi nhỉ.
+Dialogue: 0,0:07:15.68,0:07:18.61,Default,,0,0,0,,Nếu có thể làm thân\Nvà nói chuyện với chúng thì tốt rồi.
+Dialogue: 0,0:07:19.53,0:07:20.94,Default,,0,0,0,,Sao mà làm được chuyện đó.
+Dialogue: 0,0:07:31.11,0:07:32.48,Default,,0,0,0,,Kamui!
+Dialogue: 0,0:07:32.48,0:07:32.49,Default,,0,0,0,,Kamui!\NSao cơ, vợ nhà hàng xóm á?
+Dialogue: 0,0:07:32.49,0:07:34.93,Default,,0,0,0,,Sao cơ, vợ nhà hàng xóm á?
+Dialogue: 0,0:07:34.93,0:07:37.00,Default,,0,0,0,,Thế thì đúng là hư quá.
+Dialogue: 0,0:07:37.00,0:07:37.00,Default,,0,0,0,,Thế thì đúng là hư quá.\N- Caim Kamui,\N- Đừng lo,
+Dialogue: 0,0:07:37.00,0:07:38.16,Default,,0,0,0,,- Caim Kamui,\N- Đừng lo,
+Dialogue: 0,0:07:38.16,0:07:42.40,Default,,0,0,0,,- năng lực gia tộc "Thông dịch".\N- ta sẽ giúp vợ chồng ngươi hòa giải.
+Dialogue: 0,0:07:42.40,0:07:44.34,Default,,0,0,0,,Cậu ta có thể nói chuyện với ma thú!
+Dialogue: 0,0:07:44.34,0:07:44.34,Default,,0,0,0,,Cậu ta có thể nói chuyện với ma thú!\NỪm!
+Dialogue: 0,0:07:44.34,0:07:45.10,Default,,0,0,0,,Ừm!
+Dialogue: 0,0:07:45.10,0:07:45.11,Default,,0,0,0,,Ừm!\NĐược lắm!
+Dialogue: 0,0:07:45.11,0:07:45.88,Default,,0,0,0,,Được lắm!
+Dialogue: 0,0:07:45.88,0:07:47.87,Default,,0,0,0,,Tước đoạt giác quan!
+Dialogue: 0,0:07:49.64,0:07:51.16,Default,,0,0,0,,Shax Lied,
+Dialogue: 0,0:07:51.16,0:07:51.16,Default,,0,0,0,,Shax Lied,\Nnăng lực gia tộc "Tước đoạt giác quan".
+Dialogue: 0,0:07:51.16,0:07:53.37,Default,,0,0,0,,năng lực gia tộc "Tước đoạt giác quan".
+Dialogue: 0,0:07:56.37,0:07:59.98,Default,,0,0,0,,Đúng rồi Gaako, cậu có nghe tin đồn đó chưa?
+Dialogue: 0,0:07:59.98,0:07:59.99,Default,,0,0,0,,Đúng rồi Gaako, cậu có nghe tin đồn đó chưa?\NNói nghe này.
+Dialogue: 0,0:07:59.99,0:08:01.09,Default,,0,0,0,,Nói nghe này.
+Dialogue: 0,0:08:01.08,0:08:01.08,Default,,0,0,0,,Nói nghe này.\NCó một Vương Quốc kỳ lạ\Ntrong khu rừng ở khu số hai.
+Dialogue: 0,0:08:01.08,0:08:04.30,Default,,0,0,0,,Có một Vương Quốc kỳ lạ\Ntrong khu rừng ở khu số hai.
+Dialogue: 0,0:08:04.30,0:08:04.31,Default,,0,0,0,,Có một Vương Quốc kỳ lạ\Ntrong khu rừng ở khu số hai.\NThật lộng lẫy!
+Dialogue: 0,0:08:04.31,0:08:05.72,Default,,0,0,0,,Thật lộng lẫy!
+Dialogue: 0,0:08:05.71,0:08:05.72,Default,,0,0,0,,Thật lộng lẫy!\NTìm thấy rồi!
+Dialogue: 0,0:08:05.72,0:08:07.31,Default,,0,0,0,,Tìm thấy rồi!
+Dialogue: 0,0:08:07.93,0:08:10.34,Default,,0,0,0,,Giao cho Iruma chọn đường đấy!
+Dialogue: 0,0:08:10.34,0:08:10.34,Default,,0,0,0,,Giao cho Iruma chọn đường đấy!\NỪm!
+Dialogue: 0,0:08:10.34,0:08:11.48,Default,,0,0,0,,Ừm!
+Dialogue: 0,0:08:12.31,0:08:15.14,Default,,0,0,0,,Chúng ta sẽ gặp mặt đội Kerori và Kamui!
+Dialogue: 0,0:08:15.14,0:08:15.15,Default,,0,0,0,,Chúng ta sẽ gặp mặt đội Kerori và Kamui!\NKhông biết họ có giúp chúng ta không đây?
+Dialogue: 0,0:08:15.15,0:08:18.14,Default,,0,0,0,,Không biết họ có giúp chúng ta không đây?
+Dialogue: 0,0:08:20.43,0:08:22.45,Default,,0,0,0,,Không, chắc sẽ ổn thôi!
+Dialogue: 0,0:08:22.45,0:08:22.46,Default,,0,0,0,,Không, chắc sẽ ổn thôi!\NHai cậu ấy nhất định sẽ ra sức giúp đỡ bọn mình mà!
+Dialogue: 0,0:08:22.46,0:08:25.33,Default,,0,0,0,,Hai cậu ấy nhất định sẽ ra sức giúp đỡ bọn mình mà!
+Dialogue: 0,0:08:26.09,0:08:27.98,Default,,0,0,0,,Hai bên sẽ thăm hỏi nhau,
+Dialogue: 0,0:08:27.98,0:08:27.99,Default,,0,0,0,,Hai bên sẽ thăm hỏi nhau,\Ntrò chuyện về tình hình ngày đầu tiên.
+Dialogue: 0,0:08:27.99,0:08:30.21,Default,,0,0,0,,trò chuyện về tình hình ngày đầu tiên.
+Dialogue: 0,0:08:30.20,0:08:30.20,Default,,0,0,0,,trò chuyện về tình hình ngày đầu tiên.\NRồi sau đó!
+Dialogue: 0,0:08:30.20,0:08:31.62,Default,,0,0,0,,Rồi sau đó!
+Dialogue: 0,0:08:39.13,0:08:42.01,Default,,0,0,0,,Làm ơn, giải quyết bằng đối thoại nha.
+Dialogue: 0,0:08:45.69,0:08:47.25,Default,,0,0,0,,Nữ hoàng của chúng thần!
+Dialogue: 0,0:08:47.25,0:08:48.39,Default,,0,0,0,,Là hiện thân của vẻ đẹp!
+Dialogue: 0,0:08:48.39,0:08:48.39,Default,,0,0,0,,Là hiện thân của vẻ đẹp!\NMau quỳ xuống và đóng băng!
+Dialogue: 0,0:08:48.39,0:08:50.49,Default,,0,0,0,,Mau quỳ xuống và đóng băng!
+Dialogue: 0,0:08:50.49,0:08:50.49,Default,,0,0,0,,Mau quỳ xuống và đóng băng!\NTrước Nữ hoàng Băng giá!
+Dialogue: 0,0:08:50.49,0:08:53.15,Default,,0,0,0,,Trước Nữ hoàng Băng giá!
+Dialogue: 0,0:08:53.15,0:08:53.16,Default,,0,0,0,,Trước Nữ hoàng Băng giá!\NNữ hoàng là tuyệt đối!
+Dialogue: 0,0:08:53.16,0:08:54.82,Default,,0,0,0,,Nữ hoàng là tuyệt đối!
+Dialogue: 0,0:08:54.82,0:08:54.82,Default,,0,0,0,,Nữ hoàng là tuyệt đối!\NVẻ đẹp của người không tì vết!
+Dialogue: 0,0:08:54.82,0:08:56.32,Default,,0,0,0,,Vẻ đẹp của người không tì vết!
+Dialogue: 0,0:08:56.32,0:08:56.33,Default,,0,0,0,,Vẻ đẹp của người không tì vết!\NNữ hoàng Crocell Kerori giá đáo!
+Dialogue: 0,0:08:56.33,0:09:00.21,Default,,0,0,0,,Nữ hoàng Crocell Kerori giá đáo!
+Dialogue: 0,0:09:09.16,0:09:11.41,Default,,0,0,0,,(Đây là bản dịch tiếng thú.)\NNữ hoàng!
+Dialogue: 0,0:09:11.41,0:09:13.18,Default,,0,0,0,,Người thật lộng lẫy!
+Dialogue: 0,0:09:15.93,0:09:17.92,Default,,0,0,0,,Hừm, thế à.
+Dialogue: 0,0:09:17.92,0:09:17.93,Default,,0,0,0,,Hừm, thế à.\NNhững kẻ xâm nhập,
+Dialogue: 0,0:09:17.93,0:09:19.36,Default,,0,0,0,,Những kẻ xâm nhập,
+Dialogue: 0,0:09:19.36,0:09:19.37,Default,,0,0,0,,Những kẻ xâm nhập,\NIruma và Lied!
+Dialogue: 0,0:09:19.37,0:09:20.58,Default,,0,0,0,,Iruma và Lied!
+Dialogue: 0,0:09:20.58,0:09:20.58,Default,,0,0,0,,Iruma và Lied!\NC-Có!
+Dialogue: 0,0:09:20.58,0:09:21.89,Default,,0,0,0,,C-Có!
+Dialogue: 0,0:09:21.89,0:09:25.55,Default,,0,0,0,,Mục tiêu của các cậu là Lá huyền thoại.
+Dialogue: 0,0:09:25.55,0:09:25.56,Default,,0,0,0,,Mục tiêu của các cậu là Lá huyền thoại.\NĐể có được thông tin về thứ đó,
+Dialogue: 0,0:09:25.56,0:09:27.24,Default,,0,0,0,,Để có được thông tin về thứ đó,
+Dialogue: 0,0:09:27.24,0:09:27.24,Default,,0,0,0,,Để có được thông tin về thứ đó,\Ncác cậu cần nói chuyện với ma thú\Nnên mới đến tìm sự giúp đỡ của tôi.
+Dialogue: 0,0:09:27.24,0:09:30.63,Default,,0,0,0,,các cậu cần nói chuyện với ma thú\Nnên mới đến tìm sự giúp đỡ của tôi.
+Dialogue: 0,0:09:30.63,0:09:30.63,Default,,0,0,0,,các cậu cần nói chuyện với ma thú\Nnên mới đến tìm sự giúp đỡ của tôi.\NKhông sai chứ?
+Dialogue: 0,0:09:30.63,0:09:32.19,Default,,0,0,0,,Không sai chứ?
+Dialogue: 0,0:09:32.19,0:09:32.20,Default,,0,0,0,,Không sai chứ?\NĐúng thế!
+Dialogue: 0,0:09:32.20,0:09:33.34,Default,,0,0,0,,Đúng thế!
+Dialogue: 0,0:09:33.34,0:09:33.35,Default,,0,0,0,,Đúng thế!\NNè, hai người họ trước giờ đều như vậy sao?
+Dialogue: 0,0:09:33.35,0:09:36.19,Default,,0,0,0,,Nè, hai người họ trước giờ đều như vậy sao?
+Dialogue: 0,0:09:36.18,0:09:36.19,Default,,0,0,0,,Nè, hai người họ trước giờ đều như vậy sao?\NThấy tỏa ra uy áp quá trời.
+Dialogue: 0,0:09:36.19,0:09:38.87,Default,,0,0,0,,Thấy tỏa ra uy áp quá trời.
+Dialogue: 0,0:09:38.87,0:09:38.87,Default,,0,0,0,,Thấy tỏa ra uy áp quá trời.\NĐúng thật.
+Dialogue: 0,0:09:38.87,0:09:40.18,Default,,0,0,0,,Đúng thật.
+Dialogue: 0,0:09:40.18,0:09:40.19,Default,,0,0,0,,Đúng thật.\NChưa kể,
+Dialogue: 0,0:09:40.19,0:09:41.38,Default,,0,0,0,,Chưa kể,
+Dialogue: 0,0:09:41.38,0:09:41.38,Default,,0,0,0,,Chưa kể,\Nkhông ngờ họ dựng nên\Ncả một Vương quốc thế này giữa rừng.
+Dialogue: 0,0:09:41.38,0:09:44.59,Default,,0,0,0,,không ngờ họ dựng nên\Ncả một Vương quốc thế này giữa rừng.
+Dialogue: 0,0:09:44.59,0:09:44.60,Default,,0,0,0,,không ngờ họ dựng nên\Ncả một Vương quốc thế này giữa rừng.\NĐương nhiên!
+Dialogue: 0,0:09:44.60,0:09:45.70,Default,,0,0,0,,Đương nhiên!
+Dialogue: 0,0:09:45.70,0:09:45.70,Default,,0,0,0,,Đương nhiên!\NVề cơ bản, Lễ hội thu hoạch\Nlà trận chiến giữa các cá nhân.
+Dialogue: 0,0:09:45.70,0:09:48.94,Default,,0,0,0,,Về cơ bản, Lễ hội thu hoạch\Nlà trận chiến giữa các cá nhân.
+Dialogue: 0,0:09:48.94,0:09:48.95,Default,,0,0,0,,Về cơ bản, Lễ hội thu hoạch\Nlà trận chiến giữa các cá nhân.\NVì thế nên bầy đàn là một thế lực đe dọa!
+Dialogue: 0,0:09:48.95,0:09:51.50,Default,,0,0,0,,Vì thế nên bầy đàn là một thế lực đe dọa!
+Dialogue: 0,0:09:51.49,0:09:51.50,Default,,0,0,0,,Vì thế nên bầy đàn là một thế lực đe dọa!\NĐây chính là kế sách tuyệt vời nhất!
+Dialogue: 0,0:09:51.50,0:09:53.20,Default,,0,0,0,,Đây chính là kế sách tuyệt vời nhất!
+Dialogue: 0,0:09:53.20,0:09:57.34,Default,,0,0,0,,Người có thể khiến bọn ma thú khuất phục\Nvà chung sống như Nữ hoàng Kerori đây!
+Dialogue: 0,0:09:57.34,0:09:57.35,Default,,0,0,0,,Người có thể khiến bọn ma thú khuất phục\Nvà chung sống như Nữ hoàng Kerori đây!\NChính là tồn tại đẹp đẽ và mạnh mẽ nhất!
+Dialogue: 0,0:09:57.35,0:10:00.84,Default,,0,0,0,,Chính là tồn tại đẹp đẽ và mạnh mẽ nhất!
+Dialogue: 0,0:10:00.83,0:10:00.84,Default,,0,0,0,,Chính là tồn tại đẹp đẽ và mạnh mẽ nhất!\NNữ hoàng của chúng thần!\NChúng thần nguyện theo chân người!
+Dialogue: 0,0:10:00.84,0:10:03.89,Default,,0,0,0,,Nữ hoàng của chúng thần!\NChúng thần nguyện theo chân người!
+Dialogue: 0,0:10:03.89,0:10:05.74,Default,,0,0,0,,Hôm nay người vẫn lộng lẫy như quỷ!
+Dialogue: 0,0:10:05.74,0:10:07.73,Default,,0,0,0,,Ngày mai người sẽ vẫn lộng lẫy như quỷ!
+Dialogue: 0,0:10:07.73,0:10:09.20,Default,,0,0,0,,Tuyệt ghê.
+Dialogue: 0,0:10:09.20,0:10:10.36,Default,,0,0,0,,Thật là.
+Dialogue: 0,0:10:10.36,0:10:10.36,Default,,0,0,0,,Thật là.\NCứ vô tư bước vào giữa quân đoàn địch thế này\Nthật bất cẩn quá đi.
+Dialogue: 0,0:10:10.36,0:10:13.73,Default,,0,0,0,,Cứ vô tư bước vào giữa quân đoàn địch thế này\Nthật bất cẩn quá đi.
+Dialogue: 0,0:10:13.73,0:10:13.74,Default,,0,0,0,,Cứ vô tư bước vào giữa quân đoàn địch thế này\Nthật bất cẩn quá đi.\NMà hai cậu tìm ra nơi này cũng giỏi đấy.
+Dialogue: 0,0:10:13.74,0:10:15.97,Default,,0,0,0,,Mà hai cậu tìm ra nơi này cũng giỏi đấy.
+Dialogue: 0,0:10:15.97,0:10:15.98,Default,,0,0,0,,Mà hai cậu tìm ra nơi này cũng giỏi đấy.\NÀ chuyện đó,
+Dialogue: 0,0:10:15.98,0:10:17.05,Default,,0,0,0,,À chuyện đó,
+Dialogue: 0,0:10:17.05,0:10:17.05,Default,,0,0,0,,À chuyện đó,\Nnhờ tớ dùng "Tước đoạt giác quan" đấy.
+Dialogue: 0,0:10:17.05,0:10:18.85,Default,,0,0,0,,nhờ tớ dùng "Tước đoạt giác quan" đấy.
+Dialogue: 0,0:10:18.85,0:10:22.62,Default,,0,0,0,,Tớ tìm ra bằng cách lần theo tin đồn\Nvà các dấu hiệu ma lực.
+Dialogue: 0,0:10:24.55,0:10:29.33,Default,,0,0,0,,Không những cảm nhận được ma lực\Ntrong phạm vi rộng từ khu bốn đến đây.
+Dialogue: 0,0:10:29.33,0:10:29.34,Default,,0,0,0,,Không những cảm nhận được ma lực\Ntrong phạm vi rộng từ khu bốn đến đây.\NCậu ta còn liên tục cướp đoạt thính giác\Ncủa người khác nữa.
+Dialogue: 0,0:10:29.34,0:10:31.99,Default,,0,0,0,,Cậu ta còn liên tục cướp đoạt thính giác\Ncủa người khác nữa.
+Dialogue: 0,0:10:33.49,0:10:35.59,Default,,0,0,0,,Sức tập trung đó,
+Dialogue: 0,0:10:35.59,0:10:35.59,Default,,0,0,0,,Sức tập trung đó,\Nđúng là không bình thường chút nào!
+Dialogue: 0,0:10:35.59,0:10:37.74,Default,,0,0,0,,đúng là không bình thường chút nào!
+Dialogue: 0,0:10:38.31,0:10:40.02,Default,,0,0,0,,Người quyết định thế nào, thưa Nữ hoàng.
+Dialogue: 0,0:10:40.02,0:10:40.02,Default,,0,0,0,,Người quyết định thế nào, thưa Nữ hoàng.\NDù sao cũng là những kẻ xâm nhập trái phép,
+Dialogue: 0,0:10:40.02,0:10:42.35,Default,,0,0,0,,Dù sao cũng là những kẻ xâm nhập trái phép,
+Dialogue: 0,0:10:42.35,0:10:42.36,Default,,0,0,0,,Dù sao cũng là những kẻ xâm nhập trái phép,\Ncó nên trục xuất họ không ạ?
+Dialogue: 0,0:10:42.36,0:10:43.52,Default,,0,0,0,,có nên trục xuất họ không ạ?
+Dialogue: 0,0:10:43.52,0:10:43.53,Default,,0,0,0,,có nên trục xuất họ không ạ?\NỂ!?
+Dialogue: 0,0:10:43.53,0:10:44.26,Default,,0,0,0,,Ể!?
+Dialogue: 0,0:10:47.52,0:10:48.77,Default,,0,0,0,,Cống phẩm thì sao?
+Dialogue: 0,0:10:48.77,0:10:49.79,Default,,0,0,0,,Ể?
+Dialogue: 0,0:10:49.79,0:10:49.80,Default,,0,0,0,,Ể?\NCống phẩm?
+Dialogue: 0,0:10:49.80,0:10:51.33,Default,,0,0,0,,Cống phẩm?
+Dialogue: 0,0:10:51.33,0:10:51.34,Default,,0,0,0,,Cống phẩm?\NHai cậu muốn thông tin\Nvề Lá huyền thoại mà phải không?
+Dialogue: 0,0:10:51.34,0:10:54.42,Default,,0,0,0,,Hai cậu muốn thông tin\Nvề Lá huyền thoại mà phải không?
+Dialogue: 0,0:10:54.42,0:10:54.42,Default,,0,0,0,,Hai cậu muốn thông tin\Nvề Lá huyền thoại mà phải không?\NNghĩ cứ tay không mà xin là được à?
+Dialogue: 0,0:10:54.42,0:10:56.15,Default,,0,0,0,,Nghĩ cứ tay không mà xin là được à?
+Dialogue: 0,0:10:56.15,0:10:56.15,Default,,0,0,0,,Nghĩ cứ tay không mà xin là được à?\NVậy tớ sẽ chỉ cho cậu cách phân biệt cỏ ăn được!
+Dialogue: 0,0:10:56.15,0:10:59.44,Default,,0,0,0,,Vậy tớ sẽ chỉ cho cậu cách phân biệt cỏ ăn được!
+Dialogue: 0,0:10:59.44,0:11:01.44,Default,,0,0,0,,Chuyện đó bọn ma thú cũng biết nên không cần.
+Dialogue: 0,0:11:02.14,0:11:03.04,Default,,0,0,0,,À!
+Dialogue: 0,0:11:03.04,0:11:07.40,Default,,0,0,0,,Vào ngày đầu tiên bọn mình\Nđã đụng độ đội của đại tỷ Eliza và Clarin đấy!
+Dialogue: 0,0:11:07.40,0:11:07.40,Default,,0,0,0,,Vào ngày đầu tiên bọn mình\Nđã đụng độ đội của đại tỷ Eliza và Clarin đấy!\NTuy bị họ quyến rũ mất hết điểm rồi.
+Dialogue: 0,0:11:07.40,0:11:11.48,Default,,0,0,0,,Tuy bị họ quyến rũ mất hết điểm rồi.
+Dialogue: 0,0:11:11.48,0:11:11.48,Default,,0,0,0,,Tuy bị họ quyến rũ mất hết điểm rồi.\NBị quyến rũ.
+Dialogue: 0,0:11:11.48,0:11:13.37,Default,,0,0,0,,Bị quyến rũ.
+Dialogue: 0,0:11:15.03,0:11:16.97,Default,,0,0,0,,Thông tin về đội địch à!
+Dialogue: 0,0:11:16.97,0:11:16.97,Default,,0,0,0,,Thông tin về đội địch à!\NNhất là về hai người đó nữa, đáng giá đây!
+Dialogue: 0,0:11:16.97,0:11:19.87,Default,,0,0,0,,Nhất là về hai người đó nữa, đáng giá đây!
+Dialogue: 0,0:11:19.87,0:11:19.88,Default,,0,0,0,,Nhất là về hai người đó nữa, đáng giá đây!\NVậy thì.
+Dialogue: 0,0:11:19.88,0:11:20.74,Default,,0,0,0,,Vậy thì.
+Dialogue: 0,0:11:20.74,0:11:20.74,Default,,0,0,0,,Vậy thì.\NĐược thôi.
+Dialogue: 0,0:11:20.74,0:11:21.58,Default,,0,0,0,,Được thôi.
+Dialogue: 0,0:11:21.58,0:11:21.59,Default,,0,0,0,,Được thôi.\NThông tin đó cùng với,
+Dialogue: 0,0:11:21.59,0:11:23.62,Default,,0,0,0,,Thông tin đó cùng với,
+Dialogue: 0,0:11:23.61,0:11:23.61,Default,,0,0,0,,Thông tin đó cùng với,\Nnhảy múa mua vui cho tôi.
+Dialogue: 0,0:11:23.61,0:11:26.50,Default,,0,0,0,,nhảy múa mua vui cho tôi.
+Dialogue: 0,0:11:30.71,0:11:31.52,Default,,0,0,0,,Ể?
+Dialogue: 0,0:11:31.51,0:11:31.51,Default,,0,0,0,,Ể?\NVáy áo bay bổng bồng bềnh!?
+Dialogue: 0,0:11:31.51,0:11:34.21,Default,,0,0,0,,Váy áo bay bổng bồng bềnh!?
+Dialogue: 0,0:11:34.21,0:11:36.52,Default,,0,0,0,,Ph-Phải mặc cái này hả!?
+Dialogue: 0,0:11:36.52,0:11:38.51,Default,,0,0,0,,Thật ra thì cô Mar-
+Dialogue: 0,0:11:38.51,0:11:41.84,Default,,0,0,0,,Một người quen của tôi\Nrất muốn có những tấm ảnh như vậy.
+Dialogue: 0,0:11:41.84,0:11:43.27,Default,,0,0,0,,Người quen kiểu gì thế hả!?
+Dialogue: 0,0:11:43.27,0:11:43.27,Default,,0,0,0,,Người quen kiểu gì thế hả!?\NCái này có hơi...
+Dialogue: 0,0:11:43.27,0:11:44.56,Default,,0,0,0,,Cái này có hơi...
+Dialogue: 0,0:11:44.56,0:11:44.57,Default,,0,0,0,,Cái này có hơi...\NKhông có vấn đề gì hết.
+Dialogue: 0,0:11:44.57,0:11:46.08,Default,,0,0,0,,Không có vấn đề gì hết.
+Dialogue: 0,0:11:46.08,0:11:47.88,Default,,0,0,0,,Có gì khác cần bọn tớ làm không?
+Dialogue: 0,0:11:47.88,0:11:47.88,Default,,0,0,0,,Có gì khác cần bọn tớ làm không?\NKhông chấp nhận.
+Dialogue: 0,0:11:47.88,0:11:48.86,Default,,0,0,0,,Không chấp nhận.
+Dialogue: 0,0:11:48.86,0:11:48.87,Default,,0,0,0,,Không chấp nhận.\NCó vẻ Nữ hoàng đang vui.
+Dialogue: 0,0:11:48.87,0:11:51.05,Default,,0,0,0,,Có vẻ Nữ hoàng đang vui.
+Dialogue: 0,0:11:51.04,0:11:52.55,Default,,0,0,0,,Người đang hưng phấn kìa!
+Dialogue: 0,0:11:53.27,0:11:55.53,Default,,0,0,0,,Giờ làm hay không làm?
+Dialogue: 0,0:11:55.90,0:11:57.41,Default,,0,0,0,,Sao lại!
+Dialogue: 0,0:11:58.91,0:12:00.58,Default,,0,0,0,,Đột nhiên bắt bọn mình.
+Dialogue: 0,0:12:00.58,0:12:00.58,Default,,0,0,0,,Đột nhiên bắt bọn mình.\NChuyện đó.
+Dialogue: 0,0:12:00.58,0:12:02.03,Default,,0,0,0,,Chuyện đó.
+Dialogue: 0,0:12:02.03,0:12:02.04,Default,,0,0,0,,Chuyện đó.\NChuyện như thế.
+Dialogue: 0,0:12:02.04,0:12:06.54,Default,,0,0,0,,Chuyện như thế.
+Dialogue: 0,0:12:09.80,0:12:11.20,Default,,0,0,0,,Sao mà làm khó,
+Dialogue: 0,0:12:11.20,0:12:12.54,Default,,0,0,0,,bọn mình được!
+Dialogue: 0,0:12:14.73,0:12:17.78,Default,,0,0,0,,Bọn mình là hầu gái riêng của sư phụ Bachiko!
+Dialogue: 0,0:12:17.78,0:12:17.79,Default,,0,0,0,,Bọn mình là hầu gái riêng của sư phụ Bachiko!\NLindy!
+Dialogue: 0,0:12:17.79,0:12:18.62,Default,,0,0,0,,Lindy!
+Dialogue: 0,0:12:18.62,0:12:18.63,Default,,0,0,0,,Lindy!\NIlluminati!
+Dialogue: 0,0:12:18.63,0:12:20.28,Default,,0,0,0,,Illuminati!
+Dialogue: 0,0:12:22.15,0:12:24.82,Default,,0,0,0,,♪ Là ác quỷ thì không được mất cảnh giác! ♪
+Dialogue: 0,0:12:24.81,0:12:24.81,Default,,0,0,0,,♪ Là ác quỷ thì không được mất cảnh giác! ♪\N♪ Bỗng một ngày trái tim đột nhiên bị cướp mất ♪
+Dialogue: 0,0:12:24.81,0:12:28.24,Default,,0,0,0,,♪ Bỗng một ngày trái tim đột nhiên bị cướp mất ♪
+Dialogue: 0,0:12:28.24,0:12:29.56,Default,,0,0,0,,♪ Bắn tim! ♪
+Dialogue: 0,0:12:29.56,0:12:29.56,Default,,0,0,0,,♪ Bắn tim! ♪\N♪ Ôi, cô bé dễ thương đó là một tiểu quỷ ♪
+Dialogue: 0,0:12:29.56,0:12:34.69,Default,,0,0,0,,♪ Ôi, cô bé dễ thương đó là một tiểu quỷ ♪
+Dialogue: 0,0:12:34.69,0:12:34.70,Default,,0,0,0,,♪ Ôi, cô bé dễ thương đó là một tiểu quỷ ♪\N♪ Có muốn chạm thử đuôi tóc mình không? ♪
+Dialogue: 0,0:12:34.70,0:12:37.17,Default,,0,0,0,,♪ Có muốn chạm thử đuôi tóc mình không? ♪
+Dialogue: 0,0:12:37.17,0:12:37.18,Default,,0,0,0,,♪ Có muốn chạm thử đuôi tóc mình không? ♪\N♪ Mình sẽ khiến cậu phải bỏ chạy trong lo sợ ♪
+Dialogue: 0,0:12:37.18,0:12:40.66,Default,,0,0,0,,♪ Mình sẽ khiến cậu phải bỏ chạy trong lo sợ ♪
+Dialogue: 0,0:12:40.66,0:12:40.67,Default,,0,0,0,,♪ Mình sẽ khiến cậu phải bỏ chạy trong lo sợ ♪\N♪ Muốn trò chuyện ư? ♪
+Dialogue: 0,0:12:40.67,0:12:41.92,Default,,0,0,0,,♪ Muốn trò chuyện ư? ♪
+Dialogue: 0,0:12:41.92,0:12:43.44,Default,,0,0,0,,♪ Muốn động chạm ư? ♪
+Dialogue: 0,0:12:43.44,0:12:43.45,Default,,0,0,0,,♪ Muốn động chạm ư? ♪\N♪ Nếu đã nói đến vậy thì mình sẽ chơi cùng cậu ♪
+Dialogue: 0,0:12:43.45,0:12:47.99,Default,,0,0,0,,♪ Nếu đã nói đến vậy thì mình sẽ chơi cùng cậu ♪
+Dialogue: 0,0:12:47.99,0:12:47.99,Default,,0,0,0,,♪ Nếu đã nói đến vậy thì mình sẽ chơi cùng cậu ♪\N♪ Thích ư? Sao đây ta? ♪
+Dialogue: 0,0:12:47.99,0:12:50.71,Default,,0,0,0,,♪ Thích ư? Sao đây ta? ♪
+Dialogue: 0,0:12:50.71,0:12:50.71,Default,,0,0,0,,♪ Thích ư? Sao đây ta? ♪\N♪ Thử nhìn thấu mình xem nào ♪
+Dialogue: 0,0:12:50.71,0:12:53.42,Default,,0,0,0,,♪ Thử nhìn thấu mình xem nào ♪
+Dialogue: 0,0:12:53.42,0:12:53.43,Default,,0,0,0,,♪ Thử nhìn thấu mình xem nào ♪\N♪ Cậu có thể hiến dâng ♪
+Dialogue: 0,0:12:53.43,0:12:55.86,Default,,0,0,0,,♪ Cậu có thể hiến dâng ♪
+Dialogue: 0,0:12:55.85,0:12:59.54,Default,,0,0,0,,- Liệu cô ấy bắt họ nhảy chỉ là để bắt nạt thôi sao.\N♪ cả linh hồn cho mình mà phải không? ♪
+Dialogue: 0,0:12:59.54,0:12:59.55,Default,,0,0,0,,- Liệu cô ấy bắt họ nhảy chỉ là để bắt nạt thôi sao.\N♪ cả linh hồn cho mình mà phải không? ♪\NCâu trả lời là không.
+Dialogue: 0,0:12:59.55,0:13:01.43,Default,,0,0,0,,Câu trả lời là không.
+Dialogue: 0,0:13:03.86,0:13:06.23,Default,,0,0,0,,Do những căng thẳng tích lũy\Ntrong quá trình huấn luyện,
+Dialogue: 0,0:13:06.23,0:13:10.12,Default,,0,0,0,,Kerori hiện giờ đang ở ngưỡng vào chu kỳ ác rồi.
+Dialogue: 0,0:13:10.11,0:13:13.60,Default,,0,0,0,,Cô ấy muốn giải tỏa nó.
+Dialogue: 0,0:13:13.60,0:13:16.15,Default,,0,0,0,,Tuy hiện giờ đã là một Akudol,
+Dialogue: 0,0:13:16.15,0:13:16.15,Default,,0,0,0,,Tuy hiện giờ đã là một Akudol,\Nnhưng trước kia cô ấy cũng từng là khán giả.
+Dialogue: 0,0:13:16.15,0:13:19.14,Default,,0,0,0,,nhưng trước kia cô ấy cũng từng là khán giả.
+Dialogue: 0,0:13:19.14,0:13:19.15,Default,,0,0,0,,nhưng trước kia cô ấy cũng từng là khán giả.\NRốt cuộc điều gì đã khiến\Nmột người trầm lặng như cô ấy nở nụ cười?
+Dialogue: 0,0:13:19.15,0:13:24.21,Default,,0,0,0,,Rốt cuộc điều gì đã khiến\Nmột người trầm lặng như cô ấy nở nụ cười?
+Dialogue: 0,0:13:24.21,0:13:24.22,Default,,0,0,0,,Rốt cuộc điều gì đã khiến\Nmột người trầm lặng như cô ấy nở nụ cười?\NPhải, cô ấy.
+Dialogue: 0,0:13:24.22,0:13:26.25,Default,,0,0,0,,Phải, cô ấy.
+Dialogue: 0,0:13:27.74,0:13:30.13,Default,,0,0,0,,Vẫy tay mạnh hơn nữa!
+Dialogue: 0,0:13:30.13,0:13:30.14,Default,,0,0,0,,Vẫy tay mạnh hơn nữa!\NĐúng rồi đấy! Dễ thương quá!
+Dialogue: 0,0:13:30.14,0:13:31.49,Default,,0,0,0,,Đúng rồi đấy! Dễ thương quá!
+Dialogue: 0,0:13:31.49,0:13:33.39,Default,,0,0,0,,Là một fan cuồng Akudol!
+Dialogue: 0,0:13:33.39,0:13:33.40,Default,,0,0,0,,Là một fan cuồng Akudol!\NXoay người ngay đó!
+Dialogue: 0,0:13:33.40,0:13:34.88,Default,,0,0,0,,Xoay người ngay đó!
+Dialogue: 0,0:13:34.88,0:13:34.89,Default,,0,0,0,,Xoay người ngay đó!\NNháy mắt nào!
+Dialogue: 0,0:13:34.89,0:13:35.95,Default,,0,0,0,,Nháy mắt nào!
+Dialogue: 0,0:13:35.95,0:13:35.96,Default,,0,0,0,,Nháy mắt nào!\NĐúng rồi, dễ thương lắm!
+Dialogue: 0,0:13:35.96,0:13:37.38,Default,,0,0,0,,Đúng rồi, dễ thương lắm!
+Dialogue: 0,0:13:37.38,0:13:37.38,Default,,0,0,0,,Đúng rồi, dễ thương lắm!\NNữ hoàng đang vui kìa!
+Dialogue: 0,0:13:37.38,0:13:39.44,Default,,0,0,0,,Nữ hoàng đang vui kìa!
+Dialogue: 0,0:13:39.44,0:13:39.45,Default,,0,0,0,,Nữ hoàng đang vui kìa!\NĐẹp như quỷ!
+Dialogue: 0,0:13:39.45,0:13:40.80,Default,,0,0,0,,Đẹp như quỷ!
+Dialogue: 0,0:13:40.80,0:13:40.81,Default,,0,0,0,,Đẹp như quỷ!\NNữ hoàng muôn thú!
+Dialogue: 0,0:13:40.81,0:13:42.13,Default,,0,0,0,,Nữ hoàng muôn thú!
+Dialogue: 0,0:13:42.13,0:13:47.09,Default,,0,0,0,,♪ Hãy thử khiến mình vâng lời xem nào ♪
+Dialogue: 0,0:13:47.09,0:13:47.10,Default,,0,0,0,,♪ Hãy thử khiến mình vâng lời xem nào ♪\N♪ Tiểu quỷ ♪
+Dialogue: 0,0:13:47.10,0:13:49.86,Default,,0,0,0,,♪ Tiểu quỷ ♪
+Dialogue: 0,0:13:52.37,0:13:54.62,Default,,0,0,0,,- Dễ thương lắm!\N- Tuyệt vời!
+Dialogue: 0,0:13:54.62,0:13:54.63,Default,,0,0,0,,- Dễ thương lắm!\N- Tuyệt vời!\NĐược quá đó chứ!
+Dialogue: 0,0:13:54.63,0:13:56.86,Default,,0,0,0,,Được quá đó chứ!
+Dialogue: 0,0:13:56.85,0:13:56.86,Default,,0,0,0,,Được quá đó chứ!\NThế này là thành công chưa?
+Dialogue: 0,0:13:56.86,0:13:59.22,Default,,0,0,0,,Thế này là thành công chưa?
+Dialogue: 0,0:13:59.22,0:13:59.22,Default,,0,0,0,,Thế này là thành công chưa?\NCh-Chắc rồi.
+Dialogue: 0,0:13:59.22,0:14:00.60,Default,,0,0,0,,Ch-Chắc rồi.
+Dialogue: 0,0:14:01.85,0:14:03.07,Default,,0,0,0,,Sư phụ.
+Dialogue: 0,0:14:03.07,0:14:03.08,Default,,0,0,0,,Sư phụ.\NBài huấn luyện của cô phát huy tác dụng rồi!
+Dialogue: 0,0:14:03.08,0:14:05.70,Default,,0,0,0,,Bài huấn luyện của cô phát huy tác dụng rồi!
+Dialogue: 0,0:14:07.90,0:14:11.22,Default,,0,0,0,,Bọn ma thú rất cảm động\Nbởi màn trình diễn của các cậu,
+Dialogue: 0,0:14:11.22,0:14:11.22,Default,,0,0,0,,Bọn ma thú rất cảm động\Nbởi màn trình diễn của các cậu,\Nnên chúng muốn đáp lễ đây.
+Dialogue: 0,0:14:11.22,0:14:13.81,Default,,0,0,0,,nên chúng muốn đáp lễ đây.
+Dialogue: 0,0:14:13.81,0:14:13.82,Default,,0,0,0,,nên chúng muốn đáp lễ đây.\NỂ?
+Dialogue: 0,0:14:13.82,0:14:14.71,Default,,0,0,0,,Ể?
+Dialogue: 0,0:14:20.21,0:14:24.76,Default,,0,0,0,,♪ Lá ảo ảnh chẳng ở nơi đâu ♪
+Dialogue: 0,0:14:24.76,0:14:27.50,Default,,0,0,0,,♪ Tự trồng nó thôi ♪
+Dialogue: 0,0:14:27.50,0:14:31.10,Default,,0,0,0,,♪ Tìm về hạt giống và chậu ♪
+Dialogue: 0,0:14:31.10,0:14:31.11,Default,,0,0,0,,♪ Tìm về hạt giống và chậu ♪\N♪ Người vợ chia tay chồng\Nđang tản bộ trăm bước ♪
+Dialogue: 0,0:14:31.11,0:14:38.60,Default,,0,0,0,,♪ Người vợ chia tay chồng\Nđang tản bộ trăm bước ♪
+Dialogue: 0,0:14:38.59,0:14:38.60,Default,,0,0,0,,♪ Người vợ chia tay chồng\Nđang tản bộ trăm bước ♪\N♪ Lăn tròn xung quanh bà mẹ chồng ♪
+Dialogue: 0,0:14:38.60,0:14:45.74,Default,,0,0,0,,♪ Lăn tròn xung quanh bà mẹ chồng ♪
+Dialogue: 0,0:14:45.74,0:14:45.75,Default,,0,0,0,,♪ Lăn tròn xung quanh bà mẹ chồng ♪\N♪ Ngồi xổm xuống một chút ♪
+Dialogue: 0,0:14:45.75,0:14:47.63,Default,,0,0,0,,♪ Ngồi xổm xuống một chút ♪
+Dialogue: 0,0:14:47.62,0:14:47.63,Default,,0,0,0,,♪ Ngồi xổm xuống một chút ♪\N♪ Lặn sâu xuống đó ♪
+Dialogue: 0,0:14:47.63,0:14:51.38,Default,,0,0,0,,♪ Lặn sâu xuống đó ♪
+Dialogue: 0,0:14:51.38,0:14:51.38,Default,,0,0,0,,♪ Lặn sâu xuống đó ♪\N♪ Sẽ thấy cái miệng há to chào đón ♪
+Dialogue: 0,0:14:51.38,0:14:55.25,Default,,0,0,0,,♪ Sẽ thấy cái miệng há to chào đón ♪
+Dialogue: 0,0:14:55.25,0:14:57.25,Default,,0,0,0,,♪ Ngủ yên trong đó ♪
+Dialogue: 0,0:14:57.25,0:14:59.28,Default,,0,0,0,,♪ Chính là hạt giống ♪
+Dialogue: 0,0:14:59.28,0:15:02.64,Default,,0,0,0,,♪ Chính là hạt giống của sự khởi đầu ♪
+Dialogue: 0,0:15:09.32,0:15:11.16,Default,,0,0,0,,Tớ viết lời hát ra rồi này.
+Dialogue: 0,0:15:11.88,0:15:13.58,Default,,0,0,0,,Toàn bộ thông tin về Lá huyền thoại
+Dialogue: 0,0:15:13.58,0:15:13.59,Default,,0,0,0,,Toàn bộ thông tin về Lá huyền thoại\Nđều nằm trong bài hát này rồi đấy.
+Dialogue: 0,0:15:13.59,0:15:16.20,Default,,0,0,0,,đều nằm trong bài hát này rồi đấy.
+Dialogue: 0,0:15:16.19,0:15:16.20,Default,,0,0,0,,đều nằm trong bài hát này rồi đấy.\NCảm ơn cậu, Kamui!
+Dialogue: 0,0:15:16.20,0:15:17.72,Default,,0,0,0,,Cảm ơn cậu, Kamui!
+Dialogue: 0,0:15:17.72,0:15:17.72,Default,,0,0,0,,Cảm ơn cậu, Kamui!\NTớ cũng cảm ơn!
+Dialogue: 0,0:15:17.72,0:15:18.90,Default,,0,0,0,,Tớ cũng cảm ơn!
+Dialogue: 0,0:15:18.90,0:15:18.91,Default,,0,0,0,,Tớ cũng cảm ơn!\NHai cậu đã khiến Nữ hoàng cực kỳ thỏa mãn mà!
+Dialogue: 0,0:15:18.91,0:15:21.40,Default,,0,0,0,,Hai cậu đã khiến Nữ hoàng cực kỳ thỏa mãn mà!
+Dialogue: 0,0:15:23.73,0:15:27.45,Default,,0,0,0,,Ngày thứ hai là một ngày\Nrất ác liệt của Lễ hội thu hoạch.
+Dialogue: 0,0:15:27.45,0:15:27.45,Default,,0,0,0,,Ngày thứ hai là một ngày\Nrất ác liệt của Lễ hội thu hoạch.\NTớ muốn sẵn sàng đối mặt với nó\Ntrong trạng thái tốt nhất!
+Dialogue: 0,0:15:27.45,0:15:30.29,Default,,0,0,0,,Tớ muốn sẵn sàng đối mặt với nó\Ntrong trạng thái tốt nhất!
+Dialogue: 0,0:15:30.97,0:15:33.30,Default,,0,0,0,,Còn nhiều thứ phải chuẩn bị lắm.
+Dialogue: 0,0:15:34.51,0:15:35.67,Default,,0,0,0,,Nói chung là!
+Dialogue: 0,0:15:35.67,0:15:38.09,Default,,0,0,0,,Lần này là ngoại lệ!
+Dialogue: 0,0:15:38.09,0:15:38.09,Default,,0,0,0,,Lần này là ngoại lệ!\NLần sau các cậu phải nhảy múa\Ntrên sân khấu thật cho tớ!
+Dialogue: 0,0:15:38.09,0:15:41.15,Default,,0,0,0,,Lần sau các cậu phải nhảy múa\Ntrên sân khấu thật cho tớ!
+Dialogue: 0,0:15:41.15,0:15:41.16,Default,,0,0,0,,Lần sau các cậu phải nhảy múa\Ntrên sân khấu thật cho tớ!\NChuẩn bị tinh thần đi!
+Dialogue: 0,0:15:41.16,0:15:42.31,Default,,0,0,0,,Chuẩn bị tinh thần đi!
+Dialogue: 0,0:15:44.55,0:15:45.42,Default,,0,0,0,,Tạm biệt!
+Dialogue: 0,0:15:45.41,0:15:46.18,Default,,0,0,0,,Cảm ơn!
+Dialogue: 0,0:15:46.18,0:15:46.18,Default,,0,0,0,,Cảm ơn!\NCảm ơn nhé!
+Dialogue: 0,0:15:46.18,0:15:46.70,Default,,0,0,0,,Cảm ơn nhé!
+Dialogue: 0,0:15:46.70,0:15:46.71,Default,,0,0,0,,Cảm ơn nhé!\NBái bai!
+Dialogue: 0,0:15:46.71,0:15:47.54,Default,,0,0,0,,Bái bai!
+Dialogue: 0,0:15:47.53,0:15:47.53,Default,,0,0,0,,Bái bai!\NVà thế là hai người họ\Nđã có thông tin về Lá huyền thoại.
+Dialogue: 0,0:15:47.53,0:15:51.31,Default,,0,0,0,,Và thế là hai người họ\Nđã có thông tin về Lá huyền thoại.
+Dialogue: 0,0:15:51.31,0:15:51.32,Default,,0,0,0,,Và thế là hai người họ\Nđã có thông tin về Lá huyền thoại.\NThế nhưng, đúng như Kerori nói.
+Dialogue: 0,0:15:51.32,0:15:54.19,Default,,0,0,0,,Thế nhưng, đúng như Kerori nói.
+Dialogue: 0,0:15:54.19,0:15:54.20,Default,,0,0,0,,Thế nhưng, đúng như Kerori nói.\NNgày thứ hai cực kỳ ác liệt!
+Dialogue: 0,0:15:54.20,0:15:55.76,Default,,0,0,0,,Ngày thứ hai cực kỳ ác liệt!
+Dialogue: 0,0:15:55.76,0:15:55.77,Default,,0,0,0,,Ngày thứ hai cực kỳ ác liệt!\NHôm nay, có một đội từ lớp cá biệt
+Dialogue: 0,0:15:55.77,0:15:58.24,Default,,0,0,0,,Hôm nay, có một đội từ lớp cá biệt
+Dialogue: 0,0:15:58.24,0:16:03.03,Default,,0,0,0,,sẽ biến mất khỏi khu rừng này!
+Dialogue: 0,0:16:03.73,0:16:09.79,Default,,0,0,0,,(Ta sẽ bảo vệ Babyls)
+Dialogue: 0,0:16:10.24,0:16:12.24,Default,,0,0,0,,Những ca từ này là lời gợi ý à?
+Dialogue: 0,0:16:12.24,0:16:14.18,Default,,0,0,0,,Mẹ chồng nàng dâu?
+Dialogue: 0,0:16:15.07,0:16:16.42,Default,,0,0,0,,FUI!
+Dialogue: 0,0:16:16.42,0:16:18.62,Default,,0,0,0,,Có vẻ như đội của trò Iruma
+Dialogue: 0,0:16:18.62,0:16:23.06,Default,,0,0,0,,đã biết đến sự tồn tại của "Hạt giống bắt đầu"\Nvà "Chậu cây kết thúc" rồi nhỉ!
+Dialogue: 0,0:16:23.54,0:16:26.38,Default,,0,0,0,,Hai thứ đó chính là chìa khóa\Nđể lấy được Lá huyền thoại!
+Dialogue: 0,0:16:26.38,0:16:29.06,Default,,0,0,0,,Liệu cuối cùng năm nay\Nnó có được thu hoạch không đây!?
+Dialogue: 0,0:16:29.06,0:16:30.96,Default,,0,0,0,,Phấn khích thật nhỉ!
+Dialogue: 0,0:16:32.67,0:16:33.36,Default,,0,0,0,,Giờ thì.
+Dialogue: 0,0:16:33.36,0:16:37.08,Default,,0,0,0,,Ngày thứ hai của Lễ hội thu hoạch,\Ncác học sinh vẫn đang lần lượt bỏ cuộc.
+Dialogue: 0,0:16:37.08,0:16:40.58,Default,,0,0,0,,Phần lớn học sinh đã sức cùng lực kiệt rồi nhỉ.
+Dialogue: 0,0:16:42.35,0:16:43.32,Default,,0,0,0,,Thế nhưng!
+Dialogue: 0,0:16:43.32,0:16:47.42,Default,,0,0,0,,Do làm công tác cứu trợ vào đêm đầu tiên,\Nnên hiện tại các giáo viên cũng mệt rã rời rồi!
+Dialogue: 0,0:16:47.42,0:16:48.77,Default,,0,0,0,,Ôi,
+Dialogue: 0,0:16:48.77,0:16:51.94,Default,,0,0,0,,cứ thế này thì các em học sinh nguy mất!
+Dialogue: 0,0:16:52.72,0:16:55.56,Default,,0,0,0,,Những người sẽ xuất hiện\Ncứu giúp các em ấy trong hoàn cảnh đó.
+Dialogue: 0,0:17:00.30,0:17:03.54,Default,,0,0,0,,Những người sẽ xuất hiện\Ncứu giúp các em ấy trong hoàn cảnh đó.
+Dialogue: 0,0:17:06.48,0:17:09.34,Default,,0,0,0,,Chính là Hội học sinh Babyls!
+Dialogue: 0,0:17:09.34,0:17:12.60,Default,,0,0,0,,Khu một, đón về hai học sinh bỏ cuộc.
+Dialogue: 0,0:17:12.60,0:17:14.10,Default,,0,0,0,,Khu hai một người.
+Dialogue: 0,0:17:14.72,0:17:16.34,Default,,0,0,0,,Khu ba, bốn người.
+Dialogue: 0,0:17:17.34,0:17:18.86,Default,,0,0,0,,Rõ, các cậu vất vả rồi.
+Dialogue: 0,0:17:19.68,0:17:22.40,Default,,0,0,0,,Đại khái thì công tác cứu hộ hoàn thành rồi nhỉ.
+Dialogue: 0,0:17:22.40,0:17:23.10,Default,,0,0,0,,Ừm.
+Dialogue: 0,0:17:23.10,0:17:24.78,Default,,0,0,0,,Cứu hộ!
+Dialogue: 0,0:17:24.78,0:17:25.89,Default,,0,0,0,,Cơ mà
+Dialogue: 0,0:17:25.89,0:17:28.84,Default,,0,0,0,,việc đón các học sinh về cứ để bọn này,
+Dialogue: 0,0:17:28.84,0:17:31.22,Default,,0,0,0,,Hội trưởng chỉ cần ngồi thư giãn\Nở tổng bộ là được rồi mà.
+Dialogue: 0,0:17:32.12,0:17:34.32,Default,,0,0,0,,Năng động như vậy\Nđúng là không hổ danh Hội trưởng!
+Dialogue: 0,0:17:34.32,0:17:35.90,Default,,0,0,0,,Ừm, Ờ.
+Dialogue: 0,0:17:36.76,0:17:41.04,Default,,0,0,0,,Mình chỉ nghĩ có khi\Nsẽ bất ngờ gặp Iruma nên mới.
+Dialogue: 0,0:17:41.04,0:17:42.58,Default,,0,0,0,,Cho nên mới...
+Dialogue: 0,0:17:42.58,0:17:45.62,Default,,0,0,0,,Nhưng không ngờ đến cái bóng cũng không thấy!
+Dialogue: 0,0:17:47.33,0:17:49.74,Default,,0,0,0,,Đúng là hoài niệm thật nhỉ.
+Dialogue: 0,0:17:49.74,0:17:51.98,Default,,0,0,0,,Lễ hội thu hoạch năm ngoái,
+Dialogue: 0,0:17:51.98,0:17:54.50,Default,,0,0,0,,Hội trưởng chính là người\Nhoạt động nổi bật nhất mà!
+Dialogue: 0,0:17:55.30,0:17:57.74,Default,,0,0,0,,Không để bất cứ ai có cơ hội bắt kịp.
+Dialogue: 0,0:17:57.74,0:18:00.82,Default,,0,0,0,,Chiến đấu liên tục 6666 phút,
+Dialogue: 0,0:18:00.82,0:18:02.92,Default,,0,0,0,,cuối cùng giành lấy chiến thắng vẻ vang.
+Dialogue: 0,0:18:11.02,0:18:12.24,Default,,0,0,0,,Nữ vương trẻ!
+Dialogue: 0,0:18:12.24,0:18:15.06,Default,,0,0,0,,Đến nỗi được đặt cho biệt danh\N"Nữ vương trẻ Ameri" nữa!
+Dialogue: 0,0:18:15.06,0:18:18.34,Default,,0,0,0,,Th-Thôi đủ rồi, xấu hổ lắm đừng nhắc lại nữa!
+Dialogue: 0,0:18:18.86,0:18:21.62,Default,,0,0,0,,Không biết năm nay ai sẽ giành chiến thắng đây?
+Dialogue: 0,0:18:21.62,0:18:25.36,Default,,0,0,0,,Ứng viên sáng giá\Nthì chắc là Asmodeus hoặc Orobas rồi.
+Dialogue: 0,0:18:26.12,0:18:28.32,Default,,0,0,0,,Iruma hình như vẫn 0 điểm thì phải.
+Dialogue: 0,0:18:29.94,0:18:34.66,Default,,0,0,0,,Muốn lật ngược tình thế rồi chiến thắng thì\Nchẳng còn cách nào ngoài Lá huyền thoại hết.
+Dialogue: 0,0:18:34.66,0:18:36.74,Default,,0,0,0,,Lá huyền thoại à.
+Dialogue: 0,0:18:37.34,0:18:39.62,Default,,0,0,0,,Năm ngoái tôi cũng đã tìm kiếm nó,
+Dialogue: 0,0:18:39.62,0:18:42.42,Default,,0,0,0,,nhưng chẳng thấy bóng dáng đâu.
+Dialogue: 0,0:18:42.42,0:18:44.60,Default,,0,0,0,,Sau đó tôi đã phát hiện ra cách nó hoạt động.
+Dialogue: 0,0:18:44.60,0:18:47.78,Default,,0,0,0,,Thứ đó giống như một trò đùa ác của ban tổ chức vậy.
+Dialogue: 0,0:18:47.78,0:18:50.14,Default,,0,0,0,,Có thể nói khả năng thu hoạch được\Nlà bằng không.
+Dialogue: 0,0:18:51.94,0:18:55.64,Default,,0,0,0,,Vậy thì việc lật ngược tình thế của Iruma.
+Dialogue: 0,0:18:55.64,0:18:57.64,Default,,0,0,0,,Sợ là khó có thể xảy ra rồi.
+Dialogue: 0,0:18:57.64,0:18:59.98,Default,,0,0,0,,Ồ ra là thế.
+Dialogue: 0,0:18:59.98,0:19:01.64,Default,,0,0,0,,Mà có lẽ thế thật.
+Dialogue: 0,0:19:02.04,0:19:03.30,Default,,0,0,0,,Nhưng mà.
+Dialogue: 0,0:19:05.12,0:19:09.66,Default,,0,0,0,,Những dự đoán của tôi về Iruma\Nchưa bao giờ chính xác cả.
+Dialogue: 0,0:19:10.29,0:19:12.84,Default,,0,0,0,,Cậu ấy lúc nào cũng vượt ngoài sức tưởng tượng.
+Dialogue: 0,0:19:12.84,0:19:14.84,Default,,0,0,0,,Luôn làm những điều tưởng chừng như không thể.
+Dialogue: 0,0:19:14.84,0:19:17.36,Default,,0,0,0,,Để rồi cuối cùng\Nđạt được kết quả tốt hơn kỳ vọng.
+Dialogue: 0,0:19:17.36,0:19:19.38,Default,,0,0,0,,Khiến ai cũng thốt lên "Không thể nào đấy".
+Dialogue: 0,0:19:19.88,0:19:22.36,Default,,0,0,0,,Lần này lớp cá biệt còn vướng thử thách
+Dialogue: 0,0:19:22.36,0:19:25.52,Default,,0,0,0,,tất cả phải thăng lên được hạng Daleth nữa.
+Dialogue: 0,0:19:25.52,0:19:27.90,Default,,0,0,0,,Chắc cậu ấy cũng đang quyết tâm lắm.
+Dialogue: 0,0:19:27.90,0:19:29.78,Default,,0,0,0,,Hội trưởng,
+Dialogue: 0,0:19:30.39,0:19:32.40,Default,,0,0,0,,cậu thích điểm đó ở người ta chứ gì?
+Dialogue: 0,0:19:34.02,0:19:35.19,Default,,0,0,0,,Thích?
+Dialogue: 0,0:19:35.19,0:19:36.27,Default,,0,0,0,,Cái thuổng!
+Dialogue: 0,0:19:36.27,0:19:38.40,Default,,0,0,0,,Đó là cái cuốc!
+Dialogue: 0,0:19:38.40,0:19:40.08,Default,,0,0,0,,Thích, hả, cái!?
+Dialogue: 0,0:19:40.08,0:19:42.64,Default,,0,0,0,,Ủa?\NHội trưởng thích cậu ấy mà phải không?
+Dialogue: 0,0:19:43.16,0:19:45.40,Default,,0,0,0,,Ư-Ừ thì.
+Dialogue: 0,0:19:47.16,0:19:50.36,Default,,0,0,0,,Đúng là Iruma khó đoán trước thật.
+Dialogue: 0,0:19:50.91,0:19:54.46,Default,,0,0,0,,Có khi cậu ấy sẽ mang tặng Hội trưởng\Ncả một bó Lá huyền thoại ấy chứ.
+Dialogue: 0,0:19:56.44,0:19:57.30,Default,,0,0,0,,Rin!
+Dialogue: 0,0:20:00.44,0:20:02.26,Default,,0,0,0,,Chúc mừng em chiến thắng!
+Dialogue: 0,0:20:02.26,0:20:03.56,Default,,0,0,0,,Anh xin lỗi vì đã đến muộn nhé.
+Dialogue: 0,0:20:04.05,0:20:06.78,Default,,0,0,0,,Đây là, anh tìm nó vì em hả?
+Dialogue: 0,0:20:06.78,0:20:08.82,Default,,0,0,0,,Giờ đang giữa mùa đông mà!
+Dialogue: 0,0:20:08.82,0:20:11.12,Default,,0,0,0,,Bằng mọi giá anh muốn tặng nó cho em.
+Dialogue: 0,0:20:11.12,0:20:13.18,Default,,0,0,0,,Ể!?\NThịch.
+Dialogue: 0,0:20:13.18,0:20:14.96,Default,,0,0,0,,Ý nghĩa của hoa hướng dương là,
+Dialogue: 0,0:20:14.96,0:20:17.10,Default,,0,0,0,,"Tôi sẽ chỉ hướng về mỗi bạn mà thôi".
+Dialogue: 0,0:20:17.10,0:20:18.88,Default,,0,0,0,,Em vui quá!
+Dialogue: 0,0:20:18.88,0:20:23.16,Default,,0,0,0,,Hạnh phúc!
+Dialogue: 0,0:20:23.16,0:20:24.84,Default,,0,0,0,,Có khả năng xảy ra lắm chăng?
+Dialogue: 0,0:20:24.84,0:20:26.18,Default,,0,0,0,,Chị Ameri,
+Dialogue: 0,0:20:26.18,0:20:29.14,Default,,0,0,0,,vì em muốn nhìn thấy nụ cười đó của chị!
+Dialogue: 0,0:20:29.14,0:20:31.20,Default,,0,0,0,,Th-Thế thì khác nào gì lời,
+Dialogue: 0,0:20:31.20,0:20:32.90,Default,,0,0,0,,lời cầu hôn luôn đâu!?
+Dialogue: 0,0:20:34.98,0:20:35.98,Default,,0,0,0,,A lô?
+Dialogue: 0,0:20:35.98,0:20:37.68,Default,,0,0,0,,Không xong rồi Hội trưởng!
+Dialogue: 0,0:20:37.68,0:20:40.34,Default,,0,0,0,,Lều dành cho học sinh bỏ cuộc\Nđang náo động lắm kìa!
+Dialogue: 0,0:20:41.17,0:20:43.06,Default,,0,0,0,,Hay lắm, thế đi!
+Dialogue: 0,0:20:43.08,0:20:45.12,Default,,0,0,0,,Ông thú vị quá Gaap!
+Dialogue: 0,0:20:45.12,0:20:46.97,Default,,0,0,0,,Lên đi Asmodeus! Cuồng loạn lên!
+Dialogue: 0,0:20:46.97,0:20:48.88,Default,,0,0,0,,Nữ hoàng Kerori đẹp như quỷ vậy!
+Dialogue: 0,0:20:48.88,0:20:51.64,Default,,0,0,0,,Cái gì mà ồn ào thế này?
+Dialogue: 0,0:20:51.64,0:20:53.20,Default,,0,0,0,,Đó là.
+Dialogue: 0,0:20:53.20,0:20:53.94,Default,,0,0,0,,Hử?
+Dialogue: 0,0:20:54.64,0:20:55.69,Default,,0,0,0,,Mọi người,
+Dialogue: 0,0:20:55.69,0:20:58.42,Default,,0,0,0,,đã quyết định ủng hộ đội nào chưa?
+Dialogue: 0,0:20:58.42,0:21:01.08,Default,,0,0,0,,Nào nào, phân thắng bại đi!
+Dialogue: 0,0:21:01.08,0:21:01.94,Default,,0,0,0,,Cá cược à?
+Dialogue: 0,0:21:01.94,0:21:06.70,Default,,0,0,0,,Dữ liệu của học sinh và lấy tỷ lệ dựa trên chúng.\NTay nghề khá quá chứ hả.
+Dialogue: 0,0:21:06.70,0:21:08.84,Default,,0,0,0,,Chắc mình đặt cho Iruma quá.
+Dialogue: 0,0:21:08.84,0:21:09.62,Default,,0,0,0,,Này!
+Dialogue: 0,0:21:09.62,0:21:11.74,Default,,0,0,0,,Thay vì thế thì dẹp yên chuyện này đi!
+Dialogue: 0,0:21:11.74,0:21:14.14,Default,,0,0,0,,Các ngươi ồn ào quá đấy!
+Dialogue: 0,0:21:14.14,0:21:17.20,Default,,0,0,0,,Quậy thì quậy trong yên lặng thôi!
+Dialogue: 0,0:21:17.20,0:21:18.96,Default,,0,0,0,,H-Hội trưởng!
+Dialogue: 0,0:21:18.96,0:21:20.70,Default,,0,0,0,,- Hội trưởng Ameri!\N- Ngầu quá!
+Dialogue: 0,0:21:20.70,0:21:21.98,Default,,0,0,0,,Chủ mưu là.
+Dialogue: 0,0:21:21.98,0:21:23.98,Default,,0,0,0,,Hân hạnh.
+Dialogue: 0,0:21:23.98,0:21:24.76,Default,,0,0,0,,Ơ...
+Dialogue: 0,0:21:24.76,0:21:26.12,Default,,0,0,0,,Ngươi à?
+Dialogue: 0,0:21:26.88,0:21:28.76,Default,,0,0,0,,Không, không phải em đâu ạ!
+Dialogue: 0,0:21:28.76,0:21:30.22,Default,,0,0,0,,Em chỉ phụ một tay thôi!
+Dialogue: 0,0:21:30.28,0:21:34.14,Default,,0,0,0,,Cái này do những học sinh\Nvừa mới bỏ cuộc bày ra đó!
+Dialogue: 0,0:21:34.14,0:21:36.26,Default,,0,0,0,,Học sinh bỏ cuộc?
+Dialogue: 0,0:21:36.26,0:21:37.56,Default,,0,0,0,,V-Vâng!
+Dialogue: 0,0:21:37.56,0:21:40.52,Default,,0,0,0,,Kia kìa, chị xem.\NMấy người đằng đó.
+Dialogue: 0,0:21:42.48,0:21:43.16,Default,,0,0,0,,Đó.
+Dialogue: 0,0:21:44.82,0:21:46.04,Default,,0,0,0,,Ể!?
+Dialogue: 0,0:21:46.74,0:21:50.94,Default,,0,0,0,,Cuối cùng, lớp cá biệt cũng đã có\Nnhững thành viên đầu tiên bị loại.
+Dialogue: 0,0:21:50.94,0:21:53.20,Default,,0,0,0,,Rốt cuộc chuyện gì đã xảy ra với họ!
+Dialogue: 0,0:21:53.20,0:21:56.79,Default,,0,0,0,,Hãy cùng chờ tới tập sau\Ntrong khi họ đang ăn mì quỷ!
+Dialogue: 0,0:23:31.90,0:23:34.98,Default,,0,0,0,,Thích quá ma!
+Dialogue: 0,0:23:34.98,0:23:38.77,Default,,0,0,0,,Đúng là lớp cá biệt nổi tiếng nhất mà.
+Dialogue: 0,0:23:38.77,0:23:39.40,Default,,0,0,0,,Được lắm!
+Dialogue: 0,0:23:39.40,0:23:40.88,Default,,0,0,0,,Không phải tới ông cũng cá cược chứ!
+Dialogue: 0,0:23:41.44,0:23:42.32,Default,,0,0,0,,Ai là ngựa ô đâu?
+Dialogue: 0,0:23:42.32,0:23:43.66,Default,,0,0,0,,Cô bé đó thì sao?
+Dialogue: 0,0:23:44.36,0:23:48.84,Default,,0,0,0,,Di chuyển nhanh lên! Đừng để bị phát hiện!\NXong rồi thì nhanh lui đi!
+Dialogue: 0,0:23:49.22,0:23:51.88,Default,,0,0,0,,Di chuyển rất nhanh nhạy,\Nkhông hề có động tác thừa.
+Dialogue: 0,0:23:51.88,0:23:52.82,Default,,0,0,0,,Chà chà.
+Dialogue: 0,0:23:52.82,0:23:54.48,Default,,0,0,0,,Cũng nổi bật đấy nhỉ.
+Dialogue: 0,0:23:54.48,0:23:57.18,Default,,0,0,0,,Nhờ kỹ năng làm fan cuồng thường ngày,
+Dialogue: 0,0:23:57.18,0:24:01.20,Default,,0,0,0,,Eiko đã được Ameri công nhận\Nmột cách không ngờ tới.
+Dialogue: 0,0:24:03.88,0:24:05.12,Default,,0,0,0,,Iruma này thật là.
+Dialogue: 0,0:24:05.12,0:24:07.92,Default,,0,0,0,,Định tặng tôi Lá huyền thoại nữa kia chứ.
+Dialogue: 0,0:24:07.92,0:24:09.22,Default,,0,0,0,,Thật là mong quá đi.
+Dialogue: 0,0:24:09.22,0:24:10.22,Default,,0,0,0,,"Chị Ameri!"
+Dialogue: 0,0:24:10.22,0:24:14.56,Default,,0,0,0,,"Chị và em hãy trở thành đôi vợ chồng huyền thoại,\Ngiống như Lá huyền thoại này đi!"
+Dialogue: 0,0:24:14.56,0:24:16.37,Default,,0,0,0,,Đ-Đ-Đi đặt chỗ thôi!
+Dialogue: 0,0:24:16.37,0:24:18.37,Default,,0,0,0,,Trước tiên là nơi tổ chức lễ cưới!
+Dialogue: 0,0:24:18.37,0:24:20.10,Default,,0,0,0,,Tập tiếp theo.\N"Vào ma giới rồi đấy! Iruma."
+Dialogue: 0,0:24:20.10,0:24:21.49,Default,,0,0,0,,Ma thần Thoth.
+Dialogue: 0,0:24:21.49,0:24:24.30,Default,,0,0,0,,Cuối cùng thời điểm thổ lộ cũng tới!\NTới được thì hay biết mấy!
+Dialogue: 0,0:24:24.30,0:24:25.73,Default,,0,0,0,,Ơ? Bố ơi.
+Dialogue: 0,0:24:25.73,0:24:28.00,Default,,0,0,0,,Sao kính của bố lại vỡ thế kia?

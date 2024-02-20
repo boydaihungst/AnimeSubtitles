@@ -1,0 +1,409 @@
+[Script Info]
+; This is an Advanced Sub Station Alpha v4+ script.
+Title:
+ScriptType: v4.00+
+PlayDepth: 0
+ScaledBorderAndShadow: Yes
+PlayResX: 1920
+PlayResY: 1080
+
+[V4+ Styles]
+Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
+Style: Default,Noto Sans,80.0,&H00FFFFFF,&H000000FF,&H00002208,&H00000000,-1,0,0,0,100,100,0,0,1,3.0,2.0,2,0,0,65,1
+
+[Events]
+Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
+Dialogue: 0,0:00:00.46,0:00:03.23,Default,,0,0,0,,Vĩnh cửu đã kết thúc. Thật nguy hiểm, nguy hiểm.
+Dialogue: 0,0:00:03.23,0:00:05.47,Default,,0,0,0,,Nối các dấu chấm lại với nhau.
+Dialogue: 0,0:00:05.47,0:00:10.26,Default,,0,0,0,,Tôi chỉ muốn biết điều gì ở phía trước mà thôi.
+Dialogue: 0,0:00:20.66,0:00:22.12,Default,,0,0,0,,Thoát khỏi khu rừng bê tông.
+Dialogue: 0,0:00:22.12,0:00:24.73,Default,,0,0,0,,Chạy xuyên qua biển cây.
+Dialogue: 0,0:00:25.46,0:00:29.41,Default,,0,0,0,,Hãy sẵn sàng cho một trận rung chấn.\NHãy cùng Aiyaiya!
+Dialogue: 0,0:00:29.41,0:00:31.88,Default,,0,0,0,,Được rồi. Cũng hiểu đây không phải\Nmột trò chơi chứ?
+Dialogue: 0,0:00:31.88,0:00:34.56,Default,,0,0,0,,Sách lược méo mó, lỗi muôn trùng điệp.
+Dialogue: 0,0:00:34.56,0:00:36.93,Default,,0,0,0,,Một giới hạn không thể đột phá\Nmà không chịu đau đớn.
+Dialogue: 0,0:00:36.93,0:00:38.73,Default,,0,0,0,,Aiyaiya!
+Dialogue: 0,0:00:38.73,0:00:39.95,Default,,0,0,0,,Nào, bắt đầu thôi.
+Dialogue: 0,0:00:40.29,0:00:41.27,Default,,0,0,0,,Đến lúc bay rồi.
+Dialogue: 0,0:00:41.27,0:00:42.47,Default,,0,0,0,,Háo hức đến chết mất.
+Dialogue: 0,0:00:42.47,0:00:43.61,Default,,0,0,0,,Không còn quan tâm đến gì nữa.
+Dialogue: 0,0:00:43.61,0:00:45.89,Default,,0,0,0,,Di chuyển nào, theo ánh sáng chiếu xuống lòng đất.
+Dialogue: 0,0:00:45.89,0:00:48.41,Default,,0,0,0,,Tên đó điên rồi. Đây là một giấc mơ thoáng qua.
+Dialogue: 0,0:00:48.41,0:00:53.18,Default,,0,0,0,,Dù vậy, chúng ta đang chiến đấu\Nlà vì ai?
+Dialogue: 0,0:00:53.18,0:00:56.56,Default,,0,0,0,,Aiyaiya Aiyaiya!
+Dialogue: 0,0:00:56.56,0:01:01.09,Default,,0,0,0,,Khung cảnh vừa đi qua thật nguy hiểm, nguy hiểm.
+Dialogue: 0,0:01:01.09,0:01:02.35,Default,,0,0,0,,Ngay lúc này, hãy cùng...
+Dialogue: 0,0:01:02.35,0:01:05.72,Default,,0,0,0,,Aiyaiya Aiyaiya!
+Dialogue: 0,0:01:05.72,0:01:10.75,Default,,0,0,0,,Chặn đứng thời gian.\NChúng ta là những kẻ phá game!
+Dialogue: 0,0:01:10.75,0:01:12.82,Default,,0,0,0,,Tiếp tục nào!
+Dialogue: 0,0:01:14.84,0:01:21.09,Default,,0,0,0,,Đến bờ bên kia, dù phía trước không có gì cả!
+Dialogue: 0,0:01:21.09,0:01:23.09,Default,,0,0,0,,Aiyaiya!
+Dialogue: 0,0:01:23.09,0:01:25.92,Default,,0,0,0,,Thật nguy hiểm, nguy hiểm!
+Dialogue: 0,0:01:36.52,0:01:42.04,Default,,0,0,0,,Cả Thanh Thiên Đại Chinh,\Ncả lời thề canh mộ dài đằng đẵng...
+Dialogue: 0,0:01:42.60,0:01:45.92,Default,,0,0,0,,thay mặt Vysache, để ta giải phóng cho ngươi!
+Dialogue: 0,0:01:46.46,0:01:47.10,Default,,0,0,0,,Thiên Thanh!
+Dialogue: 0,0:01:48.50,0:01:50.48,Default,,0,0,0,,Crescent Vorpal!
+Dialogue: 0,0:01:57.06,0:01:58.64,Default,,0,0,0,,Đến lúc đi ngủ rồi,
+Dialogue: 0,0:01:59.32,0:02:01.08,Default,,0,0,0,,Mộ Thủ Wezaemon!
+Dialogue: 0,0:02:07.18,0:02:08.92,Default,,0,0,0,,Ngươi rất mạnh.
+Dialogue: 0,0:02:09.58,0:02:10.24,Default,,0,0,0,,Nhưng...
+Dialogue: 0,0:02:10.96,0:02:12.40,Default,,0,0,0,,ta đã quan sát đến chết rồi.
+Dialogue: 0,0:02:13.28,0:02:15.76,Default,,0,0,0,,Thanh kiếm đó không thể chạm vào ta nữa đâu.
+Dialogue: 0,0:02:18.16,0:02:21.52,Default,,0,0,0,,Nhát chém tối thượng đã bị chinh phục.
+Dialogue: 0,0:02:25.09,0:02:25.86,Default,,0,0,0,,Làm tốt lắm.
+Dialogue: 0,0:02:29.29,0:02:32.53,Default,,0,0,0,,Cuối cùng, ta cũng nhìn thấy\Nđiểm tận cùng của mình.
+Dialogue: 0,0:02:35.67,0:02:40.01,Default,,0,0,0,,Thanh Thiên đã trở thành\Nbầu trời xanh cuối cùng của ta.
+Dialogue: 0,0:02:42.12,0:02:45.54,Default,,0,0,0,,Lời nói cũng trở thành lời chúc mừng.
+Dialogue: 0,0:02:57.32,0:02:58.98,Default,,0,0,0,,Bội phục.
+Dialogue: 0,0:03:01.06,0:03:05.90,Default,,0,0,0,,(Tập 19: Thế giới sang trang, anh hùng hé lộ)
+Dialogue: 0,0:03:06.05,0:03:06.83,Default,,0,0,0,,Hả?
+Dialogue: 0,0:03:07.88,0:03:10.03,Default,,0,0,0,,THIÊN THANH = Bội phục\NChơi chữ à?
+Dialogue: 0,0:03:12.08,0:03:13.41,Default,,0,0,0,,Ơ... lỡ mồm à?
+Dialogue: 0,0:03:21.88,0:03:25.46,Default,,0,0,0,,Setsuna cũng thường nói như vậy.
+Dialogue: 0,0:03:31.83,0:03:33.80,Default,,0,0,0,,Ta thật sự bội phục,
+Dialogue: 0,0:03:34.89,0:03:36.75,Default,,0,0,0,,hỡi hậu duệ của những kẻ khai phá.
+Dialogue: 0,0:03:38.43,0:03:41.67,Default,,0,0,0,,Mình cứ tưởng hắn là kẻ\Nhoàn toàn không thể nói chuyện...
+Dialogue: 0,0:03:42.56,0:03:44.69,Default,,0,0,0,,nhưng không ngờ lại có phản ứng này.
+Dialogue: 0,0:03:49.31,0:03:50.69,Default,,0,0,0,,Lẽ nào... lại tiếp tục?
+Dialogue: 0,0:03:50.87,0:03:51.69,Default,,0,0,0,,Không.
+Dialogue: 0,0:03:53.45,0:03:54.98,Default,,0,0,0,,Đã chạm giới hạn rồi.
+Dialogue: 0,0:04:36.52,0:04:40.12,Default,,0,0,0,,Cơ thể ta... đã mục rữa.
+Dialogue: 0,0:04:45.09,0:04:46.18,Default,,0,0,0,,Ta sẽ ngủ.
+Dialogue: 0,0:04:50.27,0:04:52.03,Default,,0,0,0,,Setsuna...
+Dialogue: 0,0:04:56.32,0:04:59.00,Default,,0,0,0,,Bây giờ, ta đến bên đó đây.
+Dialogue: 0,0:05:19.58,0:05:20.65,Default,,0,0,0,,Kết thúc rồi sao?
+Dialogue: 0,0:05:20.99,0:05:22.62,Default,,0,0,0,,(Cảnh đặc biệt mở rộng:\NTrao gửi tình yêu từ dương gian đến thế giới bên kia)\N(Đang thực hiện)
+Dialogue: 0,0:05:22.62,0:05:25.00,Default,,0,0,0,,Vẫn chưa thấy thông báo hoàn thành.
+Dialogue: 0,0:05:28.23,0:05:31.18,Default,,0,0,0,,Cây hoa anh đào... đang úa tàn kìa.
+Dialogue: 0,0:05:34.32,0:05:36.98,Default,,0,0,0,,Khu vực cũng trở lại như cũ à?
+Dialogue: 0,0:05:51.40,0:05:52.63,Default,,0,0,0,,Secchan...
+Dialogue: 0,0:05:53.05,0:05:57.69,Default,,0,0,0,,Arthur, Sunraku, và Oikatzo.
+Dialogue: 0,0:05:59.14,0:06:00.74,Default,,0,0,0,,Các bạn đã hoàn thành giúp tôi rồi.
+Dialogue: 0,0:06:01.45,0:06:03.03,Default,,0,0,0,,Cảm ơn rất nhiều.
+Dialogue: 0,0:06:04.49,0:06:06.27,Default,,0,0,0,,Nguyện ước của tôi...
+Dialogue: 0,0:06:06.27,0:06:12.74,Default,,0,0,0,,Không, nguyện ước của "Setsuna của quá khứ xa xôi"\Nđã được hoàn thành.
+Dialogue: 0,0:06:13.55,0:06:16.39,Default,,0,0,0,,Ủa... cách nói lạ nhỉ.
+Dialogue: 0,0:06:16.63,0:06:20.12,Default,,0,0,0,,Nói như thể cô không phải là Setsuna vậy.
+Dialogue: 0,0:06:20.47,0:06:21.63,Default,,0,0,0,,Secchan...?
+Dialogue: 0,0:06:22.34,0:06:25.34,Default,,0,0,0,,Setsuna... chẳng phải là cậu sao?
+Dialogue: 0,0:06:28.65,0:06:29.85,Default,,0,0,0,,Không đâu, Arthur.
+Dialogue: 0,0:06:30.58,0:06:32.83,Default,,0,0,0,,Tôi đúng là Setsuna.
+Dialogue: 0,0:06:33.43,0:06:37.00,Default,,0,0,0,,Nhưng không phải là Setsuna thật sự\Nđã chết vào ngày ấy.
+Dialogue: 0,0:06:39.14,0:06:40.54,Default,,0,0,0,,Nguyện ước của Setsuna là...
+Dialogue: 0,0:06:41.55,0:06:46.12,Default,,0,0,0,,nếu người yêu mãi bị ám ảnh\Nbởi cái chết của tôi...
+Dialogue: 0,0:06:46.12,0:06:47.87,Default,,0,0,0,,thì xin hãy ngừng chuyện đó lại.
+Dialogue: 0,0:06:49.09,0:06:52.96,Default,,0,0,0,,Tôi là thứ được sinh ra\Ntừ tàn ý đó của cô ấy.
+Dialogue: 0,0:06:54.56,0:06:59.21,Default,,0,0,0,,Nói cách khác, tôi giống như một kịch bản\Nđược tái hiện lại vậy.
+Dialogue: 0,0:07:02.05,0:07:07.39,Default,,0,0,0,,Tàn ý của quá khứ, hình thành từ chính\Nnguyện ước của Setsuna...
+Dialogue: 0,0:07:07.97,0:07:12.76,Default,,0,0,0,,Tức là kiểu một phiên bản tái hiện hoàn hảo\Nnhư copy-paste á?
+Dialogue: 0,0:07:13.80,0:07:16.15,Default,,0,0,0,,Thế nên mới gọi là\N"Setsuna của quá khứ xa xôi" à...
+Dialogue: 0,0:07:19.27,0:07:23.91,Default,,0,0,0,,Tôi là tàn ý của Setsuna,\Nsự tồn tại sẽ biến mất sau khi hoàn thành vai trò.
+Dialogue: 0,0:07:24.36,0:07:25.79,Default,,0,0,0,,Đợi đã, Secchan!
+Dialogue: 0,0:07:26.16,0:07:27.63,Default,,0,0,0,,Đừng buồn, Arthur.
+Dialogue: 0,0:07:29.18,0:07:31.94,Default,,0,0,0,,Khoảnh khắc mà thế giới đáp lại\Nnguyện ước của cô ấy...
+Dialogue: 0,0:07:32.58,0:07:34.92,Default,,0,0,0,,thì sớm muộn chuyện này cũng đến.
+Dialogue: 0,0:07:36.17,0:07:40.74,Default,,0,0,0,,Các cậu là những nhà khai phá,\Nlà hậu duệ của Second Plan,
+Dialogue: 0,0:07:40.74,0:07:42.42,Default,,0,0,0,,là những người khai mở thế giới.
+Dialogue: 0,0:07:43.89,0:07:50.31,Default,,0,0,0,,Nếu các cậu muốn tìm thấy gốc rễ của bản thân\Nvà chạm đến sự thật của thế giới...
+Dialogue: 0,0:07:52.65,0:07:54.29,Default,,0,0,0,,thì hãy đi tìm Bahamut.
+Dialogue: 0,0:07:56.19,0:07:57.65,Default,,0,0,0,,Bahamut?
+Dialogue: 0,0:07:58.05,0:07:59.58,Default,,0,0,0,,Không biết à, Katzo?
+Dialogue: 0,0:07:59.58,0:08:02.67,Default,,0,0,0,,Là một con cá\Nnhưng thường được coi là rồng đấy.
+Dialogue: 0,0:08:02.67,0:08:04.80,Default,,0,0,0,,Cái đó thì tôi biết chứ!
+Dialogue: 0,0:08:04.80,0:08:07.45,Default,,0,0,0,,Đang thắc mắc Bahamut thì liên quan gì\Nđến game này!
+Dialogue: 0,0:08:08.07,0:08:11.17,Default,,0,0,0,,Ở ShanFro làm gì có quái vật nào\Ntên là Bahamut.
+Dialogue: 0,0:08:12.61,0:08:15.49,Default,,0,0,0,,Secchan, ý cậu là sao?
+Dialogue: 0,0:08:16.67,0:08:18.71,Default,,0,0,0,,Hãy tự tìm hiểu đi.
+Dialogue: 0,0:08:19.47,0:08:23.18,Default,,0,0,0,,Bởi vì "khai mở tương lai"\Nlà như vậy, đúng không?
+Dialogue: 0,0:08:24.97,0:08:25.94,Default,,0,0,0,,Arthur.
+Dialogue: 0,0:08:26.76,0:08:31.69,Default,,0,0,0,,Đây không phải là của Setsuna,\Nmà là những lời của chính tôi muốn gửi đến cậu.
+Dialogue: 0,0:08:33.35,0:08:36.72,Default,,0,0,0,,Cảm ơn cậu đã luôn đến gặp tôi.
+Dialogue: 0,0:08:37.48,0:08:39.45,Default,,0,0,0,,Tôi yêu cậu, Arthur.
+Dialogue: 0,0:08:49.58,0:08:50.67,Default,,0,0,0,,Tôi cũng vậy!
+Dialogue: 0,0:09:12.51,0:09:13.37,Default,,0,0,0,,Pencilgon...
+Dialogue: 0,0:09:13.93,0:09:15.01,Default,,0,0,0,,Tôi không khóc.
+Dialogue: 0,0:09:15.43,0:09:16.35,Default,,0,0,0,,(Tàn ý của Setsuna đã hoàn thành nguyện ước từ quá khứ xa xôi)\N(Mộ Thủ Wezaemon đã đi vào giấc ngủ vĩnh hằng)
+Dialogue: 0,0:09:16.35,0:09:18.45,Default,,0,0,0,,Tôi đã nói gì đâu.
+Dialogue: 0,0:09:19.32,0:09:23.63,Default,,0,0,0,,Không ngờ Pencilgon\Ncũng có thể rơi những giọt lệ ấm áp như vậy.
+Dialogue: 0,0:09:23.63,0:09:26.83,Default,,0,0,0,,Cảm xúc này... đây chính là trái tim!
+Dialogue: 0,0:09:27.53,0:09:29.52,Default,,0,0,0,,Đừng có tự suy diễn!
+Dialogue: 0,0:09:29.52,0:09:31.91,Default,,0,0,0,,Đủ lắm rồi! Tôi xử cả hai ở đây luôn!
+Dialogue: 0,0:09:33.25,0:09:35.91,Default,,0,0,0,,Đến tận đây rồi\Nthì tôi không muốn bị PK đâu!
+Dialogue: 0,0:09:36.33,0:09:38.25,Default,,0,0,0,,Làm ơn chết hộ tôi đi, Sunraku!
+Dialogue: 0,0:09:38.92,0:09:41.03,Default,,0,0,0,,- Này, đừng có giỡn mặt!\N- Nào nào, bước lên phía trước đi!
+Dialogue: 0,0:09:41.03,0:09:42.60,Default,,0,0,0,,- Thằng khốn này! Bỏ ra!\N- Có sao đâu, xoẹt một cái thôi!
+Dialogue: 0,0:09:42.60,0:09:45.36,Default,,0,0,0,,(Cảnh đặc biệt mở rộng:\NTrao gửi tình yêu từ dương gian đến thế giới bên kia)\N(Đã hoàn thành)
+Dialogue: 0,0:09:47.47,0:09:49.29,Default,,0,0,0,,Đúng là đã hoàn thành rồi nhỉ.
+Dialogue: 0,0:09:51.09,0:09:56.58,Default,,0,0,0,,Hai cậu, cảm ơn đã đáp ứng\Nyêu cầu ích kỷ này của tôi.
+Dialogue: 0,0:09:59.87,0:10:03.23,Default,,0,0,0,,Chúng tôi tự muốn làm nên mới tham gia mà.
+Dialogue: 0,0:10:03.23,0:10:03.82,Default,,0,0,0,,Nhỉ?
+Dialogue: 0,0:10:03.82,0:10:04.78,Default,,0,0,0,,Ừ.
+Dialogue: 0,0:10:08.84,0:10:14.14,Default,,0,0,0,,Từ lúc Shangri-La Frontier được mở,\Nđây lần đầu có quái vật đặc biệt bị tiêu diệt.
+Dialogue: 0,0:10:14.92,0:10:17.89,Default,,0,0,0,,Chẹp, không biết sẽ nhận được\Nquyền lợi gì đây?
+Dialogue: 0,0:10:17.89,0:10:18.67,Default,,0,0,0,,Ừm!
+Dialogue: 0,0:10:18.88,0:10:19.96,Default,,0,0,0,,Được rồi!
+Dialogue: 0,0:10:19.96,0:10:23.70,Default,,0,0,0,,Vậy thì cùng kiểm tra phần thưởng\Nrồi quẩy thôi!
+Dialogue: 0,0:10:25.89,0:10:31.56,Default,,0,0,0,,Thông báo đến toàn thể người chơi\Ncủa Shangri-La Frontier.
+Dialogue: 0,0:10:32.59,0:10:34.65,Default,,0,0,0,,Vừa mới đây,
+Dialogue: 0,0:10:34.65,0:10:40.10,Default,,0,0,0,,quái vật đặc biệt, Mộ Thủ Wezaemon\Nđã bị tiêu diệt.
+Dialogue: 0,0:10:41.04,0:10:49.07,Default,,0,0,0,,Những người đã thảo phạt thành công là\NSunraku, Oikatzo và Arthur Pencilgon.
+Dialogue: 0,0:10:50.26,0:10:53.87,Default,,0,0,0,,Hơn nữa, với việc một quái vật đặc biệt\Nbị tiêu diệt,
+Dialogue: 0,0:10:54.12,0:10:58.54,Default,,0,0,0,,World Story của Shangri-La Frontier\Nsẽ bước sang chương mới.
+Dialogue: 0,0:10:59.60,0:11:01.78,Default,,0,0,0,,World... Story?
+Dialogue: 0,0:11:16.97,0:11:23.98,Default,,0,0,0,,(Tiến độ hoàn thành)
+Dialogue: 0,0:11:23.98,0:11:29.42,Default,,0,0,0,,(Thư viện hoàng gia, khu vực số hai)
+Dialogue: 0,0:11:29.78,0:11:31.87,Default,,0,0,0,,(World Story của Shangri-La Frontier đã bước sang chương mới)\NNày, khẩn cấp đây!
+Dialogue: 0,0:11:31.87,0:11:34.71,Default,,0,0,0,,(Hội Library - Chuyên phân tích ShanFro)\NAi có số liên lạc của "giáo sư"\Nngoài đời không?
+Dialogue: 0,0:11:35.16,0:11:37.67,Default,,0,0,0,,Hình như vợ của giáo sư\Nđang ở Wulf Schwarz đúng không?
+Dialogue: 0,0:11:37.78,0:11:39.29,Default,,0,0,0,,Nhờ gọi hộ đi.
+Dialogue: 0,0:11:39.71,0:11:41.31,Default,,0,0,0,,Giáo sư thì lạ gì.
+Dialogue: 0,0:11:41.31,0:11:45.32,Default,,0,0,0,,Nghe tin quái vật đặc biệt bị hạ\Nthì sẽ bay đến ngay cho xem.
+Dialogue: 0,0:11:45.70,0:11:47.62,Default,,0,0,0,,Mong là người vợ vẫn đăng nhập.
+Dialogue: 0,0:11:48.02,0:11:52.62,Default,,0,0,0,,Mà cái "World Story" mà Game Master vừa thông báo\Nlà gì vậy?
+Dialogue: 0,0:11:53.36,0:11:54.56,Default,,0,0,0,,Lần đầu nghe thấy nhỉ.
+Dialogue: 0,0:11:55.00,0:11:58.56,Default,,0,0,0,,Chắc hẳn là không giống "Story" bình thường.
+Dialogue: 0,0:11:59.06,0:12:03.91,Default,,0,0,0,,Nếu Story bình thường\Nlà phối hợp với NPC để khai phá thế giới...
+Dialogue: 0,0:12:03.91,0:12:08.54,Default,,0,0,0,,thì World Story là bản thân thế giới\Nbước sang một trang mới chăng?
+Dialogue: 0,0:12:09.16,0:12:12.96,Default,,0,0,0,,Thế thì rất có thể sẽ có thay đổi lớn nhỉ.
+Dialogue: 0,0:12:13.29,0:12:16.20,Default,,0,0,0,,Nhờ Wulf Schwarz điều tra giúp\Nđược không?
+Dialogue: 0,0:12:16.20,0:12:19.87,Default,,0,0,0,,Khoan, vậy sao không điều tra\Ntừ Mộ Thủ Wezaemon trước?
+Dialogue: 0,0:12:19.87,0:12:21.02,Default,,0,0,0,,Tán thành!
+Dialogue: 0,0:12:21.02,0:12:25.74,Default,,0,0,0,,Dù gì chúng ta cũng chưa từng có\Nthông tin chắc chắn về quái vật đặc biệt mà.
+Dialogue: 0,0:12:26.25,0:12:31.89,Default,,0,0,0,,Siegwurm, Lycagon, Ctarnidd, Orchestra,\Nvà Wezaemon.
+Dialogue: 0,0:12:32.24,0:12:35.96,Default,,0,0,0,,Vậy là danh tính của những thất chủng tối thượng\Nđang dần được hé lộ.
+Dialogue: 0,0:12:36.47,0:12:38.22,Default,,0,0,0,,Chỉ còn hai con là chưa biết thôi nhỉ.
+Dialogue: 0,0:12:38.56,0:12:43.58,Default,,0,0,0,,Được rồi, trước tiên là liên lạc với những người chơi\Nđã hạ Wezaemon nào.
+Dialogue: 0,0:12:44.42,0:12:48.48,Default,,0,0,0,,Ồ, vợ của giáo sư\Nbảo là sẽ đập ông ấy dậy ngay kìa.
+Dialogue: 0,0:12:48.96,0:12:51.32,Default,,0,0,0,,Nói "đập dậy" nghe mà đáng thương quá.
+Dialogue: 0,0:12:54.38,0:12:58.46,Default,,0,0,0,,Sunraku, Oikatzo, Arthur Pencilgon...
+Dialogue: 0,0:12:59.31,0:13:00.37,Default,,0,0,0,,Thiệt tình.
+Dialogue: 0,0:13:00.62,0:13:05.72,Default,,0,0,0,,Không ngờ lại có những người chơi\Ncó thể hạ quái vật đặc biệt trước chúng ta.
+Dialogue: 0,0:13:07.07,0:13:09.13,Default,,0,0,0,,(Chủ hội Hắc Lang: Psyger-100)\NĐúng là hổ danh "hội đứng đầu".
+Dialogue: 0,0:13:13.27,0:13:15.66,Default,,0,0,0,,Arthur Pencilgon của Hội Asura à...
+Dialogue: 0,0:13:16.49,0:13:20.02,Default,,0,0,0,,Lúc tập kích không thấy cô ta,\Ntôi đã thấy là lạ.
+Dialogue: 0,0:13:20.58,0:13:24.12,Default,,0,0,0,,Không ngờ lại đang đi thảo phạt\Nquái vật đặc biệt.
+Dialogue: 0,0:13:25.26,0:13:26.27,Default,,0,0,0,,Con ả đó...
+Dialogue: 0,0:13:26.27,0:13:30.76,Default,,0,0,0,,vì muốn hạ quái vật đặc biệt\Nmà đã bán đứng Hội Asura cho người cung cấp thông tin...
+Dialogue: 0,0:13:31.14,0:13:33.42,Default,,0,0,0,,và biến chúng ta thành quân cờ.
+Dialogue: 0,0:13:34.15,0:13:36.87,Default,,0,0,0,,Có vẻ còn khó nhằn hơn cả Orcelott,\Nkẻ đã chạy trốn.
+Dialogue: 0,0:13:37.49,0:13:40.14,Default,,0,0,0,,Hai người kia\Nhình như không phải ở Hội Asura.
+Dialogue: 0,0:13:41.27,0:13:44.86,Default,,0,0,0,,Okatzo... là ai thì vẫn chưa rõ.
+Dialogue: 0,0:13:45.14,0:13:47.04,Default,,0,0,0,,Còn người chơi tên là Sunraku...
+Dialogue: 0,0:13:47.70,0:13:50.62,Default,,0,0,0,,chắc hẳn là người đã dính dáng\Nđến Lycagon dạo nọ.
+Dialogue: 0,0:13:51.85,0:13:55.89,Default,,0,0,0,,Pencilgon và Hizutome... có thân nhau không nhỉ?
+Dialogue: 0,0:13:57.67,0:13:59.51,Default,,0,0,0,,Tính sao đây, đoàn trưởng?
+Dialogue: 0,0:13:59.51,0:14:01.94,Default,,0,0,0,,Còn vụ đi Tân Đại Lục nữa.
+Dialogue: 0,0:14:03.07,0:14:06.42,Default,,0,0,0,,Chúng ta vẫn sẽ đi Tân Đại Lục,\Nnhưng...
+Dialogue: 0,0:14:06.42,0:14:09.31,Default,,0,0,0,,tôi cùng vài người nữa sẽ ở lại đây.
+Dialogue: 0,0:14:12.02,0:14:15.16,Default,,0,0,0,,Cậu tân binh\Nmà mới đây còn ở Thirdrema...
+Dialogue: 0,0:14:15.44,0:14:19.94,Default,,0,0,0,,giờ đã chinh phục được một quái vật đặc biệt\Nmà chưa ai làm được...
+Dialogue: 0,0:14:21.34,0:14:24.20,Default,,0,0,0,,Tôi càng hứng thú với cậu hơn rồi đấy, Sunraku.
+Dialogue: 0,0:14:26.00,0:14:28.76,Default,,0,0,0,,Nhất định phải liên hệ được bọn họ!
+Dialogue: 0,0:14:28.76,0:14:31.49,Default,,0,0,0,,Tùy tình hình thì có thể bàn kế hoạch "làm ăn" luôn.
+Dialogue: 0,0:14:32.22,0:14:34.02,Default,,0,0,0,,Đoàn trưởng có vẻ hào hứng nhỉ.
+Dialogue: 0,0:14:35.02,0:14:36.71,Default,,0,0,0,,Cứ tưởng chị phải khó chịu lắm chứ.
+Dialogue: 0,0:14:37.08,0:14:39.38,Default,,0,0,0,,Ủa, không thấy Psyger-0.
+Dialogue: 0,0:14:39.38,0:14:40.47,Default,,0,0,0,,Đi đâu mất rồi?
+Dialogue: 0,0:14:40.67,0:14:44.34,Default,,0,0,0,,À, lúc nãy bảo là bạn đang gặp chuyện\Nnên đi rồi.
+Dialogue: 0,0:14:44.34,0:14:45.47,Default,,0,0,0,,Bạn?
+Dialogue: 0,0:14:45.47,0:14:50.48,Default,,0,0,0,,À, hình như nó có bảo\Nlà vừa kết bạn với người mình thích.
+Dialogue: 0,0:14:53.40,0:14:56.18,Default,,0,0,0,,Thôi thì cứ cổ vũ nó vậy.
+Dialogue: 0,0:15:01.56,0:15:02.99,Default,,0,0,0,,Quả nhiên là ở đây à.
+Dialogue: 0,0:15:03.20,0:15:05.07,Default,,0,0,0,,Ồ, là hắn hả?
+Dialogue: 0,0:15:06.08,0:15:08.71,Default,,0,0,0,,C-Các người...!
+Dialogue: 0,0:15:08.71,0:15:12.05,Default,,0,0,0,,Gì ấy nhỉ, "Orcelott điểm liệt" à?
+Dialogue: 0,0:15:12.05,0:15:14.40,Default,,0,0,0,,Biệt danh gì mà nghe ghê vậy?
+Dialogue: 0,0:15:14.40,0:15:15.32,Default,,0,0,0,,Wezaemon à?
+Dialogue: 0,0:15:16.34,0:15:20.11,Default,,0,0,0,,Thằng em trai ngốc của tôi\Nkhông cần mấy biệt danh hào nhoáng như thế đâu.
+Dialogue: 0,0:15:20.11,0:15:20.94,Default,,0,0,0,,Hẳ!?
+Dialogue: 0,0:15:20.94,0:15:24.02,Default,,0,0,0,,Cái đám này chẳng hiểu được PK.
+Dialogue: 0,0:15:24.26,0:15:26.58,Default,,0,0,0,,Chỉ là lũ lưu manh hạng bét\Nsống lay lắt thôi.
+Dialogue: 0,0:15:26.76,0:15:31.40,Default,,0,0,0,,Quả nhiên... người tiết lộ vị trí căn cứ\Nlà chị đúng không!?
+Dialogue: 0,0:15:31.77,0:15:33.74,Default,,0,0,0,,Bị xiên thì xiên lại.
+Dialogue: 0,0:15:33.98,0:15:38.36,Default,,0,0,0,,Béo lên nhưng lại sợ giảm cân\Nthì sẽ biến thành con gà đấy.
+Dialogue: 0,0:15:38.60,0:15:43.80,Default,,0,0,0,,Thế nên chị đây đã đấm bụng nó\Nđể nó ói hết mọi thứ trong bụng ra.
+Dialogue: 0,0:15:43.80,0:15:45.29,Default,,0,0,0,,Chỉ vậy thôi.
+Dialogue: 0,0:15:45.29,0:15:46.40,Default,,0,0,0,,Đáng sợ.
+Dialogue: 0,0:15:46.40,0:15:49.87,Default,,0,0,0,,Một bà chị cuồng PK đúng là đáng sợ quá!
+Dialogue: 0,0:15:50.11,0:15:53.04,Default,,0,0,0,,Lại còn dám lên mặt...!
+Dialogue: 0,0:15:53.56,0:15:56.08,Default,,0,0,0,,Đánh nhau với Wezaemon\Nchắc mệt rồi chứ gì!?
+Dialogue: 0,0:15:56.40,0:16:00.04,Default,,0,0,0,,Để ta giết các ngươi\Nrồi chiếm đoạt toàn bộ chiếm lợi phẩm!
+Dialogue: 0,0:16:05.05,0:16:07.58,Default,,0,0,0,,Thế nên chú mày mới không ổn đấy.
+Dialogue: 0,0:16:07.71,0:16:12.74,Default,,0,0,0,,Đã bảo phải luôn để ý đến đại cục,\Nvậy mà luôn bị cuốn vào cái lợi trước mắt.
+Dialogue: 0,0:16:13.52,0:16:16.18,Default,,0,0,0,,Một trong những biện pháp chống PK:\NTín hiệu cứu nạn.
+Dialogue: 0,0:16:16.81,0:16:22.36,Default,,0,0,0,,Khi có nguy cơ bị PK, bạn có thể gửi\Ntín hiệu cứu nạn đến bạn bè.
+Dialogue: 0,0:16:22.58,0:16:24.72,Default,,0,0,0,,Anh Orcelottt, tên này là...
+Dialogue: 0,0:16:26.26,0:16:31.07,Default,,0,0,0,,(Cứu trợ bằng hữu)\NNếu người bạn nhận được tín hiệu\Nđã học được kỹ năng "Friend Warp"...
+Dialogue: 0,0:16:31.67,0:16:34.11,Default,,0,0,0,,thì có thể được triệu hồi ngay đến đó.
+Dialogue: 0,0:16:38.58,0:16:40.96,Default,,0,0,0,,Lại là ngươi à, Psyger-0 !?
+Dialogue: 0,0:16:41.20,0:16:44.14,Default,,0,0,0,,Chà, xin lỗi vì gọi đường đột nhé, Psyger-0.
+Dialogue: 0,0:16:44.34,0:16:45.05,Default,,0,0,0,,Không có gì.
+Dialogue: 0,0:16:45.34,0:16:48.09,Default,,0,0,0,,Cảm ơn cậu đã gọi!
+Dialogue: 0,0:16:49.54,0:16:51.24,Default,,0,0,0,,Tàn dư của Hội Asura.
+Dialogue: 0,0:16:52.25,0:16:56.85,Default,,0,0,0,,Nếu các ngươi cúp đuôi chạy trốn như lúc nãy\Nthì ta sẽ tha cho.
+Dialogue: 0,0:16:56.85,0:16:57.78,Default,,0,0,0,,Thế nào?
+Dialogue: 0,0:16:58.51,0:17:02.11,Default,,0,0,0,,Hết đứa này sang đứa khác...\Nđúng là giỡn mặt mà!
+Dialogue: 0,0:17:02.26,0:17:06.03,Default,,0,0,0,,Quân khốn kiếp!
+Dialogue: 0,0:17:07.82,0:17:10.28,Default,,0,0,0,,(50 giây sau)
+Dialogue: 0,0:17:10.94,0:17:12.72,Default,,0,0,0,,Chết tiệt...
+Dialogue: 0,0:17:13.26,0:17:17.22,Default,,0,0,0,,Tất cả những gì mình gây dựng...\Nvậy mà lại bị...
+Dialogue: 0,0:17:21.69,0:17:25.14,Default,,0,0,0,,Trong MMO thì làm gì có chuyện\Ntất cả đều theo ý mình chứ.
+Dialogue: 0,0:17:25.63,0:17:28.94,Default,,0,0,0,,Chú mày hợp với game offline\Nmột người chơi hơn đấy.
+Dialogue: 0,0:17:29.46,0:17:32.98,Default,,0,0,0,,Vậy thì hãy chơi thử\NFaeria Chronicle Online nhé!
+Dialogue: 0,0:17:33.40,0:17:35.10,Default,,0,0,0,,Ông... ác vừa thôi!
+Dialogue: 0,0:17:35.56,0:17:36.58,Default,,0,0,0,,(Chuyển giao quyền sở hữu)
+Dialogue: 0,0:17:36.58,0:17:41.90,Default,,0,0,0,,Ái chà chà, bùm một phát lấy được bao nhiêu\Nvật phẩm hiếm mà Hội Asura nè.
+Dialogue: 0,0:17:42.25,0:17:44.06,Default,,0,0,0,,Cứ như dọn kho bỏ trốn vậy.
+Dialogue: 0,0:17:44.85,0:17:47.18,Default,,0,0,0,,Không ngờ cậu đến nhanh đến vậy.
+Dialogue: 0,0:17:47.65,0:17:49.22,Default,,0,0,0,,Cảm ơn nhiều, Psyger-0.
+Dialogue: 0,0:17:49.22,0:17:54.41,Default,,0,0,0,,Ấy không... ơn nghĩa gì đâu...
+Dialogue: 0,0:17:54.84,0:18:00.00,Default,,0,0,0,,Với cả, chúc mừng các cậu đã chinh phục được\Nquái vật đặc biệt.
+Dialogue: 0,0:18:00.38,0:18:02.22,Default,,0,0,0,,Ồ... cảm ơn.
+Dialogue: 0,0:18:02.60,0:18:06.69,Default,,0,0,0,,Ra vậy.\NCái thông báo đó đã truyền đi khắp thế giới.
+Dialogue: 0,0:18:06.92,0:18:09.67,Default,,0,0,0,,Có vẻ sẽ khó lòi mặt ra đường\Nmột thời gian đây.
+Dialogue: 0,0:18:10.36,0:18:11.54,Default,,0,0,0,,Cơ mà làm sao đây?
+Dialogue: 0,0:18:11.54,0:18:16.54,Default,,0,0,0,,Đột nhiên gọi đến, giờ bảo là "xong việc rồi, về đi"...\Nthì không ổn nhỉ.
+Dialogue: 0,0:18:17.14,0:18:20.42,Default,,0,0,0,,L-Làm sao đây...\Ncậu ấy đang nhìn mình chằm chằm...
+Dialogue: 0,0:18:22.18,0:18:24.07,Default,,0,0,0,,Đúng rồi, Psyger-0.
+Dialogue: 0,0:18:25.42,0:18:29.60,Default,,0,0,0,,Xin lỗi, nhưng tiện thể,\Nnhờ cậu giết tôi luôn được không?
+Dialogue: 0,0:18:31.38,0:18:31.95,Default,,0,0,0,,Hả?
+Dialogue: 0,0:18:32.45,0:18:35.70,Default,,0,0,0,,Phần thưởng bao gồm hai Giọt lệ hồi sinh,
+Dialogue: 0,0:18:36.05,0:18:38.51,Default,,0,0,0,,tất cả những vật phẩm tôi đang mang...
+Dialogue: 0,0:18:38.51,0:18:42.22,Default,,0,0,0,,và tất cả những vật phẩm hiếm\Ncủa Hội Asura thì sao?
+Dialogue: 0,0:18:42.54,0:18:44.46,Default,,0,0,0,,Này này, cô chắc chứ?
+Dialogue: 0,0:18:44.46,0:18:48.56,Default,,0,0,0,,Hình như hình phạt của PKer,\Nngoài việc mất toàn bộ vật phẩm...
+Dialogue: 0,0:18:48.56,0:18:52.51,Default,,0,0,0,,thì tùy vào độ nặng của tội ác\Nmà phải trả một khoản tiền lớn đúng không?
+Dialogue: 0,0:18:52.76,0:18:56.38,Default,,0,0,0,,Với Pencilgon\Nthì chắc khoản đó phải to lắm.
+Dialogue: 0,0:18:56.60,0:19:00.91,Default,,0,0,0,,Tôi mà không chịu rủi ro gì\Nthì thằng em trai ngốc sẽ lèm bèm mất.
+Dialogue: 0,0:19:01.25,0:19:03.58,Default,,0,0,0,,Giờ tôi cũng chán PK rồi...
+Dialogue: 0,0:19:03.58,0:19:06.98,Default,,0,0,0,,nên tính tẩy trắng một lần\Nở đây luôn.
+Dialogue: 0,0:19:07.78,0:19:11.78,Default,,0,0,0,,Dù vậy, tôi vẫn là một Player Killer.
+Dialogue: 0,0:19:12.47,0:19:16.11,Default,,0,0,0,,Sẽ không ngoan ngoãn đưa cổ mình ra\Nđể người ta chém đâu.
+Dialogue: 0,0:19:16.80,0:19:17.90,Default,,0,0,0,,Psyger-0...
+Dialogue: 0,0:19:18.48,0:19:22.00,Default,,0,0,0,,Không, người giữ danh hiệu Attack Holder\Nvới hỏa lực mạnh nhất...
+Dialogue: 0,0:19:22.00,0:19:25.07,Default,,0,0,0,,tôi muốn đấu hết sức một lần.
+Dialogue: 0,0:19:36.05,0:19:38.45,Default,,0,0,0,,Hiểu rồi, tôi chấp nhận lời thách đấu.
+Dialogue: 0,0:19:39.20,0:19:41.02,Default,,0,0,0,,Satanael, đảo ngược!
+Dialogue: 0,0:19:42.94,0:19:44.33,Default,,0,0,0,,Satan!\N(Thiên đế ma vương)
+Dialogue: 0,0:19:46.58,0:19:51.44,Default,,0,0,0,,Vũ khí đặc biệt của Attack Holder trong lời đồn,\NAntinomy à...
+Dialogue: 0,0:19:58.28,0:20:00.90,Default,,0,0,0,,Không ngờ lại cho tôi thấy cả\Ndạng đảo ngược.
+Dialogue: 0,0:20:01.60,0:20:03.09,Default,,0,0,0,,Hào phóng thật.
+Dialogue: 0,0:20:04.14,0:20:04.94,Default,,0,0,0,,Chị-
+Dialogue: 0,0:20:05.90,0:20:08.20,Default,,0,0,0,,Đoàn trưởng đã kể cho tôi về cô.
+Dialogue: 0,0:20:08.69,0:20:12.05,Default,,0,0,0,,Rằng cô chạy trốn rất nhanh,\Nthế nên ngay khi tìm được...
+Dialogue: 0,0:20:12.42,0:20:14.04,Default,,0,0,0,,thì hãy giết ngay mà đừng do dự.
+Dialogue: 0,0:20:14.46,0:20:16.06,Default,,0,0,0,,Nghe như "tiểu cường" vậy?
+Dialogue: 0,0:20:16.27,0:20:17.05,Default,,0,0,0,,Hả?
+Dialogue: 0,0:20:17.29,0:20:19.14,Default,,0,0,0,,Lát nữa tôi cắt cổ cả hai nhé.
+Dialogue: 0,0:20:19.14,0:20:21.29,Default,,0,0,0,,Tôi đã nói gì đâu!
+Dialogue: 0,0:20:22.22,0:20:24.02,Default,,0,0,0,,Nếu đối phương là Giant Killer...
+Dialogue: 0,0:20:24.36,0:20:26.25,Default,,0,0,0,,(Catastrophe) (Highest Strength) (Enchant: Vermillion)\N(Lôi quang thiểm hoa) (Nghiệp ma bão ủng)\Nthì tôi cũng phải dùng hết sức.
+Dialogue: 0,0:20:26.48,0:20:28.31,Default,,0,0,0,,Ồ, đối thủ Psyger-0!
+Dialogue: 0,0:20:28.31,0:20:31.89,Default,,0,0,0,,Tuy không hiểu lắm, nhưng vừa triển khai\Nmột đống Buff trông mạnh khủng khiếp!
+Dialogue: 0,0:20:32.00,0:20:33.46,Default,,0,0,0,,Thành ma vương luôn rồi.
+Dialogue: 0,0:20:33.89,0:20:37.07,Default,,0,0,0,,Hãy hút máu, ngấu nghiến xác thịt.
+Dialogue: 0,0:20:37.49,0:20:40.28,Default,,0,0,0,,Bấu chặt cái chết và vứt bỏ sinh mệnh.
+Dialogue: 0,0:20:41.00,0:20:43.09,Default,,0,0,0,,(Enchant: Vorpal) (Serial Killer) (Kẻ điều khiển bóng)\NNgươi là kẻ giết người!
+Dialogue: 0,0:20:43.09,0:20:45.64,Default,,0,0,0,,(Enchant: Vorpal) (Serial Killer) (Kẻ điều khiển bóng)\NHãy hát vang bên trên núi xác!
+Dialogue: 0,0:20:45.69,0:20:48.88,Default,,0,0,0,,Ồ, bên này cũng đang triển khai\Ncái gì đó rất bá cháy!
+Dialogue: 0,0:20:49.40,0:20:51.20,Default,,0,0,0,,Cái vũ khí đó là gì vậy? Gớm quá.
+Dialogue: 0,0:20:53.48,0:20:55.36,Default,,0,0,0,,Nào, bắt đầu thôi nhỉ.
+Dialogue: 0,0:20:55.86,0:20:57.47,Default,,0,0,0,,Chuẩn bị sẵn sàng.
+Dialogue: 0,0:20:57.78,0:20:58.96,Default,,0,0,0,,Quyết đấu!
+Dialogue: 0,0:21:00.54,0:21:01.62,Default,,0,0,0,,Đây rồi!
+Dialogue: 0,0:21:01.62,0:21:04.22,Default,,0,0,0,,Trận đụng độ lớn nhất thế kỷ!
+Dialogue: 0,0:21:04.60,0:21:08.16,Default,,0,0,0,,Vừa mới qua một trận ác chiến\Nmà sao ông còn hăng quá vậy?
+Dialogue: 0,0:21:09.89,0:21:11.58,Default,,0,0,0,,Massacre Bite!
+Dialogue: 0,0:21:11.58,0:21:13.06,Default,,0,0,0,,Chết nè!
+Dialogue: 0,0:21:16.92,0:21:17.99,Default,,0,0,0,,Không rút lại được!?
+Dialogue: 0,0:21:20.87,0:21:24.16,Default,,0,0,0,,Chao ôi! Dính đòn trực tiếp sao!?
+Dialogue: 0,0:21:31.16,0:21:32.96,Default,,0,0,0,,Nguy hiểm thật.
+Dialogue: 0,0:21:33.38,0:21:35.90,Default,,0,0,0,,Cứ tưởng bị bổ làm đôi rồi!
+Dialogue: 0,0:21:36.60,0:21:38.25,Default,,0,0,0,,Trước mặt Secchan...
+Dialogue: 0,0:21:38.38,0:21:41.07,Default,,0,0,0,,sao có thể để mất mặt được chứ!
+Dialogue: 0,0:21:43.68,0:21:45.58,Default,,0,0,0,,Vậy thì hãy xem đây.
+Dialogue: 0,0:21:46.09,0:21:49.70,Default,,0,0,0,,Ánh sáng và bóng tối, hai sức mạnh đối địch...
+Dialogue: 0,0:21:50.22,0:21:53.64,Default,,0,0,0,,Chối bỏ sự phủ định\Nbằng cách khâu lại số phận bị tách rời.
+Dialogue: 0,0:21:56.04,0:21:59.66,Default,,0,0,0,,Cơ thể ta đã nhuốm màu ánh sáng\Nvà khoác lên bóng tối.
+Dialogue: 0,0:22:00.05,0:22:02.12,Default,,0,0,0,,Hỡi sự hỗn mang, hãy nuốt chửng thế giới!
+Dialogue: 0,0:22:03.06,0:22:04.32,Default,,0,0,0,,Chaos Void!
+Dialogue: 0,0:22:12.81,0:22:18.60,Default,,0,0,0,,Nếu như trái tim này có điều gì luyến tiếc...
+Dialogue: 0,0:22:19.60,0:22:25.52,Default,,0,0,0,,thì có thể đó là\Nđã không thể nói ra câu "tạm biệt".
+Dialogue: 0,0:22:26.26,0:22:32.00,Default,,0,0,0,,Lý do của cảm giác hối tiếc không ngừng này...
+Dialogue: 0,0:22:32.52,0:22:39.77,Default,,0,0,0,,có thể là vì em đã chạy trốn khỏi cái kết\Nmà chắc chắn sẽ đến.
+Dialogue: 0,0:22:40.00,0:22:48.52,Default,,0,0,0,,Cây đa lớn mà anh đã trồng\Nở trong vườn...
+Dialogue: 0,0:22:48.52,0:22:57.69,Default,,0,0,0,,cành của nó đang rủ xuống\Nnhư thể đang khóc vậy.
+Dialogue: 0,0:22:59.11,0:23:01.61,Default,,0,0,0,,"Em yêu anh".
+Dialogue: 0,0:23:01.61,0:23:05.14,Default,,0,0,0,,Chỉ có vậy thôi mà.
+Dialogue: 0,0:23:05.14,0:23:08.80,Default,,0,0,0,,Chỉ đơn giản là ba chữ đó.
+Dialogue: 0,0:23:08.80,0:23:12.52,Default,,0,0,0,,Giá mà em đã có thể nói ra.
+Dialogue: 0,0:23:12.52,0:23:18.66,Default,,0,0,0,,Hãy để cơn mưa làm tan đi\Nlời chia tay vĩnh cửu của chúng ta.
+Dialogue: 0,0:23:18.66,0:23:26.63,Default,,0,0,0,,Dưới cây mưa ngọt ngào,\Nnhững kỷ niệm đang tràn về.
+Dialogue: 0,0:23:27.37,0:23:29.77,Default,,0,0,0,,Em nhớ anh.
+Dialogue: 0,0:23:30.77,0:23:33.77,Default,,0,0,0,,Thiên Đường Trong Mưa.
+Dialogue: 0,0:23:42.49,0:23:46.16,Default,,0,0,0,,Kịch trường ShanFro
+Dialogue: 0,0:23:46.16,0:23:47.66,Default,,0,0,0,,Mini!
+Dialogue: 0,0:23:47.66,0:23:49.24,Default,,0,0,0,,(Tập 24: Bản tin buổi sáng)
+Dialogue: 0,0:23:49.64,0:23:51.67,Default,,0,0,0,,Chào buổi sáng!
+Dialogue: 0,0:23:51.67,0:23:55.16,Default,,0,0,0,,Vorpal Bunny quý phái của Rabituza, Emul đây!
+Dialogue: 0,0:23:55.49,0:23:59.33,Default,,0,0,0,,Hôm nay, tôi sẽ chuyển đến các bạn\Nnhững tin tức tôi đã nghe và nhìn thấy.
+Dialogue: 0,0:24:00.17,0:24:01.80,Default,,0,0,0,,(Bí ẩn! Bóng ma vải trắng xuất hiện!)
+Dialogue: 0,0:24:01.80,0:24:04.96,Default,,0,0,0,,Mới sáng ra đã có chuyện ma rồi!
+Dialogue: 0,0:24:05.17,0:24:09.22,Default,,0,0,0,,Truyền thuyết đô thị của Thirdrema,\NBóng ma vải trắng đã được phát hiện.
+Dialogue: 0,0:24:09.40,0:24:12.02,Default,,0,0,0,,Không những thế,\Nnó còn nhảy trên các mái nhà...
+Dialogue: 0,0:24:12.02,0:24:14.56,Default,,0,0,0,,khiến cả cơ thể bị biến dạng!
+Dialogue: 0,0:24:14.76,0:24:16.78,Default,,0,0,0,,Đúng là một câu chuyện đáng sợ.
+Dialogue: 0,0:24:16.78,0:24:19.71,Default,,0,0,0,,Tuy chưa rõ chân tướng\Nnhưng vẫn lạnh sống lưng.
+Dialogue: 0,0:24:19.71,0:24:23.94,Default,,0,0,0,,Và người đã nhìn thấy Bóng ma vải trắng này\Nchính là một Vorpal Bunny!
+Dialogue: 0,0:24:23.94,0:24:25.84,Default,,0,0,0,,Hãy cùng nói chuyện với người đó nào!
+Dialogue: 0,0:24:26.44,0:24:30.60,Default,,0,0,0,,Thật ra em đã bán thứ đó\Ncho anh người chim.
+Dialogue: 0,0:24:30.60,0:24:33.73,Default,,0,0,0,,Thế thì chắc đó là anh người chim rồi.
+Dialogue: 0,0:24:33.73,0:24:37.51,Default,,0,0,0,,Nếu là anh người chim\Nthì chị cũng đi cùng anh ấy nhỉ.
+Dialogue: 0,0:24:37.71,0:24:38.64,Default,,0,0,0,,Ủa...
+Dialogue: 0,0:24:38.64,0:24:41.04,Default,,0,0,0,,Vậy cái vụ biến dạng đó là...
+Dialogue: 0,0:24:41.04,0:24:43.33,Default,,0,0,0,,do anh người chim bay nhảy trên mái nhà...
+Dialogue: 0,0:24:43.33,0:24:46.11,Default,,0,0,0,,nên chị hoảng loạn vùng vẫy-
+Dialogue: 0,0:24:46.17,0:24:48.97,Default,,0,0,0,,(Xin hãy chờ đợi trong giây lát)\NĐừng có nói mấy chuyện thừa thãi!
+Dialogue: 0,0:24:48.97,0:24:51.27,Default,,0,0,0,,Á! Chị, đừng có đánh vào đầu!
+Dialogue: 0,0:24:51.27,0:24:53.64,Default,,0,0,0,,Lúc đó không phải hoảng loạn nhé!
+Dialogue: 0,0:24:53.64,0:24:57.24,Default,,0,0,0,,Tự nhiên anh Sunraku bảo là\Nphóng thẳng đến là đường ngắn nhất...
+Dialogue: 0,0:24:57.24,0:25:00.64,Default,,0,0,0,,nên đột nhiên phóng đi như thế thôi!
+Dialogue: 0,0:25:00.64,0:25:02.24,Default,,0,0,0,,Rõ ràng đúng là chị mà!
+Dialogue: 0,0:25:02.24,0:25:05.56,Default,,0,0,0,,Cú đấm Vorpal của chị gái đây!
+Dialogue: 0,0:25:07.16,0:25:08.99,Default,,0,0,0,,Vừa rồi là tạp âm thôi.
+Dialogue: 0,0:25:08.99,0:25:12.96,Default,,0,0,0,,Với cả không thể cho các bạn thấy\Nhình ảnh chú thỏ vừa rồi được.
+Dialogue: 0,0:25:12.96,0:25:13.99,Default,,0,0,0,,Tại sao chứ!?
+Dialogue: 0,0:25:14.18,0:25:15.67,Default,,0,0,0,,Tin tức tiếp theo nào!
+Dialogue: 0,0:25:15.67,0:25:17.75,Default,,0,0,0,,(Nông trại Rabituza: Vorpal Carrot đại bội thu)
+Dialogue: 0,0:25:17.75,0:25:20.44,Default,,0,0,0,,Không thể tin được!
+Dialogue: 0,0:25:20.44,0:25:22.75,Default,,0,0,0,,Vorpal Carrot đại bội thu!
+Dialogue: 0,0:25:22.75,0:25:24.91,Default,,0,0,0,,Đúng là chuyện lớn!
+Dialogue: 0,0:25:25.25,0:25:27.76,Default,,0,0,0,,Hiện tại, anh Sunraku đang ở hiện trường!
+Dialogue: 0,0:25:27.76,0:25:29.60,Default,,0,0,0,,Chúng tôi sẽ kết nối ngay!
+Dialogue: 0,0:25:29.60,0:25:32.76,Default,,0,0,0,,Anh Sunraku! Anh Sunraku!
+Dialogue: 0,0:25:32.76,0:25:34.76,Default,,0,0,0,,Bên đó thế nào?
+Dialogue: 0,0:25:34.76,0:25:37.27,Default,,0,0,0,,Cà rốt có tươi tốt không?
+Dialogue: 0,0:25:38.11,0:25:40.11,Default,,0,0,0,,Đây là Sunraku tại hiện trường.
+Dialogue: 0,0:25:40.11,0:25:42.56,Default,,0,0,0,,Khoan, chuyện gì đang xảy ra thế?
+Dialogue: 0,0:25:42.56,0:25:44.98,Default,,0,0,0,,Hả? Gì cơ?
+Dialogue: 0,0:25:44.98,0:25:47.44,Default,,0,0,0,,Chuyện gì đang xảy ra thế!?
+Dialogue: 0,0:25:47.44,0:25:49.51,Default,,0,0,0,,À, hiện tại...
+Dialogue: 0,0:25:49.51,0:25:52.38,Default,,0,0,0,,đang xuất hiện một con\NGiga Armored Death Carrot Eater.
+Dialogue: 0,0:25:52.38,0:25:55.49,Default,,0,0,0,,Giga Armored Death Carrot Eater!?
+Dialogue: 0,0:25:55.49,0:26:00.56,Default,,0,0,0,,Giga Armored Death Carrot Eater\Nhiện đang tấn công ruộng cà rốt!
+Dialogue: 0,0:26:00.56,0:26:02.79,Default,,0,0,0,,Khoan... cà rốt của tôi!
+Dialogue: 0,0:26:02.79,0:26:05.18,Default,,0,0,0,,Cà rốt của tôi sẽ ra sao!?
+Dialogue: 0,0:26:05.18,0:26:06.02,Default,,0,0,0,,Hả?
+Dialogue: 0,0:26:06.02,0:26:08.89,Default,,0,0,0,,Cà rốt của tôi!
+Dialogue: 0,0:26:08.89,0:26:10.30,Default,,0,0,0,,Ai mà biết!
+Dialogue: 0,0:26:10.30,0:26:13.87,Default,,0,0,0,,Giờ tôi phải đi xử lý\NGiga Armored Death Carrot Eater đây nè!
+Dialogue: 0,0:26:15.13,0:26:17.56,Default,,0,0,0,,Tên mày thì nghe có vẻ ghê đấy!
+Dialogue: 0,0:26:17.56,0:26:20.31,Default,,0,0,0,,Có gan thì ra đây đấu tay đôi nào!
+Dialogue: 0,0:26:20.31,0:26:21.56,Default,,0,0,0,,Hây!
+Dialogue: 0,0:26:21.56,0:26:24.51,Default,,0,0,0,,K-Không thể để như thế được!
+Dialogue: 0,0:26:24.51,0:26:26.56,Default,,0,0,0,,Cà rốt của mình... à không...
+Dialogue: 0,0:26:26.56,0:26:29.76,Default,,0,0,0,,Vorpal Carrot... đây là vì thỏ ở Rabituza nữa...
+Dialogue: 0,0:26:29.76,0:26:32.38,Default,,0,0,0,,tôi phải đến hiện trường ngay lập tức!
+Dialogue: 0,0:26:32.38,0:26:34.07,Default,,0,0,0,,Hôm nay đến đây thôi.
+Dialogue: 0,0:26:34.07,0:26:35.32,Default,,0,0,0,,Hẹn mai gặp lại!
+Dialogue: 0,0:26:36.84,0:26:41.82,Default,,0,0,0,,Giga Armored Death Carrot Eater\Nlà cái gì vậy chứ!?

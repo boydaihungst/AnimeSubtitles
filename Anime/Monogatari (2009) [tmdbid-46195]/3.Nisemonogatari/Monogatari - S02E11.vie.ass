@@ -1,0 +1,1437 @@
+﻿[Script Info]
+Title: GSGA
+ScriptType: v4.00+
+WrapStyle: 0
+PlayResX: 1920
+PlayResY: 1080
+ScaledBorderAndShadow: yes
+Video Zoom: 13
+Video Aspect Ratio: 0
+YCbCr Matrix: TV.709
+
+[V4+ Styles]
+Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
+Style: Main,KiOZ Ubuntu Dialogue,75,&H00FFFFFF,&H000000FF,&H00000000,&HC4000000,0,0,0,0,100,100,0,0,1,4,0,2,12,12,50,1
+Style: OST,Signika SemiBold,82,&H00FFFFFF,&H000000FF,&H00091641,&H971F3DBB,0,0,0,0,100,100,0,0,1,4,2,2,10,10,60,1
+Style: Signs,Arial,50,&H00FFFFFF,&H000000FF,&H00000000,&H00000000,0,0,0,0,100,100,0,0,1,0,0,5,10,10,10,1
+Style: GT,KiOZ Ubuntu Dialogue,45,&H00FFFFFF,&H000000FF,&H97000000,&H82000000,0,0,0,0,100,100,0,0,3,0.1,0,8,10,10,30,1
+Style: GT 2,KiOZ Ubuntu Dialogue,50,&H00FFFFFF,&H000000FF,&H000A0937,&HB40000FF,0,0,0,0,100,100,0,0,1,3,0,2,12,12,40,1
+Style: Signs-an2,Arial,25,&H00FFFFFF,&H000000FF,&H00000000,&H00000000,0,0,0,0,100,100,0,0,1,0,0,2,10,10,10,1
+Style: Signs-ct,Palatino Linotype,53,&H00050505,&HFF0D0792,&H00000000,&H00000000,0,0,0,0,100,100,0,0,1,0,0,7,15,15,15,1
+Style: eyestuff2,Iwata Mincho Old Pro-Fate B,60,&H003DCEE0,&H000000FF,&H00000000,&H00000000,0,0,0,0,100,100,0,0,1,0,0,2,15,15,15,1
+Style: boox,Century Schoolbook,38,&H003F5D6B,&H000000FF,&H00000000,&H00000000,0,0,0,0,100,100,0,0,1,0,0,2,15,15,15,1
+Style: Blogemonogatari,Gentium,30,&H00000000,&H000000FF,&H00000000,&H00000000,0,0,0,0,100,100,0,0,1,0,0,2,15,15,15,1
+Style: Black and Red,VL DellaRobbia BT,30,&H00FFFFFF,&H000000FF,&H00000000,&H00000000,0,0,0,0,100,100,0,0,1,0,0,2,15,15,15,1
+Style: Title,Papyrus LET,173,&H00F8FAFA,&H000000FF,&H00808080,&H00000000,0,0,0,0,90,110,0,0,1,12,0,5,15,15,15,1
+Style: Title2,Reswysokr,173,&H00F8FAFA,&H000000FF,&H00808080,&H00000000,0,0,0,0,100,100,0,0,1,0,0,5,15,15,15,1
+Style: impostory,Gastada,48,&H007FF0E1,&H000000FF,&H007BE0AB,&H00000000,0,0,0,0,80,100,0,0,1,6,0,9,15,15,15,1
+Style: ED,SJ Caffe Lungo,72,&H00FFFFFF,&H012653F7,&H00FFFFFF,&H001F3AAD,0,0,0,0,100,100,0,0,1,0,0,8,10,10,50,1
+Style: OP,SJ CCTallTales,76,&H000A002D,&H000000FF,&H00000000,&H00000000,0,0,0,0,100,100,0,0,1,0,0,2,10,10,50,1
+
+[Events]
+Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
+Comment: 12,0:00:00.00,0:00:00.02,Main,chptr,0,0,0,,{Main}
+Comment: 12,0:02:07.00,0:02:07.02,Main,chptr,0,0,0,,{OP}
+Comment: 12,0:03:37.03,0:03:37.07,Main,chptr,0,0,0,,{Episode}
+Comment: 12,0:24:10.47,0:24:10.51,Main,chptr,0,0,0,,{ED}
+Comment: 12,0:25:16.54,0:25:16.58,Main,chptr,0,0,0,,{Epilogue}
+Comment: 12,0:02:06.98,0:02:07.02,Main,,0,0,0,opsync,{cut-scene}
+Comment: 0,0:02:06.98,0:02:07.00,OP,,0,0,0,sync,{cut-scene}
+Dialogue: 12,0:00:02.10,0:00:03.35,Main,,0,0,0,,Hấp Hối Điểu
+Dialogue: 12,0:00:02.10,0:00:03.35,GT 2,,0,0,0,,(Shide no Tori)
+Dialogue: 12,0:00:03.35,0:00:06.94,Main,,0,0,0,,Hay còn gọi là... Quái Dị Tiểu Đỗ Quyên... hen.
+Dialogue: 12,0:00:06.95,0:00:10.70,GT,,0,0,0,,{\blur0.6\bord0\shad0\pos(960,22)\fscx110\fscy110}Đây là bài thơ {\c&H5D5EFF&}Haiku{\c} của {\c&H5D5EFF&}Yamaguchi Sodō{\c} vào thời Edo,\N ý {\c&H22EDF5&}miêu tả{\c} khoảng thời gian {\c&H22EDF5&}đầu mùa hè{\c}.
+Dialogue: 13,0:00:06.95,0:00:08.32,Main,,600,0,0,,{\pos(1346.66,815.67)\blur1\bord0\shad0\c&H000000&\fnHL-Dragon Fire\fscx138\fscy138}Vấn vương tầm mắt,
+Dialogue: 13,0:00:06.95,0:00:08.32,Main,,600,0,0,,{\pos(1549.33,910.34)\blur1\bord0\shad0\c&H000000&\fnHL-Dragon Fire\fscx138\fscy138}lá xanh mơn mởn
+Dialogue: 13,0:00:08.32,0:00:09.53,Main,,600,0,0,,{\pos(1346.66,815.67)\blur1\bord0\shad0\c&H000000&\fnHL-Dragon Fire\fscx138\fscy138}Cư ngụ núi non,
+Dialogue: 13,0:00:08.32,0:00:09.53,Main,,600,0,0,,{\pos(1549.33,910.34)\blur1\bord0\shad0\c&H000000&\fnHL-Dragon Fire\fscx138\fscy138}đỗ quyên líu lo
+Dialogue: 13,0:00:09.53,0:00:10.70,Main,,600,0,0,,{\pos(1346.66,815.67)\blur1\bord0\shad0\c&H000000&\fnHL-Dragon Fire\fscx138\fscy138}Đại dương chuyển hè,
+Dialogue: 13,0:00:09.53,0:00:10.70,Main,,600,0,0,,{\pos(1549.33,910.34)\blur1\bord0\shad0\c&H000000&\fnHL-Dragon Fire\fscx138\fscy138}cá ngừ sóng sánh
+Dialogue: 12,0:00:06.95,0:00:08.32,Main,,600,0,0,,{\pos(1346.66,815.67)\blur8\bord4\shad0\c&HB5EBE3&\fnHL-Dragon Fire\fscx138\fscy138\1a&H2B&\3c&HB5EBE3&\3a&H39&}Vấn vương tầm mắt,
+Dialogue: 12,0:00:06.95,0:00:08.32,Main,,600,0,0,,{\pos(1549.33,910.34)\blur8\bord4\shad0\c&HB5EBE3&\fnHL-Dragon Fire\fscx138\fscy138\1a&H2B&\3c&HB5EBE3&\3a&H39&}lá xanh mơn mởn
+Dialogue: 12,0:00:08.32,0:00:09.53,Main,,600,0,0,,{\pos(1346.66,815.67)\blur8\bord4\shad0\c&HF8F4E2&\fnHL-Dragon Fire\fscx138\fscy138\1a&H2B&\3c&HF8F4E2&\3a&H39&}Cư ngụ núi non,
+Dialogue: 12,0:00:08.32,0:00:09.53,Main,,600,0,0,,{\pos(1549.33,910.34)\blur8\bord4\shad0\c&HF8F4E2&\fnHL-Dragon Fire\fscx138\fscy138\1a&H2B&\3c&HF8F4E2&\3a&H39&}đỗ quyên líu lo
+Dialogue: 12,0:00:09.53,0:00:10.70,Main,,600,0,0,,{\pos(1346.66,815.67)\blur8\bord4\shad0\c&HABCEE7&\fnHL-Dragon Fire\fscx138\fscy138\1a&H2B&\3c&HABCEE7&\3a&H39&}Đại dương chuyển hè,
+Dialogue: 12,0:00:09.53,0:00:10.70,Main,,600,0,0,,{\pos(1549.33,910.34)\blur8\bord4\shad0\c&HABCEE7&\fnHL-Dragon Fire\fscx138\fscy138\1a&H2B&\3c&HABCEE7&\3a&H39&}cá ngừ sóng sánh
+Dialogue: 12,0:00:10.99,0:00:12.36,Main,,0,0,0,,Có chứa Đỗ Quyên còn gì.
+Dialogue: 12,0:00:12.94,0:00:15.87,Main,,0,0,0,,Hai đứa kia nó nói Phượng Hoàng \N chỉ là ba hoa phóng đại lên thôi.
+Dialogue: 12,0:00:16.42,0:00:19.99,Main,,0,0,0,,Hình như loài Tiểu Đỗ Quyên này \Ncó tập tính "đẻ nhờ" hen.
+Dialogue: 12,0:00:20.33,0:00:23.97,Main,,0,0,0,,Nó đợi đến khi chim mẹ rời đi,
+Dialogue: 12,0:00:23.97,0:00:26.67,Main,,0,0,0,,rồi hất trứng trong tổ ra, thả xuống đất.
+Dialogue: 12,0:00:27.79,0:00:31.09,Main,,0,0,0,,Xong, nó đẻ trứng vào thế chỗ,
+Dialogue: 12,0:00:31.09,0:00:35.64,Main,,0,0,0,,để cho con chim mẹ kia về ấp hộ, nở hộ.
+Dialogue: 12,0:00:36.30,0:00:42.56,Main,,0,0,0,,Hấp Hối Điểu, cũng thừa hưởng tập tính đó\N từ Quái Dị Tiểu Đỗ Quyên.
+Dialogue: 12,0:00:42.56,0:00:44.56,Main,,0,0,0,,Ngắn gọn là "đẻ nhờ".
+Dialogue: 12,0:00:44.56,0:00:47.31,Main,,0,0,0,,Hấp Hối Điểu đẻ nhờ vào {\i1}tổ{\i0} của loài người.
+Dialogue: 12,0:00:47.31,0:00:50.53,Main,,0,0,0,,Và thế là Phượng Hoàng, hay Bất Tử Điểu,
+Dialogue: 12,0:00:50.53,0:00:53.61,Main,,0,0,0,,được người mẹ loài người mang thai,\N được chuyển sinh.
+Dialogue: 12,0:00:54.30,0:00:57.47,Main,,0,0,0,,Trong truyền thuyết về Phượng Hoàng \Nđược dân gian truyền tụng,
+Dialogue: 12,0:00:57.47,0:01:00.96,Main,,0,0,0,,thì có nhắc đến một con chim sắp chết\N lao mình vào ngọn lửa rực cháy,
+Dialogue: 12,0:01:00.96,0:01:06.58,Main,,0,0,0,,để rồi từ ngọn lửa đó, tái sinh chuyển kiếp.
+Dialogue: 12,0:01:06.58,0:01:12.92,Main,,0,0,0,,Còn ở đây, ngọn lửa mà Hấp Hối Điểu đã lao vào, \Nchính là người mẹ loài người hen.
+Dialogue: 12,0:01:13.23,0:01:19.56,Main,,0,0,0,,Nói chính xác thì, \Nvụ Hấp Hối Điểu này không phải em gái của lão gia.
+Dialogue: 12,0:01:19.56,0:01:22.53,Main,,0,0,0,,Mà là lệnh đường của lão gia.
+Dialogue: 12,0:01:22.53,0:01:25.06,Main,,0,0,0,,Hơn 15 năm trước, bà ấy đã...
+Dialogue: 12,0:01:25.06,0:01:29.40,Main,,0,0,0,,{\i1}...mang thai{\i0} một Quái Dị,\N chứ không chỉ là {\i1}mang trong người{\i0} nữa.
+Dialogue: 12,0:01:29.84,0:01:34.19,Main,,0,0,0,,{\i1}Và rồi, một năm sau, Araragi Tsukihi chào đời.
+Dialogue: 12,0:01:34.19,0:01:36.66,Main,,0,0,0,,{\i1}Hấp Hối Điểu tái sinh.
+Dialogue: 12,0:01:37.20,0:01:40.99,Main,,0,0,0,,Xét tổng thể mà nói thì... Quái Dị này vô hại.
+Dialogue: 12,0:01:41.44,0:01:43.75,Main,,0,0,0,,Không làm hại loài người.
+Dialogue: 12,0:01:43.75,0:01:46.25,Main,,0,0,0,,Chỉ là... hàng giả mà thôi.
+Dialogue: 12,0:01:46.60,0:01:49.46,Main,,0,0,0,,Còn nữa... là Bất Tử.
+Dialogue: 12,0:01:49.99,0:01:52.49,Main,,0,0,0,,Vết thương nào cũng lành.
+Dialogue: 12,0:01:52.49,0:01:54.64,Main,,0,0,0,,Bệnh tật nào cũng khỏi.
+Dialogue: 12,0:01:54.64,0:01:56.28,Main,,0,0,0,,Sống đến hết kiếp.
+Dialogue: 12,0:01:56.28,0:01:58.72,Main,,0,0,0,,Và rồi chết đi, rồi tái sinh.
+Dialogue: 12,0:01:59.68,0:02:03.18,Main,,0,0,0,,Đó là cách nó tồn tại cho đến tận giờ.
+Dialogue: 12,0:02:03.72,0:02:05.59,Main,,0,0,0,,Như loài Tiểu Đỗ Quyên.
+Dialogue: 12,0:03:41.15,0:03:42.91,Main,,0,0,0,,{*}Nī-chan{*Bro}, cái gì thế này?!
+Dialogue: 12,0:03:42.91,0:03:43.88,Main,,0,0,0,,Xảy ra chuyện gì vậy?
+Dialogue: 12,0:03:43.88,0:03:47.29,Main,,0,0,0,,Pháo kích à? \NChúng ta bị tổ chức nào đó nã đại bác vào à?
+Dialogue: 12,0:03:47.29,0:03:49.29,Main,,0,0,0,,À thì... chuyện là...
+Dialogue: 12,0:03:49.29,0:03:51.27,Main,,0,0,0,,Thực ra thì anh cũng không rõ.
+Dialogue: 12,0:03:51.27,0:03:54.03,Main,,0,0,0,,Học giữa chừng anh nghỉ tý \Nrồi chạy qua Mister Donut,
+Dialogue: 12,0:03:54.03,0:03:55.92,Main,,0,0,0,,lúc về thì nó đã thế này rồi.
+Dialogue: 12,0:03:55.92,0:03:59.05,Main,,0,0,0,,Khả năng bị xe tải đâm vào\N xong bỏ trốn rồi.
+Dialogue: 12,0:04:01.32,0:04:04.26,Main,,0,0,0,,Thế nên Nī-chan mới ngồi đây trông nhà à?
+Dialogue: 12,0:04:04.26,0:04:05.64,Main,,0,0,0,,Vất vả rồi!
+Dialogue: 12,0:04:05.99,0:04:09.55,Main,,0,0,0,,Cơ mà tức là nay anh chả học được gì nữa nhỉ?
+Dialogue: 12,0:04:09.55,0:04:10.28,Main,,0,0,0,,Hẳn rồi.
+Dialogue: 12,0:04:10.28,0:04:12.02,Main,,0,0,0,,Được rồi, {*}Nī-chan{*Bro}, để em thay ca.
+Dialogue: 12,0:04:12.80,0:04:14.44,Main,,0,0,0,,Giờ tới lượt em.
+Dialogue: 12,0:04:14.66,0:04:16.19,Main,,0,0,0,,Cho đến khi bố mẹ về nhà,
+Dialogue: 12,0:04:16.19,0:04:19.82,Main,,0,0,0,,em sẽ làm Kerberos, Gác Cổng Địa Ngục.
+Dialogue: 12,0:04:19.82,0:04:23.45,Main,,0,0,0,,Vì vậy Nī-chan, \Nanh nên về phòng và học thêm chút đi.
+Dialogue: 12,0:04:24.46,0:04:25.65,Main,,0,0,0,,Ơ?
+Dialogue: 12,0:04:25.65,0:04:28.20,Main,,0,0,0,,Thế còn Tsukihi-chan thì sao?
+Dialogue: 12,0:04:28.20,0:04:31.16,Main,,0,0,0,,Có vẻ như lúc đó\N Tsukihi-chan đang trên tầng 2.
+Dialogue: 12,0:04:31.16,0:04:34.50,Main,,0,0,0,,Chính Tsukihi-chan đã trông nhà\N cho đến khi anh về.
+Dialogue: 12,0:04:34.93,0:04:37.62,Main,,0,0,0,,Nhưng quả thật khi chuyện xảy ra nó đang ở nhà,
+Dialogue: 12,0:04:37.62,0:04:39.84,Main,,0,0,0,,nên hẳn là sốc dữ lắm.
+Dialogue: 12,0:04:39.84,0:04:41.88,Main,,0,0,0,,Giờ đang ngủ trên tầng 2 đấy.
+Dialogue: 12,0:04:42.97,0:04:47.05,Main,,0,0,0,,Tsukihi-chan đúng là có hơi nhạy cảm \Nvà hay lo nghĩ ha.
+Dialogue: 12,0:04:47.37,0:04:51.20,Main,,0,0,0,,Biết là em vẫn còn thắc mắc,\N nhưng hiện nó đang ngủ rồi.
+Dialogue: 12,0:04:51.20,0:04:52.98,Main,,0,0,0,,Nên tạm thời đừng đánh thức nó.
+Dialogue: 12,0:04:52.98,0:04:54.31,Main,,0,0,0,,Zâng~ Zâng~
+Dialogue: 12,0:04:55.10,0:04:56.23,Main,,0,0,0,,Karen{*}-chan{*}?
+Dialogue: 12,0:04:57.62,0:04:58.98,Main,,0,0,0,,Gì thế, {*}Nī-chan{*Bro}?
+Dialogue: 12,0:04:58.98,0:05:02.10,Main,,0,0,0,,Em ấy, có sẵn sàng chết vì anh không?
+Dialogue: 12,0:05:02.10,0:05:03.18,Main,,0,0,0,,Có chứ.
+Dialogue: 12,0:05:03.72,0:05:05.24,Main,,0,0,0,,Nhưng tại sao?
+Dialogue: 12,0:05:05.24,0:05:08.57,Main,,0,0,0,,Vậy... có sẵn sàng chết vì Tsukihi-chan không?
+Dialogue: 12,0:05:08.57,0:05:09.56,Main,,0,0,0,,Sẵn sàng.
+Dialogue: 12,0:05:10.23,0:05:11.83,Main,,0,0,0,,Chết một cách mãn nguyện.
+Dialogue: 12,0:05:12.25,0:05:14.33,Main,,0,0,0,,Tsukihi-chan là em gái em mà.
+Dialogue: 12,0:05:14.60,0:05:15.50,Main,,0,0,0,,Hiển nhiên rồi còn.
+Dialogue: 12,0:05:17.19,0:05:19.63,Main,,0,0,0,,Ờ, hiển nhiên rồi.
+Dialogue: 12,0:05:19.63,0:05:23.42,Main,,0,0,0,,Cả anh... cũng sẵn sàng chết vì hai đứa.
+Dialogue: 12,0:05:23.87,0:05:25.73,Main,,0,0,0,,Hết lần này đến lần khác,
+Dialogue: 12,0:05:25.73,0:05:27.43,Main,,0,0,0,,giống như Dracula bất tử vậy,
+Dialogue: 12,0:05:27.98,0:05:29.92,Main,,0,0,0,,cho đến khi không còn chết nổi nữa.
+Dialogue: 12,0:05:37.11,0:05:38.65,Main,,0,0,0,,Bất Tử ấy à...
+Dialogue: 12,0:05:38.65,0:05:40.23,Main,,0,0,0,,Không phải Ma cà rồng,
+Dialogue: 12,0:05:40.23,0:05:42.23,Main,,0,0,0,,mà là Phượng Hoàng à?
+Dialogue: 12,0:05:42.55,0:05:44.94,Main,,0,0,0,,Chuyện xảy ra đột ngột quá,
+Dialogue: 12,0:05:44.94,0:05:46.37,Main,,0,0,0,,chả biết đâu mà lần.
+Dialogue: 12,0:05:53.37,0:05:53.95,Main,,0,0,0,,Ây!
+Dialogue: 12,0:05:57.96,0:06:00.59,Main,,0,0,0,,Làm cái trò gì thế!!~
+Dialogue: 12,0:06:05.30,0:06:06.30,Main,,0,0,0,,Chịu luôn đấy!
+Dialogue: 12,0:06:06.97,0:06:08.30,Main,,0,0,0,,Không thể thế này được!
+Dialogue: 12,0:06:08.57,0:06:09.73,Main,,0,0,0,,Nụ hôn đầu...
+Dialogue: 12,0:06:09.73,0:06:14.27,Main,,0,0,0,,vốn định trao cho Rōsokuzawa-kun cơ mà!\N Ôi nụ hôn đầu của tôi!
+Dialogue: 12,0:06:19.60,0:06:21.11,Main,,0,0,0,,Cười cười cái gì mà cười!
+Dialogue: 12,0:06:21.11,0:06:22.33,Main,,0,0,0,,Không không...
+Dialogue: 12,0:06:22.33,0:06:25.90,Main,,0,0,0,,Anh chỉ đang nghĩ,\Ndù là hôn đấy nhưng anh chả cảm thấy gì cả.
+Dialogue: 12,0:06:26.78,0:06:29.24,Main,,0,0,0,,Chả thình thà thình thịch, cũng chả thấy vui.
+Dialogue: 12,0:06:29.99,0:06:32.49,Main,,0,0,0,,Em đúng là... em gái anh rồi.
+Dialogue: 12,0:06:33.41,0:06:39.52,Main,,0,0,0,,Em biết không, Tsukihi-chan,\N đã có lúc anh chẳng phải anh trai em đâu.
+Dialogue: 12,0:06:40.42,0:06:41.42,Main,,0,0,0,,Tức là sao?
+Dialogue: 12,0:06:41.42,0:06:44.30,Main,,0,0,0,,Cả Karen-chan nữa,\N cũng có lúc anh không phải anh trai của nó.
+Dialogue: 12,0:06:44.75,0:06:48.55,Main,,0,0,0,,Trong 3 năm đầu đời, anh là con một.
+Dialogue: 12,0:06:48.55,0:06:51.93,Main,,0,0,0,,1 năm sau, thì thành 2 anh em.
+Dialogue: 12,0:06:52.36,0:06:55.56,Main,,0,0,0,,Phải đợi mất 4 năm, \Nanh mới trở thành anh trai của em.
+Dialogue: 12,0:06:56.10,0:06:57.93,Main,,0,0,0,,Đúng... là thế...
+Dialogue: 12,0:06:57.93,0:06:59.66,Main,,0,0,0,,Thế nên là, Tsukihi{*}-chan{*}...
+Dialogue: 12,0:07:00.18,0:07:04.32,Main,,0,0,0,,Araragi Tsukihi... \Nvẫn luôn là em gái của anh, từ lúc mới sinh ra.
+Dialogue: 12,0:07:04.67,0:07:08.07,Main,,0,0,0,,Là em gái của anh, em gái của Karen-chan.
+Dialogue: 12,0:07:08.07,0:07:10.57,Main,,0,0,0,,Trước giờ vẫn vậy.
+Dialogue: 12,0:07:12.19,0:07:14.40,Main,,0,0,0,,Anh hôn thì tính làm gì.
+Dialogue: 12,0:07:14.40,0:07:16.29,Main,,0,0,0,,Anh em với nhau mà.
+Dialogue: 12,0:07:16.56,0:07:21.46,Main,,0,0,0,,Để mà nói thì, hồi bé anh chả hứa là \Nsẽ cưới em với Karen-chan cả tá lần rồi còn gì.
+Dialogue: 12,0:07:21.46,0:07:22.71,Main,,0,0,0,,Chịu không đếm nổi.
+Dialogue: 12,0:07:23.47,0:07:24.63,Main,,0,0,0,,Cưới cả hai, đa thê luôn đó.
+Dialogue: 12,0:07:25.16,0:07:26.30,Main,,0,0,0,,Vớ vẩn.
+Dialogue: 12,0:07:26.30,0:07:30.55,Main,,0,0,0,,Đừng tưởng mang chuyện cũ ra \Nmà lừa được em nhá.
+Dialogue: 12,0:07:30.76,0:07:32.18,Main,,0,0,0,,Sôi hết cả máu...
+Dialogue: 12,0:07:35.55,0:07:37.00,Main,,0,0,0,,Này, Karen{*}-chan{*}.
+Dialogue: 12,0:07:37.53,0:07:39.45,Main,,0,0,0,,Anh ra ngoài một lát.
+Dialogue: 12,0:07:39.45,0:07:41.69,Main,,0,0,0,,Ờ~ Anh đi cẩn thận.
+Dialogue: 12,0:07:41.69,0:07:43.91,Main,,0,0,0,,Canh phòng cẩn mật đó.
+Dialogue: 12,0:07:43.91,0:07:45.08,Main,,0,0,0,,Không cho ai vào.
+Dialogue: 12,0:07:45.08,0:07:46.79,Main,,0,0,0,,Yên tâm ở em.
+Dialogue: 12,0:07:46.79,0:07:51.07,Main,,0,0,0,,Lệnh của Nī-chan,\N Karen-chan tuyệt đối tuân theo.
+Dialogue: 12,0:08:00.01,0:08:03.19,Main,,0,0,0,,Đi à, lão gia?
+Dialogue: 12,0:08:03.19,0:08:04.59,Main,,0,0,0,,Ờ, đi chứ.
+Dialogue: 12,0:08:04.59,0:08:06.55,Main,,0,0,0,,Đi đâu? Làm gì?
+Dialogue: 12,0:08:06.55,0:08:08.99,Main,,0,0,0,,Đi gặp họ... Để chiến đấu.
+Dialogue: 12,0:08:08.99,0:08:10.27,Main,,0,0,0,,Vì cớ gì?
+Dialogue: 12,0:08:10.27,0:08:11.99,Main,,0,0,0,,Vì em gái.
+Dialogue: 12,0:08:11.99,0:08:15.02,Main,,0,0,0,,Thế lão gia nhận lại được gì?
+Dialogue: 12,0:08:15.02,0:08:16.67,Main,,0,0,0,,Chả nhận gì hết.
+Dialogue: 12,0:08:16.67,0:08:18.39,Main,,0,0,0,,Chỉ mất thời gian một tý thôi.
+Dialogue: 12,0:08:19.27,0:08:20.52,Main,,0,0,0,,Ra vậy.
+Dialogue: 12,0:08:20.99,0:08:22.77,Main,,0,0,0,,Tsukihi, phải không nhở?
+Dialogue: 12,0:08:23.73,0:08:27.11,Main,,0,0,0,,Tên của {\i1}cô em gái bé tẹo{\i0} của lão gia.
+Dialogue: 12,0:08:27.11,0:08:28.49,Main,,0,0,0,,Ờ...
+Dialogue: 12,0:08:28.49,0:08:30.86,Main,,0,0,0,,Gì thế? Cô nhớ tên cơ à?
+Dialogue: 12,0:08:31.39,0:08:34.20,Main,,0,0,0,,Cô nhớ được tên người thế này,\N lạ quá nhở.
+Dialogue: 12,0:08:34.20,0:08:37.16,Main,,0,0,0,,Thì ngồi nghe lão gia gào lên suốt còn gì.
+Dialogue: 12,0:08:37.16,0:08:39.91,Main,,0,0,0,,Hơn nữa, cái tên cũng hay.
+Dialogue: 12,0:08:39.91,0:08:41.01,Main,,0,0,0,,Tên hay?
+Dialogue: 12,0:08:41.58,0:08:42.41,Main,,0,0,0,,Thế á?
+Dialogue: 12,0:08:42.72,0:08:44.94,GT 2,,0,0,0,,{\pos(1173.33,944)}(mặt trăng)
+Dialogue: 12,0:08:42.72,0:08:44.94,Main,,0,0,0,,Thì lão nương thích "Tsuki" mà.
+Dialogue: 12,0:08:44.94,0:08:49.55,Main,,0,0,0,,Mặt trời thì là kẻ thù,\N nhưng mặt trăng thì đem tới nhiều ân huệ.
+Dialogue: 12,0:08:49.55,0:08:54.51,Main,,0,0,0,,Vì vậy, giờ trả ơn, có lẽ cũng không tệ.
+Dialogue: 12,0:08:55.40,0:08:56.49,Main,,0,0,0,,Ra vậy.
+Dialogue: 12,0:08:57.22,0:08:58.01,Main,,0,0,0,,Cảm ơn nha.
+Dialogue: 12,0:08:59.61,0:09:01.24,Main,,0,0,0,,Khách sáo làm gì.
+Dialogue: 12,0:09:31.05,0:09:34.24,Main,phuongngu,0,0,0,,Xem ra chúng ta có \Nkhách không mời mà tới.
+Dialogue: 12,0:09:34.24,0:09:38.64,Main,phuongngu,0,0,0,,Nếu là Oshino-kun sẽ kiểu,\N "Chà, cậu tới muộn rứa, ta đợi mỏi cả cổ",
+Dialogue: 12,0:09:38.64,0:09:41.14,Main,phuongngu,0,0,0,,khả năng là sẽ nói câu rứa.
+Dialogue: 12,0:09:41.14,0:09:45.27,Main,phuongngu,0,0,0,,Nhưng bọn ta thì không thân thiện thế mô.
+Dialogue: 12,0:09:46.37,0:09:47.14,Main,,0,0,0,,Oshino...
+Dialogue: 12,0:09:48.09,0:09:51.77,Main,,0,0,0,,Oshino ngay từ đầu, \Nkhông hề hừng hực sát khí như vậy.
+Dialogue: 12,0:09:55.00,0:09:56.03,Main,phuongngu,0,0,0,,Đúng rồi đấy.
+Dialogue: 12,0:09:56.03,0:09:57.89,Main,phuongngu,0,0,0,,Oshino-kun là rứa mà.
+Dialogue: 12,0:09:57.89,0:09:59.66,Main,phuongngu,0,0,0,,Không lệch đi đâu được.
+Dialogue: 12,0:09:59.66,0:10:02.45,Main,phuongngu,0,0,0,,Thế... có việc mô?
+Dialogue: 12,0:10:02.45,0:10:05.58,Main,phuongngu,0,0,0,,Để đỡ tốn thời gian\N thì bọn ta sẵn sàng nghênh chiến.
+Dialogue: 12,0:10:05.58,0:10:07.25,Main,phuongngu,0,0,0,,Dễ hiểu mà hầy.
+Dialogue: 12,0:10:07.25,0:10:09.24,Main,phuongngu,0,0,0,,Bọn ta ủng hộ bạo lực.
+Dialogue: 12,0:10:09.24,0:10:12.71,Main,phuongngu,0,0,0,,Và may thay, song tấu bọn ta cũng\N một con người, một Quái Dị.
+Dialogue: 12,0:10:12.71,0:10:14.28,Main,phuongngu,0,0,0,,Mi và ta.
+Dialogue: 12,0:10:14.28,0:10:17.04,Main,phuongngu,0,0,0,,Cựu Heart-under-blade-chan và Yotsugi{*}-chan{*}.
+Dialogue: 12,0:10:17.04,0:10:19.97,Main,phuongngu,0,0,0,,Chia cặp như rứa, hai bên ổn cả chứ?
+Dialogue: 12,0:10:22.54,0:10:23.39,Main,phuongngu,0,0,0,,Không vừa lòng à?
+Dialogue: 12,0:10:23.39,0:10:26.27,Main,phuongngu,0,0,0,,Vậy thì, ta và Heart-under-blade.
+Dialogue: 12,0:10:26.27,0:10:29.77,Main,phuongngu,0,0,0,,Mi và Yotsugi, nghe được đấy tề.
+Dialogue: 12,0:10:29.77,0:10:34.44,Main,phuongngu,0,0,0,,Tuy em gái mi chỉ là hàng giả,\N nhưng dù sao chính con bé là kẻ đã thổi bay nớ.
+Dialogue: 12,0:10:35.17,0:10:37.58,Main,,0,0,0,,Không, chia cặp như lúc đầu đi.
+Dialogue: 12,0:10:38.45,0:10:39.32,Main,,0,0,0,,Được rồi.
+Dialogue: 12,0:10:39.32,0:10:40.80,Main,,0,0,0,,Vậy cô bé kia,
+Dialogue: 12,0:10:40.80,0:10:42.27,Main,,0,0,0,,chúng ta xuống tầng dưới.
+Dialogue: 12,0:10:42.27,0:10:45.29,Main,,0,0,0,,Tầng 2 có một căn phòng thích hợp cho\N chúng ta chiến đấu.
+Dialogue: 12,0:10:45.57,0:10:48.83,Main,,0,0,0,,Hãy cũng đánh hết mình nào.
+Dialogue: 12,0:10:48.83,0:10:51.67,Main,,0,0,0,,Để lão nương cho ngươi biết kinh nghiệm lâu năm\N là như nào.
+Dialogue: 12,0:10:52.29,0:10:54.32,Main,,0,0,0,,Được, hiểu rồi.
+Dialogue: 12,0:10:54.32,0:10:58.01,Main,,0,0,0,,Kể cả {\i1}bà{\i0} có tăng sức mạnh đến mức đó,\N vẫn còn dưới cơ {\i1}cháu{\i0}.
+Dialogue: 12,0:10:58.58,0:11:01.51,Main,,0,0,0,,Còn khoảng 1 tháng nữa mới đến Ngày Kính Lão.
+Dialogue: 12,0:11:01.51,0:11:06.22,Main,,0,0,0,,Nhưng nếu bà định hành hạ cơ thể già nua đó\N để giúp cháu nhận ra khác biệt tuổi tác thì...
+Dialogue: 12,0:11:06.22,0:11:08.73,Main,,0,0,0,,cháu đành chịu khó chiều bà vậy.
+Dialogue: 12,0:11:08.73,0:11:09.98,Main,,0,0,0,,Thưa bà!
+Dialogue: 12,0:11:10.45,0:11:12.44,Main,,0,0,0,,Vừa nói vừa tạo kiểu chụp ảnh.
+Dialogue: 12,0:11:15.02,0:11:20.03,Main,,0,0,0,,Hay cho một con Yêu Quái lít nhít từ miền Viễn Đông,\N cả trong văn học lẫn tài liệu đều không thấy đả động tới.
+Dialogue: 12,0:11:20.03,0:11:22.99,GT,,0,0,0,,{\an7\pos(52.67,32.67)\blur0.76\bord0\shad0\fscx100\fscy100\p1\1a&H00&\c&H000000&}m 1742 114 l -32 114 l -32 -20 l 1742 -20 m -29 -17 l -29 111 l 1739 111 l 1739 -17
+Dialogue: 12,0:11:20.03,0:11:22.99,GT,,0,0,0,,{\an7\pos(52.67,32.67)\blur0.76\bord0\shad0\fscx100\fscy100\p1\1a&H82&\c&H000000&}m 1739 111 l -29 111 l -29 -17 l 1739 -17
+Dialogue: 13,0:11:20.03,0:11:22.99,GT,,0,0,0,,{\blur0.76\bord0\shad0\an7\pos(46.67,32.67)\fscx111\fscy111}Thực ra, từ mà {\c&H22EDF5&}Yotsugi{\c} dùng là {\c&H5BFF36&}kimegao{\c}, nghĩa đen là {\c&H5BFF36&}mặt lấp lánh/bảnh bao/tươi rói{\c}, \Nthường được dùng để ám chỉ khi {\c&H5D5EFF&}tạo kiểu chụp ảnh{\c}, nên có thể, chỉ là có thể thôi, {\c&H22EDF5&}Shinobu ko biết{\c}.
+Dialogue: 12,0:11:20.03,0:11:22.99,Main,,0,0,0,,Lão nương sẽ khiến ngươi không còn\N "làm mặt tươi rói" được nữa.
+Dialogue: 12,0:11:25.03,0:11:30.41,Main,,0,0,0,,Vậy, để bên này làm tình nguyện viên dưỡng lão,\N Onē-chan.
+Dialogue: 12,0:11:30.41,0:11:32.29,Main,,0,0,0,,Vừa nói vừa tạo kiểu chụp ảnh.
+Dialogue: 12,0:11:37.17,0:11:41.44,Main,,0,0,0,,Kagenui-san, cô với Oshino có quan hệ gì?
+Dialogue: 12,0:11:42.03,0:11:46.18,Main,,0,0,0,,Cô quen Oshino Meme, \Nthằng cha mặc áo aloha đó sao?
+Dialogue: 12,0:11:47.06,0:11:48.58,Main,phuongngu,0,0,0,,Cái chi mô?!
+Dialogue: 12,0:11:48.58,0:11:51.94,Main,phuongngu,0,0,0,,Oshino-kun, cu cậu vẫn còn mặc cái áo aloha á?
+Dialogue: 12,0:11:51.94,0:11:54.79,Main,phuongngu,0,0,0,,Tưởng đâu chỉ là {\i1}đóng giả{\i0} thôi chớ,
+Dialogue: 12,0:11:54.79,0:11:59.15,Main,phuongngu,0,0,0,,đằng nì đến tận giờ vẫn còn mặc\N thì chắc phải có niềm tin cháy bỏng hầy.
+Dialogue: 12,0:12:00.03,0:12:03.46,Main,phuongngu,0,0,0,,Mà nói mấy chuyện này chả để làm chi cả.
+Dialogue: 12,0:12:03.46,0:12:05.41,Main,phuongngu,0,0,0,,Chỉ là bạn cũ thôi.
+Dialogue: 12,0:12:05.73,0:12:07.99,Main,phuongngu,0,0,0,,Ta và Oshino{*}-kun{*} và Kaiki{*}-kun{*}...
+Dialogue: 12,0:12:07.99,0:12:10.01,Main,phuongngu,0,0,0,,là bạn cùng khóa thời đại học.
+Dialogue: 12,0:12:11.76,0:12:12.83,Main,,0,0,0,,{\i1}Oshino thì đã đành.
+Dialogue: 12,0:12:13.47,0:12:14.29,Main,,0,0,0,,{\i1}Kaiki?
+Dialogue: 12,0:12:14.29,0:12:15.13,Main,,0,0,0,,{\i1}Kaiki?!
+Dialogue: 12,0:12:15.13,0:12:16.42,Main,,0,0,0,,Kaiki ư?!
+Dialogue: 12,0:12:17.04,0:12:18.05,Main,,0,0,0,,Kaiki ý cô là...
+Dialogue: 12,0:12:18.05,0:12:19.55,Main,,0,0,0,,Kaiki Deishū?
+Dialogue: 12,0:12:19.55,0:12:21.51,Main,phuongngu,0,0,0,,Phải phải, Kaiki{*}-kun{*}.
+Dialogue: 12,0:12:21.51,0:12:23.80,Main,phuongngu,0,0,0,,Cùng chuyên ngành, cùng câu lạc bộ.
+Dialogue: 12,0:12:23.80,0:12:27.97,Main,phuongngu,0,0,0,,Cùng với 1 senpai khóa trên,\N bọn ta chơi shogi 4 người.
+Dialogue: 12,0:12:27.97,0:12:31.23,Main,,0,0,0,,Vậy CLB đó là... CLB Nghiên Cứu Shogi à?
+Dialogue: 12,0:12:31.23,0:12:33.56,Main,phuongngu,0,0,0,,Không không, là Nghiên Cứu Huyền Bí.
+Dialogue: 12,0:12:33.56,0:12:38.95,Main,phuongngu,0,0,0,,Nhân tiện, người đã tử tế tiết lộ chuyện về em gái cậu,\N để từ đó bọn ta lấy làm mục tiêu.
+Dialogue: 12,0:12:38.95,0:12:41.24,Main,phuongngu,0,0,0,,Từ đầu, không ai khác chính là Kaiki-kun.
+Dialogue: 12,0:12:46.25,0:12:48.45,Main,,0,0,0,,Kaiki!
+Dialogue: 12,0:12:48.45,0:12:50.55,Main,,0,0,0,,Chả phải tất cả là lỗi của ông sao!
+Dialogue: 12,0:12:50.55,0:12:52.79,Main,,0,0,0,,Toàn bộ từ ông mà ra!
+Dialogue: 12,0:12:55.79,0:12:57.29,Main,,0,0,0,,Kagenui{*}-san{*}.
+Dialogue: 12,0:12:57.67,0:12:59.55,Main,,0,0,0,,Tôi là {\i1}đồng minh của em gái{\i0}.
+Dialogue: 12,0:13:01.01,0:13:03.20,Main,phuongngu,0,0,0,,Cô em gái đó chỉ là hàng giả thôi.
+Dialogue: 12,0:13:03.91,0:13:05.63,Main,phuongngu,0,0,0,,Có phải thật mô.
+Dialogue: 12,0:13:06.00,0:13:10.27,Main,phuongngu,0,0,0,,Khi mi nhận ra rằng cô em gái \Nmà mi tin tưởng là hàng giả,
+Dialogue: 12,0:13:10.27,0:13:14.14,Main,phuongngu,0,0,0,,liệu mi có còn yêu em gái mình như trước không?
+Dialogue: 12,0:13:14.14,0:13:15.14,Main,,0,0,0,,Yêu chứ sao không.
+Dialogue: 12,0:13:15.66,0:13:17.65,Main,,0,0,0,,Thậm chí còn yêu nhiều hơn nữa là.
+Dialogue: 12,0:13:18.41,0:13:19.98,Main,,0,0,0,,Bởi giờ sẽ thành {\i1}em-gái-dâu{\i0},
+Dialogue: 12,0:13:20.43,0:13:23.54,Main,,0,0,0,,{\i1}moe{\i0} thế còn gì nữa!!
+Dialogue: 12,0:13:27.32,0:13:29.67,Main,phuongngu,0,0,0,,Ta hiểu cảm giác của mi.
+Dialogue: 12,0:13:29.67,0:13:32.66,Main,phuongngu,0,0,0,,Và ta nghĩ cũng nên tôn trọng.
+Dialogue: 12,0:13:32.66,0:13:35.00,Main,phuongngu,0,0,0,,Từ quan điểm của \Nđồng minh chính nghĩa như ta,
+Dialogue: 12,0:13:36.62,0:13:39.33,Main,phuongngu,0,0,0,,đã vô lý thì cần gì lý do,
+Dialogue: 12,0:13:39.33,0:13:42.56,Main,phuongngu,0,0,0,,nên ta từ bỏ việc thuyết phục mi.
+Dialogue: 12,0:13:42.56,0:13:46.09,Main,phuongngu,0,0,0,,Ta khác với Oshino{*}-kun{*} và Kaiki{*}-kun{*} mà.
+Dialogue: 12,0:13:46.09,0:13:48.09,Main,phuongngu,0,0,0,,Chỉ dùng nắm đấm để nói chuyện thôi.
+Dialogue: 12,0:13:48.72,0:13:50.30,Main,phuongngu,0,0,0,,Nhưng... Thế nhưng...
+Dialogue: 12,0:13:50.30,0:13:51.95,Main,phuongngu,0,0,0,,Tính sao đây hầy!
+Dialogue: 12,0:13:52.55,0:13:54.39,Main,phuongngu,0,0,0,,Kể cả mi có bằng lòng đi nữa...
+Dialogue: 12,0:14:08.91,0:14:11.62,Main,phuongngu,0,0,0,,Kể cả mi có bằng lòng đi nữa...
+Dialogue: 12,0:14:11.62,0:14:14.58,Main,phuongngu,0,0,0,,nhưng gia đình mi thì răng?!
+Dialogue: 12,0:14:19.92,0:14:22.67,Main,phuongngu,0,0,0,,Mi từng có được bất tử trước ni,
+Dialogue: 12,0:14:23.08,0:14:28.68,Main,phuongngu,0,0,0,,nên có thể vì thế mà mi\N thấy ổn với một cô em gái Quái Dị Bất Tử hàng giả.
+Dialogue: 12,0:14:28.68,0:14:33.97,Main,phuongngu,0,0,0,,Nhưng còn... gia đình mi thì răng?\N Họ biết phải làm chi với Quái Dị đây?
+Dialogue: 12,0:14:36.31,0:14:38.72,Main,phuongngu,0,0,0,,Ví dụ như Karen{*}-chan{*} chẳng hạn?
+Dialogue: 12,0:14:38.72,0:14:43.35,Main,phuongngu,0,0,0,,Nếu nó biết được em gái mình là Quái Dị,
+Dialogue: 12,0:14:43.35,0:14:45.98,Main,phuongngu,0,0,0,,liệu nó có thể trả lời giống mi không?
+Dialogue: 12,0:14:45.98,0:14:47.67,Main,phuongngu,0,0,0,,Rồi còn mệ mi nữa.{má thường dùng ở miền nam}
+Dialogue: 12,0:14:47.67,0:14:51.51,Main,phuongngu,0,0,0,,Nếu bà ấy biết đứa con bà mang nặng đẻ đau là\N Yêu ma quỷ quái,
+Dialogue: 12,0:14:51.51,0:14:54.30,Main,phuongngu,0,0,0,,liệu bà có thể trả lời giống mi không?
+Dialogue: 12,0:14:54.30,0:14:56.78,Main,phuongngu,0,0,0,,Rồi còn cha mi nữa.
+Dialogue: 12,0:15:02.71,0:15:05.53,Main,phuongngu,0,0,0,,Đấy còn chưa thèm nói tới chính bản thân nớ.
+Dialogue: 12,0:15:05.53,0:15:07.46,Main,phuongngu,0,0,0,,Nếu chính nớ, thứ hàng giả đó,
+Dialogue: 12,0:15:07.46,0:15:11.93,Main,phuongngu,0,0,0,,biết mình là Quái Dị, \N liệu nớ có thể tiếp tục sống như trước không?
+Dialogue: 12,0:15:13.97,0:15:16.39,Main,phuongngu,0,0,0,,Vẫn còn may là hiện chừ nớ chưa biết.
+Dialogue: 12,0:15:16.79,0:15:18.64,Main,phuongngu,0,0,0,,Nhưng, nếu nớ phát hiện ra,
+Dialogue: 12,0:15:18.64,0:15:20.89,Main,phuongngu,0,0,0,,liệu bản thân nớ có tổn thương không?
+Dialogue: 12,0:15:20.89,0:15:25.32,Main,phuongngu,0,0,0,,Thứ Yêu ma quỷ quái Bất tử thì không thể nào\N thích nghi được với môi trường xung quanh mô.
+Dialogue: 12,0:15:25.32,0:15:28.07,Main,phuongngu,0,0,0,,Mi hiểu điều đó hơn ai hết.
+Dialogue: 12,0:15:28.07,0:15:32.37,Main,phuongngu,0,0,0,,Hay là, với cơ thể phi nhân tính đó,\N mi vẫn định để nớ trở thành đồng minh chính nghĩa?
+Dialogue: 12,0:15:32.88,0:15:35.33,Main,phuongngu,0,0,0,,Cái gì mà Hỏa Tỷ Muội, phải không hầy?
+Dialogue: 12,0:15:35.84,0:15:39.08,Main,phuongngu,0,0,0,,Nhưng mi nghĩ mà xem, \Nnếu Quái Dị Bất Tử đối đầu với con người,
+Dialogue: 12,0:15:39.08,0:15:42.73,Main,phuongngu,0,0,0,,thử hỏi sẽ tàn nhẫn và hống hách đến mức mô?
+Dialogue: 12,0:15:43.32,0:15:46.63,Main,phuongngu,0,0,0,,Cả điều nầy nữa, mi cũng hiểu hơn ai hết!
+Dialogue: 12,0:15:49.59,0:15:53.63,Main,phuongngu,0,0,0,,Công việc của bọn ta là \Nthu xếp trước khi nó xảy ra.
+Dialogue: 12,0:15:53.63,0:15:58.18,Main,phuongngu,0,0,0,,Mặc kệ mi nhận thức ra sao, mặc cho ý thức chính nghĩa thế nào, \Nđó là việc của mi.
+Dialogue: 12,0:15:58.18,0:16:01.94,Main,phuongngu,0,0,0,,Đừng có áp đặt lý tưởng của mình\N lên người khác!
+Dialogue: 12,0:16:08.10,0:16:09.62,Main,phuongngu,0,0,0,,Còn chưa xong đâu.
+Dialogue: 12,0:16:12.35,0:16:15.01,Main,phuongngu,0,0,0,,Ta bắt đầu thấy lo cho Yotsugi.
+Dialogue: 12,0:16:15.01,0:16:16.45,Main,phuongngu,0,0,0,,Cùng đi kiểm tra xem nào!
+Dialogue: 12,0:16:25.75,0:16:27.75,Main,,0,0,0,,Đang làm cái trò gì thế?
+Dialogue: 12,0:16:27.75,0:16:29.42,Main,,0,0,0,,Thưa chủ nhân!
+Dialogue: 12,0:16:32.83,0:16:36.79,Main,phuongngu,0,0,0,,Gì đây trời~ \NRõ mạnh miệng mà bây chừ lại như này là sao?
+Dialogue: 12,0:16:36.79,0:16:39.89,Main,phuongngu,0,0,0,,Coi bộ em ăn hành quá rứa, Yotsugi.
+Dialogue: 12,0:16:39.89,0:16:43.30,Main,,0,0,0,,Em chuẩn bị lội ngược dòng kinh điển đây này.
+Dialogue: 12,0:16:43.30,0:16:46.75,Main,,0,0,0,,Khỏi cần lo không đâu làm gì, {*}Onē-chan{*Sis}.{checked subs}
+Dialogue: 12,0:16:47.48,0:16:49.64,Main,,0,0,0,,Vừa nói vừa tạo kiểu chụp ảnh.
+Dialogue: 12,0:16:49.64,0:16:51.15,Main,phuongngu,0,0,0,,Rồi rồi.
+Dialogue: 12,0:16:51.15,0:16:55.16,Main,phuongngu,0,0,0,,Nhưng cũng đến lúc nhường sân khấu \Ncho Onē-chan nầy rồi.
+Dialogue: 12,0:16:55.16,0:16:57.25,Main,phuongngu,0,0,0,,Cựu Heart-under-blade,
+Dialogue: 12,0:16:57.25,0:17:00.08,Main,phuongngu,0,0,0,,xem ra chung kết là giữa ta và mi.
+Dialogue: 12,0:17:16.72,0:17:18.60,Main,,0,0,0,,Không, đánh đấm gì.
+Dialogue: 12,0:17:19.60,0:17:22.43,Main,,0,0,0,,Với cả, chung kết á?
+Dialogue: 12,0:17:22.43,0:17:25.10,Main,,0,0,0,,Nực cười quá đấy, con người.
+Dialogue: 12,0:17:25.10,0:17:28.95,Main,,0,0,0,,Chủ nhân của lão nương vẫn còn chưa thua.
+Dialogue: 12,0:17:29.77,0:17:32.44,Main,,0,0,0,,Đúng không nào, lão gia?
+Dialogue: 12,0:17:34.88,0:17:36.11,Main,,0,0,0,,Đúng rồi.
+Dialogue: 12,0:17:36.11,0:17:38.27,Main,,0,0,0,,Tôi vẫn chưa thua.
+Dialogue: 12,0:17:39.52,0:17:43.12,Main,,0,0,0,,Vẫn còn chưa chịu thua.
+Dialogue: 12,0:17:43.86,0:17:46.10,Main,,0,0,0,,Cả nắm đấm của chị,
+Dialogue: 12,0:17:46.10,0:17:47.62,Main,,0,0,0,,cả lời lẽ của chị,
+Dialogue: 12,0:17:49.20,0:17:52.84,Main,,0,0,0,,đều không thể khuất phục được tôi!
+Dialogue: 12,0:17:53.74,0:17:54.84,Main,phuongngu,0,0,0,,Ta nói với mi rồi.
+Dialogue: 12,0:17:54.84,0:18:00.01,Main,phuongngu,0,0,0,,Mặc kệ mi nhận thức ra sao, mặc cho ý thức chính nghĩa thế nào, \Nđó là việc của mi.
+Dialogue: 12,0:18:00.60,0:18:03.77,Main,phuongngu,0,0,0,,Đừng có áp đặt lý tưởng của mình\N lên người khác!
+Dialogue: 12,0:18:05.27,0:18:06.56,Main,,0,0,0,,"Người khác" cái nỗi gì.
+Dialogue: 12,0:18:07.69,0:18:09.32,Main,,0,0,0,,Không phải "người khác".
+Dialogue: 12,0:18:10.49,0:18:11.44,Main,,0,0,0,,Là gia đình.
+Dialogue: 12,0:18:12.88,0:18:15.69,Main,,0,0,0,,Tôi sẽ áp đặt lý tưởng lên gia đình mình.
+Dialogue: 12,0:18:16.13,0:18:19.53,Main,,0,0,0,,Bởi vì là gia đình, \Nnên có thể nói dối, có thể lừa nhau.
+Dialogue: 12,0:18:19.53,0:18:20.97,Main,,0,0,0,,có thể làm phiền nhau,
+Dialogue: 12,0:18:20.97,0:18:22.34,Main,,0,0,0,,có thể trông nom nhau.
+Dialogue: 12,0:18:22.94,0:18:24.84,Main,,0,0,0,,Sẽ có lúc mắc nợ.
+Dialogue: 12,0:18:25.47,0:18:27.60,Main,,0,0,0,,Sẽ có lúc chẳng thể trả ơn.
+Dialogue: 12,0:18:28.21,0:18:31.40,Main,,0,0,0,,Nhưng mà... tôi cho rằng như vậy không sao cả.
+Dialogue: 12,0:18:32.84,0:18:34.01,Main,,0,0,0,,{*}Kagenui-san{*Miss Kagenui}...
+Dialogue: 12,0:18:34.94,0:18:36.47,Main,,0,0,0,,Đồng-Minh-Chính-Nghĩa-san...
+Dialogue: 12,0:18:37.42,0:18:40.26,Main,,0,0,0,,Nếu chị nói giả tạo là Cái Ác,
+Dialogue: 12,0:18:40.26,0:18:42.60,Main,,0,0,0,,thì Cái Ác đó, tôi xin gánh lấy.
+Dialogue: 12,0:18:43.87,0:18:45.93,Main,,0,0,0,,Nếu chị nói lừa dối là Xấu Xa,
+Dialogue: 12,0:18:46.70,0:18:49.10,Main,,0,0,0,,thì tôi làm người xấu cũng chẳng sao.
+Dialogue: 12,0:18:49.10,0:18:51.10,Main,,0,0,0,,Được yêu mến ư, khỏi cần.
+Dialogue: 12,0:18:51.43,0:18:53.65,Main,,0,0,0,,Tồi bằng lòng làm con người tồi tệ nhất.
+Dialogue: 12,0:18:53.65,0:18:55.07,Main,,0,0,0,,{*}Onī-chan{*Bro}!
+Dialogue: 12,0:18:55.07,0:18:57.22,Main,,0,0,0,,{\i1}Chỉ cần con bé gọi tôi như vậy,
+Dialogue: 12,0:18:58.12,0:19:00.99,Main,,0,0,0,,{\i1}thì mọi chuyện với tôi, thế nào cũng được.
+Dialogue: 12,0:19:02.45,0:19:03.83,Main,phuongngu,0,0,0,,Thuyết tính bản ác à?
+Dialogue: 12,0:19:04.96,0:19:07.91,Main,phuongngu,0,0,0,,Mi là học sinh cấp 3, \Nnên biết tới thuyết tính bản thiện chứ nhỉ?
+Dialogue: 12,0:19:07.91,0:19:11.05,Main,phuongngu,0,0,0,,Tư tưởng của Mạnh Tử, \Nmột triết gia Trung Quốc,
+Dialogue: 12,0:19:11.47,0:19:14.84,Main,phuongngu,0,0,0,,Ông có nói, "nhân chi sơ tính bản thiện".
+Dialogue: 12,0:19:14.84,0:19:15.70,Main,phuongngu,0,0,0,,Nó đó.
+Dialogue: 12,0:19:16.26,0:19:17.09,Main,,0,0,0,,Ừm thì...
+Dialogue: 12,0:19:17.37,0:19:20.00,Main,phuongngu,0,0,0,@@@,Nếu thuyết tính bản thiện là \Nlý thuyết luận,
+Dialogue: 12,0:19:20.00,0:19:22.09,Main,phuongngu,0,0,0,@@@,thì thuyết tính bản ác là\Nhiện thực luận.
+Dialogue: 12,0:19:22.09,0:19:24.82,Main,phuongngu,0,0,0,,Bản chất con người là ham muốn.
+Dialogue: 12,0:19:24.82,0:19:27.33,Main,phuongngu,0,0,0,,Con người thường bị ham muốn chi phối.
+Dialogue: 12,0:19:27.33,0:19:30.06,Main,phuongngu,0,0,0,,Đó là tư tưởng thẳng mà thật của Tuân Tử.
+Dialogue: 12,0:19:30.65,0:19:34.11,Main,phuongngu,0,0,0,,Ông ta cho rằng, con người sinh ra vốn đã ác.
+Dialogue: 12,0:19:34.57,0:19:35.87,Main,,0,0,0,,Sinh ra...
+Dialogue: 12,0:19:36.83,0:19:37.61,Main,,0,0,0,,...đã ác?
+Dialogue: 12,0:19:37.61,0:19:38.55,Main,phuongngu,0,0,0,,Phải.
+Dialogue: 12,0:19:38.55,0:19:41.15,Main,phuongngu,0,0,0,,Vì vậy khi một người làm việc thiện,
+Dialogue: 12,0:19:41.15,0:19:44.70,Main,phuongngu,0,0,0,,thì đó không xuất phát từ bản chất,\N mà chỉ là giả tạo thôi.
+Dialogue: 12,0:19:45.18,0:19:46.58,Main,phuongngu,0,0,0,,Ông ta tuyên bố rứa.
+Dialogue: 12,0:19:47.08,0:19:49.62,Main,phuongngu,0,0,0,,Thiện là dối, thiện là giả,
+Dialogue: 12,0:19:49.62,0:19:51.62,Main,phuongngu,0,0,0,,chỉ đạo đức giả mới làm được điều thiện.
+Dialogue: 12,0:19:51.62,0:19:52.62,Main,,0,0,0,,Đạo đức giả?
+Dialogue: 12,0:19:52.62,0:19:55.82,GT 2,phuongngu,0,0,0,,(Trong Kanji, Giả = Nhân + Tạo)
+Dialogue: 12,0:19:52.62,0:19:55.82,Main,phuongngu,0,0,0,,Giả, hay còn là Nhân-Tạo.
+Dialogue: 12,0:19:55.82,0:19:59.60,Main,phuongngu,0,0,0,,Căn nguyên của thiện, đều là đạo đức giả,\Nchính vì thế...
+Dialogue: 12,0:20:00.03,0:20:03.89,Main,phuongngu,0,0,0,,căn nguyên của thiện, đều là có chủ đích ha.
+Dialogue: 12,0:20:04.40,0:20:08.20,Main,phuongngu,0,0,0,,Đây là trò tư duy mà khi xưa Kaiki-kun \Nthường đem ra bàn.
+Dialogue: 12,0:20:08.75,0:20:13.41,Main,phuongngu,0,0,0,,Tưởng tượng có hàng thật và hàng giả giống hệt nhau,\N không thể phân biệt.
+Dialogue: 12,0:20:13.41,0:20:16.15,Main,phuongngu,0,0,0,,Cái nào đáng giá hơn?
+Dialogue: 12,0:20:16.15,0:20:19.16,Main,,0,0,0,,Hàng thật và... hàng giả...
+Dialogue: 12,0:20:19.16,0:20:24.21,Main,phuongngu,0,0,0,,Đương nhiên câu trả lời của ta\N là hàng thật đáng giá hơn.
+Dialogue: 12,0:20:24.21,0:20:28.16,Main,phuongngu,0,0,0,,Còn Oshino-kun theo ta nhớ hình như là\N ngang nhau.
+Dialogue: 12,0:20:28.48,0:20:31.16,Main,phuongngu,0,0,0,,Nhưng Kaiki{*}-kun{*} thì lại nói khác,
+Dialogue: 12,0:20:31.60,0:20:35.42,Main,phuongngu,0,0,0,,"hàng giả đáng giá hơn nhiều so với hàng thật".
+Dialogue: 12,0:20:35.74,0:20:41.67,Main,phuongngu,0,0,0,,Bởi vì hàng giả có chủ đích trở thành hàng thật,\N ý chí đó khiến nó còn thật hơn cả hàng thật.
+Dialogue: 12,0:20:43.33,0:20:46.91,Main,phuongngu,0,0,0,,Kaiki{*}-kun{*} nhìn răng cũng là \Nloại vô lại tép riu,
+Dialogue: 12,0:20:46.91,0:20:49.06,Main,phuongngu,0,0,0,,nhưng cũng phát biểu được câu hay phải biết.
+Dialogue: 12,0:20:49.06,0:20:55.06,Main,phuongngu,0,0,0,,Miễn cưỡng mà nói thì,\N đây chắc là bài học rút ra từ vụ này cho ta.
+Dialogue: 12,0:20:55.06,0:20:57.56,Main,phuongngu,0,0,0,,Một bài học kéo dài 10 năm.
+Dialogue: 12,0:21:00.36,0:21:01.50,Main,phuongngu,0,0,0,,Về thôi.
+Dialogue: 12,0:21:01.50,0:21:02.69,Main,phuongngu,0,0,0,,Bên ta thua rồi.
+Dialogue: 12,0:21:06.26,0:21:08.83,Main,,0,0,0,,N-Này, Kagenui{*}-san{*}?
+Dialogue: 12,0:21:08.83,0:21:09.89,Main,phuongngu,0,0,0,,Mất hứng rồi.
+Dialogue: 12,0:21:09.89,0:21:11.60,Main,phuongngu,0,0,0,,Về đây.
+Dialogue: 12,0:21:11.60,0:21:16.67,Main,phuongngu,0,0,0,,Làm ta cảm thấy kỳ kỳ kiểu gì ấy,\N nên chả có tâm trạng mà đánh đấm đâu.
+Dialogue: 12,0:21:17.27,0:21:19.44,Main,phuongngu,0,0,0,,Quy Chuẩn Ngoại Lệ.
+Dialogue: 12,0:21:20.05,0:21:22.05,Main,phuongngu,0,0,0,,Bắt chim thì được, chớ bắt chim còn trong tổ.
+Dialogue: 12,0:21:23.05,0:21:27.25,Main,phuongngu,0,0,0,,Ta sẽ xem em gái mi như là một ngoại lệ\N với chính nghĩa của ta.
+Dialogue: 12,0:21:27.25,0:21:30.85,Main,phuongngu,0,0,0,,Mi cũng coi như là người dìu dắt,\N cố mà chỉ bảo cho tốt.
+Dialogue: 12,0:21:31.91,0:21:33.29,Main,phuongngu,0,0,0,,Tóm lại thì mi...
+Dialogue: 12,0:21:33.29,0:21:36.85,Main,phuongngu,0,0,0,,vốn từ đầu đã không nghiêm túc\N đánh một trận với bọn ta đúng chứ?
+Dialogue: 12,0:21:38.21,0:21:39.61,Main,,0,0,0,,Không nghiêm túc là sao?
+Dialogue: 12,0:21:39.61,0:21:42.61,Main,phuongngu,0,0,0,,Ta không cảm thấy chút sát khí chi mô.
+Dialogue: 12,0:21:42.61,0:21:44.96,Main,phuongngu,0,0,0,,Tuy ta cảm thấy mi không hề nương tay,
+Dialogue: 12,0:21:44.96,0:21:47.61,Main,phuongngu,0,0,0,,nhưng thành thật mà nói, ta bị xuống tinh thần.
+Dialogue: 12,0:21:48.33,0:21:51.23,Main,,0,0,0,,Nếu chị không cảm thấy sát khí từ tôi,
+Dialogue: 12,0:21:51.93,0:21:56.16,Main,,0,0,0,,thì tức là chị vẫn coi tôi là con người, Kagenui-san.
+Dialogue: 12,0:21:56.92,0:22:01.08,Main,,0,0,0,,Chị chả bảo rồi còn,\N người đấu người, Quái Dị đấu Quái Dị.
+Dialogue: 12,0:22:01.61,0:22:06.42,Main,,0,0,0,,Cho đến tận giờ, trong tình trạng này, \Nchỉ có mỗi Oshino là coi tôi như con người.
+Dialogue: 12,0:22:07.17,0:22:10.68,Main,,0,0,0,,{\i1}Vì thế, tôi cũng đã xuống tinh thần.
+Dialogue: 12,0:22:10.68,0:22:13.43,Main,,0,0,0,,{\i1}Tôi cảm thấy kỳ kỳ, nên không có tâm trạng.
+Dialogue: 12,0:22:13.82,0:22:17.69,Main,,0,0,0,,{\i1}Phải, giống như cái lần mà tôi\N đối mặt với ông chú mặc áo aloha vậy.
+Dialogue: 12,0:22:18.84,0:22:23.98,Main,phuongngu,0,0,0,,Rốt cuộc thì ta lại vô tình khoác lên mình\N {\i1}kiểu nhân vật{\i0} của Oshino-kun.
+Dialogue: 12,0:22:23.98,0:22:26.16,Main,phuongngu,0,0,0,,Chết thật, ta đã làm gì thế này.
+Dialogue: 12,0:22:26.65,0:22:27.69,Main,phuongngu,0,0,0,,Thảm hại thật chứ.
+Dialogue: 12,0:22:28.08,0:22:29.45,Main,phuongngu,0,0,0,,Đã vậy thì có nên...
+Dialogue: 12,0:22:29.82,0:22:33.95,Main,phuongngu,0,0,0,,khép màn bằng một câu \Nmà Oshino-kun sẽ không bao giờ nói ra không?
+Dialogue: 12,0:22:37.75,0:22:39.20,Main,phuongngu,0,0,0,,Tạm biệt.
+Dialogue: 12,0:22:57.23,0:23:00.20,Main,,0,0,0,,Em đã thủ thế sẵn đề phòng\N anh hôn thêm lần nữa,
+Dialogue: 12,0:23:00.20,0:23:02.34,Main,,0,0,0,,nhưng xem ra là không hôn nhỉ.
+Dialogue: 12,0:23:03.27,0:23:04.99,Main,,0,0,0,,Chào buổi sáng, mừng anh về.
+Dialogue: 12,0:23:05.45,0:23:06.71,Main,,0,0,0,,Anh đã đi đâu thế?
+Dialogue: 12,0:23:06.71,0:23:09.24,Main,,0,0,0,,Ờ, thực ra thì anh đã vì em...
+Dialogue: 12,0:23:09.24,0:23:13.99,Main,,0,0,0,,mà đi chiến đấu với \N{\i1}Quái Dị thuộc tính Người{\i0} và {\i1}Người thuộc tính Quái Dị{\i0}.
+Dialogue: 12,0:23:14.89,0:23:17.13,Main,,0,0,0,,Vậy thì phải cảm ơn công lao của anh rồi.
+Dialogue: 12,0:23:18.30,0:23:19.91,Main,,0,0,0,,Cơ mà đừng cố quá nha.
+Dialogue: 12,0:23:19.91,0:23:22.94,Main,,0,0,0,,Cố quá gì chứ, anh thích thì anh làm thôi.
+Dialogue: 12,0:23:22.94,0:23:24.29,Main,,0,0,0,,Biết biết.
+Dialogue: 12,0:23:24.61,0:23:27.55,Main,,0,0,0,,Onī-chan yêu bọn em mà ha.
+Dialogue: 12,0:23:28.39,0:23:30.18,Main,,0,0,0,,Đừng tùy tiện cắt nghĩa như thế.
+Dialogue: 12,0:23:30.53,0:23:32.85,Main,,0,0,0,,Anh ghét cả hai đứa.
+Dialogue: 12,0:23:33.97,0:23:35.50,Main,,0,0,0,,Khi nào hết nghỉ hè,
+Dialogue: 12,0:23:36.33,0:23:38.14,Main,,0,0,0,,anh sẽ giới thiệu bạn gái anh cho.
+Dialogue: 12,0:23:40.42,0:23:41.86,Main,,0,0,0,,Cái gì cơ, {*}Onī-chan{*Bro}?
+Dialogue: 12,0:23:41.86,0:23:43.21,Main,,0,0,0,,Anh có bạn gái á?
+Dialogue: 12,0:23:43.21,0:23:45.74,Main,,0,0,0,,Ừm, đúng ra là từ tầm tháng 5.
+Dialogue: 12,0:23:45.74,0:23:47.23,Main,,0,0,0,,Sôi hết cả máu!
+Dialogue: 12,0:23:47.23,0:23:49.69,Main,,0,0,0,,Đừng có bép xép linh tinh đấy.
+Dialogue: 12,0:23:52.07,0:23:55.20,Main,,0,0,0,,{\i1}Như này không giống tôi cho lắm, \Nlề mà lề mề can dự không đâu,
+Dialogue: 12,0:23:55.20,0:23:57.45,Main,,0,0,0,,{\i1}cơ mà nán lại mãi cũng chẳng ích gì.
+Dialogue: 12,0:23:57.83,0:24:01.23,Main,,0,0,0,,{\i1}Tạm thời cứ về phòng thay quần áo cái đã.
+Dialogue: 12,0:24:01.96,0:24:05.46,Main,,0,0,0,,{\i1}Một đêm với biết bao nhiêu là việc, muộn quá rồi.
+Dialogue: 12,0:24:06.20,0:24:09.79,Main,,0,0,0,,{\i1}Con Yêu ma quỷ quái lanh lợi tháo vát,\N cũng đến lúc quy ẩn giang hồ rồi.
+Dialogue: 13,0:24:26.65,0:24:32.03,ED,,0,0,36,,{\blur0.8\an2\c&HFFFFFF&\bord0\shad0}Cô gái mặc đồng phục ban nãy,
+Dialogue: 13,0:24:32.03,0:24:36.66,ED,,0,0,36,,{\blur0.8\an2\c&HFFFFFF&\bord0\shad0}rõ ràng là anh để ý tới cô ta từ lâu rồi chứ còn gì nữa.
+Dialogue: 13,0:24:36.66,0:24:41.88,ED,,0,0,36,,{\blur0.8\an2\c&HFFFFFF&\bord0\shad0}Trong khi em vẫn còn đứng sờ sờ cạnh anh vậy mà.
+Dialogue: 13,0:24:41.88,0:24:46.01,ED,,0,0,36,,{\blur0.8\an2\c&HFFFFFF&\bord0\shad0}Rốt cuộc ý anh là sao hả!
+Dialogue: 13,0:24:46.01,0:24:55.56,ED,,0,0,36,,{\blur0.8\an2\c&HFFFFFF&\bord0\shad0}Đừng tưởng bở là em sẽ mãi mãi ở bên anh nhá.
+Dialogue: 13,0:24:55.56,0:24:57.35,ED,,0,0,36,,{\blur0.8\an2\c&HFFFFFF&\bord0\shad0}Sẽ có ngày,
+Dialogue: 13,0:24:57.35,0:25:01.65,ED,,0,0,36,,{\blur0.8\an2\c&HFFFFFF&\bord0\shad0}một ai đó, từ đâu đến và đưa em đi đấy,
+Dialogue: 13,0:25:01.65,0:25:06.65,ED,,0,0,36,,{\blur0.8\an2\c&HFFFFFF&\bord0\shad0}anh đã hiểu ra chưa hả?
+Dialogue: 13,0:25:06.65,0:25:11.20,ED,,0,0,36,,{\blur0.8\an2\c&HFFFFFF&\bord0\shad0}Để đến lúc đó thì quá muộn rồi.
+Dialogue: 13,0:25:11.20,0:25:16.24,ED,,0,0,36,,{\blur0.8\an2\c&HFFFFFF&\bord0\shad0}Để đến lúc đó thì anh khóc em cũng mặc kệ.
+Dialogue: 13,0:25:16.24,0:25:21.00,ED,,0,0,36,,{\blur0.8\an2\c&HFFFFFF&\bord0\shad0}Trưng cái vẻ mặt đó ra với em cũng chả ăn thua gì đâu.
+Dialogue: 13,0:25:21.00,0:25:23.33,ED,,0,0,36,,{\blur0.8\an2\c&HFFFFFF&\bord0\shad0}Nói thật, anh bừa bãi quá đấy.
+Dialogue: 13,0:25:23.33,0:25:31.93,ED,,0,0,36,,{\blur0.8\an2\c&HFFFFFF&\fad(0,2000)\bord0\shad0}Em đang tức đây này, anh có biết không hả?
+Dialogue: 13,0:25:40.06,0:25:43.19,Black and Red,CREDIT,0,0,36,,{\an5\c&HFFFFFF&\blur0.75\fs120\b0\fscx59\fscy59}NISEMONOGATARI\N\N\N{\fs60}PHỤ ĐỀ ĐƯỢC THỰC HIỆN BỞI\N{\fs90} GSGA {\fs60}\N\N\NTHANKS TO{\fs90} \NMTBB       \N\N\N   {\fs60}DỊCH\N{\fs90} KiOZ \N\N{\fs60}PHƯƠNG NGỮ\N{\fs90} tuilakhanh \N\N{\fs60}TYPESET\N{\fs90} KiOZ - moch1oka - Eagle \N\N{\fs60}QC\N{\fs90} KiOZ - moch1oka
+Dialogue: 1,0:02:09.25,0:02:09.30,Signs,,0,0,0,,{\q2\pos(954.666,159.333)\fs100\c&H050304&\blur1\clip(m 1304 107 l 1298 121 1288 138 1279 160 1267 193 1259 218 1251 252 1246 281 1240 330 270 499 315 43 1355 23)\fnVL TelingaterDisplay\b1\fscx156\fscy189}Hàng Giả Tạo Truyện
+Dialogue: 1,0:02:09.30,0:02:09.34,Signs,,0,0,0,,{\q2\pos(954.666,159.333)\fs100\c&H050304&\blur1\clip(m 1281 192 l 1270 242 1265 272 1260 310 409 452 331 87 1248 22 1326 54)\fnVL TelingaterDisplay\b1\fscx156\fscy189}Hàng Giả Tạo Truyện
+Dialogue: 1,0:02:09.34,0:02:09.38,Signs,,0,0,0,,{\q2\pos(954.666,159.333)\fs100\c&H050304&\blur1\clip(m 1328 122 l 1320 133 1311 148 1299 168 1288 193 1275 227 1264 258 1256 300 1250 341 1245 397 194 497 176 48 1361 37)\fnVL TelingaterDisplay\b1\fscx156\fscy189}Hàng Giả Tạo Truyện
+Dialogue: 1,0:02:09.38,0:02:09.42,Signs,,0,0,0,,{\q2\pos(954.666,159.333)\fs100\c&H050304&\blur1\clip(m 1328 133 l 1313 156 1300 175 1290 196 1277 224 1264 259 1255 304 1246 352 1241 400 124 464 163 36 1472 11)\fnVL TelingaterDisplay\b1\fscx156\fscy189}Hàng Giả Tạo Truyện
+Dialogue: 1,0:02:09.42,0:02:09.46,Signs,,0,0,0,,{\q2\pos(954.666,159.333)\fs100\c&H050304&\blur1\clip(m 1330 121 l 1316 140 1298 162 1280 190 1266 220 1252 249 1244 276 1236 308 1228 350 1221 417 214 492 216 51 1447 21)\fnVL TelingaterDisplay\b1\fscx156\fscy189}Hàng Giả Tạo Truyện
+Dialogue: 1,0:02:09.46,0:02:09.50,Signs,,0,0,0,,{\q2\pos(954.666,159.333)\fs100\c&H050304&\blur1\clip(m 1327 120 l 1310 142 1288 170 1272 196 1258 222 1248 248 1237 275 1226 311 1219 345 1211 397 130 444 263 38 1348 33)\fnVL TelingaterDisplay\b1\fscx156\fscy189}Hàng Giả Tạo Truyện
+Dialogue: 1,0:02:09.50,0:02:09.55,Signs,,0,0,0,,{\q2\pos(954.666,159.333)\fs100\c&H050304&\blur1\clip(m 1273 148 l 1243 199 1202 320 404 408 180 61 1324 40)\fnVL TelingaterDisplay\b1\fscx156\fscy189}Hàng Giả Tạo Truyện
+Dialogue: 1,0:02:09.55,0:02:09.59,Signs,,0,0,0,,{\q2\pos(954.666,159.333)\fs100\c&H050304&\blur1\clip(m 1272 124 l 1246 167 1192 335 50 442 245 60 1326 44)\fnVL TelingaterDisplay\b1\fscx156\fscy189}Hàng Giả Tạo Truyện
+Dialogue: 1,0:02:09.59,0:02:09.63,Signs,,0,0,0,,{\q2\pos(954.666,159.333)\fs100\c&H050304&\blur1\clip(m 1266 106 l 1244 143 1216 208 1193 318 165 373 321 54 1308 30)\fnVL TelingaterDisplay\b1\fscx156\fscy189}Hàng Giả Tạo Truyện
+Dialogue: 1,0:02:09.63,0:02:09.67,Signs,,0,0,0,,{\q2\pos(954.666,159.333)\fs100\c&H050304&\blur1\clip(m 1257 104 l 1242 134 1220 184 1204 235 1193 288 579 402 194 182 360 55 1291 36)\fnVL TelingaterDisplay\b1\fscx156\fscy189}Hàng Giả Tạo Truyện
+Dialogue: 1,0:02:09.67,0:02:09.71,Signs,,0,0,0,,{\q2\pos(954.666,159.333)\fs100\c&H050304&\blur1\clip(m 1266 106 l 1256 126 1246 148 1232 187 1214 268 364 340 296 83 1261 10)\fnVL TelingaterDisplay\b1\fscx156\fscy189}Hàng Giả Tạo Truyện
+Dialogue: 1,0:02:09.71,0:02:09.75,Signs,,0,0,0,,{\q2\pos(954.666,159.333)\fs100\c&H050304&\blur1\clip(m 1274 126 l 1266 142 1257 164 1250 186 1243 210 1238 237 1230 274 1225 326 483 414 110 274 294 36 1312 16)\fnVL TelingaterDisplay\b1\fscx156\fscy189}Hàng Giả Tạo Truyện
+Dialogue: 1,0:02:09.75,0:02:09.80,Signs,,0,0,0,,{\q2\pos(954.666,159.333)\fs100\c&H050304&\blur1\clip(m 1304 107 l 1298 121 1288 138 1279 160 1267 193 1259 218 1251 252 1246 281 1240 330 270 499 315 43 1355 23)\fnVL TelingaterDisplay\b1\fscx156\fscy189}Hàng Giả Tạo Truyện
+Dialogue: 1,0:02:09.80,0:02:09.84,Signs,,0,0,0,,{\q2\pos(954.666,159.333)\fs100\c&H050304&\blur1\clip(m 1281 192 l 1270 242 1265 272 1260 310 409 452 331 87 1248 22 1326 54)\fnVL TelingaterDisplay\b1\fscx156\fscy189}Hàng Giả Tạo Truyện
+Dialogue: 1,0:02:09.84,0:02:09.88,Signs,,0,0,0,,{\q2\pos(954.666,159.333)\fs100\c&H050304&\blur1\clip(m 1328 122 l 1320 133 1311 148 1299 168 1288 193 1275 227 1264 258 1256 300 1250 341 1245 397 194 497 176 48 1361 37)\fnVL TelingaterDisplay\b1\fscx156\fscy189}Hàng Giả Tạo Truyện
+Dialogue: 1,0:02:09.88,0:02:09.92,Signs,,0,0,0,,{\q2\pos(954.666,159.333)\fs100\c&H050304&\blur1\clip(m 1328 133 l 1313 156 1300 175 1290 196 1277 224 1264 259 1255 304 1246 352 1241 400 124 464 163 36 1472 11)\fnVL TelingaterDisplay\b1\fscx156\fscy189}Hàng Giả Tạo Truyện
+Dialogue: 1,0:02:09.92,0:02:09.96,Signs,,0,0,0,,{\q2\pos(954.666,159.333)\fs100\c&H050304&\blur1\clip(m 1330 121 l 1316 140 1298 162 1280 190 1266 220 1252 249 1244 276 1236 308 1228 350 1221 417 214 492 216 51 1447 21)\fnVL TelingaterDisplay\b1\fscx156\fscy189}Hàng Giả Tạo Truyện
+Dialogue: 1,0:02:09.96,0:02:10.00,Signs,,0,0,0,,{\q2\pos(954.666,159.333)\fs100\c&H050304&\blur1\clip(m 1327 120 l 1310 142 1288 170 1272 196 1258 222 1248 248 1237 275 1226 311 1219 345 1211 397 130 444 263 38 1348 33)\fnVL TelingaterDisplay\b1\fscx156\fscy189}Hàng Giả Tạo Truyện
+Dialogue: 1,0:02:10.00,0:02:10.05,Signs,,0,0,0,,{\q2\pos(954.666,159.333)\fs100\c&H050304&\blur1\clip(m 1273 148 l 1243 199 1202 320 404 408 180 61 1324 40)\fnVL TelingaterDisplay\b1\fscx156\fscy189}Hàng Giả Tạo Truyện
+Dialogue: 1,0:02:10.05,0:02:10.09,Signs,,0,0,0,,{\q2\pos(954.666,159.333)\fs100\c&H050304&\blur1\clip(m 1272 124 l 1246 167 1192 335 50 442 245 60 1326 44)\fnVL TelingaterDisplay\b1\fscx156\fscy189}Hàng Giả Tạo Truyện
+Dialogue: 1,0:02:10.09,0:02:10.13,Signs,,0,0,0,,{\q2\pos(954.666,159.333)\fs100\c&H050304&\blur1\clip(m 1266 106 l 1244 143 1216 208 1193 318 165 373 321 54 1308 30)\fnVL TelingaterDisplay\b1\fscx156\fscy189}Hàng Giả Tạo Truyện
+Dialogue: 1,0:02:10.13,0:02:10.17,Signs,,0,0,0,,{\q2\pos(954.666,159.333)\fs100\c&H050304&\blur1\clip(m 1257 104 l 1242 134 1220 184 1204 235 1193 288 579 402 194 182 360 55 1291 36)\fnVL TelingaterDisplay\b1\fscx156\fscy189}Hàng Giả Tạo Truyện
+Dialogue: 1,0:02:10.17,0:02:10.21,Signs,,0,0,0,,{\q2\pos(954.666,159.333)\fs100\c&H050304&\blur1\clip(m 1266 106 l 1256 126 1246 148 1232 187 1214 268 364 340 296 83 1261 10)\fnVL TelingaterDisplay\b1\fscx156\fscy189}Hàng Giả Tạo Truyện
+Dialogue: 1,0:02:10.21,0:02:10.25,Signs,,0,0,0,,{\q2\pos(954.666,159.333)\fs100\c&H050304&\blur1\clip(m 1274 126 l 1266 142 1257 164 1250 186 1243 210 1238 237 1230 274 1225 326 483 414 110 274 294 36 1312 16)\fnVL TelingaterDisplay\b1\fscx156\fscy189}Hàng Giả Tạo Truyện
+Dialogue: 1,0:02:10.25,0:02:10.30,Signs,,0,0,0,,{\q2\pos(954.666,159.333)\fs100\c&H050304&\blur1\clip(m 1304 107 l 1298 121 1288 138 1279 160 1267 193 1259 218 1251 252 1246 281 1240 330 270 499 315 43 1355 23)\fnVL TelingaterDisplay\b1\fscx156\fscy189}Hàng Giả Tạo Truyện
+Dialogue: 1,0:02:10.30,0:02:10.34,Signs,,0,0,0,,{\q2\pos(954.666,159.333)\fs100\c&H050304&\blur1\clip(m 1281 192 l 1270 242 1265 272 1260 310 409 452 331 87 1248 22 1326 54)\fnVL TelingaterDisplay\b1\fscx156\fscy189}Hàng Giả Tạo Truyện
+Dialogue: 1,0:02:10.34,0:02:10.38,Signs,,0,0,0,,{\q2\pos(954.666,159.333)\fs100\c&H050304&\blur1\clip(m 1328 122 l 1320 133 1311 148 1299 168 1288 193 1275 227 1264 258 1256 300 1250 341 1245 397 194 497 176 48 1361 37)\fnVL TelingaterDisplay\b1\fscx156\fscy189}Hàng Giả Tạo Truyện
+Dialogue: 1,0:02:10.38,0:02:10.42,Signs,,0,0,0,,{\q2\pos(954.666,159.333)\fs100\c&H050304&\blur1\clip(m 1328 133 l 1313 156 1300 175 1290 196 1277 224 1264 259 1255 304 1246 352 1241 400 124 464 163 36 1472 11)\fnVL TelingaterDisplay\b1\fscx156\fscy189}Hàng Giả Tạo Truyện
+Dialogue: 0,0:02:10.42,0:02:13.17,Signs,,0,0,0,,{\q2\alpha&HFF&\fnVL TelingaterDisplay\t(570,945,\alpha&H00&)\1a&HFF&\fs100\bord16\blur8.5\c&H050304&\3c&H4E20EB&\pos(954.666,159.333)\b1\fscx156\fscy189}Hàng Giả Tạo Truyện
+Dialogue: 1,0:02:10.42,0:02:13.17,Signs,,0,0,0,,{\q2\pos(954.666,159.333)\fs100\c&H050304&\3c&H632CF2&\blur1\fnVL TelingaterDisplay\t(987,1404,\c&HE6ECF9&)\b1\fscx156\fscy189}Hàng Giả Tạo Truyện
+Dialogue: 1,0:02:10.42,0:02:13.17,Signs,credit,0,0,0,,{\fad(900,0)\an2\c&H0F0318&\blur0.75\fnUVN Ky Thuat\fs60\pos(960,1026)\fscx75\fscy75\b0}PHỤ ĐỀ ĐƯỢC THỰC HIỆN BỞI{\fs90} GSGA {\fs60}THANKS TO{\fs90} MTBB\N{\fs60}DỊCH{\fs90} KiOZ {\fs60}PHƯƠNG NGỮ{\fs90} tuilakhanh {\fs60}TYPESET{\fs90} KiOZ/moch1oka/Eagle {\fs60}QC{\fs90} KiOZ/moch1oka
+Dialogue: 0,0:02:08.54,0:02:09.55,OP,,0,0,0,,{\fad(150,150)\blur4.5\bord1.5\3c&H0C344C&\c&H0C344C&\1a&HFF&\t(70,150,\1a&H00&)\t(850,930,\1a&HFF&)}Nào! Nhảy nào!
+Dialogue: 1,0:02:08.54,0:02:09.55,OP,,0,0,0,,{\fad(150,150)\blur0.75\bord0\c&HADBBC9&\4a&HFF&}Nào! Nhảy nào!
+Dialogue: 0,0:02:16.89,0:02:17.64,OP,,0,0,0,,{\fad(150,75)\blur0.75}Ầy! Sẵn sàng chưa!
+Dialogue: 0,0:02:25.52,0:02:25.69,OP,,0,0,0,,{\blur0.75\c&HCAD4DF&}Nhìn ngó xung quanh, ôi bao phủ lấy tầm mắt là cả thế giới bạch kim,
+Dialogue: 0,0:02:25.69,0:02:29.65,OP,,0,0,0,,{\blur0.75}Nhìn ngó xung quanh, ôi bao phủ lấy tầm mắt là cả thế giới bạch kim,
+Dialogue: 0,0:02:29.65,0:02:33.44,OP,,0,0,0,,{\fad(150,75)\blur0.75\c&H90803D&\t(\1c&H0B2437&)}đơn giản là bước vào một bước.
+Dialogue: 0,0:02:33.82,0:02:37.82,OP,,0,0,0,,{\fad(0,0)\blur0.75}Nhịp đập con tim không ngừng thổn thức,
+Dialogue: 0,0:02:37.82,0:02:41.74,OP,,0,0,0,,{\fad(0,0)\blur0.75}nào cùng nhau nhảy múa tung tăng~
+Dialogue: 0,0:02:42.50,0:02:49.38,OP,,0,0,0,,{\fad(150,0)\blur4.5\bord1.5\3c&H9BCCBC&\c&H9BCCBC&\t(22,3869,\3c&H0C344C&\c&H0C344C&)\1a&HFF&\t(70,150,\1a&H00&)}Vầng trăng ngày ấy em tìm thấy trên tấm lưng anh, hôm nay cũng có.
+Dialogue: 1,0:02:42.50,0:02:49.38,OP,,0,0,0,,{\fad(150,0)\blur0.75\bord0\c&H02251E&\t(22,3869,\c&HADBBC9&)\4a&HFF&}Vầng trăng ngày ấy em tìm thấy trên tấm lưng anh, hôm nay cũng có.
+Dialogue: 0,0:02:50.59,0:02:55.17,OP,,0,0,0,,{\fad(0,0)\blur4.5\bord1.5\3c&H0C344C&\c&H0C344C&}Trông như một quả cầu disco trên bầu trời đêm đang lấp la...
+Dialogue: 1,0:02:50.59,0:02:55.17,OP,,0,0,0,,{\fad(0,0)\blur0.75\bord0\c&HADBBC9&\4a&HFF&}Trông như một quả cầu disco trên bầu trời đêm đang lấp la...
+Dialogue: 0,0:02:55.17,0:02:56.18,OP,,0,0,0,,{\fad(0,0)\bord0\blur0.75\c&HADBBC9&\3c&H0C344C&}...lấp lánh... tỏa ánh tinh khôi~
+Dialogue: 0,0:02:56.18,0:03:00.35,OP,,0,0,0,,{\fad(0,75)\bord0\blur0.75\3c&HADBBC9&\c&H0C344C&}...lấp lánh... tỏa ánh tinh khôi~
+Dialogue: 0,0:03:02.31,0:03:04.27,OP,,0,0,0,,{\fad(0,0)\blur0.75}Nào thì đổi thay thay đổi.
+Dialogue: 0,0:03:04.27,0:03:06.52,OP,,0,0,0,,{\fad(0,0)\1a&H00&\blur0.75}Nào thì y nguyên như cũ.
+Dialogue: 0,0:03:06.52,0:03:10.44,OP,,0,0,0,,{\fad(0,300)\blur0.75}Em là em cả thèm chóng chán ý~
+Dialogue: 1,0:03:10.44,0:03:14.53,OP,,0,0,0,,{\fad(150,75)\blur4.5\bord1.5\3c&H0C344C&\c&H0C344C&\1a&HFF&\t(70,150,\1a&H00&)\t(4005,4085,\1a&HFF&)}Lần đầu tiên trong đời, em biết tới cõi vĩnh hằng này,
+Dialogue: 2,0:03:10.44,0:03:14.53,OP,,0,0,0,,{\fad(150,75)\blur0.75\bord0\c&HADBBC9&\4a&HFF&}Lần đầu tiên trong đời, em biết tới cõi vĩnh hằng này,
+Dialogue: 0,0:03:14.69,0:03:18.36,OP,,0,0,0,,{\fad(0,0)\blur4.5\bord1.5\3c&H0C344C&\c&H0C344C&}em xin thề với anh.
+Dialogue: 1,0:03:14.69,0:03:18.36,OP,,0,0,0,,{\fad(0,0)\blur0.75\bord0\c&HADBBC9&\4a&HFF&}em xin thề với anh.
+Dialogue: 0,0:03:18.57,0:03:23.08,OP,,0,0,0,,{\fad(0,0)\blur4.5\bord1.5\3c&H0C344C&\c&H0C344C&}Dù em đang {\3c&H81837F&\c&H81837F&}platinum {\3c&H0C344C&\c&H0C344C&}hạnh phúc
+Dialogue: 1,0:03:18.57,0:03:23.08,OP,,0,0,0,,{\fad(0,0)\blur0.75\bord0\c&HADBBC9&\4a&HFF&}Dù em đang {\c&HE2E2E2&}platinum {\c&HADBBC9&}hạnh phúc
+Dialogue: 0,0:03:23.08,0:03:23.33,OP,,0,0,0,,{\fad(0,0)\blur4.5\bord1.5\3c&H0C344C&\c&H0C344C&}vậy mà em vẫn cứ {\3c&H81837F&\c&H81837F&}platinum{\3c&H0C344C&\c&H0C344C&} buồn
+Dialogue: 1,0:03:23.08,0:03:23.33,OP,,0,0,0,,{\fad(0,0)\blur0.75\bord0\c&HADBBC9&\4a&HFF&}vậy mà em vẫn cứ {\c&HE2E2E2&}platinum{\c&HADBBC9&} buồn
+Dialogue: 0,0:03:23.33,0:03:27.37,OP,,0,0,0,,{\fad(0,0)\blur4.5\bord1.5\3c&H0C344C&\c&H0C344C&}vậy mà em vẫn cứ {\3c&H81837F&\c&H81837F&}platinum{\3c&H0C344C&\c&H0C344C&} buồn
+Dialogue: 1,0:03:23.33,0:03:27.37,OP,,0,0,0,,{\fad(0,0)\blur0.75\bord0\c&HADBBC9&\4a&HFF&}vậy mà em vẫn cứ {\c&HE2E2E2&}platinum{\c&HADBBC9&} {\c&H010174&}buồn
+Dialogue: 0,0:03:27.37,0:03:31.46,OP,,0,0,0,,{\fad(0,0)\blur0.75}và rồi em rơi {\3c&HE2E2E2&\c&H81837F&}platinum{\r\blur0.75} nước mắt
+Dialogue: 0,0:03:31.46,0:03:33.30,OP,,0,0,0,,{\fad(0,75)\blur0.75}Tại sao? Vì đâu?
+Dialogue: 0,0:03:33.30,0:03:34.92,OP,,0,0,0,,{\fad(50,75)\blur0.75\c&H04040A&}~Discothèque~
+Dialogue: 0,0:01:25.06,0:01:25.10,Black and Red,,0,0,0,,{\fscx100\fscy100\frz0\alpha&H00&\an5\fs150\blur0.9\pos(981,240)}mang trong người
+Dialogue: 0,0:01:25.10,0:01:25.14,Black and Red,,0,0,0,,{\fscx100\fscy100\frz0\alpha&H00&\an5\fs150\blur0.9\pos(980.43,239.72)}mang trong người
+Dialogue: 0,0:01:25.14,0:01:25.18,Black and Red,,0,0,0,,{\fscx100\fscy100\frz0\alpha&H00&\an5\fs150\blur0.9\pos(980.54,239.82)}mang trong người
+Dialogue: 0,0:01:25.18,0:01:25.23,Black and Red,,0,0,0,,{\fscx100\fscy100\frz0\alpha&H00&\an5\fs150\blur0.9\pos(980.8,239.83)}mang trong người
+Dialogue: 0,0:01:25.23,0:01:25.27,Black and Red,,0,0,0,,{\fscx100\fscy100\frz0\alpha&H00&\an5\fs150\blur0.9\pos(980.81,239.7)}mang trong người
+Dialogue: 0,0:01:25.27,0:01:25.31,Black and Red,,0,0,0,,{\fscx100\fscy100\frz0\alpha&H00&\an5\fs150\blur0.9\pos(980.79,239.68)}mang trong người
+Dialogue: 0,0:01:25.31,0:01:25.35,Black and Red,,0,0,0,,{\fscx100\fscy100\frz0\alpha&H00&\an5\fs150\blur0.9\pos(980.8,239.6)}mang trong người
+Dialogue: 0,0:01:25.35,0:01:25.39,Black and Red,,0,0,0,,{\fscx100\fscy100\frz0\alpha&H00&\an5\fs150\blur0.9\pos(981.02,239.47)}mang trong người
+Dialogue: 0,0:01:25.39,0:01:25.44,Black and Red,,0,0,0,,{\fscx100\fscy100\frz0\alpha&H00&\an5\fs150\blur0.9\pos(980.77,239.72)}mang trong người
+Dialogue: 0,0:01:25.44,0:01:25.48,Black and Red,,0,0,0,,{\fscx100\fscy100\frz0\alpha&H00&\an5\fs150\blur0.9\pos(980.78,239.76)}mang trong người
+Dialogue: 0,0:01:25.48,0:01:25.52,Black and Red,,0,0,0,,{\fscx100\fscy100\frz0\alpha&H00&\an5\fs150\blur0.9\pos(980.49,240.02)}mang trong người
+Dialogue: 0,0:01:25.52,0:01:25.56,Black and Red,,0,0,0,,{\fscx100\fscy100\frz0\alpha&H00&\an5\fs150\blur0.9\pos(980.63,239.64)}mang trong người
+Dialogue: 0,0:01:25.56,0:01:25.60,Black and Red,,0,0,0,,{\fscx100\fscy100\frz0\alpha&H00&\an5\fs150\blur0.9\pos(980.75,239.28)}mang trong người
+Dialogue: 0,0:01:25.60,0:01:25.64,Black and Red,,0,0,0,,{\fscx100\fscy100\frz0\alpha&H00&\an5\fs150\blur0.9\pos(980.64,239.72)}mang trong người
+Dialogue: 0,0:01:25.64,0:01:25.69,Black and Red,,0,0,0,,{\fscx100\fscy100\frz0\alpha&H00&\an5\fs150\blur0.9\pos(980.49,239.95)}mang trong người
+Dialogue: 0,0:01:25.69,0:01:25.73,Black and Red,,0,0,0,,{\fscx100\fscy100\frz0\alpha&H00&\an5\fs150\blur0.9\pos(980.49,239.94)}mang trong người
+Dialogue: 0,0:01:25.06,0:01:25.10,Black and Red,,0,0,0,,{\fscx150\fscy150\frz0\alpha&H00&\an5\blur0.94\pos(981,840)\c&HF0F1EF&}Hoạt Cảnh số    18
+Dialogue: 0,0:01:25.10,0:01:25.14,Black and Red,,0,0,0,,{\fscx150\fscy150\frz0\alpha&H00&\an5\blur0.94\pos(980.43,839.72)\c&HF0F1EF&}Hoạt Cảnh số    18
+Dialogue: 0,0:01:25.14,0:01:25.18,Black and Red,,0,0,0,,{\fscx150\fscy150\frz0\alpha&H00&\an5\blur0.94\pos(980.54,839.82)\c&HF0F1EF&}Hoạt Cảnh số    18
+Dialogue: 0,0:01:25.18,0:01:25.23,Black and Red,,0,0,0,,{\fscx150\fscy150\frz0\alpha&H00&\an5\blur0.94\pos(980.8,839.83)\c&HF0F1EF&}Hoạt Cảnh số    18
+Dialogue: 0,0:01:25.23,0:01:25.27,Black and Red,,0,0,0,,{\fscx150\fscy150\frz0\alpha&H00&\an5\blur0.94\pos(980.81,839.7)\c&HF0F1EF&}Hoạt Cảnh số    18
+Dialogue: 0,0:01:25.27,0:01:25.31,Black and Red,,0,0,0,,{\fscx150\fscy150\frz0\alpha&H00&\an5\blur0.94\pos(980.79,839.68)\c&HF0F1EF&}Hoạt Cảnh số    18
+Dialogue: 0,0:01:25.31,0:01:25.35,Black and Red,,0,0,0,,{\fscx150\fscy150\frz0\alpha&H00&\an5\blur0.94\pos(980.8,839.6)\c&HF0F1EF&}Hoạt Cảnh số    18
+Dialogue: 0,0:01:25.35,0:01:25.39,Black and Red,,0,0,0,,{\fscx150\fscy150\frz0\alpha&H00&\an5\blur0.94\pos(981.02,839.47)\c&HF0F1EF&}Hoạt Cảnh số    18
+Dialogue: 0,0:01:25.39,0:01:25.44,Black and Red,,0,0,0,,{\fscx150\fscy150\frz0\alpha&H00&\an5\blur0.94\pos(980.77,839.72)\c&HF0F1EF&}Hoạt Cảnh số    18
+Dialogue: 0,0:01:25.44,0:01:25.48,Black and Red,,0,0,0,,{\fscx150\fscy150\frz0\alpha&H00&\an5\blur0.94\pos(980.78,839.76)\c&HF0F1EF&}Hoạt Cảnh số    18
+Dialogue: 0,0:01:25.48,0:01:25.52,Black and Red,,0,0,0,,{\fscx150\fscy150\frz0\alpha&H00&\an5\blur0.94\pos(980.49,840.02)\c&HF0F1EF&}Hoạt Cảnh số    18
+Dialogue: 0,0:01:25.52,0:01:25.56,Black and Red,,0,0,0,,{\fscx150\fscy150\frz0\alpha&H00&\an5\blur0.94\pos(980.63,839.64)\c&HF0F1EF&}Hoạt Cảnh số    18
+Dialogue: 0,0:01:25.56,0:01:25.60,Black and Red,,0,0,0,,{\fscx150\fscy150\frz0\alpha&H00&\an5\blur0.94\pos(980.75,839.28)\c&HF0F1EF&}Hoạt Cảnh số    18
+Dialogue: 0,0:01:25.60,0:01:25.64,Black and Red,,0,0,0,,{\fscx150\fscy150\frz0\alpha&H00&\an5\blur0.94\pos(980.64,839.72)\c&HF0F1EF&}Hoạt Cảnh số    18
+Dialogue: 0,0:01:25.64,0:01:25.69,Black and Red,,0,0,0,,{\fscx150\fscy150\frz0\alpha&H00&\an5\blur0.94\pos(980.49,839.95)\c&HF0F1EF&}Hoạt Cảnh số    18
+Dialogue: 0,0:01:25.69,0:01:25.73,Black and Red,,0,0,0,,{\fscx150\fscy150\frz0\alpha&H00&\an5\blur0.94\pos(980.49,839.94)\c&HF0F1EF&}Hoạt Cảnh số    18
+Dialogue: 0,0:01:26.35,0:01:26.39,Black and Red,,0,0,0,,{\fscx100\fscy100\frz0\alpha&H00&\an5\fs150\blur0.9\pos(981,240)}mang thai
+Dialogue: 0,0:01:26.39,0:01:26.44,Black and Red,,0,0,0,,{\fscx100\fscy100\frz0\alpha&H00&\an5\fs150\blur0.9\pos(980.42,239.72)}mang thai
+Dialogue: 0,0:01:26.44,0:01:26.48,Black and Red,,0,0,0,,{\fscx100\fscy100\frz0\alpha&H00&\an5\fs150\blur0.9\pos(980.53,239.83)}mang thai
+Dialogue: 0,0:01:26.48,0:01:26.52,Black and Red,,0,0,0,,{\fscx100\fscy100\frz0\alpha&H00&\an5\fs150\blur0.9\pos(980.81,239.83)}mang thai
+Dialogue: 0,0:01:26.52,0:01:26.56,Black and Red,,0,0,0,,{\fscx100\fscy100\frz0\alpha&H00&\an5\fs150\blur0.9\pos(980.85,239.7)}mang thai
+Dialogue: 0,0:01:26.56,0:01:26.60,Black and Red,,0,0,0,,{\fscx100\fscy100\frz0\alpha&H00&\an5\fs150\blur0.9\pos(980.79,239.67)}mang thai
+Dialogue: 0,0:01:26.60,0:01:26.64,Black and Red,,0,0,0,,{\fscx100\fscy100\frz0\alpha&H00&\an5\fs150\blur0.9\pos(980.82,239.6)}mang thai
+Dialogue: 0,0:01:26.64,0:01:26.69,Black and Red,,0,0,0,,{\fscx100\fscy100\frz0\alpha&H00&\an5\fs150\blur0.9\pos(981,239.47)}mang thai
+Dialogue: 0,0:01:26.69,0:01:26.73,Black and Red,,0,0,0,,{\fscx100\fscy100\frz0\alpha&H00&\an5\fs150\blur0.9\pos(980.78,239.72)}mang thai
+Dialogue: 0,0:01:26.35,0:01:26.39,Black and Red,,0,0,0,,{\fscx150\fscy150\frz0\alpha&H00&\an5\blur0.94\pos(981,840)\c&HF0F1EF&}Hoạt Cảnh số    19
+Dialogue: 0,0:01:26.39,0:01:26.44,Black and Red,,0,0,0,,{\fscx150\fscy150\frz0\alpha&H00&\an5\blur0.94\pos(980.42,839.72)\c&HF0F1EF&}Hoạt Cảnh số    19
+Dialogue: 0,0:01:26.44,0:01:26.48,Black and Red,,0,0,0,,{\fscx150\fscy150\frz0\alpha&H00&\an5\blur0.94\pos(980.53,839.83)\c&HF0F1EF&}Hoạt Cảnh số    19
+Dialogue: 0,0:01:26.48,0:01:26.52,Black and Red,,0,0,0,,{\fscx150\fscy150\frz0\alpha&H00&\an5\blur0.94\pos(980.81,839.83)\c&HF0F1EF&}Hoạt Cảnh số    19
+Dialogue: 0,0:01:26.52,0:01:26.56,Black and Red,,0,0,0,,{\fscx150\fscy150\frz0\alpha&H00&\an5\blur0.94\pos(980.85,839.7)\c&HF0F1EF&}Hoạt Cảnh số    19
+Dialogue: 0,0:01:26.56,0:01:26.60,Black and Red,,0,0,0,,{\fscx150\fscy150\frz0\alpha&H00&\an5\blur0.94\pos(980.79,839.67)\c&HF0F1EF&}Hoạt Cảnh số    19
+Dialogue: 0,0:01:26.60,0:01:26.64,Black and Red,,0,0,0,,{\fscx150\fscy150\frz0\alpha&H00&\an5\blur0.94\pos(980.82,839.6)\c&HF0F1EF&}Hoạt Cảnh số    19
+Dialogue: 0,0:01:26.64,0:01:26.69,Black and Red,,0,0,0,,{\fscx150\fscy150\frz0\alpha&H00&\an5\blur0.94\pos(981,839.47)\c&HF0F1EF&}Hoạt Cảnh số    19
+Dialogue: 0,0:01:26.69,0:01:26.73,Black and Red,,0,0,0,,{\fscx150\fscy150\frz0\alpha&H00&\an5\blur0.94\pos(980.78,839.72)\c&HF0F1EF&}Hoạt Cảnh số    19
+Dialogue: 1,0:12:18.05,0:12:19.55,Blogemonogatari,,0,0,0,,{\fs52.5\blur0.75\c&H1F1F1F&\frz12.059\pos(808.5,279)\fscx94\fscy80\b1}Học viện Shintō
+Dialogue: 0,0:12:18.05,0:12:19.55,Blogemonogatari,,0,0,0,,{\fs52.5\blur5\alpha&H80&\frz12.059\pos(808.5,279)\c&H7A7A7A&\fscx94\fscy80\b1}Học viện Shintō
+Dialogue: 0,0:12:18.05,0:12:19.55,Blogemonogatari,,0,0,0,,{\an4\fs37.5\blur0.75\frz3.863\c&H4952BD&\pos(850.5,372)\fscx70\fscy66}Hội quán \Nsinh viên
+Dialogue: 0,0:12:18.05,0:12:19.55,Black and Red,,0,0,0,,{\fs30\fsp4.5\blur0.9\frz18.434\c&HDCE6FF&\pos(921,470)\fscx72\fscy87}phòng trưng bày
+Dialogue: 0,0:12:18.05,0:12:19.55,Blogemonogatari,,0,0,0,,{\fs33\blur4\c&HB1B1B1&\alpha&HB0&\pos(803.57,597.29)\fscx88\fscy88}Phân khoa phúc lợi xã hội
+Dialogue: 1,0:12:18.05,0:12:19.55,Blogemonogatari,,0,0,0,,{\fs33\blur0.8\c&HB1B1B1&\pos(803.57,597.29)\fscx88\fscy88}Phân khoa phúc lợi xã hội
+Dialogue: 0,0:12:18.05,0:12:19.55,Blogemonogatari,,0,0,0,,{\fs30\blur0.9\frz4.186\pos(654,771)\c&HA9C8E2&\fscx92\fscy92}phòng ăn
+Dialogue: 0,0:24:09.17,0:24:10.47,Black and Red,,0,0,0,,{\fs110\blur0.9\pos(960,785.57)}HẾT
+Dialogue: 1,0:01:25.73,0:01:26.35,Blogemonogatari,,0,0,0,,{\fs37.5\blur0.9\c&H4A7584&\pos(849,225)\fscx93\fscy93}Tử cung
+Dialogue: 1,0:01:25.73,0:01:26.35,Blogemonogatari,,0,0,0,,{\fs37.5\blur0.9\c&H4A7584&\pos(975,259.5)\fscx86\fscy86}Đáy tử cung
+Dialogue: 1,0:01:25.73,0:01:26.35,Blogemonogatari,,0,0,0,,{\fs37.5\blur0.9\c&H4A7584&\pos(1251,735)\fscx78\fscy78}Buồng trứng
+Dialogue: 1,0:01:25.73,0:01:26.35,Blogemonogatari,,0,0,0,,{\fs37.5\blur0.9\c&H4A7584&\pos(1212,219)}Ống dẫn trứng
+Dialogue: 1,0:01:25.73,0:01:26.35,Blogemonogatari,,0,0,0,,{\fs37.5\blur0.9\c&H4A7584&\pos(655.5,226.5)}Bóng vòi
+Dialogue: 1,0:01:25.73,0:01:26.35,Blogemonogatari,,0,0,0,,{\fs33\blur0.9\c&H4A7584&\pos(754.5,271.5)}Eo vòi
+Dialogue: 1,0:01:25.73,0:01:26.35,Blogemonogatari,,0,0,0,,{\fs36\blur0.9\c&H4A7584&\pos(1357.5,681)\fscx87\fscy87}Tua vòi
+Dialogue: 1,0:01:25.73,0:01:26.35,Blogemonogatari,,0,0,0,,{\fs30\blur0.9\c&H4A7584&\pos(1117,558.83)\fscx91\fscy91}Cơ tử cung
+Dialogue: 1,0:01:25.73,0:01:26.35,Blogemonogatari,,0,0,0,,{\fs30\blur0.9\c&H4A7584&\pos(1129.5,667.5)\fscx78\fscy78}Cổ tử cung
+Dialogue: 1,0:01:25.73,0:01:26.35,Blogemonogatari,,0,0,0,,{\fs42\blur0.9\c&H4A7584&\pos(681,741)\fscx78\fscy78}Đầu cổ tử cung
+Dialogue: 1,0:01:25.73,0:01:26.35,Blogemonogatari,,0,0,0,,{\fs37.5\blur0.9\c&H4A7584&\pos(1152,808.5)\fscx80\fscy80}Âm đạo
+Dialogue: 0,0:01:25.73,0:01:26.35,Blogemonogatari,,0,0,0,,{\fs37.5\blur4.5\c&H7DA4B7&\pos(849,225)\fscx93\fscy93}Tử cung
+Dialogue: 0,0:01:25.73,0:01:26.35,Blogemonogatari,,0,0,0,,{\fs37.5\blur4.5\c&H7DA4B7&\pos(975,259.5)\fscx86\fscy86}Đáy tử cung
+Dialogue: 0,0:01:25.73,0:01:26.35,Blogemonogatari,,0,0,0,,{\fs37.5\blur4.5\c&H7DA4B7&\pos(1251,735)\fscx78\fscy78}Buồng trứng
+Dialogue: 0,0:01:25.73,0:01:26.35,Blogemonogatari,,0,0,0,,{\fs37.5\blur4.5\c&H7DA4B7&\pos(1212,219)}Ống dẫn trứng
+Dialogue: 0,0:01:25.73,0:01:26.35,Blogemonogatari,,0,0,0,,{\fs37.5\blur4.5\c&H7DA4B7&\pos(655.5,226.5)}Bóng vòi
+Dialogue: 0,0:01:25.73,0:01:26.35,Blogemonogatari,,0,0,0,,{\fs33\blur4.5\c&H7DA4B7&\pos(754.5,271.5)}Eo vòi
+Dialogue: 0,0:01:25.73,0:01:26.35,Blogemonogatari,,0,0,0,,{\fs36\blur4.5\c&H7DA4B7&\pos(1357.5,681)\fscx87\fscy87}Tua vòi
+Dialogue: 0,0:01:25.73,0:01:26.35,Blogemonogatari,,0,0,0,,{\fs30\blur4.5\c&H7DA4B7&\pos(1117,558.83)\fscx91\fscy91}Cơ tử cung
+Dialogue: 0,0:01:25.73,0:01:26.35,Blogemonogatari,,0,0,0,,{\fs30\blur4.5\c&H7DA4B7&\pos(1129.5,667.5)\fscx78\fscy78}Cổ tử cung
+Dialogue: 0,0:01:25.73,0:01:26.35,Blogemonogatari,,0,0,0,,{\fs42\blur4.5\c&H7DA4B7&\pos(681,741)\fscx78\fscy78}Đầu cổ tử cung
+Dialogue: 0,0:01:25.73,0:01:26.35,Blogemonogatari,,0,0,0,,{\fs37.5\blur4.5\c&H7DA4B7&\pos(1152,808.5)\fscx80\fscy80}Âm đạo
+Dialogue: 1,0:03:37.03,0:03:37.53,Blogemonogatari,,0,0,0,,{\an5\blur0.9\fs37.5\b1\c&H89B9E6&\fscx87\fscy87}Araragi Tsukihi.\N Tóc nó mọc nhanh kinh khủng.\N Ngẫm lại thì cũng phải,\N chính vì thế mà nó có thể đổi kiểu tóc liên xoành xoạch vài tháng một lần\N mà không cần đến tóc giả.\N Hôm nào còn thấy nó cắt kiểu bob,\N mà giờ đã dài đến vai, dài hơn tóc tôi rồi.\N Quái nào mà có một tháng mà tóc nó mọc được đến vai nhở.\N\N Nhớ lại thì Kanbaru kêu tóc ẻm mọc nhanh là vì cái tính gợi tình gợi dục của ẻm,\N nhưng không thể lấy câu đùa đó ra để giải thích được.\N Thật.\N Không đùa được.\N Mọc nhanh tới vậy thì ảo quá.\N Cứ như kiểu có khả năng tái tạo vậy.\N Tất nhiên việc cắt tóc không gây ảnh hưởng gì tới sức khỏe hay tính mạng,\N nên khả năng tái tạo đó cũng không lấy làm quá mạnh.\N Nhưng nếu chiếu theo khả năng tái tạo này,\N thì móng tay của nó cũng phải mọc nhanh.\N\N Phải nói nó trao đổi chất rất tốt.\N Hôm nay nó còn đi tắm giữa trưa luôn, và xem ra là cắt móng tay thường xuyên thật.\N À thì đây cũng chỉ như kiểu tiểu tiết mà thôi, \Ncơ mà để ý mới thấy cũng còn kha khá cái khác ấy chứ.\N\N Có điều, xét cho cùng thì nó vẫn là người thân trong gia đình,\N nên tôi cũng coi như kệ mấy cái tiểu tiết đó.\N Rốt cuộc chỉ khi thực sự để ý thì mới thấy lạ chứ bình thường thì vẫn cứ bình thường. \NHàng giả là hàng giả bởi vì nó giống hàng thật,\N bằng chứng để nói nó là hàng giả chính là nó giống hàng thật.
+Dialogue: 0,0:03:37.03,0:03:37.53,Blogemonogatari,,0,0,0,,{\p1\c&HF5F5F7&\fscx1300\fscy730\pos(960,1083)}m 0 0 l 150 0 150 150 0 150{\p0}
+Dialogue: 0,0:09:30.04,0:09:31.04,Blogemonogatari,,0,0,0,,{\fs27\blur1\frz42.069\c&H060706&\pos(1064.31,455.96)\fscx72\fscy91}LỐI THOÁT HIỂM
+Dialogue: 0,0:12:21.51,0:12:22.59,Blogemonogatari,,0,0,0,,{\fs60\blur4\fax0.1\fsp4.5\c&H626766&\frz2.03\pos(885.5,237)\alpha&HB0&\fscx86\fscy86}Bản   đồ   khuôn   viên   trường
+Dialogue: 1,0:12:21.51,0:12:22.59,Blogemonogatari,,0,0,0,,{\fs60\blur1\fax0.1\fsp4.5\c&H626766&\frz2.03\pos(885.5,237)\fscx86\fscy86}Bản   đồ   khuôn   viên   trường
+Dialogue: 0,0:21:22.05,0:21:22.09,Blogemonogatari,,0,0,0,,{\fscy100\frz0\alpha&H00&\fs82.5\blur0.9\fscx110\an8\pos(960,225)\c&H070609&}Unlimited Rulebook \N{\fs72\fscx100}"Quy chuẩn ngoại lệ"
+Dialogue: 0,0:21:22.09,0:21:22.13,Blogemonogatari,,0,0,0,,{\fscy100\frz0\alpha&H00&\fs82.5\blur0.9\fscx110\an8\pos(959.78,224.96)\c&H070609&}Unlimited Rulebook \N{\fs72\fscx100}"Quy chuẩn ngoại lệ"
+Dialogue: 0,0:21:22.13,0:21:22.17,Blogemonogatari,,0,0,0,,{\fscy100\frz0\alpha&H00&\fs82.5\blur0.9\fscx110\an8\pos(959.6,224.66)\c&H070609&}Unlimited Rulebook \N{\fs72\fscx100}"Quy chuẩn ngoại lệ"
+Dialogue: 0,0:21:22.17,0:21:22.21,Blogemonogatari,,0,0,0,,{\fscy100\frz0\alpha&H00&\fs82.5\blur0.9\fscx110\an8\pos(960.08,224.78)\c&H070609&}Unlimited Rulebook \N{\fs72\fscx100}"Quy chuẩn ngoại lệ"
+Dialogue: 0,0:21:22.21,0:21:22.26,Blogemonogatari,,0,0,0,,{\fscy100\frz0\alpha&H00&\fs82.5\blur0.9\fscx110\an8\pos(959.86,224.89)\c&H070609&}Unlimited Rulebook \N{\fs72\fscx100}"Quy chuẩn ngoại lệ"
+Dialogue: 0,0:21:22.26,0:21:22.30,Blogemonogatari,,0,0,0,,{\fscy100\frz0\alpha&H00&\fs82.5\blur0.9\fscx110\an8\pos(959.87,225.12)\c&H070609&}Unlimited Rulebook \N{\fs72\fscx100}"Quy chuẩn ngoại lệ"
+Dialogue: 0,0:21:22.30,0:21:22.34,Blogemonogatari,,0,0,0,,{\fscy100\frz0\alpha&H00&\fs82.5\blur0.9\fscx110\an8\pos(960.23,224.94)\c&H070609&}Unlimited Rulebook \N{\fs72\fscx100}"Quy chuẩn ngoại lệ"
+Dialogue: 0,0:21:22.34,0:21:22.38,Blogemonogatari,,0,0,0,,{\fscy100\frz0\alpha&H00&\fs82.5\blur0.9\fscx110\an8\pos(959.89,224.81)\c&H070609&}Unlimited Rulebook \N{\fs72\fscx100}"Quy chuẩn ngoại lệ"
+Dialogue: 0,0:21:22.38,0:21:22.42,Blogemonogatari,,0,0,0,,{\fscy100\frz0\alpha&H00&\fs82.5\blur0.9\fscx110\an8\pos(960.14,224.81)\c&H070609&}Unlimited Rulebook \N{\fs72\fscx100}"Quy chuẩn ngoại lệ"
+Dialogue: 0,0:21:22.42,0:21:22.46,Blogemonogatari,,0,0,0,,{\fscy100\frz0\alpha&H00&\fs82.5\blur0.9\fscx110\an8\pos(959.66,225)\c&H070609&}Unlimited Rulebook \N{\fs72\fscx100}"Quy chuẩn ngoại lệ"
+Dialogue: 0,0:21:22.46,0:21:22.51,Blogemonogatari,,0,0,0,,{\fscy100\frz0\alpha&H00&\fs82.5\blur0.9\fscx110\an8\pos(959.79,225.04)\c&H070609&}Unlimited Rulebook \N{\fs72\fscx100}"Quy chuẩn ngoại lệ"
+Dialogue: 0,0:21:22.51,0:21:22.55,Blogemonogatari,,0,0,0,,{\fscy100\frz0\alpha&H00&\fs82.5\blur0.9\fscx110\an8\pos(959.87,224.75)\c&H070609&}Unlimited Rulebook \N{\fs72\fscx100}"Quy chuẩn ngoại lệ"
+Dialogue: 0,0:21:22.55,0:21:22.59,Blogemonogatari,,0,0,0,,{\fscy100\frz0\alpha&H00&\fs82.5\blur0.9\fscx110\an8\pos(959.81,224.66)\c&H070609&}Unlimited Rulebook \N{\fs72\fscx100}"Quy chuẩn ngoại lệ"
+Dialogue: 0,0:21:22.59,0:21:22.63,Blogemonogatari,,0,0,0,,{\fscy100\frz0\alpha&H00&\fs82.5\blur0.9\fscx110\an8\pos(959.79,225.06)\c&H070609&}Unlimited Rulebook \N{\fs72\fscx100}"Quy chuẩn ngoại lệ"
+Dialogue: 0,0:21:22.63,0:21:22.67,Blogemonogatari,,0,0,0,,{\fscy100\frz0\alpha&H00&\fs82.5\blur0.9\fscx110\an8\pos(959.62,225.23)\c&H070609&}Unlimited Rulebook \N{\fs72\fscx100}"Quy chuẩn ngoại lệ"
+Dialogue: 0,0:21:22.67,0:21:22.71,Blogemonogatari,,0,0,0,,{\fscy100\frz0\alpha&H00&\fs82.5\blur0.9\fscx110\an8\pos(959.79,225.05)\c&H070609&}Unlimited Rulebook \N{\fs72\fscx100}"Quy chuẩn ngoại lệ"
+Dialogue: 0,0:21:22.71,0:21:22.76,Blogemonogatari,,0,0,0,,{\fscy100\frz0\alpha&H00&\fs82.5\blur0.9\fscx110\an8\pos(959.72,224.72)\c&H070609&}Unlimited Rulebook \N{\fs72\fscx100}"Quy chuẩn ngoại lệ"
+Dialogue: 0,0:21:22.76,0:21:22.80,Blogemonogatari,,0,0,0,,{\fscy100\frz0\alpha&H00&\fs82.5\blur0.9\fscx110\an8\pos(960.06,224.92)\c&H070609&}Unlimited Rulebook \N{\fs72\fscx100}"Quy chuẩn ngoại lệ"
+Dialogue: 0,0:21:22.80,0:21:22.84,Blogemonogatari,,0,0,0,,{\fscy100\frz0\alpha&H00&\fs82.5\blur0.9\fscx110\an8\pos(960.12,224.92)\c&H070609&}Unlimited Rulebook \N{\fs72\fscx100}"Quy chuẩn ngoại lệ"
+Dialogue: 0,0:21:22.84,0:21:22.88,Blogemonogatari,,0,0,0,,{\fscy100\frz0\alpha&H00&\fs82.5\blur0.9\fscx110\an8\pos(959.59,224.65)\c&H070609&}Unlimited Rulebook \N{\fs72\fscx100}"Quy chuẩn ngoại lệ"
+Dialogue: 0,0:21:22.88,0:21:22.96,Blogemonogatari,,0,0,0,,{\fscy100\frz0\alpha&H00&\fs82.5\blur0.9\fscx110\an8\pos(959.88,224.8)\c&H070609&}Unlimited Rulebook \N{\fs72\fscx100}"Quy chuẩn ngoại lệ"
+Dialogue: 0,0:21:22.96,0:21:23.01,Blogemonogatari,,0,0,0,,{\fscy100\frz0\alpha&H00&\fs82.5\blur0.9\fscx110\an8\pos(960.09,225.03)\c&H070609&}Unlimited Rulebook \N{\fs72\fscx100}"Quy chuẩn ngoại lệ"
+Dialogue: 0,0:21:23.01,0:21:23.05,Blogemonogatari,,0,0,0,,{\fscy100\frz0\alpha&H00&\fs82.5\blur0.9\fscx110\an8\pos(959.83,224.74)\c&H070609&}Unlimited Rulebook \N{\fs72\fscx100}"Quy chuẩn ngoại lệ"
+Dialogue: 0,0:21:22.05,0:21:23.05,Black and Red,,0,0,0,,{\fscy150\frz0\alpha&H00&\blur0.94\fscx150\an5\pos(960,845)\c&H050505&}Hoạt Cảnh số    401
+Dialogue: 0,0:09:06.02,0:09:08.02,Black and Red,,0,0,0,,{\fs45\blur1.2\c&H000000&\pos(165,789.5)}Cấm Vào
+Dialogue: 0,0:09:06.02,0:09:08.02,Black and Red,,0,0,0,,{\fs37.5\blur1.2\c&H000000&\pos(438,231.5)}Cấm Vào
+Dialogue: 0,0:09:06.02,0:09:08.02,Black and Red,,0,0,0,,{\fs18\blur1.2\c&H000000&\frz355.992\pos(1329,644)\fscx116\fscy116}Cấm Vào
+Dialogue: 0,0:05:53.58,0:05:53.66,Black and Red,,0,0,0,,{\fs30\blur0.9\c&HC5BEBA&\pos(1018.5,463.5)\fscx145\fscy145}Ây
+Dialogue: 0,0:05:53.66,0:05:53.74,Black and Red,,0,0,0,,{\fs67.5\blur0.9\c&HD5D2CE&\pos(1096.5,501)\fscx145\fscy145}Ây
+Dialogue: 0,0:05:53.74,0:05:53.95,Black and Red,,0,0,0,,{\fs82.5\blur0.9\c&HD5D2CE&\pos(1165.5,531)\fscx186\fscy186}Ây
+Dialogue: 0,0:11:46.39,0:11:46.47,Black and Red,,0,0,0,,{\fscx99.87\fscy99.87\frz0\alpha&H00&\fs50\blur0.8\b0\c&HEAEEF2&\pos(1173.4,688.84)}Hử
+Dialogue: 0,0:11:46.47,0:11:46.56,Black and Red,,0,0,0,,{\fscx100\fscy100\frz0\alpha&H00&\fs50\blur0.8\b0\c&HF0F4F7&\pos(1122.51,637.89)}Hử
+Dialogue: 0,0:11:46.56,0:11:47.06,Black and Red,,0,0,0,,{\fscx100\fscy100\frz0\alpha&H00&\fs50\blur0.8\b0\c&HF0F4F7&\pos(1081.71,586.86)}Hử
+Dialogue: 0,0:05:53.95,0:05:54.00,Black and Red,ts.mochi,0,0,0,,{\frz0\fscx100\fscy100\blur7\pos(966,465)\c&HFCFBFA&\alpha&H60&\fs70}Khung Hình Đen
+Dialogue: 0,0:05:54.00,0:05:54.04,Black and Red,ts.mochi,0,0,0,,{\frz0\fscx100\fscy100\blur7\pos(965.77,465.01)\c&HFCFBFA&\alpha&H60&\fs70}Khung Hình Đen
+Dialogue: 0,0:05:54.04,0:05:54.08,Black and Red,ts.mochi,0,0,0,,{\frz0\fscx100\fscy100\blur7\pos(965.97,464.4)\c&HFCFBFA&\alpha&H60&\fs70}Khung Hình Đen
+Dialogue: 0,0:05:54.08,0:05:54.12,Black and Red,ts.mochi,0,0,0,,{\frz0\fscx100\fscy100\blur7\pos(965.87,465.08)\c&HFCFBFA&\alpha&H60&\fs70}Khung Hình Đen
+Dialogue: 0,0:05:54.12,0:05:54.16,Black and Red,ts.mochi,0,0,0,,{\frz0\fscx100\fscy100\blur7\pos(965.71,465.1)\c&HFCFBFA&\alpha&H60&\fs70}Khung Hình Đen
+Dialogue: 0,0:05:54.16,0:05:54.20,Black and Red,ts.mochi,0,0,0,,{\frz0\fscx100\fscy100\blur7\pos(965.76,464.86)\c&HFCFBFA&\alpha&H60&\fs70}Khung Hình Đen
+Dialogue: 0,0:05:54.20,0:05:54.25,Black and Red,ts.mochi,0,0,0,,{\frz0\fscx100\fscy100\blur7\pos(966.3,465.18)\c&HFCFBFA&\alpha&H60&\fs70}Khung Hình Đen
+Dialogue: 0,0:05:54.25,0:05:54.29,Black and Red,ts.mochi,0,0,0,,{\frz0\fscx100\fscy100\blur7\pos(965.75,464.84)\c&HFCFBFA&\alpha&H60&\fs70}Khung Hình Đen
+Dialogue: 1,0:05:53.95,0:05:54.00,Black and Red,ts.mochi,0,0,0,,{\frz0\fscx100\fscy100\blur0.94\pos(966,465)\c&HFCFBFA&\fs70}Khung Hình Đen
+Dialogue: 1,0:05:54.00,0:05:54.04,Black and Red,ts.mochi,0,0,0,,{\frz0\fscx100\fscy100\blur0.94\pos(965.77,465.01)\c&HFCFBFA&\fs70}Khung Hình Đen
+Dialogue: 1,0:05:54.04,0:05:54.08,Black and Red,ts.mochi,0,0,0,,{\frz0\fscx100\fscy100\blur0.94\pos(965.97,464.4)\c&HFCFBFA&\fs70}Khung Hình Đen
+Dialogue: 1,0:05:54.08,0:05:54.12,Black and Red,ts.mochi,0,0,0,,{\frz0\fscx100\fscy100\blur0.94\pos(965.87,465.08)\c&HFCFBFA&\fs70}Khung Hình Đen
+Dialogue: 1,0:05:54.12,0:05:54.16,Black and Red,ts.mochi,0,0,0,,{\frz0\fscx100\fscy100\blur0.94\pos(965.71,465.1)\c&HFCFBFA&\fs70}Khung Hình Đen
+Dialogue: 1,0:05:54.16,0:05:54.20,Black and Red,ts.mochi,0,0,0,,{\frz0\fscx100\fscy100\blur0.94\pos(965.76,464.86)\c&HFCFBFA&\fs70}Khung Hình Đen
+Dialogue: 1,0:05:54.20,0:05:54.25,Black and Red,ts.mochi,0,0,0,,{\frz0\fscx100\fscy100\blur0.94\pos(966.3,465.18)\c&HFCFBFA&\fs70}Khung Hình Đen
+Dialogue: 1,0:05:54.25,0:05:54.29,Black and Red,ts.mochi,0,0,0,,{\frz0\fscx100\fscy100\blur0.94\pos(965.75,464.84)\c&HFCFBFA&\fs70}Khung Hình Đen
+Dialogue: 0,0:05:53.95,0:05:54.00,Black and Red,ts.mochi,0,0,0,,{\frz0\alpha&H60&\fscx150\fscy150\blur4\pos(966,870)}Hoạt Cảnh số     Không Có
+Dialogue: 0,0:05:54.00,0:05:54.04,Black and Red,ts.mochi,0,0,0,,{\frz0\alpha&H60&\fscx150\fscy150\blur4\pos(965.77,870.01)}Hoạt Cảnh số     Không Có
+Dialogue: 0,0:05:54.04,0:05:54.08,Black and Red,ts.mochi,0,0,0,,{\frz0\alpha&H60&\fscx150\fscy150\blur4\pos(965.97,869.4)}Hoạt Cảnh số     Không Có
+Dialogue: 0,0:05:54.08,0:05:54.12,Black and Red,ts.mochi,0,0,0,,{\frz0\alpha&H60&\fscx150\fscy150\blur4\pos(965.87,870.08)}Hoạt Cảnh số     Không Có
+Dialogue: 0,0:05:54.12,0:05:54.16,Black and Red,ts.mochi,0,0,0,,{\frz0\alpha&H60&\fscx150\fscy150\blur4\pos(965.71,870.1)}Hoạt Cảnh số     Không Có
+Dialogue: 0,0:05:54.16,0:05:54.20,Black and Red,ts.mochi,0,0,0,,{\frz0\alpha&H60&\fscx150\fscy150\blur4\pos(965.76,869.86)}Hoạt Cảnh số     Không Có
+Dialogue: 0,0:05:54.20,0:05:54.25,Black and Red,ts.mochi,0,0,0,,{\frz0\alpha&H60&\fscx150\fscy150\blur4\pos(966.3,870.18)}Hoạt Cảnh số     Không Có
+Dialogue: 0,0:05:54.25,0:05:54.29,Black and Red,ts.mochi,0,0,0,,{\frz0\alpha&H60&\fscx150\fscy150\blur4\pos(965.75,869.84)}Hoạt Cảnh số     Không Có
+Dialogue: 1,0:05:53.95,0:05:54.00,Black and Red,ts.mochi,0,0,0,,{\frz0\fscx150\fscy150\blur0.94\pos(966,870)}Hoạt Cảnh số     Không Có
+Dialogue: 1,0:05:54.00,0:05:54.04,Black and Red,ts.mochi,0,0,0,,{\frz0\fscx150\fscy150\blur0.94\pos(965.77,870.01)}Hoạt Cảnh số     Không Có
+Dialogue: 1,0:05:54.04,0:05:54.08,Black and Red,ts.mochi,0,0,0,,{\frz0\fscx150\fscy150\blur0.94\pos(965.97,869.4)}Hoạt Cảnh số     Không Có
+Dialogue: 1,0:05:54.08,0:05:54.12,Black and Red,ts.mochi,0,0,0,,{\frz0\fscx150\fscy150\blur0.94\pos(965.87,870.08)}Hoạt Cảnh số     Không Có
+Dialogue: 1,0:05:54.12,0:05:54.16,Black and Red,ts.mochi,0,0,0,,{\frz0\fscx150\fscy150\blur0.94\pos(965.71,870.1)}Hoạt Cảnh số     Không Có
+Dialogue: 1,0:05:54.16,0:05:54.20,Black and Red,ts.mochi,0,0,0,,{\frz0\fscx150\fscy150\blur0.94\pos(965.76,869.86)}Hoạt Cảnh số     Không Có
+Dialogue: 1,0:05:54.20,0:05:54.25,Black and Red,ts.mochi,0,0,0,,{\frz0\fscx150\fscy150\blur0.94\pos(966.3,870.18)}Hoạt Cảnh số     Không Có
+Dialogue: 1,0:05:54.25,0:05:54.29,Black and Red,ts.mochi,0,0,0,,{\frz0\fscx150\fscy150\blur0.94\pos(965.75,869.84)}Hoạt Cảnh số     Không Có
+Dialogue: 0,0:11:22.99,0:11:23.03,Black and Red,ts.mochi,0,0,0,,{\frz0\fscx100\fscy100\blur7\pos(966,465)\c&HFCFBFA&\alpha&H60&\fs70}Khung Hình Đen
+Dialogue: 0,0:11:23.03,0:11:23.07,Black and Red,ts.mochi,0,0,0,,{\frz0\fscx100\fscy100\blur7\pos(965.76,465.01)\c&HFCFBFA&\alpha&H60&\fs70}Khung Hình Đen
+Dialogue: 0,0:11:23.07,0:11:23.12,Black and Red,ts.mochi,0,0,0,,{\frz0\fscx100\fscy100\blur7\pos(965.97,464.4)\c&HFCFBFA&\alpha&H60&\fs70}Khung Hình Đen
+Dialogue: 0,0:11:23.12,0:11:23.16,Black and Red,ts.mochi,0,0,0,,{\frz0\fscx100\fscy100\blur7\pos(965.86,465.1)\c&HFCFBFA&\alpha&H60&\fs70}Khung Hình Đen
+Dialogue: 0,0:11:23.16,0:11:23.20,Black and Red,ts.mochi,0,0,0,,{\frz0\fscx100\fscy100\blur7\pos(965.7,465.11)\c&HFCFBFA&\alpha&H60&\fs70}Khung Hình Đen
+Dialogue: 0,0:11:23.20,0:11:23.24,Black and Red,ts.mochi,0,0,0,,{\frz0\fscx100\fscy100\blur7\pos(965.76,464.85)\c&HFCFBFA&\alpha&H60&\fs70}Khung Hình Đen
+Dialogue: 0,0:11:23.24,0:11:23.28,Black and Red,ts.mochi,0,0,0,,{\frz0\fscx100\fscy100\blur7\pos(966.31,465.19)\c&HFCFBFA&\alpha&H60&\fs70}Khung Hình Đen
+Dialogue: 0,0:11:23.28,0:11:23.32,Black and Red,ts.mochi,0,0,0,,{\frz0\fscx100\fscy100\blur7\pos(965.76,464.84)\c&HFCFBFA&\alpha&H60&\fs70}Khung Hình Đen
+Dialogue: 0,0:11:23.32,0:11:23.37,Black and Red,ts.mochi,0,0,0,,{\frz0\fscx100\fscy100\blur7\pos(966.1,464.78)\c&HFCFBFA&\alpha&H60&\fs70}Khung Hình Đen
+Dialogue: 0,0:11:23.37,0:11:23.41,Black and Red,ts.mochi,0,0,0,,{\frz0\fscx100\fscy100\blur7\pos(966.22,465.12)\c&HFCFBFA&\alpha&H60&\fs70}Khung Hình Đen
+Dialogue: 1,0:11:22.99,0:11:23.03,Black and Red,ts.mochi,0,0,0,,{\frz0\fscx100\fscy100\blur0.94\pos(966,465)\c&HFCFBFA&\fs70}Khung Hình Đen
+Dialogue: 1,0:11:23.03,0:11:23.07,Black and Red,ts.mochi,0,0,0,,{\frz0\fscx100\fscy100\blur0.94\pos(965.76,465.01)\c&HFCFBFA&\fs70}Khung Hình Đen
+Dialogue: 1,0:11:23.07,0:11:23.12,Black and Red,ts.mochi,0,0,0,,{\frz0\fscx100\fscy100\blur0.94\pos(965.97,464.4)\c&HFCFBFA&\fs70}Khung Hình Đen
+Dialogue: 1,0:11:23.12,0:11:23.16,Black and Red,ts.mochi,0,0,0,,{\frz0\fscx100\fscy100\blur0.94\pos(965.86,465.1)\c&HFCFBFA&\fs70}Khung Hình Đen
+Dialogue: 1,0:11:23.16,0:11:23.20,Black and Red,ts.mochi,0,0,0,,{\frz0\fscx100\fscy100\blur0.94\pos(965.7,465.11)\c&HFCFBFA&\fs70}Khung Hình Đen
+Dialogue: 1,0:11:23.20,0:11:23.24,Black and Red,ts.mochi,0,0,0,,{\frz0\fscx100\fscy100\blur0.94\pos(965.76,464.85)\c&HFCFBFA&\fs70}Khung Hình Đen
+Dialogue: 1,0:11:23.24,0:11:23.28,Black and Red,ts.mochi,0,0,0,,{\frz0\fscx100\fscy100\blur0.94\pos(966.31,465.19)\c&HFCFBFA&\fs70}Khung Hình Đen
+Dialogue: 1,0:11:23.28,0:11:23.32,Black and Red,ts.mochi,0,0,0,,{\frz0\fscx100\fscy100\blur0.94\pos(965.76,464.84)\c&HFCFBFA&\fs70}Khung Hình Đen
+Dialogue: 1,0:11:23.32,0:11:23.37,Black and Red,ts.mochi,0,0,0,,{\frz0\fscx100\fscy100\blur0.94\pos(966.1,464.78)\c&HFCFBFA&\fs70}Khung Hình Đen
+Dialogue: 1,0:11:23.37,0:11:23.41,Black and Red,ts.mochi,0,0,0,,{\frz0\fscx100\fscy100\blur0.94\pos(966.22,465.12)\c&HFCFBFA&\fs70}Khung Hình Đen
+Dialogue: 0,0:11:22.99,0:11:23.03,Black and Red,ts.mochi,0,0,0,,{\frz0\alpha&H60&\fscx150\fscy150\blur4\pos(966,870)}Hoạt Cảnh số     Không Có
+Dialogue: 0,0:11:23.03,0:11:23.07,Black and Red,ts.mochi,0,0,0,,{\frz0\alpha&H60&\fscx150\fscy150\blur4\pos(965.76,870)}Hoạt Cảnh số     Không Có
+Dialogue: 0,0:11:23.07,0:11:23.12,Black and Red,ts.mochi,0,0,0,,{\frz0\alpha&H60&\fscx150\fscy150\blur4\pos(965.97,869.4)}Hoạt Cảnh số     Không Có
+Dialogue: 0,0:11:23.12,0:11:23.16,Black and Red,ts.mochi,0,0,0,,{\frz0\alpha&H60&\fscx150\fscy150\blur4\pos(965.86,870.1)}Hoạt Cảnh số     Không Có
+Dialogue: 0,0:11:23.16,0:11:23.20,Black and Red,ts.mochi,0,0,0,,{\frz0\alpha&H60&\fscx150\fscy150\blur4\pos(965.7,870.11)}Hoạt Cảnh số     Không Có
+Dialogue: 0,0:11:23.20,0:11:23.24,Black and Red,ts.mochi,0,0,0,,{\frz0\alpha&H60&\fscx150\fscy150\blur4\pos(965.76,869.85)}Hoạt Cảnh số     Không Có
+Dialogue: 0,0:11:23.24,0:11:23.28,Black and Red,ts.mochi,0,0,0,,{\frz0\alpha&H60&\fscx150\fscy150\blur4\pos(966.31,870.19)}Hoạt Cảnh số     Không Có
+Dialogue: 0,0:11:23.28,0:11:23.32,Black and Red,ts.mochi,0,0,0,,{\frz0\alpha&H60&\fscx150\fscy150\blur4\pos(965.76,869.84)}Hoạt Cảnh số     Không Có
+Dialogue: 0,0:11:23.32,0:11:23.37,Black and Red,ts.mochi,0,0,0,,{\frz0\alpha&H60&\fscx150\fscy150\blur4\pos(966.1,869.78)}Hoạt Cảnh số     Không Có
+Dialogue: 0,0:11:23.37,0:11:23.41,Black and Red,ts.mochi,0,0,0,,{\frz0\alpha&H60&\fscx150\fscy150\blur4\pos(966.22,870.12)}Hoạt Cảnh số     Không Có
+Dialogue: 1,0:11:22.99,0:11:23.03,Black and Red,ts.mochi,0,0,0,,{\frz0\fscx150\fscy150\blur0.94\pos(966,870)}Hoạt Cảnh số     Không Có
+Dialogue: 1,0:11:23.03,0:11:23.07,Black and Red,ts.mochi,0,0,0,,{\frz0\fscx150\fscy150\blur0.94\pos(965.76,870)}Hoạt Cảnh số     Không Có
+Dialogue: 1,0:11:23.07,0:11:23.12,Black and Red,ts.mochi,0,0,0,,{\frz0\fscx150\fscy150\blur0.94\pos(965.97,869.4)}Hoạt Cảnh số     Không Có
+Dialogue: 1,0:11:23.12,0:11:23.16,Black and Red,ts.mochi,0,0,0,,{\frz0\fscx150\fscy150\blur0.94\pos(965.86,870.1)}Hoạt Cảnh số     Không Có
+Dialogue: 1,0:11:23.16,0:11:23.20,Black and Red,ts.mochi,0,0,0,,{\frz0\fscx150\fscy150\blur0.94\pos(965.7,870.11)}Hoạt Cảnh số     Không Có
+Dialogue: 1,0:11:23.20,0:11:23.24,Black and Red,ts.mochi,0,0,0,,{\frz0\fscx150\fscy150\blur0.94\pos(965.76,869.85)}Hoạt Cảnh số     Không Có
+Dialogue: 1,0:11:23.24,0:11:23.28,Black and Red,ts.mochi,0,0,0,,{\frz0\fscx150\fscy150\blur0.94\pos(966.31,870.19)}Hoạt Cảnh số     Không Có
+Dialogue: 1,0:11:23.28,0:11:23.32,Black and Red,ts.mochi,0,0,0,,{\frz0\fscx150\fscy150\blur0.94\pos(965.76,869.84)}Hoạt Cảnh số     Không Có
+Dialogue: 1,0:11:23.32,0:11:23.37,Black and Red,ts.mochi,0,0,0,,{\frz0\fscx150\fscy150\blur0.94\pos(966.1,869.78)}Hoạt Cảnh số     Không Có
+Dialogue: 1,0:11:23.37,0:11:23.41,Black and Red,ts.mochi,0,0,0,,{\frz0\fscx150\fscy150\blur0.94\pos(966.22,870.12)}Hoạt Cảnh số     Không Có
+Dialogue: 0,0:11:32.29,0:11:32.33,Black and Red,ts.mochi,0,0,0,,{\frz0\fscx100\fscy100\blur7\pos(966,465)\c&HFCFBFA&\alpha&H60&\fs70}Khung Hình Đen
+Dialogue: 0,0:11:32.33,0:11:32.37,Black and Red,ts.mochi,0,0,0,,{\frz0\fscx100\fscy100\blur7\pos(965.75,465)\c&HFCFBFA&\alpha&H60&\fs70}Khung Hình Đen
+Dialogue: 0,0:11:32.37,0:11:32.42,Black and Red,ts.mochi,0,0,0,,{\frz0\fscx100\fscy100\blur7\pos(965.96,464.39)\c&HFCFBFA&\alpha&H60&\fs70}Khung Hình Đen
+Dialogue: 0,0:11:32.42,0:11:32.46,Black and Red,ts.mochi,0,0,0,,{\frz0\fscx100\fscy100\blur7\pos(965.88,465.08)\c&HFCFBFA&\alpha&H60&\fs70}Khung Hình Đen
+Dialogue: 0,0:11:32.46,0:11:32.50,Black and Red,ts.mochi,0,0,0,,{\frz0\fscx100\fscy100\blur7\pos(965.71,465.11)\c&HFCFBFA&\alpha&H60&\fs70}Khung Hình Đen
+Dialogue: 0,0:11:32.50,0:11:32.54,Black and Red,ts.mochi,0,0,0,,{\frz0\fscx100\fscy100\blur7\pos(965.74,464.86)\c&HFCFBFA&\alpha&H60&\fs70}Khung Hình Đen
+Dialogue: 0,0:11:32.54,0:11:32.58,Black and Red,ts.mochi,0,0,0,,{\frz0\fscx100\fscy100\blur7\pos(966.3,465.18)\c&HFCFBFA&\alpha&H60&\fs70}Khung Hình Đen
+Dialogue: 0,0:11:32.58,0:11:32.63,Black and Red,ts.mochi,0,0,0,,{\frz0\fscx100\fscy100\blur7\pos(965.74,464.84)\c&HFCFBFA&\alpha&H60&\fs70}Khung Hình Đen
+Dialogue: 0,0:11:32.63,0:11:32.67,Black and Red,ts.mochi,0,0,0,,{\frz0\fscx100\fscy100\blur7\pos(966.11,464.78)\c&HFCFBFA&\alpha&H60&\fs70}Khung Hình Đen
+Dialogue: 0,0:11:32.67,0:11:32.71,Black and Red,ts.mochi,0,0,0,,{\frz0\fscx100\fscy100\blur7\pos(966.23,465.14)\c&HFCFBFA&\alpha&H60&\fs70}Khung Hình Đen
+Dialogue: 1,0:11:32.29,0:11:32.33,Black and Red,ts.mochi,0,0,0,,{\frz0\fscx100\fscy100\blur0.94\pos(966,465)\c&HFCFBFA&\fs70}Khung Hình Đen
+Dialogue: 1,0:11:32.33,0:11:32.37,Black and Red,ts.mochi,0,0,0,,{\frz0\fscx100\fscy100\blur0.94\pos(965.75,465)\c&HFCFBFA&\fs70}Khung Hình Đen
+Dialogue: 1,0:11:32.37,0:11:32.42,Black and Red,ts.mochi,0,0,0,,{\frz0\fscx100\fscy100\blur0.94\pos(965.96,464.39)\c&HFCFBFA&\fs70}Khung Hình Đen
+Dialogue: 1,0:11:32.42,0:11:32.46,Black and Red,ts.mochi,0,0,0,,{\frz0\fscx100\fscy100\blur0.94\pos(965.88,465.08)\c&HFCFBFA&\fs70}Khung Hình Đen
+Dialogue: 1,0:11:32.46,0:11:32.50,Black and Red,ts.mochi,0,0,0,,{\frz0\fscx100\fscy100\blur0.94\pos(965.71,465.11)\c&HFCFBFA&\fs70}Khung Hình Đen
+Dialogue: 1,0:11:32.50,0:11:32.54,Black and Red,ts.mochi,0,0,0,,{\frz0\fscx100\fscy100\blur0.94\pos(965.74,464.86)\c&HFCFBFA&\fs70}Khung Hình Đen
+Dialogue: 1,0:11:32.54,0:11:32.58,Black and Red,ts.mochi,0,0,0,,{\frz0\fscx100\fscy100\blur0.94\pos(966.3,465.18)\c&HFCFBFA&\fs70}Khung Hình Đen
+Dialogue: 1,0:11:32.58,0:11:32.63,Black and Red,ts.mochi,0,0,0,,{\frz0\fscx100\fscy100\blur0.94\pos(965.74,464.84)\c&HFCFBFA&\fs70}Khung Hình Đen
+Dialogue: 1,0:11:32.63,0:11:32.67,Black and Red,ts.mochi,0,0,0,,{\frz0\fscx100\fscy100\blur0.94\pos(966.11,464.78)\c&HFCFBFA&\fs70}Khung Hình Đen
+Dialogue: 1,0:11:32.67,0:11:32.71,Black and Red,ts.mochi,0,0,0,,{\frz0\fscx100\fscy100\blur0.94\pos(966.23,465.14)\c&HFCFBFA&\fs70}Khung Hình Đen
+Dialogue: 0,0:11:32.29,0:11:32.33,Black and Red,ts.mochi,0,0,0,,{\frz0\alpha&H60&\fscx150\fscy150\blur4\pos(966,870)}Hoạt Cảnh số     Không Có
+Dialogue: 0,0:11:32.33,0:11:32.37,Black and Red,ts.mochi,0,0,0,,{\frz0\alpha&H60&\fscx150\fscy150\blur4\pos(965.75,870)}Hoạt Cảnh số     Không Có
+Dialogue: 0,0:11:32.37,0:11:32.42,Black and Red,ts.mochi,0,0,0,,{\frz0\alpha&H60&\fscx150\fscy150\blur4\pos(965.96,869.39)}Hoạt Cảnh số     Không Có
+Dialogue: 0,0:11:32.42,0:11:32.46,Black and Red,ts.mochi,0,0,0,,{\frz0\alpha&H60&\fscx150\fscy150\blur4\pos(965.88,870.08)}Hoạt Cảnh số     Không Có
+Dialogue: 0,0:11:32.46,0:11:32.50,Black and Red,ts.mochi,0,0,0,,{\frz0\alpha&H60&\fscx150\fscy150\blur4\pos(965.71,870.11)}Hoạt Cảnh số     Không Có
+Dialogue: 0,0:11:32.50,0:11:32.54,Black and Red,ts.mochi,0,0,0,,{\frz0\alpha&H60&\fscx150\fscy150\blur4\pos(965.74,869.86)}Hoạt Cảnh số     Không Có
+Dialogue: 0,0:11:32.54,0:11:32.58,Black and Red,ts.mochi,0,0,0,,{\frz0\alpha&H60&\fscx150\fscy150\blur4\pos(966.3,870.18)}Hoạt Cảnh số     Không Có
+Dialogue: 0,0:11:32.58,0:11:32.63,Black and Red,ts.mochi,0,0,0,,{\frz0\alpha&H60&\fscx150\fscy150\blur4\pos(965.74,869.84)}Hoạt Cảnh số     Không Có
+Dialogue: 0,0:11:32.63,0:11:32.67,Black and Red,ts.mochi,0,0,0,,{\frz0\alpha&H60&\fscx150\fscy150\blur4\pos(966.11,869.78)}Hoạt Cảnh số     Không Có
+Dialogue: 0,0:11:32.67,0:11:32.71,Black and Red,ts.mochi,0,0,0,,{\frz0\alpha&H60&\fscx150\fscy150\blur4\pos(966.23,870.14)}Hoạt Cảnh số     Không Có
+Dialogue: 1,0:11:32.29,0:11:32.33,Black and Red,ts.mochi,0,0,0,,{\frz0\fscx150\fscy150\blur0.94\pos(966,870)}Hoạt Cảnh số     Không Có
+Dialogue: 1,0:11:32.33,0:11:32.37,Black and Red,ts.mochi,0,0,0,,{\frz0\fscx150\fscy150\blur0.94\pos(965.75,870)}Hoạt Cảnh số     Không Có
+Dialogue: 1,0:11:32.37,0:11:32.42,Black and Red,ts.mochi,0,0,0,,{\frz0\fscx150\fscy150\blur0.94\pos(965.96,869.39)}Hoạt Cảnh số     Không Có
+Dialogue: 1,0:11:32.42,0:11:32.46,Black and Red,ts.mochi,0,0,0,,{\frz0\fscx150\fscy150\blur0.94\pos(965.88,870.08)}Hoạt Cảnh số     Không Có
+Dialogue: 1,0:11:32.46,0:11:32.50,Black and Red,ts.mochi,0,0,0,,{\frz0\fscx150\fscy150\blur0.94\pos(965.71,870.11)}Hoạt Cảnh số     Không Có
+Dialogue: 1,0:11:32.50,0:11:32.54,Black and Red,ts.mochi,0,0,0,,{\frz0\fscx150\fscy150\blur0.94\pos(965.74,869.86)}Hoạt Cảnh số     Không Có
+Dialogue: 1,0:11:32.54,0:11:32.58,Black and Red,ts.mochi,0,0,0,,{\frz0\fscx150\fscy150\blur0.94\pos(966.3,870.18)}Hoạt Cảnh số     Không Có
+Dialogue: 1,0:11:32.58,0:11:32.63,Black and Red,ts.mochi,0,0,0,,{\frz0\fscx150\fscy150\blur0.94\pos(965.74,869.84)}Hoạt Cảnh số     Không Có
+Dialogue: 1,0:11:32.63,0:11:32.67,Black and Red,ts.mochi,0,0,0,,{\frz0\fscx150\fscy150\blur0.94\pos(966.11,869.78)}Hoạt Cảnh số     Không Có
+Dialogue: 1,0:11:32.67,0:11:32.71,Black and Red,ts.mochi,0,0,0,,{\frz0\fscx150\fscy150\blur0.94\pos(966.23,870.14)}Hoạt Cảnh số     Không Có
+Dialogue: 0,0:22:40.04,0:22:40.08,Black and Red,ts.mochi,0,0,0,,{\frz0\fscx100\fscy100\blur7\pos(966,465)\c&HFCFBFA&\alpha&H60&\fs70}Khung Hình Đen
+Dialogue: 0,0:22:40.08,0:22:40.13,Black and Red,ts.mochi,0,0,0,,{\frz0\fscx100\fscy100\blur7\pos(965.75,465)\c&HFCFBFA&\alpha&H60&\fs70}Khung Hình Đen
+Dialogue: 0,0:22:40.13,0:22:40.17,Black and Red,ts.mochi,0,0,0,,{\frz0\fscx100\fscy100\blur7\pos(965.96,464.4)\c&HFCFBFA&\alpha&H60&\fs70}Khung Hình Đen
+Dialogue: 0,0:22:40.17,0:22:40.21,Black and Red,ts.mochi,0,0,0,,{\frz0\fscx100\fscy100\blur7\pos(965.85,465.09)\c&HFCFBFA&\alpha&H60&\fs70}Khung Hình Đen
+Dialogue: 0,0:22:40.21,0:22:40.25,Black and Red,ts.mochi,0,0,0,,{\frz0\fscx100\fscy100\blur7\pos(965.69,465.11)\c&HFCFBFA&\alpha&H60&\fs70}Khung Hình Đen
+Dialogue: 0,0:22:40.25,0:22:40.29,Black and Red,ts.mochi,0,0,0,,{\frz0\fscx100\fscy100\blur7\pos(965.78,464.85)\c&HFCFBFA&\alpha&H60&\fs70}Khung Hình Đen
+Dialogue: 0,0:22:40.29,0:22:40.33,Black and Red,ts.mochi,0,0,0,,{\frz0\fscx100\fscy100\blur7\pos(966.3,465.19)\c&HFCFBFA&\alpha&H60&\fs70}Khung Hình Đen
+Dialogue: 0,0:22:40.33,0:22:40.38,Black and Red,ts.mochi,0,0,0,,{\frz0\fscx100\fscy100\blur7\pos(965.78,464.84)\c&HFCFBFA&\alpha&H60&\fs70}Khung Hình Đen
+Dialogue: 0,0:22:40.38,0:22:40.42,Black and Red,ts.mochi,0,0,0,,{\frz0\fscx100\fscy100\blur7\pos(966.08,464.79)\c&HFCFBFA&\alpha&H60&\fs70}Khung Hình Đen
+Dialogue: 0,0:22:40.42,0:22:40.46,Black and Red,ts.mochi,0,0,0,,{\frz0\fscx100\fscy100\blur7\pos(966.19,465.17)\c&HFCFBFA&\alpha&H60&\fs70}Khung Hình Đen
+Dialogue: 0,0:22:40.46,0:22:40.50,Black and Red,ts.mochi,0,0,0,,{\frz0\fscx100\fscy100\blur7\pos(965.82,464.38)\c&HFCFBFA&\alpha&H60&\fs70}Khung Hình Đen
+Dialogue: 0,0:22:40.50,0:22:40.54,Black and Red,ts.mochi,0,0,0,,{\frz0\fscx100\fscy100\blur7\pos(965.84,464.7)\c&HFCFBFA&\alpha&H60&\fs70}Khung Hình Đen
+Dialogue: 0,0:22:40.54,0:22:40.58,Black and Red,ts.mochi,0,0,0,,{\frz0\fscx100\fscy100\blur7\pos(966.04,464.87)\c&HFCFBFA&\alpha&H60&\fs70}Khung Hình Đen
+Dialogue: 0,0:22:40.58,0:22:40.63,Black and Red,ts.mochi,0,0,0,,{\frz0\fscx100\fscy100\blur7\pos(965.81,464.85)\c&HFCFBFA&\alpha&H60&\fs70}Khung Hình Đen
+Dialogue: 0,0:22:40.63,0:22:40.67,Black and Red,ts.mochi,0,0,0,,{\frz0\fscx100\fscy100\blur7\pos(965.57,464.44)\c&HFCFBFA&\alpha&H60&\fs70}Khung Hình Đen
+Dialogue: 0,0:22:40.67,0:22:40.71,Black and Red,ts.mochi,0,0,0,,{\frz0\fscx100\fscy100\blur7\pos(966.06,464.43)\c&HFCFBFA&\alpha&H60&\fs70}Khung Hình Đen
+Dialogue: 0,0:22:40.71,0:22:40.75,Black and Red,ts.mochi,0,0,0,,{\frz0\fscx100\fscy100\blur7\pos(965.98,464.82)\c&HFCFBFA&\alpha&H60&\fs70}Khung Hình Đen
+Dialogue: 0,0:22:40.75,0:22:40.79,Black and Red,ts.mochi,0,0,0,,{\frz0\fscx100\fscy100\blur7\pos(965.96,464.72)\c&HFCFBFA&\alpha&H60&\fs70}Khung Hình Đen
+Dialogue: 0,0:22:40.79,0:22:40.83,Black and Red,ts.mochi,0,0,0,,{\frz0\fscx100\fscy100\blur7\pos(965.91,464.85)\c&HFCFBFA&\alpha&H60&\fs70}Khung Hình Đen
+Dialogue: 0,0:22:40.83,0:22:40.88,Black and Red,ts.mochi,0,0,0,,{\frz0\fscx100\fscy100\blur7\pos(966.34,464.99)\c&HFCFBFA&\alpha&H60&\fs70}Khung Hình Đen
+Dialogue: 0,0:22:40.88,0:22:40.92,Black and Red,ts.mochi,0,0,0,,{\frz0\fscx100\fscy100\blur7\pos(965.75,464.95)\c&HFCFBFA&\alpha&H60&\fs70}Khung Hình Đen
+Dialogue: 0,0:22:40.92,0:22:40.96,Black and Red,ts.mochi,0,0,0,,{\frz0\fscx100\fscy100\blur7\pos(966.2,464.48)\c&HFCFBFA&\alpha&H60&\fs70}Khung Hình Đen
+Dialogue: 0,0:22:40.96,0:22:41.00,Black and Red,ts.mochi,0,0,0,,{\frz0\fscx100\fscy100\blur7\pos(965.57,464.68)\c&HFCFBFA&\alpha&H60&\fs70}Khung Hình Đen
+Dialogue: 0,0:22:41.00,0:22:41.04,Black and Red,ts.mochi,0,0,0,,{\frz0\fscx100\fscy100\blur7\pos(966.01,465.3)\c&HFCFBFA&\alpha&H60&\fs70}Khung Hình Đen
+Dialogue: 0,0:22:41.04,0:22:41.08,Black and Red,ts.mochi,0,0,0,,{\frz0\fscx100\fscy100\blur7\pos(966.07,465.18)\c&HFCFBFA&\alpha&H60&\fs70}Khung Hình Đen
+Dialogue: 0,0:22:41.08,0:22:41.13,Black and Red,ts.mochi,0,0,0,,{\frz0\fscx100\fscy100\blur7\pos(965.61,465.02)\c&HFCFBFA&\alpha&H60&\fs70}Khung Hình Đen
+Dialogue: 0,0:22:41.13,0:22:41.17,Black and Red,ts.mochi,0,0,0,,{\frz0\fscx100\fscy100\blur7\pos(966.5,464.92)\c&HFCFBFA&\alpha&H60&\fs70}Khung Hình Đen
+Dialogue: 0,0:22:41.17,0:22:41.21,Black and Red,ts.mochi,0,0,0,,{\frz0\fscx100\fscy100\blur7\pos(965.93,464.52)\c&HFCFBFA&\alpha&H60&\fs70}Khung Hình Đen
+Dialogue: 0,0:22:41.21,0:22:41.25,Black and Red,ts.mochi,0,0,0,,{\frz0\fscx100\fscy100\blur7\pos(965.85,464.85)\c&HFCFBFA&\alpha&H60&\fs70}Khung Hình Đen
+Dialogue: 0,0:22:41.25,0:22:41.29,Black and Red,ts.mochi,0,0,0,,{\frz0\fscx100\fscy100\blur7\pos(966.04,464.52)\c&HFCFBFA&\alpha&H60&\fs70}Khung Hình Đen
+Dialogue: 0,0:22:41.29,0:22:41.33,Black and Red,ts.mochi,0,0,0,,{\frz0\fscx100\fscy100\blur7\pos(965.8,464.76)\c&HFCFBFA&\alpha&H60&\fs70}Khung Hình Đen
+Dialogue: 0,0:22:41.33,0:22:41.38,Black and Red,ts.mochi,0,0,0,,{\frz0\fscx100\fscy100\blur7\pos(966.6,464.87)\c&HFCFBFA&\alpha&H60&\fs70}Khung Hình Đen
+Dialogue: 0,0:22:41.38,0:22:41.42,Black and Red,ts.mochi,0,0,0,,{\frz0\fscx100\fscy100\blur7\pos(966.32,464.86)\c&HFCFBFA&\alpha&H60&\fs70}Khung Hình Đen
+Dialogue: 1,0:22:40.04,0:22:40.08,Black and Red,ts.mochi,0,0,0,,{\frz0\fscx100\fscy100\blur0.94\pos(966,465)\c&HFCFBFA&\fs70}Khung Hình Đen
+Dialogue: 1,0:22:40.08,0:22:40.13,Black and Red,ts.mochi,0,0,0,,{\frz0\fscx100\fscy100\blur0.94\pos(965.75,465)\c&HFCFBFA&\fs70}Khung Hình Đen
+Dialogue: 1,0:22:40.13,0:22:40.17,Black and Red,ts.mochi,0,0,0,,{\frz0\fscx100\fscy100\blur0.94\pos(965.96,464.4)\c&HFCFBFA&\fs70}Khung Hình Đen
+Dialogue: 1,0:22:40.17,0:22:40.21,Black and Red,ts.mochi,0,0,0,,{\frz0\fscx100\fscy100\blur0.94\pos(965.85,465.09)\c&HFCFBFA&\fs70}Khung Hình Đen
+Dialogue: 1,0:22:40.21,0:22:40.25,Black and Red,ts.mochi,0,0,0,,{\frz0\fscx100\fscy100\blur0.94\pos(965.69,465.11)\c&HFCFBFA&\fs70}Khung Hình Đen
+Dialogue: 1,0:22:40.25,0:22:40.29,Black and Red,ts.mochi,0,0,0,,{\frz0\fscx100\fscy100\blur0.94\pos(965.78,464.85)\c&HFCFBFA&\fs70}Khung Hình Đen
+Dialogue: 1,0:22:40.29,0:22:40.33,Black and Red,ts.mochi,0,0,0,,{\frz0\fscx100\fscy100\blur0.94\pos(966.3,465.19)\c&HFCFBFA&\fs70}Khung Hình Đen
+Dialogue: 1,0:22:40.33,0:22:40.38,Black and Red,ts.mochi,0,0,0,,{\frz0\fscx100\fscy100\blur0.94\pos(965.78,464.84)\c&HFCFBFA&\fs70}Khung Hình Đen
+Dialogue: 1,0:22:40.38,0:22:40.42,Black and Red,ts.mochi,0,0,0,,{\frz0\fscx100\fscy100\blur0.94\pos(966.08,464.79)\c&HFCFBFA&\fs70}Khung Hình Đen
+Dialogue: 1,0:22:40.42,0:22:40.46,Black and Red,ts.mochi,0,0,0,,{\frz0\fscx100\fscy100\blur0.94\pos(966.19,465.17)\c&HFCFBFA&\fs70}Khung Hình Đen
+Dialogue: 1,0:22:40.46,0:22:40.50,Black and Red,ts.mochi,0,0,0,,{\frz0\fscx100\fscy100\blur0.94\pos(965.82,464.38)\c&HFCFBFA&\fs70}Khung Hình Đen
+Dialogue: 1,0:22:40.50,0:22:40.54,Black and Red,ts.mochi,0,0,0,,{\frz0\fscx100\fscy100\blur0.94\pos(965.84,464.7)\c&HFCFBFA&\fs70}Khung Hình Đen
+Dialogue: 1,0:22:40.54,0:22:40.58,Black and Red,ts.mochi,0,0,0,,{\frz0\fscx100\fscy100\blur0.94\pos(966.04,464.87)\c&HFCFBFA&\fs70}Khung Hình Đen
+Dialogue: 1,0:22:40.58,0:22:40.63,Black and Red,ts.mochi,0,0,0,,{\frz0\fscx100\fscy100\blur0.94\pos(965.81,464.85)\c&HFCFBFA&\fs70}Khung Hình Đen
+Dialogue: 1,0:22:40.63,0:22:40.67,Black and Red,ts.mochi,0,0,0,,{\frz0\fscx100\fscy100\blur0.94\pos(965.57,464.44)\c&HFCFBFA&\fs70}Khung Hình Đen
+Dialogue: 1,0:22:40.67,0:22:40.71,Black and Red,ts.mochi,0,0,0,,{\frz0\fscx100\fscy100\blur0.94\pos(966.06,464.43)\c&HFCFBFA&\fs70}Khung Hình Đen
+Dialogue: 1,0:22:40.71,0:22:40.75,Black and Red,ts.mochi,0,0,0,,{\frz0\fscx100\fscy100\blur0.94\pos(965.98,464.82)\c&HFCFBFA&\fs70}Khung Hình Đen
+Dialogue: 1,0:22:40.75,0:22:40.79,Black and Red,ts.mochi,0,0,0,,{\frz0\fscx100\fscy100\blur0.94\pos(965.96,464.72)\c&HFCFBFA&\fs70}Khung Hình Đen
+Dialogue: 1,0:22:40.79,0:22:40.83,Black and Red,ts.mochi,0,0,0,,{\frz0\fscx100\fscy100\blur0.94\pos(965.91,464.85)\c&HFCFBFA&\fs70}Khung Hình Đen
+Dialogue: 1,0:22:40.83,0:22:40.88,Black and Red,ts.mochi,0,0,0,,{\frz0\fscx100\fscy100\blur0.94\pos(966.34,464.99)\c&HFCFBFA&\fs70}Khung Hình Đen
+Dialogue: 1,0:22:40.88,0:22:40.92,Black and Red,ts.mochi,0,0,0,,{\frz0\fscx100\fscy100\blur0.94\pos(965.75,464.95)\c&HFCFBFA&\fs70}Khung Hình Đen
+Dialogue: 1,0:22:40.92,0:22:40.96,Black and Red,ts.mochi,0,0,0,,{\frz0\fscx100\fscy100\blur0.94\pos(966.2,464.48)\c&HFCFBFA&\fs70}Khung Hình Đen
+Dialogue: 1,0:22:40.96,0:22:41.00,Black and Red,ts.mochi,0,0,0,,{\frz0\fscx100\fscy100\blur0.94\pos(965.57,464.68)\c&HFCFBFA&\fs70}Khung Hình Đen
+Dialogue: 1,0:22:41.00,0:22:41.04,Black and Red,ts.mochi,0,0,0,,{\frz0\fscx100\fscy100\blur0.94\pos(966.01,465.3)\c&HFCFBFA&\fs70}Khung Hình Đen
+Dialogue: 1,0:22:41.04,0:22:41.08,Black and Red,ts.mochi,0,0,0,,{\frz0\fscx100\fscy100\blur0.94\pos(966.07,465.18)\c&HFCFBFA&\fs70}Khung Hình Đen
+Dialogue: 1,0:22:41.08,0:22:41.13,Black and Red,ts.mochi,0,0,0,,{\frz0\fscx100\fscy100\blur0.94\pos(965.61,465.02)\c&HFCFBFA&\fs70}Khung Hình Đen
+Dialogue: 1,0:22:41.13,0:22:41.17,Black and Red,ts.mochi,0,0,0,,{\frz0\fscx100\fscy100\blur0.94\pos(966.5,464.92)\c&HFCFBFA&\fs70}Khung Hình Đen
+Dialogue: 1,0:22:41.17,0:22:41.21,Black and Red,ts.mochi,0,0,0,,{\frz0\fscx100\fscy100\blur0.94\pos(965.93,464.52)\c&HFCFBFA&\fs70}Khung Hình Đen
+Dialogue: 1,0:22:41.21,0:22:41.25,Black and Red,ts.mochi,0,0,0,,{\frz0\fscx100\fscy100\blur0.94\pos(965.85,464.85)\c&HFCFBFA&\fs70}Khung Hình Đen
+Dialogue: 1,0:22:41.25,0:22:41.29,Black and Red,ts.mochi,0,0,0,,{\frz0\fscx100\fscy100\blur0.94\pos(966.04,464.52)\c&HFCFBFA&\fs70}Khung Hình Đen
+Dialogue: 1,0:22:41.29,0:22:41.33,Black and Red,ts.mochi,0,0,0,,{\frz0\fscx100\fscy100\blur0.94\pos(965.8,464.76)\c&HFCFBFA&\fs70}Khung Hình Đen
+Dialogue: 1,0:22:41.33,0:22:41.38,Black and Red,ts.mochi,0,0,0,,{\frz0\fscx100\fscy100\blur0.94\pos(966.6,464.87)\c&HFCFBFA&\fs70}Khung Hình Đen
+Dialogue: 1,0:22:41.38,0:22:41.42,Black and Red,ts.mochi,0,0,0,,{\frz0\fscx100\fscy100\blur0.94\pos(966.32,464.86)\c&HFCFBFA&\fs70}Khung Hình Đen
+Dialogue: 0,0:22:40.04,0:22:40.08,Black and Red,ts.mochi,0,0,0,,{\frz0\alpha&H60&\fscx150\fscy150\blur4\pos(966,870)}Hoạt Cảnh số     Không Có
+Dialogue: 0,0:22:40.08,0:22:40.13,Black and Red,ts.mochi,0,0,0,,{\frz0\alpha&H60&\fscx150\fscy150\blur4\pos(965.75,870)}Hoạt Cảnh số     Không Có
+Dialogue: 0,0:22:40.13,0:22:40.17,Black and Red,ts.mochi,0,0,0,,{\frz0\alpha&H60&\fscx150\fscy150\blur4\pos(965.96,869.4)}Hoạt Cảnh số     Không Có
+Dialogue: 0,0:22:40.17,0:22:40.21,Black and Red,ts.mochi,0,0,0,,{\frz0\alpha&H60&\fscx150\fscy150\blur4\pos(965.85,870.09)}Hoạt Cảnh số     Không Có
+Dialogue: 0,0:22:40.21,0:22:40.25,Black and Red,ts.mochi,0,0,0,,{\frz0\alpha&H60&\fscx150\fscy150\blur4\pos(965.69,870.11)}Hoạt Cảnh số     Không Có
+Dialogue: 0,0:22:40.25,0:22:40.29,Black and Red,ts.mochi,0,0,0,,{\frz0\alpha&H60&\fscx150\fscy150\blur4\pos(965.78,869.85)}Hoạt Cảnh số     Không Có
+Dialogue: 0,0:22:40.29,0:22:40.33,Black and Red,ts.mochi,0,0,0,,{\frz0\alpha&H60&\fscx150\fscy150\blur4\pos(966.3,870.19)}Hoạt Cảnh số     Không Có
+Dialogue: 0,0:22:40.33,0:22:40.38,Black and Red,ts.mochi,0,0,0,,{\frz0\alpha&H60&\fscx150\fscy150\blur4\pos(965.78,869.84)}Hoạt Cảnh số     Không Có
+Dialogue: 0,0:22:40.38,0:22:40.42,Black and Red,ts.mochi,0,0,0,,{\frz0\alpha&H60&\fscx150\fscy150\blur4\pos(966.08,869.79)}Hoạt Cảnh số     Không Có
+Dialogue: 0,0:22:40.42,0:22:40.46,Black and Red,ts.mochi,0,0,0,,{\frz0\alpha&H60&\fscx150\fscy150\blur4\pos(966.19,870.17)}Hoạt Cảnh số     Không Có
+Dialogue: 0,0:22:40.46,0:22:40.50,Black and Red,ts.mochi,0,0,0,,{\frz0\alpha&H60&\fscx150\fscy150\blur4\pos(965.82,869.38)}Hoạt Cảnh số     Không Có
+Dialogue: 0,0:22:40.50,0:22:40.54,Black and Red,ts.mochi,0,0,0,,{\frz0\alpha&H60&\fscx150\fscy150\blur4\pos(965.84,869.7)}Hoạt Cảnh số     Không Có
+Dialogue: 0,0:22:40.54,0:22:40.58,Black and Red,ts.mochi,0,0,0,,{\frz0\alpha&H60&\fscx150\fscy150\blur4\pos(966.04,869.87)}Hoạt Cảnh số     Không Có
+Dialogue: 0,0:22:40.58,0:22:40.63,Black and Red,ts.mochi,0,0,0,,{\frz0\alpha&H60&\fscx150\fscy150\blur4\pos(965.81,869.85)}Hoạt Cảnh số     Không Có
+Dialogue: 0,0:22:40.63,0:22:40.67,Black and Red,ts.mochi,0,0,0,,{\frz0\alpha&H60&\fscx150\fscy150\blur4\pos(965.57,869.44)}Hoạt Cảnh số     Không Có
+Dialogue: 0,0:22:40.67,0:22:40.71,Black and Red,ts.mochi,0,0,0,,{\frz0\alpha&H60&\fscx150\fscy150\blur4\pos(966.06,869.43)}Hoạt Cảnh số     Không Có
+Dialogue: 0,0:22:40.71,0:22:40.75,Black and Red,ts.mochi,0,0,0,,{\frz0\alpha&H60&\fscx150\fscy150\blur4\pos(965.98,869.82)}Hoạt Cảnh số     Không Có
+Dialogue: 0,0:22:40.75,0:22:40.79,Black and Red,ts.mochi,0,0,0,,{\frz0\alpha&H60&\fscx150\fscy150\blur4\pos(965.96,869.72)}Hoạt Cảnh số     Không Có
+Dialogue: 0,0:22:40.79,0:22:40.83,Black and Red,ts.mochi,0,0,0,,{\frz0\alpha&H60&\fscx150\fscy150\blur4\pos(965.91,869.85)}Hoạt Cảnh số     Không Có
+Dialogue: 0,0:22:40.83,0:22:40.88,Black and Red,ts.mochi,0,0,0,,{\frz0\alpha&H60&\fscx150\fscy150\blur4\pos(966.34,869.99)}Hoạt Cảnh số     Không Có
+Dialogue: 0,0:22:40.88,0:22:40.92,Black and Red,ts.mochi,0,0,0,,{\frz0\alpha&H60&\fscx150\fscy150\blur4\pos(965.75,869.95)}Hoạt Cảnh số     Không Có
+Dialogue: 0,0:22:40.92,0:22:40.96,Black and Red,ts.mochi,0,0,0,,{\frz0\alpha&H60&\fscx150\fscy150\blur4\pos(966.2,869.48)}Hoạt Cảnh số     Không Có
+Dialogue: 0,0:22:40.96,0:22:41.00,Black and Red,ts.mochi,0,0,0,,{\frz0\alpha&H60&\fscx150\fscy150\blur4\pos(965.57,869.68)}Hoạt Cảnh số     Không Có
+Dialogue: 0,0:22:41.00,0:22:41.04,Black and Red,ts.mochi,0,0,0,,{\frz0\alpha&H60&\fscx150\fscy150\blur4\pos(966.01,870.3)}Hoạt Cảnh số     Không Có
+Dialogue: 0,0:22:41.04,0:22:41.08,Black and Red,ts.mochi,0,0,0,,{\frz0\alpha&H60&\fscx150\fscy150\blur4\pos(966.07,870.18)}Hoạt Cảnh số     Không Có
+Dialogue: 0,0:22:41.08,0:22:41.13,Black and Red,ts.mochi,0,0,0,,{\frz0\alpha&H60&\fscx150\fscy150\blur4\pos(965.61,870.02)}Hoạt Cảnh số     Không Có
+Dialogue: 0,0:22:41.13,0:22:41.17,Black and Red,ts.mochi,0,0,0,,{\frz0\alpha&H60&\fscx150\fscy150\blur4\pos(966.5,869.92)}Hoạt Cảnh số     Không Có
+Dialogue: 0,0:22:41.17,0:22:41.21,Black and Red,ts.mochi,0,0,0,,{\frz0\alpha&H60&\fscx150\fscy150\blur4\pos(965.93,869.52)}Hoạt Cảnh số     Không Có
+Dialogue: 0,0:22:41.21,0:22:41.25,Black and Red,ts.mochi,0,0,0,,{\frz0\alpha&H60&\fscx150\fscy150\blur4\pos(965.85,869.85)}Hoạt Cảnh số     Không Có
+Dialogue: 0,0:22:41.25,0:22:41.29,Black and Red,ts.mochi,0,0,0,,{\frz0\alpha&H60&\fscx150\fscy150\blur4\pos(966.04,869.52)}Hoạt Cảnh số     Không Có
+Dialogue: 0,0:22:41.29,0:22:41.33,Black and Red,ts.mochi,0,0,0,,{\frz0\alpha&H60&\fscx150\fscy150\blur4\pos(965.8,869.76)}Hoạt Cảnh số     Không Có
+Dialogue: 0,0:22:41.33,0:22:41.38,Black and Red,ts.mochi,0,0,0,,{\frz0\alpha&H60&\fscx150\fscy150\blur4\pos(966.6,869.87)}Hoạt Cảnh số     Không Có
+Dialogue: 0,0:22:41.38,0:22:41.42,Black and Red,ts.mochi,0,0,0,,{\frz0\alpha&H60&\fscx150\fscy150\blur4\pos(966.32,869.86)}Hoạt Cảnh số     Không Có
+Dialogue: 1,0:22:40.04,0:22:40.08,Black and Red,ts.mochi,0,0,0,,{\frz0\fscx150\fscy150\blur0.94\pos(966,870)}Hoạt Cảnh số     Không Có
+Dialogue: 1,0:22:40.08,0:22:40.13,Black and Red,ts.mochi,0,0,0,,{\frz0\fscx150\fscy150\blur0.94\pos(965.75,870)}Hoạt Cảnh số     Không Có
+Dialogue: 1,0:22:40.13,0:22:40.17,Black and Red,ts.mochi,0,0,0,,{\frz0\fscx150\fscy150\blur0.94\pos(965.96,869.4)}Hoạt Cảnh số     Không Có
+Dialogue: 1,0:22:40.17,0:22:40.21,Black and Red,ts.mochi,0,0,0,,{\frz0\fscx150\fscy150\blur0.94\pos(965.85,870.09)}Hoạt Cảnh số     Không Có
+Dialogue: 1,0:22:40.21,0:22:40.25,Black and Red,ts.mochi,0,0,0,,{\frz0\fscx150\fscy150\blur0.94\pos(965.69,870.11)}Hoạt Cảnh số     Không Có
+Dialogue: 1,0:22:40.25,0:22:40.29,Black and Red,ts.mochi,0,0,0,,{\frz0\fscx150\fscy150\blur0.94\pos(965.78,869.85)}Hoạt Cảnh số     Không Có
+Dialogue: 1,0:22:40.29,0:22:40.33,Black and Red,ts.mochi,0,0,0,,{\frz0\fscx150\fscy150\blur0.94\pos(966.3,870.19)}Hoạt Cảnh số     Không Có
+Dialogue: 1,0:22:40.33,0:22:40.38,Black and Red,ts.mochi,0,0,0,,{\frz0\fscx150\fscy150\blur0.94\pos(965.78,869.84)}Hoạt Cảnh số     Không Có
+Dialogue: 1,0:22:40.38,0:22:40.42,Black and Red,ts.mochi,0,0,0,,{\frz0\fscx150\fscy150\blur0.94\pos(966.08,869.79)}Hoạt Cảnh số     Không Có
+Dialogue: 1,0:22:40.42,0:22:40.46,Black and Red,ts.mochi,0,0,0,,{\frz0\fscx150\fscy150\blur0.94\pos(966.19,870.17)}Hoạt Cảnh số     Không Có
+Dialogue: 1,0:22:40.46,0:22:40.50,Black and Red,ts.mochi,0,0,0,,{\frz0\fscx150\fscy150\blur0.94\pos(965.82,869.38)}Hoạt Cảnh số     Không Có
+Dialogue: 1,0:22:40.50,0:22:40.54,Black and Red,ts.mochi,0,0,0,,{\frz0\fscx150\fscy150\blur0.94\pos(965.84,869.7)}Hoạt Cảnh số     Không Có
+Dialogue: 1,0:22:40.54,0:22:40.58,Black and Red,ts.mochi,0,0,0,,{\frz0\fscx150\fscy150\blur0.94\pos(966.04,869.87)}Hoạt Cảnh số     Không Có
+Dialogue: 1,0:22:40.58,0:22:40.63,Black and Red,ts.mochi,0,0,0,,{\frz0\fscx150\fscy150\blur0.94\pos(965.81,869.85)}Hoạt Cảnh số     Không Có
+Dialogue: 1,0:22:40.63,0:22:40.67,Black and Red,ts.mochi,0,0,0,,{\frz0\fscx150\fscy150\blur0.94\pos(965.57,869.44)}Hoạt Cảnh số     Không Có
+Dialogue: 1,0:22:40.67,0:22:40.71,Black and Red,ts.mochi,0,0,0,,{\frz0\fscx150\fscy150\blur0.94\pos(966.06,869.43)}Hoạt Cảnh số     Không Có
+Dialogue: 1,0:22:40.71,0:22:40.75,Black and Red,ts.mochi,0,0,0,,{\frz0\fscx150\fscy150\blur0.94\pos(965.98,869.82)}Hoạt Cảnh số     Không Có
+Dialogue: 1,0:22:40.75,0:22:40.79,Black and Red,ts.mochi,0,0,0,,{\frz0\fscx150\fscy150\blur0.94\pos(965.96,869.72)}Hoạt Cảnh số     Không Có
+Dialogue: 1,0:22:40.79,0:22:40.83,Black and Red,ts.mochi,0,0,0,,{\frz0\fscx150\fscy150\blur0.94\pos(965.91,869.85)}Hoạt Cảnh số     Không Có
+Dialogue: 1,0:22:40.83,0:22:40.88,Black and Red,ts.mochi,0,0,0,,{\frz0\fscx150\fscy150\blur0.94\pos(966.34,869.99)}Hoạt Cảnh số     Không Có
+Dialogue: 1,0:22:40.88,0:22:40.92,Black and Red,ts.mochi,0,0,0,,{\frz0\fscx150\fscy150\blur0.94\pos(965.75,869.95)}Hoạt Cảnh số     Không Có
+Dialogue: 1,0:22:40.92,0:22:40.96,Black and Red,ts.mochi,0,0,0,,{\frz0\fscx150\fscy150\blur0.94\pos(966.2,869.48)}Hoạt Cảnh số     Không Có
+Dialogue: 1,0:22:40.96,0:22:41.00,Black and Red,ts.mochi,0,0,0,,{\frz0\fscx150\fscy150\blur0.94\pos(965.57,869.68)}Hoạt Cảnh số     Không Có
+Dialogue: 1,0:22:41.00,0:22:41.04,Black and Red,ts.mochi,0,0,0,,{\frz0\fscx150\fscy150\blur0.94\pos(966.01,870.3)}Hoạt Cảnh số     Không Có
+Dialogue: 1,0:22:41.04,0:22:41.08,Black and Red,ts.mochi,0,0,0,,{\frz0\fscx150\fscy150\blur0.94\pos(966.07,870.18)}Hoạt Cảnh số     Không Có
+Dialogue: 1,0:22:41.08,0:22:41.13,Black and Red,ts.mochi,0,0,0,,{\frz0\fscx150\fscy150\blur0.94\pos(965.61,870.02)}Hoạt Cảnh số     Không Có
+Dialogue: 1,0:22:41.13,0:22:41.17,Black and Red,ts.mochi,0,0,0,,{\frz0\fscx150\fscy150\blur0.94\pos(966.5,869.92)}Hoạt Cảnh số     Không Có
+Dialogue: 1,0:22:41.17,0:22:41.21,Black and Red,ts.mochi,0,0,0,,{\frz0\fscx150\fscy150\blur0.94\pos(965.93,869.52)}Hoạt Cảnh số     Không Có
+Dialogue: 1,0:22:41.21,0:22:41.25,Black and Red,ts.mochi,0,0,0,,{\frz0\fscx150\fscy150\blur0.94\pos(965.85,869.85)}Hoạt Cảnh số     Không Có
+Dialogue: 1,0:22:41.25,0:22:41.29,Black and Red,ts.mochi,0,0,0,,{\frz0\fscx150\fscy150\blur0.94\pos(966.04,869.52)}Hoạt Cảnh số     Không Có
+Dialogue: 1,0:22:41.29,0:22:41.33,Black and Red,ts.mochi,0,0,0,,{\frz0\fscx150\fscy150\blur0.94\pos(965.8,869.76)}Hoạt Cảnh số     Không Có
+Dialogue: 1,0:22:41.33,0:22:41.38,Black and Red,ts.mochi,0,0,0,,{\frz0\fscx150\fscy150\blur0.94\pos(966.6,869.87)}Hoạt Cảnh số     Không Có
+Dialogue: 1,0:22:41.38,0:22:41.42,Black and Red,ts.mochi,0,0,0,,{\frz0\fscx150\fscy150\blur0.94\pos(966.32,869.86)}Hoạt Cảnh số     Không Có
+Dialogue: 0,0:23:51.24,0:23:51.28,Black and Red,ts.mochi,0,0,0,,{\frz0\fscx100\fscy100\blur7\pos(966,465)\c&HFCFBFA&\alpha&H60&\fs70}Khung Hình Đen
+Dialogue: 0,0:23:51.28,0:23:51.32,Black and Red,ts.mochi,0,0,0,,{\frz0\fscx100\fscy100\blur7\pos(965.76,465.01)\c&HFCFBFA&\alpha&H60&\fs70}Khung Hình Đen
+Dialogue: 0,0:23:51.32,0:23:51.36,Black and Red,ts.mochi,0,0,0,,{\frz0\fscx100\fscy100\blur7\pos(965.96,464.39)\c&HFCFBFA&\alpha&H60&\fs70}Khung Hình Đen
+Dialogue: 0,0:23:51.36,0:23:51.40,Black and Red,ts.mochi,0,0,0,,{\frz0\fscx100\fscy100\blur7\pos(965.86,465.08)\c&HFCFBFA&\alpha&H60&\fs70}Khung Hình Đen
+Dialogue: 0,0:23:51.40,0:23:51.45,Black and Red,ts.mochi,0,0,0,,{\frz0\fscx100\fscy100\blur7\pos(965.7,465.11)\c&HFCFBFA&\alpha&H60&\fs70}Khung Hình Đen
+Dialogue: 0,0:23:51.45,0:23:51.49,Black and Red,ts.mochi,0,0,0,,{\frz0\fscx100\fscy100\blur7\pos(965.78,464.83)\c&HFCFBFA&\alpha&H60&\fs70}Khung Hình Đen
+Dialogue: 0,0:23:51.49,0:23:51.53,Black and Red,ts.mochi,0,0,0,,{\frz0\fscx100\fscy100\blur7\pos(966.31,465.2)\c&HFCFBFA&\alpha&H60&\fs70}Khung Hình Đen
+Dialogue: 0,0:23:51.53,0:23:51.57,Black and Red,ts.mochi,0,0,0,,{\frz0\fscx100\fscy100\blur7\pos(965.79,464.82)\c&HFCFBFA&\alpha&H60&\fs70}Khung Hình Đen
+Dialogue: 0,0:23:51.57,0:23:51.61,Black and Red,ts.mochi,0,0,0,,{\frz0\fscx100\fscy100\blur7\pos(966.1,464.79)\c&HFCFBFA&\alpha&H60&\fs70}Khung Hình Đen
+Dialogue: 0,0:23:51.61,0:23:51.66,Black and Red,ts.mochi,0,0,0,,{\frz0\fscx100\fscy100\blur7\pos(966.22,465.16)\c&HFCFBFA&\alpha&H60&\fs70}Khung Hình Đen
+Dialogue: 0,0:23:51.66,0:23:51.70,Black and Red,ts.mochi,0,0,0,,{\frz0\fscx100\fscy100\blur7\pos(965.83,464.35)\c&HFCFBFA&\alpha&H60&\fs70}Khung Hình Đen
+Dialogue: 0,0:23:51.70,0:23:51.74,Black and Red,ts.mochi,0,0,0,,{\frz0\fscx100\fscy100\blur7\pos(965.86,464.69)\c&HFCFBFA&\alpha&H60&\fs70}Khung Hình Đen
+Dialogue: 0,0:23:51.74,0:23:51.78,Black and Red,ts.mochi,0,0,0,,{\frz0\fscx100\fscy100\blur7\pos(966.04,464.85)\c&HFCFBFA&\alpha&H60&\fs70}Khung Hình Đen
+Dialogue: 0,0:23:51.78,0:23:51.82,Black and Red,ts.mochi,0,0,0,,{\frz0\fscx100\fscy100\blur7\pos(965.85,464.84)\c&HFCFBFA&\alpha&H60&\fs70}Khung Hình Đen
+Dialogue: 0,0:23:51.82,0:23:51.86,Black and Red,ts.mochi,0,0,0,,{\frz0\fscx100\fscy100\blur7\pos(965.56,464.43)\c&HFCFBFA&\alpha&H60&\fs70}Khung Hình Đen
+Dialogue: 0,0:23:51.86,0:23:51.91,Black and Red,ts.mochi,0,0,0,,{\frz0\fscx100\fscy100\blur7\pos(966.04,464.42)\c&HFCFBFA&\alpha&H60&\fs70}Khung Hình Đen
+Dialogue: 0,0:23:51.91,0:23:51.95,Black and Red,ts.mochi,0,0,0,,{\frz0\fscx100\fscy100\blur7\pos(965.94,464.82)\c&HFCFBFA&\alpha&H60&\fs70}Khung Hình Đen
+Dialogue: 0,0:23:51.95,0:23:51.99,Black and Red,ts.mochi,0,0,0,,{\frz0\fscx100\fscy100\blur7\pos(965.96,464.75)\c&HFCFBFA&\alpha&H60&\fs70}Khung Hình Đen
+Dialogue: 0,0:23:51.99,0:23:52.03,Black and Red,ts.mochi,0,0,0,,{\frz0\fscx100\fscy100\blur7\pos(965.92,464.84)\c&HFCFBFA&\alpha&H60&\fs70}Khung Hình Đen
+Dialogue: 0,0:23:52.03,0:23:52.07,Black and Red,ts.mochi,0,0,0,,{\frz0\fscx100\fscy100\blur7\pos(966.33,464.97)\c&HFCFBFA&\alpha&H60&\fs70}Khung Hình Đen
+Dialogue: 0,0:23:52.07,0:23:52.11,Black and Red,ts.mochi,0,0,0,,{\frz0\fscx100\fscy100\blur7\pos(965.75,464.92)\c&HFCFBFA&\alpha&H60&\fs70}Khung Hình Đen
+Dialogue: 0,0:23:52.11,0:23:52.16,Black and Red,ts.mochi,0,0,0,,{\frz0\fscx100\fscy100\blur7\pos(966.2,464.47)\c&HFCFBFA&\alpha&H60&\fs70}Khung Hình Đen
+Dialogue: 0,0:23:52.16,0:23:52.20,Black and Red,ts.mochi,0,0,0,,{\frz0\fscx100\fscy100\blur7\pos(965.55,464.66)\c&HFCFBFA&\alpha&H60&\fs70}Khung Hình Đen
+Dialogue: 0,0:23:52.20,0:23:52.24,Black and Red,ts.mochi,0,0,0,,{\frz0\fscx100\fscy100\blur7\pos(966.05,465.3)\c&HFCFBFA&\alpha&H60&\fs70}Khung Hình Đen
+Dialogue: 0,0:23:52.24,0:23:52.28,Black and Red,ts.mochi,0,0,0,,{\frz0\fscx100\fscy100\blur7\pos(966.1,465.17)\c&HFCFBFA&\alpha&H60&\fs70}Khung Hình Đen
+Dialogue: 0,0:23:52.28,0:23:52.32,Black and Red,ts.mochi,0,0,0,,{\frz0\fscx100\fscy100\blur7\pos(965.6,465.07)\c&HFCFBFA&\alpha&H60&\fs70}Khung Hình Đen
+Dialogue: 0,0:23:52.32,0:23:52.36,Black and Red,ts.mochi,0,0,0,,{\frz0\fscx100\fscy100\blur7\pos(966.51,464.89)\c&HFCFBFA&\alpha&H60&\fs70}Khung Hình Đen
+Dialogue: 0,0:23:52.36,0:23:52.41,Black and Red,ts.mochi,0,0,0,,{\frz0\fscx100\fscy100\blur7\pos(965.93,464.52)\c&HFCFBFA&\alpha&H60&\fs70}Khung Hình Đen
+Dialogue: 0,0:23:52.41,0:23:52.45,Black and Red,ts.mochi,0,0,0,,{\frz0\fscx100\fscy100\blur7\pos(965.85,464.83)\c&HFCFBFA&\alpha&H60&\fs70}Khung Hình Đen
+Dialogue: 0,0:23:52.45,0:23:52.49,Black and Red,ts.mochi,0,0,0,,{\frz0\fscx100\fscy100\blur7\pos(966.06,464.51)\c&HFCFBFA&\alpha&H60&\fs70}Khung Hình Đen
+Dialogue: 0,0:23:52.49,0:23:52.53,Black and Red,ts.mochi,0,0,0,,{\frz0\fscx100\fscy100\blur7\pos(965.81,464.73)\c&HFCFBFA&\alpha&H60&\fs70}Khung Hình Đen
+Dialogue: 0,0:23:52.53,0:23:52.57,Black and Red,ts.mochi,0,0,0,,{\frz0\fscx100\fscy100\blur7\pos(966.58,464.84)\c&HFCFBFA&\alpha&H60&\fs70}Khung Hình Đen
+Dialogue: 0,0:23:52.57,0:23:52.61,Black and Red,ts.mochi,0,0,0,,{\frz0\fscx100\fscy100\blur7\pos(966.32,464.83)\c&HFCFBFA&\alpha&H60&\fs70}Khung Hình Đen
+Dialogue: 0,0:23:52.61,0:23:52.66,Black and Red,ts.mochi,0,0,0,,{\frz0\fscx100\fscy100\blur7\pos(966.34,464.49)\c&HFCFBFA&\alpha&H60&\fs70}Khung Hình Đen
+Dialogue: 0,0:23:52.66,0:23:52.70,Black and Red,ts.mochi,0,0,0,,{\frz0\fscx100\fscy100\blur7\pos(965.6,465.23)\c&HFCFBFA&\alpha&H60&\fs70}Khung Hình Đen
+Dialogue: 0,0:23:52.70,0:23:52.74,Black and Red,ts.mochi,0,0,0,,{\frz0\fscx100\fscy100\blur7\pos(966.03,464.87)\c&HFCFBFA&\alpha&H60&\fs70}Khung Hình Đen
+Dialogue: 0,0:23:52.74,0:23:52.78,Black and Red,ts.mochi,0,0,0,,{\frz0\fscx100\fscy100\blur7\pos(966.35,464.78)\c&HFCFBFA&\alpha&H60&\fs70}Khung Hình Đen
+Dialogue: 0,0:23:52.78,0:23:52.82,Black and Red,ts.mochi,0,0,0,,{\frz0\fscx100\fscy100\blur7\pos(965.59,464.69)\c&HFCFBFA&\alpha&H60&\fs70}Khung Hình Đen
+Dialogue: 0,0:23:52.82,0:23:52.86,Black and Red,ts.mochi,0,0,0,,{\frz0\fscx100\fscy100\blur7\pos(966,464.92)\c&HFCFBFA&\alpha&H60&\fs70}Khung Hình Đen
+Dialogue: 0,0:23:52.86,0:23:52.91,Black and Red,ts.mochi,0,0,0,,{\frz0\fscx100\fscy100\blur7\pos(966.38,465.22)\c&HFCFBFA&\alpha&H60&\fs70}Khung Hình Đen
+Dialogue: 0,0:23:52.91,0:23:52.95,Black and Red,ts.mochi,0,0,0,,{\frz0\fscx100\fscy100\blur7\pos(966.12,464.98)\c&HFCFBFA&\alpha&H60&\fs70}Khung Hình Đen
+Dialogue: 0,0:23:52.95,0:23:52.99,Black and Red,ts.mochi,0,0,0,,{\frz0\fscx100\fscy100\blur7\pos(966.01,464.89)\c&HFCFBFA&\alpha&H60&\fs70}Khung Hình Đen
+Dialogue: 0,0:23:52.99,0:23:53.03,Black and Red,ts.mochi,0,0,0,,{\frz0\fscx100\fscy100\blur7\pos(965.73,464.89)\c&HFCFBFA&\alpha&H60&\fs70}Khung Hình Đen
+Dialogue: 0,0:23:53.03,0:23:53.07,Black and Red,ts.mochi,0,0,0,,{\frz0\fscx100\fscy100\blur7\pos(965.7,465.21)\c&HFCFBFA&\alpha&H60&\fs70}Khung Hình Đen
+Dialogue: 0,0:23:53.07,0:23:53.11,Black and Red,ts.mochi,0,0,0,,{\frz0\fscx100\fscy100\blur7\pos(965.89,464.93)\c&HFCFBFA&\alpha&H60&\fs70}Khung Hình Đen
+Dialogue: 0,0:23:53.11,0:23:53.16,Black and Red,ts.mochi,0,0,0,,{\frz0\fscx100\fscy100\blur7\pos(965.84,464.72)\c&HFCFBFA&\alpha&H60&\fs70}Khung Hình Đen
+Dialogue: 0,0:23:53.16,0:23:53.20,Black and Red,ts.mochi,0,0,0,,{\frz0\fscx100\fscy100\blur7\pos(966.04,465)\c&HFCFBFA&\alpha&H60&\fs70}Khung Hình Đen
+Dialogue: 0,0:23:53.20,0:23:53.24,Black and Red,ts.mochi,0,0,0,,{\frz0\fscx100\fscy100\blur7\pos(965.71,465.32)\c&HFCFBFA&\alpha&H60&\fs70}Khung Hình Đen
+Dialogue: 0,0:23:53.24,0:23:53.28,Black and Red,ts.mochi,0,0,0,,{\frz0\fscx100\fscy100\blur7\pos(966.4,464.92)\c&HFCFBFA&\alpha&H60&\fs70}Khung Hình Đen
+Dialogue: 0,0:23:53.28,0:23:53.32,Black and Red,ts.mochi,0,0,0,,{\frz0\fscx100\fscy100\blur7\pos(966.02,464.95)\c&HFCFBFA&\alpha&H60&\fs70}Khung Hình Đen
+Dialogue: 0,0:23:53.32,0:23:53.37,Black and Red,ts.mochi,0,0,0,,{\frz0\fscx100\fscy100\blur7\pos(966.05,465.06)\c&HFCFBFA&\alpha&H60&\fs70}Khung Hình Đen
+Dialogue: 0,0:23:53.37,0:23:53.41,Black and Red,ts.mochi,0,0,0,,{\frz0\fscx100\fscy100\blur7\pos(966.3,464.9)\c&HFCFBFA&\alpha&H60&\fs70}Khung Hình Đen
+Dialogue: 0,0:23:53.41,0:23:53.45,Black and Red,ts.mochi,0,0,0,,{\frz0\fscx100\fscy100\blur7\pos(966.28,464.91)\c&HFCFBFA&\alpha&H60&\fs70}Khung Hình Đen
+Dialogue: 1,0:23:51.24,0:23:51.28,Black and Red,ts.mochi,0,0,0,,{\frz0\fscx100\fscy100\blur0.94\pos(966,465)\c&HFCFBFA&\fs70}Khung Hình Đen
+Dialogue: 1,0:23:51.28,0:23:51.32,Black and Red,ts.mochi,0,0,0,,{\frz0\fscx100\fscy100\blur0.94\pos(965.76,465.01)\c&HFCFBFA&\fs70}Khung Hình Đen
+Dialogue: 1,0:23:51.32,0:23:51.36,Black and Red,ts.mochi,0,0,0,,{\frz0\fscx100\fscy100\blur0.94\pos(965.96,464.39)\c&HFCFBFA&\fs70}Khung Hình Đen
+Dialogue: 1,0:23:51.36,0:23:51.40,Black and Red,ts.mochi,0,0,0,,{\frz0\fscx100\fscy100\blur0.94\pos(965.86,465.08)\c&HFCFBFA&\fs70}Khung Hình Đen
+Dialogue: 1,0:23:51.40,0:23:51.45,Black and Red,ts.mochi,0,0,0,,{\frz0\fscx100\fscy100\blur0.94\pos(965.7,465.11)\c&HFCFBFA&\fs70}Khung Hình Đen
+Dialogue: 1,0:23:51.45,0:23:51.49,Black and Red,ts.mochi,0,0,0,,{\frz0\fscx100\fscy100\blur0.94\pos(965.78,464.83)\c&HFCFBFA&\fs70}Khung Hình Đen
+Dialogue: 1,0:23:51.49,0:23:51.53,Black and Red,ts.mochi,0,0,0,,{\frz0\fscx100\fscy100\blur0.94\pos(966.31,465.2)\c&HFCFBFA&\fs70}Khung Hình Đen
+Dialogue: 1,0:23:51.53,0:23:51.57,Black and Red,ts.mochi,0,0,0,,{\frz0\fscx100\fscy100\blur0.94\pos(965.79,464.82)\c&HFCFBFA&\fs70}Khung Hình Đen
+Dialogue: 1,0:23:51.57,0:23:51.61,Black and Red,ts.mochi,0,0,0,,{\frz0\fscx100\fscy100\blur0.94\pos(966.1,464.79)\c&HFCFBFA&\fs70}Khung Hình Đen
+Dialogue: 1,0:23:51.61,0:23:51.66,Black and Red,ts.mochi,0,0,0,,{\frz0\fscx100\fscy100\blur0.94\pos(966.22,465.16)\c&HFCFBFA&\fs70}Khung Hình Đen
+Dialogue: 1,0:23:51.66,0:23:51.70,Black and Red,ts.mochi,0,0,0,,{\frz0\fscx100\fscy100\blur0.94\pos(965.83,464.35)\c&HFCFBFA&\fs70}Khung Hình Đen
+Dialogue: 1,0:23:51.70,0:23:51.74,Black and Red,ts.mochi,0,0,0,,{\frz0\fscx100\fscy100\blur0.94\pos(965.86,464.69)\c&HFCFBFA&\fs70}Khung Hình Đen
+Dialogue: 1,0:23:51.74,0:23:51.78,Black and Red,ts.mochi,0,0,0,,{\frz0\fscx100\fscy100\blur0.94\pos(966.04,464.85)\c&HFCFBFA&\fs70}Khung Hình Đen
+Dialogue: 1,0:23:51.78,0:23:51.82,Black and Red,ts.mochi,0,0,0,,{\frz0\fscx100\fscy100\blur0.94\pos(965.85,464.84)\c&HFCFBFA&\fs70}Khung Hình Đen
+Dialogue: 1,0:23:51.82,0:23:51.86,Black and Red,ts.mochi,0,0,0,,{\frz0\fscx100\fscy100\blur0.94\pos(965.56,464.43)\c&HFCFBFA&\fs70}Khung Hình Đen
+Dialogue: 1,0:23:51.86,0:23:51.91,Black and Red,ts.mochi,0,0,0,,{\frz0\fscx100\fscy100\blur0.94\pos(966.04,464.42)\c&HFCFBFA&\fs70}Khung Hình Đen
+Dialogue: 1,0:23:51.91,0:23:51.95,Black and Red,ts.mochi,0,0,0,,{\frz0\fscx100\fscy100\blur0.94\pos(965.94,464.82)\c&HFCFBFA&\fs70}Khung Hình Đen
+Dialogue: 1,0:23:51.95,0:23:51.99,Black and Red,ts.mochi,0,0,0,,{\frz0\fscx100\fscy100\blur0.94\pos(965.96,464.75)\c&HFCFBFA&\fs70}Khung Hình Đen
+Dialogue: 1,0:23:51.99,0:23:52.03,Black and Red,ts.mochi,0,0,0,,{\frz0\fscx100\fscy100\blur0.94\pos(965.92,464.84)\c&HFCFBFA&\fs70}Khung Hình Đen
+Dialogue: 1,0:23:52.03,0:23:52.07,Black and Red,ts.mochi,0,0,0,,{\frz0\fscx100\fscy100\blur0.94\pos(966.33,464.97)\c&HFCFBFA&\fs70}Khung Hình Đen
+Dialogue: 1,0:23:52.07,0:23:52.11,Black and Red,ts.mochi,0,0,0,,{\frz0\fscx100\fscy100\blur0.94\pos(965.75,464.92)\c&HFCFBFA&\fs70}Khung Hình Đen
+Dialogue: 1,0:23:52.11,0:23:52.16,Black and Red,ts.mochi,0,0,0,,{\frz0\fscx100\fscy100\blur0.94\pos(966.2,464.47)\c&HFCFBFA&\fs70}Khung Hình Đen
+Dialogue: 1,0:23:52.16,0:23:52.20,Black and Red,ts.mochi,0,0,0,,{\frz0\fscx100\fscy100\blur0.94\pos(965.55,464.66)\c&HFCFBFA&\fs70}Khung Hình Đen
+Dialogue: 1,0:23:52.20,0:23:52.24,Black and Red,ts.mochi,0,0,0,,{\frz0\fscx100\fscy100\blur0.94\pos(966.05,465.3)\c&HFCFBFA&\fs70}Khung Hình Đen
+Dialogue: 1,0:23:52.24,0:23:52.28,Black and Red,ts.mochi,0,0,0,,{\frz0\fscx100\fscy100\blur0.94\pos(966.1,465.17)\c&HFCFBFA&\fs70}Khung Hình Đen
+Dialogue: 1,0:23:52.28,0:23:52.32,Black and Red,ts.mochi,0,0,0,,{\frz0\fscx100\fscy100\blur0.94\pos(965.6,465.07)\c&HFCFBFA&\fs70}Khung Hình Đen
+Dialogue: 1,0:23:52.32,0:23:52.36,Black and Red,ts.mochi,0,0,0,,{\frz0\fscx100\fscy100\blur0.94\pos(966.51,464.89)\c&HFCFBFA&\fs70}Khung Hình Đen
+Dialogue: 1,0:23:52.36,0:23:52.41,Black and Red,ts.mochi,0,0,0,,{\frz0\fscx100\fscy100\blur0.94\pos(965.93,464.52)\c&HFCFBFA&\fs70}Khung Hình Đen
+Dialogue: 1,0:23:52.41,0:23:52.45,Black and Red,ts.mochi,0,0,0,,{\frz0\fscx100\fscy100\blur0.94\pos(965.85,464.83)\c&HFCFBFA&\fs70}Khung Hình Đen
+Dialogue: 1,0:23:52.45,0:23:52.49,Black and Red,ts.mochi,0,0,0,,{\frz0\fscx100\fscy100\blur0.94\pos(966.06,464.51)\c&HFCFBFA&\fs70}Khung Hình Đen
+Dialogue: 1,0:23:52.49,0:23:52.53,Black and Red,ts.mochi,0,0,0,,{\frz0\fscx100\fscy100\blur0.94\pos(965.81,464.73)\c&HFCFBFA&\fs70}Khung Hình Đen
+Dialogue: 1,0:23:52.53,0:23:52.57,Black and Red,ts.mochi,0,0,0,,{\frz0\fscx100\fscy100\blur0.94\pos(966.58,464.84)\c&HFCFBFA&\fs70}Khung Hình Đen
+Dialogue: 1,0:23:52.57,0:23:52.61,Black and Red,ts.mochi,0,0,0,,{\frz0\fscx100\fscy100\blur0.94\pos(966.32,464.83)\c&HFCFBFA&\fs70}Khung Hình Đen
+Dialogue: 1,0:23:52.61,0:23:52.66,Black and Red,ts.mochi,0,0,0,,{\frz0\fscx100\fscy100\blur0.94\pos(966.34,464.49)\c&HFCFBFA&\fs70}Khung Hình Đen
+Dialogue: 1,0:23:52.66,0:23:52.70,Black and Red,ts.mochi,0,0,0,,{\frz0\fscx100\fscy100\blur0.94\pos(965.6,465.23)\c&HFCFBFA&\fs70}Khung Hình Đen
+Dialogue: 1,0:23:52.70,0:23:52.74,Black and Red,ts.mochi,0,0,0,,{\frz0\fscx100\fscy100\blur0.94\pos(966.03,464.87)\c&HFCFBFA&\fs70}Khung Hình Đen
+Dialogue: 1,0:23:52.74,0:23:52.78,Black and Red,ts.mochi,0,0,0,,{\frz0\fscx100\fscy100\blur0.94\pos(966.35,464.78)\c&HFCFBFA&\fs70}Khung Hình Đen
+Dialogue: 1,0:23:52.78,0:23:52.82,Black and Red,ts.mochi,0,0,0,,{\frz0\fscx100\fscy100\blur0.94\pos(965.59,464.69)\c&HFCFBFA&\fs70}Khung Hình Đen
+Dialogue: 1,0:23:52.82,0:23:52.86,Black and Red,ts.mochi,0,0,0,,{\frz0\fscx100\fscy100\blur0.94\pos(966,464.92)\c&HFCFBFA&\fs70}Khung Hình Đen
+Dialogue: 1,0:23:52.86,0:23:52.91,Black and Red,ts.mochi,0,0,0,,{\frz0\fscx100\fscy100\blur0.94\pos(966.38,465.22)\c&HFCFBFA&\fs70}Khung Hình Đen
+Dialogue: 1,0:23:52.91,0:23:52.95,Black and Red,ts.mochi,0,0,0,,{\frz0\fscx100\fscy100\blur0.94\pos(966.12,464.98)\c&HFCFBFA&\fs70}Khung Hình Đen
+Dialogue: 1,0:23:52.95,0:23:52.99,Black and Red,ts.mochi,0,0,0,,{\frz0\fscx100\fscy100\blur0.94\pos(966.01,464.89)\c&HFCFBFA&\fs70}Khung Hình Đen
+Dialogue: 1,0:23:52.99,0:23:53.03,Black and Red,ts.mochi,0,0,0,,{\frz0\fscx100\fscy100\blur0.94\pos(965.73,464.89)\c&HFCFBFA&\fs70}Khung Hình Đen
+Dialogue: 1,0:23:53.03,0:23:53.07,Black and Red,ts.mochi,0,0,0,,{\frz0\fscx100\fscy100\blur0.94\pos(965.7,465.21)\c&HFCFBFA&\fs70}Khung Hình Đen
+Dialogue: 1,0:23:53.07,0:23:53.11,Black and Red,ts.mochi,0,0,0,,{\frz0\fscx100\fscy100\blur0.94\pos(965.89,464.93)\c&HFCFBFA&\fs70}Khung Hình Đen
+Dialogue: 1,0:23:53.11,0:23:53.16,Black and Red,ts.mochi,0,0,0,,{\frz0\fscx100\fscy100\blur0.94\pos(965.84,464.72)\c&HFCFBFA&\fs70}Khung Hình Đen
+Dialogue: 1,0:23:53.16,0:23:53.20,Black and Red,ts.mochi,0,0,0,,{\frz0\fscx100\fscy100\blur0.94\pos(966.04,465)\c&HFCFBFA&\fs70}Khung Hình Đen
+Dialogue: 1,0:23:53.20,0:23:53.24,Black and Red,ts.mochi,0,0,0,,{\frz0\fscx100\fscy100\blur0.94\pos(965.71,465.32)\c&HFCFBFA&\fs70}Khung Hình Đen
+Dialogue: 1,0:23:53.24,0:23:53.28,Black and Red,ts.mochi,0,0,0,,{\frz0\fscx100\fscy100\blur0.94\pos(966.4,464.92)\c&HFCFBFA&\fs70}Khung Hình Đen
+Dialogue: 1,0:23:53.28,0:23:53.32,Black and Red,ts.mochi,0,0,0,,{\frz0\fscx100\fscy100\blur0.94\pos(966.02,464.95)\c&HFCFBFA&\fs70}Khung Hình Đen
+Dialogue: 1,0:23:53.32,0:23:53.37,Black and Red,ts.mochi,0,0,0,,{\frz0\fscx100\fscy100\blur0.94\pos(966.05,465.06)\c&HFCFBFA&\fs70}Khung Hình Đen
+Dialogue: 1,0:23:53.37,0:23:53.41,Black and Red,ts.mochi,0,0,0,,{\frz0\fscx100\fscy100\blur0.94\pos(966.3,464.9)\c&HFCFBFA&\fs70}Khung Hình Đen
+Dialogue: 1,0:23:53.41,0:23:53.45,Black and Red,ts.mochi,0,0,0,,{\frz0\fscx100\fscy100\blur0.94\pos(966.28,464.91)\c&HFCFBFA&\fs70}Khung Hình Đen
+Dialogue: 0,0:23:51.24,0:23:51.28,Black and Red,ts.mochi,0,0,0,,{\frz0\alpha&H60&\fscx150\fscy150\blur4\pos(966,870)}Hoạt Cảnh số     Không Có
+Dialogue: 0,0:23:51.28,0:23:51.32,Black and Red,ts.mochi,0,0,0,,{\frz0\alpha&H60&\fscx150\fscy150\blur4\pos(965.76,870)}Hoạt Cảnh số     Không Có
+Dialogue: 0,0:23:51.32,0:23:51.36,Black and Red,ts.mochi,0,0,0,,{\frz0\alpha&H60&\fscx150\fscy150\blur4\pos(965.96,869.39)}Hoạt Cảnh số     Không Có
+Dialogue: 0,0:23:51.36,0:23:51.40,Black and Red,ts.mochi,0,0,0,,{\frz0\alpha&H60&\fscx150\fscy150\blur4\pos(965.86,870.08)}Hoạt Cảnh số     Không Có
+Dialogue: 0,0:23:51.40,0:23:51.45,Black and Red,ts.mochi,0,0,0,,{\frz0\alpha&H60&\fscx150\fscy150\blur4\pos(965.7,870.11)}Hoạt Cảnh số     Không Có
+Dialogue: 0,0:23:51.45,0:23:51.49,Black and Red,ts.mochi,0,0,0,,{\frz0\alpha&H60&\fscx150\fscy150\blur4\pos(965.78,869.83)}Hoạt Cảnh số     Không Có
+Dialogue: 0,0:23:51.49,0:23:51.53,Black and Red,ts.mochi,0,0,0,,{\frz0\alpha&H60&\fscx150\fscy150\blur4\pos(966.31,870.2)}Hoạt Cảnh số     Không Có
+Dialogue: 0,0:23:51.53,0:23:51.57,Black and Red,ts.mochi,0,0,0,,{\frz0\alpha&H60&\fscx150\fscy150\blur4\pos(965.79,869.82)}Hoạt Cảnh số     Không Có
+Dialogue: 0,0:23:51.57,0:23:51.61,Black and Red,ts.mochi,0,0,0,,{\frz0\alpha&H60&\fscx150\fscy150\blur4\pos(966.1,869.79)}Hoạt Cảnh số     Không Có
+Dialogue: 0,0:23:51.61,0:23:51.66,Black and Red,ts.mochi,0,0,0,,{\frz0\alpha&H60&\fscx150\fscy150\blur4\pos(966.22,870.16)}Hoạt Cảnh số     Không Có
+Dialogue: 0,0:23:51.66,0:23:51.70,Black and Red,ts.mochi,0,0,0,,{\frz0\alpha&H60&\fscx150\fscy150\blur4\pos(965.83,869.35)}Hoạt Cảnh số     Không Có
+Dialogue: 0,0:23:51.70,0:23:51.74,Black and Red,ts.mochi,0,0,0,,{\frz0\alpha&H60&\fscx150\fscy150\blur4\pos(965.86,869.69)}Hoạt Cảnh số     Không Có
+Dialogue: 0,0:23:51.74,0:23:51.78,Black and Red,ts.mochi,0,0,0,,{\frz0\alpha&H60&\fscx150\fscy150\blur4\pos(966.04,869.85)}Hoạt Cảnh số     Không Có
+Dialogue: 0,0:23:51.78,0:23:51.82,Black and Red,ts.mochi,0,0,0,,{\frz0\alpha&H60&\fscx150\fscy150\blur4\pos(965.85,869.84)}Hoạt Cảnh số     Không Có
+Dialogue: 0,0:23:51.82,0:23:51.86,Black and Red,ts.mochi,0,0,0,,{\frz0\alpha&H60&\fscx150\fscy150\blur4\pos(965.56,869.43)}Hoạt Cảnh số     Không Có
+Dialogue: 0,0:23:51.86,0:23:51.91,Black and Red,ts.mochi,0,0,0,,{\frz0\alpha&H60&\fscx150\fscy150\blur4\pos(966.04,869.42)}Hoạt Cảnh số     Không Có
+Dialogue: 0,0:23:51.91,0:23:51.95,Black and Red,ts.mochi,0,0,0,,{\frz0\alpha&H60&\fscx150\fscy150\blur4\pos(965.94,869.82)}Hoạt Cảnh số     Không Có
+Dialogue: 0,0:23:51.95,0:23:51.99,Black and Red,ts.mochi,0,0,0,,{\frz0\alpha&H60&\fscx150\fscy150\blur4\pos(965.96,869.75)}Hoạt Cảnh số     Không Có
+Dialogue: 0,0:23:51.99,0:23:52.03,Black and Red,ts.mochi,0,0,0,,{\frz0\alpha&H60&\fscx150\fscy150\blur4\pos(965.92,869.84)}Hoạt Cảnh số     Không Có
+Dialogue: 0,0:23:52.03,0:23:52.07,Black and Red,ts.mochi,0,0,0,,{\frz0\alpha&H60&\fscx150\fscy150\blur4\pos(966.33,869.97)}Hoạt Cảnh số     Không Có
+Dialogue: 0,0:23:52.07,0:23:52.11,Black and Red,ts.mochi,0,0,0,,{\frz0\alpha&H60&\fscx150\fscy150\blur4\pos(965.75,869.92)}Hoạt Cảnh số     Không Có
+Dialogue: 0,0:23:52.11,0:23:52.16,Black and Red,ts.mochi,0,0,0,,{\frz0\alpha&H60&\fscx150\fscy150\blur4\pos(966.2,869.47)}Hoạt Cảnh số     Không Có
+Dialogue: 0,0:23:52.16,0:23:52.20,Black and Red,ts.mochi,0,0,0,,{\frz0\alpha&H60&\fscx150\fscy150\blur4\pos(965.55,869.66)}Hoạt Cảnh số     Không Có
+Dialogue: 0,0:23:52.20,0:23:52.24,Black and Red,ts.mochi,0,0,0,,{\frz0\alpha&H60&\fscx150\fscy150\blur4\pos(966.05,870.3)}Hoạt Cảnh số     Không Có
+Dialogue: 0,0:23:52.24,0:23:52.28,Black and Red,ts.mochi,0,0,0,,{\frz0\alpha&H60&\fscx150\fscy150\blur4\pos(966.1,870.17)}Hoạt Cảnh số     Không Có
+Dialogue: 0,0:23:52.28,0:23:52.32,Black and Red,ts.mochi,0,0,0,,{\frz0\alpha&H60&\fscx150\fscy150\blur4\pos(965.6,870.07)}Hoạt Cảnh số     Không Có
+Dialogue: 0,0:23:52.32,0:23:52.36,Black and Red,ts.mochi,0,0,0,,{\frz0\alpha&H60&\fscx150\fscy150\blur4\pos(966.51,869.89)}Hoạt Cảnh số     Không Có
+Dialogue: 0,0:23:52.36,0:23:52.41,Black and Red,ts.mochi,0,0,0,,{\frz0\alpha&H60&\fscx150\fscy150\blur4\pos(965.93,869.52)}Hoạt Cảnh số     Không Có
+Dialogue: 0,0:23:52.41,0:23:52.45,Black and Red,ts.mochi,0,0,0,,{\frz0\alpha&H60&\fscx150\fscy150\blur4\pos(965.85,869.83)}Hoạt Cảnh số     Không Có
+Dialogue: 0,0:23:52.45,0:23:52.49,Black and Red,ts.mochi,0,0,0,,{\frz0\alpha&H60&\fscx150\fscy150\blur4\pos(966.06,869.51)}Hoạt Cảnh số     Không Có
+Dialogue: 0,0:23:52.49,0:23:52.53,Black and Red,ts.mochi,0,0,0,,{\frz0\alpha&H60&\fscx150\fscy150\blur4\pos(965.81,869.73)}Hoạt Cảnh số     Không Có
+Dialogue: 0,0:23:52.53,0:23:52.57,Black and Red,ts.mochi,0,0,0,,{\frz0\alpha&H60&\fscx150\fscy150\blur4\pos(966.58,869.84)}Hoạt Cảnh số     Không Có
+Dialogue: 0,0:23:52.57,0:23:52.61,Black and Red,ts.mochi,0,0,0,,{\frz0\alpha&H60&\fscx150\fscy150\blur4\pos(966.32,869.83)}Hoạt Cảnh số     Không Có
+Dialogue: 0,0:23:52.61,0:23:52.66,Black and Red,ts.mochi,0,0,0,,{\frz0\alpha&H60&\fscx150\fscy150\blur4\pos(966.34,869.48)}Hoạt Cảnh số     Không Có
+Dialogue: 0,0:23:52.66,0:23:52.70,Black and Red,ts.mochi,0,0,0,,{\frz0\alpha&H60&\fscx150\fscy150\blur4\pos(965.6,870.22)}Hoạt Cảnh số     Không Có
+Dialogue: 0,0:23:52.70,0:23:52.74,Black and Red,ts.mochi,0,0,0,,{\frz0\alpha&H60&\fscx150\fscy150\blur4\pos(966.03,869.87)}Hoạt Cảnh số     Không Có
+Dialogue: 0,0:23:52.74,0:23:52.78,Black and Red,ts.mochi,0,0,0,,{\frz0\alpha&H60&\fscx150\fscy150\blur4\pos(966.35,869.78)}Hoạt Cảnh số     Không Có
+Dialogue: 0,0:23:52.78,0:23:52.82,Black and Red,ts.mochi,0,0,0,,{\frz0\alpha&H60&\fscx150\fscy150\blur4\pos(965.59,869.69)}Hoạt Cảnh số     Không Có
+Dialogue: 0,0:23:52.82,0:23:52.86,Black and Red,ts.mochi,0,0,0,,{\frz0\alpha&H60&\fscx150\fscy150\blur4\pos(966,869.92)}Hoạt Cảnh số     Không Có
+Dialogue: 0,0:23:52.86,0:23:52.91,Black and Red,ts.mochi,0,0,0,,{\frz0\alpha&H60&\fscx150\fscy150\blur4\pos(966.38,870.22)}Hoạt Cảnh số     Không Có
+Dialogue: 0,0:23:52.91,0:23:52.95,Black and Red,ts.mochi,0,0,0,,{\frz0\alpha&H60&\fscx150\fscy150\blur4\pos(966.12,869.98)}Hoạt Cảnh số     Không Có
+Dialogue: 0,0:23:52.95,0:23:52.99,Black and Red,ts.mochi,0,0,0,,{\frz0\alpha&H60&\fscx150\fscy150\blur4\pos(966.01,869.89)}Hoạt Cảnh số     Không Có
+Dialogue: 0,0:23:52.99,0:23:53.03,Black and Red,ts.mochi,0,0,0,,{\frz0\alpha&H60&\fscx150\fscy150\blur4\pos(965.73,869.89)}Hoạt Cảnh số     Không Có
+Dialogue: 0,0:23:53.03,0:23:53.07,Black and Red,ts.mochi,0,0,0,,{\frz0\alpha&H60&\fscx150\fscy150\blur4\pos(965.7,870.21)}Hoạt Cảnh số     Không Có
+Dialogue: 0,0:23:53.07,0:23:53.11,Black and Red,ts.mochi,0,0,0,,{\frz0\alpha&H60&\fscx150\fscy150\blur4\pos(965.89,869.93)}Hoạt Cảnh số     Không Có
+Dialogue: 0,0:23:53.11,0:23:53.16,Black and Red,ts.mochi,0,0,0,,{\frz0\alpha&H60&\fscx150\fscy150\blur4\pos(965.84,869.72)}Hoạt Cảnh số     Không Có
+Dialogue: 0,0:23:53.16,0:23:53.20,Black and Red,ts.mochi,0,0,0,,{\frz0\alpha&H60&\fscx150\fscy150\blur4\pos(966.04,870)}Hoạt Cảnh số     Không Có
+Dialogue: 0,0:23:53.20,0:23:53.24,Black and Red,ts.mochi,0,0,0,,{\frz0\alpha&H60&\fscx150\fscy150\blur4\pos(965.71,870.32)}Hoạt Cảnh số     Không Có
+Dialogue: 0,0:23:53.24,0:23:53.28,Black and Red,ts.mochi,0,0,0,,{\frz0\alpha&H60&\fscx150\fscy150\blur4\pos(966.4,869.92)}Hoạt Cảnh số     Không Có
+Dialogue: 0,0:23:53.28,0:23:53.32,Black and Red,ts.mochi,0,0,0,,{\frz0\alpha&H60&\fscx150\fscy150\blur4\pos(966.02,869.95)}Hoạt Cảnh số     Không Có
+Dialogue: 0,0:23:53.32,0:23:53.37,Black and Red,ts.mochi,0,0,0,,{\frz0\alpha&H60&\fscx150\fscy150\blur4\pos(966.05,870.06)}Hoạt Cảnh số     Không Có
+Dialogue: 0,0:23:53.37,0:23:53.41,Black and Red,ts.mochi,0,0,0,,{\frz0\alpha&H60&\fscx150\fscy150\blur4\pos(966.3,869.9)}Hoạt Cảnh số     Không Có
+Dialogue: 0,0:23:53.41,0:23:53.45,Black and Red,ts.mochi,0,0,0,,{\frz0\alpha&H60&\fscx150\fscy150\blur4\pos(966.28,869.91)}Hoạt Cảnh số     Không Có
+Dialogue: 1,0:23:51.24,0:23:51.28,Black and Red,ts.mochi,0,0,0,,{\frz0\fscx150\fscy150\blur0.94\pos(966,870)}Hoạt Cảnh số     Không Có
+Dialogue: 1,0:23:51.28,0:23:51.32,Black and Red,ts.mochi,0,0,0,,{\frz0\fscx150\fscy150\blur0.94\pos(965.76,870)}Hoạt Cảnh số     Không Có
+Dialogue: 1,0:23:51.32,0:23:51.36,Black and Red,ts.mochi,0,0,0,,{\frz0\fscx150\fscy150\blur0.94\pos(965.96,869.39)}Hoạt Cảnh số     Không Có
+Dialogue: 1,0:23:51.36,0:23:51.40,Black and Red,ts.mochi,0,0,0,,{\frz0\fscx150\fscy150\blur0.94\pos(965.86,870.08)}Hoạt Cảnh số     Không Có
+Dialogue: 1,0:23:51.40,0:23:51.45,Black and Red,ts.mochi,0,0,0,,{\frz0\fscx150\fscy150\blur0.94\pos(965.7,870.11)}Hoạt Cảnh số     Không Có
+Dialogue: 1,0:23:51.45,0:23:51.49,Black and Red,ts.mochi,0,0,0,,{\frz0\fscx150\fscy150\blur0.94\pos(965.78,869.83)}Hoạt Cảnh số     Không Có
+Dialogue: 1,0:23:51.49,0:23:51.53,Black and Red,ts.mochi,0,0,0,,{\frz0\fscx150\fscy150\blur0.94\pos(966.31,870.2)}Hoạt Cảnh số     Không Có
+Dialogue: 1,0:23:51.53,0:23:51.57,Black and Red,ts.mochi,0,0,0,,{\frz0\fscx150\fscy150\blur0.94\pos(965.79,869.82)}Hoạt Cảnh số     Không Có
+Dialogue: 1,0:23:51.57,0:23:51.61,Black and Red,ts.mochi,0,0,0,,{\frz0\fscx150\fscy150\blur0.94\pos(966.1,869.79)}Hoạt Cảnh số     Không Có
+Dialogue: 1,0:23:51.61,0:23:51.66,Black and Red,ts.mochi,0,0,0,,{\frz0\fscx150\fscy150\blur0.94\pos(966.22,870.16)}Hoạt Cảnh số     Không Có
+Dialogue: 1,0:23:51.66,0:23:51.70,Black and Red,ts.mochi,0,0,0,,{\frz0\fscx150\fscy150\blur0.94\pos(965.83,869.35)}Hoạt Cảnh số     Không Có
+Dialogue: 1,0:23:51.70,0:23:51.74,Black and Red,ts.mochi,0,0,0,,{\frz0\fscx150\fscy150\blur0.94\pos(965.86,869.69)}Hoạt Cảnh số     Không Có
+Dialogue: 1,0:23:51.74,0:23:51.78,Black and Red,ts.mochi,0,0,0,,{\frz0\fscx150\fscy150\blur0.94\pos(966.04,869.85)}Hoạt Cảnh số     Không Có
+Dialogue: 1,0:23:51.78,0:23:51.82,Black and Red,ts.mochi,0,0,0,,{\frz0\fscx150\fscy150\blur0.94\pos(965.85,869.84)}Hoạt Cảnh số     Không Có
+Dialogue: 1,0:23:51.82,0:23:51.86,Black and Red,ts.mochi,0,0,0,,{\frz0\fscx150\fscy150\blur0.94\pos(965.56,869.43)}Hoạt Cảnh số     Không Có
+Dialogue: 1,0:23:51.86,0:23:51.91,Black and Red,ts.mochi,0,0,0,,{\frz0\fscx150\fscy150\blur0.94\pos(966.04,869.42)}Hoạt Cảnh số     Không Có
+Dialogue: 1,0:23:51.91,0:23:51.95,Black and Red,ts.mochi,0,0,0,,{\frz0\fscx150\fscy150\blur0.94\pos(965.94,869.82)}Hoạt Cảnh số     Không Có
+Dialogue: 1,0:23:51.95,0:23:51.99,Black and Red,ts.mochi,0,0,0,,{\frz0\fscx150\fscy150\blur0.94\pos(965.96,869.75)}Hoạt Cảnh số     Không Có
+Dialogue: 1,0:23:51.99,0:23:52.03,Black and Red,ts.mochi,0,0,0,,{\frz0\fscx150\fscy150\blur0.94\pos(965.92,869.84)}Hoạt Cảnh số     Không Có
+Dialogue: 1,0:23:52.03,0:23:52.07,Black and Red,ts.mochi,0,0,0,,{\frz0\fscx150\fscy150\blur0.94\pos(966.33,869.97)}Hoạt Cảnh số     Không Có
+Dialogue: 1,0:23:52.07,0:23:52.11,Black and Red,ts.mochi,0,0,0,,{\frz0\fscx150\fscy150\blur0.94\pos(965.75,869.92)}Hoạt Cảnh số     Không Có
+Dialogue: 1,0:23:52.11,0:23:52.16,Black and Red,ts.mochi,0,0,0,,{\frz0\fscx150\fscy150\blur0.94\pos(966.2,869.47)}Hoạt Cảnh số     Không Có
+Dialogue: 1,0:23:52.16,0:23:52.20,Black and Red,ts.mochi,0,0,0,,{\frz0\fscx150\fscy150\blur0.94\pos(965.55,869.66)}Hoạt Cảnh số     Không Có
+Dialogue: 1,0:23:52.20,0:23:52.24,Black and Red,ts.mochi,0,0,0,,{\frz0\fscx150\fscy150\blur0.94\pos(966.05,870.3)}Hoạt Cảnh số     Không Có
+Dialogue: 1,0:23:52.24,0:23:52.28,Black and Red,ts.mochi,0,0,0,,{\frz0\fscx150\fscy150\blur0.94\pos(966.1,870.17)}Hoạt Cảnh số     Không Có
+Dialogue: 1,0:23:52.28,0:23:52.32,Black and Red,ts.mochi,0,0,0,,{\frz0\fscx150\fscy150\blur0.94\pos(965.6,870.07)}Hoạt Cảnh số     Không Có
+Dialogue: 1,0:23:52.32,0:23:52.36,Black and Red,ts.mochi,0,0,0,,{\frz0\fscx150\fscy150\blur0.94\pos(966.51,869.89)}Hoạt Cảnh số     Không Có
+Dialogue: 1,0:23:52.36,0:23:52.41,Black and Red,ts.mochi,0,0,0,,{\frz0\fscx150\fscy150\blur0.94\pos(965.93,869.52)}Hoạt Cảnh số     Không Có
+Dialogue: 1,0:23:52.41,0:23:52.45,Black and Red,ts.mochi,0,0,0,,{\frz0\fscx150\fscy150\blur0.94\pos(965.85,869.83)}Hoạt Cảnh số     Không Có
+Dialogue: 1,0:23:52.45,0:23:52.49,Black and Red,ts.mochi,0,0,0,,{\frz0\fscx150\fscy150\blur0.94\pos(966.06,869.51)}Hoạt Cảnh số     Không Có
+Dialogue: 1,0:23:52.49,0:23:52.53,Black and Red,ts.mochi,0,0,0,,{\frz0\fscx150\fscy150\blur0.94\pos(965.81,869.73)}Hoạt Cảnh số     Không Có
+Dialogue: 1,0:23:52.53,0:23:52.57,Black and Red,ts.mochi,0,0,0,,{\frz0\fscx150\fscy150\blur0.94\pos(966.58,869.84)}Hoạt Cảnh số     Không Có
+Dialogue: 1,0:23:52.57,0:23:52.61,Black and Red,ts.mochi,0,0,0,,{\frz0\fscx150\fscy150\blur0.94\pos(966.32,869.83)}Hoạt Cảnh số     Không Có
+Dialogue: 1,0:23:52.61,0:23:52.66,Black and Red,ts.mochi,0,0,0,,{\frz0\fscx150\fscy150\blur0.94\pos(966.34,869.48)}Hoạt Cảnh số     Không Có
+Dialogue: 1,0:23:52.66,0:23:52.70,Black and Red,ts.mochi,0,0,0,,{\frz0\fscx150\fscy150\blur0.94\pos(965.6,870.22)}Hoạt Cảnh số     Không Có
+Dialogue: 1,0:23:52.70,0:23:52.74,Black and Red,ts.mochi,0,0,0,,{\frz0\fscx150\fscy150\blur0.94\pos(966.03,869.87)}Hoạt Cảnh số     Không Có
+Dialogue: 1,0:23:52.74,0:23:52.78,Black and Red,ts.mochi,0,0,0,,{\frz0\fscx150\fscy150\blur0.94\pos(966.35,869.78)}Hoạt Cảnh số     Không Có
+Dialogue: 1,0:23:52.78,0:23:52.82,Black and Red,ts.mochi,0,0,0,,{\frz0\fscx150\fscy150\blur0.94\pos(965.59,869.69)}Hoạt Cảnh số     Không Có
+Dialogue: 1,0:23:52.82,0:23:52.86,Black and Red,ts.mochi,0,0,0,,{\frz0\fscx150\fscy150\blur0.94\pos(966,869.92)}Hoạt Cảnh số     Không Có
+Dialogue: 1,0:23:52.86,0:23:52.91,Black and Red,ts.mochi,0,0,0,,{\frz0\fscx150\fscy150\blur0.94\pos(966.38,870.22)}Hoạt Cảnh số     Không Có
+Dialogue: 1,0:23:52.91,0:23:52.95,Black and Red,ts.mochi,0,0,0,,{\frz0\fscx150\fscy150\blur0.94\pos(966.12,869.98)}Hoạt Cảnh số     Không Có
+Dialogue: 1,0:23:52.95,0:23:52.99,Black and Red,ts.mochi,0,0,0,,{\frz0\fscx150\fscy150\blur0.94\pos(966.01,869.89)}Hoạt Cảnh số     Không Có
+Dialogue: 1,0:23:52.99,0:23:53.03,Black and Red,ts.mochi,0,0,0,,{\frz0\fscx150\fscy150\blur0.94\pos(965.73,869.89)}Hoạt Cảnh số     Không Có
+Dialogue: 1,0:23:53.03,0:23:53.07,Black and Red,ts.mochi,0,0,0,,{\frz0\fscx150\fscy150\blur0.94\pos(965.7,870.21)}Hoạt Cảnh số     Không Có
+Dialogue: 1,0:23:53.07,0:23:53.11,Black and Red,ts.mochi,0,0,0,,{\frz0\fscx150\fscy150\blur0.94\pos(965.89,869.93)}Hoạt Cảnh số     Không Có
+Dialogue: 1,0:23:53.11,0:23:53.16,Black and Red,ts.mochi,0,0,0,,{\frz0\fscx150\fscy150\blur0.94\pos(965.84,869.72)}Hoạt Cảnh số     Không Có
+Dialogue: 1,0:23:53.16,0:23:53.20,Black and Red,ts.mochi,0,0,0,,{\frz0\fscx150\fscy150\blur0.94\pos(966.04,870)}Hoạt Cảnh số     Không Có
+Dialogue: 1,0:23:53.20,0:23:53.24,Black and Red,ts.mochi,0,0,0,,{\frz0\fscx150\fscy150\blur0.94\pos(965.71,870.32)}Hoạt Cảnh số     Không Có
+Dialogue: 1,0:23:53.24,0:23:53.28,Black and Red,ts.mochi,0,0,0,,{\frz0\fscx150\fscy150\blur0.94\pos(966.4,869.92)}Hoạt Cảnh số     Không Có
+Dialogue: 1,0:23:53.28,0:23:53.32,Black and Red,ts.mochi,0,0,0,,{\frz0\fscx150\fscy150\blur0.94\pos(966.02,869.95)}Hoạt Cảnh số     Không Có
+Dialogue: 1,0:23:53.32,0:23:53.37,Black and Red,ts.mochi,0,0,0,,{\frz0\fscx150\fscy150\blur0.94\pos(966.05,870.06)}Hoạt Cảnh số     Không Có
+Dialogue: 1,0:23:53.37,0:23:53.41,Black and Red,ts.mochi,0,0,0,,{\frz0\fscx150\fscy150\blur0.94\pos(966.3,869.9)}Hoạt Cảnh số     Không Có
+Dialogue: 1,0:23:53.41,0:23:53.45,Black and Red,ts.mochi,0,0,0,,{\frz0\fscx150\fscy150\blur0.94\pos(966.28,869.91)}Hoạt Cảnh số     Không Có
+Dialogue: 0,0:03:37.53,0:03:37.57,Blogemonogatari,ts.mochi,0,0,0,,{\frz0\alpha&H00&\fscx200\fscy200\c&HFFFFFF&\blur0.94\b1\pos(737.31,482.95)}Phượng Hoàng Tsukihi
+Dialogue: 0,0:03:37.57,0:03:37.61,Blogemonogatari,ts.mochi,0,0,0,,{\frz0\alpha&H00&\fscx200\fscy200\c&HFFFFFF&\blur0.94\b1\pos(754.49,495.97)}Phượng Hoàng Tsukihi
+Dialogue: 0,0:03:37.61,0:03:37.65,Blogemonogatari,ts.mochi,0,0,0,,{\frz0\alpha&H00&\fscx200\fscy200\c&HFFFFFF&\blur0.94\b1\pos(766.37,480.55)}Phượng Hoàng Tsukihi
+Dialogue: 0,0:03:37.65,0:03:37.69,Blogemonogatari,ts.mochi,0,0,0,,{\frz0\alpha&H00&\fscx200\fscy200\c&HFFFFFF&\blur0.94\b1\pos(761.7,486.79)}Phượng Hoàng Tsukihi
+Dialogue: 0,0:03:37.69,0:03:37.73,Blogemonogatari,ts.mochi,0,0,0,,{\frz0\alpha&H00&\fscx200\fscy200\c&HFFFFFF&\blur0.94\b1\pos(758.88,490.89)}Phượng Hoàng Tsukihi
+Dialogue: 0,0:03:37.73,0:03:37.78,Blogemonogatari,ts.mochi,0,0,0,,{\frz0\alpha&H00&\fscx200\fscy200\c&HFFFFFF&\blur0.94\b1\pos(768.37,496.73)}Phượng Hoàng Tsukihi
+Dialogue: 0,0:03:37.78,0:03:40.03,Blogemonogatari,ts.mochi,0,0,0,,{\frz0\alpha&H00&\fscx200\fscy200\c&HFFFFFF&\blur0.94\b1\pos(766.5,494.67)}Phượng Hoàng Tsukihi
+Dialogue: 0,0:03:37.53,0:03:37.57,Blogemonogatari,ts.mochi,0,0,0,,{\frz0\alpha&H00&\fscx200\fscy200\pos(1461.81,480.28)\c&HFFFFFF&\blur0.94\b1}Phần Bốn
+Dialogue: 0,0:03:37.57,0:03:37.61,Blogemonogatari,ts.mochi,0,0,0,,{\frz0\alpha&H00&\fscx200\fscy200\pos(1478.99,493.3)\c&HFFFFFF&\blur0.94\b1}Phần Bốn
+Dialogue: 0,0:03:37.61,0:03:37.65,Blogemonogatari,ts.mochi,0,0,0,,{\frz0\alpha&H00&\fscx200\fscy200\pos(1490.87,477.88)\c&HFFFFFF&\blur0.94\b1}Phần Bốn
+Dialogue: 0,0:03:37.65,0:03:37.69,Blogemonogatari,ts.mochi,0,0,0,,{\frz0\alpha&H00&\fscx200\fscy200\pos(1486.2,484.12)\c&HFFFFFF&\blur0.94\b1}Phần Bốn
+Dialogue: 0,0:03:37.69,0:03:37.73,Blogemonogatari,ts.mochi,0,0,0,,{\frz0\alpha&H00&\fscx200\fscy200\pos(1483.38,488.22)\c&HFFFFFF&\blur0.94\b1}Phần Bốn
+Dialogue: 0,0:03:37.73,0:03:37.78,Blogemonogatari,ts.mochi,0,0,0,,{\frz0\alpha&H00&\fscx200\fscy200\pos(1492.87,494.06)\c&HFFFFFF&\blur0.94\b1}Phần Bốn
+Dialogue: 0,0:03:37.78,0:03:40.03,Blogemonogatari,ts.mochi,0,0,0,,{\frz0\alpha&H00&\fscx200\fscy200\pos(1491,492)\c&HFFFFFF&\blur0.94\b1}Phần Bốn
+Dialogue: 0,0:03:37.53,0:03:37.57,Black and Red,ts.mochi,0,0,0,,{\frz0\alpha&H00&\fscx150\fscy150\c&HFFFFFF&\blur0.94\pos(941.14,873.45)}Phông chữ dùng cho minh họa: Gentium (Basic) và VL DellaRobbia BT
+Dialogue: 0,0:03:37.57,0:03:37.61,Black and Red,ts.mochi,0,0,0,,{\frz0\alpha&H00&\fscx150\fscy150\c&HFFFFFF&\blur0.94\pos(958.32,886.47)}Phông chữ dùng cho minh họa: Gentium (Basic) và VL DellaRobbia BT
+Dialogue: 0,0:03:37.61,0:03:37.65,Black and Red,ts.mochi,0,0,0,,{\frz0\alpha&H00&\fscx150\fscy150\c&HFFFFFF&\blur0.94\pos(970.2,871.05)}Phông chữ dùng cho minh họa: Gentium (Basic) và VL DellaRobbia BT
+Dialogue: 0,0:03:37.65,0:03:37.69,Black and Red,ts.mochi,0,0,0,,{\frz0\alpha&H00&\fscx150\fscy150\c&HFFFFFF&\blur0.94\pos(965.53,877.29)}Phông chữ dùng cho minh họa: Gentium (Basic) và VL DellaRobbia BT
+Dialogue: 0,0:03:37.69,0:03:37.73,Black and Red,ts.mochi,0,0,0,,{\frz0\alpha&H00&\fscx150\fscy150\c&HFFFFFF&\blur0.94\pos(962.71,881.39)}Phông chữ dùng cho minh họa: Gentium (Basic) và VL DellaRobbia BT
+Dialogue: 0,0:03:37.73,0:03:37.78,Black and Red,ts.mochi,0,0,0,,{\frz0\alpha&H00&\fscx150\fscy150\c&HFFFFFF&\blur0.94\pos(972.2,887.23)}Phông chữ dùng cho minh họa: Gentium (Basic) và VL DellaRobbia BT
+Dialogue: 0,0:03:37.78,0:03:40.03,Black and Red,ts.mochi,0,0,0,,{\frz0\alpha&H00&\fscx150\fscy150\c&HFFFFFF&\blur0.94\pos(970.33,885.17)}Phông chữ dùng cho minh họa: Gentium (Basic) và VL DellaRobbia BT
+Dialogue: 0,0:03:37.53,0:03:37.57,Black and Red,ts.mochi,0,0,0,,{\frz0\alpha&H00&\fscx150\fscy150\c&HFFFFFF&\blur0.94\pos(931.14,58.45)}Tập Mười Một
+Dialogue: 0,0:03:37.57,0:03:37.61,Black and Red,ts.mochi,0,0,0,,{\frz0\alpha&H00&\fscx150\fscy150\c&HFFFFFF&\blur0.94\pos(948.32,71.47)}Tập Mười Một
+Dialogue: 0,0:03:37.61,0:03:37.65,Black and Red,ts.mochi,0,0,0,,{\frz0\alpha&H00&\fscx150\fscy150\c&HFFFFFF&\blur0.94\pos(960.2,56.05)}Tập Mười Một
+Dialogue: 0,0:03:37.65,0:03:37.69,Black and Red,ts.mochi,0,0,0,,{\frz0\alpha&H00&\fscx150\fscy150\c&HFFFFFF&\blur0.94\pos(955.53,62.29)}Tập Mười Một
+Dialogue: 0,0:03:37.69,0:03:37.73,Black and Red,ts.mochi,0,0,0,,{\frz0\alpha&H00&\fscx150\fscy150\c&HFFFFFF&\blur0.94\pos(952.71,66.39)}Tập Mười Một
+Dialogue: 0,0:03:37.73,0:03:37.78,Black and Red,ts.mochi,0,0,0,,{\frz0\alpha&H00&\fscx150\fscy150\c&HFFFFFF&\blur0.94\pos(962.2,72.23)}Tập Mười Một
+Dialogue: 0,0:03:37.78,0:03:40.03,Black and Red,ts.mochi,0,0,0,,{\frz0\alpha&H00&\fscx150\fscy150\c&HFFFFFF&\blur0.94\pos(960.33,70.17)}Tập Mười Một
+Dialogue: 0,0:24:08.96,0:24:09.17,Black and Red,ts.mochi,0,0,0,,{\blur0.9\fs60\c&H3AC4A2&\pos(963,784.5)\fscx111\fscy111\b0}Phượng Hoàng Tsukihi
+Dialogue: 0,0:24:08.96,0:24:09.17,Black and Red,ts.mochi,0,0,0,,{\blur0.9\fs52.5\c&H3AC4A2&\pos(961.5,544.5)\fscx111\fscy111\b0}Phượng Hoàng
+Dialogue: 0,0:24:08.96,0:24:09.17,Black and Red,ts.mochi,0,0,0,,{\blur0.9\fs60\c&H46C8A4&\pos(966,240)\fscx111\fscy111\b0}Hàng Giả Tạo Truyện
+Dialogue: 0,0:05:27.43,0:05:27.47,Black and Red,ts.mochi,0,0,0,,{\frz0\alpha&H60&\fscx100\fscy100\blur4\pos(966,465)\fs70}Khung Hình Đỏ
+Dialogue: 0,0:05:27.47,0:05:27.51,Black and Red,ts.mochi,0,0,0,,{\frz0\alpha&H60&\fscx100\fscy100\blur4\pos(965.76,465)\fs70}Khung Hình Đỏ
+Dialogue: 0,0:05:27.51,0:05:27.55,Black and Red,ts.mochi,0,0,0,,{\frz0\alpha&H60&\fscx100\fscy100\blur4\pos(965.95,464.38)\fs70}Khung Hình Đỏ
+Dialogue: 0,0:05:27.55,0:05:27.59,Black and Red,ts.mochi,0,0,0,,{\frz0\alpha&H60&\fscx100\fscy100\blur4\pos(965.88,465.09)\fs70}Khung Hình Đỏ
+Dialogue: 0,0:05:27.59,0:05:27.64,Black and Red,ts.mochi,0,0,0,,{\frz0\alpha&H60&\fscx100\fscy100\blur4\pos(965.7,465.1)\fs70}Khung Hình Đỏ
+Dialogue: 0,0:05:27.64,0:05:27.68,Black and Red,ts.mochi,0,0,0,,{\frz0\alpha&H60&\fscx100\fscy100\blur4\pos(965.77,464.85)\fs70}Khung Hình Đỏ
+Dialogue: 0,0:05:27.68,0:05:27.72,Black and Red,ts.mochi,0,0,0,,{\frz0\alpha&H60&\fscx100\fscy100\blur4\pos(966.31,465.23)\fs70}Khung Hình Đỏ
+Dialogue: 0,0:05:27.72,0:05:27.76,Black and Red,ts.mochi,0,0,0,,{\frz0\alpha&H60&\fscx100\fscy100\blur4\pos(965.79,464.83)\fs70}Khung Hình Đỏ
+Dialogue: 0,0:05:27.76,0:05:27.80,Black and Red,ts.mochi,0,0,0,,{\frz0\alpha&H60&\fscx100\fscy100\blur4\pos(966.09,464.77)\fs70}Khung Hình Đỏ
+Dialogue: 0,0:05:27.80,0:05:27.84,Black and Red,ts.mochi,0,0,0,,{\frz0\alpha&H60&\fscx100\fscy100\blur4\pos(966.22,465.18)\fs70}Khung Hình Đỏ
+Dialogue: 0,0:05:27.84,0:05:27.89,Black and Red,ts.mochi,0,0,0,,{\frz0\alpha&H60&\fscx100\fscy100\blur4\pos(965.83,464.37)\fs70}Khung Hình Đỏ
+Dialogue: 0,0:05:27.89,0:05:27.93,Black and Red,ts.mochi,0,0,0,,{\frz0\alpha&H60&\fscx100\fscy100\blur4\pos(965.88,464.69)\fs70}Khung Hình Đỏ
+Dialogue: 0,0:05:27.93,0:05:27.97,Black and Red,ts.mochi,0,0,0,,{\frz0\alpha&H60&\fscx100\fscy100\blur4\pos(966.03,464.87)\fs70}Khung Hình Đỏ
+Dialogue: 0,0:05:27.97,0:05:28.01,Black and Red,ts.mochi,0,0,0,,{\frz0\alpha&H60&\fscx100\fscy100\blur4\pos(965.82,464.86)\fs70}Khung Hình Đỏ
+Dialogue: 0,0:05:28.01,0:05:28.05,Black and Red,ts.mochi,0,0,0,,{\frz0\alpha&H60&\fscx100\fscy100\blur4\pos(965.55,464.45)\fs70}Khung Hình Đỏ
+Dialogue: 0,0:05:28.05,0:05:28.09,Black and Red,ts.mochi,0,0,0,,{\frz0\alpha&H60&\fscx100\fscy100\blur4\pos(966.04,464.44)\fs70}Khung Hình Đỏ
+Dialogue: 0,0:05:28.09,0:05:28.14,Black and Red,ts.mochi,0,0,0,,{\frz0\alpha&H60&\fscx100\fscy100\blur4\pos(965.94,464.81)\fs70}Khung Hình Đỏ
+Dialogue: 0,0:05:28.14,0:05:28.18,Black and Red,ts.mochi,0,0,0,,{\frz0\alpha&H60&\fscx100\fscy100\blur4\pos(965.94,464.76)\fs70}Khung Hình Đỏ
+Dialogue: 0,0:05:28.18,0:05:28.22,Black and Red,ts.mochi,0,0,0,,{\frz0\alpha&H60&\fscx100\fscy100\blur4\pos(965.94,464.82)\fs70}Khung Hình Đỏ
+Dialogue: 0,0:05:28.22,0:05:28.26,Black and Red,ts.mochi,0,0,0,,{\frz0\alpha&H60&\fscx100\fscy100\blur4\pos(966.31,464.98)\fs70}Khung Hình Đỏ
+Dialogue: 0,0:05:28.26,0:05:28.30,Black and Red,ts.mochi,0,0,0,,{\frz0\alpha&H60&\fscx100\fscy100\blur4\pos(965.74,464.93)\fs70}Khung Hình Đỏ
+Dialogue: 0,0:05:28.30,0:05:28.34,Black and Red,ts.mochi,0,0,0,,{\frz0\alpha&H60&\fscx100\fscy100\blur4\pos(966.18,464.47)\fs70}Khung Hình Đỏ
+Dialogue: 0,0:05:28.34,0:05:28.39,Black and Red,ts.mochi,0,0,0,,{\frz0\alpha&H60&\fscx100\fscy100\blur4\pos(965.53,464.68)\fs70}Khung Hình Đỏ
+Dialogue: 0,0:05:28.39,0:05:28.43,Black and Red,ts.mochi,0,0,0,,{\frz0\alpha&H60&\fscx100\fscy100\blur4\pos(966.05,465.29)\fs70}Khung Hình Đỏ
+Dialogue: 0,0:05:28.43,0:05:28.47,Black and Red,ts.mochi,0,0,0,,{\frz0\alpha&H60&\fscx100\fscy100\blur4\pos(966.11,465.19)\fs70}Khung Hình Đỏ
+Dialogue: 0,0:05:28.47,0:05:28.51,Black and Red,ts.mochi,0,0,0,,{\frz0\alpha&H60&\fscx100\fscy100\blur4\pos(965.6,465.06)\fs70}Khung Hình Đỏ
+Dialogue: 0,0:05:28.51,0:05:28.55,Black and Red,ts.mochi,0,0,0,,{\frz0\alpha&H60&\fscx100\fscy100\blur4\pos(966.5,464.92)\fs70}Khung Hình Đỏ
+Dialogue: 0,0:05:28.55,0:05:28.59,Black and Red,ts.mochi,0,0,0,,{\frz0\alpha&H60&\fscx100\fscy100\blur4\pos(965.92,464.55)\fs70}Khung Hình Đỏ
+Dialogue: 0,0:05:28.59,0:05:28.64,Black and Red,ts.mochi,0,0,0,,{\frz0\alpha&H60&\fscx100\fscy100\blur4\pos(965.85,464.86)\fs70}Khung Hình Đỏ
+Dialogue: 0,0:05:28.64,0:05:28.68,Black and Red,ts.mochi,0,0,0,,{\frz0\alpha&H60&\fscx100\fscy100\blur4\pos(966.06,464.54)\fs70}Khung Hình Đỏ
+Dialogue: 0,0:05:28.68,0:05:28.72,Black and Red,ts.mochi,0,0,0,,{\frz0\alpha&H60&\fscx100\fscy100\blur4\pos(965.81,464.76)\fs70}Khung Hình Đỏ
+Dialogue: 0,0:05:28.72,0:05:28.76,Black and Red,ts.mochi,0,0,0,,{\frz0\alpha&H60&\fscx100\fscy100\blur4\pos(966.57,464.86)\fs70}Khung Hình Đỏ
+Dialogue: 0,0:05:28.76,0:05:28.80,Black and Red,ts.mochi,0,0,0,,{\frz0\alpha&H60&\fscx100\fscy100\blur4\pos(966.3,464.85)\fs70}Khung Hình Đỏ
+Dialogue: 0,0:05:28.80,0:05:28.84,Black and Red,ts.mochi,0,0,0,,{\frz0\alpha&H60&\fscx100\fscy100\blur4\pos(966.34,464.5)\fs70}Khung Hình Đỏ
+Dialogue: 0,0:05:28.84,0:05:28.89,Black and Red,ts.mochi,0,0,0,,{\frz0\alpha&H60&\fscx100\fscy100\blur4\pos(965.6,465.24)\fs70}Khung Hình Đỏ
+Dialogue: 0,0:05:28.89,0:05:28.93,Black and Red,ts.mochi,0,0,0,,{\frz0\alpha&H60&\fscx100\fscy100\blur4\pos(966.03,464.91)\fs70}Khung Hình Đỏ
+Dialogue: 0,0:05:28.93,0:05:28.97,Black and Red,ts.mochi,0,0,0,,{\frz0\alpha&H60&\fscx100\fscy100\blur4\pos(966.35,464.8)\fs70}Khung Hình Đỏ
+Dialogue: 0,0:05:28.97,0:05:29.01,Black and Red,ts.mochi,0,0,0,,{\frz0\alpha&H60&\fscx100\fscy100\blur4\pos(965.6,464.72)\fs70}Khung Hình Đỏ
+Dialogue: 0,0:05:29.01,0:05:29.05,Black and Red,ts.mochi,0,0,0,,{\frz0\alpha&H60&\fscx100\fscy100\blur4\pos(966.02,464.94)\fs70}Khung Hình Đỏ
+Dialogue: 0,0:05:29.05,0:05:29.10,Black and Red,ts.mochi,0,0,0,,{\frz0\alpha&H60&\fscx100\fscy100\blur4\pos(966.37,465.25)\fs70}Khung Hình Đỏ
+Dialogue: 0,0:05:29.10,0:05:29.14,Black and Red,ts.mochi,0,0,0,,{\frz0\alpha&H60&\fscx100\fscy100\blur4\pos(966.11,465)\fs70}Khung Hình Đỏ
+Dialogue: 0,0:05:29.14,0:05:29.18,Black and Red,ts.mochi,0,0,0,,{\frz0\alpha&H60&\fscx100\fscy100\blur4\pos(966,464.95)\fs70}Khung Hình Đỏ
+Dialogue: 0,0:05:29.18,0:05:29.22,Black and Red,ts.mochi,0,0,0,,{\frz0\alpha&H60&\fscx100\fscy100\blur4\pos(965.73,464.92)\fs70}Khung Hình Đỏ
+Dialogue: 0,0:05:29.22,0:05:29.26,Black and Red,ts.mochi,0,0,0,,{\frz0\alpha&H60&\fscx100\fscy100\blur4\pos(965.7,465.24)\fs70}Khung Hình Đỏ
+Dialogue: 0,0:05:29.26,0:05:29.30,Black and Red,ts.mochi,0,0,0,,{\frz0\alpha&H60&\fscx100\fscy100\blur4\pos(965.88,464.92)\fs70}Khung Hình Đỏ
+Dialogue: 0,0:05:29.30,0:05:29.35,Black and Red,ts.mochi,0,0,0,,{\frz0\alpha&H60&\fscx100\fscy100\blur4\pos(965.83,464.73)\fs70}Khung Hình Đỏ
+Dialogue: 0,0:05:29.35,0:05:29.39,Black and Red,ts.mochi,0,0,0,,{\frz0\alpha&H60&\fscx100\fscy100\blur4\pos(966.04,465.03)\fs70}Khung Hình Đỏ
+Dialogue: 0,0:05:29.39,0:05:29.43,Black and Red,ts.mochi,0,0,0,,{\frz0\alpha&H60&\fscx100\fscy100\blur4\pos(965.67,465.36)\fs70}Khung Hình Đỏ
+Dialogue: 0,0:05:29.43,0:05:29.47,Black and Red,ts.mochi,0,0,0,,{\frz0\alpha&H60&\fscx100\fscy100\blur4\pos(966.38,464.93)\fs70}Khung Hình Đỏ
+Dialogue: 0,0:05:29.47,0:05:29.51,Black and Red,ts.mochi,0,0,0,,{\frz0\alpha&H60&\fscx100\fscy100\blur4\pos(966.02,464.94)\fs70}Khung Hình Đỏ
+Dialogue: 0,0:05:29.51,0:05:29.55,Black and Red,ts.mochi,0,0,0,,{\frz0\alpha&H60&\fscx100\fscy100\blur4\pos(966.05,465.12)\fs70}Khung Hình Đỏ
+Dialogue: 0,0:05:29.55,0:05:29.64,Black and Red,ts.mochi,0,0,0,,{\frz0\alpha&H60&\fscx100\fscy100\blur4\pos(966.29,464.92)\fs70}Khung Hình Đỏ
+Dialogue: 0,0:05:29.64,0:05:29.68,Black and Red,ts.mochi,0,0,0,,{\frz0\alpha&H60&\fscx100\fscy100\blur4\pos(965.55,464.77)\fs70}Khung Hình Đỏ
+Dialogue: 0,0:05:29.68,0:05:29.72,Black and Red,ts.mochi,0,0,0,,{\frz0\alpha&H60&\fscx100\fscy100\blur4\pos(966.28,464.93)\fs70}Khung Hình Đỏ
+Dialogue: 0,0:05:29.72,0:05:29.76,Black and Red,ts.mochi,0,0,0,,{\frz0\alpha&H60&\fscx100\fscy100\blur4\pos(966.07,464.91)\fs70}Khung Hình Đỏ
+Dialogue: 0,0:05:29.76,0:05:29.80,Black and Red,ts.mochi,0,0,0,,{\frz0\alpha&H60&\fscx100\fscy100\blur4\pos(966.32,464.91)\fs70}Khung Hình Đỏ
+Dialogue: 0,0:05:29.80,0:05:29.85,Black and Red,ts.mochi,0,0,0,,{\frz0\alpha&H60&\fscx100\fscy100\blur4\pos(966.06,465.03)\fs70}Khung Hình Đỏ
+Dialogue: 0,0:05:29.85,0:05:29.89,Black and Red,ts.mochi,0,0,0,,{\frz0\alpha&H60&\fscx100\fscy100\blur4\pos(966.1,464.64)\fs70}Khung Hình Đỏ
+Dialogue: 0,0:05:29.89,0:05:29.93,Black and Red,ts.mochi,0,0,0,,{\frz0\alpha&H60&\fscx100\fscy100\blur4\pos(966.37,464.83)\fs70}Khung Hình Đỏ
+Dialogue: 0,0:05:29.93,0:05:29.97,Black and Red,ts.mochi,0,0,0,,{\frz0\alpha&H60&\fscx100\fscy100\blur4\pos(966.36,464.76)\fs70}Khung Hình Đỏ
+Dialogue: 0,0:05:29.97,0:05:30.01,Black and Red,ts.mochi,0,0,0,,{\frz0\alpha&H60&\fscx100\fscy100\blur4\pos(966.16,465.11)\fs70}Khung Hình Đỏ
+Dialogue: 0,0:05:30.01,0:05:30.05,Black and Red,ts.mochi,0,0,0,,{\frz0\alpha&H60&\fscx100\fscy100\blur4\pos(965.61,464.7)\fs70}Khung Hình Đỏ
+Dialogue: 0,0:05:30.05,0:05:30.10,Black and Red,ts.mochi,0,0,0,,{\frz0\alpha&H60&\fscx100\fscy100\blur4\pos(966.09,464.91)\fs70}Khung Hình Đỏ
+Dialogue: 0,0:05:30.10,0:05:30.14,Black and Red,ts.mochi,0,0,0,,{\frz0\alpha&H60&\fscx100\fscy100\blur4\pos(965.82,464.87)\fs70}Khung Hình Đỏ
+Dialogue: 0,0:05:30.14,0:05:30.18,Black and Red,ts.mochi,0,0,0,,{\frz0\alpha&H60&\fscx100\fscy100\blur4\pos(965.88,464.69)\fs70}Khung Hình Đỏ
+Dialogue: 0,0:05:30.18,0:05:30.22,Black and Red,ts.mochi,0,0,0,,{\frz0\alpha&H60&\fscx100\fscy100\blur4\pos(965.87,464.97)\fs70}Khung Hình Đỏ
+Dialogue: 0,0:05:30.22,0:05:30.26,Black and Red,ts.mochi,0,0,0,,{\frz0\alpha&H60&\fscx100\fscy100\blur4\pos(966.06,465.19)\fs70}Khung Hình Đỏ
+Dialogue: 0,0:05:30.26,0:05:30.30,Black and Red,ts.mochi,0,0,0,,{\frz0\alpha&H60&\fscx100\fscy100\blur4\pos(965.89,464.55)\fs70}Khung Hình Đỏ
+Dialogue: 0,0:05:30.30,0:05:30.35,Black and Red,ts.mochi,0,0,0,,{\frz0\alpha&H60&\fscx100\fscy100\blur4\pos(965.73,464.69)\fs70}Khung Hình Đỏ
+Dialogue: 0,0:05:30.35,0:05:30.39,Black and Red,ts.mochi,0,0,0,,{\frz0\alpha&H60&\fscx100\fscy100\blur4\pos(966.14,465.04)\fs70}Khung Hình Đỏ
+Dialogue: 0,0:05:30.39,0:05:30.43,Black and Red,ts.mochi,0,0,0,,{\frz0\alpha&H60&\fscx100\fscy100\blur4\pos(965.67,465.06)\fs70}Khung Hình Đỏ
+Dialogue: 0,0:05:30.43,0:05:30.47,Black and Red,ts.mochi,0,0,0,,{\frz0\alpha&H60&\fscx100\fscy100\blur4\pos(966.48,465.23)\fs70}Khung Hình Đỏ
+Dialogue: 0,0:05:30.47,0:05:30.51,Black and Red,ts.mochi,0,0,0,,{\frz0\alpha&H60&\fscx100\fscy100\blur4\pos(965.73,465.05)\fs70}Khung Hình Đỏ
+Dialogue: 1,0:05:27.43,0:05:27.47,Black and Red,ts.mochi,0,0,0,,{\frz0\fscx100\fscy100\blur0.94\pos(966,465)\fs70}Khung Hình Đỏ
+Dialogue: 1,0:05:27.47,0:05:27.51,Black and Red,ts.mochi,0,0,0,,{\frz0\fscx100\fscy100\blur0.94\pos(965.76,465)\fs70}Khung Hình Đỏ
+Dialogue: 1,0:05:27.51,0:05:27.55,Black and Red,ts.mochi,0,0,0,,{\frz0\fscx100\fscy100\blur0.94\pos(965.95,464.38)\fs70}Khung Hình Đỏ
+Dialogue: 1,0:05:27.55,0:05:27.59,Black and Red,ts.mochi,0,0,0,,{\frz0\fscx100\fscy100\blur0.94\pos(965.88,465.09)\fs70}Khung Hình Đỏ
+Dialogue: 1,0:05:27.59,0:05:27.64,Black and Red,ts.mochi,0,0,0,,{\frz0\fscx100\fscy100\blur0.94\pos(965.7,465.1)\fs70}Khung Hình Đỏ
+Dialogue: 1,0:05:27.64,0:05:27.68,Black and Red,ts.mochi,0,0,0,,{\frz0\fscx100\fscy100\blur0.94\pos(965.77,464.85)\fs70}Khung Hình Đỏ
+Dialogue: 1,0:05:27.68,0:05:27.72,Black and Red,ts.mochi,0,0,0,,{\frz0\fscx100\fscy100\blur0.94\pos(966.31,465.23)\fs70}Khung Hình Đỏ
+Dialogue: 1,0:05:27.72,0:05:27.76,Black and Red,ts.mochi,0,0,0,,{\frz0\fscx100\fscy100\blur0.94\pos(965.79,464.83)\fs70}Khung Hình Đỏ
+Dialogue: 1,0:05:27.76,0:05:27.80,Black and Red,ts.mochi,0,0,0,,{\frz0\fscx100\fscy100\blur0.94\pos(966.09,464.77)\fs70}Khung Hình Đỏ
+Dialogue: 1,0:05:27.80,0:05:27.84,Black and Red,ts.mochi,0,0,0,,{\frz0\fscx100\fscy100\blur0.94\pos(966.22,465.18)\fs70}Khung Hình Đỏ
+Dialogue: 1,0:05:27.84,0:05:27.89,Black and Red,ts.mochi,0,0,0,,{\frz0\fscx100\fscy100\blur0.94\pos(965.83,464.37)\fs70}Khung Hình Đỏ
+Dialogue: 1,0:05:27.89,0:05:27.93,Black and Red,ts.mochi,0,0,0,,{\frz0\fscx100\fscy100\blur0.94\pos(965.88,464.69)\fs70}Khung Hình Đỏ
+Dialogue: 1,0:05:27.93,0:05:27.97,Black and Red,ts.mochi,0,0,0,,{\frz0\fscx100\fscy100\blur0.94\pos(966.03,464.87)\fs70}Khung Hình Đỏ
+Dialogue: 1,0:05:27.97,0:05:28.01,Black and Red,ts.mochi,0,0,0,,{\frz0\fscx100\fscy100\blur0.94\pos(965.82,464.86)\fs70}Khung Hình Đỏ
+Dialogue: 1,0:05:28.01,0:05:28.05,Black and Red,ts.mochi,0,0,0,,{\frz0\fscx100\fscy100\blur0.94\pos(965.55,464.45)\fs70}Khung Hình Đỏ
+Dialogue: 1,0:05:28.05,0:05:28.09,Black and Red,ts.mochi,0,0,0,,{\frz0\fscx100\fscy100\blur0.94\pos(966.04,464.44)\fs70}Khung Hình Đỏ
+Dialogue: 1,0:05:28.09,0:05:28.14,Black and Red,ts.mochi,0,0,0,,{\frz0\fscx100\fscy100\blur0.94\pos(965.94,464.81)\fs70}Khung Hình Đỏ
+Dialogue: 1,0:05:28.14,0:05:28.18,Black and Red,ts.mochi,0,0,0,,{\frz0\fscx100\fscy100\blur0.94\pos(965.94,464.76)\fs70}Khung Hình Đỏ
+Dialogue: 1,0:05:28.18,0:05:28.22,Black and Red,ts.mochi,0,0,0,,{\frz0\fscx100\fscy100\blur0.94\pos(965.94,464.82)\fs70}Khung Hình Đỏ
+Dialogue: 1,0:05:28.22,0:05:28.26,Black and Red,ts.mochi,0,0,0,,{\frz0\fscx100\fscy100\blur0.94\pos(966.31,464.98)\fs70}Khung Hình Đỏ
+Dialogue: 1,0:05:28.26,0:05:28.30,Black and Red,ts.mochi,0,0,0,,{\frz0\fscx100\fscy100\blur0.94\pos(965.74,464.93)\fs70}Khung Hình Đỏ
+Dialogue: 1,0:05:28.30,0:05:28.34,Black and Red,ts.mochi,0,0,0,,{\frz0\fscx100\fscy100\blur0.94\pos(966.18,464.47)\fs70}Khung Hình Đỏ
+Dialogue: 1,0:05:28.34,0:05:28.39,Black and Red,ts.mochi,0,0,0,,{\frz0\fscx100\fscy100\blur0.94\pos(965.53,464.68)\fs70}Khung Hình Đỏ
+Dialogue: 1,0:05:28.39,0:05:28.43,Black and Red,ts.mochi,0,0,0,,{\frz0\fscx100\fscy100\blur0.94\pos(966.05,465.29)\fs70}Khung Hình Đỏ
+Dialogue: 1,0:05:28.43,0:05:28.47,Black and Red,ts.mochi,0,0,0,,{\frz0\fscx100\fscy100\blur0.94\pos(966.11,465.19)\fs70}Khung Hình Đỏ
+Dialogue: 1,0:05:28.47,0:05:28.51,Black and Red,ts.mochi,0,0,0,,{\frz0\fscx100\fscy100\blur0.94\pos(965.6,465.06)\fs70}Khung Hình Đỏ
+Dialogue: 1,0:05:28.51,0:05:28.55,Black and Red,ts.mochi,0,0,0,,{\frz0\fscx100\fscy100\blur0.94\pos(966.5,464.92)\fs70}Khung Hình Đỏ
+Dialogue: 1,0:05:28.55,0:05:28.59,Black and Red,ts.mochi,0,0,0,,{\frz0\fscx100\fscy100\blur0.94\pos(965.92,464.55)\fs70}Khung Hình Đỏ
+Dialogue: 1,0:05:28.59,0:05:28.64,Black and Red,ts.mochi,0,0,0,,{\frz0\fscx100\fscy100\blur0.94\pos(965.85,464.86)\fs70}Khung Hình Đỏ
+Dialogue: 1,0:05:28.64,0:05:28.68,Black and Red,ts.mochi,0,0,0,,{\frz0\fscx100\fscy100\blur0.94\pos(966.06,464.54)\fs70}Khung Hình Đỏ
+Dialogue: 1,0:05:28.68,0:05:28.72,Black and Red,ts.mochi,0,0,0,,{\frz0\fscx100\fscy100\blur0.94\pos(965.81,464.76)\fs70}Khung Hình Đỏ
+Dialogue: 1,0:05:28.72,0:05:28.76,Black and Red,ts.mochi,0,0,0,,{\frz0\fscx100\fscy100\blur0.94\pos(966.57,464.86)\fs70}Khung Hình Đỏ
+Dialogue: 1,0:05:28.76,0:05:28.80,Black and Red,ts.mochi,0,0,0,,{\frz0\fscx100\fscy100\blur0.94\pos(966.3,464.85)\fs70}Khung Hình Đỏ
+Dialogue: 1,0:05:28.80,0:05:28.84,Black and Red,ts.mochi,0,0,0,,{\frz0\fscx100\fscy100\blur0.94\pos(966.34,464.5)\fs70}Khung Hình Đỏ
+Dialogue: 1,0:05:28.84,0:05:28.89,Black and Red,ts.mochi,0,0,0,,{\frz0\fscx100\fscy100\blur0.94\pos(965.6,465.24)\fs70}Khung Hình Đỏ
+Dialogue: 1,0:05:28.89,0:05:28.93,Black and Red,ts.mochi,0,0,0,,{\frz0\fscx100\fscy100\blur0.94\pos(966.03,464.91)\fs70}Khung Hình Đỏ
+Dialogue: 1,0:05:28.93,0:05:28.97,Black and Red,ts.mochi,0,0,0,,{\frz0\fscx100\fscy100\blur0.94\pos(966.35,464.8)\fs70}Khung Hình Đỏ
+Dialogue: 1,0:05:28.97,0:05:29.01,Black and Red,ts.mochi,0,0,0,,{\frz0\fscx100\fscy100\blur0.94\pos(965.6,464.72)\fs70}Khung Hình Đỏ
+Dialogue: 1,0:05:29.01,0:05:29.05,Black and Red,ts.mochi,0,0,0,,{\frz0\fscx100\fscy100\blur0.94\pos(966.02,464.94)\fs70}Khung Hình Đỏ
+Dialogue: 1,0:05:29.05,0:05:29.10,Black and Red,ts.mochi,0,0,0,,{\frz0\fscx100\fscy100\blur0.94\pos(966.37,465.25)\fs70}Khung Hình Đỏ
+Dialogue: 1,0:05:29.10,0:05:29.14,Black and Red,ts.mochi,0,0,0,,{\frz0\fscx100\fscy100\blur0.94\pos(966.11,465)\fs70}Khung Hình Đỏ
+Dialogue: 1,0:05:29.14,0:05:29.18,Black and Red,ts.mochi,0,0,0,,{\frz0\fscx100\fscy100\blur0.94\pos(966,464.95)\fs70}Khung Hình Đỏ
+Dialogue: 1,0:05:29.18,0:05:29.22,Black and Red,ts.mochi,0,0,0,,{\frz0\fscx100\fscy100\blur0.94\pos(965.73,464.92)\fs70}Khung Hình Đỏ
+Dialogue: 1,0:05:29.22,0:05:29.26,Black and Red,ts.mochi,0,0,0,,{\frz0\fscx100\fscy100\blur0.94\pos(965.7,465.24)\fs70}Khung Hình Đỏ
+Dialogue: 1,0:05:29.26,0:05:29.30,Black and Red,ts.mochi,0,0,0,,{\frz0\fscx100\fscy100\blur0.94\pos(965.88,464.92)\fs70}Khung Hình Đỏ
+Dialogue: 1,0:05:29.30,0:05:29.35,Black and Red,ts.mochi,0,0,0,,{\frz0\fscx100\fscy100\blur0.94\pos(965.83,464.73)\fs70}Khung Hình Đỏ
+Dialogue: 1,0:05:29.35,0:05:29.39,Black and Red,ts.mochi,0,0,0,,{\frz0\fscx100\fscy100\blur0.94\pos(966.04,465.03)\fs70}Khung Hình Đỏ
+Dialogue: 1,0:05:29.39,0:05:29.43,Black and Red,ts.mochi,0,0,0,,{\frz0\fscx100\fscy100\blur0.94\pos(965.67,465.36)\fs70}Khung Hình Đỏ
+Dialogue: 1,0:05:29.43,0:05:29.47,Black and Red,ts.mochi,0,0,0,,{\frz0\fscx100\fscy100\blur0.94\pos(966.38,464.93)\fs70}Khung Hình Đỏ
+Dialogue: 1,0:05:29.47,0:05:29.51,Black and Red,ts.mochi,0,0,0,,{\frz0\fscx100\fscy100\blur0.94\pos(966.02,464.94)\fs70}Khung Hình Đỏ
+Dialogue: 1,0:05:29.51,0:05:29.55,Black and Red,ts.mochi,0,0,0,,{\frz0\fscx100\fscy100\blur0.94\pos(966.05,465.12)\fs70}Khung Hình Đỏ
+Dialogue: 1,0:05:29.55,0:05:29.64,Black and Red,ts.mochi,0,0,0,,{\frz0\fscx100\fscy100\blur0.94\pos(966.29,464.92)\fs70}Khung Hình Đỏ
+Dialogue: 1,0:05:29.64,0:05:29.68,Black and Red,ts.mochi,0,0,0,,{\frz0\fscx100\fscy100\blur0.94\pos(965.55,464.77)\fs70}Khung Hình Đỏ
+Dialogue: 1,0:05:29.68,0:05:29.72,Black and Red,ts.mochi,0,0,0,,{\frz0\fscx100\fscy100\blur0.94\pos(966.28,464.93)\fs70}Khung Hình Đỏ
+Dialogue: 1,0:05:29.72,0:05:29.76,Black and Red,ts.mochi,0,0,0,,{\frz0\fscx100\fscy100\blur0.94\pos(966.07,464.91)\fs70}Khung Hình Đỏ
+Dialogue: 1,0:05:29.76,0:05:29.80,Black and Red,ts.mochi,0,0,0,,{\frz0\fscx100\fscy100\blur0.94\pos(966.32,464.91)\fs70}Khung Hình Đỏ
+Dialogue: 1,0:05:29.80,0:05:29.85,Black and Red,ts.mochi,0,0,0,,{\frz0\fscx100\fscy100\blur0.94\pos(966.06,465.03)\fs70}Khung Hình Đỏ
+Dialogue: 1,0:05:29.85,0:05:29.89,Black and Red,ts.mochi,0,0,0,,{\frz0\fscx100\fscy100\blur0.94\pos(966.1,464.64)\fs70}Khung Hình Đỏ
+Dialogue: 1,0:05:29.89,0:05:29.93,Black and Red,ts.mochi,0,0,0,,{\frz0\fscx100\fscy100\blur0.94\pos(966.37,464.83)\fs70}Khung Hình Đỏ
+Dialogue: 1,0:05:29.93,0:05:29.97,Black and Red,ts.mochi,0,0,0,,{\frz0\fscx100\fscy100\blur0.94\pos(966.36,464.76)\fs70}Khung Hình Đỏ
+Dialogue: 1,0:05:29.97,0:05:30.01,Black and Red,ts.mochi,0,0,0,,{\frz0\fscx100\fscy100\blur0.94\pos(966.16,465.11)\fs70}Khung Hình Đỏ
+Dialogue: 1,0:05:30.01,0:05:30.05,Black and Red,ts.mochi,0,0,0,,{\frz0\fscx100\fscy100\blur0.94\pos(965.61,464.7)\fs70}Khung Hình Đỏ
+Dialogue: 1,0:05:30.05,0:05:30.10,Black and Red,ts.mochi,0,0,0,,{\frz0\fscx100\fscy100\blur0.94\pos(966.09,464.91)\fs70}Khung Hình Đỏ
+Dialogue: 1,0:05:30.10,0:05:30.14,Black and Red,ts.mochi,0,0,0,,{\frz0\fscx100\fscy100\blur0.94\pos(965.82,464.87)\fs70}Khung Hình Đỏ
+Dialogue: 1,0:05:30.14,0:05:30.18,Black and Red,ts.mochi,0,0,0,,{\frz0\fscx100\fscy100\blur0.94\pos(965.88,464.69)\fs70}Khung Hình Đỏ
+Dialogue: 1,0:05:30.18,0:05:30.22,Black and Red,ts.mochi,0,0,0,,{\frz0\fscx100\fscy100\blur0.94\pos(965.87,464.97)\fs70}Khung Hình Đỏ
+Dialogue: 1,0:05:30.22,0:05:30.26,Black and Red,ts.mochi,0,0,0,,{\frz0\fscx100\fscy100\blur0.94\pos(966.06,465.19)\fs70}Khung Hình Đỏ
+Dialogue: 1,0:05:30.26,0:05:30.30,Black and Red,ts.mochi,0,0,0,,{\frz0\fscx100\fscy100\blur0.94\pos(965.89,464.55)\fs70}Khung Hình Đỏ
+Dialogue: 1,0:05:30.30,0:05:30.35,Black and Red,ts.mochi,0,0,0,,{\frz0\fscx100\fscy100\blur0.94\pos(965.73,464.69)\fs70}Khung Hình Đỏ
+Dialogue: 1,0:05:30.35,0:05:30.39,Black and Red,ts.mochi,0,0,0,,{\frz0\fscx100\fscy100\blur0.94\pos(966.14,465.04)\fs70}Khung Hình Đỏ
+Dialogue: 1,0:05:30.39,0:05:30.43,Black and Red,ts.mochi,0,0,0,,{\frz0\fscx100\fscy100\blur0.94\pos(965.67,465.06)\fs70}Khung Hình Đỏ
+Dialogue: 1,0:05:30.43,0:05:30.47,Black and Red,ts.mochi,0,0,0,,{\frz0\fscx100\fscy100\blur0.94\pos(966.48,465.23)\fs70}Khung Hình Đỏ
+Dialogue: 1,0:05:30.47,0:05:30.51,Black and Red,ts.mochi,0,0,0,,{\frz0\fscx100\fscy100\blur0.94\pos(965.73,465.05)\fs70}Khung Hình Đỏ
+Dialogue: 0,0:05:27.43,0:05:27.47,Black and Red,ts.mochi,0,0,0,,{\frz0\alpha&H60&\fscx150\fscy150\blur4\pos(966,870)}Hoạt Cảnh số     Không Có
+Dialogue: 0,0:05:27.47,0:05:27.51,Black and Red,ts.mochi,0,0,0,,{\frz0\alpha&H60&\fscx150\fscy150\blur4\pos(965.76,870)}Hoạt Cảnh số     Không Có
+Dialogue: 0,0:05:27.51,0:05:27.55,Black and Red,ts.mochi,0,0,0,,{\frz0\alpha&H60&\fscx150\fscy150\blur4\pos(965.95,869.38)}Hoạt Cảnh số     Không Có
+Dialogue: 0,0:05:27.55,0:05:27.59,Black and Red,ts.mochi,0,0,0,,{\frz0\alpha&H60&\fscx150\fscy150\blur4\pos(965.88,870.09)}Hoạt Cảnh số     Không Có
+Dialogue: 0,0:05:27.59,0:05:27.64,Black and Red,ts.mochi,0,0,0,,{\frz0\alpha&H60&\fscx150\fscy150\blur4\pos(965.7,870.1)}Hoạt Cảnh số     Không Có
+Dialogue: 0,0:05:27.64,0:05:27.68,Black and Red,ts.mochi,0,0,0,,{\frz0\alpha&H60&\fscx150\fscy150\blur4\pos(965.77,869.85)}Hoạt Cảnh số     Không Có
+Dialogue: 0,0:05:27.68,0:05:27.72,Black and Red,ts.mochi,0,0,0,,{\frz0\alpha&H60&\fscx150\fscy150\blur4\pos(966.31,870.23)}Hoạt Cảnh số     Không Có
+Dialogue: 0,0:05:27.72,0:05:27.76,Black and Red,ts.mochi,0,0,0,,{\frz0\alpha&H60&\fscx150\fscy150\blur4\pos(965.79,869.83)}Hoạt Cảnh số     Không Có
+Dialogue: 0,0:05:27.76,0:05:27.80,Black and Red,ts.mochi,0,0,0,,{\frz0\alpha&H60&\fscx150\fscy150\blur4\pos(966.09,869.77)}Hoạt Cảnh số     Không Có
+Dialogue: 0,0:05:27.80,0:05:27.84,Black and Red,ts.mochi,0,0,0,,{\frz0\alpha&H60&\fscx150\fscy150\blur4\pos(966.22,870.18)}Hoạt Cảnh số     Không Có
+Dialogue: 0,0:05:27.84,0:05:27.89,Black and Red,ts.mochi,0,0,0,,{\frz0\alpha&H60&\fscx150\fscy150\blur4\pos(965.83,869.37)}Hoạt Cảnh số     Không Có
+Dialogue: 0,0:05:27.89,0:05:27.93,Black and Red,ts.mochi,0,0,0,,{\frz0\alpha&H60&\fscx150\fscy150\blur4\pos(965.88,869.69)}Hoạt Cảnh số     Không Có
+Dialogue: 0,0:05:27.93,0:05:27.97,Black and Red,ts.mochi,0,0,0,,{\frz0\alpha&H60&\fscx150\fscy150\blur4\pos(966.03,869.87)}Hoạt Cảnh số     Không Có
+Dialogue: 0,0:05:27.97,0:05:28.01,Black and Red,ts.mochi,0,0,0,,{\frz0\alpha&H60&\fscx150\fscy150\blur4\pos(965.82,869.86)}Hoạt Cảnh số     Không Có
+Dialogue: 0,0:05:28.01,0:05:28.05,Black and Red,ts.mochi,0,0,0,,{\frz0\alpha&H60&\fscx150\fscy150\blur4\pos(965.55,869.45)}Hoạt Cảnh số     Không Có
+Dialogue: 0,0:05:28.05,0:05:28.09,Black and Red,ts.mochi,0,0,0,,{\frz0\alpha&H60&\fscx150\fscy150\blur4\pos(966.04,869.44)}Hoạt Cảnh số     Không Có
+Dialogue: 0,0:05:28.09,0:05:28.14,Black and Red,ts.mochi,0,0,0,,{\frz0\alpha&H60&\fscx150\fscy150\blur4\pos(965.94,869.81)}Hoạt Cảnh số     Không Có
+Dialogue: 0,0:05:28.14,0:05:28.18,Black and Red,ts.mochi,0,0,0,,{\frz0\alpha&H60&\fscx150\fscy150\blur4\pos(965.94,869.76)}Hoạt Cảnh số     Không Có
+Dialogue: 0,0:05:28.18,0:05:28.22,Black and Red,ts.mochi,0,0,0,,{\frz0\alpha&H60&\fscx150\fscy150\blur4\pos(965.94,869.82)}Hoạt Cảnh số     Không Có
+Dialogue: 0,0:05:28.22,0:05:28.26,Black and Red,ts.mochi,0,0,0,,{\frz0\alpha&H60&\fscx150\fscy150\blur4\pos(966.31,869.98)}Hoạt Cảnh số     Không Có
+Dialogue: 0,0:05:28.26,0:05:28.30,Black and Red,ts.mochi,0,0,0,,{\frz0\alpha&H60&\fscx150\fscy150\blur4\pos(965.74,869.93)}Hoạt Cảnh số     Không Có
+Dialogue: 0,0:05:28.30,0:05:28.34,Black and Red,ts.mochi,0,0,0,,{\frz0\alpha&H60&\fscx150\fscy150\blur4\pos(966.18,869.47)}Hoạt Cảnh số     Không Có
+Dialogue: 0,0:05:28.34,0:05:28.39,Black and Red,ts.mochi,0,0,0,,{\frz0\alpha&H60&\fscx150\fscy150\blur4\pos(965.53,869.68)}Hoạt Cảnh số     Không Có
+Dialogue: 0,0:05:28.39,0:05:28.43,Black and Red,ts.mochi,0,0,0,,{\frz0\alpha&H60&\fscx150\fscy150\blur4\pos(966.05,870.29)}Hoạt Cảnh số     Không Có
+Dialogue: 0,0:05:28.43,0:05:28.47,Black and Red,ts.mochi,0,0,0,,{\frz0\alpha&H60&\fscx150\fscy150\blur4\pos(966.11,870.19)}Hoạt Cảnh số     Không Có
+Dialogue: 0,0:05:28.47,0:05:28.51,Black and Red,ts.mochi,0,0,0,,{\frz0\alpha&H60&\fscx150\fscy150\blur4\pos(965.6,870.06)}Hoạt Cảnh số     Không Có
+Dialogue: 0,0:05:28.51,0:05:28.55,Black and Red,ts.mochi,0,0,0,,{\frz0\alpha&H60&\fscx150\fscy150\blur4\pos(966.5,869.93)}Hoạt Cảnh số     Không Có
+Dialogue: 0,0:05:28.55,0:05:28.59,Black and Red,ts.mochi,0,0,0,,{\frz0\alpha&H60&\fscx150\fscy150\blur4\pos(965.92,869.55)}Hoạt Cảnh số     Không Có
+Dialogue: 0,0:05:28.59,0:05:28.64,Black and Red,ts.mochi,0,0,0,,{\frz0\alpha&H60&\fscx150\fscy150\blur4\pos(965.85,869.86)}Hoạt Cảnh số     Không Có
+Dialogue: 0,0:05:28.64,0:05:28.68,Black and Red,ts.mochi,0,0,0,,{\frz0\alpha&H60&\fscx150\fscy150\blur4\pos(966.06,869.54)}Hoạt Cảnh số     Không Có
+Dialogue: 0,0:05:28.68,0:05:28.72,Black and Red,ts.mochi,0,0,0,,{\frz0\alpha&H60&\fscx150\fscy150\blur4\pos(965.81,869.76)}Hoạt Cảnh số     Không Có
+Dialogue: 0,0:05:28.72,0:05:28.76,Black and Red,ts.mochi,0,0,0,,{\frz0\alpha&H60&\fscx150\fscy150\blur4\pos(966.57,869.86)}Hoạt Cảnh số     Không Có
+Dialogue: 0,0:05:28.76,0:05:28.80,Black and Red,ts.mochi,0,0,0,,{\frz0\alpha&H60&\fscx150\fscy150\blur4\pos(966.3,869.85)}Hoạt Cảnh số     Không Có
+Dialogue: 0,0:05:28.80,0:05:28.84,Black and Red,ts.mochi,0,0,0,,{\frz0\alpha&H60&\fscx150\fscy150\blur4\pos(966.34,869.5)}Hoạt Cảnh số     Không Có
+Dialogue: 0,0:05:28.84,0:05:28.89,Black and Red,ts.mochi,0,0,0,,{\frz0\alpha&H60&\fscx150\fscy150\blur4\pos(965.6,870.24)}Hoạt Cảnh số     Không Có
+Dialogue: 0,0:05:28.89,0:05:28.93,Black and Red,ts.mochi,0,0,0,,{\frz0\alpha&H60&\fscx150\fscy150\blur4\pos(966.03,869.91)}Hoạt Cảnh số     Không Có
+Dialogue: 0,0:05:28.93,0:05:28.97,Black and Red,ts.mochi,0,0,0,,{\frz0\alpha&H60&\fscx150\fscy150\blur4\pos(966.35,869.8)}Hoạt Cảnh số     Không Có
+Dialogue: 0,0:05:28.97,0:05:29.01,Black and Red,ts.mochi,0,0,0,,{\frz0\alpha&H60&\fscx150\fscy150\blur4\pos(965.6,869.72)}Hoạt Cảnh số     Không Có
+Dialogue: 0,0:05:29.01,0:05:29.05,Black and Red,ts.mochi,0,0,0,,{\frz0\alpha&H60&\fscx150\fscy150\blur4\pos(966.02,869.94)}Hoạt Cảnh số     Không Có
+Dialogue: 0,0:05:29.05,0:05:29.10,Black and Red,ts.mochi,0,0,0,,{\frz0\alpha&H60&\fscx150\fscy150\blur4\pos(966.37,870.25)}Hoạt Cảnh số     Không Có
+Dialogue: 0,0:05:29.10,0:05:29.14,Black and Red,ts.mochi,0,0,0,,{\frz0\alpha&H60&\fscx150\fscy150\blur4\pos(966.11,870)}Hoạt Cảnh số     Không Có
+Dialogue: 0,0:05:29.14,0:05:29.18,Black and Red,ts.mochi,0,0,0,,{\frz0\alpha&H60&\fscx150\fscy150\blur4\pos(966,869.95)}Hoạt Cảnh số     Không Có
+Dialogue: 0,0:05:29.18,0:05:29.22,Black and Red,ts.mochi,0,0,0,,{\frz0\alpha&H60&\fscx150\fscy150\blur4\pos(965.73,869.92)}Hoạt Cảnh số     Không Có
+Dialogue: 0,0:05:29.22,0:05:29.26,Black and Red,ts.mochi,0,0,0,,{\frz0\alpha&H60&\fscx150\fscy150\blur4\pos(965.7,870.24)}Hoạt Cảnh số     Không Có
+Dialogue: 0,0:05:29.26,0:05:29.30,Black and Red,ts.mochi,0,0,0,,{\frz0\alpha&H60&\fscx150\fscy150\blur4\pos(965.88,869.92)}Hoạt Cảnh số     Không Có
+Dialogue: 0,0:05:29.30,0:05:29.35,Black and Red,ts.mochi,0,0,0,,{\frz0\alpha&H60&\fscx150\fscy150\blur4\pos(965.83,869.73)}Hoạt Cảnh số     Không Có
+Dialogue: 0,0:05:29.35,0:05:29.39,Black and Red,ts.mochi,0,0,0,,{\frz0\alpha&H60&\fscx150\fscy150\blur4\pos(966.04,870.03)}Hoạt Cảnh số     Không Có
+Dialogue: 0,0:05:29.39,0:05:29.43,Black and Red,ts.mochi,0,0,0,,{\frz0\alpha&H60&\fscx150\fscy150\blur4\pos(965.67,870.36)}Hoạt Cảnh số     Không Có
+Dialogue: 0,0:05:29.43,0:05:29.47,Black and Red,ts.mochi,0,0,0,,{\frz0\alpha&H60&\fscx150\fscy150\blur4\pos(966.38,869.93)}Hoạt Cảnh số     Không Có
+Dialogue: 0,0:05:29.47,0:05:29.51,Black and Red,ts.mochi,0,0,0,,{\frz0\alpha&H60&\fscx150\fscy150\blur4\pos(966.02,869.94)}Hoạt Cảnh số     Không Có
+Dialogue: 0,0:05:29.51,0:05:29.55,Black and Red,ts.mochi,0,0,0,,{\frz0\alpha&H60&\fscx150\fscy150\blur4\pos(966.05,870.12)}Hoạt Cảnh số     Không Có
+Dialogue: 0,0:05:29.55,0:05:29.64,Black and Red,ts.mochi,0,0,0,,{\frz0\alpha&H60&\fscx150\fscy150\blur4\pos(966.29,869.92)}Hoạt Cảnh số     Không Có
+Dialogue: 0,0:05:29.64,0:05:29.68,Black and Red,ts.mochi,0,0,0,,{\frz0\alpha&H60&\fscx150\fscy150\blur4\pos(965.55,869.77)}Hoạt Cảnh số     Không Có
+Dialogue: 0,0:05:29.68,0:05:29.72,Black and Red,ts.mochi,0,0,0,,{\frz0\alpha&H60&\fscx150\fscy150\blur4\pos(966.28,869.93)}Hoạt Cảnh số     Không Có
+Dialogue: 0,0:05:29.72,0:05:29.76,Black and Red,ts.mochi,0,0,0,,{\frz0\alpha&H60&\fscx150\fscy150\blur4\pos(966.07,869.91)}Hoạt Cảnh số     Không Có
+Dialogue: 0,0:05:29.76,0:05:29.80,Black and Red,ts.mochi,0,0,0,,{\frz0\alpha&H60&\fscx150\fscy150\blur4\pos(966.32,869.91)}Hoạt Cảnh số     Không Có
+Dialogue: 0,0:05:29.80,0:05:29.85,Black and Red,ts.mochi,0,0,0,,{\frz0\alpha&H60&\fscx150\fscy150\blur4\pos(966.06,870.03)}Hoạt Cảnh số     Không Có
+Dialogue: 0,0:05:29.85,0:05:29.89,Black and Red,ts.mochi,0,0,0,,{\frz0\alpha&H60&\fscx150\fscy150\blur4\pos(966.1,869.64)}Hoạt Cảnh số     Không Có
+Dialogue: 0,0:05:29.89,0:05:29.93,Black and Red,ts.mochi,0,0,0,,{\frz0\alpha&H60&\fscx150\fscy150\blur4\pos(966.37,869.83)}Hoạt Cảnh số     Không Có
+Dialogue: 0,0:05:29.93,0:05:29.97,Black and Red,ts.mochi,0,0,0,,{\frz0\alpha&H60&\fscx150\fscy150\blur4\pos(966.36,869.76)}Hoạt Cảnh số     Không Có
+Dialogue: 0,0:05:29.97,0:05:30.01,Black and Red,ts.mochi,0,0,0,,{\frz0\alpha&H60&\fscx150\fscy150\blur4\pos(966.16,870.11)}Hoạt Cảnh số     Không Có
+Dialogue: 0,0:05:30.01,0:05:30.05,Black and Red,ts.mochi,0,0,0,,{\frz0\alpha&H60&\fscx150\fscy150\blur4\pos(965.61,869.7)}Hoạt Cảnh số     Không Có
+Dialogue: 0,0:05:30.05,0:05:30.10,Black and Red,ts.mochi,0,0,0,,{\frz0\alpha&H60&\fscx150\fscy150\blur4\pos(966.09,869.91)}Hoạt Cảnh số     Không Có
+Dialogue: 0,0:05:30.10,0:05:30.14,Black and Red,ts.mochi,0,0,0,,{\frz0\alpha&H60&\fscx150\fscy150\blur4\pos(965.82,869.87)}Hoạt Cảnh số     Không Có
+Dialogue: 0,0:05:30.14,0:05:30.18,Black and Red,ts.mochi,0,0,0,,{\frz0\alpha&H60&\fscx150\fscy150\blur4\pos(965.88,869.69)}Hoạt Cảnh số     Không Có
+Dialogue: 0,0:05:30.18,0:05:30.22,Black and Red,ts.mochi,0,0,0,,{\frz0\alpha&H60&\fscx150\fscy150\blur4\pos(965.87,869.97)}Hoạt Cảnh số     Không Có
+Dialogue: 0,0:05:30.22,0:05:30.26,Black and Red,ts.mochi,0,0,0,,{\frz0\alpha&H60&\fscx150\fscy150\blur4\pos(966.06,870.19)}Hoạt Cảnh số     Không Có
+Dialogue: 0,0:05:30.26,0:05:30.30,Black and Red,ts.mochi,0,0,0,,{\frz0\alpha&H60&\fscx150\fscy150\blur4\pos(965.89,869.56)}Hoạt Cảnh số     Không Có
+Dialogue: 0,0:05:30.30,0:05:30.35,Black and Red,ts.mochi,0,0,0,,{\frz0\alpha&H60&\fscx150\fscy150\blur4\pos(965.73,869.69)}Hoạt Cảnh số     Không Có
+Dialogue: 0,0:05:30.35,0:05:30.39,Black and Red,ts.mochi,0,0,0,,{\frz0\alpha&H60&\fscx150\fscy150\blur4\pos(966.14,870.04)}Hoạt Cảnh số     Không Có
+Dialogue: 0,0:05:30.39,0:05:30.43,Black and Red,ts.mochi,0,0,0,,{\frz0\alpha&H60&\fscx150\fscy150\blur4\pos(965.67,870.06)}Hoạt Cảnh số     Không Có
+Dialogue: 0,0:05:30.43,0:05:30.47,Black and Red,ts.mochi,0,0,0,,{\frz0\alpha&H60&\fscx150\fscy150\blur4\pos(966.48,870.23)}Hoạt Cảnh số     Không Có
+Dialogue: 0,0:05:30.47,0:05:30.51,Black and Red,ts.mochi,0,0,0,,{\frz0\alpha&H60&\fscx150\fscy150\blur4\pos(965.73,870.05)}Hoạt Cảnh số     Không Có
+Dialogue: 1,0:05:27.43,0:05:27.47,Black and Red,ts.mochi,0,0,0,,{\frz0\fscx150\fscy150\blur0.94\pos(966,870)}Hoạt Cảnh số     Không Có
+Dialogue: 1,0:05:27.47,0:05:27.51,Black and Red,ts.mochi,0,0,0,,{\frz0\fscx150\fscy150\blur0.94\pos(965.76,870)}Hoạt Cảnh số     Không Có
+Dialogue: 1,0:05:27.51,0:05:27.55,Black and Red,ts.mochi,0,0,0,,{\frz0\fscx150\fscy150\blur0.94\pos(965.95,869.38)}Hoạt Cảnh số     Không Có
+Dialogue: 1,0:05:27.55,0:05:27.59,Black and Red,ts.mochi,0,0,0,,{\frz0\fscx150\fscy150\blur0.94\pos(965.88,870.09)}Hoạt Cảnh số     Không Có
+Dialogue: 1,0:05:27.59,0:05:27.64,Black and Red,ts.mochi,0,0,0,,{\frz0\fscx150\fscy150\blur0.94\pos(965.7,870.1)}Hoạt Cảnh số     Không Có
+Dialogue: 1,0:05:27.64,0:05:27.68,Black and Red,ts.mochi,0,0,0,,{\frz0\fscx150\fscy150\blur0.94\pos(965.77,869.85)}Hoạt Cảnh số     Không Có
+Dialogue: 1,0:05:27.68,0:05:27.72,Black and Red,ts.mochi,0,0,0,,{\frz0\fscx150\fscy150\blur0.94\pos(966.31,870.23)}Hoạt Cảnh số     Không Có
+Dialogue: 1,0:05:27.72,0:05:27.76,Black and Red,ts.mochi,0,0,0,,{\frz0\fscx150\fscy150\blur0.94\pos(965.79,869.83)}Hoạt Cảnh số     Không Có
+Dialogue: 1,0:05:27.76,0:05:27.80,Black and Red,ts.mochi,0,0,0,,{\frz0\fscx150\fscy150\blur0.94\pos(966.09,869.77)}Hoạt Cảnh số     Không Có
+Dialogue: 1,0:05:27.80,0:05:27.84,Black and Red,ts.mochi,0,0,0,,{\frz0\fscx150\fscy150\blur0.94\pos(966.22,870.18)}Hoạt Cảnh số     Không Có
+Dialogue: 1,0:05:27.84,0:05:27.89,Black and Red,ts.mochi,0,0,0,,{\frz0\fscx150\fscy150\blur0.94\pos(965.83,869.37)}Hoạt Cảnh số     Không Có
+Dialogue: 1,0:05:27.89,0:05:27.93,Black and Red,ts.mochi,0,0,0,,{\frz0\fscx150\fscy150\blur0.94\pos(965.88,869.69)}Hoạt Cảnh số     Không Có
+Dialogue: 1,0:05:27.93,0:05:27.97,Black and Red,ts.mochi,0,0,0,,{\frz0\fscx150\fscy150\blur0.94\pos(966.03,869.87)}Hoạt Cảnh số     Không Có
+Dialogue: 1,0:05:27.97,0:05:28.01,Black and Red,ts.mochi,0,0,0,,{\frz0\fscx150\fscy150\blur0.94\pos(965.82,869.86)}Hoạt Cảnh số     Không Có
+Dialogue: 1,0:05:28.01,0:05:28.05,Black and Red,ts.mochi,0,0,0,,{\frz0\fscx150\fscy150\blur0.94\pos(965.55,869.45)}Hoạt Cảnh số     Không Có
+Dialogue: 1,0:05:28.05,0:05:28.09,Black and Red,ts.mochi,0,0,0,,{\frz0\fscx150\fscy150\blur0.94\pos(966.04,869.44)}Hoạt Cảnh số     Không Có
+Dialogue: 1,0:05:28.09,0:05:28.14,Black and Red,ts.mochi,0,0,0,,{\frz0\fscx150\fscy150\blur0.94\pos(965.94,869.81)}Hoạt Cảnh số     Không Có
+Dialogue: 1,0:05:28.14,0:05:28.18,Black and Red,ts.mochi,0,0,0,,{\frz0\fscx150\fscy150\blur0.94\pos(965.94,869.76)}Hoạt Cảnh số     Không Có
+Dialogue: 1,0:05:28.18,0:05:28.22,Black and Red,ts.mochi,0,0,0,,{\frz0\fscx150\fscy150\blur0.94\pos(965.94,869.82)}Hoạt Cảnh số     Không Có
+Dialogue: 1,0:05:28.22,0:05:28.26,Black and Red,ts.mochi,0,0,0,,{\frz0\fscx150\fscy150\blur0.94\pos(966.31,869.98)}Hoạt Cảnh số     Không Có
+Dialogue: 1,0:05:28.26,0:05:28.30,Black and Red,ts.mochi,0,0,0,,{\frz0\fscx150\fscy150\blur0.94\pos(965.74,869.93)}Hoạt Cảnh số     Không Có
+Dialogue: 1,0:05:28.30,0:05:28.34,Black and Red,ts.mochi,0,0,0,,{\frz0\fscx150\fscy150\blur0.94\pos(966.18,869.47)}Hoạt Cảnh số     Không Có
+Dialogue: 1,0:05:28.34,0:05:28.39,Black and Red,ts.mochi,0,0,0,,{\frz0\fscx150\fscy150\blur0.94\pos(965.53,869.68)}Hoạt Cảnh số     Không Có
+Dialogue: 1,0:05:28.39,0:05:28.43,Black and Red,ts.mochi,0,0,0,,{\frz0\fscx150\fscy150\blur0.94\pos(966.05,870.29)}Hoạt Cảnh số     Không Có
+Dialogue: 1,0:05:28.43,0:05:28.47,Black and Red,ts.mochi,0,0,0,,{\frz0\fscx150\fscy150\blur0.94\pos(966.11,870.19)}Hoạt Cảnh số     Không Có
+Dialogue: 1,0:05:28.47,0:05:28.51,Black and Red,ts.mochi,0,0,0,,{\frz0\fscx150\fscy150\blur0.94\pos(965.6,870.06)}Hoạt Cảnh số     Không Có
+Dialogue: 1,0:05:28.51,0:05:28.55,Black and Red,ts.mochi,0,0,0,,{\frz0\fscx150\fscy150\blur0.94\pos(966.5,869.93)}Hoạt Cảnh số     Không Có
+Dialogue: 1,0:05:28.55,0:05:28.59,Black and Red,ts.mochi,0,0,0,,{\frz0\fscx150\fscy150\blur0.94\pos(965.92,869.55)}Hoạt Cảnh số     Không Có
+Dialogue: 1,0:05:28.59,0:05:28.64,Black and Red,ts.mochi,0,0,0,,{\frz0\fscx150\fscy150\blur0.94\pos(965.85,869.86)}Hoạt Cảnh số     Không Có
+Dialogue: 1,0:05:28.64,0:05:28.68,Black and Red,ts.mochi,0,0,0,,{\frz0\fscx150\fscy150\blur0.94\pos(966.06,869.54)}Hoạt Cảnh số     Không Có
+Dialogue: 1,0:05:28.68,0:05:28.72,Black and Red,ts.mochi,0,0,0,,{\frz0\fscx150\fscy150\blur0.94\pos(965.81,869.76)}Hoạt Cảnh số     Không Có
+Dialogue: 1,0:05:28.72,0:05:28.76,Black and Red,ts.mochi,0,0,0,,{\frz0\fscx150\fscy150\blur0.94\pos(966.57,869.86)}Hoạt Cảnh số     Không Có
+Dialogue: 1,0:05:28.76,0:05:28.80,Black and Red,ts.mochi,0,0,0,,{\frz0\fscx150\fscy150\blur0.94\pos(966.3,869.85)}Hoạt Cảnh số     Không Có
+Dialogue: 1,0:05:28.80,0:05:28.84,Black and Red,ts.mochi,0,0,0,,{\frz0\fscx150\fscy150\blur0.94\pos(966.34,869.5)}Hoạt Cảnh số     Không Có
+Dialogue: 1,0:05:28.84,0:05:28.89,Black and Red,ts.mochi,0,0,0,,{\frz0\fscx150\fscy150\blur0.94\pos(965.6,870.24)}Hoạt Cảnh số     Không Có
+Dialogue: 1,0:05:28.89,0:05:28.93,Black and Red,ts.mochi,0,0,0,,{\frz0\fscx150\fscy150\blur0.94\pos(966.03,869.91)}Hoạt Cảnh số     Không Có
+Dialogue: 1,0:05:28.93,0:05:28.97,Black and Red,ts.mochi,0,0,0,,{\frz0\fscx150\fscy150\blur0.94\pos(966.35,869.8)}Hoạt Cảnh số     Không Có
+Dialogue: 1,0:05:28.97,0:05:29.01,Black and Red,ts.mochi,0,0,0,,{\frz0\fscx150\fscy150\blur0.94\pos(965.6,869.72)}Hoạt Cảnh số     Không Có
+Dialogue: 1,0:05:29.01,0:05:29.05,Black and Red,ts.mochi,0,0,0,,{\frz0\fscx150\fscy150\blur0.94\pos(966.02,869.94)}Hoạt Cảnh số     Không Có
+Dialogue: 1,0:05:29.05,0:05:29.10,Black and Red,ts.mochi,0,0,0,,{\frz0\fscx150\fscy150\blur0.94\pos(966.37,870.25)}Hoạt Cảnh số     Không Có
+Dialogue: 1,0:05:29.10,0:05:29.14,Black and Red,ts.mochi,0,0,0,,{\frz0\fscx150\fscy150\blur0.94\pos(966.11,870)}Hoạt Cảnh số     Không Có
+Dialogue: 1,0:05:29.14,0:05:29.18,Black and Red,ts.mochi,0,0,0,,{\frz0\fscx150\fscy150\blur0.94\pos(966,869.95)}Hoạt Cảnh số     Không Có
+Dialogue: 1,0:05:29.18,0:05:29.22,Black and Red,ts.mochi,0,0,0,,{\frz0\fscx150\fscy150\blur0.94\pos(965.73,869.92)}Hoạt Cảnh số     Không Có
+Dialogue: 1,0:05:29.22,0:05:29.26,Black and Red,ts.mochi,0,0,0,,{\frz0\fscx150\fscy150\blur0.94\pos(965.7,870.24)}Hoạt Cảnh số     Không Có
+Dialogue: 1,0:05:29.26,0:05:29.30,Black and Red,ts.mochi,0,0,0,,{\frz0\fscx150\fscy150\blur0.94\pos(965.88,869.92)}Hoạt Cảnh số     Không Có
+Dialogue: 1,0:05:29.30,0:05:29.35,Black and Red,ts.mochi,0,0,0,,{\frz0\fscx150\fscy150\blur0.94\pos(965.83,869.73)}Hoạt Cảnh số     Không Có
+Dialogue: 1,0:05:29.35,0:05:29.39,Black and Red,ts.mochi,0,0,0,,{\frz0\fscx150\fscy150\blur0.94\pos(966.04,870.03)}Hoạt Cảnh số     Không Có
+Dialogue: 1,0:05:29.39,0:05:29.43,Black and Red,ts.mochi,0,0,0,,{\frz0\fscx150\fscy150\blur0.94\pos(965.67,870.36)}Hoạt Cảnh số     Không Có
+Dialogue: 1,0:05:29.43,0:05:29.47,Black and Red,ts.mochi,0,0,0,,{\frz0\fscx150\fscy150\blur0.94\pos(966.38,869.93)}Hoạt Cảnh số     Không Có
+Dialogue: 1,0:05:29.47,0:05:29.51,Black and Red,ts.mochi,0,0,0,,{\frz0\fscx150\fscy150\blur0.94\pos(966.02,869.94)}Hoạt Cảnh số     Không Có
+Dialogue: 1,0:05:29.51,0:05:29.55,Black and Red,ts.mochi,0,0,0,,{\frz0\fscx150\fscy150\blur0.94\pos(966.05,870.12)}Hoạt Cảnh số     Không Có
+Dialogue: 1,0:05:29.55,0:05:29.64,Black and Red,ts.mochi,0,0,0,,{\frz0\fscx150\fscy150\blur0.94\pos(966.29,869.92)}Hoạt Cảnh số     Không Có
+Dialogue: 1,0:05:29.64,0:05:29.68,Black and Red,ts.mochi,0,0,0,,{\frz0\fscx150\fscy150\blur0.94\pos(965.55,869.77)}Hoạt Cảnh số     Không Có
+Dialogue: 1,0:05:29.68,0:05:29.72,Black and Red,ts.mochi,0,0,0,,{\frz0\fscx150\fscy150\blur0.94\pos(966.28,869.93)}Hoạt Cảnh số     Không Có
+Dialogue: 1,0:05:29.72,0:05:29.76,Black and Red,ts.mochi,0,0,0,,{\frz0\fscx150\fscy150\blur0.94\pos(966.07,869.91)}Hoạt Cảnh số     Không Có
+Dialogue: 1,0:05:29.76,0:05:29.80,Black and Red,ts.mochi,0,0,0,,{\frz0\fscx150\fscy150\blur0.94\pos(966.32,869.91)}Hoạt Cảnh số     Không Có
+Dialogue: 1,0:05:29.80,0:05:29.85,Black and Red,ts.mochi,0,0,0,,{\frz0\fscx150\fscy150\blur0.94\pos(966.06,870.03)}Hoạt Cảnh số     Không Có
+Dialogue: 1,0:05:29.85,0:05:29.89,Black and Red,ts.mochi,0,0,0,,{\frz0\fscx150\fscy150\blur0.94\pos(966.1,869.64)}Hoạt Cảnh số     Không Có
+Dialogue: 1,0:05:29.89,0:05:29.93,Black and Red,ts.mochi,0,0,0,,{\frz0\fscx150\fscy150\blur0.94\pos(966.37,869.83)}Hoạt Cảnh số     Không Có
+Dialogue: 1,0:05:29.93,0:05:29.97,Black and Red,ts.mochi,0,0,0,,{\frz0\fscx150\fscy150\blur0.94\pos(966.36,869.76)}Hoạt Cảnh số     Không Có
+Dialogue: 1,0:05:29.97,0:05:30.01,Black and Red,ts.mochi,0,0,0,,{\frz0\fscx150\fscy150\blur0.94\pos(966.16,870.11)}Hoạt Cảnh số     Không Có
+Dialogue: 1,0:05:30.01,0:05:30.05,Black and Red,ts.mochi,0,0,0,,{\frz0\fscx150\fscy150\blur0.94\pos(965.61,869.7)}Hoạt Cảnh số     Không Có
+Dialogue: 1,0:05:30.05,0:05:30.10,Black and Red,ts.mochi,0,0,0,,{\frz0\fscx150\fscy150\blur0.94\pos(966.09,869.91)}Hoạt Cảnh số     Không Có
+Dialogue: 1,0:05:30.10,0:05:30.14,Black and Red,ts.mochi,0,0,0,,{\frz0\fscx150\fscy150\blur0.94\pos(965.82,869.87)}Hoạt Cảnh số     Không Có
+Dialogue: 1,0:05:30.14,0:05:30.18,Black and Red,ts.mochi,0,0,0,,{\frz0\fscx150\fscy150\blur0.94\pos(965.88,869.69)}Hoạt Cảnh số     Không Có
+Dialogue: 1,0:05:30.18,0:05:30.22,Black and Red,ts.mochi,0,0,0,,{\frz0\fscx150\fscy150\blur0.94\pos(965.87,869.97)}Hoạt Cảnh số     Không Có
+Dialogue: 1,0:05:30.22,0:05:30.26,Black and Red,ts.mochi,0,0,0,,{\frz0\fscx150\fscy150\blur0.94\pos(966.06,870.19)}Hoạt Cảnh số     Không Có
+Dialogue: 1,0:05:30.26,0:05:30.30,Black and Red,ts.mochi,0,0,0,,{\frz0\fscx150\fscy150\blur0.94\pos(965.89,869.56)}Hoạt Cảnh số     Không Có
+Dialogue: 1,0:05:30.30,0:05:30.35,Black and Red,ts.mochi,0,0,0,,{\frz0\fscx150\fscy150\blur0.94\pos(965.73,869.69)}Hoạt Cảnh số     Không Có
+Dialogue: 1,0:05:30.35,0:05:30.39,Black and Red,ts.mochi,0,0,0,,{\frz0\fscx150\fscy150\blur0.94\pos(966.14,870.04)}Hoạt Cảnh số     Không Có
+Dialogue: 1,0:05:30.39,0:05:30.43,Black and Red,ts.mochi,0,0,0,,{\frz0\fscx150\fscy150\blur0.94\pos(965.67,870.06)}Hoạt Cảnh số     Không Có
+Dialogue: 1,0:05:30.43,0:05:30.47,Black and Red,ts.mochi,0,0,0,,{\frz0\fscx150\fscy150\blur0.94\pos(966.48,870.23)}Hoạt Cảnh số     Không Có
+Dialogue: 1,0:05:30.47,0:05:30.51,Black and Red,ts.mochi,0,0,0,,{\frz0\fscx150\fscy150\blur0.94\pos(965.73,870.05)}Hoạt Cảnh số     Không Có
+Dialogue: 0,0:07:30.55,0:07:30.59,Black and Red,ts.mochi,0,0,0,,{\frz0\alpha&H00&\fscx100\fscy100\blur1\1a&1F&\pos(966,465)\c&H000018&\fs70}Khung Hình Trắng
+Dialogue: 0,0:07:30.59,0:07:30.63,Black and Red,ts.mochi,0,0,0,,{\frz0\alpha&H00&\fscx100\fscy100\blur1\1a&1F&\pos(965.77,465)\c&H000018&\fs70}Khung Hình Trắng
+Dialogue: 0,0:07:30.63,0:07:30.68,Black and Red,ts.mochi,0,0,0,,{\frz0\alpha&H00&\fscx100\fscy100\blur1\1a&1F&\pos(965.97,464.35)\c&H000018&\fs70}Khung Hình Trắng
+Dialogue: 0,0:07:30.68,0:07:30.72,Black and Red,ts.mochi,0,0,0,,{\frz0\alpha&H00&\fscx100\fscy100\blur1\1a&1F&\pos(965.88,465.1)\c&H000018&\fs70}Khung Hình Trắng
+Dialogue: 0,0:07:30.72,0:07:30.76,Black and Red,ts.mochi,0,0,0,,{\frz0\alpha&H00&\fscx100\fscy100\blur1\1a&1F&\pos(965.71,465.09)\c&H000018&\fs70}Khung Hình Trắng
+Dialogue: 0,0:07:30.55,0:07:30.59,Black and Red,ts.mochi,0,0,0,,{\frz0\alpha&H00&\fscx150\fscy150\blur0.94\1a&3F&\pos(966,870)\c&H000018&}Hoạt Cảnh số     Không Có
+Dialogue: 0,0:07:30.59,0:07:30.63,Black and Red,ts.mochi,0,0,0,,{\frz0\alpha&H00&\fscx150\fscy150\blur0.94\1a&3F&\pos(965.77,870)\c&H000018&}Hoạt Cảnh số     Không Có
+Dialogue: 0,0:07:30.63,0:07:30.68,Black and Red,ts.mochi,0,0,0,,{\frz0\alpha&H00&\fscx150\fscy150\blur0.94\1a&3F&\pos(965.97,869.35)\c&H000018&}Hoạt Cảnh số     Không Có
+Dialogue: 0,0:07:30.68,0:07:30.72,Black and Red,ts.mochi,0,0,0,,{\frz0\alpha&H00&\fscx150\fscy150\blur0.94\1a&3F&\pos(965.88,870.1)\c&H000018&}Hoạt Cảnh số     Không Có
+Dialogue: 0,0:07:30.72,0:07:30.76,Black and Red,ts.mochi,0,0,0,,{\frz0\alpha&H00&\fscx150\fscy150\blur0.94\1a&3F&\pos(965.71,870.09)\c&H000018&}Hoạt Cảnh số     Không Có

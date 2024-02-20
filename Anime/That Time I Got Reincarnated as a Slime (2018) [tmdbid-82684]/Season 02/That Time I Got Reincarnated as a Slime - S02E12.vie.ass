@@ -1,0 +1,418 @@
+[Script Info]
+; This is an Advanced Sub Station Alpha v4+ script.
+Title: 
+ScriptType: v4.00+
+PlayDepth: 0
+ScaledBorderAndShadow: Yes
+PlayResX: 1920
+PlayResY: 1080
+[V4+ Styles]
+Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
+Style: Default,Noto Sans,80.0,&H00FFFFFF,&H000000FF,&H00002208,&H00000000,-1,0,0,0,100,100,0,0,1,3.0,2.0,2,0,0,65,1
+
+[Events]
+Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
+Dialogue: 0,0:00:01.16,0:00:05.58,Default,,0,0,0,,Chúng ta phải tận dụng thời khắc này\Nđể tiên phát chế nhân, tiêu diệt kẻ địch!
+Dialogue: 0,0:00:05.84,0:00:08.17,Default,,0,0,0,,Để làm cho Shion, Gobzo\Nvà những người khác sống lại!
+Dialogue: 0,0:00:08.59,0:00:09.92,Default,,0,0,0,,Vâng!
+Dialogue: 0,0:00:13.64,0:00:14.68,Default,,0,0,0,,Rimuru đại nhân.
+Dialogue: 0,0:00:15.51,0:00:17.85,Default,,0,0,0,,Ngài nghĩ sao nếu chúng ta\Nđặt trước một vài mật khẩu,
+Dialogue: 0,0:00:17.87,0:00:20.71,Default,,0,0,0,,để kiểm tra xem\Nsau khi trở thành Ma vương,
+Dialogue: 0,0:00:20.73,0:00:22.44,Default,,0,0,0,,ngài có còn giữ được lý trí hay không?
+Dialogue: 0,0:00:22.64,0:00:24.31,Default,,0,0,0,,- Mật khẩu...?\N- Vâng...
+Dialogue: 0,0:00:24.94,0:00:26.15,Default,,0,0,0,,Ví dụ như là...
+Dialogue: 0,0:00:26.73,0:00:28.44,Default,,0,0,0,,Đồ ăn của Shion làm DỞ NHƯ HẠCH.
+Dialogue: 0,0:00:29.69,0:00:31.78,Default,,0,0,0,,Khi tôi hỏi "Đồ ăn của Shion thế nào?"
+Dialogue: 0,0:00:31.80,0:00:33.84,Default,,0,0,0,,xin ngài hãy trả lời là DỞ NHƯ HẠCH.
+Dialogue: 0,0:00:34.24,0:00:35.57,Default,,0,0,0,,Mật khẩu kiểu gì vậy chứ!
+Dialogue: 0,0:00:35.60,0:00:37.39,Default,,0,0,0,,Nhỡ Shion nghe được cáu lên thì sao?
+Dialogue: 0,0:00:38.03,0:00:39.37,Default,,0,0,0,,Không sao đâu ạ.
+Dialogue: 0,0:00:39.39,0:00:42.35,Default,,0,0,0,,Cô ấy mà tức giận rồi bật dậy\Nchửi mắng thì lại càng tốt chứ sao...
+Dialogue: 0,0:00:43.04,0:00:44.75,Default,,0,0,0,,Vậy... Vậy à...?
+Dialogue: 0,0:00:44.77,0:00:46.02,Default,,0,0,0,,Tôi hiểu rồi...
+Dialogue: 0,0:00:47.29,0:00:49.29,Default,,0,0,0,,Nhất định chúng ta phải thành công.
+Dialogue: 0,0:00:51.55,0:00:52.47,Default,,0,0,0,,Ừ...
+Dialogue: 0,0:01:06.48,0:01:11.27,Default,,0,0,0,,Tôi sẽ đặt tên\Ncho những loài hoa không tên,
+Dialogue: 0,0:01:11.48,0:01:16.42,Default,,0,0,0,,để chúng không bị\Nđóng băng trong cái rét cô độc.
+Dialogue: 0,0:01:16.50,0:01:21.17,Default,,0,0,0,,Vật càng đẹp thì càng mong manh,
+Dialogue: 0,0:01:21.23,0:01:23.94,Default,,0,0,0,,nhưng giờ thì không còn mong manh nữa nhỉ?
+Dialogue: 0,0:01:25.63,0:01:30.38,Default,,0,0,0,,Những màu sắc như đang hòa lẫn\Nvào cơ thể trong suốt của tôi.
+Dialogue: 0,0:01:30.56,0:01:33.47,Default,,0,0,0,,Phía sau những chương sách\Nmà tôi miệt mài đọc,
+Dialogue: 0,0:01:33.56,0:01:36.47,Default,,0,0,0,,chính là cậu đang\Nmỉm cười nói "Đến đây nhé".
+Dialogue: 0,0:01:37.81,0:01:40.57,Default,,0,0,0,,Dù đến khi nào, dù bao nhiêu lần nữa,
+Dialogue: 0,0:01:40.70,0:01:43.66,Default,,0,0,0,,Chúng ta hãy khởi tạo ra thế giới mới,
+Dialogue: 0,0:01:43.75,0:01:47.50,Default,,0,0,0,,Vì chúng ta là người kể chuyện.
+Dialogue: 0,0:01:47.78,0:01:51.46,Default,,0,0,0,,Tình yêu, hy vọng, ghen tỵ,
+Dialogue: 0,0:01:51.77,0:01:53.65,Default,,0,0,0,,kể cả nỗi tuyệt vọng\Nmà hôm nay ta hát lên,
+Dialogue: 0,0:01:53.72,0:01:57.47,Default,,0,0,0,,Sẽ là thức ăn, là sức bật,\Nđể chúng ta mạnh mẽ hơn.
+Dialogue: 0,0:01:57.74,0:02:00.58,Default,,0,0,0,,Dù tôi có làm gì đi nữa,
+Dialogue: 0,0:02:00.66,0:02:03.62,Default,,0,0,0,,Thì sự cứu rỗi\Nvẫn nằm sau dòng lệ của ai đó.
+Dialogue: 0,0:02:03.68,0:02:08.68,Default,,0,0,0,,Bởi vì điều đó thật sự buồn bã,
+Dialogue: 0,0:02:09.00,0:02:11.66,Default,,0,0,0,,Tôi sẽ gộp chung lý tưởng và phù phiếm
+Dialogue: 0,0:02:11.80,0:02:15.43,Default,,0,0,0,,với những xung động tuổi trẻ.
+Dialogue: 0,0:02:15.81,0:02:22.18,Default,,0,0,0,,Và một "tôi" chân thật nhất sẽ ra đời!
+Dialogue: 0,0:02:23.51,0:02:27.73,Default,,0,0,0,,(Tập 36: Những kẻ tự do)
+Dialogue: 0,0:02:27.75,0:02:29.25,Default,,0,0,0,,Chuyện gì đã xảy ra vậy...?
+Dialogue: 0,0:02:29.81,0:02:31.10,Default,,0,0,0,,Mọi người... ra sao rồi...?
+Dialogue: 0,0:02:31.13,0:02:33.75,Default,,0,0,0,,Mình đã thăng cấp thành công rồi sao...?
+Dialogue: 0,0:02:34.69,0:02:35.65,Default,,0,0,0,,Phải.
+Dialogue: 0,0:02:36.15,0:02:37.53,Default,,0,0,0,,Nghi thức thăng cấp Ma vương,
+Dialogue: 0,0:02:37.55,0:02:40.18,Default,,0,0,0,,"Lễ hội thu hoạch" đã thành công\Nmà không gặp trở ngại nào.
+Dialogue: 0,0:02:40.70,0:02:41.82,Default,,0,0,0,,Vậy à...?
+Dialogue: 0,0:02:43.24,0:02:46.20,Default,,0,0,0,,Rimuru đại nhân!\NNgài đã tỉnh giấc rồi sao?
+Dialogue: 0,0:02:49.07,0:02:51.15,Default,,0,0,0,,Chào buổi sáng, Rimuru đại nhân!
+Dialogue: 0,0:02:54.46,0:02:55.84,Default,,0,0,0,,Chào buổi sáng, Shion.
+Dialogue: 0,0:02:56.59,0:02:58.88,Default,,0,0,0,,Thật mừng khi thấy cô đã sống lại.
+Dialogue: 0,0:02:59.34,0:03:01.88,Default,,0,0,0,,Vâng, là nhờ ơn của ngài Rimuru đấy ạ!
+Dialogue: 0,0:03:02.43,0:03:05.22,Default,,0,0,0,,Nghe đây, đừng bao giờ\Nlàm tôi lo lắng lần nữa nhé!
+Dialogue: 0,0:03:05.77,0:03:06.77,Default,,0,0,0,,Đây là mệnh lệnh...
+Dialogue: 0,0:03:08.29,0:03:10.74,Default,,0,0,0,,Tôi hiểu rồi.\NSẽ không có lần thứ hai đâu ạ...
+Dialogue: 0,0:03:12.65,0:03:15.06,Default,,0,0,0,,- Rimuru đại nhân...\N- Ngài ấy đã tỉnh lại!
+Dialogue: 0,0:03:20.57,0:03:21.74,Default,,0,0,0,,Rimuru đại nhân!
+Dialogue: 0,0:03:21.77,0:03:25.60,Default,,0,0,0,,Ngài nhìn đi, tất cả chúng tôi\Nđều cải tử hoàn sinh rất bình an!
+Dialogue: 0,0:03:25.87,0:03:28.82,Default,,0,0,0,,Chúng tôi đã trở về lành lặn và đầy đủ,
+Dialogue: 0,0:03:28.86,0:03:30.85,Default,,0,0,0,,không sót một ai cả!
+Dialogue: 0,0:03:32.63,0:03:33.63,Default,,0,0,0,,Ừ...
+Dialogue: 0,0:03:35.57,0:03:37.42,Default,,0,0,0,,Mọi người... hình như...
+Dialogue: 0,0:03:40.26,0:03:42.22,Default,,0,0,0,,Mọi người có thay đổi đôi chút thì phải?
+Dialogue: 0,0:03:42.77,0:03:43.77,Default,,0,0,0,,Báo cáo.
+Dialogue: 0,0:03:43.79,0:03:47.04,Default,,0,0,0,,Những kẻ có liên kết về linh hồn\Nvới ngài đều nhận được ban phước,
+Dialogue: 0,0:03:47.07,0:03:48.94,Default,,0,0,0,,và phát sinh tiến hóa.
+Dialogue: 0,0:03:49.23,0:03:50.44,Default,,0,0,0,,Vậy à...?
+Dialogue: 0,0:03:50.46,0:03:53.00,Default,,0,0,0,,Cơ mà hình như hôm nay\Ncô nói năng lưu loát hơn thì phải?
+Dialogue: 0,0:03:53.15,0:03:54.11,Default,,0,0,0,,Sai.
+Dialogue: 0,0:03:54.13,0:03:55.93,Default,,0,0,0,,Từ trước đến giờ tôi đều như thế này.
+Dialogue: 0,0:03:55.95,0:03:57.42,Default,,0,0,0,,Nói chung là ngài tưởng tượng thôi.
+Dialogue: 0,0:03:57.44,0:03:59.11,Default,,0,0,0,,Vậy à, là do mình hiểu nhầm à...!
+Dialogue: 0,0:04:00.15,0:04:01.66,Default,,0,0,0,,Khoan đã, làm gì có chuyện đó!
+Dialogue: 0,0:04:01.68,0:04:03.60,Default,,0,0,0,,Rõ ràng là rất lưu loát luôn ấy!
+Dialogue: 0,0:04:03.63,0:04:04.55,Default,,0,0,0,,Báo cáo.
+Dialogue: 0,0:04:04.57,0:04:06.70,Default,,0,0,0,,Thật ra kỹ năng đặc biệt "Đại hiền nhân"
+Dialogue: 0,0:04:06.73,0:04:09.27,Default,,0,0,0,,đã tiến hóa thành\Nkỹ năng tối thượng Raphael.
+Dialogue: 0,0:04:07.62,0:04:09.49,Default,,0,0,0,,(Kỹ năng tối thượng\NThông tuệ vương - Raphael)
+Dialogue: 0,0:04:09.58,0:04:13.29,Default,,0,0,0,,Raphael! Dùng cả tên của\Nthiên sứ cơ à? Ngầu thật đấy!
+Dialogue: 0,0:04:13.32,0:04:15.95,Default,,0,0,0,,Giờ đây, không có điều gì\Ntôi không trả lời được.
+Dialogue: 0,0:04:15.97,0:04:18.89,Default,,0,0,0,,V-Vậy sao? Tôi rất\Ntrông đợi vào điều đó đấy.
+Dialogue: 0,0:04:19.33,0:04:21.30,Default,,0,0,0,,Cơ mà cô không thấy\Nmình lưu loát hơn trước sao?
+Dialogue: 0,0:04:21.32,0:04:23.04,Default,,0,0,0,,Sai. Là do ngài tưởng tượng thôi.
+Dialogue: 0,0:04:23.07,0:04:25.65,Default,,0,0,0,,Vẫn quyết tâm đổ\Ntại mình tưởng tượng sao...?
+Dialogue: 0,0:04:26.51,0:04:27.64,Default,,0,0,0,,Nhân tiện, thưa Rimuru đại nhân.
+Dialogue: 0,0:04:28.85,0:04:32.64,Default,,0,0,0,,Tuy giờ ngài đã là Ma vương,\Nnhưng để đề phòng vạn nhất,
+Dialogue: 0,0:04:32.67,0:04:34.29,Default,,0,0,0,,xin cho tôi xác nhận lý trí của ngài.
+Dialogue: 0,0:04:34.32,0:04:35.36,Default,,0,0,0,,Ơ...
+Dialogue: 0,0:04:35.77,0:04:37.44,Default,,0,0,0,,- Món ăn của Shion thế nào?\N- Ơ!?
+Dialogue: 0,0:04:41.94,0:04:45.07,Default,,0,0,0,,Món ăn do tôi làm có vấn đề gì sao,\NRimuru đại nhân?
+Dialogue: 0,0:04:46.49,0:04:49.40,Default,,0,0,0,,Khỉ thật, làm sao mình\Ndám trả lời là DỞ NHƯ HẠCH.
+Dialogue: 0,0:04:49.44,0:04:51.60,Default,,0,0,0,,Rimuru đại nhân! Xin ngài hãy trả lời!
+Dialogue: 0,0:04:52.08,0:04:53.63,Default,,0,0,0,,Nếu ngài vẫn còn giữ được lý trí...
+Dialogue: 0,0:04:53.65,0:04:55.40,Default,,0,0,0,,Benimaru!
+Dialogue: 0,0:04:55.43,0:04:57.94,Default,,0,0,0,,Thông tuệ vương Raphael!\NĐến lượt của cô rồi đó!
+Dialogue: 0,0:04:57.96,0:05:00.13,Default,,0,0,0,,Hãy dùng trí tuệ để\Ngiúp tôi đánh lừa được Shion
+Dialogue: 0,0:05:00.15,0:05:01.67,Default,,0,0,0,,bằng một câu trả lời thỏa đáng đi!
+Dialogue: 0,0:05:01.88,0:05:04.30,Default,,0,0,0,,Đáp. Câu trả lời thích hợp nhất là...
+Dialogue: 0,0:05:04.33,0:05:05.41,Default,,0,0,0,,Câu trả lời là...!
+Dialogue: 0,0:05:06.09,0:05:07.14,Default,,0,0,0,,Không có.
+Dialogue: 0,0:05:07.16,0:05:08.21,Default,,0,0,0,,Đồ vô dụng.
+Dialogue: 0,0:05:08.23,0:05:10.57,Default,,0,0,0,,Chẳng phải cô bảo\Ncô có thể trả lời mọi thứ à?
+Dialogue: 0,0:05:10.89,0:05:13.18,Default,,0,0,0,,Món ăn do tôi làm có gì không ổn ạ?
+Dialogue: 0,0:05:13.98,0:05:15.69,Default,,0,0,0,,À... Ừ, thì là...
+Dialogue: 0,0:05:16.81,0:05:18.65,Default,,0,0,0,,Ngài rất muốn nếm thử đúng không?
+Dialogue: 0,0:05:18.68,0:05:22.22,Default,,0,0,0,,Khi cô chết, ngài ấy héo hon\Nvì nhớ món ăn của cô đó.
+Dialogue: 0,0:05:22.25,0:05:23.57,Default,,0,0,0,,Mình bị gài rồi!
+Dialogue: 0,0:05:23.60,0:05:24.88,Default,,0,0,0,,Tôi hiểu rồi, thì ra là thế!
+Dialogue: 0,0:05:24.90,0:05:26.46,Default,,0,0,0,,Tôi rất vinh hạnh được nấu cho ngài ăn!
+Dialogue: 0,0:05:28.28,0:05:30.45,Default,,0,0,0,,Tôi xin gợi ý một câu trả lời cho ngài.
+Dialogue: 0,0:05:28.28,0:05:30.45,Default,,0,0,0,,(Gợi ý)\N(Câu trả lời thay thế)
+Dialogue: 0,0:05:30.87,0:05:32.95,Default,,0,0,0,,- Raphael?\N- Ngài cho phép tôi chứ?
+Dialogue: 0,0:05:34.75,0:05:37.96,Default,,0,0,0,,Ra là vậy. Đúng là\NThông tuệ vương có khác!
+Dialogue: 0,0:05:38.46,0:05:39.88,Default,,0,0,0,,Benimaru này.
+Dialogue: 0,0:05:41.46,0:05:44.38,Default,,0,0,0,,Mật khẩu mà anh đã quyết định\Nlà như thế này đúng không?
+Dialogue: 0,0:05:44.67,0:05:46.63,Default,,0,0,0,,Khi anh hỏi "Món ăn của Shion thế nào",
+Dialogue: 0,0:05:46.65,0:05:49.37,Default,,0,0,0,,thì tôi phải trả lời là DỞ NHƯ HẠCH nhỉ?
+Dialogue: 0,0:05:50.97,0:05:53.81,Default,,0,0,0,,Tôi phải nói như thế là do\Nanh nghĩ ra và quyết định phải không?
+Dialogue: 0,0:05:53.84,0:05:55.46,Default,,0,0,0,,Là. Anh. Chứ. Không. Ai!
+Dialogue: 0,0:05:55.85,0:05:56.98,Default,,0,0,0,,R-Rimuru đại nhân!
+Dialogue: 0,0:05:57.40,0:06:01.03,Default,,0,0,0,,Vậy là tôi vẫn còn nhớ rõ\Nmật-khẩu-mà-anh-đã-chọn nhỉ?
+Dialogue: 0,0:06:01.05,0:06:04.26,Default,,0,0,0,,Như vậy là tôi vẫn còn\Ngiữ được lý trí phải không?
+Dialogue: 0,0:06:06.15,0:06:07.41,Default,,0,0,0,,C-Chờ đã Shion.
+Dialogue: 0,0:06:07.43,0:06:10.81,Default,,0,0,0,,Là do Rimuru đại nhân chỉ vừa tỉnh\Nnên mới nói năng lung tung thôi!
+Dialogue: 0,0:06:11.99,0:06:13.12,Default,,0,0,0,,Tôi hiểu rồi...
+Dialogue: 0,0:06:14.00,0:06:16.50,Default,,0,0,0,,Ngài Benimaru... À không, Benimaru.
+Dialogue: 0,0:06:17.29,0:06:19.79,Default,,0,0,0,,Giờ đây tôi làm việc\Ntrực thuộc cho Rimuru đại nhân,
+Dialogue: 0,0:06:19.82,0:06:22.44,Default,,0,0,0,,nên chắc cũng không cần\Nphải dùng kính ngữ với anh nữa nhỉ.
+Dialogue: 0,0:06:23.05,0:06:24.63,Default,,0,0,0,,Cho phép tôi...
+Dialogue: 0,0:06:24.66,0:06:28.49,Default,,0,0,0,,phục vụ anh những món tôi nấu\Ncho đến khi no bể bụng thì thôi nhé.
+Dialogue: 0,0:06:36.02,0:06:37.73,Default,,0,0,0,,Ngài làm gì vậy?
+Dialogue: 0,0:06:37.75,0:06:39.72,Default,,0,0,0,,Cố gắng đừng chết nhé, Benimaru.
+Dialogue: 0,0:06:39.74,0:06:41.33,Default,,0,0,0,,Cố gắng ư...?
+Dialogue: 0,0:06:41.94,0:06:44.65,Default,,0,0,0,,Thôi không sao,\Ndo suốt ngày cứ phải ăn thử
+Dialogue: 0,0:06:44.68,0:06:47.05,Default,,0,0,0,,nên gần đây tôi cũng\Ncó được "Kháng độc" cho mình rồi...
+Dialogue: 0,0:06:47.49,0:06:48.78,Default,,0,0,0,,Kháng độc...
+Dialogue: 0,0:06:49.57,0:06:51.53,Default,,0,0,0,,Nhưng lần này... có khi sẽ chết thật đấy...
+Dialogue: 0,0:06:53.53,0:06:54.74,Default,,0,0,0,,À thì...
+Dialogue: 0,0:06:55.33,0:06:57.04,Default,,0,0,0,,Cái này gọi là tự làm tự chịu đó...
+Dialogue: 0,0:06:57.71,0:06:59.31,Default,,0,0,0,,A, phải rồi.
+Dialogue: 0,0:06:59.58,0:07:01.21,Default,,0,0,0,,Giờ không phải lúc giỡn như thế này.
+Dialogue: 0,0:07:01.23,0:07:03.47,Default,,0,0,0,,- Chúng ta vẫn còn một vấn đề khác...\N- Vấn đề gì?
+Dialogue: 0,0:07:03.78,0:07:06.53,Default,,0,0,0,,Trong ba ngày Rimuru đại nhân ngủ li bì...
+Dialogue: 0,0:07:07.01,0:07:08.67,Default,,0,0,0,,Cái gì, tôi đã ngủ ba ngày rồi sao?
+Dialogue: 0,0:07:08.97,0:07:12.52,Default,,0,0,0,,Vâng. Ở vương quốc thú\NEurazania đã xảy ra chuyện lớn...
+Dialogue: 0,0:07:24.86,0:07:27.82,Default,,0,0,0,,Ta là Ma vương Milim Nava!
+Dialogue: 0,0:07:28.32,0:07:33.03,Default,,0,0,0,,Ta muốn phá vỡ hết những hiệp định\Nký kết giữa các Ma vương ngay tại đây,
+Dialogue: 0,0:07:33.06,0:07:35.39,Default,,0,0,0,,để hướng đến Thú Vương Carrion...
+Dialogue: 0,0:07:36.08,0:07:37.74,Default,,0,0,0,,Trực tiếp khiêu chiến!
+Dialogue: 0,0:07:38.25,0:07:39.33,Default,,0,0,0,,Khiêu chiến...?
+Dialogue: 0,0:07:41.37,0:07:43.13,Default,,0,0,0,,Một tuần nữa sẽ khai chiến!
+Dialogue: 0,0:07:43.15,0:07:45.65,Default,,0,0,0,,Cố mà chuẩn bị cho tốt nhé!
+Dialogue: 0,0:07:49.92,0:07:51.34,Default,,0,0,0,,Chờ đã Milim!
+Dialogue: 0,0:07:51.37,0:07:53.45,Default,,0,0,0,,Cô đang nghĩ cái gì vậy hả?
+Dialogue: 0,0:07:54.80,0:07:56.51,Default,,0,0,0,,Sắp có chiến tranh sao, chủ nhân?
+Dialogue: 0,0:07:57.01,0:07:58.97,Default,,0,0,0,,Có thể để thần làm\Ntiên phong số một được không?
+Dialogue: 0,0:07:59.00,0:08:00.26,Default,,0,0,0,,Bình tĩnh, Suphia.
+Dialogue: 0,0:08:00.28,0:08:02.70,Default,,0,0,0,,Cô không biết rõ sức mạnh\Ncủa Ma vương Milim đâu.
+Dialogue: 0,0:08:03.10,0:08:05.61,Default,,0,0,0,,Dù Thú vương kỵ sĩ đoàn có\Ntoàn lực xuất chiến,
+Dialogue: 0,0:08:05.63,0:08:07.84,Default,,0,0,0,,cũng dễ dàng bị\Ncô ta giết sạch trong một khắc.
+Dialogue: 0,0:08:08.48,0:08:12.45,Default,,0,0,0,,Phobio, ngươi từng\Nchứng kiến sức mạnh của Milim,
+Dialogue: 0,0:08:12.47,0:08:13.67,Default,,0,0,0,,vậy thì hẳn đó là sự thật.
+Dialogue: 0,0:08:14.24,0:08:16.78,Default,,0,0,0,,Vậy, giữa ta và Milim thì ai mạnh hơn?
+Dialogue: 0,0:08:20.83,0:08:22.91,Default,,0,0,0,,Nếu phải kết luận trong một câu thì...
+Dialogue: 0,0:08:23.42,0:08:28.42,Default,,0,0,0,,Ma vương Milim rất xứng với\Ncái tên "Kẻ hủy diệt" của mình ạ...
+Dialogue: 0,0:08:29.63,0:08:32.34,Default,,0,0,0,,Ra vậy, cô ta còn mạnh hơn cả ta sao!
+Dialogue: 0,0:08:32.97,0:08:34.39,Default,,0,0,0,,K-Không, ý của thần...
+Dialogue: 0,0:08:34.40,0:08:37.00,Default,,0,0,0,,Không phải cứ gặp\Nkẻ địch mạnh thì phải bỏ chạy,
+Dialogue: 0,0:08:37.02,0:08:38.98,Default,,0,0,0,,bản thân ta cũng là Ma vương mà.
+Dialogue: 0,0:08:39.35,0:08:42.52,Default,,0,0,0,,Hơn nữa, làm sao ta có thể\Nbỏ lỡ cơ hội thú vị thế này,
+Dialogue: 0,0:08:43.19,0:08:46.23,Default,,0,0,0,,đấu với Ma vương trong truyền thuyết đấy!
+Dialogue: 0,0:08:46.25,0:08:47.80,Default,,0,0,0,,Hãy liên hệ với con Slime đó,
+Dialogue: 0,0:08:48.32,0:08:50.98,Default,,0,0,0,,nhờ hắn hỗ trợ cho dân chúng\Nlánh nạn đến rừng Jura.
+Dialogue: 0,0:08:51.49,0:08:54.90,Default,,0,0,0,,Nếu họ bị cuốn vào trận đấu\Ngiữa ta và Milim, thì gặp nguy mất.
+Dialogue: 0,0:08:55.45,0:08:58.50,Default,,0,0,0,,Tiếp đến, hãy để mình ta\Nlàm đối thủ của Milim.
+Dialogue: 0,0:08:58.52,0:08:59.72,Default,,0,0,0,,Ơ, nhưng mà...!
+Dialogue: 0,0:08:59.74,0:09:01.99,Default,,0,0,0,,- Thần cũng tham chiến!\N- Carrion đại nhân, chúng thần...
+Dialogue: 0,0:09:02.10,0:09:02.94,Default,,0,0,0,,Đừng nhiều lời!
+Dialogue: 0,0:09:02.97,0:09:06.89,Default,,0,0,0,,Kẻ có khả năng đối đầu với Milim Nava,\Nchỉ có ta mà thôi!
+Dialogue: 0,0:09:08.42,0:09:11.84,Default,,0,0,0,,Còn các ngươi,\Nhãy ưu tiên bảo vệ người dân!
+Dialogue: 0,0:09:12.13,0:09:14.51,Default,,0,0,0,,Ta không cho phép kẻ nào\Ncan dự vào trận chiến của bọn ta!
+Dialogue: 0,0:09:14.53,0:09:15.22,Default,,0,0,0,,Vâng!
+Dialogue: 0,0:09:15.72,0:09:17.80,Default,,0,0,0,,Hãy tin tưởng ta, nhất định ta sẽ thắng!
+Dialogue: 0,0:09:19.31,0:09:21.27,Default,,0,0,0,,Ta không ghét bỏ gì cô đâu, Milim.
+Dialogue: 0,0:09:21.29,0:09:24.75,Default,,0,0,0,,Ta còn nghĩ chúng ta có thể trở\Nthành bạn tốt của nhau cơ... Tiếc thật.
+Dialogue: 0,0:09:26.06,0:09:30.44,Default,,0,0,0,,Lời khiêu chiến của Ma vương Milim\Nđược gửi đến vào mười ngày trước...
+Dialogue: 0,0:09:32.74,0:09:34.40,Default,,0,0,0,,Và rồi, ba ngày trước...
+Dialogue: 0,0:09:40.28,0:09:41.75,Default,,0,0,0,,Này, Milim.
+Dialogue: 0,0:09:41.77,0:09:43.52,Default,,0,0,0,,Tại sao cô lại bày ra trò này hả?
+Dialogue: 0,0:09:47.71,0:09:49.75,Default,,0,0,0,,Lẽ nào cô đã bị ai đó xúi giục?
+Dialogue: 0,0:09:50.38,0:09:52.46,Default,,0,0,0,,Nếu vậy thì đáng tiếc thật.
+Dialogue: 0,0:09:52.71,0:09:54.63,Default,,0,0,0,,Ta vốn muốn đường đường\Nchính chính đánh bại cô,
+Dialogue: 0,0:09:54.66,0:09:58.12,Default,,0,0,0,,để chứng minh Carrion này là kẻ mạnh nhất!
+Dialogue: 0,0:10:02.52,0:10:03.44,Default,,0,0,0,,Nhìn đi!
+Dialogue: 0,0:10:03.46,0:10:06.46,Default,,0,0,0,,Đây là kỹ năng đặc biệt\Ncủa ta, "Bách thú hóa".
+Dialogue: 0,0:10:07.35,0:10:10.77,Default,,0,0,0,,Ta là Ma Thú Vương, Sư Tử Vương Carrion.
+Dialogue: 0,0:10:23.58,0:10:24.75,Default,,0,0,0,,Milim!
+Dialogue: 0,0:10:24.77,0:10:27.23,Default,,0,0,0,,Tiếc thật, nhưng cô đã\Nnhìn thấy hình thể này của ta,
+Dialogue: 0,0:10:27.26,0:10:29.13,Default,,0,0,0,,thì còn có đường chạy sao?
+Dialogue: 0,0:10:29.83,0:10:31.17,Default,,0,0,0,,Ta sẽ không nương tay đâu!
+Dialogue: 0,0:10:31.20,0:10:32.36,Default,,0,0,0,,Kết thúc ở đây thôi!
+Dialogue: 0,0:10:35.13,0:10:37.17,Default,,0,0,0,,Hãy biến mất khỏi thế giới này đi!
+Dialogue: 0,0:10:37.59,0:10:38.93,Default,,0,0,0,,"Ma thú hống"!
+Dialogue: 0,0:11:01.66,0:11:04.07,Default,,0,0,0,,"Kẻ hủy diệt", Milim Nava...
+Dialogue: 0,0:11:05.08,0:11:09.24,Default,,0,0,0,,Đó là hình thái chiến đấu thật\Ncủa cô sao...?
+Dialogue: 0,0:11:13.88,0:11:15.12,Default,,0,0,0,,Thú vị lắm.
+Dialogue: 0,0:11:15.55,0:11:18.17,Default,,0,0,0,,Đã lâu rồi tay trái của ta\Nmới tê rần như thế.
+Dialogue: 0,0:11:18.67,0:11:21.28,Default,,0,0,0,,Để đáp lễ, ta sẽ cho ngươi\Nxem tuyệt chiêu ưa thích của mình.
+Dialogue: 0,0:11:29.81,0:11:31.94,Default,,0,0,0,,"Drago Nova"!\N(Long Tinh Bạo Viêm Phách)
+Dialogue: 0,0:11:58.71,0:12:01.88,Default,,0,0,0,,Sức mạnh... quá chênh lệch...
+Dialogue: 0,0:12:12.36,0:12:16.14,Default,,0,0,0,,Nhưng mà... không chừng cô ta đang...
+Dialogue: 0,0:12:17.02,0:12:21.02,Default,,0,0,0,,Không chừng gì cơ?\NNói cho cả tôi biết với.
+Dialogue: 0,0:12:21.61,0:12:23.74,Default,,0,0,0,,Thiên không Nữ vương, Frey...
+Dialogue: 0,0:12:24.28,0:12:25.41,Default,,0,0,0,,Chính xác.
+Dialogue: 0,0:12:26.66,0:12:27.75,Default,,0,0,0,,Chẳng lẽ cô cũng...
+Dialogue: 0,0:12:27.77,0:12:30.27,Default,,0,0,0,,Ơ kìa, tôi cũng thế nào cơ?
+Dialogue: 0,0:12:30.83,0:12:33.25,Default,,0,0,0,,Anh cứ từ từ nói cho tôi biết nhé.
+Dialogue: 0,0:12:37.84,0:12:40.63,Default,,0,0,0,,Milim đã hủy diệt Eurazania sao?
+Dialogue: 0,0:12:41.13,0:12:43.51,Default,,0,0,0,,Vâng. Tôi đã chứng kiến tận mắt điều đó.
+Dialogue: 0,0:12:44.51,0:12:48.34,Default,,0,0,0,,Cư dân của vương quốc nhờ được\Nsơ tán từ trước nên vẫn bình an vô sự...
+Dialogue: 0,0:12:49.22,0:12:52.02,Default,,0,0,0,,Việc lo chỗ ở và thức ăn cho họ thì...
+Dialogue: 0,0:12:52.85,0:12:56.73,Default,,0,0,0,,Thứ lỗi cho tôi tự ý hành động trước,\Ntôi đã bố trí chỗ xong xuôi mọi thứ rồi ạ!
+Dialogue: 0,0:12:56.76,0:12:58.67,Default,,0,0,0,,Vậy à! Đúng là Rigurd có khác.
+Dialogue: 0,0:12:59.61,0:13:00.98,Default,,0,0,0,,Chúng tôi rất lấy làm biết ơn.
+Dialogue: 0,0:13:03.61,0:13:04.86,Default,,0,0,0,,Tuy nhiên...
+Dialogue: 0,0:13:04.89,0:13:06.76,Default,,0,0,0,,Ma vương Frey và Ma vương Milim đã...?
+Dialogue: 0,0:13:07.12,0:13:09.28,Default,,0,0,0,,Không ngờ hai Ma vương lại\Nthông đồng với nhau...
+Dialogue: 0,0:13:09.70,0:13:14.45,Default,,0,0,0,,Tôi đã tin rằng Ma vương Milim là\Nngười ghét loại sách lược đó hơn ai hết.
+Dialogue: 0,0:13:14.92,0:13:17.33,Default,,0,0,0,,Đúng là chuyện này có hơi thiếu tự nhiên.
+Dialogue: 0,0:13:17.36,0:13:20.61,Default,,0,0,0,,Tôi không nghĩ rằng Milim lại\Nđi làm những chuyện hèn hạ như thế...
+Dialogue: 0,0:13:21.14,0:13:22.22,Default,,0,0,0,,Về chuyện đó thì...
+Dialogue: 0,0:13:23.13,0:13:25.51,Default,,0,0,0,,Hướng mà Ma vương Frey bay đi,
+Dialogue: 0,0:13:25.53,0:13:29.16,Default,,0,0,0,,không phải là lãnh địa của cô ta,\Ncũng chẳng phải của Milim đại nhân.
+Dialogue: 0,0:13:30.15,0:13:30.97,Default,,0,0,0,,Nghĩa là sao?
+Dialogue: 0,0:13:31.64,0:13:35.22,Default,,0,0,0,,Mà là hướng về\Nlãnh địa của Ma vương Clayman.
+Dialogue: 0,0:13:35.56,0:13:36.50,Default,,0,0,0,,Cái gì?
+Dialogue: 0,0:13:38.15,0:13:40.53,Default,,0,0,0,,Xin lỗi... tôi đi chỗ này một lát!
+Dialogue: 0,0:13:40.55,0:13:41.64,Default,,0,0,0,,Chờ đã, Suphia!
+Dialogue: 0,0:13:43.03,0:13:46.24,Default,,0,0,0,,Nếu muốn đi trả thù,\Nthì tất cả chúng ta cùng đi!
+Dialogue: 0,0:13:46.27,0:13:47.93,Default,,0,0,0,,Chờ đã, hai người.
+Dialogue: 0,0:13:49.49,0:13:52.53,Default,,0,0,0,,Theo như suy đoán của tôi,\Nthì Ma vương Carrion vẫn còn sống.
+Dialogue: 0,0:13:53.04,0:13:55.66,Default,,0,0,0,,Milim không thích bị người\Nkhác xen vào trận chiến của mình,
+Dialogue: 0,0:13:55.69,0:13:57.35,Default,,0,0,0,,Chuyện này hẳn là có uẩn khúc gì đó.
+Dialogue: 0,0:13:58.17,0:14:01.30,Default,,0,0,0,,Do đó, các người tuyệt đối\Nkhông được hành động lỗ mãng.
+Dialogue: 0,0:14:01.32,0:14:04.61,Default,,0,0,0,,Nếu không hợp sức, thì chúng ta\Nsẽ không cứu được kẻ cần phải cứu.
+Dialogue: 0,0:14:05.05,0:14:06.55,Default,,0,0,0,,- Tôi hiểu rồi.\N- Tôi hiểu rồi.
+Dialogue: 0,0:14:09.09,0:14:12.35,Default,,0,0,0,,Người đứng sau giật dây\Nlà tên Ma vương Clayman sao...?
+Dialogue: 0,0:14:12.38,0:14:16.71,Default,,0,0,0,,Vậy là trong trường hợp xấu nhất,\Nmình phải đối đầu đến ba Ma vương à...?
+Dialogue: 0,0:14:21.90,0:14:24.73,Default,,0,0,0,,Xem nào... Từ giờ\Nchúng ta nên làm thế nào đây nhỉ...?
+Dialogue: 0,0:14:25.22,0:14:25.82,Default,,0,0,0,,Sao thế?
+Dialogue: 0,0:14:27.32,0:14:30.32,Default,,0,0,0,,Thật mừng khi thấy\Nngài đã tỉnh giấc, chủ nhân.
+Dialogue: 0,0:14:30.66,0:14:32.08,Default,,0,0,0,,À, ừ...
+Dialogue: 0,0:14:32.24,0:14:34.70,Default,,0,0,0,,Ngài đã thăng cấp lên Ma vương\Nthành công mỹ mãn,
+Dialogue: 0,0:14:34.73,0:14:36.78,Default,,0,0,0,,tôi xin được gửi lời\Nchúc mừng chân thành nhất.
+Dialogue: 0,0:14:36.80,0:14:39.39,Default,,0,0,0,,À ừ... Mà anh là ai ấy nhỉ?
+Dialogue: 0,0:14:44.80,0:14:46.84,Default,,0,0,0,,P-Phải chăng ngài đang đùa...
+Dialogue: 0,0:14:47.34,0:14:50.76,Default,,0,0,0,,Câu nói đó làm cho trái tim của\Nmột Ác ma như ta cảm thấy đau đớn...
+Dialogue: 0,0:14:52.55,0:14:55.01,Default,,0,0,0,,Tên này trông có vẻ là một Ác ma cấp cao...
+Dialogue: 0,0:14:55.52,0:14:57.48,Default,,0,0,0,,Mặc dù mình không biết hắn là ai...
+Dialogue: 0,0:14:57.89,0:15:02.78,Default,,0,0,0,,Đây là gã Ác ma mà ngài đã hiến tế thi thể\Ncủa binh lính Falmuth để triệu hồi đấy ạ.
+Dialogue: 0,0:15:02.80,0:15:05.05,Default,,0,0,0,,À, ra là vậy à. Anh vẫn còn ở đây sao?
+Dialogue: 0,0:15:06.36,0:15:08.03,Default,,0,0,0,,V-Vẫn còn...
+Dialogue: 0,0:15:08.30,0:15:12.30,Default,,0,0,0,,Tôi có nghe kể rồi! Nghe bảo\Nanh đã giúp ích cho tôi rất nhiều.
+Dialogue: 0,0:15:13.16,0:15:14.78,Default,,0,0,0,,Không, chỉ là chút chuyện vặt thôi ạ.
+Dialogue: 0,0:15:15.56,0:15:16.56,Default,,0,0,0,,Vậy tiếp theo là...
+Dialogue: 0,0:15:16.58,0:15:20.04,Default,,0,0,0,,Xin lỗi vì đã giữ anh lại lâu như vậy,\Nanh có thể về được rồi.
+Dialogue: 0,0:15:21.49,0:15:22.67,Default,,0,0,0,,Về ư...?
+Dialogue: 0,0:15:22.92,0:15:23.79,Default,,0,0,0,,Ừ!
+Dialogue: 0,0:15:25.30,0:15:27.00,Default,,0,0,0,,Ủa? Anh làm sao thế?
+Dialogue: 0,0:15:27.38,0:15:28.82,Default,,0,0,0,,Xin ngài đừng nói những câu như vậy...
+Dialogue: 0,0:15:29.59,0:15:31.76,Default,,0,0,0,,Mong ngài cân nhắc\Nlời thỉnh cầu trước đây của tôi,
+Dialogue: 0,0:15:31.84,0:15:34.68,Default,,0,0,0,,cho tôi làm thủ hạ hạng bét cũng được ạ!
+Dialogue: 0,0:15:34.71,0:15:36.58,Default,,0,0,0,,Anh muốn làm thủ hạ của tôi?
+Dialogue: 0,0:15:37.68,0:15:41.52,Default,,0,0,0,,Nhìn kiểu gì thì tên này cũng không phải\Nhạng xoàng như Ác ma thượng cấp...
+Dialogue: 0,0:15:41.54,0:15:43.63,Default,,0,0,0,,mà cấp độ của hắn phải cao hơn nữa.
+Dialogue: 0,0:15:44.23,0:15:48.28,Default,,0,0,0,,Này Ranga, tên ác ma này\Nthật sự là do ta triệu hồi lên sao?
+Dialogue: 0,0:15:48.30,0:15:49.73,Default,,0,0,0,,Không sai một ly ạ.
+Dialogue: 0,0:15:49.75,0:15:52.09,Default,,0,0,0,,Vậy à... Nhưng mà...
+Dialogue: 0,0:15:52.66,0:15:54.66,Default,,0,0,0,,Không có thù lao gì đâu đấy,\Ncó sao không?
+Dialogue: 0,0:15:56.37,0:15:58.65,Default,,0,0,0,,Chỉ cần được làm việc là\Nđủ để tôi thấy hạnh phúc rồi ạ.
+Dialogue: 0,0:15:59.04,0:16:00.29,Default,,0,0,0,,Được, tôi hiểu rồi.
+Dialogue: 0,0:16:00.62,0:16:03.66,Default,,0,0,0,,Ôi, xin chân thành cảm tạ ngài,\Nthưa chủ nhân!
+Dialogue: 0,0:16:04.17,0:16:07.25,Default,,0,0,0,,Thôi thôi, đừng gọi tôi là chủ nhân nữa,\Nthấy ngột ngạt sao ấy...
+Dialogue: 0,0:16:08.21,0:16:09.80,Default,,0,0,0,,Gọi là Rimuru được rồi!
+Dialogue: 0,0:16:10.01,0:16:10.98,Default,,0,0,0,,Rimuru...
+Dialogue: 0,0:16:12.43,0:16:13.79,Default,,0,0,0,,Quả là một âm hưởng ngọt ngào...
+Dialogue: 0,0:16:14.39,0:16:16.47,Default,,0,0,0,,Từ giờ tôi sẽ gọi ngài là Rimuru đại nhân.
+Dialogue: 0,0:16:16.93,0:16:18.56,Default,,0,0,0,,Thế, tên của anh là gì?
+Dialogue: 0,0:16:19.06,0:16:22.73,Default,,0,0,0,,Một ác ma như tôi thì không có tên ạ.
+Dialogue: 0,0:16:23.15,0:16:24.69,Default,,0,0,0,,Không có tên à...
+Dialogue: 0,0:16:25.19,0:16:27.82,Default,,0,0,0,,Vậy thì để tôi đặt tên cho anh\Nthay cho thù lao nhé?
+Dialogue: 0,0:16:27.84,0:16:28.84,Default,,0,0,0,,Cái gì!
+Dialogue: 0,0:16:28.87,0:16:30.87,Default,,0,0,0,,Với tôi, đó là phần thưởng\Nto lớn nhất rồi ạ!
+Dialogue: 0,0:16:33.66,0:16:36.12,Default,,0,0,0,,Vậy à... Anh là ác ma cho nên...
+Dialogue: 0,0:16:36.14,0:16:38.18,Default,,0,0,0,,phải đặt tên gì đó liên quan một chút...
+Dialogue: 0,0:16:39.91,0:16:41.58,Default,,0,0,0,,Tên của anh sẽ là "Diablo"!
+Dialogue: 0,0:16:41.87,0:16:42.83,Default,,0,0,0,,Diablo...
+Dialogue: 0,0:16:43.50,0:16:44.96,Default,,0,0,0,,Từ đó vốn có nghĩa là ác ma,
+Dialogue: 0,0:16:44.98,0:16:47.98,Default,,0,0,0,,ngoài ra còn là tên một chiếc siêu xe nữa,\Nmà chắc không có vấn đề gì...
+Dialogue: 0,0:16:48.50,0:16:51.61,Default,,0,0,0,,Hãy ra sức làm việc cho\Nxứng đáng với cái tên đó nhé!
+Dialogue: 0,0:17:01.10,0:17:03.44,Default,,0,0,0,,Tiêu hao một nửa\Nlượng phân tử ma pháp lận ư...?
+Dialogue: 0,0:17:03.46,0:17:05.01,Default,,0,0,0,,Vậy là ít hơn mình nghĩ nhỉ?
+Dialogue: 0,0:17:05.03,0:17:08.24,Default,,0,0,0,,Vì Ác ma thượng cấp Beretta\Nlúc trước cũng đã lấy tới 30% rồi.
+Dialogue: 0,0:17:08.44,0:17:09.40,Default,,0,0,0,,Báo cáo.
+Dialogue: 0,0:17:09.90,0:17:11.28,Default,,0,0,0,,Sau khi chủ nhân tiến hóa,
+Dialogue: 0,0:17:11.30,0:17:13.73,Default,,0,0,0,,lượng phân tử ma pháp cũng\Nđã tăng lên đáng kể.
+Dialogue: 0,0:17:13.85,0:17:16.31,Default,,0,0,0,,Không thể dùng tỷ lệ tiêu hao\Nso sánh đơn giản như vậy được.
+Dialogue: 0,0:17:16.34,0:17:17.84,Default,,0,0,0,,Thế tăng lên khoảng bao nhiêu?
+Dialogue: 0,0:17:17.99,0:17:19.11,Default,,0,0,0,,Gấp 10 lần trước kia.
+Dialogue: 0,0:17:20.49,0:17:24.11,Default,,0,0,0,,Có vẻ như anh ta sắp tiến hóa\Nthành loại quái vật gì đó khủng khiếp lắm...
+Dialogue: 0,0:17:27.50,0:17:29.04,Default,,0,0,0,,Trông có vẻ rất mạnh...
+Dialogue: 0,0:17:30.34,0:17:32.92,Default,,0,0,0,,Diablo, đó là tên của tôi.
+Dialogue: 0,0:17:33.51,0:17:36.18,Default,,0,0,0,,Trái tim tôi tràn ngập sự cảm kích,\Nthưa Rimuru đại nhân.
+Dialogue: 0,0:17:36.89,0:17:40.76,Default,,0,0,0,,Từ giờ phút này, tôi xin\Nđược tận tâm phụng sự ngài.
+Dialogue: 0,0:17:41.31,0:17:42.85,Default,,0,0,0,,Trăm sự nhờ anh đấy...
+Dialogue: 0,0:17:44.06,0:17:45.10,Default,,0,0,0,,Vậy thì...
+Dialogue: 0,0:17:45.39,0:17:47.60,Default,,0,0,0,,Trông ngài có vẻ\Nđang bận tâm chuyện gì đó,
+Dialogue: 0,0:17:47.63,0:17:49.72,Default,,0,0,0,,nếu được thì có thể\Nkể cho tôi nghe không?
+Dialogue: 0,0:17:49.74,0:17:51.55,Default,,0,0,0,,À, không phải chuyện to tát gì đâu...
+Dialogue: 0,0:17:51.57,0:17:54.32,Default,,0,0,0,,Mà chuyện sau này thì không hẳn là thế...
+Dialogue: 0,0:17:54.34,0:17:55.31,Default,,0,0,0,,Nói vậy tức là?
+Dialogue: 0,0:17:55.99,0:17:58.11,Default,,0,0,0,,Có quá nhiều vấn đề chồng chất lên nhau.
+Dialogue: 0,0:17:59.41,0:18:00.87,Default,,0,0,0,,Vụ việc Clayman...
+Dialogue: 0,0:18:02.16,0:18:04.04,Default,,0,0,0,,Việc định đoạt số phận\Ncủa vương quốc Falmuth...
+Dialogue: 0,0:18:05.58,0:18:08.67,Default,,0,0,0,,Và sau đó là việc đối phó với\Nnhà thờ thánh giáo phương Tây
+Dialogue: 0,0:18:08.69,0:18:09.78,Default,,0,0,0,,xem quái vật là kẻ địch...
+Dialogue: 0,0:18:10.96,0:18:11.88,Default,,0,0,0,,Ra là vậy...
+Dialogue: 0,0:18:12.34,0:18:13.38,Default,,0,0,0,,Báo cáo.
+Dialogue: 0,0:18:13.41,0:18:16.33,Default,,0,0,0,,Ngài không cần phải lo lắng về\Nnhà thờ thánh giáo phương Tây.
+Dialogue: 0,0:18:16.35,0:18:17.44,Default,,0,0,0,,Tại sao vậy?
+Dialogue: 0,0:18:17.47,0:18:19.33,Default,,0,0,0,,Vì quá trình "phân tích giám định"
+Dialogue: 0,0:18:19.35,0:18:22.56,Default,,0,0,0,,đối với "Lồng giam vô hạn" của\Ncá thể Veldora sắp sửa hoàn thành rồi.
+Dialogue: 0,0:18:19.47,0:18:22.68,Default,,0,0,0,,(Lồng giam vô hạn)
+Dialogue: 0,0:18:23.60,0:18:24.60,Default,,0,0,0,,Veldora?
+Dialogue: 0,0:18:24.62,0:18:26.55,Default,,0,0,0,,Thật sự có thể giải\Nphóng ông ta được sao?
+Dialogue: 0,0:18:26.57,0:18:27.57,Default,,0,0,0,,Thật sự.
+Dialogue: 0,0:18:27.60,0:18:31.39,Default,,0,0,0,,Đã mấy trăm năm rồi ông ấy mới\Ncó thể ra ngoài, tuyệt quá, Raphael...
+Dialogue: 0,0:18:31.98,0:18:33.90,Default,,0,0,0,,Tôi đoán rằng chỉ cần giải phóng Veldora,
+Dialogue: 0,0:18:33.93,0:18:38.69,Default,,0,0,0,,thì như vậy đã đủ để trấn áp\Ncác vương quốc ở phía Tây.
+Dialogue: 0,0:18:38.71,0:18:42.34,Default,,0,0,0,,Đúng là phía nhà thờ sẽ\Nkhông muốn hành động bất cẩn...
+Dialogue: 0,0:18:42.37,0:18:45.10,Default,,0,0,0,,Cơ mà quả nhiên là cô đã ăn\Nnói lưu loát hơn trước nhiều rồi đó!
+Dialogue: 0,0:18:45.12,0:18:46.81,Default,,0,0,0,,Sai. Là do ngài tưởng tượng thôi.
+Dialogue: 0,0:18:46.84,0:18:47.92,Default,,0,0,0,,Thôi đủ rồi...
+Dialogue: 0,0:18:49.00,0:18:52.42,Default,,0,0,0,,Tuy nhiên, nhờ vậy mà tôi đã nhìn ra\Ncon đường giải quyết vấn đề rồi...
+Dialogue: 0,0:18:53.34,0:18:55.38,Default,,0,0,0,,Được, nhất định sẽ thành công thôi.
+Dialogue: 0,0:18:55.41,0:18:57.74,Default,,0,0,0,,Ồ! Ngài đã nghĩ ra\Nkế sách tuyệt vời nào rồi sao?
+Dialogue: 0,0:18:58.34,0:19:01.30,Default,,0,0,0,,Ta đã quyết định là sẽ danh chính\Nngôn thuận trở thành một Ma vương!
+Dialogue: 0,0:19:02.69,0:19:04.39,Default,,0,0,0,,Không hổ danh là Rimuru đại nhân.
+Dialogue: 0,0:19:04.42,0:19:07.75,Default,,0,0,0,,Diablo này xin thề\Nvĩnh viễn trung thành với ngài.
+Dialogue: 0,0:19:08.59,0:19:10.10,Default,,0,0,0,,Nếu nói về trung thành
+Dialogue: 0,0:19:10.13,0:19:12.92,Default,,0,0,0,,thì Ranga này cũng\Nmột lòng tận tụy với chủ nhân!
+Dialogue: 0,0:19:14.65,0:19:16.23,Default,,0,0,0,,Biết rồi mà, biết rồi mà.
+Dialogue: 0,0:19:21.24,0:19:22.37,Default,,0,0,0,,Quyết định như vậy đi!
+Dialogue: 0,0:19:22.39,0:19:24.86,Default,,0,0,0,,Ranga, tôi phải ra khỏi\Nthành phố một thời gian.
+Dialogue: 0,0:19:24.88,0:19:28.01,Default,,0,0,0,,Hãy về báo với mọi người\Nchuẩn bị tổ chức yến tiệc.
+Dialogue: 0,0:19:28.96,0:19:30.34,Default,,0,0,0,,Soei, anh có ở đó không?
+Dialogue: 0,0:19:30.36,0:19:31.78,Default,,0,0,0,,- Tôi đây, thưa ngài.\N- Nhanh quá-
+Dialogue: 0,0:19:31.80,0:19:34.22,Default,,0,0,0,,Tôi sẽ đi thu thập\Nthông tin về Clayman cho ngài.
+Dialogue: 0,0:19:35.92,0:19:38.22,Default,,0,0,0,,Không cần nghe cả mệnh lệnh luôn sao...?
+Dialogue: 0,0:19:38.24,0:19:40.24,Default,,0,0,0,,Đúng là một nam tử hán được việc...
+Dialogue: 0,0:19:40.97,0:19:42.43,Default,,0,0,0,,Vậy thì, tôi cũng đi đây...
+Dialogue: 0,0:19:43.10,0:19:44.85,Default,,0,0,0,,Nhờ tiến hóa thành Ma vương,
+Dialogue: 0,0:19:44.87,0:19:49.52,Default,,0,0,0,,tất cả những kỹ năng của tôi được\Nkỹ năng tối thượng Raphael thống nhất
+Dialogue: 0,0:19:49.55,0:19:51.42,Default,,0,0,0,,nên rất dễ sử dụng
+Dialogue: 0,0:19:52.10,0:19:55.07,Default,,0,0,0,,"Kẻ ăn tạp" cũng\Ntiến hóa thành "Beelzebub",
+Dialogue: 0,0:19:55.09,0:19:58.42,Default,,0,0,0,,nên giờ tôi đang sở hữu\Nđến hai kỹ năng tối thượng.
+Dialogue: 0,0:20:05.28,0:20:07.58,Default,,0,0,0,,Nơi này... thật là hoài niệm...
+Dialogue: 0,0:20:12.42,0:20:14.13,Default,,0,0,0,,Đã hai năm trôi qua rồi sao...?
+Dialogue: 0,0:20:14.15,0:20:15.07,Default,,0,0,0,,Báo cáo.
+Dialogue: 0,0:20:15.56,0:20:18.69,Default,,0,0,0,,Quá trình "Phân tích giám định"\Ncủa "Lồng giam vô hạn" đã hoàn thành.
+Dialogue: 0,0:20:18.72,0:20:20.78,Default,,0,0,0,,Cuối cùng cũng đã\Nđến lúc hoàn thành lời hứa.
+Dialogue: 0,0:20:21.13,0:20:24.01,Default,,0,0,0,,Giờ đây, ta sẽ giải phóng\Ncho ngài, Veldora!
+Dialogue: 0,0:20:28.27,0:20:30.85,Default,,0,0,0,,Mình cao hơn trước kia?
+Dialogue: 0,0:20:32.89,0:20:35.48,Default,,0,0,0,,Raphael. Hãy tạo một phân thân của tôi.
+Dialogue: 0,0:20:35.51,0:20:37.26,Default,,0,0,0,,Tôi sẽ cho Veldora mượn nó làm vật chủ.
+Dialogue: 0,0:20:37.57,0:20:39.60,Default,,0,0,0,,Phát động ma pháp "Phân thân cường hóa".
+Dialogue: 0,0:20:45.07,0:20:47.62,Default,,0,0,0,,Quả nhiên là mình đã cao lên...
+Dialogue: 0,0:20:51.58,0:20:54.87,Default,,0,0,0,,Khách quan mà nói thì...\Ntrông mình rất đẹp...
+Dialogue: 0,0:20:58.04,0:20:59.33,Default,,0,0,0,,Được rồi! Làm thôi nào!
+Dialogue: 0,0:21:21.99,0:21:23.44,Default,,0,0,0,,Hy vọng mọi thứ trót lọt.
+Dialogue: 0,0:21:25.99,0:21:26.99,Default,,0,0,0,,Báo cáo.
+Dialogue: 0,0:21:27.02,0:21:28.89,Default,,0,0,0,,Đã xác nhận xong xác suất
+Dialogue: 0,0:21:28.92,0:21:31.29,Default,,0,0,0,,cho "Hành lang linh hồn"\Ngiữa chủ nhân và cá thể Veldora.
+Dialogue: 0,0:21:50.10,0:21:52.94,Default,,0,0,0,,Ta là Bạo Phong Long Veldora Tempest!
+Dialogue: 0,0:21:52.96,0:21:55.42,Default,,0,0,0,,Ta đã tái sinh thành công!
+Dialogue: 0,0:21:56.23,0:21:59.94,Default,,0,0,0,,Kẻ nào dám cản đường,\Nta sẽ giết hết không tha!
+Dialogue: 0,0:22:13.37,0:22:16.37,Default,,0,0,0,,Tôi đã quen với việc mất mát.
+Dialogue: 0,0:22:16.56,0:22:21.10,Default,,0,0,0,,Nói chuyện độc thoại\Nnhư thể tôi là ai khác.
+Dialogue: 0,0:22:21.89,0:22:25.06,Default,,0,0,0,,Thực tại mờ ảo này,
+Dialogue: 0,0:22:25.12,0:22:29.71,Default,,0,0,0,,không phải là việc tôi phải lo.
+Dialogue: 0,0:22:30.02,0:22:33.02,Default,,0,0,0,,Những nỗi buồn không tên đã biến mất,
+Dialogue: 0,0:22:33.09,0:22:35.13,Default,,0,0,0,,và tôi bị cuốn vào một giấc mơ lưu luyến.
+Dialogue: 0,0:22:35.21,0:22:39.33,Default,,0,0,0,,Nếu chúng ta có thể ôm lấy nhau,\Nchắc mọi việc sẽ dễ dàng hơn một chút?
+Dialogue: 0,0:22:39.52,0:22:45.02,Default,,0,0,0,,Đừng quên những kỳ tích gắn liền\Nvới ngày tháng chúng ta được tái sinh.
+Dialogue: 0,0:22:45.11,0:22:48.02,Default,,0,0,0,,Hãy nói với tôi bằng giọng nói của cậu.
+Dialogue: 0,0:22:52.04,0:22:55.58,Default,,0,0,0,,Tôi sẽ sống vì một người nào đó,
+Dialogue: 0,0:22:55.68,0:22:58.43,Default,,0,0,0,,và tôi hy vọng đó sẽ là cậu.
+Dialogue: 0,0:22:58.52,0:23:00.06,Default,,0,0,0,,(Tôi sẽ kể cho cậu thêm một chuyện nữa)
+Dialogue: 0,0:23:00.15,0:23:04.19,Default,,0,0,0,,Nếu tôi có thể\Nkhởi động lại thế giới một lần nữa,
+Dialogue: 0,0:23:04.27,0:23:09.81,Default,,0,0,0,,tôi sẽ tô vẽ lại\Ncâu chuyện của mình bằng tình yêu.
+Dialogue: 0,0:23:09.89,0:23:14.06,Default,,0,0,0,,Cậu đã biết câu chuyện này\Nkết thúc thế nào,
+Dialogue: 0,0:23:14.14,0:23:18.35,Default,,0,0,0,,Nên tôi sẽ kể cho cậu thêm nhé.\N(Chúng tôi sẽ kể thêm một câu chuyện nữa.)
+Dialogue: 0,0:23:18.43,0:23:22.30,Default,,0,0,0,,Cậu đã biết câu chuyện này\Nkết thúc thế nào,
+Dialogue: 0,0:23:22.68,0:23:24.73,Default,,0,0,0,,nên tôi sẽ kể cho cậu thêm nhé.
