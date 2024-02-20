@@ -97,7 +97,7 @@ convertSrtToAss() {
 # }
 pushd "$BASE_FOLDER/backup/AnimeSubtitles/" || exit
 git lfs fetch --all
-# git switch master
+git lfs checkout
 git lfs pull
 SEARCH_DIRS=("$BASE_FOLDER/Anime" "$BASE_FOLDER/Movie")
 
@@ -136,7 +136,7 @@ echo "$TIME_STAMP" >"$BASE_FOLDER/backup/AnimeSubtitles/last_scan"
 # done
 git add -A
 git commit -m "auto push sub $TIME_STAMP"
-git lfs migrate import --fixup --yes
+# git lfs migrate import --fixup --yes
 git lfs migrate import --everything --above=50MB --yes
 git push origin
 curl -H "Content-Type: application/json" -X POST "http://localhost:8096/Library/Refresh?api_key=$JELLYFIN_API_KEY"
