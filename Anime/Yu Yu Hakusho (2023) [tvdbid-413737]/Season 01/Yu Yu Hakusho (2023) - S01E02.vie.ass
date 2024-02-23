@@ -1,0 +1,406 @@
+[Script Info]
+; This is an Advanced Sub Station Alpha v4+ script.
+Title:
+ScriptType: v4.00+
+PlayDepth: 0
+ScaledBorderAndShadow: Yes
+PlayResX: 1920
+PlayResY: 1080
+
+[V4+ Styles]
+Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
+Style: Default,Noto Sans,80.0,&H00FFFFFF,&H000000FF,&H00002208,&H00000000,-1,0,0,0,100,100,0,0,1,3.0,2.0,2,0,0,65,1
+
+[Events]
+Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
+Dialogue: 0,0:00:09.33,0:00:10.50,Default,,0,0,0,,Sẵn sàng chưa?
+Dialogue: 0,0:00:11.29,0:00:14.50,Default,,0,0,0,,- Một, hai, ba, bốn.\N- Một, hai, ba, bốn.
+Dialogue: 0,0:00:26.38,0:00:27.92,Default,,0,0,0,,- Một, hai.\N- Một, hai.
+Dialogue: 0,0:00:30.46,0:00:31.79,Default,,0,0,0,,- Sẵn sàng!\N- Sẵn sàng!
+Dialogue: 0,0:00:34.50,0:00:36.92,Default,,0,0,0,,Chú ơi, đó là gì vậy?
+Dialogue: 0,0:00:38.00,0:00:38.88,Default,,0,0,0,,Thứ này ấy hả?
+Dialogue: 0,0:00:40.13,0:00:42.34,Default,,0,0,0,,Đó là thứ rất hay ho đấy.
+Dialogue: 0,0:00:47.71,0:00:48.75,Default,,0,0,0,,Sho ơi!
+Dialogue: 0,0:00:50.00,0:00:51.25,Default,,0,0,0,,Naoya, sao vậy?
+Dialogue: 0,0:01:01.75,0:01:02.58,Default,,0,0,0,,Thấy chưa?
+Dialogue: 0,0:01:03.54,0:01:04.96,Default,,0,0,0,,Một thứ thật hay ho nhỉ?
+Dialogue: 0,0:01:10.63,0:01:13.96,Default,,0,0,0,,Để được sống lại,\NUrameshi Yusuke làm Thám tử Linh giới.
+Dialogue: 0,0:01:14.04,0:01:14.87,Default,,0,0,0,,Cái gì vậy?
+Dialogue: 0,0:01:14.96,0:01:17.92,Default,,0,0,0,,Nhiệm vụ là đi bắt\Nyêu quái gây tội ác ở Nhân giới.
+Dialogue: 0,0:01:18.00,0:01:19.83,Default,,0,0,0,,Mau dạy tôi cách dùng linh lực!
+Dialogue: 0,0:01:19.92,0:01:22.00,Default,,0,0,0,,Nhưng cậu ta dùng linh lực còn kém.
+Dialogue: 0,0:01:22.88,0:01:28.13,Default,,0,0,0,,Cùng lúc đó, có ba yêu quái đánh cắp\Nba vật nguy hiểm do Linh giới canh giữ.
+Dialogue: 0,0:01:29.17,0:01:32.71,Default,,0,0,0,,Liệu Yusuke có thể thu hồi\Nnhững vật nguy hiểm này không?
+Dialogue: 0,0:01:33.42,0:01:36.67,Default,,0,0,0,,HÀNH TRÌNH U LINH GIỚI
+Dialogue: 0,0:01:45.04,0:01:46.25,Default,,0,0,0,,Cậu chả làm được gì.
+Dialogue: 0,0:01:47.25,0:01:49.54,Default,,0,0,0,,Cậu có hiểu tình hình không? Hả?
+Dialogue: 0,0:01:53.67,0:01:56.13,Default,,0,0,0,,Goki, Kurama, Hiei.
+Dialogue: 0,0:01:56.71,0:02:00.71,Default,,0,0,0,,Bọn yêu quái này đã lấy đi\Nba vật nguy hiểm có sức mạnh to lớn.
+Dialogue: 0,0:02:01.21,0:02:04.13,Default,,0,0,0,,Ta mà không sớm thu hồi,\NNhân giới sẽ gặp rắc rối.
+Dialogue: 0,0:02:04.67,0:02:10.75,Default,,0,0,0,,Hơn nữa, bọn họ dễ dàng hạ gục\Nđám trộm mà chúng ta dự đoán ban đầu.
+Dialogue: 0,0:02:10.83,0:02:13.66,Default,,0,0,0,,Thế nên ta dạy cậu\Ncách dùng chiêu Linh Hoàn.
+Dialogue: 0,0:02:13.75,0:02:14.58,Default,,0,0,0,,Trời ạ.
+Dialogue: 0,0:02:15.25,0:02:17.42,Default,,0,0,0,,Ta không ngờ cậu chậm đến thế này.
+Dialogue: 0,0:02:17.50,0:02:19.21,Default,,0,0,0,,Cậu không tập trung nổi.
+Dialogue: 0,0:02:19.29,0:02:21.58,Default,,0,0,0,,- Cậu cũng ngốc nữa.\N- Im giùm đi!
+Dialogue: 0,0:02:22.54,0:02:24.67,Default,,0,0,0,,Tôi chả tập trung nổi vì hai người!
+Dialogue: 0,0:02:24.75,0:02:25.58,Default,,0,0,0,,Hả?
+Dialogue: 0,0:02:25.67,0:02:27.63,Default,,0,0,0,,Chẳng phải do ngốc hay không nhé!
+Dialogue: 0,0:02:27.71,0:02:29.00,Default,,0,0,0,,Đừng có lên giọng!
+Dialogue: 0,0:02:29.71,0:02:33.75,Default,,0,0,0,,Nếu không muốn nghe phàn nàn,\Ndồn linh lực vào ngón tay rồi phóng ra!
+Dialogue: 0,0:02:33.83,0:02:36.41,Default,,0,0,0,,Chết tiệt. Được! Tôi phóng linh lực đây!
+Dialogue: 0,0:02:36.50,0:02:37.58,Default,,0,0,0,,Tốt, phóng ra đi.
+Dialogue: 0,0:02:38.08,0:02:38.91,Default,,0,0,0,,Cho ta xem.
+Dialogue: 0,0:02:51.25,0:02:52.08,Default,,0,0,0,,Nghe này.
+Dialogue: 0,0:02:53.33,0:02:58.04,Default,,0,0,0,,Chiêu Linh Hoàn là vũ khí duy nhất\Ncậu có thể dùng để chống lại yêu quái.
+Dialogue: 0,0:03:00.13,0:03:04.13,Default,,0,0,0,,Triệu tập năng lượng tinh thần\Nrồi dùng tâm trí phóng linh lực ra.
+Dialogue: 0,0:03:05.50,0:03:07.83,Default,,0,0,0,,Cậu cố phóng qua ngón tay nên thất bại!
+Dialogue: 0,0:03:10.58,0:03:12.58,Default,,0,0,0,,- Nào, lần nữa.\N- Tiểu Diêm Vương!
+Dialogue: 0,0:03:12.67,0:03:14.46,Default,,0,0,0,,- Làm đi!\N- Tiểu Diêm Vương!
+Dialogue: 0,0:03:14.54,0:03:15.37,Default,,0,0,0,,Hả?
+Dialogue: 0,0:03:32.92,0:03:34.09,Default,,0,0,0,,Ổn không đấy?
+Dialogue: 0,0:03:34.17,0:03:35.80,Default,,0,0,0,,- Hayato!\N- Mao ơi!
+Dialogue: 0,0:03:35.88,0:03:37.01,Default,,0,0,0,,Naoya!
+Dialogue: 0,0:03:38.25,0:03:40.83,Default,,0,0,0,,Ta không thể đưa\Nbọn trẻ trở lại như cũ sao?
+Dialogue: 0,0:03:42.33,0:03:44.58,Default,,0,0,0,,Linh hồn của chúng mà bị ăn thì không.
+Dialogue: 0,0:03:46.38,0:03:49.21,Default,,0,0,0,,Goki dùng vật nguy hiểm\Nđể thực hiện tội ác này.
+Dialogue: 0,0:03:52.54,0:03:54.37,Default,,0,0,0,,Làm sao giúp được bọn trẻ này?
+Dialogue: 0,0:03:57.92,0:04:00.63,Default,,0,0,0,,Phải lấy lại linh hồn của chúng từ Goki.
+Dialogue: 0,0:04:03.13,0:04:04.67,Default,,0,0,0,,Vậy thì dễ thôi.
+Dialogue: 0,0:04:06.25,0:04:08.04,Default,,0,0,0,,Ta sẽ tìm ra và tiêu diệt hắn.
+Dialogue: 0,0:04:08.54,0:04:13.17,Default,,0,0,0,,Gì cơ? Như thế thật nực cười!\NThiếu chiêu Linh Hoàn, cậu đâu thắng nổi.
+Dialogue: 0,0:04:13.25,0:04:14.54,Default,,0,0,0,,Không quan trọng!
+Dialogue: 0,0:04:14.63,0:04:16.30,Default,,0,0,0,,Tay không của tôi là đủ rồi.
+Dialogue: 0,0:04:17.08,0:04:19.83,Default,,0,0,0,,Chúng ta bị thương kiểu này suốt nhỉ?
+Dialogue: 0,0:04:19.92,0:04:21.30,Default,,0,0,0,,Ừ, phải rồi!
+Dialogue: 0,0:04:21.38,0:04:22.63,Default,,0,0,0,,Vậy sao lại nằm viện?
+Dialogue: 0,0:04:23.46,0:04:25.46,Default,,0,0,0,,- Này, thôi nào!\N- Cù lét này!
+Dialogue: 0,0:04:25.54,0:04:27.12,Default,,0,0,0,,Kuwabara, nhìn cổ cậu ta!
+Dialogue: 0,0:04:27.21,0:04:28.04,Default,,0,0,0,,Xin lỗi nhé!
+Dialogue: 0,0:04:29.58,0:04:30.75,Default,,0,0,0,,Bởi vì tao quá yếu.
+Dialogue: 0,0:04:34.21,0:04:35.04,Default,,0,0,0,,Không đâu.
+Dialogue: 0,0:04:36.13,0:04:37.17,Default,,0,0,0,,Đừng nói thế chứ!
+Dialogue: 0,0:04:38.04,0:04:40.67,Default,,0,0,0,,Ta chỉ tổn hại cỡ này là nhờ Kuwabara đó.
+Dialogue: 0,0:04:43.33,0:04:44.21,Default,,0,0,0,,Xin lỗi.
+Dialogue: 0,0:04:54.63,0:04:55.46,Default,,0,0,0,,Urameshi!
+Dialogue: 0,0:04:55.54,0:04:57.58,Default,,0,0,0,,- Này. đợi đã!\N- Anh Kuwabara!
+Dialogue: 0,0:04:57.67,0:04:59.30,Default,,0,0,0,,Chào Kuwabara. Sao thế?
+Dialogue: 0,0:04:59.38,0:05:00.76,Default,,0,0,0,,Thôi cái kiểu đấy đi.
+Dialogue: 0,0:05:01.38,0:05:04.80,Default,,0,0,0,,Hôm nọ sao mày hạ nổi gã đó?\NGã không bình thường mà nhỉ?
+Dialogue: 0,0:05:05.58,0:05:08.21,Default,,0,0,0,,Chà, bởi cậu ta bị yêu quái nhập vào.
+Dialogue: 0,0:05:08.96,0:05:09.92,Default,,0,0,0,,Yêu quái ư?
+Dialogue: 0,0:05:10.00,0:05:12.58,Default,,0,0,0,,Nên tao dùng linh lực đẩy yêu quái đó ra.
+Dialogue: 0,0:05:12.67,0:05:13.50,Default,,0,0,0,,Suỵt!
+Dialogue: 0,0:05:14.83,0:05:17.25,Default,,0,0,0,,Mày mất trí rồi đấy à?
+Dialogue: 0,0:05:17.33,0:05:18.87,Default,,0,0,0,,Không, tao nói thật mà.
+Dialogue: 0,0:05:18.96,0:05:19.79,Default,,0,0,0,,Được rồi.
+Dialogue: 0,0:05:20.92,0:05:22.21,Default,,0,0,0,,Mày uống thuốc chưa?
+Dialogue: 0,0:05:22.29,0:05:23.54,Default,,0,0,0,,Mày không tin tao à?
+Dialogue: 0,0:05:23.63,0:05:25.30,Default,,0,0,0,,- Nào, đi thôi!\N- Này!
+Dialogue: 0,0:05:25.38,0:05:27.92,Default,,0,0,0,,Đừng nói quá nhiều\Nvề Linh giới và yêu quái!
+Dialogue: 0,0:05:28.42,0:05:29.96,Default,,0,0,0,,Gã đó ổn đấy chứ?
+Dialogue: 0,0:05:30.04,0:05:32.00,Default,,0,0,0,,Còn có một cô quái dị đi cùng gã.
+Dialogue: 0,0:05:34.17,0:05:35.21,Default,,0,0,0,,Anh nói gì vậy?
+Dialogue: 0,0:05:35.88,0:05:39.21,Default,,0,0,0,,À, về cái cô mặc kimono\Nđang kéo Urameshi đi ấy mà.
+Dialogue: 0,0:05:40.96,0:05:41.79,Default,,0,0,0,,Không.
+Dialogue: 0,0:05:42.42,0:05:43.67,Default,,0,0,0,,Đâu có ai đâu.
+Dialogue: 0,0:05:44.83,0:05:47.21,Default,,0,0,0,,Kuwabara, anh lại thấy gì lạ à?
+Dialogue: 0,0:05:47.75,0:05:50.42,Default,,0,0,0,,- Ôi, không! Đáng sợ quá.\N- Ghê quá!
+Dialogue: 0,0:05:52.63,0:05:54.55,Default,,0,0,0,,Vậy điều gã vừa nói là đúng ư?
+Dialogue: 0,0:05:59.42,0:06:01.59,Default,,0,0,0,,Trong số ba tên trộm yêu quái,
+Dialogue: 0,0:06:02.08,0:06:04.75,Default,,0,0,0,,Goki được coi là\Nnguy hiểm nhất cho Nhân giới.
+Dialogue: 0,0:06:05.38,0:06:08.38,Default,,0,0,0,,Đó là vì Goki ăn linh hồn con người.
+Dialogue: 0,0:06:09.42,0:06:12.50,Default,,0,0,0,,Loài của hắn là sự tồn tại\Nrất có hại cho loài người.
+Dialogue: 0,0:06:13.92,0:06:17.67,Default,,0,0,0,,Cụ thể, Goki đặc biệt\Nthích ăn linh hồn trẻ em.
+Dialogue: 0,0:06:18.38,0:06:23.92,Default,,0,0,0,,Và hắn mang Ngọc Ngạ Quỷ có thể\Nhút linh hồn người và lưu trữ trong đó.
+Dialogue: 0,0:06:24.67,0:06:28.30,Default,,0,0,0,,Về cơ bản quả cầu\Nđã rơi vào tay kẻ tệ nhất có thể.
+Dialogue: 0,0:06:33.67,0:06:36.59,Default,,0,0,0,,Ta đã bỏ ăn tìm hắn mà chẳng ích gì!
+Dialogue: 0,0:06:37.08,0:06:39.71,Default,,0,0,0,,Có lẽ hắn ẩn nấp\Nnhờ kìm nén yêu khí của hắn.
+Dialogue: 0,0:06:40.21,0:06:42.71,Default,,0,0,0,,Yêu quái ở Nhân giới hay dùng mánh đó.
+Dialogue: 0,0:06:44.04,0:06:46.17,Default,,0,0,0,,Có nhiều yêu quái ở Nhân giới không?
+Dialogue: 0,0:06:46.67,0:06:49.42,Default,,0,0,0,,Không. Không nhiều như hồi xưa.
+Dialogue: 0,0:06:50.04,0:06:52.42,Default,,0,0,0,,Bởi vì Linh giới đã tạo ra một kết giới.
+Dialogue: 0,0:06:53.08,0:06:53.96,Default,,0,0,0,,Kết giới ư?
+Dialogue: 0,0:06:54.50,0:06:57.04,Default,,0,0,0,,Đó là kết giới giữa Nhân giới và Ma giới.
+Dialogue: 0,0:06:57.58,0:06:59.96,Default,,0,0,0,,Kết giới đó cản lại yêu quái hùng mạnh
+Dialogue: 0,0:07:00.04,0:07:02.25,Default,,0,0,0,,nên Nhân giới vẫn tương đối yên bình.
+Dialogue: 0,0:07:02.96,0:07:05.13,Default,,0,0,0,,Vụ ma hồi trùng gần đây là vì sao?
+Dialogue: 0,0:07:05.63,0:07:07.96,Default,,0,0,0,,Làm sao từ Ma giới mà nó đến Nhân giới?
+Dialogue: 0,0:07:08.67,0:07:10.38,Default,,0,0,0,,À, chuyện đó thì…
+Dialogue: 0,0:07:10.46,0:07:11.42,Default,,0,0,0,,Là gì hả?
+Dialogue: 0,0:07:12.63,0:07:13.67,Default,,0,0,0,,Tôi không biết!
+Dialogue: 0,0:07:13.75,0:07:15.83,Default,,0,0,0,,Tìm hiểu chuyện đó là việc của cậu!
+Dialogue: 0,0:07:16.54,0:07:18.37,Default,,0,0,0,,Cô bực điều gì chứ? Trời ạ!
+Dialogue: 0,0:07:18.88,0:07:19.71,Default,,0,0,0,,Chờ đã nào!
+Dialogue: 0,0:07:19.79,0:07:21.46,Default,,0,0,0,,- Đi đâu vậy?\N- Đi ăn thôi.
+Dialogue: 0,0:07:21.54,0:07:22.92,Default,,0,0,0,,Ôi, sao cậu vô tư thế?
+Dialogue: 0,0:07:23.00,0:07:23.83,Default,,0,0,0,,Này cô kia.
+Dialogue: 0,0:07:24.46,0:07:26.67,Default,,0,0,0,,Tìm kiếm mù quáng thì ích gì đâu.
+Dialogue: 0,0:07:27.58,0:07:31.25,Default,,0,0,0,,Với cả cô nghĩ tôi thắng được\Nnếu chiến đấu với cái bụng đói à?
+Dialogue: 0,0:07:34.08,0:07:36.25,Default,,0,0,0,,Đồ ngốc mà bất ngờ nói đúng thế!
+Dialogue: 0,0:07:38.38,0:07:39.59,Default,,0,0,0,,- Mời vào!\N- Mời vào!
+Dialogue: 0,0:07:40.08,0:07:41.41,Default,,0,0,0,,- Cậu ấy kìa.\N- Chào!
+Dialogue: 0,0:07:41.50,0:07:42.54,Default,,0,0,0,,Chào nhóc.
+Dialogue: 0,0:07:43.25,0:07:45.67,Default,,0,0,0,,Cảm ơn anh nhiều vì hôm trước!
+Dialogue: 0,0:07:45.75,0:07:47.50,Default,,0,0,0,,Đừng khách sáo thế với anh.
+Dialogue: 0,0:07:47.58,0:07:51.58,Default,,0,0,0,,Cảm ơn cậu rất nhiều.\NTôi không biết cảm tạ cậu thế nào.
+Dialogue: 0,0:07:52.38,0:07:54.30,Default,,0,0,0,,Chà, à thì…
+Dialogue: 0,0:07:55.25,0:07:58.92,Default,,0,0,0,,Để cảm ơn cậu,\Nhôm qua họ cũng ghé qua cửa tiệm đó.
+Dialogue: 0,0:08:00.04,0:08:01.75,Default,,0,0,0,,Chà, ra vậy.
+Dialogue: 0,0:08:02.25,0:08:04.21,Default,,0,0,0,,Cảm ơn nhé. Nhóc khỏe không?
+Dialogue: 0,0:08:05.17,0:08:06.00,Default,,0,0,0,,Dạ?
+Dialogue: 0,0:08:06.88,0:08:07.71,Default,,0,0,0,,Vâng.
+Dialogue: 0,0:08:08.63,0:08:10.17,Default,,0,0,0,,Em thì khỏe nhưng…
+Dialogue: 0,0:08:12.04,0:08:13.42,Default,,0,0,0,,Thật ra là gần đây
+Dialogue: 0,0:08:13.50,0:08:16.75,Default,,0,0,0,,có nhiều trẻ em ngã gục\Ngần khu chung cư chỗ chúng tôi.
+Dialogue: 0,0:08:17.33,0:08:19.21,Default,,0,0,0,,Nên Masaru lo lắng về điều đó.
+Dialogue: 0,0:08:22.71,0:08:24.25,Default,,0,0,0,,Khu chung cư nhà chị sống…
+Dialogue: 0,0:08:25.54,0:08:26.54,Default,,0,0,0,,Nơi đó ở đâu vậy?
+Dialogue: 0,0:08:27.79,0:08:33.46,Default,,0,0,0,,- Oẳn tù tì ra cái gì ra cái này! Làm lại!\N- Oẳn tù tì ra cái gì ra cái này! Làm lại!
+Dialogue: 0,0:08:40.08,0:08:40.91,Default,,0,0,0,,Chậm quá!
+Dialogue: 0,0:08:47.17,0:08:48.00,Default,,0,0,0,,- Kazu!\N- Haru?
+Dialogue: 0,0:08:48.08,0:08:49.21,Default,,0,0,0,,- Go ơi!\N- Haru!
+Dialogue: 0,0:08:49.29,0:08:51.00,Default,,0,0,0,,- Kazuto!\N- Con ổn chứ, Haru?
+Dialogue: 0,0:08:51.08,0:08:52.04,Default,,0,0,0,,Con nghe mẹ chứ?
+Dialogue: 0,0:08:54.21,0:08:56.42,Default,,0,0,0,,- Tỉnh mau! Nào con!\N- Này!
+Dialogue: 0,0:08:59.96,0:09:02.54,Default,,0,0,0,,- Này! Cố lên con!\N- Haru!
+Dialogue: 0,0:09:02.63,0:09:04.34,Default,,0,0,0,,- Này, dậy đi con!\N- Kazuto!
+Dialogue: 0,0:09:49.63,0:09:51.76,Default,,0,0,0,,Mày là thằng quái nào hả?
+Dialogue: 0,0:09:58.46,0:10:00.75,Default,,0,0,0,,Ra mày chỉ là một con người!
+Dialogue: 0,0:13:34.96,0:13:35.79,Default,,0,0,0,,Dừng lại!
+Dialogue: 0,0:13:39.50,0:13:41.08,Default,,0,0,0,,Đừng bắt nạt anh ấy nữa!
+Dialogue: 0,0:13:42.92,0:13:45.67,Default,,0,0,0,,Nhóc này trông khỏe mạnh, ngon lành đó.
+Dialogue: 0,0:13:47.29,0:13:48.37,Default,,0,0,0,,Chạy đi, Masaru.
+Dialogue: 0,0:14:00.67,0:14:03.38,Default,,0,0,0,,- Mau chạy đi!\N- Đừng gián đoạn bữa ăn của tao!
+Dialogue: 0,0:14:34.96,0:14:35.84,Default,,0,0,0,,Dừng lại!
+Dialogue: 0,0:14:39.00,0:14:40.42,Default,,0,0,0,,Im đi.
+Dialogue: 0,0:14:47.04,0:14:48.58,Default,,0,0,0,,Dừng lại!
+Dialogue: 0,0:14:52.13,0:14:54.09,Default,,0,0,0,,Chết tiệt nhà ngươi!
+Dialogue: 0,0:15:31.29,0:15:33.75,Default,,0,0,0,,- Ôi, Haru tỉnh rồi à?\N- Con ổn không?
+Dialogue: 0,0:15:34.25,0:15:36.38,Default,,0,0,0,,- Nhận ra mẹ chứ?\N- Đứng lên nổi chứ?
+Dialogue: 0,0:15:37.63,0:15:38.59,Default,,0,0,0,,Con ổn thật chứ?
+Dialogue: 0,0:15:38.67,0:15:40.92,Default,,0,0,0,,- Cảm ơn rất nhiều.\N- Nhẹ cả người!
+Dialogue: 0,0:15:49.96,0:15:51.63,Default,,0,0,0,,Anh ổn đấy chứ?
+Dialogue: 0,0:15:55.04,0:15:56.42,Default,,0,0,0,,Cảm ơn vì lúc nãy.
+Dialogue: 0,0:15:57.17,0:15:58.00,Default,,0,0,0,,Dạ.
+Dialogue: 0,0:16:00.38,0:16:01.21,Default,,0,0,0,,Được rồi.
+Dialogue: 0,0:16:01.96,0:16:03.38,Default,,0,0,0,,Nào, đứng dậy được chứ?
+Dialogue: 0,0:16:06.71,0:16:07.54,Default,,0,0,0,,Về nhà đi.
+Dialogue: 0,0:16:20.42,0:16:22.34,Default,,0,0,0,,Này, chịu khó đi! Trời đất ạ.
+Dialogue: 0,0:16:22.42,0:16:24.67,Default,,0,0,0,,Thôi nào, khóc ra đi chứ.
+Dialogue: 0,0:16:24.75,0:16:27.08,Default,,0,0,0,,Bọn mày quá nhẹ nhàng với nó!
+Dialogue: 0,0:16:32.00,0:16:33.88,Default,,0,0,0,,Phải mạnh tay cỡ này cơ.
+Dialogue: 0,0:16:34.58,0:16:36.25,Default,,0,0,0,,Không thì nó không khóc đâu.
+Dialogue: 0,0:16:56.63,0:16:57.59,Default,,0,0,0,,Đó, thấy chưa?
+Dialogue: 0,0:16:58.29,0:17:00.33,Default,,0,0,0,,Đã lâu rồi mới có Băng Lệ Thạch!
+Dialogue: 0,0:17:02.54,0:17:03.46,Default,,0,0,0,,Thêm nữa.
+Dialogue: 0,0:17:04.54,0:17:05.67,Default,,0,0,0,,Khóc nữa đi!
+Dialogue: 0,0:17:15.17,0:17:16.59,Default,,0,0,0,,Mày nhìn thế là sao?
+Dialogue: 0,0:17:17.92,0:17:21.63,Default,,0,0,0,,Mày phản kháng vô ích thôi, đồ yêu ma!
+Dialogue: 0,0:17:25.67,0:17:28.30,Default,,0,0,0,,Lần tới đừng hòng tao bỏ qua cho mày.
+Dialogue: 0,0:17:43.08,0:17:45.33,Default,,0,0,0,,Gã Sakyo chết tiệt đó.
+Dialogue: 0,0:17:46.04,0:17:49.79,Default,,0,0,0,,Để đổi lấy cái hố sụt,\Ngã đưa tao sản phẩm lỗi như thế!
+Dialogue: 0,0:17:50.46,0:17:51.84,Default,,0,0,0,,- Này!\N- Dạ!
+Dialogue: 0,0:17:51.92,0:17:54.30,Default,,0,0,0,,Hãy bán Băng Lệ Thạch đó với giá cao!
+Dialogue: 0,0:17:54.88,0:17:56.21,Default,,0,0,0,,- Tuân lệnh.\N- Rõ chưa?
+Dialogue: 0,0:17:56.71,0:17:57.54,Default,,0,0,0,,Vâng.
+Dialogue: 0,0:18:04.17,0:18:05.71,Default,,0,0,0,,Hãy cố chịu thêm chút nữa.
+Dialogue: 0,0:18:07.88,0:18:10.42,Default,,0,0,0,,Chờ có cơ hội,\Nnhất định tôi sẽ giải cứu cô.
+Dialogue: 0,0:18:13.38,0:18:14.21,Default,,0,0,0,,Tại sao?
+Dialogue: 0,0:18:17.67,0:18:19.75,Default,,0,0,0,,Tôi có một em gái tầm tuổi cô.
+Dialogue: 0,0:19:00.96,0:19:01.84,Default,,0,0,0,,Chào cậu.
+Dialogue: 0,0:19:01.92,0:19:03.00,Default,,0,0,0,,Ừ, chào nhé.
+Dialogue: 0,0:19:10.00,0:19:11.96,Default,,0,0,0,,Hả? Kurama theo dõi cậu à?
+Dialogue: 0,0:19:12.46,0:19:13.92,Default,,0,0,0,,Kurama đã làm gì vậy?
+Dialogue: 0,0:19:14.00,0:19:16.25,Default,,0,0,0,,Tôi đã nói rồi. Gã chỉ đứng nhìn thôi.
+Dialogue: 0,0:19:17.00,0:19:18.88,Default,,0,0,0,,Gã cũng không cố giúp Goki.
+Dialogue: 0,0:19:20.08,0:19:22.08,Default,,0,0,0,,Tôi không biết gã đang giở trò gì,
+Dialogue: 0,0:19:22.63,0:19:24.01,Default,,0,0,0,,nhưng cảm giác rờn rợn.
+Dialogue: 0,0:19:25.25,0:19:28.04,Default,,0,0,0,,Kurama là một yêu quái đội lốt người.
+Dialogue: 0,0:19:28.58,0:19:33.62,Default,,0,0,0,,Ta không biết nhiều về gã\Nbởi có lẽ gã khá xảo quyệt.
+Dialogue: 0,0:19:33.71,0:19:35.92,Default,,0,0,0,,Và gã là đồng bọn của Goki.
+Dialogue: 0,0:19:36.50,0:19:38.71,Default,,0,0,0,,Hơn nữa, Kính Hắc Ám mà Kurama cầm là
+Dialogue: 0,0:19:38.79,0:19:41.71,Default,,0,0,0,,vật nguy hiểm có thể\Nban điều ước cho kẻ nhìn vào.
+Dialogue: 0,0:19:42.21,0:19:45.67,Default,,0,0,0,,Dù điều ước xấu xa cỡ nào,\Nchắc chắn nó sẽ thành hiện thực.
+Dialogue: 0,0:19:46.33,0:19:47.46,Default,,0,0,0,,Ước gì cũng được ư?
+Dialogue: 0,0:19:47.54,0:19:48.37,Default,,0,0,0,,Phải.
+Dialogue: 0,0:19:48.92,0:19:50.80,Default,,0,0,0,,Diệt chủng, thiên tai…
+Dialogue: 0,0:19:51.29,0:19:52.25,Default,,0,0,0,,Bất cứ gì.
+Dialogue: 0,0:19:52.33,0:19:53.29,Default,,0,0,0,,Là thật đó sao?
+Dialogue: 0,0:19:54.29,0:19:57.17,Default,,0,0,0,,Vào đêm trăng tròn,\NKính Hắc Ám bộc lộ sức mạnh.
+Dialogue: 0,0:19:57.67,0:20:00.05,Default,,0,0,0,,Trước khi ấy, phải lấy thứ đó từ tay gã.
+Dialogue: 0,0:20:00.54,0:20:01.37,Default,,0,0,0,,Được.
+Dialogue: 0,0:20:06.38,0:20:07.30,Default,,0,0,0,,Ôi chà!
+Dialogue: 0,0:20:07.38,0:20:08.51,Default,,0,0,0,,Không bật lên được!
+Dialogue: 0,0:20:11.29,0:20:12.12,Default,,0,0,0,,Khoan đã!
+Dialogue: 0,0:20:22.83,0:20:24.54,Default,,0,0,0,,- Cảm ơn vì đã đợi.\N- Mời vào!
+Dialogue: 0,0:20:25.17,0:20:27.09,Default,,0,0,0,,Xin mời vào! Cứ tự nhiên.
+Dialogue: 0,0:20:38.13,0:20:39.80,Default,,0,0,0,,Mời vào, chúng tôi có bàn.
+Dialogue: 0,0:21:20.58,0:21:23.16,Default,,0,0,0,,Chào, sẵn sàng rồi. Chờ một chút.
+Dialogue: 0,0:21:24.00,0:21:25.33,Default,,0,0,0,,Cảm ơn vì hay ghé qua.
+Dialogue: 0,0:21:44.54,0:21:48.12,Default,,0,0,0,,Thưa Tiểu Diêm Vương, tôi nghĩ đây là…
+Dialogue: 0,0:21:48.83,0:21:52.16,Default,,0,0,0,,Phải, cứ như thể lời mời từ Kurama.
+Dialogue: 0,0:21:53.88,0:21:54.96,Default,,0,0,0,,Có thể là cái bẫy.
+Dialogue: 0,0:22:12.88,0:22:15.84,Default,,0,0,0,,BỆNH VIỆN ĐA KHOA SARAYASHIKI
+Dialogue: 0,0:23:05.92,0:23:06.80,Default,,0,0,0,,Hãy an tâm đi.
+Dialogue: 0,0:23:08.83,0:23:12.79,Default,,0,0,0,,Một khi đạt được mục đích,\Ntôi nhất định sẽ trả lại Kính Hắc Ám.
+Dialogue: 0,0:23:14.58,0:23:15.62,Default,,0,0,0,,Shuichi à?
+Dialogue: 0,0:23:16.92,0:23:17.80,Default,,0,0,0,,Con đến rồi à?
+Dialogue: 0,0:23:20.33,0:23:21.16,Default,,0,0,0,,Vâng ạ.
+Dialogue: 0,0:23:21.75,0:23:23.42,Default,,0,0,0,,Không, mẹ phải nằm xuống.
+Dialogue: 0,0:23:23.92,0:23:24.75,Default,,0,0,0,,Mẹ không sao.
+Dialogue: 0,0:23:25.50,0:23:29.08,Default,,0,0,0,,Bạn con cất công đến đây,\Nmẹ phải chào hỏi cậu ấy chứ.
+Dialogue: 0,0:23:31.46,0:23:33.17,Default,,0,0,0,,Bác là mẹ của Shuichi.
+Dialogue: 0,0:23:34.50,0:23:36.46,Default,,0,0,0,,Xin thứ lỗi vì trông như thế này.
+Dialogue: 0,0:23:37.79,0:23:39.21,Default,,0,0,0,,Nhưng bác vui lắm.
+Dialogue: 0,0:23:39.79,0:23:41.12,Default,,0,0,0,,Bác thấy nhẹ nhõm.
+Dialogue: 0,0:23:42.83,0:23:45.58,Default,,0,0,0,,Rất vui là thằng bé đến thăm bác mỗi ngày,
+Dialogue: 0,0:23:46.42,0:23:50.34,Default,,0,0,0,,nhưng bác đã lo rằng vì thế mà\Nthằng bé không thể chơi với bạn bè.
+Dialogue: 0,0:23:55.17,0:23:56.00,Default,,0,0,0,,Mẹ à?
+Dialogue: 0,0:23:57.54,0:23:58.92,Default,,0,0,0,,Mẹ ổn đấy chứ?
+Dialogue: 0,0:23:59.46,0:24:01.46,Default,,0,0,0,,Mẹ không sao. Không sao mà.
+Dialogue: 0,0:24:09.83,0:24:10.83,Default,,0,0,0,,Ngạc nhiên không?
+Dialogue: 0,0:24:12.13,0:24:13.30,Default,,0,0,0,,Chà, có chứ.
+Dialogue: 0,0:24:15.67,0:24:18.46,Default,,0,0,0,,Shuichi là tên tạm thời\Nmà tôi dùng ở Nhân giới.
+Dialogue: 0,0:24:19.96,0:24:22.09,Default,,0,0,0,,Và đó chính là mẹ hiện giờ của tôi.
+Dialogue: 0,0:24:23.88,0:24:26.30,Default,,0,0,0,,Tôi đã lừa mẹ suốt thời gian bà nuôi tôi.
+Dialogue: 0,0:24:28.29,0:24:29.29,Default,,0,0,0,,Thế nghĩa là sao?
+Dialogue: 0,0:24:30.42,0:24:31.55,Default,,0,0,0,,Tầm 17 năm trước,
+Dialogue: 0,0:24:32.67,0:24:35.17,Default,,0,0,0,,tôi bị thương nặng do có kẻ truy sát mạnh.
+Dialogue: 0,0:24:36.58,0:24:40.46,Default,,0,0,0,,Để tránh kẻ truy sát,\Ntôi nhập vào một trứng người đã thụ tinh.
+Dialogue: 0,0:24:44.08,0:24:49.66,Default,,0,0,0,,Tôi dự định để mẹ nuôi dạy\Nrồi biến mất sau khi hồi phục sức mạnh.
+Dialogue: 0,0:24:52.92,0:24:54.17,Default,,0,0,0,,Thế rồi có chuyện gì?
+Dialogue: 0,0:25:02.29,0:25:06.75,Default,,0,0,0,,Cậu nghĩ yêu quái có cảm nhận được\Nđiều gì đó như lòng trắc ẩn không?
+Dialogue: 0,0:25:12.42,0:25:14.05,Default,,0,0,0,,Tôi cũng đã tưởng là không.
+Dialogue: 0,0:25:16.83,0:25:18.71,Default,,0,0,0,,Cho đến khi mẹ ngã bệnh…
+Dialogue: 0,0:25:26.25,0:25:28.50,Default,,0,0,0,,Cứ thế này, mẹ khó trụ nổi một tháng.
+Dialogue: 0,0:25:35.75,0:25:40.13,Default,,0,0,0,,Tôi muốn dùng gương này để giúp mẹ.
+Dialogue: 0,0:25:42.63,0:25:44.05,Default,,0,0,0,,Tôi chỉ mong ước có thế.
+Dialogue: 0,0:25:45.08,0:25:47.62,Default,,0,0,0,,Xong việc, tôi hứa sẽ trả lại Kính Hắc Ám.
+Dialogue: 0,0:25:51.88,0:25:53.67,Default,,0,0,0,,Sao cậu kể điều này với tôi?
+Dialogue: 0,0:25:58.83,0:26:01.79,Default,,0,0,0,,Có lẽ tôi chỉ muốn\Nai đó nghe lời thú nhận của tôi.
+Dialogue: 0,0:26:06.58,0:26:10.41,Default,,0,0,0,,Hơn hết, cậu có vẻ là đáng để tin tưởng.
+Dialogue: 0,0:26:24.08,0:26:26.00,Default,,0,0,0,,Chết tiệt!
+Dialogue: 0,0:26:31.75,0:26:34.17,Default,,0,0,0,,Lại có tình huống như vậy.
+Dialogue: 0,0:26:36.38,0:26:40.34,Default,,0,0,0,,Mong là mẹ con Kurama được hạnh phúc.
+Dialogue: 0,0:26:41.29,0:26:42.96,Default,,0,0,0,,Điều đó sẽ khó đấy.
+Dialogue: 0,0:26:44.42,0:26:45.25,Default,,0,0,0,,Hả?
+Dialogue: 0,0:26:45.75,0:26:47.42,Default,,0,0,0,,Bắt đầu nào. Sẽ hơi nhức đó.
+Dialogue: 0,0:26:54.50,0:26:55.38,Default,,0,0,0,,Tiếp tục nhé?
+Dialogue: 0,0:26:56.38,0:26:58.67,Default,,0,0,0,,Chịu thêm chút nữa. Đó, tốt lắm.
+Dialogue: 0,0:27:00.83,0:27:01.71,Default,,0,0,0,,Chút nữa thôi.
+Dialogue: 0,0:27:02.88,0:27:04.88,Default,,0,0,0,,Đó, tốt lắm.
+Dialogue: 0,0:27:06.92,0:27:07.75,Default,,0,0,0,,Cố chịu nhé.
+Dialogue: 0,0:27:14.58,0:27:15.54,Default,,0,0,0,,TIỆM ĂN YUKIMURA
+Dialogue: 0,0:27:15.63,0:27:17.55,Default,,0,0,0,,- Cảm ơn!\N- Vâng, cảm ơn nhiều.
+Dialogue: 0,0:27:17.63,0:27:19.63,Default,,0,0,0,,- Gặp sau.\N- Hẹn gặp lại quý khách.
+Dialogue: 0,0:27:25.17,0:27:26.50,Default,,0,0,0,,Mì sắp trương lên kìa.
+Dialogue: 0,0:27:27.54,0:27:29.46,Default,,0,0,0,,- Này, Keiko.\N- Gì cơ?
+Dialogue: 0,0:27:30.75,0:27:31.58,Default,,0,0,0,,Yêu quái…
+Dialogue: 0,0:27:33.42,0:27:34.38,Default,,0,0,0,,À, không phải.
+Dialogue: 0,0:27:38.08,0:27:41.62,Default,,0,0,0,,Cậu có nghĩ trong số kẻ xấu\Nthì cũng có người tốt không?
+Dialogue: 0,0:27:43.00,0:27:44.75,Default,,0,0,0,,Hả? Cậu nói thế ý là sao?
+Dialogue: 0,0:27:44.83,0:27:46.46,Default,,0,0,0,,À thì, tớ tự dưng nghĩ thế.
+Dialogue: 0,0:27:47.92,0:27:48.75,Default,,0,0,0,,Hừm.
+Dialogue: 0,0:27:50.25,0:27:51.92,Default,,0,0,0,,Có thể chứ.
+Dialogue: 0,0:27:54.83,0:27:58.79,Default,,0,0,0,,Ví dụ, những ai không biết rõ về Yusuke
+Dialogue: 0,0:27:58.88,0:28:02.67,Default,,0,0,0,,dễ nghĩ cậu là đồ bất hảo và là kẻ xấu.
+Dialogue: 0,0:28:03.42,0:28:04.25,Default,,0,0,0,,Chắc vậy.
+Dialogue: 0,0:28:05.21,0:28:07.38,Default,,0,0,0,,Nhưng tớ biết điều đó không đúng.
+Dialogue: 0,0:28:09.13,0:28:10.63,Default,,0,0,0,,Tớ sẽ tự mình nhìn nhận.
+Dialogue: 0,0:28:11.38,0:28:14.46,Default,,0,0,0,,Dù thế giới có nói họ là kẻ xấu cỡ nào,
+Dialogue: 0,0:28:14.96,0:28:17.71,Default,,0,0,0,,tớ mà nghĩ họ tốt thì họ là người tốt.
+Dialogue: 0,0:28:18.88,0:28:22.38,Default,,0,0,0,,Tương tự, dù cả thế giới nói ai đó tốt,
+Dialogue: 0,0:28:23.00,0:28:26.38,Default,,0,0,0,,nếu tớ thấy họ xấu xa thì họ là kẻ xấu.
+Dialogue: 0,0:28:28.42,0:28:31.50,Default,,0,0,0,,Tớ học được điều ấy từ cậu đó, Yusuke.
+Dialogue: 0,0:28:34.08,0:28:34.91,Default,,0,0,0,,Cái gì chứ?
+Dialogue: 0,0:28:35.88,0:28:36.84,Default,,0,0,0,,Đùa thôi.
+Dialogue: 0,0:28:37.42,0:28:39.00,Default,,0,0,0,,Keiko à. Cho tôi bia.
+Dialogue: 0,0:28:39.08,0:28:39.91,Default,,0,0,0,,Vâng!
+Dialogue: 0,0:28:51.71,0:28:53.25,Default,,0,0,0,,Yusuke! Không ổn rồi!
+Dialogue: 0,0:28:55.25,0:28:57.83,Default,,0,0,0,,Cậu đang làm gì vậy? Mau lên nào!
+Dialogue: 0,0:28:58.92,0:29:01.25,Default,,0,0,0,,Nào, nhanh lên! Cậu làm gì vậy?
+Dialogue: 0,0:29:04.00,0:29:06.46,Default,,0,0,0,,Cái quái gì? Tôi còn chưa ăn mì ramen!
+Dialogue: 0,0:29:06.54,0:29:07.79,Default,,0,0,0,,Không quan trọng!
+Dialogue: 0,0:29:08.29,0:29:11.79,Default,,0,0,0,,Tiểu Diêm Vương chưa bảo cậu\Nđiều quan trọng về Kính Hắc Ám!
+Dialogue: 0,0:29:11.88,0:29:12.71,Default,,0,0,0,,Hả?
+Dialogue: 0,0:29:13.21,0:29:17.04,Default,,0,0,0,,Khi Kính Hắc Ám ban điều ước,\Nnó sẽ lấy đi một điều quan trọng!
+Dialogue: 0,0:29:19.21,0:29:20.29,Default,,0,0,0,,Điều quan trọng ư?
+Dialogue: 0,0:29:21.29,0:29:23.00,Default,,0,0,0,,Sinh mạng của kẻ cầu xin nó!
+Dialogue: 0,0:29:27.29,0:29:31.08,Default,,0,0,0,,Đêm nay trăng tròn,\NKính Hắc Ám sẽ phát huy sức mạnh.
+Dialogue: 0,0:29:33.21,0:29:35.00,Default,,0,0,0,,- Không có thì giờ.\N- Urameshi!
+Dialogue: 0,0:29:36.58,0:29:37.50,Default,,0,0,0,,Mày muốn gì hả?
+Dialogue: 0,0:29:38.00,0:29:39.75,Default,,0,0,0,,- Tao mới nên hỏi thế.\N- Hả?
+Dialogue: 0,0:29:41.13,0:29:44.26,Default,,0,0,0,,Mày tính sẽ giúp gã yêu quái đó hả?
+Dialogue: 0,0:29:45.21,0:29:46.63,Default,,0,0,0,,Cậu biết từ khi nào?
+Dialogue: 0,0:29:49.71,0:29:52.71,Default,,0,0,0,,Bọn yêu quái\Ndám dửng dưng thiêu rụi cả thị trấn mà?
+Dialogue: 0,0:29:53.42,0:29:56.80,Default,,0,0,0,,Thế nên đâu cần làm gì cho bọn chúng!
+Dialogue: 0,0:30:00.58,0:30:01.71,Default,,0,0,0,,Tránh ra, Kuwabara.
+Dialogue: 0,0:30:03.88,0:30:05.13,Default,,0,0,0,,Này, đợi đã!
+Dialogue: 0,0:30:10.42,0:30:11.25,Default,,0,0,0,,Chết tiệt.
+Dialogue: 0,0:31:09.38,0:31:10.21,Default,,0,0,0,,Mẹ tôi…
+Dialogue: 0,0:31:12.71,0:31:14.88,Default,,0,0,0,,Tôi ước mẹ được sống hạnh phúc.
+Dialogue: 0,0:31:24.04,0:31:25.92,Default,,0,0,0,,- Chết tiệt!\N- Urameshi!
+Dialogue: 0,0:31:32.17,0:31:33.05,Default,,0,0,0,,Chết tiệt.
+Dialogue: 0,0:31:34.71,0:31:37.21,Default,,0,0,0,,Đừng để bị lừa! Gã là yêu quái đó!
+Dialogue: 0,0:31:37.29,0:31:39.04,Default,,0,0,0,,Buông ra! Can hệ gì đến mày!
+Dialogue: 0,0:31:39.54,0:31:41.12,Default,,0,0,0,,Có can hệ chứ!
+Dialogue: 0,0:31:42.38,0:31:43.84,Default,,0,0,0,,Tao chưa đánh thắng mày!
+Dialogue: 0,0:31:44.63,0:31:46.71,Default,,0,0,0,,Tao không tha thứ nếu mày lại chết.
+Dialogue: 0,0:31:48.38,0:31:49.46,Default,,0,0,0,,Kuwabara.
+Dialogue: 0,0:31:52.04,0:31:52.87,Default,,0,0,0,,Chết tiệt!
+Dialogue: 0,0:31:54.00,0:31:55.00,Default,,0,0,0,,Urameshi!
+Dialogue: 0,0:32:01.92,0:32:02.84,Default,,0,0,0,,Cậu làm gì vậy?
+Dialogue: 0,0:32:04.04,0:32:05.46,Default,,0,0,0,,Tôi đến để ngăn cậu lại.
+Dialogue: 0,0:32:06.25,0:32:07.13,Default,,0,0,0,,Đừng cản trở!
+Dialogue: 0,0:32:07.88,0:32:09.96,Default,,0,0,0,,Tôi đã nói tôi chỉ muốn giúp mẹ!
+Dialogue: 0,0:32:10.04,0:32:12.67,Default,,0,0,0,,Đã bao giờ thấy mẹ cậu khóc vì cậu chưa?
+Dialogue: 0,0:32:14.21,0:32:15.04,Default,,0,0,0,,Gì cơ?
+Dialogue: 0,0:32:15.88,0:32:17.67,Default,,0,0,0,,Không gì đáng hổ thẹn hơn thế.
+Dialogue: 0,0:32:23.46,0:32:25.46,Default,,0,0,0,,Cậu mà chết thì chẳng nghĩa lý gì!
+Dialogue: 0,0:32:28.71,0:32:29.63,Default,,0,0,0,,Kính Hắc Ám!
+Dialogue: 0,0:32:31.67,0:32:33.50,Default,,0,0,0,,Tôi xin chia sẻ nửa sinh mạng!
+Dialogue: 0,0:32:34.71,0:32:35.54,Default,,0,0,0,,Đừng!
+Dialogue: 0,0:32:44.13,0:32:44.96,Default,,0,0,0,,Cậu…
+Dialogue: 0,0:32:58.42,0:32:59.71,Default,,0,0,0,,Này, Urameshi!
+Dialogue: 0,0:33:00.29,0:33:01.75,Default,,0,0,0,,Nào, Urameshi!
+Dialogue: 0,0:33:01.83,0:33:03.79,Default,,0,0,0,,Dậy nào. Urameshi.
+Dialogue: 0,0:33:06.71,0:33:08.59,Default,,0,0,0,,Được rồi, nào.
+Dialogue: 0,0:33:18.42,0:33:19.25,Default,,0,0,0,,Mẹ ơi?
+Dialogue: 0,0:33:22.13,0:33:22.96,Default,,0,0,0,,Mẹ ơi.
+Dialogue: 0,0:33:49.00,0:33:50.08,Default,,0,0,0,,Shuichi.
+Dialogue: 0,0:33:52.04,0:33:53.25,Default,,0,0,0,,Con đã ở đây suốt à?
+Dialogue: 0,0:34:13.71,0:34:14.59,Default,,0,0,0,,Con sẽ không…
+Dialogue: 0,0:34:17.54,0:34:18.87,Default,,0,0,0,,bao giờ rời xa mẹ nữa.
+Dialogue: 0,0:34:20.54,0:34:21.42,Default,,0,0,0,,Mẹ ơi.
+Dialogue: 0,0:34:43.92,0:34:44.75,Default,,0,0,0,,Urameshi.
+Dialogue: 0,0:34:49.21,0:34:50.04,Default,,0,0,0,,Xin lỗi nhé.
+Dialogue: 0,0:34:51.79,0:34:52.92,Default,,0,0,0,,Tao đã sai rồi.
+Dialogue: 0,0:34:58.04,0:35:01.25,Default,,0,0,0,,Lúc nãy, tao không ăn được mì ramen.
+Dialogue: 0,0:35:05.58,0:35:06.83,Default,,0,0,0,,Khao tao một bát nhé?
+Dialogue: 0,0:35:11.67,0:35:12.59,Default,,0,0,0,,Ừ, được chứ.
+Dialogue: 0,0:37:12.38,0:37:14.38,Default,,0,0,0,,Băng Lệ Thạch đã bị trộm ư?
+Dialogue: 0,0:37:21.17,0:37:23.63,Default,,0,0,0,,Rốt cuộc kẻ nào đã trộm đi thứ đó?
+Dialogue: 0,0:37:24.71,0:37:27.59,Default,,0,0,0,,Từ cách thức gây án,\Ncó vẻ đó là do yêu quái.
+Dialogue: 0,0:37:28.17,0:37:29.34,Default,,0,0,0,,Yêu quái ư?
+Dialogue: 0,0:37:31.46,0:37:34.17,Default,,0,0,0,,Chết tiệt. Liên lạc với Sakyo ngay!
+Dialogue: 0,0:37:34.25,0:37:35.08,Default,,0,0,0,,Vâng.
+Dialogue: 0,0:37:40.21,0:37:41.46,Default,,0,0,0,,Cái nhà anh đó!
+Dialogue: 0,0:37:42.04,0:37:44.67,Default,,0,0,0,,Anh khiến tôi dính vào nhiều rắc rối!
+Dialogue: 0,0:37:44.75,0:37:48.08,Default,,0,0,0,,Có tên yêu quái bí ẩn\Nđang nhắm tới Băng Lệ Thạch!
+Dialogue: 0,0:37:50.42,0:37:52.84,Default,,0,0,0,,Tôi không muốn dính vào phiền toái.
+Dialogue: 0,0:37:53.33,0:37:55.12,Default,,0,0,0,,Nên tôi sẽ gửi trả Băng Nữ.
+Dialogue: 0,0:37:55.75,0:37:57.83,Default,,0,0,0,,Quên luôn thỏa thuận về hố sụt đi.
+Dialogue: 0,0:37:59.50,0:38:01.58,Default,,0,0,0,,Xin lỗi ngài vì sự phiền hà này.
+Dialogue: 0,0:38:03.58,0:38:09.41,Default,,0,0,0,,Tuy nhiên, tôi nghĩ\Nquyết định hủy hợp đồng là quá vội vàng.
+Dialogue: 0,0:38:13.21,0:38:14.04,Default,,0,0,0,,Cái gì chứ?
+Dialogue: 0,0:38:15.00,0:38:16.13,Default,,0,0,0,,Hay là thế này nhé?
+Dialogue: 0,0:38:17.75,0:38:19.54,Default,,0,0,0,,Ngài hãy đến dinh thự của tôi.
+Dialogue: 0,0:38:20.83,0:38:23.33,Default,,0,0,0,,Tôi sẽ tạo ra thật nhiều Băng Lệ Thạch.
+Dialogue: 0,0:38:25.08,0:38:27.96,Default,,0,0,0,,Nhân thể, tôi sẽ bảo vệ ngài khỏi lũ trộm.
+Dialogue: 0,0:38:30.83,0:38:32.08,Default,,0,0,0,,Vậy tôi chờ ngài tới.
+Dialogue: 0,0:38:45.54,0:38:46.37,Default,,0,0,0,,Toguro này.
+Dialogue: 0,0:38:47.13,0:38:48.80,Default,,0,0,0,,Ta có việc mới cho ngươi.
+Dialogue: 0,0:38:53.29,0:38:55.00,Default,,0,0,0,,Nếu đó là việc thú vị
+Dialogue: 0,0:38:56.75,0:38:57.75,Default,,0,0,0,,thì thật là tốt.
+Dialogue: 0,0:42:33.96,0:42:36.88,Default,,0,0,0,,Biên dịch: Thùy Hương

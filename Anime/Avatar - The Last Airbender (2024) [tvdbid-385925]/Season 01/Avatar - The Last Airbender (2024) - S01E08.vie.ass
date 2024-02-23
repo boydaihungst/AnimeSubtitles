@@ -1,0 +1,479 @@
+[Script Info]
+; This is an Advanced Sub Station Alpha v4+ script.
+Title:
+ScriptType: v4.00+
+PlayDepth: 0
+ScaledBorderAndShadow: Yes
+PlayResX: 1920
+PlayResY: 1080
+
+[V4+ Styles]
+Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
+Style: Default,Noto Sans,80.0,&H00FFFFFF,&H000000FF,&H00002208,&H00000000,-1,0,0,0,100,100,0,0,1,3.0,2.0,2,0,0,65,1
+
+[Events]
+Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
+Dialogue: 0,0:00:30.04,0:00:32.25,Default,,0,0,0,,- Chúng ta bị tấn công!\N- Tấn công!
+Dialogue: 0,0:01:07.42,0:01:10.13,Default,,0,0,0,,Coi chừng, Katara!\NCó nhóm mới áp sát mạn phải.
+Dialogue: 0,0:01:10.63,0:01:14.59,Default,,0,0,0,,Aang, chặn đám lính ở phía trước đi.\NAnh có vài thứ phải giải quyết.
+Dialogue: 0,0:01:14.58,0:01:15.62,Default,,0,0,0,,Appa, hấp hấp!
+Dialogue: 0,0:01:19.54,0:01:20.96,Default,,0,0,0,,Nào, đi thôi.
+Dialogue: 0,0:01:50.13,0:01:50.96,Default,,0,0,0,,Đi thôi!
+Dialogue: 0,0:02:04.96,0:02:07.92,Default,,0,0,0,,Tốt lắm, binh sĩ.\NĐám đầu bốc hỏa đó chôn chân rồi.
+Dialogue: 0,0:02:08.42,0:02:09.84,Default,,0,0,0,,Nhờ kế hoạch của anh đó.
+Dialogue: 0,0:02:10.54,0:02:11.87,Default,,0,0,0,,Phối hợp nhóm cừ lắm.
+Dialogue: 0,0:02:13.25,0:02:15.50,Default,,0,0,0,,- Xong một con tàu.\N- Còn bao nhiêu?
+Dialogue: 0,0:02:24.83,0:02:26.08,Default,,0,0,0,,Giỡn mặt chắc.
+Dialogue: 0,0:02:31.17,0:02:37.46,Default,,0,0,0,,THẾ THẦN: NGỰ KHÍ SƯ CUỐI CÙNG
+Dialogue: 0,0:02:41.67,0:02:46.34,Default,,0,0,0,,HUYỀN THOẠI
+Dialogue: 0,0:02:57.42,0:02:59.88,Default,,0,0,0,,Bức tường không thể xuyên thủng,\Nđược gác nghiêm ngặt.
+Dialogue: 0,0:02:59.88,0:03:03.21,Default,,0,0,0,,Những vách đá thì cao cả trăm mét.\NKhông thể leo lên.
+Dialogue: 0,0:03:03.21,0:03:06.71,Default,,0,0,0,,Cháu biết bác nghĩ cháu liều lĩnh,\Nnhưng Zhao đã dồn ép Thế thần rồi,
+Dialogue: 0,0:03:06.71,0:03:09.46,Default,,0,0,0,,chưa bắt được thì hắn chưa dừng lại,\Ncháu cũng phải vậy.
+Dialogue: 0,0:03:10.50,0:03:13.75,Default,,0,0,0,,Hành trình này sẽ kết thúc tại đây,\Ndù là theo cách nào.
+Dialogue: 0,0:03:19.71,0:03:24.09,Default,,0,0,0,,Tìm dọc duyên hải để thấy chỗ nứt,\Ndấu hiệu dòng nước ấm chảy ra từ đô thị.
+Dialogue: 0,0:03:24.08,0:03:26.71,Default,,0,0,0,,Chúng có thể là đường vào bên trong.
+Dialogue: 0,0:03:34.58,0:03:35.41,Default,,0,0,0,,Bác...
+Dialogue: 0,0:03:37.58,0:03:39.25,Default,,0,0,0,,Lu Ten sẽ hãnh diện...
+Dialogue: 0,0:03:41.33,0:03:43.04,Default,,0,0,0,,khi có người cha như bác lắm.
+Dialogue: 0,0:03:54.88,0:03:58.46,Default,,0,0,0,,Hãy nhớ đòn Hỏa hống nhé.\NNó có thể cứu mạng cháu ngoài kia.
+Dialogue: 0,0:04:09.04,0:04:10.25,Default,,0,0,0,,Chúng ta sẽ gặp lại.
+Dialogue: 0,0:04:11.63,0:04:14.63,Default,,0,0,0,,Sau khi... cháu bắt được Thế thần.
+Dialogue: 0,0:04:22.42,0:04:24.42,Default,,0,0,0,,Quên chuyện tấn công trên biển đi.
+Dialogue: 0,0:04:24.42,0:04:28.30,Default,,0,0,0,,Dù đưa hết ngự nhân lên mọi tàu thuyền\Nthì chúng vẫn quá đông.
+Dialogue: 0,0:04:28.88,0:04:32.17,Default,,0,0,0,,- Vậy chúng ta sẽ trụ ở đây.\N- Chúng còn cách bao xa?
+Dialogue: 0,0:04:32.17,0:04:35.13,Default,,0,0,0,,Chắc một giờ nữa là thấy chúng.\NTối đa là hai giờ.
+Dialogue: 0,0:04:37.04,0:04:40.75,Default,,0,0,0,,Chúng ta phải gọi các nhóm tuần tra về.\NCủng cố các phòng tuyến.
+Dialogue: 0,0:04:44.29,0:04:45.12,Default,,0,0,0,,Đa tạ.
+Dialogue: 0,0:04:49.42,0:04:50.67,Default,,0,0,0,,Không ổn đâu nhỉ?
+Dialogue: 0,0:04:51.29,0:04:54.29,Default,,0,0,0,,Chúng quyết tâm, nhưng chúng ta cũng vậy.\NTheo anh là 50-50.
+Dialogue: 0,0:04:57.25,0:04:58.42,Default,,0,0,0,,Chắc 60% thua, 40% thắng.
+Dialogue: 0,0:05:03.46,0:05:04.42,Default,,0,0,0,,Em đi đâu vậy?
+Dialogue: 0,0:05:05.21,0:05:06.46,Default,,0,0,0,,Đi tạo thế quân bình.
+Dialogue: 0,0:05:12.79,0:05:15.17,Default,,0,0,0,,{\i1}Thứ lỗi, đô đốc, nhưng ta thấy khó hiểu.{\i0}
+Dialogue: 0,0:05:15.75,0:05:19.42,Default,,0,0,0,,Ngài đang thắc mắc tại sao\Ntàu chỉ huy không đi đầu cuộc tấn công.
+Dialogue: 0,0:05:19.42,0:05:21.63,Default,,0,0,0,,Quả là một chiến lược lạ thường.
+Dialogue: 0,0:05:21.63,0:05:25.92,Default,,0,0,0,,Chẳng phải ngài chỉ ra là tấn công\Ntrực diện Ngự thủy sư sẽ bất thành ư?
+Dialogue: 0,0:05:25.92,0:05:27.00,Default,,0,0,0,,À, phải, nhưng...
+Dialogue: 0,0:05:27.00,0:05:29.88,Default,,0,0,0,,Vì thế, tấn công từ nhiều mặt\Nsẽ hợp lý hơn chứ.
+Dialogue: 0,0:05:31.42,0:05:33.96,Default,,0,0,0,,Mở một mặt trận mới?\NChỉ với một con tàu ư?
+Dialogue: 0,0:05:34.46,0:05:37.96,Default,,0,0,0,,Một con tàu,\Nnhưng không chỉ là một con tàu thủy.
+Dialogue: 0,0:05:44.08,0:05:47.58,Default,,0,0,0,,- Kỹ sư Hỏa Quốc tạo ra thứ này ư?\N- Không phải công trình của chúng ta đâu.
+Dialogue: 0,0:05:47.58,0:05:50.33,Default,,0,0,0,,Là nhờ gián điệp của chúng ta\Nở Omashu mà có.
+Dialogue: 0,0:05:50.83,0:05:52.54,Default,,0,0,0,,Đây mới là nguyên mẫu thôi.
+Dialogue: 0,0:05:52.54,0:05:56.08,Default,,0,0,0,,Ngài có dùng nó\Nđể vượt phòng tuyến chính của Agna Qel'a,
+Dialogue: 0,0:05:56.08,0:05:59.62,Default,,0,0,0,,nó vẫn quá nhỏ để đưa theo\Nlực lượng chiến đấu đáng kể nào.
+Dialogue: 0,0:05:59.63,0:06:03.71,Default,,0,0,0,,Ngài nên hiểu rõ hơn ai hết chiến thắng\Nkhông phải luôn phụ thuộc ở quân số chứ,
+Dialogue: 0,0:06:03.71,0:06:05.88,Default,,0,0,0,,nhưng nó sẽ làm được việc thôi.
+Dialogue: 0,0:06:06.54,0:06:07.54,Default,,0,0,0,,Việc ư?
+Dialogue: 0,0:06:08.08,0:06:09.25,Default,,0,0,0,,Việc gì?
+Dialogue: 0,0:06:10.33,0:06:11.58,Default,,0,0,0,,Bắn!
+Dialogue: 0,0:06:21.25,0:06:22.54,Default,,0,0,0,,Tới kìa!
+Dialogue: 0,0:06:22.54,0:06:23.58,Default,,0,0,0,,Mau!
+Dialogue: 0,0:06:40.54,0:06:42.29,Default,,0,0,0,,Khiên băng, mau!
+Dialogue: 0,0:06:43.17,0:06:44.92,Default,,0,0,0,,- Cháu tới giúp.\N- Giờ không phải lúc.
+Dialogue: 0,0:06:44.92,0:06:46.13,Default,,0,0,0,,Giờ chính là lúc.
+Dialogue: 0,0:06:46.13,0:06:48.51,Default,,0,0,0,,Tôi nói rõ rồi.\NNữ nhân không được phép chiến đấu.
+Dialogue: 0,0:06:48.50,0:06:52.21,Default,,0,0,0,,Cháu tưởng cháu cho ông thấy chuyện đó\Nngớ ngẩn sao rồi. Quên lòng kiêu hãnh đi.
+Dialogue: 0,0:06:52.21,0:06:55.84,Default,,0,0,0,,Sự sống còn của Ngự thủy sư mới quan trọng\Nvà ông cần mọi sự hỗ trợ có thể.
+Dialogue: 0,0:06:59.46,0:07:02.46,Default,,0,0,0,,- Bọn cháu thay đổi tình thế được mà.\N- "Bọn cháu"?
+Dialogue: 0,0:07:16.38,0:07:20.59,Default,,0,0,0,,Họ chỉ muốn thứ ông muốn thôi.\NMột cơ hội để bảo vệ quê nhà của họ.
+Dialogue: 0,0:07:21.63,0:07:27.67,Default,,0,0,0,,Pakku, dựa vào quá khứ để làm gì nếu\Nnó ngăn cản chúng ta có được tương lai?
+Dialogue: 0,0:07:29.79,0:07:33.58,Default,,0,0,0,,Lão già ngu ngốc, dẹp bỏ cái tôi\Nvà để bọn tôi làm việc đi.
+Dialogue: 0,0:07:37.21,0:07:39.38,Default,,0,0,0,,Mặt phía Tây của bức tường\Ncần được gia cố.
+Dialogue: 0,0:07:39.38,0:07:41.59,Default,,0,0,0,,Bà có thể giúp họ sửa chữa thiệt hại
+Dialogue: 0,0:07:42.08,0:07:44.87,Default,,0,0,0,,rồi xem các chiến binh\Ncần hỗ trợ gì nữa không.
+Dialogue: 0,0:07:51.92,0:07:54.09,Default,,0,0,0,,Toàn bộ đô thị sắp vào tầm ngắm rồi.
+Dialogue: 0,0:07:55.88,0:07:59.34,Default,,0,0,0,,Nếu Ngự hỏa sư xuyên thủng tường\Nthì cháu sẽ là phòng tuyến đầu.
+Dialogue: 0,0:07:59.33,0:08:01.66,Default,,0,0,0,,- Bọn cháu sẽ sẵn sàng ạ.\N- Đằng này!
+Dialogue: 0,0:08:03.17,0:08:04.00,Default,,0,0,0,,Mau lên!
+Dialogue: 0,0:08:04.00,0:08:04.92,Default,,0,0,0,,Yue!
+Dialogue: 0,0:08:06.63,0:08:09.59,Default,,0,0,0,,Con không lẩn trốn\Nkhi tất cả đang liều mạng đâu.
+Dialogue: 0,0:08:09.58,0:08:12.58,Default,,0,0,0,,- Nghe ta.\N- Không. Cha đừng bao bọc thái quá nữa.
+Dialogue: 0,0:08:12.58,0:08:13.50,Default,,0,0,0,,Yue,
+Dialogue: 0,0:08:14.75,0:08:16.13,Default,,0,0,0,,ta mà có mệnh hệ gì,
+Dialogue: 0,0:08:18.00,0:08:19.54,Default,,0,0,0,,thì con phải lên thay nhé.
+Dialogue: 0,0:08:20.63,0:08:23.71,Default,,0,0,0,,Con là tương lai của Bắc Thủy Tộc.
+Dialogue: 0,0:08:24.63,0:08:25.55,Default,,0,0,0,,Con gái của ta.
+Dialogue: 0,0:08:26.38,0:08:27.55,Default,,0,0,0,,Món quà của ta.
+Dialogue: 0,0:08:37.96,0:08:38.79,Default,,0,0,0,,Sokka.
+Dialogue: 0,0:08:41.21,0:08:44.46,Default,,0,0,0,,Tôi cần cháu đi cùng Yue và giúp nó\Nđưa người dân tránh xa bức tường.
+Dialogue: 0,0:08:45.33,0:08:46.66,Default,,0,0,0,,Nhưng quan trọng nhất,
+Dialogue: 0,0:08:47.46,0:08:49.54,Default,,0,0,0,,là nhớ bảo vệ công chúa.
+Dialogue: 0,0:08:51.42,0:08:52.96,Default,,0,0,0,,Cháu thề sẽ ở bên cô ấy ạ.
+Dialogue: 0,0:08:56.13,0:08:56.96,Default,,0,0,0,,Sokka.
+Dialogue: 0,0:09:01.04,0:09:02.04,Default,,0,0,0,,Lo cho cô ấy nhé.
+Dialogue: 0,0:09:09.63,0:09:10.67,Default,,0,0,0,,Đi!
+Dialogue: 0,0:09:17.46,0:09:18.42,Default,,0,0,0,,Bọn tôi tới giúp.
+Dialogue: 0,0:09:19.75,0:09:23.13,Default,,0,0,0,,- Sư phụ Pakku bảo bọn tôi nghe lệnh cậu.\N- Pakku cử cậu đến chỗ tôi ư?
+Dialogue: 0,0:09:23.75,0:09:25.83,Default,,0,0,0,,Ông ấy dặn giúp cậu bằng mọi cách.
+Dialogue: 0,0:09:26.38,0:09:30.51,Default,,0,0,0,,Bọn tôi chưa hoàn thành việc luyện tập,\Nnhưng... bọn tôi sẽ cố hết sức.
+Dialogue: 0,0:09:34.83,0:09:36.83,Default,,0,0,0,,Cậu củng cố khu vực kia trước đi.
+Dialogue: 0,0:09:36.83,0:09:40.37,Default,,0,0,0,,Thấy cầu lửa bay tới, đừng cố tự đối đầu.\NBáo với tôi nhé.
+Dialogue: 0,0:09:40.38,0:09:41.59,Default,,0,0,0,,Dạ, Sư phụ Katara.
+Dialogue: 0,0:09:42.71,0:09:43.96,Default,,0,0,0,,Sao cơ? Tôi đâu phải...
+Dialogue: 0,0:10:01.63,0:10:04.55,Default,,0,0,0,,Đô đốc, các Ngự thủy sư\Nlấy sức mạnh từ Mặt Trăng,
+Dialogue: 0,0:10:05.25,0:10:08.79,Default,,0,0,0,,nên vào một đêm như đêm nay,\Nsức mạnh của họ đạt đỉnh điểm.
+Dialogue: 0,0:10:09.38,0:10:12.09,Default,,0,0,0,,Ta khuyên ngài\Ntạm dừng tấn công tới bình minh.
+Dialogue: 0,0:10:13.88,0:10:14.71,Default,,0,0,0,,Không.
+Dialogue: 0,0:10:16.33,0:10:19.16,Default,,0,0,0,,Ta nghiên cứu\Nnhững vấn đề vượt khỏi cõi này rồi,
+Dialogue: 0,0:10:19.17,0:10:22.71,Default,,0,0,0,,thế nên ta biết\Nkia không chỉ là Mặt Trăng ngày thường.
+Dialogue: 0,0:10:23.21,0:10:24.46,Default,,0,0,0,,Mà kia là Trăng Băng,
+Dialogue: 0,0:10:24.96,0:10:26.75,Default,,0,0,0,,một sự kiện vũ trụ hiếm có đó.
+Dialogue: 0,0:10:26.75,0:10:31.13,Default,,0,0,0,,Những ranh giới\Ngiữa thế giới tự nhiên và linh giới
+Dialogue: 0,0:10:31.13,0:10:34.84,Default,,0,0,0,,sẽ trở nên mong manh... vào đêm nay.
+Dialogue: 0,0:10:37.08,0:10:40.75,Default,,0,0,0,,Khi ta nhận được\Nlệnh chinh phạt phía Bắc từ Hỏa Vương,
+Dialogue: 0,0:10:40.75,0:10:46.00,Default,,0,0,0,,ta đã biết chỉ dùng vũ lực thôi\Nsẽ là không đủ. Ta cần tìm ra một lợi thế.
+Dialogue: 0,0:10:49.42,0:10:50.59,Default,,0,0,0,,Chẳng thấy gì.
+Dialogue: 0,0:10:50.58,0:10:53.33,Default,,0,0,0,,Chỉ toàn một mớ hổ lốn về rùa sư tử,
+Dialogue: 0,0:10:53.33,0:10:56.87,Default,,0,0,0,,cân bằng vũ trụ, lực hút và lực đẩy.
+Dialogue: 0,0:10:56.88,0:11:00.09,Default,,0,0,0,,Thế nhưng vẫn đúc kết được tri thức\Ntừ truyện cổ đó ạ.
+Dialogue: 0,0:11:02.42,0:11:08.13,Default,,0,0,0,,Agna Qel'a... được xây dựng trên địa điểm\Nlà quê hương tổ tiên của thủy tộc,
+Dialogue: 0,0:11:09.04,0:11:11.12,Default,,0,0,0,,một ốc đảo nằm sâu trong băng,
+Dialogue: 0,0:11:11.13,0:11:15.76,Default,,0,0,0,,cung cấp hơi ấm và dinh dưỡng\Ncho dân chúng ở môi trường khắc nghiệt đó.
+Dialogue: 0,0:11:16.33,0:11:18.08,Default,,0,0,0,,Chính từ ốc đảo này,
+Dialogue: 0,0:11:18.58,0:11:20.91,Default,,0,0,0,,bộ tộc chúng đã nhìn lên bầu trời
+Dialogue: 0,0:11:20.92,0:11:22.96,Default,,0,0,0,,và học được cách dùng thủy thuật
+Dialogue: 0,0:11:23.67,0:11:26.71,Default,,0,0,0,,từ việc xem\NMặt Trăng hút và đẩy thủy triều.
+Dialogue: 0,0:11:28.00,0:11:30.46,Default,,0,0,0,,Thế nên đám Ngự thủy sư tin rằng
+Dialogue: 0,0:11:31.04,0:11:33.75,Default,,0,0,0,,sự sống của chúng đến từ Hải Thần,
+Dialogue: 0,0:11:34.96,0:11:38.71,Default,,0,0,0,,còn sức mạnh của chúng\Nthì đến từ Nguyệt Thần.
+Dialogue: 0,0:11:40.67,0:11:43.80,Default,,0,0,0,,Cũng những vị thần đó\Nsẽ từ bỏ sự bất tử của mình
+Dialogue: 0,0:11:43.79,0:11:47.54,Default,,0,0,0,,mỗi năm một đêm\Nđể được hòa mình giữa đám Ngự thủy sư.
+Dialogue: 0,0:11:48.17,0:11:52.75,Default,,0,0,0,,Họ mang hình dạng vật chất\Nvà trở thành một phần của phàm giới.
+Dialogue: 0,0:11:53.38,0:11:56.71,Default,,0,0,0,,Họ xuất hiện ở thế gian này ư?
+Dialogue: 0,0:11:56.71,0:11:58.75,Default,,0,0,0,,Để hiểu rõ hơn
+Dialogue: 0,0:11:58.75,0:12:02.58,Default,,0,0,0,,về sự cân bằng giữa ánh sáng và bóng tối,
+Dialogue: 0,0:12:02.58,0:12:04.12,Default,,0,0,0,,âm và dương,
+Dialogue: 0,0:12:05.46,0:12:06.34,Default,,0,0,0,,sự sống...
+Dialogue: 0,0:12:07.83,0:12:08.87,Default,,0,0,0,,Và cái chết.
+Dialogue: 0,0:12:11.67,0:12:16.17,Default,,0,0,0,,Zhao, đừng bảo ngài\Nđang định can thiệp vào Linh Giới đấy chứ?
+Dialogue: 0,0:12:18.71,0:12:19.88,Default,,0,0,0,,Phải vậy không?
+Dialogue: 0,0:12:21.13,0:12:22.38,Default,,0,0,0,,Aang!
+Dialogue: 0,0:12:25.75,0:12:28.04,Default,,0,0,0,,Aang.
+Dialogue: 0,0:12:30.17,0:12:31.71,Default,,0,0,0,,Aang.
+Dialogue: 0,0:12:33.17,0:12:34.00,Default,,0,0,0,,Aang.
+Dialogue: 0,0:12:36.21,0:12:39.54,Default,,0,0,0,,- Thế thần Kuruk?\N- Ta tới để cảnh báo cậu.
+Dialogue: 0,0:12:40.33,0:12:43.41,Default,,0,0,0,,Con dao của ta đang ở gần đây.\NTa cảm nhận được nó.
+Dialogue: 0,0:12:43.42,0:12:44.55,Default,,0,0,0,,Con dao?
+Dialogue: 0,0:12:44.54,0:12:47.83,Default,,0,0,0,,Một con dao được tạo ra\Nbằng vật liệu lấy từ Linh Giới.
+Dialogue: 0,0:12:48.33,0:12:52.33,Default,,0,0,0,,Nên nếu nó quay lại phía Bắc\Nthì điều đó chỉ mang một ý nghĩa thôi.
+Dialogue: 0,0:12:53.17,0:12:56.21,Default,,0,0,0,,{\i1}Ngài định sát hại Hải Thần\Nvà Nguyệt Thần ư?{\i0}
+Dialogue: 0,0:12:56.21,0:12:57.75,Default,,0,0,0,,Đương nhiên là không.
+Dialogue: 0,0:12:58.58,0:12:59.91,Default,,0,0,0,,Sát hại Hải Thần
+Dialogue: 0,0:12:59.92,0:13:03.50,Default,,0,0,0,,sẽ tước đi sinh mạng\Ncủa các Ngự thủy sư trên cả thế gian.
+Dialogue: 0,0:13:03.50,0:13:05.79,Default,,0,0,0,,Nam nhân, nữ nhân, trẻ nhỏ.
+Dialogue: 0,0:13:05.79,0:13:07.17,Default,,0,0,0,,Ta đâu phải quái vật.
+Dialogue: 0,0:13:09.42,0:13:10.30,Default,,0,0,0,,Không.
+Dialogue: 0,0:13:12.21,0:13:13.88,Default,,0,0,0,,Ta chỉ giết Mặt Trăng thôi.
+Dialogue: 0,0:13:14.42,0:13:18.34,Default,,0,0,0,,Không được để Zhao can thiệp\Nvào các thế lực tự nhiên nguyên thủy.
+Dialogue: 0,0:13:18.33,0:13:22.12,Default,,0,0,0,,Nếu làm vậy, hắn sẽ khiến cả thế gian\Ntrở nên mất cân bằng.
+Dialogue: 0,0:13:22.13,0:13:24.46,Default,,0,0,0,,Quyền năng của Thế thần vĩ đại
+Dialogue: 0,0:13:24.96,0:13:28.79,Default,,0,0,0,,nhưng nó chẳng là gì so với quyền năng\Ncủa các tinh linh nguyên tố đâu.
+Dialogue: 0,0:13:31.04,0:13:31.96,Default,,0,0,0,,Em đây rồi.
+Dialogue: 0,0:13:33.13,0:13:35.21,Default,,0,0,0,,Không thấy em trên kia, chị lo quá.
+Dialogue: 0,0:13:39.17,0:13:40.13,Default,,0,0,0,,Em có sao không?
+Dialogue: 0,0:13:41.88,0:13:46.13,Default,,0,0,0,,Chúng ta phải tìm Sokka và Yue đi.\NSắp có chuyện khủng khiếp xảy ra rồi.
+Dialogue: 0,0:13:46.13,0:13:47.67,Default,,0,0,0,,Tất cả tới cung điện đi!
+Dialogue: 0,0:13:47.67,0:13:49.05,Default,,0,0,0,,Ở đó sẽ an toàn hơn.
+Dialogue: 0,0:13:59.08,0:14:01.21,Default,,0,0,0,,Này, không sao. Em không sao đâu.
+Dialogue: 0,0:14:01.21,0:14:02.29,Default,,0,0,0,,Con có sao không?
+Dialogue: 0,0:14:03.13,0:14:06.55,Default,,0,0,0,,- Đa tạ.\N- Giỏi lắm, Momo. Mày được việc thật này...
+Dialogue: 0,0:14:10.08,0:14:10.91,Default,,0,0,0,,Momo?
+Dialogue: 0,0:14:21.79,0:14:22.67,Default,,0,0,0,,Nó đã...
+Dialogue: 0,0:14:22.67,0:14:25.00,Default,,0,0,0,,Vẫn sống. Thoi thóp thôi.
+Dialogue: 0,0:14:29.00,0:14:30.00,Default,,0,0,0,,Đây.
+Dialogue: 0,0:14:32.21,0:14:35.13,Default,,0,0,0,,Đi theo tôi. Tôi cứu được nó.\NChúng ta không có nhiều thời gian.
+Dialogue: 0,0:14:49.00,0:14:50.58,Default,,0,0,0,,Đây là đâu vậy?
+Dialogue: 0,0:14:53.13,0:14:55.34,Default,,0,0,0,,Đây là nơi linh thiêng nhất phía Bắc.
+Dialogue: 0,0:14:56.08,0:14:58.91,Default,,0,0,0,,Những dòng nước nuôi dưỡng khu rừng này\Nđược Trái Đất hâm nóng.
+Dialogue: 0,0:15:06.96,0:15:08.54,Default,,0,0,0,,Đây, đưa nó cho tôi.
+Dialogue: 0,0:15:12.92,0:15:15.30,Default,,0,0,0,,Thầy tu đưa tôi tới đây khi tôi đổ bệnh.
+Dialogue: 0,0:15:18.00,0:15:20.92,Default,,0,0,0,,Ngọn nguồn mọi năng lượng tâm linh\Nở mảnh đất này.
+Dialogue: 0,0:15:43.75,0:15:44.96,Default,,0,0,0,,Momo!
+Dialogue: 0,0:15:44.96,0:15:47.71,Default,,0,0,0,,Đồ ngốc dại dột này. Đừng dọa tao vậy chứ.
+Dialogue: 0,0:15:52.17,0:15:53.00,Default,,0,0,0,,Đa tạ.
+Dialogue: 0,0:16:29.21,0:16:31.13,Default,,0,0,0,,Sokka, thứ gì kia?
+Dialogue: 0,0:16:32.29,0:16:33.54,Default,,0,0,0,,Một thứ không nên có ở đây.
+Dialogue: 0,0:16:42.21,0:16:44.50,Default,,0,0,0,,- Là khí cầu chiến tranh đó.\N- Khí cầu chiến tranh?
+Dialogue: 0,0:16:44.50,0:16:47.29,Default,,0,0,0,,Lấy cắp từ Omashu. Theo những gì tôi biết,
+Dialogue: 0,0:16:47.29,0:16:50.00,Default,,0,0,0,,nó không được thiết kế để chiến đấu,\Nchỉ để vận chuyển.
+Dialogue: 0,0:16:50.00,0:16:51.21,Default,,0,0,0,,Sao anh biết được?
+Dialogue: 0,0:16:51.71,0:16:53.63,Default,,0,0,0,,Vì tôi đã giúp thiết kế nên nó.
+Dialogue: 0,0:16:59.88,0:17:04.84,Default,,0,0,0,,Nhà hiền triết không rõ Hải Thần\Nvà Nguyệt Thần sẽ lấy hình hài cụ thể nào,
+Dialogue: 0,0:17:04.83,0:17:09.04,Default,,0,0,0,,và đó, tướng quân ạ,\Nsẽ là... lúc ngài ra tay.
+Dialogue: 0,0:17:09.54,0:17:12.54,Default,,0,0,0,,Bởi ngài vốn vô cùng thông thạo\Ncác vấn đề tâm linh,
+Dialogue: 0,0:17:12.54,0:17:15.00,Default,,0,0,0,,ta sẽ cần ngài giúp nhận dạng chúng.
+Dialogue: 0,0:17:15.00,0:17:19.79,Default,,0,0,0,,Ta nào biết sẽ phải tìm kiếm gì.\NĐâu giống như tìm một con chó con đi lạc.
+Dialogue: 0,0:17:19.79,0:17:24.17,Default,,0,0,0,,Họ có thể xuất hiện như hai cái cây ở rừng\Nhoặc côn trùng trên ngọn cỏ.
+Dialogue: 0,0:17:24.17,0:17:28.05,Default,,0,0,0,,Phải bắt đầu tìm kiếm\Nthì chúng ta mới biết được, đúng không?
+Dialogue: 0,0:17:30.46,0:17:34.42,Default,,0,0,0,,Tướng Iroh này,\Nhoặc là ngài giúp ta tìm hai vị thần,
+Dialogue: 0,0:17:34.96,0:17:38.88,Default,,0,0,0,,hoặc là đứng nhìn ta thiêu rụi cả nơi này.
+Dialogue: 0,0:17:46.04,0:17:48.04,Default,,0,0,0,,{\i1}Thế thần Kuruk\Nbảo vệ được các vị thần không?{\i0}
+Dialogue: 0,0:17:48.04,0:17:51.21,Default,,0,0,0,,- Không, mà em biết chúng ta phải đi đâu.\N{\i1}- {\i0}  Thế thần!
+Dialogue: 0,0:17:52.75,0:17:57.63,Default,,0,0,0,,- Chẳng chạy đi đâu được nữa đâu.\N- Zuko, nghe này. Chúng ta phải ngăn Zhao.
+Dialogue: 0,0:17:57.63,0:18:02.34,Default,,0,0,0,,Vụ này đâu phải về Zhao. Là về chúng ta!\NVà ngươi phải đi theo ta, ngay!
+Dialogue: 0,0:18:02.33,0:18:03.33,Default,,0,0,0,,Đi đi.
+Dialogue: 0,0:18:04.08,0:18:05.25,Default,,0,0,0,,Ngăn Zhao đi.
+Dialogue: 0,0:18:06.42,0:18:07.59,Default,,0,0,0,,Để chị xử lý hắn.
+Dialogue: 0,0:18:11.21,0:18:12.04,Default,,0,0,0,,Nương tay nhé.
+Dialogue: 0,0:18:13.88,0:18:16.88,Default,,0,0,0,,- Quá đủ người bị tổn thương rồi.\N- Ta mặc xác.
+Dialogue: 0,0:18:17.50,0:18:19.25,Default,,0,0,0,,Ta không nói với ngươi.
+Dialogue: 0,0:18:42.71,0:18:44.04,Default,,0,0,0,,Ngươi đã học mánh mới,
+Dialogue: 0,0:18:45.33,0:18:47.75,Default,,0,0,0,,nhưng ta không tới tận đây để thua ngươi.
+Dialogue: 0,0:19:03.92,0:19:08.25,Default,,0,0,0,,Thứ dân quèn!\NNgươi tìm được sư phụ rồi phải không?
+Dialogue: 0,0:19:22.75,0:19:25.21,Default,,0,0,0,,Phải. Ngươi đang thấy cô ấy đây.
+Dialogue: 0,0:19:40.08,0:19:41.25,Default,,0,0,0,,Có bạn đồng hành kìa.
+Dialogue: 0,0:19:44.13,0:19:47.76,Default,,0,0,0,,Phải ngăn Zhao. Hắn đang định sát hại\NHải Thần và Nguyệt Thần.
+Dialogue: 0,0:19:47.75,0:19:50.38,Default,,0,0,0,,Không thể được.\NVậy thì người dân bọn tôi chết mất.
+Dialogue: 0,0:19:52.58,0:19:53.71,Default,,0,0,0,,Không để vậy được.
+Dialogue: 0,0:20:09.63,0:20:12.88,Default,,0,0,0,,Hút và đẩy. Âm và dương.
+Dialogue: 0,0:20:13.83,0:20:14.79,Default,,0,0,0,,Đây rồi.
+Dialogue: 0,0:20:17.08,0:20:18.04,Default,,0,0,0,,Đây rồi!
+Dialogue: 0,0:20:22.58,0:20:23.50,Default,,0,0,0,,Zhao,
+Dialogue: 0,0:20:24.08,0:20:27.37,Default,,0,0,0,,không nên giỡn mặt\Nvới quyền năng của các vị thần đâu.
+Dialogue: 0,0:20:28.08,0:20:30.96,Default,,0,0,0,,Thiếu Mặt Trăng,\Nthế gian sẽ trở nên mất cân bằng
+Dialogue: 0,0:20:30.96,0:20:35.00,Default,,0,0,0,,và hỗn loạn sẽ bị giải phóng đó.\NĐến Ozai cũng không muốn vậy đâu.
+Dialogue: 0,0:20:35.50,0:20:40.46,Default,,0,0,0,,Ozai thiếu tầm nhìn. Ông ta quá để tâm\Nvào những trò đùa bỡn với gia đình mình
+Dialogue: 0,0:20:40.46,0:20:42.79,Default,,0,0,0,,nên không nhìn ra bức tranh toàn cảnh.
+Dialogue: 0,0:20:42.79,0:20:48.33,Default,,0,0,0,,Zhao, ngươi mà làm gì vị thần đó,\Nta sẽ giáng xuống đầu ngươi gấp mười lần!
+Dialogue: 0,0:20:48.33,0:20:50.46,Default,,0,0,0,,Khỏi cần hăm dọa sáo rỗng ta đi.
+Dialogue: 0,0:20:51.33,0:20:53.54,Default,,0,0,0,,Ngươi vẫn có thể hưởng lợi đấy, Iroh.
+Dialogue: 0,0:20:55.25,0:20:58.46,Default,,0,0,0,,Khi ta lên làm Hỏa Vương mới,\Nngươi có thể đứng bên ta.
+Dialogue: 0,0:20:58.46,0:21:01.96,Default,,0,0,0,,Việc ngươi hiện diện sẽ khiến\Nhành động tiếm quyền trở nên chính thống.
+Dialogue: 0,0:21:02.92,0:21:06.00,Default,,0,0,0,,Bình Tây Cự Long sẽ được trỗi dậy lần nữa.
+Dialogue: 0,0:21:09.08,0:21:11.21,Default,,0,0,0,,Miễn là hắn chịu cúi đầu...
+Dialogue: 0,0:21:14.79,0:21:16.04,Default,,0,0,0,,trước Zhao,
+Dialogue: 0,0:21:17.04,0:21:18.75,Default,,0,0,0,,Kẻ Sát Hại Mặt Trăng!
+Dialogue: 0,0:21:28.75,0:21:30.79,Default,,0,0,0,,Giờ ta là huyền thoại!
+Dialogue: 0,0:21:30.79,0:21:33.42,Default,,0,0,0,,Chúng sẽ phải truyền miệng về ta!
+Dialogue: 0,0:21:34.67,0:21:37.09,Default,,0,0,0,,Hàng thế hệ. Zhao, Kẻ Sát Hại Mặt Trăng.
+Dialogue: 0,0:21:37.08,0:21:38.12,Default,,0,0,0,,Zhao!
+Dialogue: 0,0:21:44.17,0:21:45.92,Default,,0,0,0,,Ngươi quá trễ rồi, Thế thần.
+Dialogue: 0,0:21:49.29,0:21:50.58,Default,,0,0,0,,Zhao, đừng.
+Dialogue: 0,0:21:54.04,0:21:56.96,Default,,0,0,0,,Dù ngươi có nghĩ gì\Nthì đây không phải quyền lực.
+Dialogue: 0,0:21:56.96,0:21:57.92,Default,,0,0,0,,Không ư?
+Dialogue: 0,0:21:57.92,0:22:00.00,Default,,0,0,0,,Biết ta sẽ làm được gì không?
+Dialogue: 0,0:22:00.50,0:22:04.29,Default,,0,0,0,,Ta có thể xóa sổ cả một tộc ngự nhân đó.
+Dialogue: 0,0:22:04.29,0:22:06.50,Default,,0,0,0,,Hình dung nổi thế là thế nào không?
+Dialogue: 0,0:22:08.13,0:22:08.96,Default,,0,0,0,,Có.
+Dialogue: 0,0:22:10.17,0:22:11.00,Default,,0,0,0,,Ta hình dung được.
+Dialogue: 0,0:22:13.21,0:22:16.00,Default,,0,0,0,,Ngươi muốn thống trị thế gian,\Nnhưng làm vậy
+Dialogue: 0,0:22:16.00,0:22:17.79,Default,,0,0,0,,thì đâu còn thế gian để thống trị.
+Dialogue: 0,0:22:18.29,0:22:23.75,Default,,0,0,0,,Nên hãy thả vị thần đó đi,\Nrồi ta sẽ đi theo ngươi... trong an phận.
+Dialogue: 0,0:22:25.96,0:22:27.79,Default,,0,0,0,,Ngươi nghĩ có ai bận tâm về ngươi ư?
+Dialogue: 0,0:22:28.96,0:22:33.13,Default,,0,0,0,,Thế thần sẽ còn đe dọa được gì nữa\Nmột khi ta loại bỏ thủy thuật
+Dialogue: 0,0:22:33.13,0:22:34.71,Default,,0,0,0,,khỏi thế gian này?
+Dialogue: 0,0:22:34.71,0:22:36.38,Default,,0,0,0,,Bậc thầy của Ba Nguyên tố
+Dialogue: 0,0:22:36.38,0:22:38.71,Default,,0,0,0,,nghe chẳng còn bắt tai lắm nữa, nhỉ?
+Dialogue: 0,0:22:38.71,0:22:42.13,Default,,0,0,0,,Chấp nhận đi.\NNgươi không còn quan trọng nữa rồi.
+Dialogue: 0,0:22:42.71,0:22:45.63,Default,,0,0,0,,Nói thật, ta chẳng rõ\Nngươi đã từng quan trọng chưa nữa!
+Dialogue: 0,0:22:49.83,0:22:50.75,Default,,0,0,0,,Ngươi nói phải.
+Dialogue: 0,0:22:52.42,0:22:53.50,Default,,0,0,0,,Ta chẳng quan trọng.
+Dialogue: 0,0:22:55.08,0:22:56.46,Default,,0,0,0,,Thế gian cần Thế thần...
+Dialogue: 0,0:22:58.63,0:22:59.71,Default,,0,0,0,,mà ta đã thất bại.
+Dialogue: 0,0:23:05.17,0:23:06.13,Default,,0,0,0,,Xúc động đó.
+Dialogue: 0,0:23:06.71,0:23:08.13,Default,,0,0,0,,Nhưng ta chẳng bận tâm.
+Dialogue: 0,0:23:52.75,0:23:53.58,Default,,0,0,0,,Yue!
+Dialogue: 0,0:23:59.67,0:24:00.75,Default,,0,0,0,,Chuyện gì thế này?
+Dialogue: 0,0:24:01.92,0:24:04.71,Default,,0,0,0,,Tôi không dùng ngự thuật được!
+Dialogue: 0,0:24:48.17,0:24:51.13,Default,,0,0,0,,Các chiến binh, đô thị bị xâm nhập rồi!
+Dialogue: 0,0:25:29.42,0:25:30.75,Default,,0,0,0,,Rút lui!
+Dialogue: 0,0:25:38.08,0:25:39.83,Default,,0,0,0,,Rút lui!
+Dialogue: 0,0:25:39.83,0:25:41.04,Default,,0,0,0,,Gần tới rồi.
+Dialogue: 0,0:25:43.67,0:25:45.42,Default,,0,0,0,,Đi đi! Để bọn cháu yểm trợ đường rút.
+Dialogue: 0,0:26:45.75,0:26:47.29,Default,,0,0,0,,Mặt Trăng chết rồi.
+Dialogue: 0,0:26:50.58,0:26:51.91,Default,,0,0,0,,Chẳng còn hy vọng đâu.
+Dialogue: 0,0:26:53.00,0:26:54.00,Default,,0,0,0,,Kết thúc rồi.
+Dialogue: 0,0:26:55.79,0:27:00.54,Default,,0,0,0,,Là Thế thần nghĩa là đặt nghĩa vụ của mình\Nlên trên hết. Kể cả sinh mệnh của cậu!
+Dialogue: 0,0:27:00.54,0:27:04.46,Default,,0,0,0,,Thế thần sẽ phải đưa ra\Nnhững lựa chọn bất khả thi,
+Dialogue: 0,0:27:04.46,0:27:07.84,Default,,0,0,0,,đặt nhu cầu của thế gian\Nlên trước nhu cầu của cậu.
+Dialogue: 0,0:27:07.83,0:27:09.71,Default,,0,0,0,,Quyền năng của Thế thần vĩ đại
+Dialogue: 0,0:27:09.71,0:27:13.84,Default,,0,0,0,,nhưng nó chẳng là gì so với quyền năng\Ncủa các tinh linh nguyên tố đâu.
+Dialogue: 0,0:27:25.96,0:27:26.92,Default,,0,0,0,,Không.
+Dialogue: 0,0:27:27.88,0:27:29.05,Default,,0,0,0,,Chưa kết thúc đâu.
+Dialogue: 0,0:27:51.92,0:27:55.63,Default,,0,0,0,,Aang, đừng làm vậy.\NEm sẽ vĩnh viễn biến mất đó.
+Dialogue: 0,0:27:55.63,0:28:00.30,Default,,0,0,0,,Lẽ ra em phải biến mất 100 năm trước.\NĐây đâu phải thời khắc, thế gian của em.
+Dialogue: 0,0:28:00.29,0:28:03.54,Default,,0,0,0,,Em đã không cứu được thế gian của em,\Nnhưng em cứu được thế gian này.
+Dialogue: 0,0:28:47.13,0:28:48.09,Default,,0,0,0,,Chạy đi!
+Dialogue: 0,0:29:05.42,0:29:06.25,Default,,0,0,0,,Vừa...
+Dialogue: 0,0:29:07.79,0:29:08.79,Default,,0,0,0,,Vừa có chuyện gì?
+Dialogue: 0,0:29:08.79,0:29:11.92,Default,,0,0,0,,Aang trao thân mình cho Hải Thần rồi,
+Dialogue: 0,0:29:11.92,0:29:15.84,Default,,0,0,0,,cho phép nó truyền cơn thịnh nộ qua cậu ấy\Nvà tiếp cận quyền năng của Thế thần.
+Dialogue: 0,0:29:16.83,0:29:20.16,Default,,0,0,0,,- Chúng ta phải tới chỗ cậu ấy.\N- Không, anh không hiểu.
+Dialogue: 0,0:29:20.17,0:29:21.96,Default,,0,0,0,,Không còn Aang nữa đâu.
+Dialogue: 0,0:29:25.42,0:29:26.75,Default,,0,0,0,,Yue!
+Dialogue: 0,0:29:34.79,0:29:35.62,Default,,0,0,0,,Zuko!
+Dialogue: 0,0:29:39.04,0:29:40.87,Default,,0,0,0,,Đội ơn thánh thần, cháu còn sống!
+Dialogue: 0,0:29:41.38,0:29:44.76,Default,,0,0,0,,Bác, thứ... thứ gì kia ạ?
+Dialogue: 0,0:29:48.21,0:29:49.04,Default,,0,0,0,,Đó...
+Dialogue: 0,0:29:50.96,0:29:52.50,Default,,0,0,0,,Đó là Thịnh nộ.
+Dialogue: 0,0:30:04.21,0:30:06.88,Default,,0,0,0,,- Thế thần!\N- Chẳng có Thế thần nào đâu.
+Dialogue: 0,0:30:08.33,0:30:09.41,Default,,0,0,0,,Chẳng còn nữa đâu.
+Dialogue: 0,0:30:13.00,0:30:14.92,Default,,0,0,0,,- Chúng ta phải đi thôi!\N- Không.
+Dialogue: 0,0:30:14.92,0:30:16.67,Default,,0,0,0,,- Zuko, phải đi!\N- Không thể.
+Dialogue: 0,0:30:16.67,0:30:17.59,Default,,0,0,0,,Phải đi!
+Dialogue: 0,0:30:38.75,0:30:39.79,Default,,0,0,0,,Aang.
+Dialogue: 0,0:30:42.88,0:30:43.88,Default,,0,0,0,,Bắn!
+Dialogue: 0,0:30:58.17,0:30:59.88,Default,,0,0,0,,Zuko, đừng!
+Dialogue: 0,0:30:59.88,0:31:00.96,Default,,0,0,0,,Buông cháu ra.
+Dialogue: 0,0:31:01.58,0:31:04.21,Default,,0,0,0,,Hắn là kẻ thấp hèn,\Nsẽ chịu kết cục thấp hèn.
+Dialogue: 0,0:31:05.04,0:31:08.79,Default,,0,0,0,,Hắn đã tước đi mọi thứ của cháu.
+Dialogue: 0,0:31:14.88,0:31:15.96,Default,,0,0,0,,Zhao!
+Dialogue: 0,0:31:22.25,0:31:23.38,Default,,0,0,0,,Ngươi còn sống.
+Dialogue: 0,0:31:44.25,0:31:45.33,Default,,0,0,0,,Quân phản đồ.
+Dialogue: 0,0:31:45.83,0:31:46.66,Default,,0,0,0,,Tên hèn!
+Dialogue: 0,0:32:13.38,0:32:17.59,Default,,0,0,0,,Ngươi phá hỏng mọi thứ rồi!\NThế thần đã thuộc về ta. Sứ mệnh của ta...
+Dialogue: 0,0:32:17.58,0:32:19.08,Default,,0,0,0,,Sứ mệnh của ngươi
+Dialogue: 0,0:32:19.96,0:32:21.42,Default,,0,0,0,,là trò bịp bợm thôi.
+Dialogue: 0,0:32:23.29,0:32:26.79,Default,,0,0,0,,Ngươi thực sự nghĩ\NHỏa Vương sẽ đón người về sao?
+Dialogue: 0,0:32:28.25,0:32:30.25,Default,,0,0,0,,Ozai trêu đùa ngươi đó thôi.
+Dialogue: 0,0:32:31.71,0:32:32.92,Default,,0,0,0,,Đó là trò chơi thôi.
+Dialogue: 0,0:32:34.54,0:32:39.79,Default,,0,0,0,,Và kẻ chiến thắng\Nlà kẻ không mang vết sẹo từ cha kìa.
+Dialogue: 0,0:32:41.79,0:32:43.67,Default,,0,0,0,,Ozai chỉ mượn ngươi
+Dialogue: 0,0:32:44.79,0:32:47.21,Default,,0,0,0,,làm động lực cho em gái ngươi mà thôi.
+Dialogue: 0,0:32:53.13,0:32:53.96,Default,,0,0,0,,Ngươi nói láo.
+Dialogue: 0,0:32:56.42,0:32:58.63,Default,,0,0,0,,Nói láo! Thú thực đi, ngươi nói láo!
+Dialogue: 0,0:32:58.63,0:33:02.92,Default,,0,0,0,,Ngươi nghĩ ai là đồng minh của ta...\Nqua ngần này chuyện?
+Dialogue: 0,0:33:05.08,0:33:08.54,Default,,0,0,0,,{\i1}Ai thuyết phục Hỏa Vương\Ncử đám cung thủ Yuyan tới cho ta?{\i0}
+Dialogue: 0,0:33:09.46,0:33:14.17,Default,,0,0,0,,Ai đã nhận ra\Nsong đao Thanh Linh là của ngươi?
+Dialogue: 0,0:33:15.04,0:33:17.67,Default,,0,0,0,,{\i1}Azula đã cho ta biết mọi thứ ta cần biết.{\i0}
+Dialogue: 0,0:33:19.63,0:33:21.17,Default,,0,0,0,,Ngươi chính là ngọn lửa
+Dialogue: 0,0:33:21.83,0:33:25.12,Default,,0,0,0,,đã trui rèn nên sự sắt đá của Azula.
+Dialogue: 0,0:33:26.46,0:33:27.96,Default,,0,0,0,,Ngươi chỉ là vậy mà thôi.
+Dialogue: 0,0:34:11.79,0:34:12.62,Default,,0,0,0,,Đi, cháu trai.
+Dialogue: 0,0:34:17.17,0:34:18.00,Default,,0,0,0,,Thứ gì vậy?
+Dialogue: 0,0:34:18.00,0:34:19.46,Default,,0,0,0,,- Đi thôi!\N- Mau!
+Dialogue: 0,0:34:36.88,0:34:37.71,Default,,0,0,0,,Bắn!
+Dialogue: 0,0:35:01.13,0:35:02.01,Default,,0,0,0,,Nó đâu rồi?
+Dialogue: 0,0:36:44.42,0:36:45.84,Default,,0,0,0,,Aang!
+Dialogue: 0,0:36:48.83,0:36:51.12,Default,,0,0,0,,Aang!
+Dialogue: 0,0:36:52.58,0:36:53.66,Default,,0,0,0,,Kết thúc rồi!
+Dialogue: 0,0:36:54.88,0:36:56.84,Default,,0,0,0,,Làm ơn quay lại đi!
+Dialogue: 0,0:36:59.33,0:37:02.96,Default,,0,0,0,,{\i1}Aang biến mất rồi. Còn lại\Nchỉ là một vị thần lòng đầy thù hận{\i0}
+Dialogue: 0,0:37:02.96,0:37:06.79,Default,,0,0,0,,{\i1}sẽ lang bạt không nghỉ để tìm bạn đời\Nnhưng sẽ chẳng tìm thấy.{\i0}
+Dialogue: 0,0:37:08.63,0:37:11.13,Default,,0,0,0,,Thế gian này sẽ mất cân bằng vĩnh viễn.
+Dialogue: 0,0:37:11.13,0:37:14.21,Default,,0,0,0,,Phải làm được gì chứ.\NHồi sinh Mặt Trăng chăng.
+Dialogue: 0,0:37:21.79,0:37:22.62,Default,,0,0,0,,Sokka.
+Dialogue: 0,0:37:23.83,0:37:24.71,Default,,0,0,0,,Đa tạ.
+Dialogue: 0,0:37:46.21,0:37:47.34,Default,,0,0,0,,Yue, cô làm gì vậy?
+Dialogue: 0,0:37:47.33,0:37:51.96,Default,,0,0,0,,Hồi nhỏ, tôi được Nguyệt Thần chạm vào,\Nnên mang trong mình sự sống của người.
+Dialogue: 0,0:37:53.67,0:37:55.38,Default,,0,0,0,,Tới lúc tôi phải trả lại rồi.
+Dialogue: 0,0:37:57.58,0:37:59.46,Default,,0,0,0,,Chuyện này không đáng buồn đâu.
+Dialogue: 0,0:38:02.21,0:38:08.09,Default,,0,0,0,,Anh biết vì sao Hải Thần và Nguyệt Thần\Nmang hình hài vật chất trong một đêm chứ?
+Dialogue: 0,0:38:09.46,0:38:12.13,Default,,0,0,0,,Là vì họ muốn biết\Ncảm giác làm người phàm đó.
+Dialogue: 0,0:38:13.96,0:38:16.50,Default,,0,0,0,,Việc được sống thật đáng để mạo hiểm.
+Dialogue: 0,0:38:19.63,0:38:21.13,Default,,0,0,0,,Dù chỉ là một đêm thôi.
+Dialogue: 0,0:38:25.38,0:38:26.92,Default,,0,0,0,,Nhất là chỉ một đêm thôi.
+Dialogue: 0,0:38:28.21,0:38:30.50,Default,,0,0,0,,Làm ơn quay lại đi mà!
+Dialogue: 0,0:38:31.58,0:38:36.25,Default,,0,0,0,,Aang, đừng có khờ! Em đâu chỉ là Thế thần.\NEm là người thân của chị nữa mà!
+Dialogue: 0,0:38:37.21,0:38:41.13,Default,,0,0,0,,Thế gian này là của em! Đây là nhà của em!\NBọn chị là người thân của em!
+Dialogue: 0,0:38:41.13,0:38:42.05,Default,,0,0,0,,Aang!
+Dialogue: 0,0:38:45.17,0:38:47.46,Default,,0,0,0,,Yue, làm ơn đi. Xin đừng!
+Dialogue: 0,0:38:48.79,0:38:50.00,Default,,0,0,0,,Đừng!
+Dialogue: 0,0:38:51.21,0:38:53.25,Default,,0,0,0,,Làm ơn, cô không phải làm vậy đâu!
+Dialogue: 0,0:38:55.04,0:38:57.79,Default,,0,0,0,,Yue, đừng.
+Dialogue: 0,0:38:58.79,0:38:59.62,Default,,0,0,0,,Đừng.
+Dialogue: 0,0:39:01.83,0:39:02.66,Default,,0,0,0,,Yue!
+Dialogue: 0,0:39:49.00,0:39:49.83,Default,,0,0,0,,Aang,
+Dialogue: 0,0:39:50.88,0:39:51.76,Default,,0,0,0,,nghe chị này.
+Dialogue: 0,0:39:53.92,0:39:56.09,Default,,0,0,0,,Chị biết em nghĩ\Nem không thuộc về thế gian này,
+Dialogue: 0,0:39:57.38,0:39:59.76,Default,,0,0,0,,nhưng 100 năm trước\Nem đâu được định là phải qua đời.
+Dialogue: 0,0:40:01.13,0:40:02.09,Default,,0,0,0,,Nếu có
+Dialogue: 0,0:40:02.96,0:40:06.17,Default,,0,0,0,,thì giờ em đã chẳng ở đây rồi,\Nthế gian này cần tới em.
+Dialogue: 0,0:40:11.96,0:40:13.04,Default,,0,0,0,,Chị cần em.
+Dialogue: 0,0:41:52.42,0:41:53.96,Default,,0,0,0,,Sự tàn phá kinh khủng quá.
+Dialogue: 0,0:42:21.83,0:42:22.66,Default,,0,0,0,,Hahn.
+Dialogue: 0,0:42:55.54,0:42:57.54,Default,,0,0,0,,Cháu xin lỗi đã không bảo vệ được cô ấy.
+Dialogue: 0,0:43:02.67,0:43:04.88,Default,,0,0,0,,Con gái tôi luôn luôn tự lựa chọn mà.
+Dialogue: 0,0:43:07.38,0:43:09.38,Default,,0,0,0,,Đó không phải chuyện mà cháu
+Dialogue: 0,0:43:10.54,0:43:12.37,Default,,0,0,0,,hay bất cứ ai có thể ngăn được.
+Dialogue: 0,0:43:17.67,0:43:19.84,Default,,0,0,0,,Cô ấy đã xả thân vì tất cả chúng ta.
+Dialogue: 0,0:43:20.67,0:43:21.59,Default,,0,0,0,,Cháu thì...
+Dialogue: 0,0:43:24.00,0:43:25.42,Default,,0,0,0,,Cháu chỉ biết đứng nhìn.
+Dialogue: 0,0:43:28.33,0:43:32.66,Default,,0,0,0,,Cháu đứng bên lề trong lúc\Nnhững người khác chiến đấu và bỏ mạng,
+Dialogue: 0,0:43:32.67,0:43:34.80,Default,,0,0,0,,làm những chiến binh\Ncháu chẳng thể trở thành.
+Dialogue: 0,0:43:35.75,0:43:39.46,Default,,0,0,0,,Sokka, trong cái khoảnh khắc\Nhẳn là nó đã rất sợ hãi,
+Dialogue: 0,0:43:40.63,0:43:42.55,Default,,0,0,0,,cháu đã đảm bảo nó không cô độc.
+Dialogue: 0,0:43:44.71,0:43:46.54,Default,,0,0,0,,Cháu đâu cần phải là chiến binh
+Dialogue: 0,0:43:47.04,0:43:48.54,Default,,0,0,0,,mới có thể là người hùng.
+Dialogue: 0,0:43:57.29,0:43:59.83,Default,,0,0,0,,Tôi cứ ngỡ sẽ không thấy\Nánh dương ngày mới,
+Dialogue: 0,0:44:00.75,0:44:04.63,Default,,0,0,0,,nhưng Mặt Trời lại lên,\Nvà thủy tộc này vẫn trụ vững.
+Dialogue: 0,0:44:05.92,0:44:07.17,Default,,0,0,0,,Nhiều sự mất mát quá.
+Dialogue: 0,0:44:07.96,0:44:12.42,Default,,0,0,0,,Phải, nhưng bọn tôi sẽ gầy dựng lại\Nvà bọn tôi sẽ trỗi dậy mạnh mẽ hơn.
+Dialogue: 0,0:44:15.13,0:44:19.71,Default,,0,0,0,,Cháu còn nhớ tôi từng bảo cháu rằng\Nnước là nguyên tố của sự đổi mới không?
+Dialogue: 0,0:44:20.67,0:44:23.63,Default,,0,0,0,,Tôi đã quên mất\Ný nghĩa thực sự của câu nói đó đấy.
+Dialogue: 0,0:44:24.21,0:44:27.92,Default,,0,0,0,,Đổi mới là mấu chốt của sự sống mới.
+Dialogue: 0,0:44:30.25,0:44:31.96,Default,,0,0,0,,Cháu đã nhắc tôi nhớ điều đó,
+Dialogue: 0,0:44:33.58,0:44:36.08,Default,,0,0,0,,và tôi biết ơn vô cùng vì cháu đã làm vậy.
+Dialogue: 0,0:44:40.67,0:44:45.25,Default,,0,0,0,,Cháu biết không, có cả một thế hệ\NNgự thủy sư mới cần được huấn luyện đó.
+Dialogue: 0,0:44:47.63,0:44:49.13,Default,,0,0,0,,Bọn tôi có thể sẽ cần cháu giúp.
+Dialogue: 0,0:44:52.67,0:44:53.55,Default,,0,0,0,,Đa tạ ạ.
+Dialogue: 0,0:44:55.79,0:44:59.21,Default,,0,0,0,,Nhưng Aang vẫn còn\Nhành trình cần hoàn tất, cháu cũng vậy.
+Dialogue: 0,0:45:01.13,0:45:03.42,Default,,0,0,0,,Dù gì Thế thần\Nvẫn phải học cách dùng thủy thuật.
+Dialogue: 0,0:45:06.25,0:45:10.42,Default,,0,0,0,,Nếu vậy thì cậu ấy chẳng thể kiếm đâu ra\Nmột sư phụ giỏi hơn được nữa.
+Dialogue: 0,0:45:15.58,0:45:16.41,Default,,0,0,0,,Cho cháu này.
+Dialogue: 0,0:45:18.46,0:45:19.29,Default,,0,0,0,,Cái gì đây ạ?
+Dialogue: 0,0:45:20.42,0:45:23.13,Default,,0,0,0,,Nước lấy từ ốc đảo của bọn tôi.
+Dialogue: 0,0:45:24.71,0:45:29.38,Default,,0,0,0,,Lời gợi nhắc về những gì chúng ta\Nđã trải qua và lời mời cháu quay lại
+Dialogue: 0,0:45:30.67,0:45:31.63,Default,,0,0,0,,bất cứ khi nào.
+Dialogue: 0,0:45:50.67,0:45:53.63,Default,,0,0,0,,Đại úy Jee sẽ biết phải tránh\Nnơi trận chiến diễn ra cam go nhất.
+Dialogue: 0,0:45:54.58,0:45:57.08,Default,,0,0,0,,Giờ có lẽ cậu ấy và thủy thủ đoàn\Nđang tìm chúng ta.
+Dialogue: 0,0:46:01.17,0:46:02.59,Default,,0,0,0,,Cháu nghĩ sao, Hoàng tử Zuko?
+Dialogue: 0,0:46:03.58,0:46:04.75,Default,,0,0,0,,Cháu muốn làm gì?
+Dialogue: 0,0:46:08.42,0:46:09.38,Default,,0,0,0,,Cháu chẳng biết.
+Dialogue: 0,0:46:14.67,0:46:15.67,Default,,0,0,0,,Cháu mệt mỏi rồi.
+Dialogue: 0,0:46:20.00,0:46:21.54,Default,,0,0,0,,Vậy cháu nên nghỉ ngơi đi.
+Dialogue: 0,0:46:22.63,0:46:24.59,Default,,0,0,0,,Một người đàn ông cần nghỉ ngơi.
+Dialogue: 0,0:46:49.46,0:46:50.71,Default,,0,0,0,,Em gây ra chuyện này.
+Dialogue: 0,0:46:51.25,0:46:53.33,Default,,0,0,0,,Không, là Hỏa Quốc gây ra.
+Dialogue: 0,0:46:53.96,0:46:56.21,Default,,0,0,0,,Vì em thất bại trong vai trò Thế thần.
+Dialogue: 0,0:46:57.33,0:47:00.04,Default,,0,0,0,,Em phải làm sao\Nđể không gây nhiều đau đớn vậy?
+Dialogue: 0,0:47:01.29,0:47:05.79,Default,,0,0,0,,Aang, chiến tranh là vậy mà.\NSẽ có tổn thất. Sẽ có đau thương.
+Dialogue: 0,0:47:07.04,0:47:10.29,Default,,0,0,0,,- Đâu có gì là do em.\N- Ngự hỏa sư cũng không từ bỏ đâu.
+Dialogue: 0,0:47:10.29,0:47:15.00,Default,,0,0,0,,Phải chuẩn bị sau này chúng sẽ đáp trả.\NNên đừng lo âu về quá khứ nữa
+Dialogue: 0,0:47:15.00,0:47:17.21,Default,,0,0,0,,mà nghĩ xem em còn phải làm gì đi.
+Dialogue: 0,0:47:32.67,0:47:35.80,Default,,0,0,0,,Em nghĩ em đã hiểu\Nđiều thầy Gyatso cố nói với em rồi.
+Dialogue: 0,0:47:36.58,0:47:40.96,Default,,0,0,0,,Thầy ấy bảo em hãy buông bỏ quá khứ đi,\Nkhông thì em sẽ chẳng có tương lai.
+Dialogue: 0,0:47:50.00,0:47:53.83,Default,,0,0,0,,Phải. Em sẽ học được cách dùng thủy thuật.\NChị sẽ đảm bảo điều đó.
+Dialogue: 0,0:47:54.33,0:47:57.41,Default,,0,0,0,,- Rồi tới cách dùng thổ thuật...\N- Là quay lại Omashu.
+Dialogue: 0,0:48:03.46,0:48:04.29,Default,,0,0,0,,Nào,
+Dialogue: 0,0:48:06.04,0:48:07.04,Default,,0,0,0,,ai đói bụng nữa?
+Dialogue: 0,0:48:07.63,0:48:09.67,Default,,0,0,0,,Sao gì cũng luôn quay về\Ndạ dày của anh vậy?
+Dialogue: 0,0:48:09.67,0:48:13.30,Default,,0,0,0,,- Vì não anh ấy nằm ở đó.\N- Nghe nhóc đầu trái dưa nói kìa.
+Dialogue: 0,0:48:14.04,0:48:15.46,Default,,0,0,0,,Em thèm dưa thật chứ.
+Dialogue: 0,0:48:15.46,0:48:20.46,Default,,0,0,0,,Thấy chưa? Thức ăn luôn là đáp án đúng.\NCứ việc nghe Sokka đi.
+Dialogue: 0,0:48:23.17,0:48:25.50,Default,,0,0,0,,{\i1}Agna Qel'a thiệt hại nặng nề,{\i0}
+Dialogue: 0,0:48:25.50,0:48:28.29,Default,,0,0,0,,mà các lực lượng của chúng ta\Nkhông chiếm được đô thị đó.
+Dialogue: 0,0:48:30.67,0:48:35.21,Default,,0,0,0,,Ngoài ra, có vẻ như\NThế thần vẫn còn sống và đang tự do ạ.
+Dialogue: 0,0:48:37.54,0:48:38.54,Default,,0,0,0,,Đáng tiếc thật.
+Dialogue: 0,0:48:40.54,0:48:41.75,Default,,0,0,0,,Nhưng không bất ngờ.
+Dialogue: 0,0:48:44.13,0:48:46.92,Default,,0,0,0,,Chinh phạt phía Bắc\Nluôn là đề xuất khó khả thi.
+Dialogue: 0,0:48:50.04,0:48:53.54,Default,,0,0,0,,Nếu là vậy\Nthì sao từ đầu lại tấn công phía Bắc ạ?
+Dialogue: 0,0:48:55.92,0:48:57.05,Default,,0,0,0,,Để đánh lạc hướng.
+Dialogue: 0,0:48:58.88,0:49:01.21,Default,,0,0,0,,Phía Bắc chưa từng là mục tiêu thực sự.
+Dialogue: 0,0:49:09.46,0:49:11.42,Default,,0,0,0,,{\i1}Lần đầu tiên sau một thế kỷ,{\i0}
+Dialogue: 0,0:49:12.00,0:49:14.04,Default,,0,0,0,,{\i1}Omashu đã thuộc về chúng ta.{\i0}
+Dialogue: 0,0:49:15.29,0:49:18.08,Default,,0,0,0,,{\i1}Giờ chỉ còn Ba Sing Se chắn giữa chúng ta{\i0}
+Dialogue: 0,0:49:18.63,0:49:21.21,Default,,0,0,0,,{\i1}và sự chinh phục hoàn toàn\NThổ Quốc mà thôi.{\i0}
+Dialogue: 0,0:49:30.38,0:49:31.80,Default,,0,0,0,,Một chiến lược tài tình,
+Dialogue: 0,0:49:32.88,0:49:37.88,Default,,0,0,0,,nhưng Hỏa Vương có biết là Hoàng tử Zuko\Ncó trong số lực lượng ở Agna Qel'a không?
+Dialogue: 0,0:49:39.92,0:49:43.05,Default,,0,0,0,,Tổn thất nhân mạng\Ncủa binh lính chúng ta rất đáng kể.
+Dialogue: 0,0:49:51.67,0:49:54.17,Default,,0,0,0,,Nếu Zuko mạnh mẽ,\Nnó sẽ sống sót được thôi.
+Dialogue: 0,0:49:56.33,0:49:57.16,Default,,0,0,0,,Còn nếu không...
+Dialogue: 0,0:50:00.13,0:50:02.63,Default,,0,0,0,,thì đôi khi\Nchúng ta sẽ phải hy sinh kẻ yếu
+Dialogue: 0,0:50:03.13,0:50:05.13,Default,,0,0,0,,{\i1}để khiến bản thân vững mạnh.{\i0}
+Dialogue: 0,0:50:11.67,0:50:12.59,Default,,0,0,0,,Omashu
+Dialogue: 0,0:50:13.75,0:50:14.96,Default,,0,0,0,,là của chúng ta!
+Dialogue: 0,0:50:25.63,0:50:27.09,Default,,0,0,0,,Vì Hỏa Quốc!
+Dialogue: 0,0:50:27.08,0:50:28.75,Default,,0,0,0,,Hỏa Quốc!
+Dialogue: 0,0:50:34.71,0:50:35.54,Default,,0,0,0,,Nào...
+Dialogue: 0,0:50:37.83,0:50:39.12,Default,,0,0,0,,tiếp theo là gì đây?
+Dialogue: 0,0:50:39.13,0:50:44.13,Default,,0,0,0,,THẾ THẦN: NGỰ KHÍ SƯ CUỐI CÙNG
+Dialogue: 0,0:50:47.00,0:50:50.38,Default,,0,0,0,,Việc đo lường chuyển động của đất trời\Nvốn luôn khó khăn,
+Dialogue: 0,0:50:50.88,0:50:54.88,Default,,0,0,0,,mà chúng tôi đã tạo ra phương pháp\Nđể hiểu rõ hơn chuyển động thiên thể.
+Dialogue: 0,0:51:02.38,0:51:07.38,Default,,0,0,0,,Đã mất cả trăm năm, nhưng rốt cuộc\Nthời khắc ấy cũng gần kề rồi.
+Dialogue: 0,0:51:09.04,0:51:10.75,Default,,0,0,0,,- Khi nào?\N- Sắp sửa rồi ạ.
+Dialogue: 0,0:51:17.58,0:51:19.58,Default,,0,0,0,,Chúng ta sẽ thấy sự tái xuất
+Dialogue: 0,0:51:20.96,0:51:23.04,Default,,0,0,0,,của Sao chổi Sozin.
+Dialogue: 0,0:53:20.54,0:53:23.46,Default,,0,0,0,,Biên dịch: Joy Ng

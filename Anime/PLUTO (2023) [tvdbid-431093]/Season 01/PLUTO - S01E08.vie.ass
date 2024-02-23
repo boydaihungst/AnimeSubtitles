@@ -1,0 +1,808 @@
+[Script Info]
+; This is an Advanced Sub Station Alpha v4+ script.
+Title:
+ScriptType: v4.00+
+PlayDepth: 0
+ScaledBorderAndShadow: Yes
+PlayResX: 1920
+PlayResY: 1080
+
+[V4+ Styles]
+Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
+Style: Default,Noto Sans,80.0,&H00FFFFFF,&H000000FF,&H00002208,&H00000000,-1,0,0,0,100,100,0,0,1,3.0,2.0,2,0,0,65,1
+
+[Events]
+Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
+Dialogue: 0,0:00:50.22,0:00:55.56,Default,,0,0,0,,Ngày xửa ngày xưa, ở một vùng đất Manu\NKatche, có một bộ lạc tên là Nanabu.
+Dialogue: 0,0:00:56.81,0:01:00.40,Default,,0,0,0,,Người dân của bộ lạc Nanabu này yêu\Nhòa bình và rất ghét chiến tranh.
+Dialogue: 0,0:01:03.40,0:01:07.65,Default,,0,0,0,,Vào một ngày nọ, có một bộ lạc đã theo\Nthuyền chài mang vàng đến Manu Katche.
+Dialogue: 0,0:01:09.49,0:01:12.20,Default,,0,0,0,,Họ đã nói với người\Ndân bộ lạc Nanabu rằng…
+Dialogue: 0,0:01:13.36,0:01:18.37,Default,,0,0,0,,Bất cứ ai sở hữu được thứ gọi là vàng\Nnày thì đều sẽ trở nên vô cùng hạnh phúc.
+Dialogue: 0,0:01:19.66,0:01:23.37,Default,,0,0,0,,Người dân của bộ lạc Nanabu đã\Nđổi một vài con ngựa để lấy vàng.
+Dialogue: 0,0:01:24.63,0:01:27.67,Default,,0,0,0,,Và tin đồn về vàng, ngay\Nsau đó đã lan rất nhanh,
+Dialogue: 0,0:01:28.59,0:01:32.51,Default,,0,0,0,,Và rồi người dân của bộ lạc\NNanabu đã bỏ hết ngựa của mình đi.
+Dialogue: 0,0:01:33.26,0:01:37.26,Default,,0,0,0,,Không chỉ dừng lại ở đó, họ còn giao nộp\Ntoàn bộ nhà cửa và đất đai quý báu, theo
+Dialogue: 0,0:01:37.35,0:01:41.40,Default,,0,0,0,,như lời khuyên của bộ lạc\Nmang vàng từ nơi khác tới.
+Dialogue: 0,0:01:42.44,0:01:46.61,Default,,0,0,0,,Người dân của bộ lạc Nanabu\Nđã vì vậy mà mất hết tất cả.
+Dialogue: 0,0:01:47.40,0:01:51.36,Default,,0,0,0,,Khi đến bước đường cùng, họ\Nđã kéo nhau lên núi Manabonzo…
+Dialogue: 0,0:01:52.15,0:01:55.40,Default,,0,0,0,,Sau đó từng người từng người một,\Nđã gieo mình vào miệng núi lửa.
+Dialogue: 0,0:01:56.99,0:02:01.25,Default,,0,0,0,,Linh hồn của những người dân bộ lạc\NNanabu đã biến thành một người khổng lồ.
+Dialogue: 0,0:02:02.25,0:02:05.46,Default,,0,0,0,,Người khổng lồ đó vẫn luôn ngủ\Nsâu bên trong lòng ngọn núi lửa…
+Dialogue: 0,0:02:06.75,0:02:10.13,Default,,0,0,0,,Và truyền thuyết kể rằng một ngày nào đó\Nngười khổng lồ kia sẽ lại trỗi dậy, ở ngay
+Dialogue: 0,0:02:10.21,0:02:13.92,Default,,0,0,0,,trong khu Vườn Quốc gia Eden\Nxinh đẹp trước mặt quý vị.
+Dialogue: 0,0:02:14.01,0:02:14.93,Default,,0,0,0,,Hiểu rồi.
+Dialogue: 0,0:02:15.51,0:02:18.47,Default,,0,0,0,,Vậy bây giờ, chúng ta sẽ chuyển sang tham\Nquan khu tự trị bản địa ha. Rồi! Xin hãy
+Dialogue: 0,0:02:18.56,0:02:21.52,Default,,0,0,0,,đi sát theo lá cờ của dẫn đoàn.
+Dialogue: 0,0:02:34.24,0:02:36.24,Default,,0,0,0,,Việc đã hoàn tất. Sạch sẽ.
+Dialogue: 0,0:02:37.70,0:02:39.66,Default,,0,0,0,,Tất cả bọn chúng đều đã chết.
+Dialogue: 0,0:02:41.12,0:02:43.96,Default,,0,0,0,,Phải, mọi thứ đều khớp theo kế hoạch.
+Dialogue: 0,0:02:44.83,0:02:48.63,Default,,0,0,0,,Giờ chúng ta đã loại bỏ được tất cả\Nnhững thứ có thể đe dọa đất nước này rồi.
+Dialogue: 0,0:02:49.59,0:02:51.63,Default,,0,0,0,,Đất nước Thracia của chúng ta sẽ…
+Dialogue: 0,0:02:52.63,0:02:54.22,Default,,0,0,0,,Mãi mãi thịnh vượng!
+Dialogue: 0,0:02:59.85,0:03:01.77,Default,,0,0,0,,Ngài đây là tù trưởng Tse Tse Mar.
+Dialogue: 0,0:03:02.89,0:03:04.93,Default,,0,0,0,,Ngài ấy xua đuổi tà ma\Nvà những điều không tốt.
+Dialogue: 0,0:03:08.31,0:03:10.27,Default,,0,0,0,,Ông ấy đang lẩm bẩm cái gì vậy trời?
+Dialogue: 0,0:03:10.36,0:03:12.40,Default,,0,0,0,,Dẫn đoàn à, chị có thể dịch được không?
+Dialogue: 0,0:03:12.48,0:03:14.57,Default,,0,0,0,,Hả? Để tôi thử xem…
+Dialogue: 0,0:03:17.07,0:03:22.45,Default,,0,0,0,,Một linh hồn quỷ dữ…\Nẩn nấp… dưới lòng đất…
+Dialogue: 0,0:03:24.00,0:03:24.96,Default,,0,0,0,,Cơn giận của nó…
+Dialogue: 0,0:03:26.66,0:03:29.21,Default,,0,0,0,,Sẽ hủy diệt… thế giới này.
+Dialogue: 0,0:03:37.05,0:03:38.55,Default,,0,0,0,,Chúng tôi đã hoàn thành việc chuyển chỗ.
+Dialogue: 0,0:03:39.22,0:03:41.56,Default,,0,0,0,,Cấp độ an ninh tại đây ở mức cao nhất.
+Dialogue: 0,0:03:41.64,0:03:43.52,Default,,0,0,0,,Xảy ra chuyện gì, chúng\Ntôi cũng sẵn sàng ứng phó.
+Dialogue: 0,0:03:44.64,0:03:46.52,Default,,0,0,0,,Cho dù là bất cứ chuyện gì hả?
+Dialogue: 0,0:03:52.27,0:03:54.65,Default,,0,0,0,,Vậy cậu nghĩ tiếp theo\Nsẽ xảy ra chuyện gì đây?
+Dialogue: 0,0:03:54.73,0:03:55.65,Default,,0,0,0,,Hả?
+Dialogue: 0,0:03:56.78,0:03:58.11,Default,,0,0,0,,Atom đã tỉnh rồi.
+Dialogue: 0,0:03:59.41,0:04:01.20,Default,,0,0,0,,Cậu nghĩ chuyện gì sẽ xảy ra tiếp theo?
+Dialogue: 0,0:04:04.45,0:04:06.08,Default,,0,0,0,,Tìm được vị trí Tiến sĩ Tenma chưa?
+Dialogue: 0,0:04:06.16,0:04:07.37,Default,,0,0,0,,Chúng tôi vẫn chưa xác định được.
+Dialogue: 0,0:04:08.83,0:04:09.83,Default,,0,0,0,,Rốt cuộc ông đã làm gì…
+Dialogue: 0,0:04:11.29,0:04:12.17,Default,,0,0,0,,Hả Tiến sĩ Tenma?
+Dialogue: 0,0:04:13.25,0:04:15.21,Default,,0,0,0,,Ông đã làm gì với thằng bé Atom vậy?
+Dialogue: 0,0:04:17.13,0:04:20.05,Default,,0,0,0,,Ông ấy nói là đã cài một\Nchương trình cho anh ấy.
+Dialogue: 0,0:04:20.89,0:04:21.89,Default,,0,0,0,,Một chương trình hả?
+Dialogue: 0,0:04:22.64,0:04:23.77,Default,,0,0,0,,Là chương trình gì mới được?
+Dialogue: 0,0:04:24.56,0:04:25.81,Default,,0,0,0,,Cháu không biết.
+Dialogue: 0,0:04:25.89,0:04:29.06,Default,,0,0,0,,Nhưng mà cháu đã cảm thấy\Nnó ngay lúc… Atom tỉnh dậy.
+Dialogue: 0,0:04:29.85,0:04:34.31,Default,,0,0,0,,Ở đâu đó trên thế giới, có một\Nnỗi buồn khổng lồ… đã lan khắp nơi.
+Dialogue: 0,0:04:36.28,0:04:37.32,Default,,0,0,0,,Bộ trưởng Ochanomizu!
+Dialogue: 0,0:04:40.07,0:04:41.66,Default,,0,0,0,,Có chuyện xảy ra với Atom\Nrồi, thưa ngài Bộ Trưởng!
+Dialogue: 0,0:04:43.37,0:04:44.91,Default,,0,0,0,,Tự nhiên cậu ấy nói\Nmuốn một cây viết nên là…
+Dialogue: 0,0:04:44.99,0:04:46.99,Default,,0,0,0,,Chúng tôi đã đưa cậu ấy. Và rồi… sau đó…
+Dialogue: 0,0:04:47.62,0:04:48.71,Default,,0,0,0,,Đây là…
+Dialogue: 0,0:04:48.79,0:04:51.75,Default,,0,0,0,,Thả cháu ra! Anh Atom!
+Dialogue: 0,0:05:00.93,0:05:02.89,Default,,0,0,0,,Lập tức đưa cô bé ra ngoài, nhanh lên!
+Dialogue: 0,0:05:02.97,0:05:03.89,Default,,0,0,0,,Dạ!
+Dialogue: 0,0:05:05.10,0:05:08.06,Default,,0,0,0,,Khoan đã! Thả cháu ra! Không được! Anh\NAtom, anh đang viết gì vậy hả? Atom? Anh
+Dialogue: 0,0:05:08.14,0:05:11.10,Default,,0,0,0,,-Atom?\N-Bộ trưởng Ochanomizu,
+Dialogue: 0,0:05:11.19,0:05:14.49,Default,,0,0,0,,công thức này là gì?
+Dialogue: 0,0:05:14.56,0:05:17.73,Default,,0,0,0,,Đó là công thức… chế tạo bom phản proton.
+Dialogue: 0,0:05:18.74,0:05:20.58,Default,,0,0,0,,Ngài nói là bom phản proton sao?
+Dialogue: 0,0:05:21.15,0:05:23.28,Default,,0,0,0,,Một công thức để hủy diệt Trái Đất.
+Dialogue: 0,0:05:36.00,0:05:36.92,Default,,0,0,0,,Atom nó…
+Dialogue: 0,0:05:37.96,0:05:40.92,Default,,0,0,0,,Đã viết xong công thức để chế\Ntạo ra một quả bom nguy hiểm…
+Dialogue: 0,0:05:42.47,0:05:44.39,Default,,0,0,0,,Có thể hủy diệt toàn bộ Trái Đất…
+Dialogue: 0,0:05:50.73,0:05:55.23,Default,,0,0,0,,Chà, vinh dự ghê, hôm nay còn được nhà\Nrobot học nổi tiếng ghé thăm như vậy.
+Dialogue: 0,0:05:57.61,0:05:59.20,Default,,0,0,0,,Nhưng nói thật, ta biết ông sẽ đến mà.
+Dialogue: 0,0:05:59.86,0:06:01.78,Default,,0,0,0,,Atom đã tỉnh dậy rồi đúng không?
+Dialogue: 0,0:06:01.86,0:06:04.11,Default,,0,0,0,,Nó có nói là con chào ba… không hả?
+Dialogue: 0,0:06:06.74,0:06:09.12,Default,,0,0,0,,Vậy là ngươi đã biết. Ấn tượng thật đó.
+Dialogue: 0,0:06:10.29,0:06:13.04,Default,,0,0,0,,Khi một trí tuệ nhân tạo siêu việt như\NAtom tỉnh dậy, thì trên khắp thế giới,
+Dialogue: 0,0:06:13.12,0:06:15.92,Default,,0,0,0,,những kẻ như bọn ta chắc chắn sẽ để ý.
+Dialogue: 0,0:06:17.42,0:06:21.47,Default,,0,0,0,,Trên thế giới này chỉ có trí tuệ nhân tạo\Ncủa ngươi… là sánh ngang được với Atom.
+Dialogue: 0,0:06:22.22,0:06:26.64,Default,,0,0,0,,Không lẽ nào… hôm nay ông đích thân\Nđến tận đây để sửa chữa cho ta à.
+Dialogue: 0,0:06:28.93,0:06:30.35,Default,,0,0,0,,Ta muốn hỏi ngươi một chuyện này.
+Dialogue: 0,0:06:31.27,0:06:34.73,Default,,0,0,0,,Nếu như ông chịu sửa ta, ta\Nsẽ sẵn lòng trả lời tất cả.
+Dialogue: 0,0:06:44.65,0:06:47.53,Default,,0,0,0,,Tiến sĩ Tenma, tôi sẽ không\Ntrông chờ ông hỗ trợ nữa đâu!
+Dialogue: 0,0:06:48.24,0:06:50.20,Default,,0,0,0,,Bằng mọi giá tôi sẽ mang\Nthằng bé Atom quay trở lại.
+Dialogue: 0,0:06:50.74,0:06:52.87,Default,,0,0,0,,Bộ trưởng ơi, có chuyện khẩn cấp!
+Dialogue: 0,0:06:52.95,0:06:54.20,Default,,0,0,0,,Lại là chuyện gì nữa?
+Dialogue: 0,0:06:54.29,0:06:56.63,Default,,0,0,0,,Dạ chính là Atom… cậu ấy\Nđã trốn thoát mất rồi.
+Dialogue: 0,0:06:58.46,0:07:00.13,Default,,0,0,0,,Chuyện này đúng là khó tin.
+Dialogue: 0,0:07:00.21,0:07:03.34,Default,,0,0,0,,Bức tường đó có khả năng chống đỡ mọi\Nloại tấn công vậy mà Atom vẫn có thể…
+Dialogue: 0,0:07:04.42,0:07:05.42,Default,,0,0,0,,Nó đi đâu rồi?
+Dialogue: 0,0:07:05.51,0:07:07.35,Default,,0,0,0,,Dạ không biết, ta có\Nthể tìm cậu ấy qua GPS.
+Dialogue: 0,0:07:07.43,0:07:08.56,Default,,0,0,0,,Phải nhờ quân đội đến giúp nữa.
+Dialogue: 0,0:07:09.26,0:07:11.43,Default,,0,0,0,,Không cần đâu, tôi sẽ\Ntự mình xử lý vụ này.
+Dialogue: 0,0:07:16.23,0:07:19.86,Default,,0,0,0,,Thằng bé hiện đang ở Kudanshita.\NChỗ đó cũng không xa nơi này lắm.
+Dialogue: 0,0:07:21.23,0:07:24.65,Default,,0,0,0,,Rốt cuộc Tiến sĩ Tenma, ông đã\Nlàm gì với thằng bé Atom vậy chứ?
+Dialogue: 0,0:07:25.53,0:07:28.24,Default,,0,0,0,,Tuy nhiên sau đó tôi đã\Nbiết cách đánh thức nó.
+Dialogue: 0,0:07:29.16,0:07:31.16,Default,,0,0,0,,Là phá hủy thế cân bằng.
+Dialogue: 0,0:07:31.24,0:07:37.00,Default,,0,0,0,,Sự giận dữ, buồn đau, lòng thù hận… bằng\Ncách truyền vào các cảm xúc mất cân bằng…
+Dialogue: 0,0:07:37.58,0:07:40.37,Default,,0,0,0,,Ông ấy nói là đã cài một\Nchương trình cho anh ấy.
+Dialogue: 0,0:07:44.76,0:07:45.68,Default,,0,0,0,,Không thể nào…
+Dialogue: 0,0:07:46.80,0:07:50.85,Default,,0,0,0,,Ông đã cài vào cho Atom… con\Nchip bộ nhớ của Gesicht đúng không?
+Dialogue: 0,0:07:52.60,0:07:53.64,Default,,0,0,0,,Chắc luôn!
+Dialogue: 0,0:07:53.72,0:07:56.81,Default,,0,0,0,,Đó là dữ liệu chứa ký ức về\Nkhoảnh khắc cuối cùng của anh ta.
+Dialogue: 0,0:07:57.64,0:08:00.31,Default,,0,0,0,,Nếu như những ký ức cuối cùng\Ncòn ghi khắc trên con chip đó…
+Dialogue: 0,0:08:01.44,0:08:02.73,Default,,0,0,0,,Là sự thù hận thì sao đây?
+Dialogue: 0,0:08:26.59,0:08:27.51,Default,,0,0,0,,Tốt hơn là…
+Dialogue: 0,0:08:28.17,0:08:29.80,Default,,0,0,0,,Mi đừng cố gắng bày trò làm ta nổi điên.
+Dialogue: 0,0:08:34.01,0:08:35.76,Default,,0,0,0,,Hả? Có chuyện gì vậy?
+Dialogue: 0,0:08:35.85,0:08:37.35,Default,,0,0,0,,Atom hiện vẫn còn sống…
+Dialogue: 0,0:08:37.89,0:08:40.77,Default,,0,0,0,,Hả? Ta tưởng bọn chúng đã\Nbị tiêu diệt hết rồi chứ?
+Dialogue: 0,0:08:41.77,0:08:45.57,Default,,0,0,0,,Nó còn sống… và lúc này trong\Nlòng nó đang ngập tràn thù hận.
+Dialogue: 0,0:08:46.23,0:08:47.15,Default,,0,0,0,,Thù hận sao?
+Dialogue: 0,0:08:47.86,0:08:50.86,Default,,0,0,0,,Đừng nói chuyện ngu ngốc nữa.\NRobot thì làm gì biết thù hay hận.
+Dialogue: 0,0:08:51.99,0:08:53.24,Default,,0,0,0,,Ông không biết à?
+Dialogue: 0,0:08:55.12,0:08:57.25,Default,,0,0,0,,Ông nghĩ robot không biết tức giận thật à?
+Dialogue: 0,0:08:58.16,0:09:00.25,Default,,0,0,0,,Ông nghĩ robot không biết khóc thật à?
+Dialogue: 0,0:09:02.25,0:09:05.75,Default,,0,0,0,,Hay là ông nghĩ robot không có\Ntrái tim nên không biết căm thù?
+Dialogue: 0,0:09:39.25,0:09:40.17,Default,,0,0,0,,Là Atom…
+Dialogue: 0,0:10:08.07,0:10:09.11,Default,,0,0,0,,Đó là ốc sên?
+Dialogue: 0,0:10:11.19,0:10:13.32,Default,,0,0,0,,-Đội B và C, mau đi vòng qua phía Nam!\N-chồng Trực thăng ở gần quá! Chúng
+Dialogue: 0,0:10:13.40,0:10:15.69,Default,,0,0,0,,-ta đừng làm gì để kích động thủ phạm!\N-Thằng bé có chuyện gì gia đình tôi sẽ…
+Dialogue: 0,0:10:15.78,0:10:17.99,Default,,0,0,0,,Cầu xin anh! Cứu con tôi với!
+Dialogue: 0,0:10:18.08,0:10:20.08,Default,,0,0,0,,Hai anh chị, bình tĩnh\Nđi. Bình tĩnh đi mà.
+Dialogue: 0,0:10:21.16,0:10:22.54,Default,,0,0,0,,Sao quân tiếp viện vẫn còn chưa tới nữa?
+Dialogue: 0,0:10:26.13,0:10:27.59,Default,,0,0,0,,Tôi là Gesicht đến từ Europol.
+Dialogue: 0,0:10:28.21,0:10:29.46,Default,,0,0,0,,Tình hình thế nào?
+Dialogue: 0,0:10:29.55,0:10:31.76,Default,,0,0,0,,Có vẻ như thủ phạm không hề có ý\Nđịnh muốn đàm phán với chúng ta.
+Dialogue: 0,0:10:32.63,0:10:33.84,Default,,0,0,0,,Hiện giờ hắn ta vẫn còn\Nđang cố thủ ở phía trước.
+Dialogue: 0,0:10:35.34,0:10:36.63,Default,,0,0,0,,Vũ khí của hắn là gì?
+Dialogue: 0,0:10:36.72,0:10:39.31,Default,,0,0,0,,Một khẩu MMG chống giật. Hàng quân đội.
+Dialogue: 0,0:10:40.64,0:10:42.35,Default,,0,0,0,,Hắn đang ở phía trước, ngay\Nphía sau chồng phế liệu đó.
+Dialogue: 0,0:10:58.37,0:10:59.66,Default,,0,0,0,,Khóc khóc cái gì. Mày im coi!
+Dialogue: 0,0:11:02.20,0:11:03.28,Default,,0,0,0,,Mau bỏ súng xuống!
+Dialogue: 0,0:11:03.37,0:11:04.66,Default,,0,0,0,,Đứng yên! Không được lại đây.
+Dialogue: 0,0:11:06.00,0:11:08.17,Default,,0,0,0,,Nếu không tao bắn nó! Tao nói thật đó.
+Dialogue: 0,0:11:09.50,0:11:10.42,Default,,0,0,0,,Cháu là Kurt đúng chứ.
+Dialogue: 0,0:11:12.46,0:11:14.30,Default,,0,0,0,,Chú là một robot thanh tra cảnh sát.
+Dialogue: 0,0:11:15.13,0:11:17.97,Default,,0,0,0,,Trước giờ khẩu súng điện từ này của\Nchú chỉ bắn vào những kẻ xấu mà thôi.
+Dialogue: 0,0:11:18.55,0:11:20.43,Default,,0,0,0,,Chú chắc chắn sẽ không bắn trúng cháu đâu.
+Dialogue: 0,0:11:20.51,0:11:21.72,Default,,0,0,0,,Tao nói rồi, mày không nghe hả?
+Dialogue: 0,0:11:22.85,0:11:26.35,Default,,0,0,0,,Nhưng có điều cháu đừng cựa quậy\Nthì chú mới ra tay hành động được.
+Dialogue: 0,0:11:28.85,0:11:29.77,Default,,0,0,0,,Kurt nè.
+Dialogue: 0,0:11:30.98,0:11:33.32,Default,,0,0,0,,Bây giờ cháu hãy nghĩ về những\Nngười mà cháu yêu thương nhất đi.
+Dialogue: 0,0:11:34.32,0:11:35.78,Default,,0,0,0,,Những người cháu yêu thương nhất sao?
+Dialogue: 0,0:11:36.36,0:11:37.99,Default,,0,0,0,,Làm như vậy cháu sẽ thấy can đảm hơn.
+Dialogue: 0,0:11:38.07,0:11:40.91,Default,,0,0,0,,Câm miệng đi! Tao bắn nát đầu nó bây giờ!
+Dialogue: 0,0:11:42.03,0:11:43.53,Default,,0,0,0,,Mẹ ơi, con sợ quá…
+Dialogue: 0,0:11:44.58,0:11:45.87,Default,,0,0,0,,Ba ơi cứu con…
+Dialogue: 0,0:11:45.96,0:11:47.13,Default,,0,0,0,,Cháu giỏi lắm.
+Dialogue: 0,0:11:47.21,0:11:51.38,Default,,0,0,0,,Ba ơi… Mẹ ơi… Ba ơi… Mẹ ơi…
+Dialogue: 0,0:11:51.46,0:11:53.88,Default,,0,0,0,,Giỏi lắm. Cháu rất\Ndũng cảm, chàng trai nhỏ!
+Dialogue: 0,0:11:53.96,0:11:57.51,Default,,0,0,0,,Mẹ ơi… Ba ơi… Mẹ ơi… Ba ơi…
+Dialogue: 0,0:12:11.40,0:12:12.28,Default,,0,0,0,,Đã khống chế.
+Dialogue: 0,0:12:16.03,0:12:17.62,Default,,0,0,0,,Cháu làm tốt lắm, Kurt à.
+Dialogue: 0,0:12:18.24,0:12:19.12,Default,,0,0,0,,Kurt ơi!
+Dialogue: 0,0:12:19.82,0:12:21.07,Default,,0,0,0,,Kurt ơi!
+Dialogue: 0,0:12:21.16,0:12:22.41,Default,,0,0,0,,Kurt ơi!
+Dialogue: 0,0:12:22.49,0:12:23.58,Default,,0,0,0,,Kurt ơi!
+Dialogue: 0,0:12:23.66,0:12:24.58,Default,,0,0,0,,Kurt ơi!
+Dialogue: 0,0:12:25.20,0:12:27.37,Default,,0,0,0,,Ba ơi… Mẹ ơi!
+Dialogue: 0,0:12:31.17,0:12:33.17,Default,,0,0,0,,Trời ơi, con trai của mẹ an toàn rồi
+Dialogue: 0,0:12:33.92,0:12:35.26,Default,,0,0,0,,Kurt ơi!
+Dialogue: 0,0:12:35.34,0:12:40.26,Default,,0,0,0,,Ba sẽ không bao giờ xa con. Thế giới có\Ndiệt vong thì ba cũng không rời xa con!
+Dialogue: 0,0:12:55.82,0:12:59.49,Default,,0,0,0,,Thế giới có diệt vong thì ba\Ncũng không rời xa con, vậy ư?
+Dialogue: 0,0:13:06.04,0:13:08.17,Default,,0,0,0,,Nè! Tránh ra đi qua cái coi.
+Dialogue: 0,0:13:08.25,0:13:09.29,Default,,0,0,0,,Ơ… Ờ!
+Dialogue: 0,0:13:18.55,0:13:22.05,Default,,0,0,0,,Chán thiệt, sao cái thằng đó không tới\Nchỗ khác mà lại tới đây làm loạn chứ.
+Dialogue: 0,0:13:22.64,0:13:24.73,Default,,0,0,0,,Coi như cả ngày làm việc\Ncủa mình công cốc hết rồi.
+Dialogue: 0,0:13:27.39,0:13:29.60,Default,,0,0,0,,Phải coi trong cái đống này có cái áo nào\Ntái chế được hay không, chứ mang đi nghiền
+Dialogue: 0,0:13:29.68,0:13:31.89,Default,,0,0,0,,nát hết thì phí quá.
+Dialogue: 0,0:13:33.69,0:13:36.69,Default,,0,0,0,,Bán linh kiện còn dùng được cho bệnh\Nviện robot cũng kiếm được kha khá.
+Dialogue: 0,0:13:40.95,0:13:42.08,Default,,0,0,0,,Khoan đã!
+Dialogue: 0,0:13:42.15,0:13:43.49,Default,,0,0,0,,Ông ơi, dừng lại đã.
+Dialogue: 0,0:13:43.57,0:13:44.49,Default,,0,0,0,,Hả?
+Dialogue: 0,0:13:57.67,0:13:58.59,Default,,0,0,0,,Nó vẫn còn động đậy.
+Dialogue: 0,0:13:59.26,0:14:00.18,Default,,0,0,0,,Hửm?
+Dialogue: 0,0:14:00.92,0:14:02.13,Default,,0,0,0,,Con robot này vẫn còn sống.
+Dialogue: 0,0:14:07.72,0:14:11.10,Default,,0,0,0,,Không có đâu. Nó bị hư nặng\Nlắm, sao coi là còn sống được.
+Dialogue: 0,0:14:11.77,0:14:14.98,Default,,0,0,0,,Đã vậy còn là đời cũ. Chả còn\Ncái linh kiện nào xài lại được.
+Dialogue: 0,0:14:16.65,0:14:18.40,Default,,0,0,0,,Chỉ còn cách mang nó đi\Nnghiền nát thôi. Thôi vô đó đi.
+Dialogue: 0,0:14:19.11,0:14:20.15,Default,,0,0,0,,Mau đưa nó cho tôi!
+Dialogue: 0,0:14:35.29,0:14:36.21,Default,,0,0,0,,Tôi xin lỗi…
+Dialogue: 0,0:14:37.04,0:14:38.25,Default,,0,0,0,,Đứa trẻ này…
+Dialogue: 0,0:14:38.34,0:14:39.26,Default,,0,0,0,,Đứa trẻ hả?
+Dialogue: 0,0:14:42.55,0:14:43.47,Default,,0,0,0,,Tôi sẽ mang nó đi.
+Dialogue: 0,0:14:44.22,0:14:45.81,Default,,0,0,0,,Cậu muốn thì cứ lấy.
+Dialogue: 0,0:14:46.51,0:14:47.72,Default,,0,0,0,,Với tôi nó chỉ là phế liệu thôi.
+Dialogue: 0,0:14:53.23,0:14:55.86,Default,,0,0,0,,Đưa tiền đây tôi bán nó\Ncho cậu giá 500 Zeus.
+Dialogue: 0,0:14:59.02,0:14:59.94,Default,,0,0,0,,Helena.
+Dialogue: 0,0:15:00.61,0:15:02.32,Default,,0,0,0,,Anh đã xong việc rồi, giờ\Nđang trên đường về nhà đây.
+Dialogue: 0,0:15:03.15,0:15:04.69,Default,,0,0,0,,Và anh có mang về một bất ngờ cho em.
+Dialogue: 0,0:15:06.61,0:15:09.03,Default,,0,0,0,,Bất ngờ gì hả? Em cứ\Nchờ xem rồi biết thôi mà.
+Dialogue: 0,0:15:09.78,0:15:11.12,Default,,0,0,0,,Chắc chắn em sẽ thích lắm cho mà coi.
+Dialogue: 0,0:15:12.75,0:15:13.75,Default,,0,0,0,,Anh cũng sắp về đến nhà rồi.
+Dialogue: 0,0:15:24.38,0:15:25.30,Default,,0,0,0,,Con bước đi được rồi…
+Dialogue: 0,0:15:25.97,0:15:27.56,Default,,0,0,0,,Con mình đã bước đi được rồi, anh Gesicht.
+Dialogue: 0,0:15:27.64,0:15:28.56,Default,,0,0,0,,Ừ! Ừ!
+Dialogue: 0,0:15:29.30,0:15:32.01,Default,,0,0,0,,Đúng rồi! Con giỏi lắm!\NChỉ một chút nữa thôi!
+Dialogue: 0,0:15:33.14,0:15:34.81,Default,,0,0,0,,Đây thật sự là con của chúng ta sao anh?
+Dialogue: 0,0:15:35.89,0:15:37.73,Default,,0,0,0,,Phải rồi, đây là con của chúng ta.
+Dialogue: 0,0:15:38.56,0:15:39.48,Default,,0,0,0,,Nó còn sống.
+Dialogue: 0,0:15:40.23,0:15:42.36,Default,,0,0,0,,Đứa trẻ này… vẫn còn sống!
+Dialogue: 0,0:15:43.28,0:15:45.45,Default,,0,0,0,,Mãi cho đến tận hôm nay, anh mới hiểu được\Ntrọn vẹn ý nghĩa sống thực sự là như thế
+Dialogue: 0,0:15:45.53,0:15:47.70,Default,,0,0,0,,nào.
+Dialogue: 0,0:15:51.78,0:15:54.49,Default,,0,0,0,,Đây mới thực sự là… ý nghĩa của sự sống.
+Dialogue: 0,0:15:55.50,0:15:56.46,Default,,0,0,0,,Ba… Ba…
+Dialogue: 0,0:15:58.00,0:15:59.09,Default,,0,0,0,,Mẹ… Mẹ…
+Dialogue: 0,0:16:01.46,0:16:03.50,Default,,0,0,0,,Em nghĩ chúng ta nên đặt tên cho thằng bé.
+Dialogue: 0,0:16:04.59,0:16:05.42,Default,,0,0,0,,Em nói đúng lắm.
+Dialogue: 0,0:16:08.30,0:16:09.22,Default,,0,0,0,,Tên là Robita.
+Dialogue: 0,0:16:09.84,0:16:11.01,Default,,0,0,0,,Em thấy sao?
+Dialogue: 0,0:16:11.10,0:16:12.02,Default,,0,0,0,,Robita.
+Dialogue: 0,0:16:13.26,0:16:14.43,Default,,0,0,0,,Tên của con đẹp quá!
+Dialogue: 0,0:16:15.31,0:16:18.44,Default,,0,0,0,,Thế giới có diệt vong.\NBa cũng không rời xa cọn.
+Dialogue: 0,0:16:25.99,0:16:26.91,Default,,0,0,0,,Dừng lại đi mà!
+Dialogue: 0,0:16:31.82,0:16:34.53,Default,,0,0,0,,Tôi biết sai rồi!
+Dialogue: 0,0:16:36.58,0:16:37.79,Default,,0,0,0,,Tôi thực sự…
+Dialogue: 0,0:16:42.38,0:16:43.67,Default,,0,0,0,,Xin hãy tha thứ cho\Ntôi! Xin đừng giết tôi mà!
+Dialogue: 0,0:16:49.72,0:16:50.93,Default,,0,0,0,,Xin đừng bắn tôi mà!
+Dialogue: 0,0:17:06.11,0:17:07.03,Default,,0,0,0,,Anh Gesicht.
+Dialogue: 0,0:17:07.57,0:17:09.91,Default,,0,0,0,,Anh Haas à, tôi muốn hỏi anh điều này.
+Dialogue: 0,0:17:11.45,0:17:13.24,Default,,0,0,0,,Lòng căm hận mà con\Nngười luôn cảm thấy đó.
+Dialogue: 0,0:17:14.45,0:17:18.25,Default,,0,0,0,,Liệu nó có biến mất không, hay mãi mãi\Nkhông biến mất cho dù anh đã cố quên?
+Dialogue: 0,0:17:22.12,0:17:24.08,Default,,0,0,0,,Điều làm tôi cảm thấy sợ hãi nhất,
+Dialogue: 0,0:17:25.25,0:17:29.17,Default,,0,0,0,,Là lòng căm hận đang trỗi dậy,\Ncủa bản thân mình ngay lúc này.
+Dialogue: 0,0:17:30.05,0:17:30.97,Default,,0,0,0,,Hả?
+Dialogue: 0,0:17:37.81,0:17:38.73,Default,,0,0,0,,Chờ một chút đã.
+Dialogue: 0,0:17:43.48,0:17:44.65,Default,,0,0,0,,Lòng căm hận có biến mất hay không…
+Dialogue: 0,0:17:46.11,0:17:46.99,Default,,0,0,0,,Tôi không có tư cách trả lời.
+Dialogue: 0,0:17:48.11,0:17:49.03,Default,,0,0,0,,Và lúc này, lòng căm hận của tôi…
+Dialogue: 0,0:17:53.41,0:17:56.04,Default,,0,0,0,,Ngay lúc này tôi đã\Nkhông còn căm hận anh nữa…
+Dialogue: 0,0:18:16.43,0:18:18.18,Default,,0,0,0,,Có chuyện gì với cháu vậy, Ali?
+Dialogue: 0,0:18:19.26,0:18:24.43,Default,,0,0,0,,Cháu đã… nghe thấy tiếng súng, đúng\Nkhông? Ở đây nguy hiểm lắm… Nào, lại đây.
+Dialogue: 0,0:18:26.15,0:18:28.86,Default,,0,0,0,,Mà cháu biết không, chú cũng\Ncó một đứa con như cháu vậy…
+Dialogue: 0,0:18:34.49,0:18:35.41,Default,,0,0,0,,Ali.
+Dialogue: 0,0:18:36.16,0:18:37.91,Default,,0,0,0,,Đã xảy ra chuyện gì vậy, Ali?
+Dialogue: 0,0:18:48.09,0:18:49.47,Default,,0,0,0,,Sẽ không có gì được sinh ra…
+Dialogue: 0,0:18:53.34,0:18:57.39,Default,,0,0,0,,Sẽ không có gì… được sinh ra… từ thù hận…
+Dialogue: 0,0:19:31.17,0:19:32.09,Default,,0,0,0,,Kìa Atom…
+Dialogue: 0,0:19:32.96,0:19:33.88,Default,,0,0,0,,Giờ cháu đang…
+Dialogue: 0,0:19:39.80,0:19:40.93,Default,,0,0,0,,Bây giờ cháu đã ổn rồi mà.
+Dialogue: 0,0:19:41.60,0:19:42.48,Default,,0,0,0,,Tiến sĩ Ochanomizu.
+Dialogue: 0,0:19:54.40,0:19:55.36,Default,,0,0,0,,Atom của bác…
+Dialogue: 0,0:20:00.32,0:20:02.61,Default,,0,0,0,,Hận thù… đã biến mất.
+Dialogue: 0,0:20:04.49,0:20:08.24,Default,,0,0,0,,Hận thù và buồn đau sẽ không\Nbao giờ có thể… phai mờ được.
+Dialogue: 0,0:20:09.92,0:20:13.72,Default,,0,0,0,,Có thể ta nghĩ chúng đã qua đi, nhưng\Nthực tế chúng vẫn sẽ âm ỉ cháy tiếp.
+Dialogue: 0,0:20:16.05,0:20:17.09,Default,,0,0,0,,Cái đó là chắc chắn rồi.
+Dialogue: 0,0:20:18.43,0:20:20.06,Default,,0,0,0,,Nhưng ta muốn hỏi ngươi điều này.
+Dialogue: 0,0:20:20.89,0:20:22.68,Default,,0,0,0,,Đó cũng là mục đích ta đến đây.
+Dialogue: 0,0:20:22.76,0:20:23.89,Default,,0,0,0,,Hửm?
+Dialogue: 0,0:20:23.97,0:20:25.39,Default,,0,0,0,,Cho ta biết bây giờ Abullah đang ở đâu?
+Dialogue: 0,0:20:26.23,0:20:27.98,Default,,0,0,0,,Ta có trách nhiệm phải\Nngăn chuyện này lại.
+Dialogue: 0,0:20:29.02,0:20:31.11,Default,,0,0,0,,Ông không cần tìm hắn làm gì cho mệt.
+Dialogue: 0,0:20:32.90,0:20:34.78,Default,,0,0,0,,Bởi vì hắn sẽ tự tới tìm ông thôi.
+Dialogue: 0,0:20:49.46,0:20:50.38,Default,,0,0,0,,Xin lỗi đã để ông chờ.
+Dialogue: 0,0:20:51.04,0:20:52.00,Default,,0,0,0,,Không sao.
+Dialogue: 0,0:20:52.08,0:20:53.67,Default,,0,0,0,,Hãy đưa tôi đến sân bay.
+Dialogue: 0,0:20:53.75,0:20:54.67,Default,,0,0,0,,Rõ.
+Dialogue: 0,0:21:06.68,0:21:08.56,Default,,0,0,0,,Rồi, cháu nói đi, Atom.
+Dialogue: 0,0:21:09.39,0:21:10.52,Default,,0,0,0,,Dạ được ạ.
+Dialogue: 0,0:21:10.60,0:21:12.02,Default,,0,0,0,,Như mọi người cũng đã biết, chuyện con\Nchip bộ nhớ của chú Gesicht được cài vào
+Dialogue: 0,0:21:12.10,0:21:13.52,Default,,0,0,0,,người cháu.
+Dialogue: 0,0:21:14.73,0:21:17.02,Default,,0,0,0,,Điều mà cháu sắp nói ra đây… là toàn bộ\Nchi tiết về cuộc điều tra của chú ấy trước
+Dialogue: 0,0:21:17.11,0:21:19.45,Default,,0,0,0,,lúc chết.
+Dialogue: 0,0:21:20.95,0:21:23.41,Default,,0,0,0,,Khi Darius XIV còn là\Nnhà độc tài của Ba Tư,
+Dialogue: 0,0:21:24.49,0:21:26.66,Default,,0,0,0,,Ông ta đã nảy ra một dự án cải tiến với ý\Nđịnh phủ xanh thần tốc Vương quốc sa mạc
+Dialogue: 0,0:21:26.74,0:21:28.91,Default,,0,0,0,,của mình.
+Dialogue: 0,0:21:30.16,0:21:33.00,Default,,0,0,0,,Sau đó, ông ta yêu cầu Giáo sư Abullah hỗ\Ntrợ thúc đẩy dự án, chế tạo một robot có
+Dialogue: 0,0:21:33.08,0:21:35.92,Default,,0,0,0,,thể điều chỉnh Trái Đất.
+Dialogue: 0,0:21:37.55,0:21:39.43,Default,,0,0,0,,Dự án này được gọi là Bora.
+Dialogue: 0,0:21:40.09,0:21:42.26,Default,,0,0,0,,Vậy ra nó không phải dự án\Nvũ khí hủy diệt hàng loạt.
+Dialogue: 0,0:21:43.09,0:21:45.68,Default,,0,0,0,,Dạ phải… Ít nhất lúc đầu\Nthì không phải theo hướng đó.
+Dialogue: 0,0:21:46.72,0:21:49.81,Default,,0,0,0,,Tuy nhiên, dự án Bora\Ngặp khá nhiều trở ngại.
+Dialogue: 0,0:21:49.89,0:21:51.48,Default,,0,0,0,,Tiến sĩ Abullah tạo ra rất nhiều nguyên\Nmẫu, nhưng tất cả đều thất bại và bị hủy
+Dialogue: 0,0:21:51.56,0:21:53.15,Default,,0,0,0,,bỏ.
+Dialogue: 0,0:21:54.40,0:21:56.74,Default,,0,0,0,,Đó là thứ mà Tiến sĩ Ochanomizu\Nvà những người khác tìm thấy.
+Dialogue: 0,0:21:57.48,0:21:59.19,Default,,0,0,0,,À, chính là hầm mộ robot…
+Dialogue: 0,0:22:03.16,0:22:05.20,Default,,0,0,0,,Sau đó, Tiến sĩ Abullah\Nđã nảy ra một ý tưởng.
+Dialogue: 0,0:22:06.24,0:22:09.12,Default,,0,0,0,,Ông ta nhận ra mình cần một trợ lý tài\Ngiỏi, có khả năng vượt trội hơn cả con
+Dialogue: 0,0:22:09.20,0:22:12.08,Default,,0,0,0,,người, để giúp hoàn thành dự án Bora này.
+Dialogue: 0,0:22:12.87,0:22:15.16,Default,,0,0,0,,Có khả năng vượt trội hơn cả con người.
+Dialogue: 0,0:22:15.25,0:22:17.13,Default,,0,0,0,,Một trợ lý tài giỏi…
+Dialogue: 0,0:22:17.21,0:22:19.84,Default,,0,0,0,,Đó là một robot có trí tuệ\Nnhân tạo tiên tiến nhất.
+Dialogue: 0,0:22:22.01,0:22:25.85,Default,,0,0,0,,Với mục đích này, một nhà khoa học\Nđại tài đã được gấp rút mời đến Ba Tư.
+Dialogue: 0,0:22:26.43,0:22:27.56,Default,,0,0,0,,Một nhà khoa học sao?
+Dialogue: 0,0:22:30.52,0:22:32.02,Default,,0,0,0,,Người đó chính là Tiến sĩ Tenma.
+Dialogue: 0,0:22:32.10,0:22:33.02,Default,,0,0,0,,Tenma à?
+Dialogue: 0,0:22:47.53,0:22:48.57,Default,,0,0,0,,Ta đang ở đâu?
+Dialogue: 0,0:22:50.49,0:22:52.66,Default,,0,0,0,,Tôi nghe người ta nói\Nrằng Atom được hồi sinh rồi.
+Dialogue: 0,0:22:53.75,0:22:55.92,Default,,0,0,0,,Ta biết ngay là ngươi mà, Abullah.
+Dialogue: 0,0:22:57.29,0:22:59.42,Default,,0,0,0,,Rất vui khi được gặp\Nlại ông, Tiến sĩ Tenma.
+Dialogue: 0,0:23:00.25,0:23:03.21,Default,,0,0,0,,Vậy ra ngươi bắt cóc ta làm\Nmồi nhử để dụ Atom đến đây sao?
+Dialogue: 0,0:23:04.30,0:23:05.22,Default,,0,0,0,,Đâu có.
+Dialogue: 0,0:23:07.76,0:23:09.72,Default,,0,0,0,,Giờ tôi đâu cần làm mấy\Nchuyện ấu trĩ đó nữa.
+Dialogue: 0,0:23:11.35,0:23:12.27,Default,,0,0,0,,Vậy thì tại sao…?
+Dialogue: 0,0:23:13.14,0:23:14.06,Default,,0,0,0,,Lý do chính là đây.
+Dialogue: 0,0:23:19.40,0:23:20.32,Default,,0,0,0,,Đây chính là…
+Dialogue: 0,0:23:22.90,0:23:24.36,Default,,0,0,0,,Đây chính là… Pluto à?
+Dialogue: 0,0:23:25.40,0:23:26.94,Default,,0,0,0,,Không, đây là Bora.
+Dialogue: 0,0:23:28.45,0:23:31.50,Default,,0,0,0,,Một kiệt tác được tạo ra bởi nhà\Nkhoa học thiên tài mang tên Goji.
+Dialogue: 0,0:23:32.66,0:23:34.87,Default,,0,0,0,,Kế hoạch của tôi chính là cấy ghép bộ não\Nthiên tài của mình vào trong cơ thể của
+Dialogue: 0,0:23:34.96,0:23:37.17,Default,,0,0,0,,Bora.
+Dialogue: 0,0:23:38.13,0:23:41.13,Default,,0,0,0,,Để tạo ra người máy tinh vi nhất thế giới.
+Dialogue: 0,0:23:45.55,0:23:47.93,Default,,0,0,0,,Ông là người duy nhất\Ncó thể làm được điều đó.
+Dialogue: 0,0:23:48.01,0:23:51.35,Default,,0,0,0,,Vì trên đời này, ông cũng là người\Ncó tài năng xuất chúng giống như tôi.
+Dialogue: 0,0:23:53.89,0:23:57.56,Default,,0,0,0,,Tiến sĩ Abullah là người rất đáng thương,\Ncả gia đình đều bị mất trong chiến tranh.
+Dialogue: 0,0:23:58.77,0:24:00.69,Default,,0,0,0,,Điều đó khiến cho ông ấy đau buồn tột độ.
+Dialogue: 0,0:24:02.15,0:24:03.53,Default,,0,0,0,,Và bắt đầu căm ghét thế giới.
+Dialogue: 0,0:24:05.78,0:24:07.57,Default,,0,0,0,,Là một người tài năng xuất chúng à?
+Dialogue: 0,0:24:08.61,0:24:11.07,Default,,0,0,0,,Abullah à, nhưng ngươi\Nđâu phải là con người.
+Dialogue: 0,0:24:12.70,0:24:13.62,Default,,0,0,0,,Và cuối cùng,
+Dialogue: 0,0:24:14.45,0:24:17.12,Default,,0,0,0,,Vị Tiến sĩ đó đã chết trong chiến\Ntranh giống người thân của mình.
+Dialogue: 0,0:24:17.71,0:24:19.88,Default,,0,0,0,,Không thể nào, không thể\Nnào có chuyện đó được.
+Dialogue: 0,0:24:19.96,0:24:22.59,Default,,0,0,0,,Cách đây ít lâu, chúng ta\Ncòn gặp ông ta đó thôi.
+Dialogue: 0,0:24:24.00,0:24:25.88,Default,,0,0,0,,Ngươi đâu có phải là con người thật sự.
+Dialogue: 0,0:24:27.92,0:24:29.42,Default,,0,0,0,,Ông đang nói nhảm cái gì vậy?
+Dialogue: 0,0:24:30.18,0:24:32.97,Default,,0,0,0,,Nếu phải nói cho đúng thì tôi sẽ gần giống\Nvới người máy hơn, vì phần lớn cơ thể của
+Dialogue: 0,0:24:33.05,0:24:35.97,Default,,0,0,0,,tôi đã bị mất trong chiến\Ntranh và được thay thế…
+Dialogue: 0,0:24:36.06,0:24:37.65,Default,,0,0,0,,Ngươi không phải là một người máy.
+Dialogue: 0,0:24:37.73,0:24:38.56,Default,,0,0,0,,Mà ngươi là robot.
+Dialogue: 0,0:24:39.31,0:24:41.44,Default,,0,0,0,,Đừng ở đó ăn nói ngớ ngẩn nữa, Tiến sĩ.
+Dialogue: 0,0:24:42.19,0:24:44.90,Default,,0,0,0,,Ta đã biết về sự tồn tại\Ncủa ngươi từ rất lâu rồi.
+Dialogue: 0,0:24:46.32,0:24:50.99,Default,,0,0,0,,Vì thật ra… ngươi là con robot\Nnăm xưa do chính tay ta tạo ra.
+Dialogue: 0,0:24:51.07,0:24:52.91,Default,,0,0,0,,Ông bớt ăn nói tào lao đi.
+Dialogue: 0,0:24:52.99,0:24:55.99,Default,,0,0,0,,Năm đó Abullah nhờ ta\Ntạo ra một con robot.
+Dialogue: 0,0:24:56.66,0:24:58.29,Default,,0,0,0,,Một con robot hoàn hảo.
+Dialogue: 0,0:24:59.66,0:25:03.87,Default,,0,0,0,,Nhưng trí tuệ nhân tạo của con robot đó\Ncao cấp tới mức nó đã không tỉnh dậy.
+Dialogue: 0,0:25:04.63,0:25:05.55,Default,,0,0,0,,Tuy nhiên…
+Dialogue: 0,0:25:13.01,0:25:14.85,Default,,0,0,0,,Tiến sĩ Tenma, ông phải đến sân bay ngay!
+Dialogue: 0,0:25:15.56,0:25:16.94,Default,,0,0,0,,Tình hình ở đây không còn an toàn nữa rồi!
+Dialogue: 0,0:25:17.02,0:25:18.06,Default,,0,0,0,,Tôi đã biết chuyện đó rồi!
+Dialogue: 0,0:25:18.14,0:25:20.68,Default,,0,0,0,,Tiến sĩ Tenma! Tôi vừa nhận một tin xấu.
+Dialogue: 0,0:25:21.60,0:25:25.52,Default,,0,0,0,,Trong vụ đánh bom ở khu Timur vừa qua\NTiến sĩ Abullah đã không may qua đời rồi.
+Dialogue: 0,0:25:27.03,0:25:27.95,Default,,0,0,0,,Thông tin đã được xác nhận chưa?
+Dialogue: 0,0:25:28.61,0:25:31.11,Default,,0,0,0,,Chúng tôi đã cứu được Tiến sĩ ra khỏi\Nđống đổ nát, nhưng mà… chỉ một lúc sau…
+Dialogue: 0,0:25:31.20,0:25:33.70,Default,,0,0,0,,thì ông ấy đã không qua khỏi.
+Dialogue: 0,0:25:38.66,0:25:42.08,Default,,0,0,0,,Tenma… Tiến sĩ Tenma,\Nxin hãy nghe tôi nói.
+Dialogue: 0,0:25:43.21,0:25:47.88,Default,,0,0,0,,Con chip này chứa bản sao một phần não\Nbộ của tôi. Nó rất quan trọng. Cho nên…
+Dialogue: 0,0:25:48.71,0:25:50.96,Default,,0,0,0,,Tiến sĩ Tenma, tôi biết ông có…
+Dialogue: 0,0:25:53.59,0:25:55.18,Default,,0,0,0,,Và Tiến sĩ đã để lại cái này cho ông.
+Dialogue: 0,0:26:02.94,0:26:05.78,Default,,0,0,0,,Cái thứ này chứa đựng\Nsự căm hận của Abullah.
+Dialogue: 0,0:26:07.27,0:26:08.40,Default,,0,0,0,,Ông ấy muốn ta cài vào ngươi.
+Dialogue: 0,0:26:14.32,0:26:15.66,Default,,0,0,0,,Thôi chết, bom dội đến khu vực này rồi.
+Dialogue: 0,0:26:36.60,0:26:37.52,Default,,0,0,0,,Khuôn mặt đó…
+Dialogue: 0,0:26:40.22,0:26:41.39,Default,,0,0,0,,Vậy, ý của cháu…
+Dialogue: 0,0:26:41.47,0:26:44.02,Default,,0,0,0,,Kẻ chúng ta gặp bấy lâu\Nnay, người tự xưng Abullah…
+Dialogue: 0,0:26:52.94,0:26:54.19,Default,,0,0,0,,Kẻ đó không ai khác chính là ngươi.
+Dialogue: 0,0:26:54.86,0:26:55.78,Default,,0,0,0,,Ngươi nói dối.
+Dialogue: 0,0:26:56.70,0:26:58.70,Default,,0,0,0,,Nói dối sao? Vậy được rồi.
+Dialogue: 0,0:27:00.29,0:27:01.79,Default,,0,0,0,,Để ta nói thêm một điều nữa.
+Dialogue: 0,0:27:02.91,0:27:06.00,Default,,0,0,0,,Trí tuệ nhân tạo tiên tiến nhất\Nthế giới hoàn toàn có thể nói dối.
+Dialogue: 0,0:27:06.83,0:27:09.58,Default,,0,0,0,,Nó dễ dàng lừa dối người\Nkhác, cũng như chính mình.
+Dialogue: 0,0:27:12.80,0:27:18.35,Default,,0,0,0,,Nhà khoa học thiên tài Goji… Không\Nphải ai khác xa lạ. Mà chính là ngươi.
+Dialogue: 0,0:27:20.81,0:27:22.65,Default,,0,0,0,,Goji thực ra cũng chính là Abullah.
+Dialogue: 0,0:27:23.64,0:27:25.85,Default,,0,0,0,,Lần đầu tiên trong lĩnh vực công\Nnghệ, một robot đa nhân cách đã ra đời.
+Dialogue: 0,0:27:26.77,0:27:31.52,Default,,0,0,0,,Ta chính là Goji… Ngươi nói dối…\NNgươi đang nói dối! Ngươi nói dối!
+Dialogue: 0,0:27:32.19,0:27:33.86,Default,,0,0,0,,Nếu vậy thì giờ Goji đang ở đâu hả?
+Dialogue: 0,0:27:35.65,0:27:38.19,Default,,0,0,0,,Ngươi vốn không cần ta\Nthực hiện cấy ghép làm gì.
+Dialogue: 0,0:27:38.82,0:27:41.07,Default,,0,0,0,,Vì căn bản là trí tuệ nhân tạo của ngươi\Nđã được chuyển sang rất nhiều robot khác
+Dialogue: 0,0:27:41.16,0:27:43.45,Default,,0,0,0,,nhau.
+Dialogue: 0,0:27:46.33,0:27:50.08,Default,,0,0,0,,Nói dối! Ngươi là đồ nói dối! Nói dối!!
+Dialogue: 0,0:27:50.17,0:27:52.51,Default,,0,0,0,,Đã đến lúc chấm dứt. Thế giới đã hoàn\Ntoàn có thể thấu hiểu được nỗi đau của
+Dialogue: 0,0:27:52.59,0:27:54.97,Default,,0,0,0,,ngươi rồi.
+Dialogue: 0,0:28:10.98,0:28:14.36,Default,,0,0,0,,Sau khi cho vị vua của Uzbek cổ\Nđại thấy được sự thật về cuộc sống,
+Dialogue: 0,0:28:15.07,0:28:18.70,Default,,0,0,0,,Vị hiền triết huyền thoại của\Ncát đã biến trở lại thành đất sét.
+Dialogue: 0,0:28:19.91,0:28:22.41,Default,,0,0,0,,Tên của vị hiền triết đó là Goji.
+Dialogue: 0,0:28:24.79,0:28:27.25,Default,,0,0,0,,Người duy nhất ở đây có thể\Ncứu được ngươi là ta đây.
+Dialogue: 0,0:28:29.08,0:28:35.25,Default,,0,0,0,,Abullah đã tạo ra Pluto, và đúng\Nnhư kế hoạch Goji đã tạo ra Bora.
+Dialogue: 0,0:28:36.51,0:28:39.51,Default,,0,0,0,,Từ đó Pluto… thừa hưởng\Nsự thù hận của Abullah.
+Dialogue: 0,0:28:41.34,0:28:44.43,Default,,0,0,0,,Chính vì vậy hắn căm ghét bảy\Nrobot siêu việt nhất thế giới.
+Dialogue: 0,0:28:45.10,0:28:46.14,Default,,0,0,0,,Và rồi, Bora thế nào?
+Dialogue: 0,0:28:56.99,0:28:57.91,Default,,0,0,0,,Không xong rồi…
+Dialogue: 0,0:29:05.54,0:29:09.79,Default,,0,0,0,,Bora bây giờ không còn là robot được\Nthiết kế vì mục đích môi trường nữa.
+Dialogue: 0,0:29:10.50,0:29:12.88,Default,,0,0,0,,Nghĩa là bây giờ hắn đã biến\Nthành vũ khí hủy diệt hàng loạt à.
+Dialogue: 0,0:29:12.96,0:29:14.80,Default,,0,0,0,,Chúng ta phải nhanh chóng báo\Ncho cả thế giới biết chuyện này!
+Dialogue: 0,0:29:15.63,0:29:17.59,Default,,0,0,0,,Dù bác có làm vậy, cũng\Nkhông còn chỗ để chạy đâu.
+Dialogue: 0,0:29:19.47,0:29:21.85,Default,,0,0,0,,Bởi vì toàn bộ Trái\NĐất này sẽ bị hủy diệt.
+Dialogue: 0,0:29:45.45,0:29:49.37,Default,,0,0,0,,Bây giờ tôi xin trân trọng tuyên\Nbố Tòa án quân sự 108 bắt đầu.
+Dialogue: 0,0:29:50.41,0:29:51.79,Default,,0,0,0,,Xin mời bị cáo đọc tuyên thệ.
+Dialogue: 0,0:30:00.34,0:30:02.93,Default,,0,0,0,,Đừng mất bình tĩnh vì một\Ntrận động đất nhỏ như vậy.
+Dialogue: 0,0:30:04.76,0:30:06.55,Default,,0,0,0,,Cái gì, dữ liệu lạ vậy nè?
+Dialogue: 0,0:30:08.22,0:30:09.22,Default,,0,0,0,,Như vậy không ổn đâu.
+Dialogue: 0,0:30:10.35,0:30:13.10,Default,,0,0,0,,Rất có thể… cả Trái Đất sẽ…
+Dialogue: 0,0:30:13.85,0:30:16.94,Default,,0,0,0,,Các ngươi cứ chờ đi vì\NNgày Tận Thế sẽ đến sớm thôi.
+Dialogue: 0,0:30:18.15,0:30:21.74,Default,,0,0,0,,Bị cáo Darius XIV! Bị cáo không\Nđược phát biểu khi chưa được cho phép!
+Dialogue: 0,0:30:23.07,0:30:27.83,Default,,0,0,0,,Nhưng mà lần này thật sự không phải do\Nta làm đâu. Ta không gây ra chuyện này.
+Dialogue: 0,0:30:27.91,0:30:28.83,Default,,0,0,0,,Bị cáo im lặng!
+Dialogue: 0,0:30:29.83,0:30:32.17,Default,,0,0,0,,Nguyên nhân là… do thù hận.
+Dialogue: 0,0:30:48.64,0:30:50.14,Default,,0,0,0,,Xin đừng làm vậy, thưa Bệ hạ.
+Dialogue: 0,0:30:53.60,0:30:55.81,Default,,0,0,0,,Bây giờ không phải là lúc\Nngài tự sát để trốn chạy.
+Dialogue: 0,0:30:56.86,0:30:58.49,Default,,0,0,0,,Đừng ngăn cản ta, Abullah.
+Dialogue: 0,0:30:58.57,0:31:00.57,Default,,0,0,0,,Bệ hạ, tôi muốn cho ngài xem một thứ.
+Dialogue: 0,0:31:06.61,0:31:08.61,Default,,0,0,0,,Pluto… Đã hoàn thành rồi.
+Dialogue: 0,0:31:09.83,0:31:12.08,Default,,0,0,0,,Hãy dùng nó để giết hết bọn chúng! Giết\Nhết bảy con robot siêu việt đáng nguyền
+Dialogue: 0,0:31:12.16,0:31:14.45,Default,,0,0,0,,rủa đó cho ta!
+Dialogue: 0,0:31:15.42,0:31:19.30,Default,,0,0,0,,Vụ này cứ giao cho tôi. Tôi cũng sẽ\Nxử lý cả Phái đoàn Điều tra viên Bora.
+Dialogue: 0,0:31:20.25,0:31:22.67,Default,,0,0,0,,Nhưng kẻ sai trái nhất\Ntrong chuyện này là Thracia.
+Dialogue: 0,0:31:23.30,0:31:25.72,Default,,0,0,0,,Chỉ tiếc là ta lại không\Nthể làm gì được bọn chúng.
+Dialogue: 0,0:31:26.55,0:31:28.43,Default,,0,0,0,,Có thể mà, thưa Bệ hạ.
+Dialogue: 0,0:31:31.06,0:31:34.27,Default,,0,0,0,,Có thể thực hiện. Việc\Nđó tôi có thể làm được.
+Dialogue: 0,0:31:35.69,0:31:37.73,Default,,0,0,0,,Tất cả im lặng. Tất cả im lặng!
+Dialogue: 0,0:31:37.81,0:31:40.31,Default,,0,0,0,,Chính sự thù hận đã gây\Nra tất cả chuyện này.
+Dialogue: 0,0:31:41.32,0:31:43.20,Default,,0,0,0,,Không ai có thể thoát được đâu.
+Dialogue: 0,0:31:48.36,0:31:49.28,Default,,0,0,0,,Hửm?
+Dialogue: 0,0:31:49.37,0:31:50.58,Default,,0,0,0,,Một vụ phun trào lớn?
+Dialogue: 0,0:31:50.66,0:31:54.00,Default,,0,0,0,,Dạ, thưa ngài Tổng thống. Chắc chắn\Nsẽ xảy ra một trận phun trào rất lớn.
+Dialogue: 0,0:31:54.62,0:31:55.83,Default,,0,0,0,,Xảy ra ở đâu?
+Dialogue: 0,0:31:55.91,0:31:56.87,Default,,0,0,0,,Lớn cỡ nào?
+Dialogue: 0,0:31:56.96,0:31:59.59,Default,,0,0,0,,Cậu ấy sẽ nói rõ hơn. Đây\Nlà robot dự báo thời tiết…
+Dialogue: 0,0:31:59.67,0:32:00.55,Default,,0,0,0,,Arnold đã sẵn sàng.
+Dialogue: 0,0:32:02.30,0:32:05.68,Default,,0,0,0,,Một robot dự đoán núi lửa sẽ phun\Ntrào sao? Đúng là ấn tượng thật.
+Dialogue: 0,0:32:06.38,0:32:08.76,Default,,0,0,0,,Nhờ có cậu cảnh báo, mà\Nnhiều sinh mạng đã được cứu rồi.
+Dialogue: 0,0:32:09.51,0:32:11.85,Default,,0,0,0,,Ngài Tổng thống, tôi chỉ e là… chúng ta\Nsẽ không thể cứu được nhiều sinh mạng như
+Dialogue: 0,0:32:11.93,0:32:14.27,Default,,0,0,0,,ngài nói.
+Dialogue: 0,0:32:16.18,0:32:17.47,Default,,0,0,0,,Vụ phun trào…
+Dialogue: 0,0:32:19.06,0:32:20.73,Default,,0,0,0,,Sẽ xảy ra ở Vườn Quốc gia Eden.
+Dialogue: 0,0:32:23.61,0:32:25.70,Default,,0,0,0,,Rất gần rồi.
+Dialogue: 0,0:32:25.78,0:32:29.20,Default,,0,0,0,,Thời khắc thức tỉnh rất gần rồi.
+Dialogue: 0,0:32:34.83,0:32:38.17,Default,,0,0,0,,Tuy là ở Vườn Quốc gia Eden không\Ntồn tại bất cứ miệng núi lửa nào.
+Dialogue: 0,0:32:38.92,0:32:42.42,Default,,0,0,0,,Nhưng dưới đó là hồ dung nham\Nkhổng lồ nằm cách mặt đất tám kilômét.
+Dialogue: 0,0:32:43.09,0:32:45.76,Default,,0,0,0,,Lượng dung nham của hồ này chứa 3.000 ký\Nlô mét khối, liên tục dao động do sự dịch
+Dialogue: 0,0:32:45.84,0:32:48.55,Default,,0,0,0,,chuyển của chất lỏng hình thành quặng.
+Dialogue: 0,0:32:49.80,0:32:50.72,Default,,0,0,0,,Tình trạng hiện tại?
+Dialogue: 0,0:32:50.80,0:32:51.68,Default,,0,0,0,,Dạ, nó đang phình ra.
+Dialogue: 0,0:32:52.89,0:32:53.81,Default,,0,0,0,,Chu kỳ phun trào thì sao?
+Dialogue: 0,0:32:54.56,0:32:56.77,Default,,0,0,0,,Dạ khoảng… 5.000 năm một lần.
+Dialogue: 0,0:32:56.85,0:32:58.02,Default,,0,0,0,,Lần cuối cùng phun trào là khi nào?
+Dialogue: 0,0:32:58.94,0:33:00.36,Default,,0,0,0,,Là 5.200 năm trước.
+Dialogue: 0,0:33:03.15,0:33:05.44,Default,,0,0,0,,Nếu… núi lửa phun trào chuyện gì xảy ra?
+Dialogue: 0,0:33:06.28,0:33:09.91,Default,,0,0,0,,Nó sẽ liên tục phóng ra 100 triệu\Ntấn than xỉ cùng với tro bụi mỗi giờ,
+Dialogue: 0,0:33:10.49,0:33:12.62,Default,,0,0,0,,Và luồng mạt vụn núi lửa sẽ phá hủy…\Ntoàn bộ khu vực trong bán kính vài trăm
+Dialogue: 0,0:33:12.70,0:33:14.87,Default,,0,0,0,,kilômét.
+Dialogue: 0,0:33:15.83,0:33:18.75,Default,,0,0,0,,Nhiệt độ của luồng mạt vụn\Nnày… là khoảng 700 độ C,
+Dialogue: 0,0:33:18.83,0:33:21.50,Default,,0,0,0,,Tốc độ của nó, có thể\Nđạt 300 kilômét một giờ.
+Dialogue: 0,0:33:23.38,0:33:26.59,Default,,0,0,0,,Tro núi lửa bị đẩy ra sẽ ngay lập tức đạt\Ntới độ cao 50 kilômét trong tầng bình lưu,
+Dialogue: 0,0:33:26.67,0:33:29.88,Default,,0,0,0,,bao phủ toàn bộ hành tinh này.
+Dialogue: 0,0:33:30.97,0:33:34.97,Default,,0,0,0,,Hàng trăm tấn tro bụi sẽ bao\Nphủ và che khuất Mặt Trời.
+Dialogue: 0,0:33:35.72,0:33:36.97,Default,,0,0,0,,Cây cối sẽ khô héo hết,
+Dialogue: 0,0:33:39.06,0:33:41.27,Default,,0,0,0,,Bên cạnh đó, sau một thời gian dài hứng\Nchịu mưa axit, giai đoạn băng hà cực độ sẽ
+Dialogue: 0,0:33:41.35,0:33:43.60,Default,,0,0,0,,bắt đầu.
+Dialogue: 0,0:33:44.69,0:33:48.61,Default,,0,0,0,,Do đó chỉ trong vài tháng, phần lớn\Nmọi sinh vật sống đều sẽ chết hết.
+Dialogue: 0,0:33:51.03,0:33:54.41,Default,,0,0,0,,Và như cậu nói, viễn cảnh xấu\Nnhất này đang sắp sửa xảy ra sao?
+Dialogue: 0,0:33:55.07,0:33:56.95,Default,,0,0,0,,Trong điều kiện bình\Nthường… thì không xảy ra.
+Dialogue: 0,0:33:57.83,0:33:59.00,Default,,0,0,0,,-Hả?\N-Hả?
+Dialogue: 0,0:33:59.08,0:34:01.46,Default,,0,0,0,,Đúng là hồ dung nham vẫn đang phình ra\Nnhanh chóng, nhưng không vì vậy mà có thể
+Dialogue: 0,0:34:01.54,0:34:03.92,Default,,0,0,0,,khiến miệng hõm chảo mở ra.
+Dialogue: 0,0:34:04.58,0:34:06.83,Default,,0,0,0,,Vậy nên nó sẽ không gây\Nra phun trào thảm họa.
+Dialogue: 0,0:34:08.96,0:34:10.96,Default,,0,0,0,,Sao hồi nãy cậu nói nghe đáng sợ vậy?
+Dialogue: 0,0:34:11.05,0:34:13.72,Default,,0,0,0,,Cứ làm như là Trái Đất\Nsắp tận thế tới nơi rồi…
+Dialogue: 0,0:34:13.80,0:34:14.72,Default,,0,0,0,,Tuy nhiên…
+Dialogue: 0,0:34:16.68,0:34:18.64,Default,,0,0,0,,Nếu có một thứ gì đó nhân tạo… đột ngột\Ntiến vào trong hồ dung nham thì sẽ nguy
+Dialogue: 0,0:34:18.72,0:34:20.68,Default,,0,0,0,,lắm…
+Dialogue: 0,0:34:22.35,0:34:23.31,Default,,0,0,0,,Thứ này là gì đây?
+Dialogue: 0,0:34:23.94,0:34:25.65,Default,,0,0,0,,Dạ, đây là bản mô phỏng của tôi.
+Dialogue: 0,0:34:26.40,0:34:29.57,Default,,0,0,0,,Ví dụ thứ đang di chuyển là một\Nquả bom phản proton thì chắc chắn…
+Dialogue: 0,0:34:32.24,0:34:33.70,Default,,0,0,0,,Bom phản proton…
+Dialogue: 0,0:34:36.53,0:34:39.62,Default,,0,0,0,,Thưa ngài Tổng thống, đã xảy ra chuyện\Nrồi! Vừa mới đây, tại tòa án quân sự…
+Dialogue: 0,0:34:40.29,0:34:43.38,Default,,0,0,0,,Không ai có thể thoát được đâu. Bởi vì\Nmột quả bom khổng lồ sẽ nổ ngay bên dưới
+Dialogue: 0,0:34:43.46,0:34:46.59,Default,,0,0,0,,Thracia.
+Dialogue: 0,0:34:55.64,0:34:57.52,Default,,0,0,0,,Chào, có chuyện gì vậy?
+Dialogue: 0,0:34:58.47,0:34:59.64,Default,,0,0,0,,Đừng nói với ta là ngươi đã…
+Dialogue: 0,0:35:00.64,0:35:02.43,Default,,0,0,0,,À, tôi đã biết trước rồi.
+Dialogue: 0,0:35:03.39,0:35:06.10,Default,,0,0,0,,Tại sao một chuyện hệ trọng như vậy\Nmà ngươi lại không nói cho ta biết hả?
+Dialogue: 0,0:35:06.73,0:35:08.90,Default,,0,0,0,,Cái con robot dự báo\Nthời tiết đó thiệt là…
+Dialogue: 0,0:35:08.98,0:35:10.02,Default,,0,0,0,,Hả?
+Dialogue: 0,0:35:10.11,0:35:12.99,Default,,0,0,0,,Không hiểu tại sao nó lại giả\Nbộ bồn chồn lo lắng tới vậy nữa.
+Dialogue: 0,0:35:13.69,0:35:14.61,Default,,0,0,0,,Giả bộ sao?
+Dialogue: 0,0:35:14.70,0:35:19.66,Default,,0,0,0,,Đúng rồi. Như nó đã nói với ông đó.\NPhần lớn mọi sinh vật sống đều sẽ chết.
+Dialogue: 0,0:35:21.79,0:35:24.21,Default,,0,0,0,,Nhưng Robot chúng tôi thì mãi trường tồn.
+Dialogue: 0,0:35:27.13,0:35:29.63,Default,,0,0,0,,Ông đừng lo. Theo dự tính thì khoảng\Nmười phần trăm dân số Trái Đất cũng sẽ
+Dialogue: 0,0:35:29.71,0:35:32.21,Default,,0,0,0,,sống sót.
+Dialogue: 0,0:35:33.05,0:35:37.10,Default,,0,0,0,,Số người còn lại đó là món quà của tôi\Ndành cho ông, ngài Tổng thống yêu quý.
+Dialogue: 0,0:35:39.26,0:35:41.43,Default,,0,0,0,,Tiến sĩ Ochanomizu, chuyện là vậy đó.
+Dialogue: 0,0:35:42.43,0:35:44.64,Default,,0,0,0,,Thì ra đây là ý của cháu khi nói rằng… cả\NTrái Đất sẽ nổ tung có phải như vậy không
+Dialogue: 0,0:35:44.73,0:35:46.98,Default,,0,0,0,,hả?
+Dialogue: 0,0:35:47.69,0:35:48.57,Default,,0,0,0,,Dạ đúng.
+Dialogue: 0,0:35:48.65,0:35:52.40,Default,,0,0,0,,Khoan… khoan đã. Tôi muốn hỏi\Nchừng nào thì vụ nổ này sẽ xảy ra vậy?
+Dialogue: 0,0:35:56.15,0:35:59.82,Default,,0,0,0,,Nếu nó cứ tiếp tục di chuyển với tốc độ\Nhiện tại, thì trong khoảng 72 tiếng sắp
+Dialogue: 0,0:35:59.91,0:36:03.62,Default,,0,0,0,,tới, Bora sẽ đến được trung\Ntâm của Vườn Quốc gia Eden.
+Dialogue: 0,0:36:04.33,0:36:05.79,Default,,0,0,0,,Ấn tượng đó, Tiến sĩ Ochanomizu.
+Dialogue: 0,0:36:06.58,0:36:09.04,Default,,0,0,0,,Nhưng làm sao mà chúng ta biết\Nđược là nó sẽ không bất ngờ tăng tốc?
+Dialogue: 0,0:36:09.88,0:36:11.84,Default,,0,0,0,,Theo cháu nghĩ thì nghĩ dự\Nđoán của Tiến sĩ rất chính xác.
+Dialogue: 0,0:36:12.71,0:36:13.67,Default,,0,0,0,,Làm sao cháu biết được?
+Dialogue: 0,0:36:17.76,0:36:19.01,Default,,0,0,0,,72 Tiếng nữa tính từ bây giờ…
+Dialogue: 0,0:36:19.72,0:36:21.85,Default,,0,0,0,,Là sẽ tròn bốn năm kể từ lúc Tiến sĩ\NAbullah mất đi gia đình, bắt đầu căm hận
+Dialogue: 0,0:36:21.93,0:36:24.06,Default,,0,0,0,,thế giới.
+Dialogue: 0,0:36:24.60,0:36:27.90,Default,,0,0,0,,Thì ra là vậy. Đúng vào ngày\Nkỷ niệm lòng hận thù sinh ra…
+Dialogue: 0,0:36:28.90,0:36:30.61,Default,,0,0,0,,Không có cách nào để ngăn nó lại sao?
+Dialogue: 0,0:36:31.19,0:36:33.86,Default,,0,0,0,,Hiện Bora… nó đang di\Nchuyển khá sâu ở dưới lòng đất.
+Dialogue: 0,0:36:34.73,0:36:36.98,Default,,0,0,0,,Trên Trái Đất này không có thứ gì khác…\Ncó thể đạt tới độ sâu như Bora đang làm
+Dialogue: 0,0:36:37.07,0:36:39.36,Default,,0,0,0,,được.
+Dialogue: 0,0:36:40.28,0:36:43.37,Default,,0,0,0,,Cơ hội duy nhất để ngăn việc này sẽ vào\Nđúng thời điểm… mà Bora tiến đến gần mặt
+Dialogue: 0,0:36:43.45,0:36:46.54,Default,,0,0,0,,đất để kích hoạt phun trào.
+Dialogue: 0,0:36:47.71,0:36:51.76,Default,,0,0,0,,Nếu đến mức đó, thì… robot duy\Nnhất có thể ngăn Bora chỉ có thể là…
+Dialogue: 0,0:36:57.92,0:36:58.84,Default,,0,0,0,,Bác cứ để đó cho cháu.
+Dialogue: 0,0:37:00.68,0:37:01.60,Default,,0,0,0,,Atom ơi…
+Dialogue: 0,0:37:05.35,0:37:06.39,Default,,0,0,0,,Vấn đề là…
+Dialogue: 0,0:37:06.47,0:37:07.39,Default,,0,0,0,,Trước khi việc đó xảy ra…
+Dialogue: 0,0:37:08.94,0:37:10.69,Default,,0,0,0,,Cháu vẫn còn một việc cần phải hoàn thành.
+Dialogue: 0,0:37:13.27,0:37:16.48,Default,,0,0,0,,Chà chà, quá lâu rồi\Nchúng ta mới gặp lại nhau.
+Dialogue: 0,0:37:17.24,0:37:19.62,Default,,0,0,0,,Ta hạnh phúc lắm luôn, bạn của ta.
+Dialogue: 0,0:37:20.78,0:37:22.87,Default,,0,0,0,,Hôm nay tôi đến đây mục đích\Nlà vì muốn nhờ ông một việc.
+Dialogue: 0,0:37:23.78,0:37:24.91,Default,,0,0,0,,Ồ?
+Dialogue: 0,0:37:24.99,0:37:26.58,Default,,0,0,0,,Ta cũng có chuyện muốn hỏi cậu đây.
+Dialogue: 0,0:37:27.70,0:37:29.74,Default,,0,0,0,,Cậu định sẽ làm gì với công thức đó hả?
+Dialogue: 0,0:37:30.79,0:37:31.67,Default,,0,0,0,,Vậy là ông cũng biết rồi.
+Dialogue: 0,0:37:32.58,0:37:33.83,Default,,0,0,0,,Ta đã bắt được chúng tức thì.
+Dialogue: 0,0:37:34.71,0:37:39.13,Default,,0,0,0,,Luồng sóng não khá kỳ lạ mà cậu đã\Nphát ra khi ngồi viết cái công thức đó…
+Dialogue: 0,0:37:40.63,0:37:41.59,Default,,0,0,0,,Tôi đang rất hối hận.
+Dialogue: 0,0:37:42.59,0:37:45.09,Default,,0,0,0,,Khi tỉnh dậy trong phòng thí nghiệm, tôi\Nđã để bản thân chìm sâu vào làn sóng hận
+Dialogue: 0,0:37:45.18,0:37:47.68,Default,,0,0,0,,thù đang bao trùm trên khắp thế giới.
+Dialogue: 0,0:37:48.47,0:37:51.31,Default,,0,0,0,,Hẳn là kẻ thù cũng đã\Nnhanh chóng nhận ra điều đó.
+Dialogue: 0,0:37:52.60,0:37:53.60,Default,,0,0,0,,Phải.
+Dialogue: 0,0:37:53.69,0:37:55.86,Default,,0,0,0,,Đó là lý do tôi tới đây\Nđể nhờ ông giúp một việc.
+Dialogue: 0,0:37:57.36,0:37:59.78,Default,,0,0,0,,Ý cậu là muốn nhắc tới\Nmối đe dọa kia chứ gì.
+Dialogue: 0,0:38:17.04,0:38:20.34,Default,,0,0,0,,Ta sẽ đáp ứng yêu cầu của\Ncậu. Không cần bận tâm làm gì.
+Dialogue: 0,0:38:21.72,0:38:23.81,Default,,0,0,0,,Được vậy thì tôi thật\Nsự cảm ơn ông nhiều lắm.
+Dialogue: 0,0:38:26.22,0:38:27.14,Default,,0,0,0,,Atom!
+Dialogue: 0,0:38:29.81,0:38:31.48,Default,,0,0,0,,Để ta chạm vào cậu được không?
+Dialogue: 0,0:38:50.54,0:38:51.62,Default,,0,0,0,,Đúng là rất ấm áp.
+Dialogue: 0,0:38:53.12,0:38:56.50,Default,,0,0,0,,Atom à… Điều này thật khó tả…
+Dialogue: 0,0:38:57.75,0:39:00.21,Default,,0,0,0,,Vậy ra đây là… một trái tim…
+Dialogue: 0,0:39:08.55,0:39:09.63,Default,,0,0,0,,Đẹp quá à.
+Dialogue: 0,0:39:10.60,0:39:12.14,Default,,0,0,0,,Nhìn nó giống hệt như nhà mới luôn á.
+Dialogue: 0,0:39:13.18,0:39:15.85,Default,,0,0,0,,Cho nên mới nói, chọn tin tưởng cô\NHelena là một quyết định sáng suốt.
+Dialogue: 0,0:39:16.52,0:39:19.11,Default,,0,0,0,,Đây là công việc của tôi mà, thấy\Nanh chị hài lòng tôi cũng mừng.
+Dialogue: 0,0:39:19.86,0:39:22.40,Default,,0,0,0,,Mình đã luôn mơ về cuộc sống\Ntrong ngôi nhà giống như vầy, anh ha?
+Dialogue: 0,0:39:22.49,0:39:23.41,Default,,0,0,0,,Phải.
+Dialogue: 0,0:39:24.32,0:39:26.91,Default,,0,0,0,,Về việc thiết kế không gian\Nngoại thất, tôi sẽ gọi lại sau.
+Dialogue: 0,0:39:27.95,0:39:28.87,Default,,0,0,0,,Cảm ơn cô.
+Dialogue: 0,0:39:46.34,0:39:47.26,Default,,0,0,0,,Anh Gesicht…
+Dialogue: 0,0:39:57.27,0:39:58.19,Default,,0,0,0,,Atom à.
+Dialogue: 0,0:40:00.52,0:40:01.48,Default,,0,0,0,,Chắc cô là Helena.
+Dialogue: 0,0:40:02.57,0:40:06.16,Default,,0,0,0,,Có phải là bây giờ chồng cô\Nở trong cháu, có phải không?
+Dialogue: 0,0:40:07.45,0:40:08.37,Default,,0,0,0,,Dạ đúng vậy.
+Dialogue: 0,0:40:08.45,0:40:10.37,Default,,0,0,0,,Cũng nhờ có chú Gesicht mà\Ncháu mới được sống lại lần nữa.
+Dialogue: 0,0:40:26.63,0:40:27.55,Default,,0,0,0,,Cảm ơn cháu.
+Dialogue: 0,0:40:30.39,0:40:32.10,Default,,0,0,0,,Cô cảm ơn cháu rất nhiều, Atom.
+Dialogue: 0,0:40:32.97,0:40:34.26,Default,,0,0,0,,Cháu tới để nói cho cô biết.
+Dialogue: 0,0:40:34.35,0:40:35.23,Default,,0,0,0,,Hả?
+Dialogue: 0,0:40:35.31,0:40:38.52,Default,,0,0,0,,Trong suốt cả cuộc đời mình, lúc\Nnào chú Gesicht cũng nghĩ về cô.
+Dialogue: 0,0:40:39.56,0:40:42.81,Default,,0,0,0,,Cho đến giây phút cuối cùng, chú ấy vẫn\Nmuốn được gặp lại cô thêm một lần nữa.
+Dialogue: 0,0:40:46.82,0:40:48.74,Default,,0,0,0,,Chú ấy muốn cô biết rằng dù bất cứ chuyện\Ngì xảy ra, cô sẽ không bao giờ cảm thấy
+Dialogue: 0,0:40:48.82,0:40:50.74,Default,,0,0,0,,đơn độc.
+Dialogue: 0,0:40:57.79,0:40:58.79,Default,,0,0,0,,Cảm ơn cháu, Atom.
+Dialogue: 0,0:40:59.79,0:41:01.63,Default,,0,0,0,,Cháu đang cố gắng làm\Ncô vui lên, đúng không?
+Dialogue: 0,0:41:03.00,0:41:06.17,Default,,0,0,0,,Dù vậy nhưng đó là sự thật. Robot\Nkhông thể nói dối, cô quên rồi sao?
+Dialogue: 0,0:41:07.84,0:41:08.76,Default,,0,0,0,,Cháu nói đúng.
+Dialogue: 0,0:41:09.43,0:41:10.43,Default,,0,0,0,,Xem nữa cô quên.
+Dialogue: 0,0:41:11.55,0:41:13.72,Default,,0,0,0,,Cô là robot mà khóc nhiều như\Nvầy thì lạ lùng quá ha cháu.
+Dialogue: 0,0:41:14.81,0:41:15.73,Default,,0,0,0,,Không đâu cô.
+Dialogue: 0,0:41:17.77,0:41:20.65,Default,,0,0,0,,Cô có thể… hỏi cháu một câu không?
+Dialogue: 0,0:41:20.73,0:41:21.61,Default,,0,0,0,,Dạ.
+Dialogue: 0,0:41:21.69,0:41:24.65,Default,,0,0,0,,Cách đây không lâu, cô và chú nhận thấy\Nhai cô chú đã bị mất một đoạn kí ức ở cùng
+Dialogue: 0,0:41:24.73,0:41:27.77,Default,,0,0,0,,một khoảng thời gian.
+Dialogue: 0,0:41:28.86,0:41:32.70,Default,,0,0,0,,Và cho đến hôm nay, cô vẫn không thể\Nnhớ ra đoạn kí ức bị mất đó là gì.
+Dialogue: 0,0:41:33.87,0:41:36.12,Default,,0,0,0,,Nhưng còn chú Gesicht thì… Cô luôn tự\Nhỏi rằng liệu chú ấy có biết chúng là gì
+Dialogue: 0,0:41:36.20,0:41:38.49,Default,,0,0,0,,không.
+Dialogue: 0,0:41:40.71,0:41:43.59,Default,,0,0,0,,Đoạn ký ức đã bị mất đó\Ncủa cô chú, cháu biết không?
+Dialogue: 0,0:41:44.75,0:41:47.09,Default,,0,0,0,,Dạ thưa không, chú Gesicht\Nhoàn toàn không hay biết gì hết.
+Dialogue: 0,0:41:48.76,0:41:50.43,Default,,0,0,0,,Cháu đang giấu cô điều\Ngì, đúng không Atom?
+Dialogue: 0,0:41:51.26,0:41:52.55,Default,,0,0,0,,Dạ không.
+Dialogue: 0,0:41:52.64,0:41:53.89,Default,,0,0,0,,Dù cho nó có đau thương đến mức nào thì\Ncô cũng sẵn sàng đón nhận tất cả. Nên xin
+Dialogue: 0,0:41:53.97,0:41:56.14,Default,,0,0,0,,cháu…
+Dialogue: 0,0:41:56.22,0:41:57.10,Default,,0,0,0,,Cứ kể hết cho cô biết đi.
+Dialogue: 0,0:42:01.19,0:42:03.23,Default,,0,0,0,,Dạ thưa không, cháu biết\Ngì thì đã nói hết rồi.
+Dialogue: 0,0:42:06.61,0:42:07.53,Default,,0,0,0,,Cô hiểu…
+Dialogue: 0,0:42:09.28,0:42:10.20,Default,,0,0,0,,Giờ cháu đi luôn hay sao?
+Dialogue: 0,0:42:10.82,0:42:11.74,Default,,0,0,0,,Dạ.
+Dialogue: 0,0:42:15.62,0:42:16.54,Default,,0,0,0,,Atom à.
+Dialogue: 0,0:42:19.45,0:42:21.58,Default,,0,0,0,,Cô có thể… gặp lại cháu không?
+Dialogue: 0,0:42:22.62,0:42:23.54,Default,,0,0,0,,Dạ. Tất nhiên là được.
+Dialogue: 0,0:42:38.51,0:42:40.22,Default,,0,0,0,,Robot vốn là không thể nói dối được…
+Dialogue: 0,0:42:41.77,0:42:42.69,Default,,0,0,0,,Điều đó đúng.
+Dialogue: 0,0:42:43.39,0:42:46.31,Default,,0,0,0,,Nhưng mới vừa rồi, cháu\Nnói dối cô, đúng không?
+Dialogue: 0,0:42:55.45,0:42:56.37,Default,,0,0,0,,Cảm ơn cháu.
+Dialogue: 0,0:42:58.87,0:42:59.79,Default,,0,0,0,,Cảm ơn cháu…
+Dialogue: 0,0:43:00.54,0:43:01.46,Default,,0,0,0,,Atom.
+Dialogue: 0,0:43:06.29,0:43:07.21,Default,,0,0,0,,Chú Gesicht ơi.
+Dialogue: 0,0:43:07.79,0:43:08.71,Default,,0,0,0,,Đến lúc rồi.
+Dialogue: 0,0:43:09.92,0:43:11.42,Default,,0,0,0,,Cháu đã đến viếng tất cả mọi người.
+Dialogue: 0,0:43:12.55,0:43:14.59,Default,,0,0,0,,Để cho họ biết bây giờ\Nmọi chuyện sẽ kết thúc.
+Dialogue: 0,0:43:20.81,0:43:22.27,Default,,0,0,0,,Vậy là sắp bắt đầu rồi.
+Dialogue: 0,0:43:24.89,0:43:25.81,Default,,0,0,0,,Chú Gesicht à, cháu phải đi đây.
+Dialogue: 0,0:43:26.94,0:43:28.61,Default,,0,0,0,,Tạm biệt chú, chú Gesicht.
+Dialogue: 0,0:44:24.62,0:44:26.33,Default,,0,0,0,,Pluto!
+Dialogue: 0,0:45:03.74,0:45:05.28,Default,,0,0,0,,Ta nhất định sẽ tiêu diệt ngươi!
+Dialogue: 0,0:45:12.71,0:45:14.80,Default,,0,0,0,,Có thể bên trong tên quái vật\Nngươi luôn chất chứa đầy thù hận,
+Dialogue: 0,0:45:17.76,0:45:20.47,Default,,0,0,0,,Nhưng sự thù hận trong ta chắc\Nchắn còn lớn hơn ngươi nhiều.
+Dialogue: 0,0:45:23.55,0:45:24.47,Default,,0,0,0,,Anh Atom…
+Dialogue: 0,0:45:25.76,0:45:27.76,Default,,0,0,0,,Đừng làm vậy… anh Atom!
+Dialogue: 0,0:45:28.98,0:45:31.98,Default,,0,0,0,,Ngươi biết chú Mont\NBlanc… rất yêu rừng cây không.
+Dialogue: 0,0:45:33.52,0:45:35.65,Default,,0,0,0,,Chú ấy đã cố gắng bảo vệ\Nnhững khu rừng của Thụy Sĩ.
+Dialogue: 0,0:45:36.61,0:45:37.82,Default,,0,0,0,,Chú ấy không muốn chết.
+Dialogue: 0,0:45:39.53,0:45:42.16,Default,,0,0,0,,Chú North số 2 thì không\Nbao giờ muốn chiến đấu nữa.
+Dialogue: 0,0:45:43.28,0:45:45.07,Default,,0,0,0,,Chú ấy thực sự rất yêu thích âm nhạc.
+Dialogue: 0,0:45:45.78,0:45:47.74,Default,,0,0,0,,Và chú ấy cũng không hề muốn chết.
+Dialogue: 0,0:45:48.87,0:45:50.96,Default,,0,0,0,,Vậy mà ngươi đã giết họ!
+Dialogue: 0,0:45:52.21,0:45:55.30,Default,,0,0,0,,Đúng vậy. Ta đã giết chúng!
+Dialogue: 0,0:46:04.68,0:46:05.51,Default,,0,0,0,,Có cả chú Brando nữa.
+Dialogue: 0,0:46:06.72,0:46:10.10,Default,,0,0,0,,Chú ấy rất yêu gia đình và tin\Ntưởng vào tương lai tươi sáng.
+Dialogue: 0,0:46:11.10,0:46:14.19,Default,,0,0,0,,Mặc dù chú Brando và Hercules vẫn luôn\Nlà đối thủ, nhưng mà tình bạn của họ lại
+Dialogue: 0,0:46:14.27,0:46:17.36,Default,,0,0,0,,khăng khít và sâu đậm hơn bất cứ ai hết!
+Dialogue: 0,0:46:18.19,0:46:20.78,Default,,0,0,0,,Ta chắc chắn… là cả hai người họ…
+Dialogue: 0,0:46:22.70,0:46:26.54,Default,,0,0,0,,Không một ai muốn chết cả!
+Dialogue: 0,0:46:34.21,0:46:38.46,Default,,0,0,0,,Chú Epsilon… phản đối chiến tranh đến\Nmức từ chối nhiệm vụ và không nhập ngũ.
+Dialogue: 0,0:46:39.30,0:46:41.89,Default,,0,0,0,,Chú ấy đã cố gắng mang đến tình yêu thương\Ncho bọn trẻ những người đã mất hết tất cả
+Dialogue: 0,0:46:41.97,0:46:44.60,Default,,0,0,0,,trong cuộc chiến!
+Dialogue: 0,0:46:45.59,0:46:47.72,Default,,0,0,0,,Chú ấy cũng không muốn chết!
+Dialogue: 0,0:47:01.82,0:47:05.03,Default,,0,0,0,,Và đang hiện diện trong\Nngười ta là chú Gesicht…
+Dialogue: 0,0:47:07.74,0:47:09.45,Default,,0,0,0,,Với nỗi oán hận dâng tràn!
+Dialogue: 0,0:47:12.37,0:47:15.29,Default,,0,0,0,,Dừng lại đi, anh Atom! Từ nãy tới giờ\NPluto không hề dùng lốc xoáy! Nghĩa là,
+Dialogue: 0,0:47:15.37,0:47:18.29,Default,,0,0,0,,trong hắn vẫn còn một trái tim nhân hậu.
+Dialogue: 0,0:47:19.55,0:47:20.38,Default,,0,0,0,,Em sẽ đến đó ngay!
+Dialogue: 0,0:47:20.96,0:47:24.76,Default,,0,0,0,,Ờ nè. Uran. Con hãy bình tĩnh đi! Có\Ntới đó con cũng không giúp được gì đâu!
+Dialogue: 0,0:47:24.84,0:47:26.84,Default,,0,0,0,,Nhưng nếu chúng ta không\Nlàm gì đó, thì anh Atom sẽ…
+Dialogue: 0,0:47:26.93,0:47:29.18,Default,,0,0,0,,Sẽ không sao đâu mà. Chúng ta biết Atom\Nmạnh như thế nào. Cậu ấy sẽ không thua dễ
+Dialogue: 0,0:47:29.26,0:47:31.93,Default,,0,0,0,,dàng như vậy đâu!
+Dialogue: 0,0:47:32.02,0:47:33.31,Default,,0,0,0,,Nếu như anh ấy mạnh quá thì sao?
+Dialogue: 0,0:47:33.39,0:47:34.52,Default,,0,0,0,,Hả?
+Dialogue: 0,0:47:34.60,0:47:37.06,Default,,0,0,0,,Khi anh ấy trở nên quá mạnh, không\Nai có thể biết được anh ấy sẽ làm gì!
+Dialogue: 0,0:47:39.36,0:47:43.11,Default,,0,0,0,,Nếu như sự hận thù hay đau buồn của anh\Nấy quá lớn, thì anh Atom của con có thể…
+Dialogue: 0,0:47:43.99,0:47:45.24,Default,,0,0,0,,Có thể anh ấy sẽ giết người đó thầy!
+Dialogue: 0,0:47:47.24,0:47:48.32,Default,,0,0,0,,Con phải tin tưởng vào Atom.
+Dialogue: 0,0:47:49.03,0:47:51.58,Default,,0,0,0,,Đó là tất cả những gì mà\Nbây giờ chúng ta có thể làm.
+Dialogue: 0,0:47:52.66,0:47:55.41,Default,,0,0,0,,Thầy tin rằng Atom không như vậy đâu.
+Dialogue: 0,0:48:00.17,0:48:02.42,Default,,0,0,0,,Còn cách tín hiệu GPS của Atom 75km!
+Dialogue: 0,0:48:03.51,0:48:04.43,Default,,0,0,0,,Atom à…
+Dialogue: 0,0:48:05.55,0:48:07.01,Default,,0,0,0,,Và hôm nay ngươi sẽ…
+Dialogue: 0,0:48:07.97,0:48:09.14,Default,,0,0,0,,…Phải trả giá!
+Dialogue: 0,0:48:21.32,0:48:22.24,Default,,0,0,0,,Atom…
+Dialogue: 0,0:48:29.66,0:48:30.58,Default,,0,0,0,,Atom…
+Dialogue: 0,0:48:38.75,0:48:39.67,Default,,0,0,0,,Atom…
+Dialogue: 0,0:48:46.47,0:48:47.39,Default,,0,0,0,,Atom…
+Dialogue: 0,0:48:54.01,0:48:54.93,Default,,0,0,0,,Atom à!
+Dialogue: 0,0:48:59.23,0:49:00.15,Default,,0,0,0,,Atom à!
+Dialogue: 0,0:49:00.94,0:49:04.03,Default,,0,0,0,,Sẽ không có gì được\Nsinh ra từ thù hận đâu.
+Dialogue: 0,0:49:24.42,0:49:25.34,Default,,0,0,0,,Mọi người…
+Dialogue: 0,0:49:25.92,0:49:27.25,Default,,0,0,0,,Thật sự đúng như mọi người nói…
+Dialogue: 0,0:49:37.52,0:49:38.44,Default,,0,0,0,,Pluto…. sao ngươi…
+Dialogue: 0,0:49:41.69,0:49:43.94,Default,,0,0,0,,Chuyện này là sao chứ?
+Dialogue: 0,0:49:47.94,0:49:50.57,Default,,0,0,0,,Chuyện này rốt cuộc là sao?
+Dialogue: 0,0:50:03.58,0:50:07.13,Default,,0,0,0,,Kìa Pluto… à không, nên\Ngọi anh là Sahad mới đúng.
+Dialogue: 0,0:50:09.42,0:50:10.75,Default,,0,0,0,,Chính tôi cũng không biết tại sao.
+Dialogue: 0,0:50:11.93,0:50:14.06,Default,,0,0,0,,Những thứ này… lại cứ\Nchảy mãi không ngừng được…
+Dialogue: 0,0:50:15.01,0:50:16.05,Default,,0,0,0,,Tôi thật sự không hiểu nổi.
+Dialogue: 0,0:50:31.57,0:50:32.49,Default,,0,0,0,,Một ngôi sao băng kìa…
+Dialogue: 0,0:50:33.70,0:50:35.91,Default,,0,0,0,,Tôi thường nghe con người nói nếu ta ước\Nnguyện khi thấy sao băng, thì chắc chắn
+Dialogue: 0,0:50:35.99,0:50:38.24,Default,,0,0,0,,điều ước sẽ thành hiện thực.
+Dialogue: 0,0:50:41.87,0:50:43.16,Default,,0,0,0,,Lúc nãy anh đã kịp ước gì chưa?
+Dialogue: 0,0:50:45.25,0:50:46.17,Default,,0,0,0,,Chứ tôi thì đã ước rồi.
+Dialogue: 0,0:50:53.38,0:50:55.55,Default,,0,0,0,,Vậy điều ước của cậu là gì?
+Dialogue: 0,0:50:56.64,0:50:58.10,Default,,0,0,0,,Chắc là cũng giống điều anh đã ước.
+Dialogue: 0,0:51:01.43,0:51:02.35,Default,,0,0,0,,Đã đến lúc rồi.
+Dialogue: 0,0:51:04.10,0:51:05.35,Default,,0,0,0,,Nào, anh Sahad.
+Dialogue: 0,0:51:05.44,0:51:06.36,Default,,0,0,0,,Thôi bây giờ tôi phải đi đây.
+Dialogue: 0,0:51:07.19,0:51:09.86,Default,,0,0,0,,Nhưng mà anh định đi đâu\Nmới được, hả anh Atom?
+Dialogue: 0,0:51:37.47,0:51:40.89,Default,,0,0,0,,Báo cáo! Vườn Quốc gia Eden đang ở\Ntrong tình trạng cực kỳ nguy hiểm.
+Dialogue: 0,0:51:41.77,0:51:43.11,Default,,0,0,0,,Tôi không quan tâm, hạ cánh đi!
+Dialogue: 0,0:51:43.18,0:51:46.18,Default,,0,0,0,,Nhưng như vậy không ổn\Nđâu, Tiến sĩ Ochanomizu à.
+Dialogue: 0,0:51:46.27,0:51:47.52,Default,,0,0,0,,GPS của Atom hiện đang ở đâu?
+Dialogue: 0,0:51:48.40,0:51:49.78,Default,,0,0,0,,Một phút trước, cậu ấy vẫn ở quanh đây…
+Dialogue: 0,0:51:50.73,0:51:53.27,Default,,0,0,0,,Ông… ông nghĩ có khi nào\NAtom biến thành Pluto…
+Dialogue: 0,0:51:53.36,0:51:56.95,Default,,0,0,0,,Bây giờ Atom rất mạnh, thằng bé\Nkhông dễ bị tiêu diệt như vậy đâu.
+Dialogue: 0,0:51:58.20,0:52:00.70,Default,,0,0,0,,Nhất là từ khi tôi đưa vào\Ntrong nó các cảm xúc mất cân bằng.
+Dialogue: 0,0:52:01.54,0:52:02.46,Default,,0,0,0,,Tiến sĩ Tenma!
+Dialogue: 0,0:52:02.99,0:52:05.66,Default,,0,0,0,,Rất có thể bây giờ Pluto\Nđã bị Atom tiêu diệt rồi.
+Dialogue: 0,0:52:06.79,0:52:08.21,Default,,0,0,0,,Nhưng vấn đề lúc này là Bora.
+Dialogue: 0,0:52:09.00,0:52:13.42,Default,,0,0,0,,Sớm muộn gì Bora cũng sẽ hủy diệt toàn bộ\NTrái Đất. Atom cũng không ngăn được hắn.
+Dialogue: 0,0:52:19.64,0:52:20.56,Default,,0,0,0,,Chúng ta đã hạ cánh.
+Dialogue: 0,0:52:21.72,0:52:22.85,Default,,0,0,0,,Lập tức mở cửa ra.
+Dialogue: 0,0:52:23.64,0:52:24.56,Default,,0,0,0,,Tiến sĩ Ochanomizu.
+Dialogue: 0,0:52:25.10,0:52:27.27,Default,,0,0,0,,Bầu không khí ở ngoài\Nđó tràn ngập hận thù!
+Dialogue: 0,0:52:28.65,0:52:31.03,Default,,0,0,0,,Hận thù của Abullah nuốt chửng mọi cảm\Nxúc của hắn, cho đến khi không còn bất cứ
+Dialogue: 0,0:52:31.11,0:52:33.53,Default,,0,0,0,,điều gì khác ngoài thù hận.
+Dialogue: 0,0:52:35.03,0:52:36.74,Default,,0,0,0,,Bora là đại diện cho hận thù đó.
+Dialogue: 0,0:52:37.99,0:52:40.20,Default,,0,0,0,,Dù cố gắng cỡ nào, Trái\NĐất cũng sẽ diệt vong.
+Dialogue: 0,0:52:42.03,0:52:43.49,Default,,0,0,0,,Lý thuyết sách vở thôi.
+Dialogue: 0,0:52:45.70,0:52:48.91,Default,,0,0,0,,Ông đã chôn chân quá lâu trong\Nphòng thí nghiệm rồi, tiến sĩ à.
+Dialogue: 0,0:52:50.17,0:52:51.84,Default,,0,0,0,,Thỉnh thoảng cũng nên ra ngoài hít thở đi.
+Dialogue: 0,0:52:53.67,0:52:56.30,Default,,0,0,0,,Nếu mọi thứ đúng như lý\Nthuyết, Trái Đất sẽ bị diệt vong.
+Dialogue: 0,0:52:57.22,0:52:59.97,Default,,0,0,0,,Dù cho có lẩn trốn ở đâu, tất\Ncả chúng ta cũng đều sẽ chết.
+Dialogue: 0,0:53:02.80,0:53:05.09,Default,,0,0,0,,Tuy nhiên, ngay cả khi đối mặt với cái\Nchết, dù cho chúng ta biết rõ số phận của
+Dialogue: 0,0:53:05.18,0:53:07.52,Default,,0,0,0,,mình,
+Dialogue: 0,0:53:08.31,0:53:11.02,Default,,0,0,0,,Con người cũng không từ bỏ hy\Nvọng cho đến phút cuối cùng.
+Dialogue: 0,0:53:15.11,0:53:16.40,Default,,0,0,0,,Atom cũng như vậy.
+Dialogue: 0,0:53:18.15,0:53:21.53,Default,,0,0,0,,Tiến sĩ Tenma. Ông đúng là\Nmột nhà khoa học đại tài.
+Dialogue: 0,0:53:22.99,0:53:27.54,Default,,0,0,0,,Chính tay ông đã tạo ra Goji,\Nnhưng cũng chính ông đã tạo ra Atom.
+Dialogue: 0,0:53:40.93,0:53:42.60,Default,,0,0,0,,Hả? Đó… đó chính là…
+Dialogue: 0,0:53:45.14,0:53:46.06,Default,,0,0,0,,Không có ai ở đây hết?
+Dialogue: 0,0:53:49.73,0:53:51.52,Default,,0,0,0,,Không có phản hồi từ Thành phố Orchid!
+Dialogue: 0,0:53:52.48,0:53:54.07,Default,,0,0,0,,Có một trận động đất lớn khác ở Thủ đô!
+Dialogue: 0,0:53:54.81,0:53:59.32,Default,,0,0,0,,Cái này… tất cả là do sự dịch chuyển của\Nlớp vỏ Trái Đất ở Vườn Quốc gia Eden sao?
+Dialogue: 0,0:53:59.90,0:54:03.20,Default,,0,0,0,,Phải, nếu ngay lúc này có thêm\Nmột biến động quy mô lớn nào…
+Dialogue: 0,0:54:03.28,0:54:04.32,Default,,0,0,0,,Biến động quy mô lớn sao?
+Dialogue: 0,0:54:04.95,0:54:09.29,Default,,0,0,0,,Ví dụ như, nếu bây giờ có một quả\Nbom phản proton phát nổ, Trái Đất sẽ…
+Dialogue: 0,0:54:11.41,0:54:13.70,Default,,0,0,0,,Ngài Tổng thống, chúng ta phải\Ntuyên bố tình trạng khẩn cấp!
+Dialogue: 0,0:54:15.13,0:54:16.92,Default,,0,0,0,,Ngài… Tổng thống?
+Dialogue: 0,0:54:24.97,0:54:26.97,Default,,0,0,0,,Chúng ta sẽ an toàn khi\Nở trong này, phải không?
+Dialogue: 0,0:54:28.18,0:54:30.64,Default,,0,0,0,,Chỉ cần ở đây, ta sẽ\Nđược bảo vệ, đúng chứ?
+Dialogue: 0,0:54:30.73,0:54:33.11,Default,,0,0,0,,Phải, tôi sẽ bảo vệ cho ông mà.
+Dialogue: 0,0:54:36.44,0:54:37.65,Default,,0,0,0,,Nhưng đổi lại…
+Dialogue: 0,0:54:38.32,0:54:39.20,Default,,0,0,0,,Hở?
+Dialogue: 0,0:54:39.28,0:54:41.57,Default,,0,0,0,,Suốt nửa đời sau ông sẽ là nô lệ của tôi.
+Dialogue: 0,0:54:54.29,0:54:55.62,Default,,0,0,0,,Atom à!
+Dialogue: 0,0:54:55.71,0:54:57.00,Default,,0,0,0,,Atom cậu ấy đang ở dưới đó sao?
+Dialogue: 0,0:54:57.54,0:55:01.42,Default,,0,0,0,,Chắc là vậy. Thằng bé đang cố vô\Nhiệu hóa Bora và quả bom phản proton.
+Dialogue: 0,0:55:02.05,0:55:04.47,Default,,0,0,0,,Vậy theo ông… liệu Atom có làm được không?
+Dialogue: 0,0:55:04.55,0:55:05.59,Default,,0,0,0,,Được. Nhưng mà…
+Dialogue: 0,0:55:07.26,0:55:09.80,Default,,0,0,0,,Trước khi làm được thì cơ thể\Nthằng bé sẽ tan chảy ra mất!
+Dialogue: 0,0:55:25.49,0:55:26.41,Default,,0,0,0,,Bora.
+Dialogue: 0,0:55:29.49,0:55:30.45,Default,,0,0,0,,Nghe ta nói không, Bora?
+Dialogue: 0,0:55:31.54,0:55:33.42,Default,,0,0,0,,Gesicht đã dạy cho ta biết rằng không có\Ngì trên đời này được sinh ra từ thù hận
+Dialogue: 0,0:55:33.50,0:55:35.42,Default,,0,0,0,,cả.
+Dialogue: 0,0:55:36.37,0:55:37.79,Default,,0,0,0,,Thù hận nhất định phải chấm dứt.
+Dialogue: 0,0:55:37.88,0:55:41.34,Default,,0,0,0,,Bora!
+Dialogue: 0,0:55:44.59,0:55:47.09,Default,,0,0,0,,Thôi được. Không còn cách\Nnào khác. Ta bắt đầu đây.
+Dialogue: 0,0:55:48.05,0:55:50.05,Default,,0,0,0,,Sẽ mất khoảng năm phút để vô\Nhiệu hóa quả bom phản proton.
+Dialogue: 0,0:55:51.22,0:55:53.22,Default,,0,0,0,,Mình có năm phút trước khi\Ncơ thể bắt đầu tan chảy.
+Dialogue: 0,0:55:54.93,0:55:56.27,Default,,0,0,0,,Về lý thuyết thì không thể.
+Dialogue: 0,0:55:57.73,0:55:59.52,Default,,0,0,0,,Nhưng mà mình nhất định phải thử!
+Dialogue: 0,0:56:06.20,0:56:09.29,Default,,0,0,0,,Tôi sẽ bảo vệ cơ thể của cậu.
+Dialogue: 0,0:56:10.70,0:56:11.95,Default,,0,0,0,,Sahad…
+Dialogue: 0,0:56:12.04,0:56:13.38,Default,,0,0,0,,Ta đi nào!
+Dialogue: 0,0:56:14.37,0:56:15.29,Default,,0,0,0,,Được.
+Dialogue: 0,0:56:17.71,0:56:19.71,Default,,0,0,0,,Bora!
+Dialogue: 0,0:56:25.92,0:56:30.93,Default,,0,0,0,,Ngươi sai rồi, Bora. Sẽ không có\Ngì được sinh ra từ thù hận cả!
+Dialogue: 0,0:56:35.64,0:56:40.31,Default,,0,0,0,,Atom, cậu hãy mau gửi cho tôi bản\Nthiết kế của quả bom phản proton đi.
+Dialogue: 0,0:56:40.40,0:56:41.40,Default,,0,0,0,,Hả?
+Dialogue: 0,0:56:41.48,0:56:42.40,Default,,0,0,0,,Nhanh lên!
+Dialogue: 0,0:57:27.74,0:57:29.95,Default,,0,0,0,,Tạo nên một cánh đồng\Nhoa bạt ngàn mênh mông.
+Dialogue: 0,0:57:30.57,0:57:32.78,Default,,0,0,0,,Đó mới thực sự là sứ mệnh của tôi.
+Dialogue: 0,0:57:34.24,0:57:36.66,Default,,0,0,0,,Tôi không thể trở về\Nlàm Sahad được nữa rồi.
+Dialogue: 0,0:57:37.91,0:57:38.83,Default,,0,0,0,,Atom…
+Dialogue: 0,0:57:39.41,0:57:41.04,Default,,0,0,0,,Xin hãy nhắn với Uran…
+Dialogue: 0,0:57:41.58,0:57:42.50,Default,,0,0,0,,Hơ?
+Dialogue: 0,0:57:43.84,0:57:46.72,Default,,0,0,0,,Rằng tôi rất vui vì đã có\Nthể vẽ tranh cùng cô bé.
+Dialogue: 0,0:57:47.67,0:57:49.63,Default,,0,0,0,,Cảm ơn, cảm ơn rất nhiều.
+Dialogue: 0,0:57:49.72,0:57:50.64,Default,,0,0,0,,Sahad!
+Dialogue: 0,0:57:54.80,0:57:57.30,Default,,0,0,0,,Sahad!
+Dialogue: 0,0:58:02.60,0:58:05.44,Default,,0,0,0,,Ta phải lập tức sơ tán! Nó có\Nthể phát nổ bất cứ lúc nào.
+Dialogue: 0,0:58:06.07,0:58:09.41,Default,,0,0,0,,Sơ tán cũng vô ích. Nếu nó phát\Nnổ thì Trái Đất cũng sẽ tận diệt.
+Dialogue: 0,0:58:14.37,0:58:15.29,Default,,0,0,0,,Atom à?
+Dialogue: 0,0:58:18.54,0:58:19.46,Default,,0,0,0,,Atom!
+Dialogue: 0,0:58:24.96,0:58:28.13,Default,,0,0,0,,Atom… Hãy thay tôi bảo vệ Trái Đất!
+Dialogue: 0,0:58:35.39,0:58:36.31,Default,,0,0,0,,Sahad.
+Dialogue: 0,0:59:35.91,0:59:37.70,Default,,0,0,0,,Chuyện… chuyện gì vậy?
+Dialogue: 0,0:59:39.58,0:59:41.16,Default,,0,0,0,,Đó là hiệu ứng Peltier.
+Dialogue: 0,0:59:42.41,0:59:45.96,Default,,0,0,0,,Nói đơn giản thì đó là một phản ứng hấp\Nthụ nhiệt nhanh gây ra bởi việc kết hợp
+Dialogue: 0,0:59:46.04,0:59:49.59,Default,,0,0,0,,các kim loại… mang các đặc tính khác nhau\Nkhi được đặt vào một điện áp cao, khiến
+Dialogue: 0,0:59:49.67,0:59:53.26,Default,,0,0,0,,cho chúng rơi vào trạng\Nthái nhiệt độ cực kỳ thấp.
+Dialogue: 0,0:59:55.68,0:59:56.68,Default,,0,0,0,,Nhìn kìa.
+Dialogue: 0,0:59:56.76,0:59:57.68,Default,,0,0,0,,Phản ứng đã xảy ra.
+Dialogue: 0,1:00:08.48,1:00:12.94,Default,,0,0,0,,Nó mới sống động làm sao. Nhìn bầu\Ntrời kìa, đẹp cứ như một cánh đồng hoa!
+Dialogue: 0,1:00:26.04,1:00:26.96,Default,,0,0,0,,Chính là Pluto…
+Dialogue: 0,1:00:28.00,1:00:30.71,Default,,0,0,0,,À không, Sahad, chính anh\Nấy đã ra tay cứu Trái Đất.
+Dialogue: 0,1:00:39.34,1:00:40.26,Default,,0,0,0,,Atom…
+Dialogue: 0,1:00:51.02,1:00:54.02,Default,,0,0,0,,Tôi chỉ muốn bảo vệ các\Ncông dân của đất nước mình.
+Dialogue: 0,1:00:54.82,1:00:56.99,Default,,0,0,0,,Tôi chỉ muốn bảo vệ\Nthật tốt tương lai của họ.
+Dialogue: 0,1:00:57.99,1:00:59.12,Default,,0,0,0,,Và đó là tất cả.
+Dialogue: 0,1:01:00.11,1:01:01.28,Default,,0,0,0,,Ô kìa?
+Dialogue: 0,1:01:01.37,1:01:02.29,Default,,0,0,0,,Có gì đó không đúng.
+Dialogue: 0,1:01:03.91,1:01:05.58,Default,,0,0,0,,Dung nham đã dừng lại rồi kìa.
+Dialogue: 0,1:01:06.50,1:01:07.92,Default,,0,0,0,,Vụ nổ đã dừng lại.
+Dialogue: 0,1:01:09.37,1:01:12.71,Default,,0,0,0,,Là Atom sao? Thiệt là chán quá mà…
+Dialogue: 0,1:01:22.72,1:01:25.52,Default,,0,0,0,,Tạ ơn Chúa. Thực sự cám ơn Ngài!
+Dialogue: 0,1:01:26.39,1:01:28.93,Default,,0,0,0,,Ha, mình sẽ phải nghĩ\Nra một kế hoạch khác.
+Dialogue: 0,1:01:29.48,1:01:31.65,Default,,0,0,0,,Mình có vô vàn lựa chọn kia mà.
+Dialogue: 0,1:01:32.81,1:01:35.48,Default,,0,0,0,,Không! Dừng lại đi! Làm ơn đừng nghĩ đến\Nviệc hủy diệt loài người nữa. Hãy tìm cách
+Dialogue: 0,1:01:35.57,1:01:38.28,Default,,0,0,0,,để cùng nhau phát triển!
+Dialogue: 0,1:01:40.86,1:01:41.78,Default,,0,0,0,,Ai đó?
+Dialogue: 0,1:01:53.54,1:01:56.58,Default,,0,0,0,,Rất vui được gặp anh, Brau 1589.
+Dialogue: 0,1:01:57.38,1:02:02.09,Default,,0,0,0,,Nào. Hai ta hãy cùng bắt đầu…\Ncho sự ra đời của thế giới mới.
+Dialogue: 0,1:02:02.64,1:02:05.64,Default,,0,0,0,,Thật là ấm áp. Và thật yếu đuối.
+Dialogue: 0,1:02:07.60,1:02:09.27,Default,,0,0,0,,Thì ra ý nghĩa nó là vầy, Atom.
+Dialogue: 0,1:02:15.61,1:02:18.66,Default,,0,0,0,,Trời ơi, ngươi làm ta thất vọng quá. Ta\Ntưởng ngươi cũng giống ta, muốn cùng hưởng
+Dialogue: 0,1:02:18.74,1:02:21.78,Default,,0,0,0,,phúc trên Thiên Đường chứ.
+Dialogue: 0,1:02:46.05,1:02:47.14,Default,,0,0,0,,Chuyện này sẽ không\Nbao giờ có thể chấm dứt.
+Dialogue: 0,1:02:48.47,1:02:50.60,Default,,0,0,0,,Cho tới khi nào hận thù còn\Nchưa biến mất khỏi thế giới này.
+Dialogue: 0,1:02:51.64,1:02:52.56,Default,,0,0,0,,Nhưng chắc chắc sẽ có một ngày…
+Dialogue: 0,1:02:54.52,1:02:55.65,Default,,0,0,0,,Tiến sĩ à.
+Dialogue: 0,1:02:55.73,1:02:57.77,Default,,0,0,0,,Rồi sẽ có ngày không còn tồn\Ntại sự hận thù phải không bác?
+Dialogue: 0,1:02:58.98,1:02:59.81,Default,,0,0,0,,Bác không biết.
+Dialogue: 0,1:03:00.82,1:03:02.74,Default,,0,0,0,,Chúng ta chỉ có thể hy\Nvọng ngày đó sẽ đến.
+Dialogue: 0,1:03:05.87,1:03:06.79,Default,,0,0,0,,Mont Blanc.
+Dialogue: 0,1:03:07.37,1:03:08.29,Default,,0,0,0,,North số 2.
+Dialogue: 0,1:03:09.20,1:03:10.12,Default,,0,0,0,,Brando.
+Dialogue: 0,1:03:10.66,1:03:11.58,Default,,0,0,0,,Hercules.
+Dialogue: 0,1:03:12.33,1:03:13.25,Default,,0,0,0,,Epsilon.
+Dialogue: 0,1:03:13.92,1:03:14.84,Default,,0,0,0,,Gesicht.
+Dialogue: 0,1:03:15.88,1:03:17.13,Default,,0,0,0,,Và cả… Sahad nữa.
+Dialogue: 0,1:03:19.09,1:03:20.88,Default,,0,0,0,,Chắc chắn mọi người đều đang cầu nguyện…
+Dialogue: 0,1:03:21.96,1:03:22.96,Default,,0,0,0,,Mong ngày đó sẽ sớm tới.
+Dialogue: 0,1:03:26.51,1:03:27.43,Default,,0,0,0,,Tất cả họ.
