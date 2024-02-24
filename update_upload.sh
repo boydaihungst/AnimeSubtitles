@@ -119,7 +119,6 @@ for sub_folder in ${SEARCH_DIRS[@]}; do
 			# elif [[ $filename == *.vi.ass ]] || [[ $filename == *.vie.ass ]]; then
 			# 	cp "$filename" "$BASE_FOLDER/backup/AnimeSubtitles/$DIR/$FILE_BASE_NAME.vie.ass"
 			# 	fixDemension "$filename" "$BASE_FOLDER/backup/AnimeSubtitles/$DIR"
-			continue
 		elif [[ $filename == *.sup ]]; then
 			cp "$filename" "/mnt/hdd2/backup/AnimeSubtitles/$DIR/"
 			continue
