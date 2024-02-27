@@ -115,27 +115,15 @@ for sub_folder in ${SEARCH_DIRS[@]}; do
 			convertSrtToAss "$filename" "$BASE_FOLDER/backup/AnimeSubtitles/$DIR"
 			cp "$BASE_FOLDER/backup/AnimeSubtitles/$DIR/$FILE_BASE_NAME.vie.ass" "$DIR_ABSOLUTE/$FILE_BASE_NAME.vie.ass"
 			cp "$BASE_FOLDER/backup/AnimeSubtitles/$DIR/$FILE_BASE_NAME.vie.ass" "/mnt/hdd2/backup/AnimeSubtitles/$DIR/"
-			# 1 so torrents dung external subtitles voi ten .vie.ass
-			# elif [[ $filename == *.vi.ass ]] || [[ $filename == *.vie.ass ]]; then
-			# 	cp "$filename" "$BASE_FOLDER/backup/AnimeSubtitles/$DIR/$FILE_BASE_NAME.vie.ass"
-			# 	fixDemension "$filename" "$BASE_FOLDER/backup/AnimeSubtitles/$DIR"
-		elif [[ $filename == *.sup ]]; then
-			cp "$filename" "/mnt/hdd2/backup/AnimeSubtitles/$DIR/"
-			continue
 		fi
-
 		cp "$filename" "$BASE_FOLDER/backup/AnimeSubtitles/$DIR/"
 		cp "$filename" "/mnt/hdd2/backup/AnimeSubtitles/$DIR/"
 	done
 done
 
 echo "$TIME_STAMP" >"$BASE_FOLDER/backup/AnimeSubtitles/last_scan"
-# find "$BASE_FOLDER/backup/AnimeSubtitles/" -type f \( -iname "*.srt" -o -iname "*.ass" -o -name "*.sup" \) -size +100M | while read -r filename; do
-# 	git lfs track "$filename"
-# done
 git add -A
 git commit -m "auto push sub $TIME_STAMP"
-# git lfs migrate import --fixup --yes
 git lfs migrate import --everything --above=50MB --yes
 git push origin
 curl -H "Content-Type: application/json" -X POST "http://localhost:8096/Library/Refresh?api_key=$JELLYFIN_API_KEY"

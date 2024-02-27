@@ -1,0 +1,781 @@
+[Script Info]
+; This is an Advanced Sub Station Alpha v4+ script.
+Title:
+ScriptType: v4.00+
+PlayDepth: 0
+ScaledBorderAndShadow: Yes
+PlayResX: 1920
+PlayResY: 1080
+
+[V4+ Styles]
+Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
+Style: Default,Noto Sans,80.0,&H00FFFFFF,&H000000FF,&H00002208,&H00000000,-1,0,0,0,100,100,0,0,1,3.0,2.0,2,0,0,65,1
+
+[Events]
+Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
+Dialogue: 0,0:00:00.00,0:00:10.00,Default,,0,0,0,,[Chương trình này có phụ đề tiếng Việt]
+Dialogue: 0,0:01:32.16,0:01:36.84,Default,,0,0,0,,[Tử Xuyên: Quang Minh Tam Kiệt]
+Dialogue: 0,0:01:39.28,0:01:42.72,Default,,0,0,0,,[Tập 4]
+Dialogue: 0,0:01:51.72,0:01:53.65,Default,,0,0,0,,Theo giao hẹn trước đó của chúng ta,
+Dialogue: 0,0:01:53.70,0:01:55.71,Default,,0,0,0,,dùng tín hiệu cờ vẽ tay làm ám hiệu,
+Dialogue: 0,0:01:56.06,0:01:58.19,Default,,0,0,0,,lúc vô cùng khẩn cấp mới dùng tiếng còi.
+Dialogue: 0,0:01:59.47,0:02:01.31,Default,,0,0,0,,Các huynh vội vàng gọi ta đến đây
+Dialogue: 0,0:02:01.96,0:02:03.55,Default,,0,0,0,,lại vì để bảo ta trả tiền?
+Dialogue: 0,0:02:04.99,0:02:06.84,Default,,0,0,0,,Vì ta và Tư Nghị Lâm đều cho rằng
+Dialogue: 0,0:02:07.30,0:02:09.54,Default,,0,0,0,,đệ tiền đồ mờ mịt, còn không trả tiền,
+Dialogue: 0,0:02:10.40,0:02:12.34,Default,,0,0,0,,sợ là cả đời này\Nkhông còn cơ hội đòi lại nữa.
+Dialogue: 0,0:02:12.34,0:02:14.64,Default,,0,0,0,,Sao lại thế được? Ta vừa về Đế Đô,
+Dialogue: 0,0:02:14.78,0:02:16.81,Default,,0,0,0,,bây giờ lại thăng làm phó thống lĩnh,
+Dialogue: 0,0:02:17.98,0:02:20.07,Default,,0,0,0,,nghĩ thế nào cũng là tiền đồ rộng mở.
+Dialogue: 0,0:02:20.09,0:02:21.62,Default,,0,0,0,,Chính vì đệ vừa được điều về,
+Dialogue: 0,0:02:21.90,0:02:22.86,Default,,0,0,0,,đệ không hiểu Đế Đô,
+Dialogue: 0,0:02:22.86,0:02:24.58,Default,,0,0,0,,cũng không hiểu Dương Minh Hoa.
+Dialogue: 0,0:02:24.58,0:02:26.04,Default,,0,0,0,,Hắn ở Đế Đô một tay che trời,
+Dialogue: 0,0:02:26.18,0:02:27.86,Default,,0,0,0,,đệ có thể sống sót từ tay hắn
+Dialogue: 0,0:02:27.89,0:02:29.00,Default,,0,0,0,,là may mắn lắm rồi.
+Dialogue: 0,0:02:29.88,0:02:32.01,Default,,0,0,0,,Thế nên đệ đã dùng hết vận may cả đời này,
+Dialogue: 0,0:02:32.28,0:02:34.33,Default,,0,0,0,,sau này chỉ còn lại xui xẻo và vận xấu,
+Dialogue: 0,0:02:34.76,0:02:36.09,Default,,0,0,0,,vẫn nên trả tiền đi thôi.
+Dialogue: 0,0:02:38.32,0:02:39.60,Default,,0,0,0,,Trong trà có độc.
+Dialogue: 0,0:02:42.98,0:02:43.89,Default,,0,0,0,,Đệ giả vờ cái gì?
+Dialogue: 0,0:02:43.92,0:02:45.52,Default,,0,0,0,,Đệ còn chưa uống ngụm trà nào.
+Dialogue: 0,0:02:46.44,0:02:47.53,Default,,0,0,0,,Nếu đệ thật sự có thể giả vờ ngất
+Dialogue: 0,0:02:47.53,0:02:49.32,Default,,0,0,0,,đến ngày Dương Minh Hoa nổi loạn,
+Dialogue: 0,0:02:49.32,0:02:50.52,Default,,0,0,0,,chờ hắn đến lấy đầu đệ,
+Dialogue: 0,0:02:50.56,0:02:51.69,Default,,0,0,0,,vận may của đệ sẽ đến.
+Dialogue: 0,0:02:53.74,0:02:56.74,Default,,0,0,0,,Đại ca, huynh ở bên Dương Minh Hoa\Nnhiều năm,
+Dialogue: 0,0:02:57.30,0:02:59.22,Default,,0,0,0,,hắn sẽ nổi loạn thật sao?
+Dialogue: 0,0:02:59.54,0:03:01.14,Default,,0,0,0,,Ta cho rằng tạm thời sẽ không.
+Dialogue: 0,0:03:01.30,0:03:03.50,Default,,0,0,0,,Cho dù hắn nắm 17 vạn quân phòng thủ Đế Đô,
+Dialogue: 0,0:03:03.86,0:03:05.32,Default,,0,0,0,,nhưng chỉ cần hắn nổi loạn,
+Dialogue: 0,0:03:05.66,0:03:07.22,Default,,0,0,0,,Ca đại nhân sẽ có thể dựng cờ
+Dialogue: 0,0:03:07.40,0:03:08.90,Default,,0,0,0,,đánh dẹp nghịch tặc.
+Dialogue: 0,0:03:09.31,0:03:11.77,Default,,0,0,0,,Khi ấy quân Viễn Châu\Nhành quân hỏa tốc 15 ngày
+Dialogue: 0,0:03:11.94,0:03:13.14,Default,,0,0,0,,sẽ có thể bao vây Đế Đô.
+Dialogue: 0,0:03:13.59,0:03:15.72,Default,,0,0,0,,Đế Đô lúc đó sẽ là một tòa thành trơ trọi.
+Dialogue: 0,0:03:16.11,0:03:17.30,Default,,0,0,0,,Hắn không dám mạo hiểm như thế.
+Dialogue: 0,0:03:17.30,0:03:18.90,Default,,0,0,0,,Nhưng quân Hắc Kỳ của Phương Kình,
+Dialogue: 0,0:03:18.90,0:03:21.31,Default,,0,0,0,,quân Tịnh Biên của Minh Huy\Nlà biến số lớn nhất.
+Dialogue: 0,0:03:21.31,0:03:23.04,Default,,0,0,0,,Nếu Dương Minh Hoa mua chuộc bọn họ,
+Dialogue: 0,0:03:23.04,0:03:25.03,Default,,0,0,0,,ba bên cùng bao vây Ca đại nhân,
+Dialogue: 0,0:03:25.90,0:03:28.09,Default,,0,0,0,,Dương Minh Hoa sẽ nắm đến bảy phần thắng.
+Dialogue: 0,0:03:28.09,0:03:29.70,Default,,0,0,0,,Lần này hòa đàm thuận lợi lắm mà.
+Dialogue: 0,0:03:29.70,0:03:31.32,Default,,0,0,0,,Dương tổng thống lĩnh đã đồng ý rồi.
+Dialogue: 0,0:03:31.32,0:03:32.72,Default,,0,0,0,,Đó chỉ là ngoài mặt đồng ý,
+Dialogue: 0,0:03:32.91,0:03:35.11,Default,,0,0,0,,hắn đã đẩy hết trách nhiệm cho Ca đại nhân,
+Dialogue: 0,0:03:35.11,0:03:36.99,Default,,0,0,0,,như vậy chỉ cần xảy ra sai sót gì,
+Dialogue: 0,0:03:37.02,0:03:38.75,Default,,0,0,0,,người chịu tội sẽ là Ca đại nhân.
+Dialogue: 0,0:03:39.02,0:03:40.56,Default,,0,0,0,,Dương Minh Hoa nhất định sẽ tìm đủ mọi cách
+Dialogue: 0,0:03:40.56,0:03:41.56,Default,,0,0,0,,ngăn chặn hòa đàm.
+Dialogue: 0,0:03:42.66,0:03:44.59,Default,,0,0,0,,Bây giờ đệ được điều đến Đốc Chính Ty
+Dialogue: 0,0:03:44.68,0:03:46.50,Default,,0,0,0,,vì hắn muốn Ca đại nhân\Nkhông còn người để dùng,
+Dialogue: 0,0:03:46.50,0:03:47.56,Default,,0,0,0,,khó mà làm nên việc.
+Dialogue: 0,0:03:51.54,0:03:53.58,Default,,0,0,0,,Nhưng nếu không làm được việc gì,
+Dialogue: 0,0:03:54.14,0:03:56.31,Default,,0,0,0,,chẳng phải việc gì\Nta cũng có thể làm được sao?
+Dialogue: 0,0:03:56.31,0:03:59.23,Default,,0,0,0,,Hơn nữa ta đã chuẩn bị đi nghênh ngang rồi.
+Dialogue: 0,0:03:59.41,0:03:59.85,Default,,0,0,0,,Nhị ca.
+Dialogue: 0,0:04:00.90,0:04:02.86,Default,,0,0,0,,Ta phải chăm sóc quân trưởng đại nhân.
+Dialogue: 0,0:04:02.86,0:04:03.70,Default,,0,0,0,,Đại ca.
+Dialogue: 0,0:04:03.88,0:04:06.78,Default,,0,0,0,,Đệ đừng quên bây giờ ta là\Nngười của Dương Minh Hoa.
+Dialogue: 0,0:04:15.78,0:04:16.37,Default,,0,0,0,,Để cho ta.
+Dialogue: 0,0:04:29.26,0:04:30.98,Default,,0,0,0,,Ninh điện hạ đích thân bôi thuốc cho ta,
+Dialogue: 0,0:04:30.98,0:04:32.22,Default,,0,0,0,,ta không thể nhận được.
+Dialogue: 0,0:04:32.22,0:04:35.64,Default,,0,0,0,,Tỷ và Tú ca ca vào sinh ra tử vì Tử Xuyên,
+Dialogue: 0,0:04:35.98,0:04:37.91,Default,,0,0,0,,ta làm việc nhỏ này có đáng là gì đâu.
+Dialogue: 0,0:04:38.18,0:04:39.91,Default,,0,0,0,,Không sao, không cần khách sáo.
+Dialogue: 0,0:04:50.14,0:04:51.07,Default,,0,0,0,,Bạch Xuyên tỷ tỷ,
+Dialogue: 0,0:04:52.36,0:04:56.75,Default,,0,0,0,,bình thường... hai người ở bên nhau thường…
+Dialogue: 0,0:04:56.78,0:04:58.02,Default,,0,0,0,,thường làm gì thế?
+Dialogue: 0,0:04:58.04,0:04:58.72,Default,,0,0,0,,Cô yên tâm,
+Dialogue: 0,0:04:59.50,0:05:01.56,Default,,0,0,0,,ta và Tú ca ca của cô không có quan hệ gì.
+Dialogue: 0,0:05:03.58,0:05:05.38,Default,,0,0,0,,Ninh điện hạ chung tình với\NTú Xuyên đại nhân,
+Dialogue: 0,0:05:05.38,0:05:06.98,Default,,0,0,0,,người có mắt đều nhìn ra được.
+Dialogue: 0,0:05:07.59,0:05:10.31,Default,,0,0,0,,Tú ca ca văn võ song toàn,\Ntác phong phóng khoáng,
+Dialogue: 0,0:05:10.36,0:05:12.66,Default,,0,0,0,,người có mắt đều sẽ chung tình với huynh ấy.
+Dialogue: 0,0:05:12.66,0:05:15.27,Default,,0,0,0,,Nữ tử giấu đầu hở đuôi, ta có thể hiểu được.
+Dialogue: 0,0:05:17.22,0:05:18.14,Default,,0,0,0,,Xin lỗi nhé.
+Dialogue: 0,0:05:20.07,0:05:21.80,Default,,0,0,0,,Ninh điện hạ, cô nghĩ nhiều rồi.
+Dialogue: 0,0:05:23.08,0:05:24.48,Default,,0,0,0,,Tên Tử Xuyên Tú đó
+Dialogue: 0,0:05:25.02,0:05:26.36,Default,,0,0,0,,lúc đánh trận thì ngủ,
+Dialogue: 0,0:05:26.38,0:05:28.11,Default,,0,0,0,,Bắc tộc đến thì chạy nhanh nhất.
+Dialogue: 0,0:05:28.26,0:05:29.82,Default,,0,0,0,,Bình thường chỉ biết
+Dialogue: 0,0:05:29.85,0:05:32.78,Default,,0,0,0,,dùng bò, dê Viễn Châu đổi tiền rượu\Nvới thương nhân Bắc tộc,
+Dialogue: 0,0:05:32.78,0:05:35.30,Default,,0,0,0,,ngắm hoa, nghịch cỏ, bắt chim, chọi dế.
+Dialogue: 0,0:05:36.14,0:05:36.98,Default,,0,0,0,,Ta đi theo hắn nửa năm,
+Dialogue: 0,0:05:36.98,0:05:38.64,Default,,0,0,0,,chưa thấy hắn làm việc gì tử tế.
+Dialogue: 0,0:05:39.22,0:05:41.07,Default,,0,0,0,,Tại hạ không có hứng thú với kiểu người này.
+Dialogue: 0,0:05:41.07,0:05:43.39,Default,,0,0,0,,Vậy Tú ca ca đã thua trận bao giờ chưa?
+Dialogue: 0,0:05:51.66,0:05:54.19,Default,,0,0,0,,Mọi người đều nói\Ncuộc sống Viễn Châu gian khổ,
+Dialogue: 0,0:05:54.22,0:05:56.22,Default,,0,0,0,,các tỷ còn có thể uống rượu ở Viễn Châu
+Dialogue: 0,0:05:56.24,0:05:58.17,Default,,0,0,0,,chẳng phải là công lao của Tú ca ca à?
+Dialogue: 0,0:05:59.46,0:06:01.06,Default,,0,0,0,,Huynh ấy là người như thế đấy.
+Dialogue: 0,0:06:01.29,0:06:03.08,Default,,0,0,0,,Rõ ràng huynh ấy rất thông minh,
+Dialogue: 0,0:06:03.29,0:06:04.30,Default,,0,0,0,,lại luôn giả vờ
+Dialogue: 0,0:06:04.32,0:06:05.77,Default,,0,0,0,,không quan tâm gì hết,
+Dialogue: 0,0:06:07.93,0:06:09.94,Default,,0,0,0,,còn nghĩ người khác đều không biết.
+Dialogue: 0,0:06:11.76,0:06:14.20,Default,,0,0,0,,Thực ra dụng tâm của huynh ấy,
+Dialogue: 0,0:06:14.59,0:06:15.65,Default,,0,0,0,,ta đều nhìn thấy cả.
+Dialogue: 0,0:06:18.84,0:06:21.24,Default,,0,0,0,,Ninh điện hạ nghĩ\Nđại nhân dụng tâm ở chỗ nào?
+Dialogue: 0,0:06:21.50,0:06:23.43,Default,,0,0,0,,Huynh ấy đã gửi cho ta rất nhiều thứ.
+Dialogue: 0,0:06:23.82,0:06:25.93,Default,,0,0,0,,Lông bờm ngựa, cỏ đuôi chó, bọ cạp,
+Dialogue: 0,0:06:25.96,0:06:27.24,Default,,0,0,0,,còn cả lông vũ nữa.
+Dialogue: 0,0:06:27.39,0:06:28.10,Default,,0,0,0,,Nói chung,
+Dialogue: 0,0:06:28.73,0:06:31.01,Default,,0,0,0,,ta biết đây đều là thứ\Nhuynh ấy chọn kỹ lưỡng.
+Dialogue: 0,0:06:31.01,0:06:32.34,Default,,0,0,0,,Lông bờm ngựa màu hạt dẻ?
+Dialogue: 0,0:06:33.78,0:06:36.78,Default,,0,0,0,,Xem ra đại nhân quả thật rất để tâm.
+Dialogue: 0,0:06:37.72,0:06:39.40,Default,,0,0,0,,Tỷ biết chuyện này à?
+Dialogue: 0,0:06:40.62,0:06:41.88,Default,,0,0,0,,Không có chuyện gì hết.
+Dialogue: 0,0:06:42.99,0:06:44.72,Default,,0,0,0,,Một con ngựa chiến đã chết thôi.
+Dialogue: 0,0:06:45.70,0:06:46.50,Default,,0,0,0,,Đệ có ổn không đấy?
+Dialogue: 0,0:06:46.50,0:06:48.14,Default,,0,0,0,,Ngày mai còn đến Đốc Chính Ty báo danh.
+Dialogue: 0,0:06:48.14,0:06:49.00,Default,,0,0,0,,Hay là ta đưa đệ về nhé?
+Dialogue: 0,0:06:49.00,0:06:49.88,Default,,0,0,0,,Ta không về.
+Dialogue: 0,0:06:52.15,0:06:54.88,Default,,0,0,0,,Khó khăn lắm ta mới quay về\Ntừ Viễn Châu bần hàn kia,
+Dialogue: 0,0:06:54.88,0:06:56.34,Default,,0,0,0,,chúng ta tiếp tục chơi nào.
+Dialogue: 0,0:06:57.98,0:06:59.71,Default,,0,0,0,,Đệ không muốn về Ninh phủ chứ gì?
+Dialogue: 0,0:07:00.76,0:07:01.96,Default,,0,0,0,,Ninh phủ tốt biết mấy,
+Dialogue: 0,0:07:02.02,0:07:04.07,Default,,0,0,0,,ăn ở miễn phí, ra vào có xe.
+Dialogue: 0,0:07:04.10,0:07:06.23,Default,,0,0,0,,Huynh không biết thoải mái thế nào đâu.
+Dialogue: 0,0:07:07.58,0:07:08.22,Default,,0,0,0,,Sao thế?
+Dialogue: 0,0:07:08.86,0:07:10.19,Default,,0,0,0,,Rốt cuộc đệ nghĩ thế nào?
+Dialogue: 0,0:07:10.42,0:07:11.68,Default,,0,0,0,,Nghĩ thế nào là thế nào?
+Dialogue: 0,0:07:11.93,0:07:13.26,Default,,0,0,0,,Đệ biết ta hỏi chuyện gì.
+Dialogue: 0,0:07:20.26,0:07:21.66,Default,,0,0,0,,Nói với huynh thế này nhé.
+Dialogue: 0,0:07:25.16,0:07:26.89,Default,,0,0,0,,Ta kể huynh nghe một câu chuyện.
+Dialogue: 0,0:07:27.42,0:07:31.86,Default,,0,0,0,,Có một tên khốn rất nghèo, số còn rất đen,
+Dialogue: 0,0:07:33.36,0:07:35.17,Default,,0,0,0,,phải lòng một tiểu thư nhà giàu.
+Dialogue: 0,0:07:41.90,0:07:45.50,Default,,0,0,0,,Tên khốn này nghĩ hắn không có tiền đồ,
+Dialogue: 0,0:07:46.10,0:07:48.06,Default,,0,0,0,,muốn tiểu thư nhà giàu này từ bỏ,
+Dialogue: 0,0:07:49.03,0:07:51.27,Default,,0,0,0,,nên đã tặng cô ấy
+Dialogue: 0,0:07:51.30,0:07:52.94,Default,,0,0,0,,một cọng cỏ đuôi chó rẻ tiền.
+Dialogue: 0,0:07:53.45,0:07:56.89,Default,,0,0,0,,Nhưng tiểu thư nhà giàu này\Nlại không hề bận tâm,
+Dialogue: 0,0:07:57.17,0:07:58.70,Default,,0,0,0,,nói cọng cỏ đuôi chó này
+Dialogue: 0,0:07:59.01,0:08:00.74,Default,,0,0,0,,đại diện cho tình yêu thầm lặng,
+Dialogue: 0,0:08:03.26,0:08:04.54,Default,,0,0,0,,âm thầm hy sinh.
+Dialogue: 0,0:08:05.15,0:08:06.37,Default,,0,0,0,,Nhưng tiểu thư nhà giàu này
+Dialogue: 0,0:08:06.37,0:08:08.57,Default,,0,0,0,,không phải là người chê nghèo, yêu giàu.
+Dialogue: 0,0:08:08.78,0:08:11.18,Default,,0,0,0,,Cỏ đuôi chó vĩnh viễn là cỏ đuôi chó,
+Dialogue: 0,0:08:11.58,0:08:14.87,Default,,0,0,0,,cho dù trồng trong chậu hoa\Ncũng không thể nở hoa.
+Dialogue: 0,0:08:20.55,0:08:21.68,Default,,0,0,0,,Nhưng đệ có từng nghĩ
+Dialogue: 0,0:08:23.74,0:08:25.42,Default,,0,0,0,,cho dù tên khốn đó từ bỏ,
+Dialogue: 0,0:08:25.93,0:08:27.66,Default,,0,0,0,,tiểu thư nhà giàu có từ bỏ không?
+Dialogue: 0,0:08:36.38,0:08:38.02,Default,,0,0,0,,Nhưng tiểu thư nhà giàu này
+Dialogue: 0,0:08:38.62,0:08:40.62,Default,,0,0,0,,không phải là tiểu thư nhà giàu bình thường.
+Dialogue: 0,0:08:40.62,0:08:41.94,Default,,0,0,0,,Cô ấy là Tử Xuyên Ninh,
+Dialogue: 0,0:08:43.46,0:08:46.50,Default,,0,0,0,,là người thừa kế tương lai\Ncủa gia tộc Tử Xuyên.
+Dialogue: 0,0:08:46.70,0:08:47.50,Default,,0,0,0,,Còn ta thì sao?
+Dialogue: 0,0:08:52.51,0:08:54.44,Default,,0,0,0,,Ta là một người từng chịu phạt nặng,
+Dialogue: 0,0:08:54.86,0:08:57.54,Default,,0,0,0,,mà vừa mới thoát được một kiếp,
+Dialogue: 0,0:08:59.30,0:09:02.46,Default,,0,0,0,,còn chưa biết tương lai thế nào.
+Dialogue: 0,0:09:09.38,0:09:09.98,Default,,0,0,0,,Được rồi.
+Dialogue: 0,0:09:11.66,0:09:13.99,Default,,0,0,0,,Nói sao thì hai người cũng yêu thương nhau.
+Dialogue: 0,0:09:14.06,0:09:15.14,Default,,0,0,0,,Đệ nhìn lại ta đi.
+Dialogue: 0,0:09:16.17,0:09:16.79,Default,,0,0,0,,Huynh?
+Dialogue: 0,0:09:20.22,0:09:21.43,Default,,0,0,0,,Huynh à,
+Dialogue: 0,0:09:23.50,0:09:24.67,Default,,0,0,0,,cô độc như chó.
+Dialogue: 0,0:09:26.14,0:09:27.53,Default,,0,0,0,,Nếu không phải vì đệ nói sự thật
+Dialogue: 0,0:09:27.53,0:09:28.66,Default,,0,0,0,,thì ta đã đánh đệ rồi.
+Dialogue: 0,0:09:30.58,0:09:32.30,Default,,0,0,0,,Nhị ca, nói nhiều như thế,
+Dialogue: 0,0:09:32.70,0:09:34.50,Default,,0,0,0,,hay là chúng ta uống rượu tiếp đi.
+Dialogue: 0,0:09:35.02,0:09:36.87,Default,,0,0,0,,Uống rượu gì? Đi đâu uống?
+Dialogue: 0,0:09:37.09,0:09:39.57,Default,,0,0,0,,Đương nhiên là có rượu rồi.
+Dialogue: 0,0:09:41.53,0:09:43.13,Default,,0,0,0,,Đệ lại trộm rượu của đại tẩu à?
+Dialogue: 0,0:09:43.86,0:09:46.26,Default,,0,0,0,,Ta không trộm tiền của đại tẩu\Nlà tốt lắm rồi.
+Dialogue: 0,0:09:53.67,0:09:57.07,Default,,0,0,0,,[Ca San]
+Dialogue: 0,0:09:53.78,0:09:55.34,Default,,0,0,0,,Ngắn hơn tận 0,5 mm
+Dialogue: 0,0:09:55.56,0:09:57.98,Default,,0,0,0,,so với kích thước ta đặt,
+Dialogue: 0,0:10:00.40,0:10:01.47,Default,,0,0,0,,không hoàn hảo.
+Dialogue: 0,0:10:02.62,0:10:04.59,Default,,0,0,0,,Tử Xuyên Tú đến báo danh.
+Dialogue: 0,0:10:08.14,0:10:11.54,Default,,0,0,0,,Chắc hẳn ngài chính là\Nthống lĩnh Đốc Chính Ty, Ca San đại nhân.
+Dialogue: 0,0:10:13.07,0:10:13.71,Default,,0,0,0,,Hôm nay...
+Dialogue: 0,0:10:13.73,0:10:16.22,Default,,0,0,0,,Ngừng, cứ đứng ở đó.
+Dialogue: 0,0:10:16.53,0:10:18.24,Default,,0,0,0,,Đương nhiên, hôm nay,
+Dialogue: 0,0:10:18.80,0:10:20.34,Default,,0,0,0,,ta tìm ngài vì muốn bàn việc
+Dialogue: 0,0:10:20.87,0:10:22.75,Default,,0,0,0,,cho ta ứng trước bổng lộc.
+Dialogue: 0,0:10:23.06,0:10:23.86,Default,,0,0,0,,Cởi quần áo ra.
+Dialogue: 0,0:10:25.73,0:10:27.37,Default,,0,0,0,,Vừa mới gặp đã cởi quần áo à?
+Dialogue: 0,0:10:27.40,0:10:28.30,Default,,0,0,0,,Cởi mau.
+Dialogue: 0,0:10:29.90,0:10:31.38,Default,,0,0,0,,Mặc dù mới gặp lần đầu,
+Dialogue: 0,0:10:31.66,0:10:33.34,Default,,0,0,0,,nhưng từ lâu ta đã nghe nói
+Dialogue: 0,0:10:33.66,0:10:35.18,Default,,0,0,0,,Ca đại nhân làm việc hiệu suất cao,
+Dialogue: 0,0:10:35.18,0:10:36.58,Default,,0,0,0,,không ngờ lại cao thế này.
+Dialogue: 0,0:10:37.32,0:10:37.98,Default,,0,0,0,,Cởi tiếp đi.
+Dialogue: 0,0:10:40.62,0:10:41.26,Default,,0,0,0,,Cởi!
+Dialogue: 0,0:10:52.06,0:10:53.98,Default,,0,0,0,,Nữ… nữ hiệp, ta cởi.
+Dialogue: 0,0:11:08.73,0:11:09.84,Default,,0,0,0,,Người đầy mùi rượu.
+Dialogue: 0,0:11:10.18,0:11:11.36,Default,,0,0,0,,Làm việc ở Đốc Chính Ty
+Dialogue: 0,0:11:11.36,0:11:12.66,Default,,0,0,0,,là phải chuẩn chỉnh từng li.
+Dialogue: 0,0:11:12.66,0:11:14.10,Default,,0,0,0,,Hình tượng của ngươi đại diện cho
+Dialogue: 0,0:11:14.10,0:11:15.83,Default,,0,0,0,,hình tượng của gia tộc Tử Xuyên.
+Dialogue: 0,0:11:15.85,0:11:17.78,Default,,0,0,0,,Bây giờ ngươi lập tức biến ra ngoài,
+Dialogue: 0,0:11:18.08,0:11:19.46,Default,,0,0,0,,quay về tắm rửa, đánh răng,
+Dialogue: 0,0:11:19.46,0:11:21.19,Default,,0,0,0,,thay bộ quần áo rồi quay lại làm.
+Dialogue: 0,0:11:21.90,0:11:23.75,Default,,0,0,0,,Hôm nay đến muộn, trừ một nửa bổng lộc.
+Dialogue: 0,0:11:23.75,0:11:24.55,Default,,0,0,0,,Không phải...
+Dialogue: 0,0:11:26.09,0:11:28.45,Default,,0,0,0,,Đại nhân, ta còn chưa nhận được bổng lộc.
+Dialogue: 0,0:11:28.63,0:11:30.14,Default,,0,0,0,,Hay là ngài chờ ta nhận được rồi trừ.
+Dialogue: 0,0:11:30.14,0:11:31.80,Default,,0,0,0,,Ngày mai ta mời ngài uống rượu.
+Dialogue: 0,0:11:32.42,0:11:34.33,Default,,0,0,0,,Sứ giả Bắc tộc sắp đến Đế Đô,
+Dialogue: 0,0:11:34.44,0:11:36.90,Default,,0,0,0,,việc liên quan\Ndo ngươi toàn quyền phụ trách.
+Dialogue: 0,0:11:37.14,0:11:38.42,Default,,0,0,0,,Ngươi còn không đi,
+Dialogue: 0,0:11:39.54,0:11:40.29,Default,,0,0,0,,ta trừ ngươi...
+Dialogue: 0,0:11:40.29,0:11:42.42,Default,,0,0,0,,Ta đi.
+Dialogue: 0,0:11:43.76,0:11:44.40,Default,,0,0,0,,Chờ đã.
+Dialogue: 0,0:11:45.85,0:11:48.06,Default,,0,0,0,,Sau này uống ít rượu thôi, hại sức khỏe.
+Dialogue: 0,0:11:50.78,0:11:52.18,Default,,0,0,0,,Không uống rượu đau lòng.
+Dialogue: 0,0:11:59.93,0:12:01.39,Default,,0,0,0,,Tìm giúp một quân y đến đây.
+Dialogue: 0,0:12:06.07,0:12:07.37,Default,,0,0,0,,Trong số họ có rất nhiều người\Nbị thương nặng,
+Dialogue: 0,0:12:07.37,0:12:09.43,Default,,0,0,0,,nếu còn không cứu chữa thì sẽ mất mạng.
+Dialogue: 0,0:12:11.92,0:12:14.05,Default,,0,0,0,,Xin ngươi hoặc là tìm một quân y đến đây,
+Dialogue: 0,0:12:14.09,0:12:16.29,Default,,0,0,0,,hoặc là bảo cấp trên của ngươi đến gặp ta.
+Dialogue: 0,0:12:18.90,0:12:20.70,Default,,0,0,0,,Trước đây cô là Công chúa Bắc tộc,
+Dialogue: 0,0:12:21.01,0:12:21.96,Default,,0,0,0,,còn bây giờ
+Dialogue: 0,0:12:22.43,0:12:24.58,Default,,0,0,0,,cô chỉ là một tù binh của Tử Xuyên ta.
+Dialogue: 0,0:12:25.11,0:12:27.26,Default,,0,0,0,,Bắc tộc đã giết hàng ngàn hàng vạn\Ncon dân Tử Xuyên ta,
+Dialogue: 0,0:12:27.26,0:12:28.66,Default,,0,0,0,,cô bảo ta tìm quân y giúp cô
+Dialogue: 0,0:12:29.00,0:12:30.79,Default,,0,0,0,,chẳng khác nào phản bội Tử Xuyên ta.
+Dialogue: 0,0:12:30.79,0:12:32.78,Default,,0,0,0,,Trên chiến trường sống chết có số,
+Dialogue: 0,0:12:33.42,0:12:35.33,Default,,0,0,0,,nhưng bây giờ đang ở trong quân doanh,
+Dialogue: 0,0:12:35.33,0:12:37.26,Default,,0,0,0,,tù binh cũng có quyền được chữa bệnh.
+Dialogue: 0,0:12:37.26,0:12:38.78,Default,,0,0,0,,Ba năm trước ca ca ta
+Dialogue: 0,0:12:39.40,0:12:41.21,Default,,0,0,0,,đã chết dưới lưỡi đao của Bắc tộc các cô,
+Dialogue: 0,0:12:41.21,0:12:44.25,Default,,0,0,0,,lẽ nào huynh ấy không có quyền\Nđược sống sao?
+Dialogue: 0,0:12:45.14,0:12:46.38,Default,,0,0,0,,Ngày nào ta cũng muốn báo thù,
+Dialogue: 0,0:12:46.38,0:12:48.47,Default,,0,0,0,,chỉ muốn đám thương binh Bắc tộc đó
+Dialogue: 0,0:12:48.89,0:12:49.95,Default,,0,0,0,,chết sớm đi.
+Dialogue: 0,0:12:52.67,0:12:55.70,Default,,0,0,0,,Chiến tranh vô tình,\Nđã có quá nhiều người chết rồi,
+Dialogue: 0,0:12:55.84,0:12:58.04,Default,,0,0,0,,người nào chết đi cũng có cha mẹ huynh đệ,
+Dialogue: 0,0:12:58.57,0:13:00.91,Default,,0,0,0,,để thay đổi mọi chuyện\Nthì phải dừng giết chóc,
+Dialogue: 0,0:13:00.91,0:13:03.31,Default,,0,0,0,,chứ không phải là báo thù\Nkhông có điểm dừng.
+Dialogue: 0,0:13:04.85,0:13:08.09,Default,,0,0,0,,Công chúa, ta không sao,\Nđừng cầu xin bọn chúng.
+Dialogue: 0,0:13:08.22,0:13:09.70,Default,,0,0,0,,Vết thương phải được xử lý,
+Dialogue: 0,0:13:09.79,0:13:10.74,Default,,0,0,0,,nếu tiếp tục để nhiễm trùng
+Dialogue: 0,0:13:10.74,0:13:12.14,Default,,0,0,0,,thì có khi còn mất cả mạng.
+Dialogue: 0,0:13:13.81,0:13:15.41,Default,,0,0,0,,Nếu ngươi không thể mời quân y
+Dialogue: 0,0:13:15.44,0:13:17.64,Default,,0,0,0,,vậy ít nhất hãy cho ta mượn dao của ngươi.
+Dialogue: 0,0:13:19.54,0:13:20.58,Default,,0,0,0,,Cô là tù binh,
+Dialogue: 0,0:13:22.01,0:13:23.74,Default,,0,0,0,,sao ta có thể đưa dao cho cô được?
+Dialogue: 0,0:13:24.98,0:13:26.13,Default,,0,0,0,,Để cô giết ta à?
+Dialogue: 0,0:13:27.30,0:13:29.39,Default,,0,0,0,,Ta thề trên danh nghĩa của hoàng tộc,
+Dialogue: 0,0:13:30.50,0:13:34.11,Default,,0,0,0,,ta mượn dao chỉ để cứu người.
+Dialogue: 0,0:13:37.46,0:13:38.74,Default,,0,0,0,,Nằm mơ đi.
+Dialogue: 0,0:13:40.66,0:13:42.19,Default,,0,0,0,,Ta nghĩ với thân phận của ta,
+Dialogue: 0,0:13:43.53,0:13:44.84,Default,,0,0,0,,dù đã trở thành tù binh
+Dialogue: 0,0:13:45.61,0:13:48.01,Default,,0,0,0,,thì trong mắt những kẻ\Ncó quyền lực phía các ngươi,
+Dialogue: 0,0:13:48.01,0:13:49.65,Default,,0,0,0,,ta cũng vẫn có chút giá trị.
+Dialogue: 0,0:13:50.82,0:13:54.12,Default,,0,0,0,,Ngươi đoán xem, nếu ta chết ở đây,
+Dialogue: 0,0:13:55.67,0:13:57.80,Default,,0,0,0,,ngươi sẽ phải gánh trách nhiệm thế nào.
+Dialogue: 0,0:14:00.77,0:14:03.69,Default,,0,0,0,,Mượn dao chỉ để cứu người.
+Dialogue: 0,0:14:53.16,0:14:55.00,Default,,0,0,0,,Người đâu, kéo hắn xuống.
+Dialogue: 0,0:14:55.34,0:14:56.54,Default,,0,0,0,,Vừa mới xử lý vết thương,
+Dialogue: 0,0:14:56.54,0:14:58.18,Default,,0,0,0,,xin đợi lát nữa rồi hãy di chuyển bọn họ.
+Dialogue: 0,0:14:58.18,0:14:59.91,Default,,0,0,0,,Công chúa yêu cầu nhiều quá đấy.
+Dialogue: 0,0:15:00.66,0:15:01.30,Default,,0,0,0,,Người đâu.
+Dialogue: 0,0:15:02.02,0:15:03.11,Default,,0,0,0,,Các ngươi muốn làm cái gì?
+Dialogue: 0,0:15:03.11,0:15:04.42,Default,,0,0,0,,Dám vô lễ với Công chúa,
+Dialogue: 0,0:15:04.44,0:15:06.57,Default,,0,0,0,,- các ngươi chán sống rồi à?\N- Làm gì đấy?
+Dialogue: 0,0:15:07.16,0:15:08.88,Default,,0,0,0,,Các ngươi muốn làm cái gì?
+Dialogue: 0,0:15:31.21,0:15:33.26,Default,,0,0,0,,Nếu trong tay bọn chúng có đao
+Dialogue: 0,0:15:33.46,0:15:34.86,Default,,0,0,0,,thì ta không trách ngươi,
+Dialogue: 0,0:15:35.18,0:15:37.82,Default,,0,0,0,,nhưng bọn chúng là tù binh\Ntay không tấc sắt,
+Dialogue: 0,0:15:39.98,0:15:42.24,Default,,0,0,0,,ngươi rút đao ra còn gọi gì là chiến sĩ nữa?
+Dialogue: 0,0:15:48.06,0:15:50.59,Default,,0,0,0,,Sự anh dũng và quả cảm của các ngươi
+Dialogue: 0,0:15:51.63,0:15:53.34,Default,,0,0,0,,nên dùng trên chiến trường,
+Dialogue: 0,0:15:54.34,0:15:57.00,Default,,0,0,0,,chứ không phải dùng với tù binh\Ntay không tấc sắt.
+Dialogue: 0,0:15:57.82,0:15:59.94,Default,,0,0,0,,Chữa trị cho những người bị thương\Nngay lập tức.
+Dialogue: 0,0:15:59.94,0:16:00.58,Default,,0,0,0,,Rõ.
+Dialogue: 0,0:16:06.82,0:16:09.56,Default,,0,0,0,,Công chúa Ca Đan, mời cô về phòng của mình.
+Dialogue: 0,0:16:10.35,0:16:12.28,Default,,0,0,0,,Ta không cần được chăm sóc đặc biệt.
+Dialogue: 0,0:16:13.39,0:16:16.85,Default,,0,0,0,,Xin hãy cho ta được ăn ở\Ncùng với người dân của ta.
+Dialogue: 0,0:16:17.45,0:16:18.71,Default,,0,0,0,,Mời qua đây nói chuyện.
+Dialogue: 0,0:16:29.10,0:16:30.94,Default,,0,0,0,,Có lẽ Công chúa Ca Đan chưa biết,
+Dialogue: 0,0:16:32.06,0:16:33.94,Default,,0,0,0,,sứ giả Bắc tộc đã đến Tử Xuyên,
+Dialogue: 0,0:16:34.35,0:16:36.48,Default,,0,0,0,,hai bên đang chuẩn bị tiến hành\Nhòa đàm,
+Dialogue: 0,0:16:37.11,0:16:41.23,Default,,0,0,0,,vậy nên tầm quan trọng của cô\Nvà đám tù binh này
+Dialogue: 0,0:16:41.68,0:16:43.61,Default,,0,0,0,,không cần ta phải nói nhiều đâu nhỉ?
+Dialogue: 0,0:16:43.62,0:16:46.62,Default,,0,0,0,,Mong Công chúa Ca Đan\Nsuy nghĩ cho đại cuộc.
+Dialogue: 0,0:16:48.79,0:16:49.27,Default,,0,0,0,,Được.
+Dialogue: 0,0:16:52.14,0:16:52.99,Default,,0,0,0,,Ta sẽ về.
+Dialogue: 0,0:17:03.10,0:17:04.36,Default,,0,0,0,,Không thể như vậy được.
+Dialogue: 0,0:17:05.86,0:17:06.66,Default,,0,0,0,,Ca đại nhân,
+Dialogue: 0,0:17:06.97,0:17:09.33,Default,,0,0,0,,việc hòa đàm mà chúng ta\Nthương lượng ở Viễn Châu
+Dialogue: 0,0:17:08.12,0:17:10.96,Default,,0,0,0,,[Mục Kỳ]
+Dialogue: 0,0:17:09.50,0:17:11.14,Default,,0,0,0,,đâu phải ngày một ngày hai,
+Dialogue: 0,0:17:11.48,0:17:12.38,Default,,0,0,0,,tất cả các điều kiện
+Dialogue: 0,0:17:12.38,0:17:14.74,Default,,0,0,0,,đều đã được chúng ta\Nthương lượng rất kỹ lưỡng.
+Dialogue: 0,0:17:14.74,0:17:16.02,Default,,0,0,0,,Bây giờ ta đến Đế Đô,
+Dialogue: 0,0:17:16.26,0:17:17.58,Default,,0,0,0,,bỗng dưng ngài lại đưa ra
+Dialogue: 0,0:17:17.58,0:17:19.26,Default,,0,0,0,,điều kiện vô lý như vậy.
+Dialogue: 0,0:17:19.73,0:17:23.49,Default,,0,0,0,,Thành ý hòa đàm của Tử Xuyên ở đâu?
+Dialogue: 0,0:17:24.75,0:17:25.73,Default,,0,0,0,,Ngài biết rõ,
+Dialogue: 0,0:17:26.27,0:17:29.22,Default,,0,0,0,,Vương tử Ca Lan vẫn luôn tích cực\Nthúc đẩy chuyện này,
+Dialogue: 0,0:17:29.63,0:17:30.96,Default,,0,0,0,,bởi vì ngài ấy hiểu rất rõ
+Dialogue: 0,0:17:31.10,0:17:33.96,Default,,0,0,0,,ý nghĩa của hòa đàm\Nđối với Bắc tộc ta và Tử Xuyên.
+Dialogue: 0,0:17:34.98,0:17:37.11,Default,,0,0,0,,Nhưng các ngài đưa ra điều kiện như vậy,
+Dialogue: 0,0:17:38.07,0:17:39.33,Default,,0,0,0,,ngài bảo Vương tử Ca Lan
+Dialogue: 0,0:17:39.50,0:17:41.78,Default,,0,0,0,,phải làm thế nào trước mặt Thần hoàng đây?
+Dialogue: 0,0:17:42.15,0:17:45.34,Default,,0,0,0,,Bắc tộc chiếm ba hành đài của Viễn Châu ta,
+Dialogue: 0,0:17:45.78,0:17:48.18,Default,,0,0,0,,trước đây hai ta đặt ra\Nđiều khoản ở Viễn Châu
+Dialogue: 0,0:17:48.24,0:17:49.72,Default,,0,0,0,,là phải trả lại ba vùng này.
+Dialogue: 0,0:17:50.27,0:17:52.04,Default,,0,0,0,,Trước khi các hạ đến Đế Đô,
+Dialogue: 0,0:17:52.26,0:17:55.12,Default,,0,0,0,,Bắc tộc lại xúi giục người nửa thú\Nbản địa khởi nghĩa.
+Dialogue: 0,0:17:55.78,0:17:57.02,Default,,0,0,0,,Làm vậy là muốn khiến cho Tử Xuyên ta
+Dialogue: 0,0:17:57.02,0:17:58.82,Default,,0,0,0,,biết khó mà lui trong lúc hòa đàm,
+Dialogue: 0,0:17:59.39,0:18:00.74,Default,,0,0,0,,còn Bắc tộc thì ngang nhiên
+Dialogue: 0,0:18:00.74,0:18:02.42,Default,,0,0,0,,tiếp tục chiếm đóng ba hành đài này,
+Dialogue: 0,0:18:02.42,0:18:03.49,Default,,0,0,0,,có chuyện đó không?
+Dialogue: 0,0:18:06.90,0:18:09.70,Default,,0,0,0,,Nói thật là vốn dĩ ta không muốn\Nnhắc đến chuyện này.
+Dialogue: 0,0:18:10.16,0:18:12.51,Default,,0,0,0,,Đối với ta thì đánh trả là được.
+Dialogue: 0,0:18:13.11,0:18:14.46,Default,,0,0,0,,Nhưng bây giờ có thêm
+Dialogue: 0,0:18:14.51,0:18:16.29,Default,,0,0,0,,điều kiện khiến người ta phải đau đầu này,
+Dialogue: 0,0:18:16.29,0:18:17.69,Default,,0,0,0,,ta chỉ đành nói cách khác.
+Dialogue: 0,0:18:18.03,0:18:19.28,Default,,0,0,0,,Chuyện khởi nghĩa
+Dialogue: 0,0:18:19.89,0:18:21.42,Default,,0,0,0,,bọn ta có thể không truy cứu,
+Dialogue: 0,0:18:21.57,0:18:23.22,Default,,0,0,0,,nhưng ba hành đài này
+Dialogue: 0,0:18:23.97,0:18:25.61,Default,,0,0,0,,và tất cả thành trì ở Viễn Châu
+Dialogue: 0,0:18:25.65,0:18:27.71,Default,,0,0,0,,đều phải được trả lại hết cho Tử Xuyên.
+Dialogue: 0,0:18:29.22,0:18:30.92,Default,,0,0,0,,Ba hành đài cỏn con
+Dialogue: 0,0:18:31.23,0:18:32.57,Default,,0,0,0,,Ca đại nhân còn muốn
+Dialogue: 0,0:18:32.58,0:18:34.84,Default,,0,0,0,,dùng chúng để đòi tất cả các thành trì sao?
+Dialogue: 0,0:18:35.13,0:18:37.42,Default,,0,0,0,,Thế này là muốn trở mặt\Nkhông đàm phán nữa à?
+Dialogue: 0,0:18:37.42,0:18:40.15,Default,,0,0,0,,Uống thử đi, trà này trồng ở Viễn Châu,
+Dialogue: 0,0:18:40.99,0:18:42.19,Default,,0,0,0,,vì nguyên nhân khí hậu
+Dialogue: 0,0:18:42.58,0:18:44.50,Default,,0,0,0,,mà bắt buộc phải chế biến ở Tử Xuyên,
+Dialogue: 0,0:18:44.50,0:18:46.78,Default,,0,0,0,,vì thế nên giá cao hơn rất nhiều,
+Dialogue: 0,0:18:47.42,0:18:50.86,Default,,0,0,0,,ở Bắc tộc chắc là bán với giá trên trời.
+Dialogue: 0,0:18:51.66,0:18:54.50,Default,,0,0,0,,Chúng ta đều biết Bắc tộc ở phía Đông,
+Dialogue: 0,0:18:54.55,0:18:56.61,Default,,0,0,0,,quanh năm giá rét, vật chất nghèo nàn.
+Dialogue: 0,0:18:57.06,0:18:59.74,Default,,0,0,0,,Chợ đen ở Viễn Châu đã buôn bán\Nthứ này như vậy từ lâu rồi.
+Dialogue: 0,0:18:59.74,0:19:02.34,Default,,0,0,0,,Sau khi thành trì Viễn Châu\Nđược trả về Tử Xuyên,
+Dialogue: 0,0:19:02.70,0:19:05.66,Default,,0,0,0,,ta hứa sẽ mở chợ liên thông\Ngiữa năm hành đài,
+Dialogue: 0,0:19:06.25,0:19:08.37,Default,,0,0,0,,đến lúc đó tiền bạc đến với Thần hoàng
+Dialogue: 0,0:19:08.40,0:19:11.30,Default,,0,0,0,,sẽ nhiều hơn số cống nạp nhiều lần.
+Dialogue: 0,0:19:13.49,0:19:17.21,Default,,0,0,0,,Mục Kỳ đại nhân, bài toán này\Nkhông khó để tính.
+Dialogue: 0,0:19:19.65,0:19:21.47,Default,,0,0,0,,Ca đại nhân, lần hòa đàm này,
+Dialogue: 0,0:19:21.91,0:19:25.12,Default,,0,0,0,,Vương tử Ca Đốn cũng phái sứ giả đến đây,
+Dialogue: 0,0:19:25.86,0:19:29.38,Default,,0,0,0,,tất cả các điều khoản đều cần\Nhai người bọn ta đồng thời có mặt,
+Dialogue: 0,0:19:29.46,0:19:30.78,Default,,0,0,0,,cùng bàn bạc xong
+Dialogue: 0,0:19:31.36,0:19:33.81,Default,,0,0,0,,mới có thể quay về bẩm báo với Thần hoàng.
+Dialogue: 0,0:19:34.15,0:19:35.55,Default,,0,0,0,,Ta biết là Lỗ Đế đã đến đây.
+Dialogue: 0,0:19:35.98,0:19:37.10,Default,,0,0,0,,Ông ta ở Viễn Châu nhiều năm,
+Dialogue: 0,0:19:37.10,0:19:38.83,Default,,0,0,0,,ta và ông ta cũng từng quen biết.
+Dialogue: 0,0:19:39.19,0:19:41.12,Default,,0,0,0,,Nếu như ông ta đồng ý đến đây đàm phán
+Dialogue: 0,0:19:41.16,0:19:42.57,Default,,0,0,0,,thì ta có thể thuyết phục ông ta.
+Dialogue: 0,0:19:42.57,0:19:44.03,Default,,0,0,0,,Lỗ Đế đại nhân không phải là
+Dialogue: 0,0:19:44.18,0:19:46.11,Default,,0,0,0,,không chịu ra mặt tham gia đàm phán.
+Dialogue: 0,0:19:46.19,0:19:48.64,Default,,0,0,0,,Ngài ấy đến Đế Đô lần đầu, lạ nước lạ cái,
+Dialogue: 0,0:19:49.09,0:19:51.85,Default,,0,0,0,,mắc phải bệnh sởi, cần nghỉ ngơi vài ngày.
+Dialogue: 0,0:19:52.03,0:19:54.35,Default,,0,0,0,,Cũng được, vậy đợi ông ta vài hôm.
+Dialogue: 0,0:20:08.40,0:20:10.83,Default,,0,0,0,,Ta muốn làm việc.
+Dialogue: 0,0:20:15.58,0:20:17.78,Default,,0,0,0,,Đại nhân, rốt cuộc ngài nghĩ thế nào vậy?
+Dialogue: 0,0:20:18.18,0:20:19.82,Default,,0,0,0,,Đại nhân chỉ không muốn ở nhà
+Dialogue: 0,0:20:20.32,0:20:21.92,Default,,0,0,0,,bị Ninh điện hạ chăm sóc thôi.
+Dialogue: 0,0:20:23.33,0:20:24.68,Default,,0,0,0,,Tú ca ca, Tú...
+Dialogue: 0,0:20:26.70,0:20:27.26,Default,,0,0,0,,Tú ca ca,
+Dialogue: 0,0:20:27.94,0:20:29.34,Default,,0,0,0,,hôm nay huynh định làm gì vậy?
+Dialogue: 0,0:20:29.34,0:20:31.00,Default,,0,0,0,,Hôm nay ta đã chuẩn bị cho huynh
+Dialogue: 0,0:20:31.02,0:20:33.27,Default,,0,0,0,,cưỡi ngựa, bắn cung, chơi chợ,
+Dialogue: 0,0:20:33.30,0:20:34.52,Default,,0,0,0,,rối bóng, nghe kể chuyện.
+Dialogue: 0,0:20:34.52,0:20:35.83,Default,,0,0,0,,Nếu huynh cần
+Dialogue: 0,0:20:35.85,0:20:37.29,Default,,0,0,0,,ta cũng có thể tự làm.
+Dialogue: 0,0:20:39.32,0:20:41.94,Default,,0,0,0,,Nhưng ta muốn làm việc.
+Dialogue: 0,0:20:41.96,0:20:43.90,Default,,0,0,0,,Ở... ở phủ ta cũng có rất nhiều công việc.
+Dialogue: 0,0:20:43.90,0:20:45.63,Default,,0,0,0,,Huynh có thể cưỡi ngựa bắn cung cùng ta,
+Dialogue: 0,0:20:45.63,0:20:46.70,Default,,0,0,0,,đi chơi chợ cùng ta,
+Dialogue: 0,0:20:46.78,0:20:48.69,Default,,0,0,0,,xem rối bóng, nghe kể chuyện cùng ta.
+Dialogue: 0,0:20:48.69,0:20:49.77,Default,,0,0,0,,Về bổng lộc
+Dialogue: 0,0:20:49.79,0:20:52.92,Default,,0,0,0,,thì cứ tính theo tiêu chuẩn\Ncủa phó thống lĩnh được không?
+Dialogue: 0,0:20:55.39,0:20:59.74,Default,,0,0,0,,Không được, Tử Xuyên Tú ta\Nđói cho sạch, rách cho thơm,
+Dialogue: 0,0:21:01.26,0:21:03.65,Default,,0,0,0,,không thể bán thân để kiếm tiền được.
+Dialogue: 0,0:21:04.90,0:21:08.20,Default,,0,0,0,,Không, ta về Đốc Chính Ty chạy vặt đây.
+Dialogue: 0,0:21:09.43,0:21:10.93,Default,,0,0,0,,Đốc Chính Ty?
+Dialogue: 0,0:21:12.79,0:21:14.45,Default,,0,0,0,,Cũng không phải là không được.
+Dialogue: 0,0:21:15.02,0:21:15.63,Default,,0,0,0,,Tiểu Mỹ,
+Dialogue: 0,0:21:15.71,0:21:17.58,Default,,0,0,0,,bây giờ em mau đi tìm hai người đến đây,
+Dialogue: 0,0:21:17.58,0:21:18.72,Default,,0,0,0,,sửa lại căn phòng của ta
+Dialogue: 0,0:21:18.72,0:21:20.18,Default,,0,0,0,,cho giống với Đốc Chính Ty,
+Dialogue: 0,0:21:20.33,0:21:21.88,Default,,0,0,0,,như vậy sẽ tiện cho Tú ca ca
+Dialogue: 0,0:21:21.93,0:21:23.22,Default,,0,0,0,,có thể thoải mái ở đó,
+Dialogue: 0,0:21:23.22,0:21:24.32,Default,,0,0,0,,muốn làm gì cũng được.
+Dialogue: 0,0:21:24.32,0:21:26.08,Default,,0,0,0,,Đừng, đừng mà...
+Dialogue: 0,0:21:26.12,0:21:28.28,Default,,0,0,0,,Đại nhân, có lệnh của Đốc Chính Ty rồi.
+Dialogue: 0,0:21:28.53,0:21:30.59,Default,,0,0,0,,Có phải là bảo ta ngày mai đi làm không?
+Dialogue: 0,0:21:32.11,0:21:33.91,Default,,0,0,0,,Mau nói cho ta biết tin tốt này đi.
+Dialogue: 0,0:21:34.41,0:21:36.89,Default,,0,0,0,,Sứ giả Bắc tộc Lỗ Đế đã khỏi bệnh sởi rồi,
+Dialogue: 0,0:21:37.38,0:21:39.31,Default,,0,0,0,,ngày mai là có thể tham gia đàm phán.
+Dialogue: 0,0:21:40.42,0:21:41.77,Default,,0,0,0,,Chưa từng lộ mặt,
+Dialogue: 0,0:21:42.78,0:21:44.78,Default,,0,0,0,,bây giờ tự dưng lại bảo khỏi bệnh rồi,
+Dialogue: 0,0:21:44.78,0:21:47.55,Default,,0,0,0,,rốt cuộc ông ta đang toan tính điều gì?
+Dialogue: 0,0:21:48.57,0:21:50.49,Default,,0,0,0,,Tú ca ca, nếu huynh không muốn đi...
+Dialogue: 0,0:21:50.49,0:21:51.07,Default,,0,0,0,,Muốn.
+Dialogue: 0,0:21:51.82,0:21:52.28,Default,,0,0,0,,Mau lên,
+Dialogue: 0,0:21:52.72,0:21:54.60,Default,,0,0,0,,tối nay ta phải về Đốc Chính Ty ngay
+Dialogue: 0,0:21:54.82,0:21:56.88,Default,,0,0,0,,để chuẩn bị cho cuộc đàm phán ngày mai.
+Dialogue: 0,0:21:58.91,0:22:00.03,Default,,0,0,0,,Ca đại nhân còn có
+Dialogue: 0,0:22:00.06,0:22:02.06,Default,,0,0,0,,một mệnh lệnh đặc biệt dành cho ngài.
+Dialogue: 0,0:22:03.63,0:22:05.78,Default,,0,0,0,,Tất cả việc quan trọng\Ntrong cuộc đàm phán ngày mai
+Dialogue: 0,0:22:05.78,0:22:08.64,Default,,0,0,0,,ngài đều phải đích thân đôn đốc,\Nđích thân thực hiện,
+Dialogue: 0,0:22:08.99,0:22:11.72,Default,,0,0,0,,bao gồm cả bưng trà rót nước.
+Dialogue: 0,0:22:13.03,0:22:14.34,Default,,0,0,0,,Bưng trà rót nước?
+Dialogue: 0,0:22:15.34,0:22:17.66,Default,,0,0,0,,Vị Ca đại nhân nào mà quá đáng thế?
+Dialogue: 0,0:22:19.56,0:22:20.56,Default,,0,0,0,,Hai vị Ca đại nhân.
+Dialogue: 0,0:22:22.90,0:22:27.44,Default,,0,0,0,,Xem ra hai vị Ca đại nhân\Nđều rất coi trọng ta.
+Dialogue: 0,0:22:28.02,0:22:28.62,Default,,0,0,0,,Đúng vậy.
+Dialogue: 0,0:22:34.91,0:22:36.62,Default,,0,0,0,,Quán ta may đo theo số đo riêng,
+Dialogue: 0,0:22:36.64,0:22:38.34,Default,,0,0,0,,tinh tế trong từng đường kim mũi chỉ.
+Dialogue: 0,0:22:38.34,0:22:39.50,Default,,0,0,0,,Đi chậm thôi.
+Dialogue: 0,0:22:40.77,0:22:42.50,Default,,0,0,0,,Ta muốn xem đường phố ở Tử Xuyên.
+Dialogue: 0,0:22:42.90,0:22:44.10,Default,,0,0,0,,Miệng lưu hương thơm,
+Dialogue: 0,0:22:44.46,0:22:45.46,Default,,0,0,0,,đi qua lướt qua
+Dialogue: 0,0:22:45.48,0:22:47.29,Default,,0,0,0,,đừng bỏ lỡ điểm tâm của quán ta.
+Dialogue: 0,0:22:47.64,0:22:48.79,Default,,0,0,0,,Mau tới xem thử đi.
+Dialogue: 0,0:22:50.17,0:22:51.98,Default,,0,0,0,,Đồ của tiệm bọn ta là tay nghề Lâm Gia đấy.
+Dialogue: 0,0:22:51.98,0:22:53.82,Default,,0,0,0,,Khách quan, uống chén trà đã rồi lên đường.
+Dialogue: 0,0:22:53.82,0:22:55.78,Default,,0,0,0,,Nào, nào, mời vào trong, mời vào trong.
+Dialogue: 0,0:22:55.78,0:22:58.22,Default,,0,0,0,,Ta khát, dừng ở quán trà phía trước đi.
+Dialogue: 0,0:22:59.33,0:23:01.39,Default,,0,0,0,,Hôm nay Lỗ Đế đại nhân chắc chắn sẽ đến,
+Dialogue: 0,0:23:02.14,0:23:04.60,Default,,0,0,0,,xin hãy đợi thêm một lát,\Nchắc là sắp đến rồi.
+Dialogue: 0,0:23:04.78,0:23:05.62,Default,,0,0,0,,Không vội.
+Dialogue: 0,0:23:06.71,0:23:08.02,Default,,0,0,0,,Lỗ Đế đại nhân đến.
+Dialogue: 0,0:23:27.86,0:23:30.06,Default,,0,0,0,,Cuối cùng ngài cũng đến rồi, mau ngồi đi.
+Dialogue: 0,0:23:31.10,0:23:33.14,Default,,0,0,0,,Đường ở Tử Xuyên khó đi quá,
+Dialogue: 0,0:23:33.78,0:23:35.24,Default,,0,0,0,,không bằng phẳng chút nào,
+Dialogue: 0,0:23:36.08,0:23:39.13,Default,,0,0,0,,người thì đông, tắc nghẽn đi lại khó khăn.
+Dialogue: 0,0:23:38.03,0:23:40.47,Default,,0,0,0,,[Lỗ Đế]
+Dialogue: 0,0:23:44.79,0:23:46.52,Default,,0,0,0,,Thời tiết đáng ghét của Tử Xuyên
+Dialogue: 0,0:23:47.34,0:23:48.54,Default,,0,0,0,,làm ta bị sởi,
+Dialogue: 0,0:23:49.48,0:23:51.03,Default,,0,0,0,,bị sởi sao uống trà được chứ?
+Dialogue: 0,0:24:03.54,0:24:04.26,Default,,0,0,0,,Ca đại nhân,
+Dialogue: 0,0:24:04.66,0:24:07.55,Default,,0,0,0,,không ngờ hai chúng ta còn có cơ hội
+Dialogue: 0,0:24:07.79,0:24:09.50,Default,,0,0,0,,ngồi xuống nói chuyện như ngày hôm nay.
+Dialogue: 0,0:24:09.50,0:24:12.42,Default,,0,0,0,,Hôm nay ta và ngài ngồi lại với nhau\Nlà để hòa đàm,
+Dialogue: 0,0:24:12.94,0:24:14.34,Default,,0,0,0,,không phải để nói chuyện.
+Dialogue: 0,0:24:14.50,0:24:15.38,Default,,0,0,0,,Đúng là như vậy.
+Dialogue: 0,0:24:16.54,0:24:18.87,Default,,0,0,0,,Nhưng trước đây Ca đại nhân
+Dialogue: 0,0:24:18.90,0:24:21.06,Default,,0,0,0,,lần nào gặp ta cũng là động binh đao,
+Dialogue: 0,0:24:24.34,0:24:25.78,Default,,0,0,0,,chuyện như hôm nay
+Dialogue: 0,0:24:26.50,0:24:28.63,Default,,0,0,0,,đúng là khiến người ta thấy không quen.
+Dialogue: 0,0:24:29.90,0:24:30.50,Default,,0,0,0,,Sao vậy?
+Dialogue: 0,0:24:30.75,0:24:33.80,Default,,0,0,0,,Lỗ Đế đại nhân muốn ta\Nmặc giáp vào để đàm phán à?
+Dialogue: 0,0:24:36.86,0:24:37.99,Default,,0,0,0,,Cái đó thì không cần.
+Dialogue: 0,0:24:38.89,0:24:41.53,Default,,0,0,0,,Nhưng gặp ngài mà không tỉ thí
+Dialogue: 0,0:24:41.79,0:24:44.25,Default,,0,0,0,,thì ta cứ thấy mọi chuyện\Nđều không thuận lợi.
+Dialogue: 0,0:24:51.33,0:24:51.99,Default,,0,0,0,,Ca đại nhân,
+Dialogue: 0,0:24:52.58,0:24:54.09,Default,,0,0,0,,ngài và ta đều ở Viễn Châu,
+Dialogue: 0,0:24:54.90,0:24:58.05,Default,,0,0,0,,có muốn tỉ thí đánh trống Viễn Châu\Nvới ta không?
+Dialogue: 0,0:24:58.90,0:25:01.21,Default,,0,0,0,,Lỗ Đế, chúng ta đến để đàm phán.
+Dialogue: 0,0:25:02.86,0:25:04.37,Default,,0,0,0,,Lỗ Đế đại nhân là một võ tướng,
+Dialogue: 0,0:25:04.37,0:25:06.14,Default,,0,0,0,,Ca đại nhân đừng để ý.
+Dialogue: 0,0:25:06.98,0:25:09.47,Default,,0,0,0,,Không sao, ta cũng là võ tướng.
+Dialogue: 0,0:25:09.90,0:25:12.19,Default,,0,0,0,,Ta có thể hiểu được yêu cầu\Ncủa Lỗ Đế đại nhân.
+Dialogue: 0,0:25:12.19,0:25:13.19,Default,,0,0,0,,Trên chiến trường
+Dialogue: 0,0:25:13.51,0:25:15.64,Default,,0,0,0,,lãnh thổ Tử Xuyên một tấc không nhường,
+Dialogue: 0,0:25:19.22,0:25:21.14,Default,,0,0,0,,ở đây cũng vậy.
+Dialogue: 0,0:25:24.47,0:25:26.79,Default,,0,0,0,,Lỗ Đế đại nhân, mời.
+Dialogue: 0,0:25:29.33,0:25:30.38,Default,,0,0,0,,Lỗ Đế đại nhân.
+Dialogue: 0,0:25:33.66,0:25:34.17,Default,,0,0,0,,Mời.
+Dialogue: 0,0:25:34.20,0:25:34.71,Default,,0,0,0,,Mời.
+Dialogue: 0,0:25:36.18,0:25:38.44,Default,,0,0,0,,Ngài mãi không chịu lộ mặt, lại còn bị sởi,
+Dialogue: 0,0:25:38.51,0:25:40.84,Default,,0,0,0,,sao vừa mới xuất hiện đã muốn đánh nhau vậy?
+Dialogue: 0,0:25:41.02,0:25:42.03,Default,,0,0,0,,Ca Ứng Tinh ở Viễn Châu
+Dialogue: 0,0:25:42.03,0:25:43.98,Default,,0,0,0,,công trạng hiển hách, nổi danh gần xa,
+Dialogue: 0,0:25:43.98,0:25:45.71,Default,,0,0,0,,nhưng hôm nay là đàm phán quan trọng,
+Dialogue: 0,0:25:45.71,0:25:47.66,Default,,0,0,0,,đương nhiên ta phải dập tắt\Nuy phong của hắn trước
+Dialogue: 0,0:25:47.66,0:25:49.39,Default,,0,0,0,,thì mới chiếm được thế chủ động.
+Dialogue: 0,0:25:50.49,0:25:52.08,Default,,0,0,0,,Nỗi khổ xác thịt hôm nay
+Dialogue: 0,0:25:52.28,0:25:54.21,Default,,0,0,0,,có thể đổi lại hòa bình cho ngày mai,
+Dialogue: 0,0:25:54.26,0:25:55.68,Default,,0,0,0,,Ca đại nhân đúng là vì Tử Xuyên
+Dialogue: 0,0:25:55.68,0:25:57.48,Default,,0,0,0,,mà cúc cung tận tụy, chết cũng...
+Dialogue: 0,0:26:00.31,0:26:01.64,Default,,0,0,0,,Sao có thể chết được chứ.
+Dialogue: 0,0:26:01.90,0:26:04.21,Default,,0,0,0,,Ca đại nhân, xin mời.
+Dialogue: 0,0:26:06.02,0:26:07.78,Default,,0,0,0,,Nói cái gì, làm bừa.
+Dialogue: 0,0:26:09.03,0:26:09.94,Default,,0,0,0,,Một người phụ trách hậu cần như con
+Dialogue: 0,0:26:09.94,0:26:12.67,Default,,0,0,0,,sao có thể tỉ thí với Lỗ Đế đại nhân\Ncủa Bắc tộc được?
+Dialogue: 0,0:26:13.76,0:26:14.16,Default,,0,0,0,,Con...
+Dialogue: 0,0:26:14.54,0:26:15.51,Default,,0,0,0,,Nhìn ta làm gì?
+Dialogue: 0,0:26:17.60,0:26:20.23,Default,,0,0,0,,Con có quỳ mãi ở đây thì cũng không được.
+Dialogue: 0,0:26:24.69,0:26:27.62,Default,,0,0,0,,Ca đại nhân, người là thống lĩnh\Ntối cao của Viễn Châu,
+Dialogue: 0,0:26:28.63,0:26:29.93,Default,,0,0,0,,người bày mưu lập kế,
+Dialogue: 0,0:26:30.26,0:26:31.63,Default,,0,0,0,,sao có thể tham gia
+Dialogue: 0,0:26:31.92,0:26:33.52,Default,,0,0,0,,cuộc tỉ thí linh tinh này chứ?
+Dialogue: 0,0:26:35.39,0:26:37.34,Default,,0,0,0,,Nếu người không cho con tỉ thí
+Dialogue: 0,0:26:38.07,0:26:38.83,Default,,0,0,0,,con sẽ...
+Dialogue: 0,0:26:40.48,0:26:41.87,Default,,0,0,0,,con sẽ đập đầu chết.
+Dialogue: 0,0:26:42.72,0:26:43.46,Default,,0,0,0,,Đợi đã.
+Dialogue: 0,0:26:45.02,0:26:45.82,Default,,0,0,0,,Lỗ Đế đại nhân,
+Dialogue: 0,0:26:46.14,0:26:47.17,Default,,0,0,0,,người trẻ tuổi này
+Dialogue: 0,0:26:47.42,0:26:49.95,Default,,0,0,0,,thường ngày chỉ làm mấy việc\Nbưng trà rót nước,
+Dialogue: 0,0:26:50.34,0:26:52.20,Default,,0,0,0,,thực sự không xứng tỉ thí với ngài.
+Dialogue: 0,0:26:52.50,0:26:54.90,Default,,0,0,0,,Nhưng hắn tha thiết cầu xin,
+Dialogue: 0,0:26:54.94,0:26:56.06,Default,,0,0,0,,ta không nhẫn tâm từ chối.
+Dialogue: 0,0:26:56.06,0:26:57.27,Default,,0,0,0,,Ngài xem, hay là...
+Dialogue: 0,0:26:57.47,0:26:58.02,Default,,0,0,0,,Vớ vẩn!
+Dialogue: 0,0:26:58.74,0:27:01.47,Default,,0,0,0,,Ta đường đường là tướng quân\Nđội quân số 11 của vương quốc...
+Dialogue: 0,0:27:01.47,0:27:02.46,Default,,0,0,0,,Tướng quân Lỗ Đế
+Dialogue: 0,0:27:02.51,0:27:05.11,Default,,0,0,0,,sẽ không sợ một thằng nhóc\Nbưng trà rót nước đâu.
+Dialogue: 0,0:27:05.18,0:27:07.11,Default,,0,0,0,,Bọn ta tin tưởng điều này tuyệt đối.
+Dialogue: 0,0:27:14.62,0:27:15.81,Default,,0,0,0,,Lỗ Đế đại nhân,
+Dialogue: 0,0:27:16.17,0:27:20.01,Default,,0,0,0,,không phải là ngài sợ ta đấy chứ?
+Dialogue: 0,0:27:20.75,0:27:23.20,Default,,0,0,0,,Nếu Ca đại nhân không dám đích thân ra trận
+Dialogue: 0,0:27:27.86,0:27:30.06,Default,,0,0,0,,vậy thì ta cũng không cần phải nể mặt nữa.
+Dialogue: 0,0:27:30.66,0:27:31.85,Default,,0,0,0,,Đánh chết mới thôi.
+Dialogue: 0,0:27:45.15,0:27:47.80,Default,,0,0,0,,Ca đại nhân, con sẽ luôn kính trọng người,
+Dialogue: 0,0:27:47.84,0:27:49.91,Default,,0,0,0,,đến chết con vẫn sẽ kính trọng người.
+Dialogue: 0,0:27:51.51,0:27:53.26,Default,,0,0,0,,Bắt đầu đi, thả lỏng cơ bắp,
+Dialogue: 0,0:27:54.64,0:27:55.70,Default,,0,0,0,,giữ vững bước chân,
+Dialogue: 0,0:27:55.98,0:27:57.56,Default,,0,0,0,,đừng căng thẳng, đừng sốt sắng,
+Dialogue: 0,0:27:57.56,0:28:00.29,Default,,0,0,0,,đừng đối đầu trực diện với hắn,\Nan toàn là trên hết.
+Dialogue: 0,0:28:15.72,0:28:16.92,Default,,0,0,0,,Nhãi ranh,
+Dialogue: 0,0:28:17.54,0:28:19.47,Default,,0,0,0,,đây là trò chơi của Viễn Châu bọn ta,
+Dialogue: 0,0:28:20.50,0:28:22.03,Default,,0,0,0,,nói rõ cho ngươi biết trước,
+Dialogue: 0,0:28:23.62,0:28:25.42,Default,,0,0,0,,chỉ cần đánh được vào trống của ta
+Dialogue: 0,0:28:26.02,0:28:27.35,Default,,0,0,0,,thì coi như ngươi thắng.
+Dialogue: 0,0:28:33.95,0:28:34.88,Default,,0,0,0,,Bắt đầu tính giờ.
+Dialogue: 0,0:28:38.64,0:28:40.00,Default,,0,0,0,,Tên Lỗ Đế này
+Dialogue: 0,0:28:40.02,0:28:42.48,Default,,0,0,0,,kiêu dũng thiện chiến,\Nchiêu nào cũng trí mạng,
+Dialogue: 0,0:28:42.48,0:28:44.78,Default,,0,0,0,,e là vị tiểu huynh đệ này sẽ phải chịu khổ.
+Dialogue: 0,0:28:45.11,0:28:47.59,Default,,0,0,0,,Không sao, thằng nhóc này giỏi chịu đòn.
+Dialogue: 0,0:29:20.61,0:29:21.66,Default,,0,0,0,,Ngài đừng có đánh vào mặt,
+Dialogue: 0,0:29:21.66,0:29:23.39,Default,,0,0,0,,ta còn phải kiếm tiền nhờ nó đấy.
+Dialogue: 0,0:29:28.48,0:29:29.67,Default,,0,0,0,,Cũng không được đánh vào bụng,
+Dialogue: 0,0:29:29.67,0:29:30.99,Default,,0,0,0,,ta kiếm tiền nhờ nó đấy.
+Dialogue: 0,0:29:32.61,0:29:34.56,Default,,0,0,0,,Lỗ Đế trời sinh sức lực vô song,
+Dialogue: 0,0:29:34.58,0:29:36.62,Default,,0,0,0,,e là tiểu huynh đệ này không chịu được\Nmột nắm đấm của gã đâu.
+Dialogue: 0,0:29:36.62,0:29:38.68,Default,,0,0,0,,Không sao, thằng nhóc này biết tránh.
+Dialogue: 0,0:29:46.04,0:29:47.23,Default,,0,0,0,,Cũng không được đánh vào xương sườn,
+Dialogue: 0,0:29:47.23,0:29:48.29,Default,,0,0,0,,ta còn phải kiếm tiền nhờ nó đấy.
+Dialogue: 0,0:29:48.29,0:29:50.29,Default,,0,0,0,,Tên khốn, cái gì cũng kiếm được tiền,
+Dialogue: 0,0:29:50.50,0:29:51.50,Default,,0,0,0,,ngươi bán thân đấy à?
+Dialogue: 0,0:29:51.50,0:29:52.56,Default,,0,0,0,,Ngài nói không sai,
+Dialogue: 0,0:29:52.90,0:29:55.36,Default,,0,0,0,,hơn nữa giá cả rẻ bèo,\Ncòn không có bồi dưỡng.
+Dialogue: 0,0:30:16.66,0:30:18.27,Default,,0,0,0,,Ngài nằm im, ngài thấy ta có khổ không?
+Dialogue: 0,0:30:18.27,0:30:20.13,Default,,0,0,0,,Ngài cho ta được khóc thầm chút đi.
+Dialogue: 0,0:30:24.02,0:30:26.20,Default,,0,0,0,,Lỗ Đế đại nhân có sở trường tấn công,
+Dialogue: 0,0:30:26.22,0:30:28.62,Default,,0,0,0,,tốc độ cũng thuộc hàng đầu ở Bắc tộc ta.
+Dialogue: 0,0:30:29.26,0:30:30.02,Default,,0,0,0,,Vị tiểu huynh đệ này
+Dialogue: 0,0:30:30.02,0:30:32.15,Default,,0,0,0,,thực sự không nên động vào con hổ dữ này.
+Dialogue: 0,0:30:32.94,0:30:34.22,Default,,0,0,0,,Bản lĩnh chạy trốn của thằng nhóc này
+Dialogue: 0,0:30:34.22,0:30:35.95,Default,,0,0,0,,cũng là thuộc hạng nhất nhì đấy.
+Dialogue: 0,0:31:03.08,0:31:04.26,Default,,0,0,0,,Đúng là như vậy.
+Dialogue: 0,0:31:11.18,0:31:12.01,Default,,0,0,0,,Đợi đã.
+Dialogue: 0,0:31:15.28,0:31:18.90,Default,,0,0,0,,Lỗ đại nhân, ngài vừa\Ntự đánh trống đúng không?
+Dialogue: 0,0:31:19.46,0:31:21.38,Default,,0,0,0,,Ca đại nhân, Lỗ đại nhân rộng lượng vĩ đại,
+Dialogue: 0,0:31:21.38,0:31:22.84,Default,,0,0,0,,ngài ấy nhường thuộc hạ...
+Dialogue: 0,0:31:23.55,0:31:25.95,Default,,0,0,0,,Thiện ý hòa đàm\Ncủa Lỗ Đế đại nhân thành khẩn,
+Dialogue: 0,0:31:26.03,0:31:28.02,Default,,0,0,0,,Ca Ứng Tinh ta cảm kích vạn phần.
+Dialogue: 0,0:31:28.58,0:31:30.49,Default,,0,0,0,,Hay là bây giờ chúng ta bắt đầu đi.
+Dialogue: 0,0:31:31.53,0:31:32.75,Default,,0,0,0,,Vất vả rồi.
+Dialogue: 0,0:31:36.51,0:31:37.22,Default,,0,0,0,,Vất vả rồi.
+Dialogue: 0,0:31:38.38,0:31:38.90,Default,,0,0,0,,Vất vả.
+Dialogue: 0,0:31:40.27,0:31:41.13,Default,,0,0,0,,Làm sao thế?
+Dialogue: 0,0:31:43.57,0:31:44.35,Default,,0,0,0,,Làm sao thế?
+Dialogue: 0,0:31:45.97,0:31:49.10,Default,,0,0,0,,Chi tiết cụ thể về việc\Ntrả lại hành đài Viễn Châu
+Dialogue: 0,0:31:49.13,0:31:50.02,Default,,0,0,0,,viết ở bản khác.
+Dialogue: 0,0:31:51.26,0:31:53.49,Default,,0,0,0,,Nếu như đàm phán thành công
+Dialogue: 0,0:31:53.72,0:31:58.07,Default,,0,0,0,,thì sẽ đình chiến nửa năm rồi bàn\Nchi tiết hơn về các việc khác.
+Dialogue: 0,0:31:58.72,0:31:59.61,Default,,0,0,0,,Mục Kỳ đại nhân,
+Dialogue: 0,0:32:00.23,0:32:02.36,Default,,0,0,0,,ta thấy các điều khoản không có thành ý.
+Dialogue: 0,0:32:03.42,0:32:05.69,Default,,0,0,0,,Tất cả các điều khoản\Nđều còn đang thương lượng,
+Dialogue: 0,0:32:05.69,0:32:07.28,Default,,0,0,0,,nếu ngài thấy chỗ nào không thỏa đáng
+Dialogue: 0,0:32:07.28,0:32:08.45,Default,,0,0,0,,thì cứ nói ra,
+Dialogue: 0,0:32:08.58,0:32:10.18,Default,,0,0,0,,chúng ta cùng thương lượng.
+Dialogue: 0,0:32:10.67,0:32:12.28,Default,,0,0,0,,Những cái khác ta không quan tâm,
+Dialogue: 0,0:32:12.28,0:32:13.48,Default,,0,0,0,,chỉ có một điều khoản,
+Dialogue: 0,0:32:13.79,0:32:16.34,Default,,0,0,0,,trước khi đàm phán phải trao trả Công chúa.
+Dialogue: 0,0:32:17.88,0:32:20.55,Default,,0,0,0,,Lỗ Đế đại nhân, trong hiệp ước có quy định,
+Dialogue: 0,0:32:20.89,0:32:22.43,Default,,0,0,0,,lúc ký kết điều khoản,
+Dialogue: 0,0:32:23.55,0:32:26.12,Default,,0,0,0,,Tử Xuyên sẽ trao trả\Ntất cả tù binh cho Bắc tộc.
+Dialogue: 0,0:32:26.43,0:32:28.93,Default,,0,0,0,,Công chúa điện hạ\Nkhông giống các tù binh khác.
+Dialogue: 0,0:32:28.93,0:32:31.42,Default,,0,0,0,,Sứ đoàn Bắc tộc ta đã đến Đế Đô,
+Dialogue: 0,0:32:31.82,0:32:33.86,Default,,0,0,0,,Tử Xuyên nên lập tức trao trả Công chúa
+Dialogue: 0,0:32:33.86,0:32:35.80,Default,,0,0,0,,để phía ta bảo đảm an toàn cho Công chúa.
+Dialogue: 0,0:32:35.80,0:32:37.40,Default,,0,0,0,,Nếu bọn ta trao trả Công chúa,
+Dialogue: 0,0:32:37.50,0:32:39.31,Default,,0,0,0,,các vị sứ giả hủy bỏ hiệp ước,
+Dialogue: 0,0:32:39.72,0:32:41.11,Default,,0,0,0,,vậy ta phải làm thế nào?
+Dialogue: 0,0:32:41.98,0:32:44.09,Default,,0,0,0,,Tuy hiện giờ Công chúa do bọn ta trông coi,
+Dialogue: 0,0:32:44.09,0:32:46.73,Default,,0,0,0,,nhưng thực chất là con tin,\Nnếu dễ dàng trao trả,
+Dialogue: 0,0:32:47.23,0:32:49.36,Default,,0,0,0,,chẳng phải Tử Xuyên ta tự chặt tay chân,
+Dialogue: 0,0:32:49.82,0:32:51.34,Default,,0,0,0,,khiến cho đàm phán khó khăn hơn sao?
+Dialogue: 0,0:32:51.34,0:32:53.00,Default,,0,0,0,,Thần hoàng yêu thương con gái,
+Dialogue: 0,0:32:53.21,0:32:54.87,Default,,0,0,0,,nếu như mãi không chịu trao trả
+Dialogue: 0,0:32:56.85,0:32:58.25,Default,,0,0,0,,chỉ e Thần hoàng tức giận,
+Dialogue: 0,0:32:58.94,0:33:00.86,Default,,0,0,0,,hòa đàm biến thành tuyên chiến.
+Dialogue: 0,0:33:04.98,0:33:08.02,Default,,0,0,0,,Ta đánh với các vị mấy chục năm ở Viễn Châu,
+Dialogue: 0,0:33:08.30,0:33:10.10,Default,,0,0,0,,lẽ nào ta còn sợ đánh trận hay sao?
+Dialogue: 0,0:33:10.42,0:33:11.77,Default,,0,0,0,,Bây giờ người thua trận là các ngươi,
+Dialogue: 0,0:33:11.77,0:33:13.39,Default,,0,0,0,,người đánh mất Công chúa là các ngươi,
+Dialogue: 0,0:33:13.39,0:33:15.52,Default,,0,0,0,,người đến Đế Đô của ta cũng là các ngươi.
+Dialogue: 0,0:33:16.15,0:33:18.52,Default,,0,0,0,,Có đàm phán hay không, các vị tự cân nhắc.
+Dialogue: 0,0:33:18.66,0:33:19.31,Default,,0,0,0,,Hai vị,
+Dialogue: 0,0:33:20.74,0:33:21.71,Default,,0,0,0,,đừng sốt ruột.
+Dialogue: 0,0:33:22.31,0:33:25.53,Default,,0,0,0,,Thời cơ trao trả Công chúa\Nquả thực là việc quan trọng,
+Dialogue: 0,0:33:25.90,0:33:27.50,Default,,0,0,0,,rất mong Ca đại nhân hiểu cho.
+Dialogue: 0,0:33:27.90,0:33:29.89,Default,,0,0,0,,Tuy rằng chúng ta chân thành nhất có thể,
+Dialogue: 0,0:33:29.89,0:33:32.33,Default,,0,0,0,,nhưng quả thực là vì lo lắng cho Công chúa.
+Dialogue: 0,0:33:33.32,0:33:34.12,Default,,0,0,0,,Lỗ Đế đại nhân,
+Dialogue: 0,0:33:34.44,0:33:36.49,Default,,0,0,0,,không phải Ca đại nhân cố ý làm khó.
+Dialogue: 0,0:33:36.81,0:33:39.10,Default,,0,0,0,,Ngài ấy cũng vì muốn\Nhòa đàm thuận lợi mà thôi.
+Dialogue: 0,0:33:39.10,0:33:40.43,Default,,0,0,0,,Ta thấy chi bằng như này,
+Dialogue: 0,0:33:40.90,0:33:43.39,Default,,0,0,0,,hôm nay chúng ta quyết định\Nđiều kiện hòa đàm,
+Dialogue: 0,0:33:43.61,0:33:46.64,Default,,0,0,0,,ngày mai mời đích thân\NCông chúa Ca Đan đến tận nơi,
+Dialogue: 0,0:33:46.81,0:33:50.01,Default,,0,0,0,,chứng kiến sự khởi đầu của\Nquan hệ ngoại giao, thấy thế nào?
+Dialogue: 0,0:33:50.98,0:33:54.02,Default,,0,0,0,,Ký kết hòa đàm,\Ntrao trả tù binh và Công chúa,
+Dialogue: 0,0:33:54.78,0:33:56.40,Default,,0,0,0,,vốn dĩ là phải như thế.
+Dialogue: 0,0:33:58.45,0:33:59.25,Default,,0,0,0,,Lỗ Đế đại nhân,
+Dialogue: 0,0:34:02.19,0:34:04.15,Default,,0,0,0,,nếu ngày mai có thể trả Công chúa
+Dialogue: 0,0:34:04.96,0:34:06.46,Default,,0,0,0,,thì tất nhiên ta sẽ không có ý kiến gì nữa.
+Dialogue: 0,0:34:06.46,0:34:07.19,Default,,0,0,0,,Được.
+Dialogue: 0,0:34:07.88,0:34:11.02,Default,,0,0,0,,Ca đại nhân, vậy chúng ta\Ntrao đổi điều kiện đi.
+Dialogue: 0,0:34:11.38,0:34:11.71,Default,,0,0,0,,Được.
+Dialogue: 0,0:34:14.06,0:34:15.99,Default,,0,0,0,,Bộ binh khí này của ta
+Dialogue: 0,0:34:16.75,0:34:18.69,Default,,0,0,0,,chỉ còn thiếu ba kiểu nữa
+Dialogue: 0,0:34:19.32,0:34:20.58,Default,,0,0,0,,là gom đủ cả rồi.
+Dialogue: 0,0:34:21.38,0:34:24.35,Default,,0,0,0,,Đa số những binh khí này đều đã thất truyền,
+Dialogue: 0,0:34:24.91,0:34:27.14,Default,,0,0,0,,đại nhân có thể tự tay rèn ra một bộ,
+Dialogue: 0,0:34:27.45,0:34:29.49,Default,,0,0,0,,có thể gọi là công cao đức dày rồi.
+Dialogue: 0,0:34:29.67,0:34:32.77,Default,,0,0,0,,Thú vui thanh nhàn, cũng chỉ là\Nvài món đồ chơi nhỏ thôi.
+Dialogue: 0,0:34:33.03,0:34:35.03,Default,,0,0,0,,Vụ hòa đàm của Ca đại nhân nhà người ta
+Dialogue: 0,0:34:35.62,0:34:37.08,Default,,0,0,0,,mới gọi là công cao đức dày.
+Dialogue: 0,0:34:38.34,0:34:40.96,Default,,0,0,0,,Ca đại nhân đề xuất mở cửa buôn bán,
+Dialogue: 0,0:34:41.94,0:34:44.13,Default,,0,0,0,,Bắc tộc cũng thỏa hiệp trong việc trao trả
+Dialogue: 0,0:34:44.13,0:34:45.39,Default,,0,0,0,,mấy hành đài Viễn Châu.
+Dialogue: 0,0:34:45.91,0:34:49.39,Default,,0,0,0,,Xem ra hòa đàm đã\Nnắm chắc chín phần mười rồi.
+Dialogue: 0,0:34:49.86,0:34:53.06,Default,,0,0,0,,Thật cao tay, Ca đại nhân\Nnhìn xa trông rộng quá.
+Dialogue: 0,0:34:53.62,0:34:55.62,Default,,0,0,0,,Nhưng quá trình vẫn vô cùng gian nan.
+Dialogue: 0,0:34:57.14,0:34:59.90,Default,,0,0,0,,Lúc đầu thì sứ giả Bắc tộc\NLỗ Đế mãi không chịu lộ mặt,
+Dialogue: 0,0:34:59.90,0:35:02.20,Default,,0,0,0,,khó khăn lắm mọi người mới\Nngồi xuống hòa đàm được
+Dialogue: 0,0:35:02.20,0:35:05.27,Default,,0,0,0,,thì lại làm khó khắp nơi,\Nkhiêu khích đủ chuyện.
+Dialogue: 0,0:35:05.96,0:35:07.27,Default,,0,0,0,,Hòa đàm không dễ nhỉ.
+Dialogue: 0,0:35:08.65,0:35:09.97,Default,,0,0,0,,Ta đã sắp xếp người,
+Dialogue: 0,0:35:10.38,0:35:12.78,Default,,0,0,0,,chú ý đến từng động thái\Ncủa sứ giả Bắc tộc.
+Dialogue: 0,0:35:13.16,0:35:17.37,Default,,0,0,0,,tránh để xảy ra chuyện ngoài ý muốn\Nvào thời khắc mấu chốt.
+Dialogue: 0,0:35:19.29,0:35:20.02,Default,,0,0,0,,Ngoài ý muốn?
+Dialogue: 0,0:35:21.67,0:35:22.60,Default,,0,0,0,,Nên vậy.
+Dialogue: 0,0:35:23.83,0:35:24.79,Default,,0,0,0,,Ngay hôm nay,
+Dialogue: 0,0:35:24.96,0:35:27.10,Default,,0,0,0,,còn giằng co mãi vì chuyện
+Dialogue: 0,0:35:27.14,0:35:28.60,Default,,0,0,0,,trao trả Công chúa Bắc tộc.
+Dialogue: 0,0:35:30.67,0:35:31.46,Default,,0,0,0,,Đến giờ rồi.
+Dialogue: 0,0:35:39.66,0:35:40.75,Default,,0,0,0,,Nói như vậy,
+Dialogue: 0,0:35:40.83,0:35:42.09,Default,,0,0,0,,sự an nguy của Công chúa
+Dialogue: 0,0:35:44.19,0:35:45.78,Default,,0,0,0,,phải nên vô cùng chú ý.
+Dialogue: 0,0:35:47.26,0:35:47.86,Default,,0,0,0,,Vâng.
+Dialogue: 0,0:36:03.79,0:36:04.46,Default,,0,0,0,,Thoải mái.
+Dialogue: 0,0:36:07.84,0:36:08.72,Default,,0,0,0,,Bên này.
+Dialogue: 0,0:36:17.03,0:36:17.74,Default,,0,0,0,,Sư phụ.
+Dialogue: 0,0:36:19.52,0:36:20.36,Default,,0,0,0,,Nào, nào, nào.
+Dialogue: 0,0:36:20.84,0:36:22.12,Default,,0,0,0,,Nỗi khổ thể xác hôm nay
+Dialogue: 0,0:36:22.15,0:36:24.08,Default,,0,0,0,,có thể đổi lấy hòa bình của ngày mai.
+Dialogue: 0,0:36:24.61,0:36:28.57,Default,,0,0,0,,A Tú cúc cung tận tụy vì Tử Xuyên, đến chết…
+Dialogue: 0,0:36:29.59,0:36:30.93,Default,,0,0,0,,Con vẫn chưa chết.
+Dialogue: 0,0:36:31.31,0:36:33.11,Default,,0,0,0,,Tất nhiên con không thể chết rồi.
+Dialogue: 0,0:36:33.82,0:36:35.30,Default,,0,0,0,,Ta vẫn còn một nhiệm vụ nhỏ cho con này.
+Dialogue: 0,0:36:35.30,0:36:37.66,Default,,0,0,0,,Chỉ là tối nay bảo vệ\NCông chúa Ca Đan mà thôi.
+Dialogue: 0,0:36:37.66,0:36:38.93,Default,,0,0,0,,Nào, ngồi dậy.
+Dialogue: 0,0:36:41.80,0:36:42.74,Default,,0,0,0,,Mà thôi?
+Dialogue: 0,0:36:45.36,0:36:48.19,Default,,0,0,0,,Nếu như ngày mai Công chúa Ca Đan
+Dialogue: 0,0:36:48.28,0:36:49.83,Default,,0,0,0,,đến được hiện trường hòa đàm,
+Dialogue: 0,0:36:49.83,0:36:52.83,Default,,0,0,0,,vậy thì xem như cuộc hòa đàm này\Nthành công rồi đúng chứ?
+Dialogue: 0,0:36:54.37,0:36:56.26,Default,,0,0,0,,Nếu có người muốn phá đám,
+Dialogue: 0,0:36:56.74,0:36:58.99,Default,,0,0,0,,vậy chắc chắn tối nay sẽ hành động.
+Dialogue: 0,0:36:59.50,0:37:01.52,Default,,0,0,0,,Ca đại nhân, nhiệm vụ nhỏ.
+Dialogue: 0,0:37:09.18,0:37:09.93,Default,,0,0,0,,Sư phụ,
+Dialogue: 0,0:37:11.33,0:37:12.77,Default,,0,0,0,,chút bổng lộc này của con,
+Dialogue: 0,0:37:13.57,0:37:15.43,Default,,0,0,0,,không đáng để con bán mạng như thế.
+Dialogue: 0,0:37:18.57,0:37:23.16,Default,,0,0,0,,Làm xong việc, ta sẽ suy xét\Nxin tăng bổng lộc cho con.
+Dialogue: 0,0:37:23.20,0:37:26.03,Default,,0,0,0,,Xong việc rồi mới suy xét?
+Dialogue: 0,0:37:26.86,0:37:27.99,Default,,0,0,0,,Lại còn xin phép?
+Dialogue: 0,0:37:28.87,0:37:31.14,Default,,0,0,0,,Ca đại nhân, người keo kiệt tột độ luôn đấy.
+Dialogue: 0,0:37:31.14,0:37:32.86,Default,,0,0,0,,Dương Minh Hoa tìm một đống lý do
+Dialogue: 0,0:37:32.86,0:37:35.32,Default,,0,0,0,,muốn ngăn cản hòa đàm,\Nta không đồng ý với hắn.
+Dialogue: 0,0:37:35.85,0:37:37.76,Default,,0,0,0,,Tuy rằng có Tư Nghị Lâm\Ntrông giữ trại tù binh,
+Dialogue: 0,0:37:37.76,0:37:39.67,Default,,0,0,0,,nhưng giáo đâm thẳng dễ tránh,\Ntên bắn lén khó phòng.
+Dialogue: 0,0:37:39.67,0:37:40.93,Default,,0,0,0,,Con đi đến trại tù binh,
+Dialogue: 0,0:37:41.13,0:37:43.20,Default,,0,0,0,,hỗ trợ Tư Nghị Lâm.
+Dialogue: 0,0:37:45.06,0:37:45.84,Default,,0,0,0,,Rõ.
+Dialogue: 0,0:37:46.11,0:37:49.78,Default,,0,0,0,,Nếu sư phụ bằng lòng đưa ra chút đồ an ủi
+Dialogue: 0,0:37:50.30,0:37:52.35,Default,,0,0,0,,thì con thấy có thể…
+Dialogue: 0,0:37:54.46,0:37:54.94,Default,,0,0,0,,Được.
+Dialogue: 0,0:37:57.92,0:37:58.62,Default,,0,0,0,,Vất vả rồi.
+Dialogue: 0,0:37:59.12,0:38:00.40,Default,,0,0,0,,Không vất vả, sư phụ.
+Dialogue: 0,0:38:00.83,0:38:01.71,Default,,0,0,0,,Vất vả rồi.
+Dialogue: 0,0:38:02.96,0:38:03.82,Default,,0,0,0,,Tiền.
+Dialogue: 0,0:38:03.85,0:38:05.01,Default,,0,0,0,,Vất vả rồi.
+Dialogue: 0,0:38:05.03,0:38:06.18,Default,,0,0,0,,Con muốn tiền.
+Dialogue: 0,0:38:10.13,0:38:11.19,Default,,0,0,0,,Nói cho các ngươi biết,
+Dialogue: 0,0:38:11.19,0:38:12.86,Default,,0,0,0,,nhớ lấy trách nhiệm của các ngươi.
+Dialogue: 0,0:38:12.86,0:38:14.75,Default,,0,0,0,,Mỗi người chỉ có thể nhận một phần quà,
+Dialogue: 0,0:38:14.75,0:38:16.28,Default,,0,0,0,,còn thừa lại thì mang về hết.
+Dialogue: 0,0:38:16.61,0:38:18.48,Default,,0,0,0,,Khó khăn lắm Ca đại nhân\Nmới đưa tiền cho ta một lần,
+Dialogue: 0,0:38:18.48,0:38:20.01,Default,,0,0,0,,ta phải dùng thật tiết kiệm.
+Dialogue: 0,0:39:44.24,0:39:45.70,Default,,0,0,0,,Làm vậy thật sự rất trẻ con.
+Dialogue: 0,0:39:46.14,0:39:47.07,Default,,0,0,0,,Ta biết,
+Dialogue: 0,0:39:47.40,0:39:49.33,Default,,0,0,0,,nhưng không thể để đại nhân mất mặt được.
+Dialogue: 0,0:39:49.33,0:39:50.99,Default,,0,0,0,,Nhưng ngài ấy quả thực rất đần.
+Dialogue: 0,0:39:51.06,0:39:51.76,Default,,0,0,0,,Im hết đi.
+Dialogue: 0,0:39:53.59,0:39:55.25,Default,,0,0,0,,Tư Nghị Lâm không đợi được nữa,
+Dialogue: 0,0:39:55.53,0:39:56.19,Default,,0,0,0,,mau đi thôi.
+Dialogue: 0,0:39:58.17,0:39:58.66,Default,,0,0,0,,Bên kia.
+Dialogue: 0,0:40:34.94,0:40:35.86,Default,,0,0,0,,Các vị vất vả rồi.
+Dialogue: 0,0:40:35.86,0:40:36.77,Default,,0,0,0,,Vất vả, vất vả.
+Dialogue: 0,0:40:37.59,0:40:38.57,Default,,0,0,0,,Vất vả, vất vả rồi.
+Dialogue: 0,0:40:38.57,0:40:39.25,Default,,0,0,0,,Vất vả.
+Dialogue: 0,0:40:39.61,0:40:41.46,Default,,0,0,0,,Huynh đệ, vất vả rồi.
+Dialogue: 0,0:40:42.00,0:40:43.83,Default,,0,0,0,,Vất vả, vất vả rồi, vất vả.
+Dialogue: 0,0:40:45.32,0:40:46.20,Default,,0,0,0,,Chào mọi người.
+Dialogue: 0,0:40:46.75,0:40:48.31,Default,,0,0,0,,A Tú, đệ đến đây làm gì thế?
+Dialogue: 0,0:40:48.53,0:40:49.14,Default,,0,0,0,,Là như này,
+Dialogue: 0,0:40:49.68,0:40:50.95,Default,,0,0,0,,Đốc Chính Ty của chúng ta
+Dialogue: 0,0:40:50.95,0:40:53.77,Default,,0,0,0,,tổ chức một hoạt động thăm hỏi tù binh,
+Dialogue: 0,0:40:54.00,0:40:56.20,Default,,0,0,0,,đem một vài món quà nhỏ đến cho mọi người.
+Dialogue: 0,0:40:57.05,0:40:59.61,Default,,0,0,0,,Chắc chắn có người sinh vào hôm nay nhỉ?
+Dialogue: 0,0:41:03.10,0:41:05.09,Default,,0,0,0,,Vậy chọn ngươi đi,\Nhôm nay là sinh nhật ngươi.
+Dialogue: 0,0:41:05.09,0:41:05.87,Default,,0,0,0,,Hôm nay không phải sinh nhật ta.
+Dialogue: 0,0:41:05.87,0:41:08.06,Default,,0,0,0,,Câm miệng, muốn quà không?
+Dialogue: 0,0:41:08.71,0:41:09.06,Default,,0,0,0,,Muốn.
+Dialogue: 0,0:41:09.09,0:41:10.02,Default,,0,0,0,,Thế thì được rồi.
+Dialogue: 0,0:41:10.70,0:41:11.34,Default,,0,0,0,,La Kiệt.
+Dialogue: 0,0:41:11.58,0:41:12.13,Default,,0,0,0,,Đến đây.
+Dialogue: 0,0:41:13.42,0:41:13.89,Default,,0,0,0,,Nhìn đi.
+Dialogue: 0,0:41:15.11,0:41:18.44,Default,,0,0,0,,Để tôn vinh sự tươi đẹp trong\Nngày sinh nhật của ngươi hôm nay,
+Dialogue: 0,0:41:18.62,0:41:21.71,Default,,0,0,0,,mỗi người có mặt ở đây\Nhôm nay đều sẽ có phần.
+Dialogue: 0,0:41:22.12,0:41:23.69,Default,,0,0,0,,Đến lúc đó thì tới chỗ tiểu thư Bạch Xuyên
+Dialogue: 0,0:41:23.69,0:41:24.94,Default,,0,0,0,,báo tên mình
+Dialogue: 0,0:41:25.49,0:41:28.04,Default,,0,0,0,,là có thể nhận được một\Nphần quà nhỏ tuyệt đẹp.
+Dialogue: 0,0:41:30.62,0:41:33.02,Default,,0,0,0,,Tất cả mọi người đi đến\Nchỗ Bạch Xuyên để đăng ký.
+Dialogue: 0,0:41:33.02,0:41:33.66,Default,,0,0,0,,Nào.
+Dialogue: 0,0:41:33.69,0:41:34.22,Default,,0,0,0,,Đi.
+Dialogue: 0,0:41:35.02,0:41:35.70,Default,,0,0,0,,Nào, bên này.
+Dialogue: 0,0:41:35.70,0:41:36.54,Default,,0,0,0,,Từng người một.
+Dialogue: 0,0:41:36.54,0:41:37.07,Default,,0,0,0,,Cầm lấy.
+Dialogue: 0,0:41:37.31,0:41:37.66,Default,,0,0,0,,Nào.
+Dialogue: 0,0:41:37.73,0:41:38.29,Default,,0,0,0,,Cảm ơn.
+Dialogue: 0,0:41:38.31,0:41:38.71,Default,,0,0,0,,Cảm ơn.
+Dialogue: 0,0:41:38.71,0:41:39.18,Default,,0,0,0,,Có hết.
+Dialogue: 0,0:41:39.47,0:41:40.37,Default,,0,0,0,,Được, ngươi tên gì?
+Dialogue: 0,0:41:40.37,0:41:40.85,Default,,0,0,0,,Của ta.
+Dialogue: 0,0:41:41.26,0:41:41.74,Default,,0,0,0,,Của ta.
+Dialogue: 0,0:41:41.74,0:41:42.43,Default,,0,0,0,,Chúc mừng sinh nhật.
+Dialogue: 0,0:41:42.43,0:41:42.90,Default,,0,0,0,,Cảm ơn.
+Dialogue: 0,0:41:44.23,0:41:45.28,Default,,0,0,0,,Công chúa Ca Đan.
+Dialogue: 0,0:41:48.27,0:41:50.27,Default,,0,0,0,,Đừng hòng mạo phạm Công chúa điện hạ.
+Dialogue: 0,0:41:50.95,0:41:51.83,Default,,0,0,0,,Bình tĩnh.
+Dialogue: 0,0:41:52.83,0:41:53.64,Default,,0,0,0,,Bình tĩnh.
+Dialogue: 0,0:41:55.86,0:41:56.79,Default,,0,0,0,,Công chúa Ca Đan,
+Dialogue: 0,0:41:57.20,0:42:00.34,Default,,0,0,0,,thực ra con người ta\Nđã từng ăn năn sám hối rồi.
+Dialogue: 0,0:42:01.54,0:42:03.87,Default,,0,0,0,,Không, không phải cái từ ăn năn sám hối này.
+Dialogue: 0,0:42:04.41,0:42:06.67,Default,,0,0,0,,Đó giờ ta không phải là loại người như thế.
+Dialogue: 0,0:42:07.22,0:42:08.83,Default,,0,0,0,,Ta không phải người như thế.
+Dialogue: 0,0:42:17.62,0:42:18.88,Default,,0,0,0,,Người nào cũng có phần.
+Dialogue: 0,0:42:19.35,0:42:20.21,Default,,0,0,0,,Nào, của ngươi.
+Dialogue: 0,0:42:20.75,0:42:21.05,Default,,0,0,0,,Nào.
+Dialogue: 0,0:42:21.05,0:42:23.36,Default,,0,0,0,,Ta hiểu ý định của\NTử Xuyên Tú đại nhân ngày hôm đó.
+Dialogue: 0,0:42:23.36,0:42:26.13,Default,,0,0,0,,Công chúa Ca Đan, người hiểu là tốt.
+Dialogue: 0,0:42:27.01,0:42:27.91,Default,,0,0,0,,Thực ra,
+Dialogue: 0,0:42:28.24,0:42:30.54,Default,,0,0,0,,con người ta có rất nhiều ưu điểm.
+Dialogue: 0,0:42:30.56,0:42:31.37,Default,,0,0,0,,Ai... Ai thế?
+Dialogue: 0,0:42:31.39,0:42:32.29,Default,,0,0,0,,Công chúa.
+Dialogue: 0,0:42:33.79,0:42:35.25,Default,,0,0,0,,Có thời gian ta sẽ nói tiếp.
+Dialogue: 0,0:42:36.33,0:42:37.56,Default,,0,0,0,,Nhị ca.
+Dialogue: 0,0:42:41.30,0:42:43.30,Default,,0,0,0,,Đến không biết báo trước một tiếng à?
+Dialogue: 0,0:42:45.58,0:42:46.38,Default,,0,0,0,,Chuyện gì thế?
+Dialogue: 0,0:42:53.07,0:42:55.26,Default,,0,0,0,,Trong trại tù binh\Ncó gương mặt nào mới không?
