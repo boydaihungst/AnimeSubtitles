@@ -1,0 +1,452 @@
+[Script Info]
+; This is an Advanced Sub Station Alpha v4+ script.
+Title:
+ScriptType: v4.00+
+PlayDepth: 0
+ScaledBorderAndShadow: Yes
+PlayResX: 1920
+PlayResY: 1080
+
+[V4+ Styles]
+Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
+Style: Default,Noto Sans,80.0,&H00FFFFFF,&H000000FF,&H00002208,&H00000000,-1,0,0,0,100,100,0,0,1,3.0,2.0,2,0,0,65,1
+
+[Events]
+Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
+Dialogue: 0,0:01:23.65,0:01:27.86,Default,,0,0,0,,MỸ VỊ HẦM NGỤC
+Dialogue: 0,0:01:39.37,0:01:40.41,Default,,0,0,0,,Tiếng bước chân.
+Dialogue: 0,0:01:41.92,0:01:43.21,Default,,0,0,0,,Ngạc nhiên thật.
+Dialogue: 0,0:01:43.21,0:01:44.88,Default,,0,0,0,,Họ đang nướng thịt thật kìa.
+Dialogue: 0,0:01:46.01,0:01:49.68,Default,,0,0,0,,Hy vọng không phải phạm nhân hay cái loại\Nkhông được phép quay lại mặt đất.
+Dialogue: 0,0:01:49.68,0:01:51.52,Default,,0,0,0,,Chúng tôi chỉ hạ trại thôi.
+Dialogue: 0,0:01:51.51,0:01:53.43,Default,,0,0,0,,Không có ý xấu gì đâu.
+Dialogue: 0,0:01:54.81,0:01:55.89,Default,,0,0,0,,Khoan, giọng quen quá.
+Dialogue: 0,0:01:56.77,0:01:58.11,Default,,0,0,0,,Đúng như mình nghĩ!
+Dialogue: 0,0:01:58.10,0:01:59.43,Default,,0,0,0,,Là cậu, Laios!
+Dialogue: 0,0:01:59.44,0:02:00.94,Default,,0,0,0,,- Namari!\N- Namari!
+Dialogue: 0,0:02:00.94,0:02:03.69,Default,,0,0,0,,- Cô biết họ à?\N- Họ từng trong đội của tôi.
+Dialogue: 0,0:02:03.69,0:02:05.94,Default,,0,0,0,,Chào, đã lâu không gặp.
+Dialogue: 0,0:02:05.94,0:02:07.69,Default,,0,0,0,,Mà chắc mới được một tuần thôi.
+Dialogue: 0,0:02:08.28,0:02:09.87,Default,,0,0,0,,Để tôi giới thiệu mấy người này.
+Dialogue: 0,0:02:09.86,0:02:13.36,Default,,0,0,0,,Đây là chủ nhân hiện tại của tôi,\Nông bà Tansu.
+Dialogue: 0,0:02:13.95,0:02:16.12,Default,,0,0,0,,Họ là học giả riêng của ai đó
+Dialogue: 0,0:02:16.12,0:02:18.12,Default,,0,0,0,,và trả công rất hậu hĩnh.
+Dialogue: 0,0:02:18.12,0:02:20.62,Default,,0,0,0,,Còn đây là cặp sinh đôi, Kaka và Kiki.
+Dialogue: 0,0:02:21.21,0:02:23.50,Default,,0,0,0,,Nói thật, tôi chẳng nhớ ai là ai luôn.
+Dialogue: 0,0:02:24.29,0:02:27.13,Default,,0,0,0,,Namari, sao cô có thể hành xử như vậy
+Dialogue: 0,0:02:27.80,0:02:30.01,Default,,0,0,0,,sau khi bỏ rơi Falin?
+Dialogue: 0,0:02:30.01,0:02:31.55,Default,,0,0,0,,Bỏ rơi?
+Dialogue: 0,0:02:31.55,0:02:35.43,Default,,0,0,0,,Tôi chỉ không muốn đâm đầu vào chỗ chết\Nmà chẳng nhận được xu nào thôi.
+Dialogue: 0,0:02:36.56,0:02:38.23,Default,,0,0,0,,Cô...
+Dialogue: 0,0:02:39.10,0:02:40.89,Default,,0,0,0,,Marcille, bình tĩnh nào.
+Dialogue: 0,0:02:40.89,0:02:44.06,Default,,0,0,0,,Này, đừng cố quá.
+Dialogue: 0,0:02:44.06,0:02:47.06,Default,,0,0,0,,Falin sẽ không muốn cô gặp chuyện gì đâu.
+Dialogue: 0,0:02:48.07,0:02:50.82,Default,,0,0,0,,Phải rồi.\NNhóm ông có trị liệu sư nào không?
+Dialogue: 0,0:02:50.82,0:02:52.61,Default,,0,0,0,,Bạn tôi cần được chữa trị.
+Dialogue: 0,0:02:52.61,0:02:54.11,Default,,0,0,0,,Đổi lại, chúng tôi được gì?
+Dialogue: 0,0:02:59.20,0:03:01.37,Default,,0,0,0,,- Chúng tôi có thịt Ngựa Nước.\N- Thôi khỏi!
+Dialogue: 0,0:03:02.29,0:03:03.33,Default,,0,0,0,,Đi thôi, Namari.
+Dialogue: 0,0:03:03.33,0:03:06.46,Default,,0,0,0,,Làm phước trong hầm ngục\Nchỉ khiến bản thân bị lợi dụng thôi.
+Dialogue: 0,0:03:06.46,0:03:09.63,Default,,0,0,0,,Thật là, đến cái xác bọn tôi vô tình\Ntìm thấy trên đường đến đây
+Dialogue: 0,0:03:09.63,0:03:11.38,Default,,0,0,0,,còn tự mang phí hồi sinh trên người.
+Dialogue: 0,0:03:12.51,0:03:13.76,Default,,0,0,0,,Mọi người định đi tiếp à?
+Dialogue: 0,0:03:13.76,0:03:16.14,Default,,0,0,0,,Thủy Thần đang lang thang quanh đây,\Nnguy hiểm lắm.
+Dialogue: 0,0:03:16.14,0:03:17.43,Default,,0,0,0,,Thủy Thần?
+Dialogue: 0,0:03:19.64,0:03:21.81,Default,,0,0,0,,Ra là con bé này\Nđã chọc giận thủy linh sao?
+Dialogue: 0,0:03:23.73,0:03:25.15,Default,,0,0,0,,Đừng coi thường chúng tôi.
+Dialogue: 0,0:03:25.15,0:03:29.32,Default,,0,0,0,,Thần lùn bọn tôi đã sống cùng các vị thần\Nvà tinh linh từ thời cổ đại rồi.
+Dialogue: 0,0:03:29.90,0:03:35.53,Default,,0,0,0,,Bọn tôi coi tinh linh như hàng xóm,\Nkhông có gì phải sợ hết.
+Dialogue: 0,0:03:37.99,0:03:39.53,Default,,0,0,0,,Thủy Thần.
+Dialogue: 0,0:03:39.54,0:03:42.13,Default,,0,0,0,,Hỡi thủy linh hùng mạnh!
+Dialogue: 0,0:03:42.12,0:03:45.12,Default,,0,0,0,,Hãy nghe theo tiếng gọi của ta\Nvà trả lời ta!
+Dialogue: 0,0:03:45.88,0:03:46.71,Default,,0,0,0,,Không được rồi.
+Dialogue: 0,0:03:50.00,0:03:51.34,Default,,0,0,0,,Ông Tansu!
+Dialogue: 0,0:03:59.72,0:04:00.64,Default,,0,0,0,,Cách đó không được.
+Dialogue: 0,0:04:00.64,0:04:02.85,Default,,0,0,0,,Namari!
+Dialogue: 0,0:04:02.85,0:04:04.60,Default,,0,0,0,,Namari chết rồi!
+Dialogue: 0,0:04:04.60,0:04:06.14,Default,,0,0,0,,Cô ấy sẽ sớm hồi phục thôi.
+Dialogue: 0,0:04:06.73,0:04:09.69,Default,,0,0,0,,{\i1}Ira Fa Lane Brete Lane Bretego.{\i0}
+Dialogue: 0,0:04:13.74,0:04:17.79,Default,,0,0,0,,Lão già khốn kiếp!\NÔng lúc nào cũng dùng tôi làm lá chắn hết!
+Dialogue: 0,0:04:17.78,0:04:20.87,Default,,0,0,0,,Bởi vậy tôi mới\Ntrả công hậu hĩnh cho cô còn gì.
+Dialogue: 0,0:04:20.87,0:04:22.54,Default,,0,0,0,,Phép hồi sinh hả?
+Dialogue: 0,0:04:23.12,0:04:26.00,Default,,0,0,0,,Tôi đặc biệt không ưa loại phép thuật này.
+Dialogue: 0,0:04:26.00,0:04:28.42,Default,,0,0,0,,Ông phản đối hồi sinh sao?
+Dialogue: 0,0:04:28.42,0:04:31.42,Default,,0,0,0,,Thật không dễ chịu gì\Nkhi chứng kiến cảnh đó.
+Dialogue: 0,0:04:31.42,0:04:34.46,Default,,0,0,0,,Việc người chết sống lại là trái tự nhiên.
+Dialogue: 0,0:04:34.47,0:04:38.73,Default,,0,0,0,,Bên ngoài hầm ngục thì đúng,\Nchứ ở đây thì bình thường mà.
+Dialogue: 0,0:04:38.72,0:04:40.05,Default,,0,0,0,,Bình thường cái gì chứ.
+Dialogue: 0,0:04:40.64,0:04:42.60,Default,,0,0,0,,Không bình thường đâu, Laios.
+Dialogue: 0,0:04:42.60,0:04:44.10,Default,,0,0,0,,Đúng vậy.
+Dialogue: 0,0:04:44.68,0:04:48.14,Default,,0,0,0,,Hầm ngục này bị ảnh hưởng\Nbởi một bùa chú rất mạnh.
+Dialogue: 0,0:04:49.23,0:04:52.19,Default,,0,0,0,,{\i1}Nó gắn kết linh hồn với thể xác.{\i0}
+Dialogue: 0,0:04:52.19,0:04:56.86,Default,,0,0,0,,{\i1}Nên dù cơ thể có bị tổn thương cỡ nào,\Nlinh hồn sẽ không bao giờ được giải phóng.{\i0}
+Dialogue: 0,0:04:56.86,0:04:59.82,Default,,0,0,0,,{\i1}Và một khi vết thương lành lại,\Nngười đó có thể hồi sinh.{\i0}
+Dialogue: 0,0:04:59.82,0:05:01.57,Default,,0,0,0,,Theo tôi thấy,
+Dialogue: 0,0:05:01.58,0:05:04.71,Default,,0,0,0,,đây không phải là người chết sống lại.
+Dialogue: 0,0:05:04.70,0:05:08.41,Default,,0,0,0,,Ở nơi này, bản thân cái chết đã là cấm kỵ.
+Dialogue: 0,0:05:08.92,0:05:11.88,Default,,0,0,0,,Đó quả thật là một lời nguyền khủng khiếp.
+Dialogue: 0,0:05:12.55,0:05:13.84,Default,,0,0,0,,Tuy nhiên,
+Dialogue: 0,0:05:14.42,0:05:17.72,Default,,0,0,0,,tôi lại nghiên cứu\Nnhững thần chú cổ xưa đó.
+Dialogue: 0,0:05:17.72,0:05:21.10,Default,,0,0,0,,Tôi đến đây để điều tra\Nvòng tròn phép thuật ở khu vực này,
+Dialogue: 0,0:05:21.89,0:05:24.85,Default,,0,0,0,,nhưng cậu thấy đấy, người hộ tống tôi\Nlại không mấy đáng tin cậy.
+Dialogue: 0,0:05:26.93,0:05:29.06,Default,,0,0,0,,Nếu cậu giúp tôi điều tra,
+Dialogue: 0,0:05:29.06,0:05:31.35,Default,,0,0,0,,tôi sẽ chữa cho bạn của cậu.
+Dialogue: 0,0:05:37.61,0:05:38.86,Default,,0,0,0,,Đồng ý.
+Dialogue: 0,0:05:38.86,0:05:41.74,Default,,0,0,0,,Senshi và tôi sẽ đi cùng ông.
+Dialogue: 0,0:05:47.75,0:05:48.88,Default,,0,0,0,,Chắc là khu này.
+Dialogue: 0,0:05:50.21,0:05:52.05,Default,,0,0,0,,Chữ của yêu tinh.
+Dialogue: 0,0:05:52.04,0:05:54.13,Default,,0,0,0,,Viết xấu như gà bới ấy.
+Dialogue: 0,0:05:54.13,0:05:56.22,Default,,0,0,0,,Rễ cây vướng víu quá. Chặt hết đi.
+Dialogue: 0,0:06:00.34,0:06:04.30,Default,,0,0,0,,Laios, cậu vẫn giữ\Nthanh kiếm ghê rợn này sao?
+Dialogue: 0,0:06:04.89,0:06:06.52,Default,,0,0,0,,Tôi nói cậu suốt rồi...
+Dialogue: 0,0:06:06.52,0:06:08.77,Default,,0,0,0,,"Dùng kiếm mua ở tiệm" nhỉ? Tôi biết mà.
+Dialogue: 0,0:06:08.77,0:06:10.61,Default,,0,0,0,,Mua kiếm do người lùn chế tạo ấy.
+Dialogue: 0,0:06:10.60,0:06:13.19,Default,,0,0,0,,Tránh những tiệm\Ncó quản lý là bán nhân ra.
+Dialogue: 0,0:06:13.19,0:06:14.94,Default,,0,0,0,,Và đừng dùng lại bao kiếm cũ.
+Dialogue: 0,0:06:14.94,0:06:15.94,Default,,0,0,0,,Còn nữa...
+Dialogue: 0,0:06:15.94,0:06:19.03,Default,,0,0,0,,Thỉnh thoảng ông cũng nên\Nbảo dưỡng vũ khí của mình chứ.
+Dialogue: 0,0:06:19.03,0:06:20.53,Default,,0,0,0,,Coi cái rìu tội chưa kìa!
+Dialogue: 0,0:06:22.41,0:06:24.62,Default,,0,0,0,,Chắc cậu thấy tôi phiền lắm hả?
+Dialogue: 0,0:06:24.62,0:06:25.58,Default,,0,0,0,,Không.
+Dialogue: 0,0:06:26.16,0:06:29.79,Default,,0,0,0,,Nói đến vũ khí\Nthì tôi tin tưởng cô hơn bất kỳ ai.
+Dialogue: 0,0:06:39.84,0:06:40.84,Default,,0,0,0,,Lùi lại.
+Dialogue: 0,0:06:41.34,0:06:42.30,Default,,0,0,0,,Gì vậy?
+Dialogue: 0,0:06:42.30,0:06:43.59,Default,,0,0,0,,Có ma vật đang lẩn khuất.
+Dialogue: 0,0:06:43.59,0:06:45.01,Default,,0,0,0,,Vậy thì giết nó đi.
+Dialogue: 0,0:06:45.01,0:06:47.14,Default,,0,0,0,,Tôi không biết nó là gì hay ở đâu.
+Dialogue: 0,0:06:47.81,0:06:49.73,Default,,0,0,0,,Vậy sao cậu chắc chắn là có ma vật?
+Dialogue: 0,0:06:49.73,0:06:51.23,Default,,0,0,0,,Thì chỉ là linh cảm thôi.
+Dialogue: 0,0:06:51.23,0:06:52.48,Default,,0,0,0,,Đùa hay thật vậy?
+Dialogue: 0,0:06:52.48,0:06:53.86,Default,,0,0,0,,Ông Tansu.
+Dialogue: 0,0:06:54.44,0:06:57.61,Default,,0,0,0,,Hãy tin Laios mỗi khi cậu ấy thế này.
+Dialogue: 0,0:06:57.61,0:07:00.66,Default,,0,0,0,,Tôi không chấp nhận sự nghi ngờ vô căn cứ.
+Dialogue: 0,0:07:00.65,0:07:03.36,Default,,0,0,0,,Nếu quả thật nó đang lẩn khuất\Nthì hãy lôi nó ra đi.
+Dialogue: 0,0:07:17.04,0:07:19.59,Default,,0,0,0,,À, ra vậy.
+Dialogue: 0,0:07:19.59,0:07:21.43,Default,,0,0,0,,Là Xúc Tu này.
+Dialogue: 0,0:07:21.42,0:07:23.21,Default,,0,0,0,,Giờ mà cậu còn đứng ngắm được à!
+Dialogue: 0,0:07:23.22,0:07:25.76,Default,,0,0,0,,Kiki! Cố lên!
+Dialogue: 0,0:07:25.76,0:07:27.18,Default,,0,0,0,,Này, đừng đứng đực ra đấy!
+Dialogue: 0,0:07:27.18,0:07:29.02,Default,,0,0,0,,Mau tiêu diệt ma vật đó đi!
+Dialogue: 0,0:07:29.02,0:07:32.77,Default,,0,0,0,,- Vũ khí của ta có tới được chỗ nó đâu.\N- Thì mau tìm cách gì đi!
+Dialogue: 0,0:07:32.77,0:07:35.94,Default,,0,0,0,,Ta cố tình bị bắt\Nđể tiếp cận nó được không?
+Dialogue: 0,0:07:35.94,0:07:38.15,Default,,0,0,0,,Xúc Tu thuộc họ Thích ty bào.
+Dialogue: 0,0:07:38.73,0:07:42.65,Default,,0,0,0,,{\i1}Nếu tua của chúng tiếp xúc với da của ta,\Nchúng sẽ phóng ra các gai độc gây tê liệt.{\i0}
+Dialogue: 0,0:07:43.24,0:07:46.08,Default,,0,0,0,,Ta mà bị bắt\Nthì sẽ khó toàn mạng thoát ra được.
+Dialogue: 0,0:07:46.07,0:07:48.28,Default,,0,0,0,,Cô cậu chết\Nthì đã có tôi hồi sinh cho rồi mà!
+Dialogue: 0,0:07:48.28,0:07:49.20,Default,,0,0,0,,Nghe đây...
+Dialogue: 0,0:07:49.20,0:07:51.33,Default,,0,0,0,,Thôi được. Tôi sẽ đi.
+Dialogue: 0,0:07:52.04,0:07:54.79,Default,,0,0,0,,Senshi, cho tôi mượn mũ giáp.
+Dialogue: 0,0:07:58.09,0:08:00.30,Default,,0,0,0,,Này Laios, cậu không nên làm thế.
+Dialogue: 0,0:08:00.30,0:08:03.26,Default,,0,0,0,,Đừng trông chờ\Nvào tỷ lệ thành công của phép hồi sinh.
+Dialogue: 0,0:08:03.26,0:08:04.51,Default,,0,0,0,,Rồi sẽ ổn thôi.
+Dialogue: 0,0:08:05.09,0:08:08.39,Default,,0,0,0,,Vì tôi tin tưởng cô và Senshi.
+Dialogue: 0,0:08:10.47,0:08:13.06,Default,,0,0,0,,- Hả? Ý cậu ấy là sao?\N- Tôi chịu.
+Dialogue: 0,0:08:13.06,0:08:14.14,Default,,0,0,0,,Được rồi.
+Dialogue: 0,0:08:14.14,0:08:16.39,Default,,0,0,0,,Ê! Bên đây này, Xúc Tu!
+Dialogue: 0,0:08:20.44,0:08:21.82,Default,,0,0,0,,Đau!
+Dialogue: 0,0:08:21.82,0:08:24.32,Default,,0,0,0,,Đúng như mình lo sợ,\Nchúng đang đâm xuyên qua bộ giáp.
+Dialogue: 0,0:08:25.32,0:08:27.82,Default,,0,0,0,,Tay mình đang dần tê cứng rồi.
+Dialogue: 0,0:08:28.32,0:08:29.20,Default,,0,0,0,,Nhưng...
+Dialogue: 0,0:08:29.78,0:08:31.32,Default,,0,0,0,,Làm cái quái gì vậy hả, Laios?
+Dialogue: 0,0:08:31.33,0:08:33.46,Default,,0,0,0,,Nhắm vào phần giữa của nó đi!\NPhần giữa ấy!
+Dialogue: 0,0:08:45.80,0:08:46.63,Default,,0,0,0,,Thật tình.
+Dialogue: 0,0:08:46.63,0:08:48.01,Default,,0,0,0,,{\i1}Thì ra ý cậu ấy là vậy.{\i0}
+Dialogue: 0,0:08:48.01,0:08:51.01,Default,,0,0,0,,{\i1}Cậu ấy giao cho mình\Nnhiệm vụ khó khăn nhất!{\i0}
+Dialogue: 0,0:08:58.02,0:08:59.06,Default,,0,0,0,,Kiki!
+Dialogue: 0,0:09:04.61,0:09:06.61,Default,,0,0,0,,Laios, không sao chứ?
+Dialogue: 0,0:09:09.66,0:09:11.41,Default,,0,0,0,,Chắc là có sao rồi.
+Dialogue: 0,0:09:14.91,0:09:16.83,Default,,0,0,0,,Khoan... Gì?
+Dialogue: 0,0:09:16.83,0:09:19.37,Default,,0,0,0,,Ôi, Kiki. Cháu bị sao vậy?
+Dialogue: 0,0:09:19.38,0:09:21.30,Default,,0,0,0,,Ta chữa cho cháu liền đây.
+Dialogue: 0,0:09:23.55,0:09:25.47,Default,,0,0,0,,Sẽ hơi khó một chút.
+Dialogue: 0,0:09:25.46,0:09:28.05,Default,,0,0,0,,Xin lỗi, có thể sẽ mất một lúc đấy.
+Dialogue: 0,0:09:28.05,0:09:29.34,Default,,0,0,0,,Ông cứ thong thả.
+Dialogue: 0,0:09:30.05,0:09:33.14,Default,,0,0,0,,Giờ mặt cậu\Ntrông khác với lúc bình thường quá nhỉ?
+Dialogue: 0,0:09:33.14,0:09:34.98,Default,,0,0,0,,Thì tôi bị Xúc Tu chích mà.
+Dialogue: 0,0:09:35.56,0:09:37.98,Default,,0,0,0,,Còn cái này tính sao đây?
+Dialogue: 0,0:09:37.98,0:09:40.15,Default,,0,0,0,,Sao ông lại cầm cái đó?
+Dialogue: 0,0:09:40.15,0:09:43.24,Default,,0,0,0,,Lúc bứt nó ra, tay tôi tê cứng,\Ngiờ thì không buông ra được nữa.
+Dialogue: 0,0:09:43.23,0:09:45.65,Default,,0,0,0,,Tay ông giờ hệt như tay của thần lùn rồi.
+Dialogue: 0,0:09:45.65,0:09:46.99,Default,,0,0,0,,Để xem nào.
+Dialogue: 0,0:09:47.57,0:09:49.53,Default,,0,0,0,,Xúc Tu Thường Xuân à?
+Dialogue: 0,0:09:49.53,0:09:52.74,Default,,0,0,0,,"Rửa bằng giấm\Ncó thể làm giảm bớt hoạt tính của gai.
+Dialogue: 0,0:09:53.33,0:09:56.37,Default,,0,0,0,,Tùy thuộc vào loài Xúc Tu\Nmà có thể cho ra tác dụng ngược lại,
+Dialogue: 0,0:09:56.37,0:09:57.50,Default,,0,0,0,,nên phải thận trọng.
+Dialogue: 0,0:09:58.00,0:10:01.50,Default,,0,0,0,,Rạch một đường hình chữ thập\Nrồi bóc theo chiều dọc
+Dialogue: 0,0:10:01.50,0:10:03.88,Default,,0,0,0,,để bỏ lớp vỏ ngoài của gai đi".
+Dialogue: 0,0:10:03.88,0:10:07.88,Default,,0,0,0,,XÚC TU KÈM XỐT GIẤM
+Dialogue: 0,0:10:07.88,0:10:09.72,Default,,0,0,0,,Thấy bảo ngon lắm đấy.
+Dialogue: 0,0:10:09.72,0:10:10.93,Default,,0,0,0,,Đùa tôi đấy à?
+Dialogue: 0,0:10:10.93,0:10:13.52,Default,,0,0,0,,Không, chỉ là sự thật thú vị thôi.
+Dialogue: 0,0:10:13.51,0:10:16.76,Default,,0,0,0,,- Nếu đây là cách duy nhất thì đành vậy.\N- Hả?
+Dialogue: 0,0:10:18.27,0:10:20.48,Default,,0,0,0,,Ra vậy. Cũng không tệ.
+Dialogue: 0,0:10:20.48,0:10:23.23,Default,,0,0,0,,Nếu chế biến đúng cách thì còn ngon hơn.
+Dialogue: 0,0:10:23.23,0:10:24.65,Default,,0,0,0,,Cho tôi thử với!
+Dialogue: 0,0:10:26.78,0:10:27.91,Default,,0,0,0,,Món này...
+Dialogue: 0,0:10:27.90,0:10:30.69,Default,,0,0,0,,Mỗi phần lại có một vị khác nhau.
+Dialogue: 0,0:10:30.70,0:10:32.41,Default,,0,0,0,,Hẳn là do cậu tưởng tượng rồi.
+Dialogue: 0,0:10:32.41,0:10:33.95,Default,,0,0,0,,Không, thật mà!
+Dialogue: 0,0:10:33.95,0:10:35.16,Default,,0,0,0,,Thử mà xem.
+Dialogue: 0,0:10:37.79,0:10:39.92,Default,,0,0,0,,Tôi chỉ thấy mỗi vị giấm thôi.
+Dialogue: 0,0:10:40.50,0:10:42.21,Default,,0,0,0,,Cô muốn thử không, Marcille?
+Dialogue: 0,0:10:42.21,0:10:43.80,Default,,0,0,0,,Hả? Gì vậy?
+Dialogue: 0,0:10:45.80,0:10:47.13,Default,,0,0,0,,Có vị chua.
+Dialogue: 0,0:10:47.13,0:10:49.26,Default,,0,0,0,,Hơi nhớt chút chút.
+Dialogue: 0,0:10:49.76,0:10:52.68,Default,,0,0,0,,- Chỉ là khoai sọ thôi, đúng không?\N- Cô cũng thử đi, Namari.
+Dialogue: 0,0:10:53.26,0:10:55.10,Default,,0,0,0,,Phần này. Tôi thấy cô nên ăn phần này.
+Dialogue: 0,0:10:55.10,0:10:56.73,Default,,0,0,0,,Không! Thôi khỏi đi!
+Dialogue: 0,0:10:56.72,0:10:59.43,Default,,0,0,0,,Chúng tôi không thiếu đồ ăn!
+Dialogue: 0,0:11:00.02,0:11:01.23,Default,,0,0,0,,Nhưng ngon lắm đấy.
+Dialogue: 0,0:11:01.23,0:11:04.19,Default,,0,0,0,,Cũng không hẳn,\Nnhưng nếu nấu đúng cách thì có thể.
+Dialogue: 0,0:11:04.19,0:11:06.98,Default,,0,0,0,,Có thể hầm hoặc là nghiền rồi chiên lên.
+Dialogue: 0,0:11:06.98,0:11:08.44,Default,,0,0,0,,Ngon lành!
+Dialogue: 0,0:11:10.03,0:11:11.37,Default,,0,0,0,,Tuột ra rồi!
+Dialogue: 0,0:11:15.12,0:11:16.33,Default,,0,0,0,,Xin lỗi đã để cậu đợi.
+Dialogue: 0,0:11:16.33,0:11:17.92,Default,,0,0,0,,Giờ tôi sẽ chữa cho cậu.
+Dialogue: 0,0:11:17.91,0:11:19.33,Default,,0,0,0,,Cảm ơn ông.
+Dialogue: 0,0:11:19.33,0:11:21.87,Default,,0,0,0,,Vậy phiền ông chữa cho cô ấy trước nhé.
+Dialogue: 0,0:11:24.50,0:11:31.38,Default,,0,0,0,,{\i1}Ilava Rietge Atheus Pilitos\NNuswera Iboiseme Seus Wehrba.{\i0}
+Dialogue: 0,0:11:35.55,0:11:38.68,Default,,0,0,0,,Cảm giác khỏe mạnh mới đã làm sao!
+Dialogue: 0,0:11:39.56,0:11:42.06,Default,,0,0,0,,Cảm ơn ông, Tansu.
+Dialogue: 0,0:11:42.06,0:11:42.98,Default,,0,0,0,,Cả cậu nữa, Laios.
+Dialogue: 0,0:11:43.98,0:11:45.36,Default,,0,0,0,,Mặt cậu bị sao thế?
+Dialogue: 0,0:11:45.35,0:11:46.85,Default,,0,0,0,,Cảm ơn Namari ấy.
+Dialogue: 0,0:11:47.44,0:11:50.90,Default,,0,0,0,,- Hả?\N- Tiễn thuật của cô rất xuất sắc.
+Dialogue: 0,0:11:50.90,0:11:53.28,Default,,0,0,0,,Mới bắn một phát\Nđã hạ được nó rồi, thật lợi hại.
+Dialogue: 0,0:11:53.28,0:11:56.58,Default,,0,0,0,,May cho chúng tôi\Nlà cô còn giỏi dùng nỏ nữa.
+Dialogue: 0,0:11:56.57,0:11:59.61,Default,,0,0,0,,Thật ra thì\Nđây là lần đầu tôi dùng nỏ đấy.
+Dialogue: 0,0:11:59.62,0:12:00.54,Default,,0,0,0,,Hả?
+Dialogue: 0,0:12:01.33,0:12:02.21,Default,,0,0,0,,Namari.
+Dialogue: 0,0:12:03.46,0:12:06.88,Default,,0,0,0,,Cảm ơn cô đã giúp chúng tôi.
+Dialogue: 0,0:12:06.88,0:12:08.88,Default,,0,0,0,,Tôi sẽ tạm gác lại chuyện của Falin.
+Dialogue: 0,0:12:08.88,0:12:11.30,Default,,0,0,0,,Đừng khách sáo.
+Dialogue: 0,0:12:11.30,0:12:16.01,Default,,0,0,0,,Được trả tiền thay vì làm không công\Nthì cố hết mình là chuyện thường mà.
+Dialogue: 0,0:12:19.85,0:12:21.39,Default,,0,0,0,,Thôi nào, hai người.
+Dialogue: 0,0:12:21.39,0:12:22.93,Default,,0,0,0,,Chuyện cũng qua rồi mà.
+Dialogue: 0,0:12:22.93,0:12:24.56,Default,,0,0,0,,Qua đâu mà qua!
+Dialogue: 0,0:12:24.56,0:12:28.31,Default,,0,0,0,,Sao cậu cứ làm như\Nđây không phải chuyện của mình thế?
+Dialogue: 0,0:12:28.31,0:12:29.69,Default,,0,0,0,,Thật không thể tin nổi!
+Dialogue: 0,0:12:29.69,0:12:31.90,Default,,0,0,0,,- Ý tôi không phải vậy!\N- Anh là thủ lĩnh hả?
+Dialogue: 0,0:12:31.90,0:12:33.49,Default,,0,0,0,,Vai trò khó khăn nhỉ?
+Dialogue: 0,0:12:36.74,0:12:38.28,Default,,0,0,0,,Nó đang nhìn về phía này.
+Dialogue: 0,0:12:39.16,0:12:40.95,Default,,0,0,0,,Nó vẫn còn giận sao?
+Dialogue: 0,0:12:40.95,0:12:44.66,Default,,0,0,0,,Cô đã làm gì\Nmà khiến tinh linh đó phẫn nộ đến vậy?
+Dialogue: 0,0:12:44.66,0:12:47.08,Default,,0,0,0,,Tôi chưa từng bị tấn công dữ dội như thế.
+Dialogue: 0,0:12:47.08,0:12:50.63,Default,,0,0,0,,Chắc do tôi lỡ đổ nước sôi\Ntrực tiếp lên nó đấy.
+Dialogue: 0,0:12:50.63,0:12:53.80,Default,,0,0,0,,Gay go rồi. Đúng là yêu tinh mà.
+Dialogue: 0,0:12:53.80,0:12:55.47,Default,,0,0,0,,Yêu tinh...
+Dialogue: 0,0:12:55.47,0:12:57.43,Default,,0,0,0,,Liên quan gì đến tộc của tôi chứ!
+Dialogue: 0,0:12:58.30,0:13:02.22,Default,,0,0,0,,Có cách nào xoa dịu tinh linh\Nmà không dùng đến phép thuật không?
+Dialogue: 0,0:13:02.22,0:13:03.60,Default,,0,0,0,,Đơn giản thôi.
+Dialogue: 0,0:13:04.18,0:13:06.97,Default,,0,0,0,,{\i1}Thủy Thần\Nlà tập hợp của các tiểu tinh linh.{\i0}
+Dialogue: 0,0:13:06.98,0:13:10.28,Default,,0,0,0,,{\i1}Nếu các cá thể trong tập hợp\Nchết một cách tự nhiên,{\i0}
+Dialogue: 0,0:13:10.27,0:13:13.36,Default,,0,0,0,,{\i1}thì sự thù địch của chúng sẽ tan biến\Nkhi các thế hệ mới nổi lên.{\i0}
+Dialogue: 0,0:13:13.94,0:13:17.53,Default,,0,0,0,,Tuổi thọ của một tinh linh\Ncùng lắm là một tuần.
+Dialogue: 0,0:13:17.53,0:13:19.37,Default,,0,0,0,,Một tuần sao?
+Dialogue: 0,0:13:20.16,0:13:21.95,Default,,0,0,0,,Tôi không thể đợi lâu thế được.
+Dialogue: 0,0:13:21.95,0:13:23.37,Default,,0,0,0,,Chúng tôi cũng vậy.
+Dialogue: 0,0:13:23.37,0:13:27.08,Default,,0,0,0,,Nên chúng tôi\Nsẽ tạm thời quay lại mặt đất.
+Dialogue: 0,0:13:27.08,0:13:29.83,Default,,0,0,0,,Lúc khác hẵng điều tra tiếp vậy.
+Dialogue: 0,0:13:29.83,0:13:32.46,Default,,0,0,0,,Này, chuẩn bị thần chú hồi quy thôi.
+Dialogue: 0,0:13:33.46,0:13:36.38,Default,,0,0,0,,Này, Laios.\NHọ đang chuẩn bị thần chú hồi quy kìa.
+Dialogue: 0,0:13:37.72,0:13:39.89,Default,,0,0,0,,Ông Tansu, tôi muốn nhờ một việc.
+Dialogue: 0,0:13:41.97,0:13:44.39,Default,,0,0,0,,Cậu muốn tôi cùng họ quay lại mặt đất sao?
+Dialogue: 0,0:13:44.39,0:13:46.98,Default,,0,0,0,,Bây giờ ư? Sau khi đã đến tận đây?
+Dialogue: 0,0:13:46.98,0:13:49.15,Default,,0,0,0,,Cô đã cạn hết phép thuật rồi.
+Dialogue: 0,0:13:49.14,0:13:52.27,Default,,0,0,0,,Tôi nghe nói cạn phép thuật\Nthì cũng như là thiếu máu vậy.
+Dialogue: 0,0:13:52.86,0:13:55.20,Default,,0,0,0,,Cô nên quay lại mặt đất\Ncùng nhóm ông Tansu thì hơn.
+Dialogue: 0,0:13:55.19,0:13:56.44,Default,,0,0,0,,Tôi không sao mà.
+Dialogue: 0,0:13:56.44,0:13:58.53,Default,,0,0,0,,Tôi còn đang khỏe khoắn đến bất ngờ đây.
+Dialogue: 0,0:13:58.53,0:14:00.24,Default,,0,0,0,,À, chắc là nhờ món gan đấy.
+Dialogue: 0,0:14:00.24,0:14:03.41,Default,,0,0,0,,Đồ ăn bổ dưỡng không giúp\Ntình trạng của cô thay đổi ngay được đâu.
+Dialogue: 0,0:14:03.41,0:14:05.33,Default,,0,0,0,,- Ăn mỗi ngày thì...\N- Chuyện đó để sau.
+Dialogue: 0,0:14:05.33,0:14:07.75,Default,,0,0,0,,Tôi thấy ổn lắm, thật đấy.
+Dialogue: 0,0:14:07.75,0:14:10.55,Default,,0,0,0,,Nghỉ ngơi một tí chắc phép thuật\Ncũng hồi được ít nhiều rồi.
+Dialogue: 0,0:14:10.54,0:14:15.30,Default,,0,0,0,,Nhưng hình như gậy phép của cô\Nkhông có hào quang phép thuật như mọi khi.
+Dialogue: 0,0:14:15.30,0:14:17.55,Default,,0,0,0,,Đó là vì...
+Dialogue: 0,0:14:20.59,0:14:21.55,Default,,0,0,0,,Kệ cô ấy đi.
+Dialogue: 0,0:14:22.64,0:14:24.14,Default,,0,0,0,,Cô cười cái gì?
+Dialogue: 0,0:14:24.14,0:14:27.56,Default,,0,0,0,,Tại tôi chưa từng thấy\Nbiểu cảm này của cô đó mà.
+Dialogue: 0,0:14:28.23,0:14:29.06,Default,,0,0,0,,Có điều,
+Dialogue: 0,0:14:29.06,0:14:31.48,Default,,0,0,0,,cô ấy đi rồi thì mọi người định làm gì?
+Dialogue: 0,0:14:31.48,0:14:34.19,Default,,0,0,0,,Có ba người thì đánh sao lại con rồng chứ.
+Dialogue: 0,0:14:34.19,0:14:36.07,Default,,0,0,0,,Chừa tôi ra giùm.
+Dialogue: 0,0:14:36.07,0:14:41.78,Default,,0,0,0,,Với cả, rìu của ông thế kia\Ncòn chẳng thể làm xước da nó nữa.
+Dialogue: 0,0:14:43.45,0:14:47.41,Default,,0,0,0,,Namari, cô đã hạ được\Nnhiều con rồng rồi nhỉ?
+Dialogue: 0,0:14:48.37,0:14:49.20,Default,,0,0,0,,Ừ.
+Dialogue: 0,0:14:49.79,0:14:51.71,Default,,0,0,0,,Vậy thì...
+Dialogue: 0,0:14:54.17,0:14:55.46,Default,,0,0,0,,Xin cô đấy, Namari.
+Dialogue: 0,0:14:55.46,0:14:57.09,Default,,0,0,0,,Về lại đội của chúng tôi đi!
+Dialogue: 0,0:14:57.67,0:14:58.96,Default,,0,0,0,,Cô không đùa đấy chứ?
+Dialogue: 0,0:14:58.96,0:15:02.59,Default,,0,0,0,,Hãy giúp đội của Laios đánh bại Rồng Đỏ.
+Dialogue: 0,0:15:02.59,0:15:05.05,Default,,0,0,0,,Tôi muốn cứu được Falin bằng mọi giá!
+Dialogue: 0,0:15:05.55,0:15:06.93,Default,,0,0,0,,Chỉ lần này thôi!
+Dialogue: 0,0:15:06.93,0:15:09.14,Default,,0,0,0,,Tôi sẽ tìm cách gom tiền trả cô!
+Dialogue: 0,0:15:09.14,0:15:10.77,Default,,0,0,0,,Bỏ đi, Marcille.
+Dialogue: 0,0:15:11.27,0:15:12.61,Default,,0,0,0,,Sao lại bỏ?
+Dialogue: 0,0:15:12.60,0:15:14.98,Default,,0,0,0,,Cộng đồng thám hiểm nhỏ mà,
+Dialogue: 0,0:15:14.98,0:15:17.78,Default,,0,0,0,,nên tin đồn lan nhanh lắm.
+Dialogue: 0,0:15:17.78,0:15:21.37,Default,,0,0,0,,Dạo này\NNamari hay gặp khó khăn về tài chính.
+Dialogue: 0,0:15:21.36,0:15:24.45,Default,,0,0,0,,Và ông Tansu đã đánh hơi được, đúng không?
+Dialogue: 0,0:15:24.45,0:15:25.41,Default,,0,0,0,,Đúng.
+Dialogue: 0,0:15:26.08,0:15:29.00,Default,,0,0,0,,Giờ mà cô ấy quay lại đội cũ vì tiền\Nthì sẽ thế nào chứ?
+Dialogue: 0,0:15:29.58,0:15:32.25,Default,,0,0,0,,{\i1}"Cô ta làm mọi thứ vì tiền".{\i0}
+Dialogue: 0,0:15:32.25,0:15:34.88,Default,,0,0,0,,{\i1}Người ta sẽ nói cô ấy như thế.{\i0}
+Dialogue: 0,0:15:34.88,0:15:38.18,Default,,0,0,0,,{\i1}Nó có thể mở ra nhiều cơ hội việc làm hơn,{\i0}
+Dialogue: 0,0:15:38.17,0:15:40.51,Default,,0,0,0,,{\i1}nhưng có lẽ sẽ thu hút\Nmột nhóm khách hàng khác.{\i0}
+Dialogue: 0,0:15:40.51,0:15:42.35,Default,,0,0,0,,Nên là bỏ đi.
+Dialogue: 0,0:15:42.34,0:15:44.88,Default,,0,0,0,,Nhất là nếu cô còn quan tâm\Nđến tương lai của hai bên.
+Dialogue: 0,0:15:46.10,0:15:47.73,Default,,0,0,0,,Là thế đấy.
+Dialogue: 0,0:15:47.72,0:15:49.43,Default,,0,0,0,,Bỏ đi, Marcille.
+Dialogue: 0,0:15:57.52,0:16:00.77,Default,,0,0,0,,Không. Vẫn còn một cách khác.
+Dialogue: 0,0:16:00.78,0:16:03.53,Default,,0,0,0,,Vẫn có cách\Nđể tôi lấy lại được phép thuật.
+Dialogue: 0,0:16:03.53,0:16:05.53,Default,,0,0,0,,Là cách gì?
+Dialogue: 0,0:16:06.41,0:16:07.58,Default,,0,0,0,,Đó là uống...
+Dialogue: 0,0:16:08.33,0:16:09.29,Default,,0,0,0,,Thủy Thần!
+Dialogue: 0,0:16:11.37,0:16:12.66,Default,,0,0,0,,Hả? Thủy Thần?
+Dialogue: 0,0:16:13.66,0:16:15.04,Default,,0,0,0,,Phản ứng vậy là sao?
+Dialogue: 0,0:16:15.04,0:16:16.92,Default,,0,0,0,,Bình thường cậu hăng hái lắm mà?
+Dialogue: 0,0:16:16.92,0:16:18.92,Default,,0,0,0,,Tôi không mấy hứng thú với tinh linh.
+Dialogue: 0,0:16:19.63,0:16:21.88,Default,,0,0,0,,Tinh linh sống nhờ phép thuật.
+Dialogue: 0,0:16:21.88,0:16:24.93,Default,,0,0,0,,Nên chắc chắn chúng rất dồi dào ma lực!
+Dialogue: 0,0:16:25.63,0:16:29.09,Default,,0,0,0,,{\i1}Nhưng bắt được nó\Ncó vẻ còn khó hơn là hạ nó nữa.{\i0}
+Dialogue: 0,0:16:29.10,0:16:32.48,Default,,0,0,0,,Nhưng thủy tinh linh\Ndễ bị ảnh hưởng bởi nhiệt độ
+Dialogue: 0,0:16:32.47,0:16:34.10,Default,,0,0,0,,nên tôi có thể tận dụng điều này.
+Dialogue: 0,0:16:34.10,0:16:36.69,Default,,0,0,0,,Ta có thể tấn công nó\Nbằng vũ khí có nhiệt.
+Dialogue: 0,0:16:37.94,0:16:41.90,Default,,0,0,0,,Hoặc có thể đổ dầu lên hồ,\Nchâm lửa và nhốt tinh linh đó lại?
+Dialogue: 0,0:16:43.65,0:16:46.45,Default,,0,0,0,,Khi nó tấn công, nước sẽ tràn ra đất,
+Dialogue: 0,0:16:46.45,0:16:47.95,Default,,0,0,0,,và tôi sẽ tranh thủ uống nó.
+Dialogue: 0,0:16:49.37,0:16:52.04,Default,,0,0,0,,Lỡ nó khoét thủng người cô\Ntừ bên trong thì sao?
+Dialogue: 0,0:16:52.75,0:16:53.75,Default,,0,0,0,,Cậu nói đúng.
+Dialogue: 0,0:16:54.71,0:16:56.38,Default,,0,0,0,,Thôi nào, nghĩ đi.
+Dialogue: 0,0:16:56.37,0:16:57.50,Default,,0,0,0,,Phải có cách gì chứ.
+Dialogue: 0,0:17:01.84,0:17:06.01,Default,,0,0,0,,Nếu làm nóng nồi và dùng nó làm lá chắn,\Ntôi có thể phòng thủ và tấn công cùng lúc.
+Dialogue: 0,0:17:06.01,0:17:08.60,Default,,0,0,0,,Nhưng Thủy Thần có sức mạnh\Nxuyên thủng cả cột đá mà.
+Dialogue: 0,0:17:08.59,0:17:10.63,Default,,0,0,0,,Cái nồi nát này\Nlàm sao bảo vệ được cô chứ.
+Dialogue: 0,0:17:10.64,0:17:13.14,Default,,0,0,0,,Gọi nó là cái nồi nát thì phũ phàng quá.
+Dialogue: 0,0:17:13.72,0:17:16.85,Default,,0,0,0,,Nó là vật gia bảo\Nđược lưu truyền qua nhiều thế hệ.
+Dialogue: 0,0:17:16.85,0:17:19.14,Default,,0,0,0,,Tôi đã giữ gìn nó rất tốt.
+Dialogue: 0,0:17:19.15,0:17:22.07,Default,,0,0,0,,Nó không bao giờ bị cháy,\Nnhiệt phân bố lại đều.
+Dialogue: 0,0:17:22.07,0:17:23.65,Default,,0,0,0,,Là một cái nồi rất tốt.
+Dialogue: 0,0:17:24.23,0:17:25.40,Default,,0,0,0,,Đợi đã.
+Dialogue: 0,0:17:27.24,0:17:29.16,Default,,0,0,0,,Màu sắc, độ bóng,
+Dialogue: 0,0:17:29.74,0:17:32.33,Default,,0,0,0,,trọng lượng, kết cấu...
+Dialogue: 0,0:17:32.33,0:17:34.42,Default,,0,0,0,,Chính là gang thép!
+Dialogue: 0,0:17:34.41,0:17:35.66,Default,,0,0,0,,Không thể tin nổi.
+Dialogue: 0,0:17:35.66,0:17:37.66,Default,,0,0,0,,Nếu là vũ khí\Nthì có thể đập vỡ xương rồng.
+Dialogue: 0,0:17:37.66,0:17:39.95,Default,,0,0,0,,Là áo giáp thì chắn được cả nanh rồng.
+Dialogue: 0,0:17:39.96,0:17:44.42,Default,,0,0,0,,Đây là thứ kim loại\Nmà thợ rèn nào cũng mơ ước.
+Dialogue: 0,0:17:44.42,0:17:46.42,Default,,0,0,0,,Vậy mà ông lại dùng nó làm nồi là sao?
+Dialogue: 0,0:17:46.42,0:17:50.09,Default,,0,0,0,,Ban đầu nó là khiên chắn\Nnhưng tôi không cần đến, nên là...
+Dialogue: 0,0:17:50.09,0:17:52.43,Default,,0,0,0,,Sao lại phí phạm vậy chứ?
+Dialogue: 0,0:17:52.43,0:17:54.39,Default,,0,0,0,,Nó chịu nổi đòn đánh của Thủy Thần không?
+Dialogue: 0,0:17:54.39,0:17:55.68,Default,,0,0,0,,Nổi chứ sao không!
+Dialogue: 0,0:17:55.68,0:17:57.97,Default,,0,0,0,,Vừa hay ta có cả nồi và nắp nồi,
+Dialogue: 0,0:17:57.98,0:18:01.23,Default,,0,0,0,,nên mỗi người có thể dùng một thứ\Nđể tấn công từ hai phía.
+Dialogue: 0,0:18:01.23,0:18:03.82,Default,,0,0,0,,Và ta sẽ dùng lửa đun sôi nó!
+Dialogue: 0,0:18:03.82,0:18:05.61,Default,,0,0,0,,Đó là lựa chọn duy nhất.
+Dialogue: 0,0:18:07.03,0:18:07.86,Default,,0,0,0,,{\i1}Thật hả trời?{\i0}
+Dialogue: 0,0:18:07.86,0:18:10.95,Default,,0,0,0,,{\i1}Dù khiên chắn có cứng,\Nnhưng sức mạnh của Thủy Thần cũng quá lớn.{\i0}
+Dialogue: 0,0:18:11.53,0:18:15.66,Default,,0,0,0,,{\i1}Có thể Người Lùn còn khống chế nó được,\Nnhưng liệu Laios có đủ mạnh không?{\i0}
+Dialogue: 0,0:18:20.79,0:18:22.71,Default,,0,0,0,,Hãy sẵn sàng khi bề mặt của nó cong vênh.
+Dialogue: 0,0:18:24.42,0:18:26.34,Default,,0,0,0,,Đừng bỏ lỡ cơ hội này.
+Dialogue: 0,0:18:29.68,0:18:30.64,Default,,0,0,0,,Là lúc này!
+Dialogue: 0,0:18:32.80,0:18:33.93,Default,,0,0,0,,Laios!
+Dialogue: 0,0:18:42.27,0:18:43.52,Default,,0,0,0,,{\i1}Sức mạnh khủng quá.{\i0}
+Dialogue: 0,0:18:51.41,0:18:52.45,Default,,0,0,0,,Laios!
+Dialogue: 0,0:19:03.46,0:19:04.59,Default,,0,0,0,,Namari.
+Dialogue: 0,0:19:16.97,0:19:17.80,Default,,0,0,0,,Ngay bây giờ!
+Dialogue: 0,0:19:26.02,0:19:27.81,Default,,0,0,0,,Tốt. Tiếp tục đi.
+Dialogue: 0,0:19:27.82,0:19:29.45,Default,,0,0,0,,Cố lên!
+Dialogue: 0,0:19:29.44,0:19:31.32,Default,,0,0,0,,Đặt nó lên ngọn lửa!
+Dialogue: 0,0:19:54.38,0:19:56.09,Default,,0,0,0,,Nóng quá!
+Dialogue: 0,0:19:56.09,0:19:58.51,Default,,0,0,0,,- Hết sảy!\N- Không thể tin nổi.
+Dialogue: 0,0:19:58.51,0:20:00.47,Default,,0,0,0,,Sức mạnh thật đáng kinh ngạc!
+Dialogue: 0,0:20:01.10,0:20:04.02,Default,,0,0,0,,Namari, Senshi, cảm ơn nhiều nhé!
+Dialogue: 0,0:20:04.60,0:20:05.56,Default,,0,0,0,,Cả cậu nữa, Laios.
+Dialogue: 0,0:20:06.27,0:20:07.31,Default,,0,0,0,,Cậu có sao không?
+Dialogue: 0,0:20:07.31,0:20:09.65,Default,,0,0,0,,To cao vậy mà hóa ra lại yếu nhớt.
+Dialogue: 0,0:20:09.65,0:20:11.28,Default,,0,0,0,,Đúng là con người mà.
+Dialogue: 0,0:20:11.86,0:20:12.86,Default,,0,0,0,,Phải rồi.
+Dialogue: 0,0:20:21.41,0:20:23.66,Default,,0,0,0,,Không cần uống hết một hơi đâu.
+Dialogue: 0,0:20:24.21,0:20:27.05,Default,,0,0,0,,Ma thuật của tinh linh rất khó hấp thụ.
+Dialogue: 0,0:20:27.75,0:20:32.80,Default,,0,0,0,,Quan trọng là phải kết hợp đồ ăn\Nvới một số chất giúp hấp thụ.
+Dialogue: 0,0:20:33.38,0:20:34.55,Default,,0,0,0,,Senshi.
+Dialogue: 0,0:20:35.26,0:20:37.01,Default,,0,0,0,,Nấu ăn thôi.
+Dialogue: 0,0:20:38.39,0:20:42.94,Default,,0,0,0,,{\i1}Lột vỏ khoai tây, cà rốt,\Nhành tây và Xúc Tu.{\i0}
+Dialogue: 0,0:20:43.52,0:20:44.94,Default,,0,0,0,,{\i1}Rồi cắt thành các miếng vừa ăn.{\i0}
+Dialogue: 0,0:20:45.89,0:20:48.56,Default,,0,0,0,,{\i1}Ướp thịt Ngựa Nước với muối và tiêu,{\i0}
+Dialogue: 0,0:20:48.56,0:20:50.77,Default,,0,0,0,,{\i1}chiên đến khi bề mặt đổi màu.{\i0}
+Dialogue: 0,0:20:50.77,0:20:53.73,Default,,0,0,0,,{\i1}Cho hành tây và cà rốt vào đảo qua,{\i0}
+Dialogue: 0,0:20:53.74,0:20:55.62,Default,,0,0,0,,{\i1}rồi cho hết vào Thủy Thần.{\i0}
+Dialogue: 0,0:20:57.91,0:20:59.33,Default,,0,0,0,,{\i1}Hớt hết bọt,{\i0}
+Dialogue: 0,0:20:59.32,0:21:02.95,Default,,0,0,0,,{\i1}rồi cho khoai tây cùng gia vị vào\Nvà ninh nhỏ lửa.{\i0}
+Dialogue: 0,0:21:11.42,0:21:12.80,Default,,0,0,0,,Xong rồi!
+Dialogue: 0,0:21:12.80,0:21:15.34,Default,,0,0,0,,THỦY THẦN HẦM VỚI XÚC TU VÀ NGỰA NƯỚC
+Dialogue: 0,0:21:15.34,0:21:17.26,Default,,0,0,0,,Ơ? Mọi người đi đâu rồi?
+Dialogue: 0,0:21:17.26,0:21:20.22,Default,,0,0,0,,Họ qua tòa tháp bên kia sông\Nđể điều tra tiếp rồi.
+Dialogue: 0,0:21:21.10,0:21:22.10,Default,,0,0,0,,Chúng tôi về rồi!
+Dialogue: 0,0:21:22.76,0:21:24.85,Default,,0,0,0,,Không ngờ lại đông như vậy.
+Dialogue: 0,0:21:24.85,0:21:26.98,Default,,0,0,0,,May mà ta đã xử lý xong chúng.
+Dialogue: 0,0:21:27.56,0:21:28.52,Default,,0,0,0,,Này!
+Dialogue: 0,0:21:30.31,0:21:33.10,Default,,0,0,0,,Muốn dùng bữa cùng chúng tôi không?
+Dialogue: 0,0:21:37.82,0:21:39.07,Default,,0,0,0,,Của cậu đây.
+Dialogue: 0,0:21:39.57,0:21:41.24,Default,,0,0,0,,Nhìn ngon quá.
+Dialogue: 0,0:21:41.24,0:21:43.20,Default,,0,0,0,,Cô làm món này hả, Marcille?
+Dialogue: 0,0:21:43.20,0:21:46.00,Default,,0,0,0,,Senshi đã giúp tôi rất nhiều.
+Dialogue: 0,0:21:46.75,0:21:48.25,Default,,0,0,0,,Đây, Namari.
+Dialogue: 0,0:21:50.58,0:21:53.17,Default,,0,0,0,,Cô đừng phục vụ mọi người nữa\Nmà hãy ăn đi.
+Dialogue: 0,0:21:53.17,0:21:54.76,Default,,0,0,0,,Cũng phải.
+Dialogue: 0,0:22:08.14,0:22:09.10,Default,,0,0,0,,Thế chứ!
+Dialogue: 0,0:22:09.10,0:22:11.14,Default,,0,0,0,,Phép thuật bắt đầu hồi lại rồi.
+Dialogue: 0,0:22:12.27,0:22:13.23,Default,,0,0,0,,Mọi người...
+Dialogue: 0,0:22:14.23,0:22:17.15,Default,,0,0,0,,đến được tận đây là nhờ\Nkiếm ăn thế này suốt bấy lâu nay sao?
+Dialogue: 0,0:22:17.15,0:22:18.40,Default,,0,0,0,,Đúng vậy.
+Dialogue: 0,0:22:18.99,0:22:22.45,Default,,0,0,0,,{\i1}Mình sẵn sàng\Nnghe họ chê trách vì đã rời bỏ đội,{\i0}
+Dialogue: 0,0:22:22.45,0:22:25.58,Default,,0,0,0,,{\i1}nhưng không ngờ họ lại dùng cách này.{\i0}
+Dialogue: 0,0:22:26.75,0:22:29.17,Default,,0,0,0,,{\i1}Đây có lẽ là một dạng hình phạt.{\i0}
+Dialogue: 0,0:22:35.50,0:22:38.46,Default,,0,0,0,,{\i1}Ngon quá!\NNước dùng đã ngấm đều vào nguyên liệu.{\i0}
+Dialogue: 0,0:22:38.47,0:22:40.81,Default,,0,0,0,,{\i1}Mà sao nấu nhanh nhừ thế nhỉ?{\i0}
+Dialogue: 0,0:22:40.80,0:22:42.05,Default,,0,0,0,,{\i1}Có phải vì cái nồi không?{\i0}
+Dialogue: 0,0:22:42.05,0:22:44.64,Default,,0,0,0,,{\i1}Dùng gang thép làm nồi nấu ăn\Nliệu có tốt không?{\i0}
+Dialogue: 0,0:22:45.31,0:22:47.27,Default,,0,0,0,,Ông là Senshi nhỉ?
+Dialogue: 0,0:22:47.77,0:22:50.27,Default,,0,0,0,,À, về cái rìu của ông...
+Dialogue: 0,0:22:50.94,0:22:52.40,Default,,0,0,0,,Tôi xin lỗi vì đã chế nhạo nó.
+Dialogue: 0,0:22:54.02,0:22:55.15,Default,,0,0,0,,Có gì đâu.
+Dialogue: 0,0:22:55.15,0:22:59.28,Default,,0,0,0,,Thật ra, tôi không có hứng thú\Nvới việc rèn kim loại.
+Dialogue: 0,0:23:00.57,0:23:02.66,Default,,0,0,0,,Tôi không phân biệt được các loại quặng,
+Dialogue: 0,0:23:02.66,0:23:06.46,Default,,0,0,0,,và các bằng hữu cũ\Nthường tỏ ra khó chịu với tôi.
+Dialogue: 0,0:23:08.16,0:23:11.08,Default,,0,0,0,,Namari này, chúng tôi sẽ quay lại mặt đất.
+Dialogue: 0,0:23:12.54,0:23:14.96,Default,,0,0,0,,Nhưng cô có thể ở lại đây.
+Dialogue: 0,0:23:16.92,0:23:18.46,Default,,0,0,0,,Ông đang nói gì vậy?
+Dialogue: 0,0:23:18.46,0:23:20.75,Default,,0,0,0,,Ít nhất cũng ăn thử một miếng đi!
+Dialogue: 0,0:23:20.76,0:23:23.22,Default,,0,0,0,,Kết cấu hơi lạ, nhưng vị khá ngon đấy!
+Dialogue: 0,0:23:23.22,0:23:24.39,Default,,0,0,0,,Nhưng mà...
+Dialogue: 0,0:23:24.39,0:23:27.10,Default,,0,0,0,,Đành rằng\Ntôi không thể yêu cầu ông tin tôi,
+Dialogue: 0,0:23:28.31,0:23:30.77,Default,,0,0,0,,nhưng tôi không muốn\Nchỉ là người làm công.
+Dialogue: 0,0:23:30.77,0:23:33.44,Default,,0,0,0,,Tôi muốn được các ông chấp nhận\Nnhư người của mình.
+Dialogue: 0,0:23:34.56,0:23:36.15,Default,,0,0,0,,Tôi sẽ chăm chỉ.
+Dialogue: 0,0:23:47.70,0:23:50.29,Default,,0,0,0,,Nói thật nhé, Chilchuck,
+Dialogue: 0,0:23:50.29,0:23:53.13,Default,,0,0,0,,tôi cứ tưởng\Ncậu sẽ là người đầu tiên rời đội cơ.
+Dialogue: 0,0:23:53.12,0:23:56.50,Default,,0,0,0,,Cậu đâu phải kiểu người làm không công.
+Dialogue: 0,0:23:57.09,0:23:58.01,Default,,0,0,0,,Đúng vậy.
+Dialogue: 0,0:23:58.00,0:24:00.50,Default,,0,0,0,,Thế nên tôi mới luôn đòi trả tiền trước.
+Dialogue: 0,0:24:00.51,0:24:04.76,Default,,0,0,0,,Nhưng vấn đề là tôi không thể bỏ đi\Ntrong những tình huống thế này.
+Dialogue: 0,0:24:04.76,0:24:07.39,Default,,0,0,0,,Hả? Cậu chỉ ở lại\Nvì đó là nhiệm vụ của cậu sao?
+Dialogue: 0,0:24:07.39,0:24:09.85,Default,,0,0,0,,Không phải vì bạn bè hay tình bằng hữu à?
+Dialogue: 0,0:24:10.39,0:24:11.64,Default,,0,0,0,,Nghe này, Marcille.
+Dialogue: 0,0:24:11.64,0:24:13.64,Default,,0,0,0,,Để tôi nói cho nghe một điều quan trọng.
+Dialogue: 0,0:24:14.23,0:24:16.61,Default,,0,0,0,,Những người nói\Nhọ không cần được đền đáp gì
+Dialogue: 0,0:24:16.61,0:24:19.45,Default,,0,0,0,,là những kẻ không đáng tin nhất trên đời.
+Dialogue: 0,0:24:20.61,0:24:22.78,Default,,0,0,0,,À mà giờ Shuro đang làm gì?
+Dialogue: 0,0:24:23.36,0:24:24.36,Default,,0,0,0,,Tôi chịu.
+Dialogue: 0,0:24:24.36,0:24:26.53,Default,,0,0,0,,Hình như cậu ấy đã có mối khác rồi.
+Dialogue: 0,0:24:26.53,0:24:29.58,Default,,0,0,0,,Nhưng cậu ấy yêu Falin\Nđến mức muốn cầu hôn cô ấy,
+Dialogue: 0,0:24:29.58,0:24:32.04,Default,,0,0,0,,nên chắc vẫn đang ráo riết tìm cô ấy đấy.
+Dialogue: 0,0:24:32.95,0:24:34.74,Default,,0,0,0,,Hả? Tôi không biết vụ đó.
+Dialogue: 0,0:24:34.75,0:24:36.54,Default,,0,0,0,,- Vô tri thật luôn.\N- Quá vô tri.
+Dialogue: 0,0:24:36.54,0:24:38.54,Default,,0,0,0,,Nghe này, tôi hiểu là mọi người
+Dialogue: 0,0:24:39.13,0:24:44.18,Default,,0,0,0,,đều lo cho Falin, nhưng nhất định phải\Nquay lại mặt đất bằng được đấy, biết chưa?
+Dialogue: 0,0:24:46.68,0:24:48.47,Default,,0,0,0,,Namari cũng bảo trọng nhé.
+Dialogue: 0,0:24:56.52,0:24:57.44,Default,,0,0,0,,Hẹn gặp lại.
+Dialogue: 0,0:26:27.82,0:26:30.99,Default,,0,0,0,,Biên dịch: Tống Hải Anh
