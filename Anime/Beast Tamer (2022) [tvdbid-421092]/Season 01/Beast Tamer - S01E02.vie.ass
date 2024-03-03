@@ -1,0 +1,499 @@
+[Script Info]
+; This is an Advanced Sub Station Alpha v4+ script.
+Title:
+ScriptType: v4.00+
+PlayDepth: 0
+ScaledBorderAndShadow: Yes
+PlayResX: 1920
+PlayResY: 1080
+
+[V4+ Styles]
+Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
+Style: Default,Noto Sans,80.0,&H00FFFFFF,&H000000FF,&H00002208,&H00000000,-1,0,0,0,100,100,0,0,1,3.0,2.0,2,0,0,65,1
+
+[Events]
+Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
+Dialogue: 0,0:00:02.82,0:00:06.52,Default,,0,0,0,,10 viên ma thạch của goblin và 20 bó thảo dược.
+Dialogue: 0,0:00:06.52,0:00:07.65,Default,,0,0,0,,Vâng!
+Dialogue: 0,0:00:07.65,0:00:09.69,Default,,0,0,0,,Đã xác nhận đầy đủ.
+Dialogue: 0,0:00:09.69,0:00:12.46,Default,,0,0,0,,Chúc mừng cậu vượt qua bài thi.
+Dialogue: 0,0:00:12.46,0:00:14.57,Default,,0,0,0,,Hội mạo hiểm giả Chân Trời...
+Dialogue: 0,0:00:14.57,0:00:19.37,Default,,0,0,0,,kể từ hôm nay thừa nhận cậu Rein Shroud\Ntư cách mạo hiểm giả bậc F.
+Dialogue: 0,0:00:19.90,0:00:20.41,Default,,0,0,0,,A!
+Dialogue: 0,0:00:20.93,0:00:22.85,Default,,0,0,0,,Đây là thẻ hội mạo hiểm giả.
+Dialogue: 0,0:00:22.85,0:00:25.84,Default,,0,0,0,,Đây cũng trở thành giấy chứng minh\Nnên giữ gìn cẩn thận nhé.
+Dialogue: 0,0:00:25.84,0:00:26.64,Default,,0,0,0,,Ưm.
+Dialogue: 0,0:00:26.64,0:00:27.71,Default,,0,0,0,,Cảm ơn chị.
+Dialogue: 0,0:00:27.71,0:00:30.45,Default,,0,0,0,,Còn đây là thù lao lần này.
+Dialogue: 0,0:00:30.45,0:00:32.06,Default,,0,0,0,,Sẽ là 50 đồng tiền đồng.
+Dialogue: 0,0:00:32.56,0:00:35.77,Default,,0,0,0,,Vì bài thi tương đương bậc F\Nnên chỉ được theo từng ấy thôi.
+Dialogue: 0,0:00:36.22,0:00:39.57,Default,,0,0,0,,Nhưng nếu thăng bậc\Nthì sẽ có nhiều hơn nữa đấy.
+Dialogue: 0,0:00:39.57,0:00:42.71,Default,,0,0,0,,Nên nếu là Rein, người đã qua bài thi\Ntrong thời gian ngắn thế này...
+Dialogue: 0,0:00:42.71,0:00:44.80,Default,,0,0,0,,thì tôi chắc chắn sẽ thăng bậc ngay thôi.
+Dialogue: 0,0:00:45.24,0:00:46.55,Default,,0,0,0,,Cố gắng lên nhé.
+Dialogue: 0,0:00:47.23,0:00:48.08,Default,,0,0,0,,Cảm ơn chị.
+Dialogue: 0,0:00:49.01,0:00:52.97,Default,,0,0,0,,Để thăng bậc thì mình muốn\Ncó nhà trọ làm cứ điểm mạo hiểm ghê.
+Dialogue: 0,0:00:53.47,0:00:56.39,Default,,0,0,0,,Nhưng chỉ với thù lao lần này thì không đủ...
+Dialogue: 0,0:00:57.01,0:00:57.70,Default,,0,0,0,,Được rồi!
+Dialogue: 0,0:00:59.35,0:00:59.80,Default,,0,0,0,,A!
+Dialogue: 0,0:00:59.80,0:01:00.79,Default,,0,0,0,,Rein!
+Dialogue: 0,0:01:01.37,0:01:02.86,Default,,0,0,0,,Đã để chờ lâu rồi, Kanade!
+Dialogue: 0,0:01:02.86,0:01:04.25,Default,,0,0,0,,Mừng trở về!
+Dialogue: 0,0:01:04.25,0:01:05.50,Default,,0,0,0,,Nè nè!
+Dialogue: 0,0:01:05.50,0:01:07.33,Default,,0,0,0,,Đã trở thành mạo hiểm giả rồi chưa?
+Dialogue: 0,0:01:07.33,0:01:07.88,Default,,0,0,0,,Ừa!
+Dialogue: 0,0:01:07.88,0:01:08.60,Default,,0,0,0,,Rồi đó!
+Dialogue: 0,0:01:08.60,0:01:09.59,Default,,0,0,0,,Thật không!
+Dialogue: 0,0:01:09.59,0:01:11.02,Default,,0,0,0,,Chúc mừng!
+Dialogue: 0,0:01:11.02,0:01:12.05,Default,,0,0,0,,Cảm ơn nhiều.
+Dialogue: 0,0:01:12.50,0:01:15.49,Default,,0,0,0,,Tôi định sẽ nhận ủy thác luôn.
+Dialogue: 0,0:01:15.49,0:01:16.64,Default,,0,0,0,,Kanade có ổn không?
+Dialogue: 0,0:01:16.97,0:01:17.42,Default,,0,0,0,,Ưm!
+Dialogue: 0,0:01:17.42,0:01:18.58,Default,,0,0,0,,Không vấn đề.
+Dialogue: 0,0:01:18.58,0:01:19.89,Default,,0,0,0,,Lên đường!
+Dialogue: 0,0:01:19.89,0:01:20.85,Default,,0,0,0,,Ôi ôi...
+Dialogue: 0,0:01:21.61,0:01:23.44,Default,,0,0,0,,Nhỏ này hiếm có đấy.
+Dialogue: 0,0:01:28.21,0:01:30.67,Default,,0,0,0,,Chẳng phải Linh Miêu tộc hàng thật đây sao?
+Dialogue: 0,0:03:03.16,0:03:04.32,Default,,0,0,0,,Anh có việc gì?\N(Đồng đội)
+Dialogue: 0,0:03:04.32,0:03:06.32,Default,,0,0,0,,Lần đầu tiên anh mày thấy hàng thật đấy.\N(Đồng đội)
+Dialogue: 0,0:03:07.47,0:03:10.75,Default,,0,0,0,,Linh Miêu tộc\Nđến cái nơi như này để làm gì vậy?
+Dialogue: 0,0:03:11.14,0:03:11.97,Default,,0,0,0,,Hử?
+Dialogue: 0,0:03:12.38,0:03:14.96,Default,,0,0,0,,Tôi không có gì để trả lời cho anh hết.
+Dialogue: 0,0:03:14.96,0:03:17.50,Default,,0,0,0,,Đừng nói lời lạnh lùng như thế chứ.
+Dialogue: 0,0:03:17.50,0:03:18.80,Default,,0,0,0,,Cùng uống với anh đi.
+Dialogue: 0,0:03:19.42,0:03:22.27,Default,,0,0,0,,Tốt hơn khi đi cùng với thằng nhóc\Ntẻ nhạt như này phải không?
+Dialogue: 0,0:03:22.27,0:03:23.97,Default,,0,0,0,,Này!!!
+Dialogue: 0,0:03:23.97,0:03:26.68,Default,,0,0,0,,Đừng có mà xem thường chủ nhân của tôi!
+Dialogue: 0,0:03:27.47,0:03:29.90,Default,,0,0,0,,Rein đang sai khiến tôi đấy nhé!
+Dialogue: 0,0:03:30.07,0:03:30.73,Default,,0,0,0,,Hả?
+Dialogue: 0,0:03:30.73,0:03:31.82,Default,,0,0,0,,Sai khiến?
+Dialogue: 0,0:03:32.19,0:03:33.94,Default,,0,0,0,,Vì tôi là thuần thú sư.
+Dialogue: 0,0:03:37.79,0:03:39.20,Default,,0,0,0,,Đừng có vớ vẩn.
+Dialogue: 0,0:03:39.75,0:03:42.26,Default,,0,0,0,,Nhắc đến Linh Miêu tộc thì là\Nchủng tộc mạnh nhất đấy?
+Dialogue: 0,0:03:42.26,0:03:45.00,Default,,0,0,0,,Thằng nhóc như chú mày\Nđời nào sai khiến được chứ.
+Dialogue: 0,0:03:45.91,0:03:48.62,Default,,0,0,0,,Đó là do mắt của anh bị mù đó?
+Dialogue: 0,0:03:48.99,0:03:50.96,Default,,0,0,0,,Rein là thuần thú sư tuyệt vời,
+Dialogue: 0,0:03:50.96,0:03:52.96,Default,,0,0,0,,mạnh hơn anh gấp vài lần đó.
+Dialogue: 0,0:03:53.35,0:03:54.32,Default,,0,0,0,,Kanade...
+Dialogue: 0,0:03:57.54,0:04:00.76,Default,,0,0,0,,Thằng nhóc này mạnh hơn\Nanh đây gấp vài lần sao?
+Dialogue: 0,0:04:01.32,0:04:02.34,Default,,0,0,0,,Vậy thì...
+Dialogue: 0,0:04:03.37,0:04:06.83,Default,,0,0,0,,chẳng phải anh với chú mày\Nnên so kè sức mạnh sao?
+Dialogue: 0,0:04:07.82,0:04:09.73,Default,,0,0,0,,Cược con bé đó.
+Dialogue: 0,0:04:10.40,0:04:11.06,Default,,0,0,0,,Cược Kanade?
+Dialogue: 0,0:04:11.61,0:04:14.16,Default,,0,0,0,,Đừng nói là bỏ trốn đấy?
+Dialogue: 0,0:04:14.16,0:04:18.03,Default,,0,0,0,,Nếu chú mày là thuần thú sư\Ncó thể sai khiến Linh Miêu tộc,
+Dialogue: 0,0:04:18.03,0:04:20.99,Default,,0,0,0,,thì anh mày đây không phải đối thủ phải không?
+Dialogue: 0,0:04:21.73,0:04:24.11,Default,,0,0,0,,Dù mình có bị đàm tiếu thế nào cũng mặc,
+Dialogue: 0,0:04:24.62,0:04:26.46,Default,,0,0,0,,nhưng dù có tránh trận đấu ở đây...
+Dialogue: 0,0:04:26.46,0:04:29.70,Default,,0,0,0,,thì vẫn có khả năng từ bây giờ\Ntên này sẽ kiếm chuyện với Kanade.
+Dialogue: 0,0:04:33.23,0:04:34.12,Default,,0,0,0,,Rein!
+Dialogue: 0,0:04:35.82,0:04:37.17,Default,,0,0,0,,Quyết định rồi à?
+Dialogue: 0,0:04:38.20,0:04:41.85,Default,,0,0,0,,Chỉ riêng chuyện Kanade\Nsẽ gặp nguy hiểm thì tuyệt đối không được.
+Dialogue: 0,0:04:43.86,0:04:46.14,Default,,0,0,0,,Cánh tay nhỏ nhắn đó có gãy cũng đừng than đấy.
+Dialogue: 0,0:04:46.65,0:04:49.28,Default,,0,0,0,,Có được Linh Miêu tộc quý hiếm ấy,
+Dialogue: 0,0:04:49.28,0:04:51.60,Default,,0,0,0,,tao được vận may mỉm cười rồi.
+Dialogue: 0,0:04:52.19,0:04:54.00,Default,,0,0,0,,Dù có là thằng nhóc ác đi nữa,
+Dialogue: 0,0:04:54.57,0:04:56.70,Default,,0,0,0,,thì mình vẫn sẽ làm bất cứ mọi chuyện có thể.
+Dialogue: 0,0:04:57.92,0:04:59.43,Default,,0,0,0,,Sẵn sàng!
+Dialogue: 0,0:04:59.94,0:05:00.52,Default,,0,0,0,,Vật!
+Dialogue: 0,0:05:02.44,0:05:02.98,Default,,0,0,0,,Ể?
+Dialogue: 0,0:05:03.72,0:05:05.72,Default,,0,0,0,,Người chiến thắng, Rein!
+Dialogue: 0,0:05:05.72,0:05:06.45,Default,,0,0,0,,Hể?
+Dialogue: 0,0:05:07.91,0:05:10.32,Default,,0,0,0,,Gì mà ồn ào vậy hả?
+Dialogue: 0,0:05:11.92,0:05:13.62,Default,,0,0,0,,Lại là anh à.
+Dialogue: 0,0:05:14.50,0:05:16.58,Default,,0,0,0,,Thành thật xin lỗi Rein.
+Dialogue: 0,0:05:17.02,0:05:18.49,Default,,0,0,0,,- Đau quá Natalie!\N- Về hành vi của người này thì...
+Dialogue: 0,0:05:18.49,0:05:21.07,Default,,0,0,0,,- Đau quá Natalie!\N- phía hội cũng đang quan tâm đến.
+Dialogue: 0,0:05:21.07,0:05:24.42,Default,,0,0,0,,- Thằng nhóc đó đã...\N- Quả nhiên chúng tôi cũng nên xem xét huỷ tư cách...
+Dialogue: 0,0:05:27.98,0:05:30.51,Default,,0,0,0,,Lần này đã gây phiền hà cho hai người.
+Dialogue: 0,0:05:30.51,0:05:32.31,Default,,0,0,0,,Xử lí hậu quả hãy giao cho tôi.
+Dialogue: 0,0:05:32.31,0:05:34.19,Default,,0,0,0,,À... Vâng.
+Dialogue: 0,0:05:35.55,0:05:37.11,Default,,0,0,0,,Nhân tiện thì Rein.
+Dialogue: 0,0:05:38.30,0:05:40.03,Default,,0,0,0,,Tại sao đi làm bài thi mạo hiểm giả,
+Dialogue: 0,0:05:40.03,0:05:42.42,Default,,0,0,0,,lại đi lập khế ước với chủng tộc mạnh nhất hả?
+Dialogue: 0,0:05:42.42,0:05:45.51,Default,,0,0,0,,Chuyện đó khiến tôi vô cùng hết hồn đấy!
+Dialogue: 0,0:05:46.33,0:05:47.45,Default,,0,0,0,,Xin lỗi ạ.
+Dialogue: 0,0:05:47.45,0:05:48.31,Default,,0,0,0,,A!
+Dialogue: 0,0:05:48.31,0:05:49.35,Default,,0,0,0,,Xin lỗi!
+Dialogue: 0,0:05:49.35,0:05:50.54,Default,,0,0,0,,Lỡ miệng nói thật lòng.
+Dialogue: 0,0:05:50.54,0:05:51.37,Default,,0,0,0,,E hèm...
+Dialogue: 0,0:05:51.97,0:05:54.82,Default,,0,0,0,,Với cậu Rein có thể\Nlập khế ước với chủng tộc mạnh nhất,
+Dialogue: 0,0:05:54.82,0:05:57.83,Default,,0,0,0,,tôi rất kì vọng vào\Nhoạt động của cậu từ giờ về sau.
+Dialogue: 0,0:05:58.67,0:06:00.45,Default,,0,0,0,,Vậy tôi xin phép...
+Dialogue: 0,0:06:04.57,0:06:05.76,Default,,0,0,0,,Chuyện gì xảy ra vậy?
+Dialogue: 0,0:06:06.23,0:06:08.77,Default,,0,0,0,,Đáng lí ra tôi đâu có sức mạnh như này.
+Dialogue: 0,0:06:09.47,0:06:10.19,Default,,0,0,0,,Ô!
+Dialogue: 0,0:06:10.19,0:06:12.30,Default,,0,0,0,,Rein vẫn chưa nhận ra à?
+Dialogue: 0,0:06:12.30,0:06:12.68,Default,,0,0,0,,Ể?
+Dialogue: 0,0:06:13.11,0:06:16.41,Default,,0,0,0,,Trong trường hợp lập khế ước\Nvới chủng tộc mạnh, như tộc mạnh nhất là tôi đây,
+Dialogue: 0,0:06:16.41,0:06:20.27,Default,,0,0,0,,thì sức mạnh người chủ nhân đó, nghĩa là Rein\Nsẽ được cường hóa sức mạnh tương ứng.
+Dialogue: 0,0:06:20.84,0:06:21.69,Default,,0,0,0,,Vậy nên nhé.
+Dialogue: 0,0:06:21.69,0:06:25.24,Default,,0,0,0,,Rein hiện giờ, có khả năng thể chất\Nngang Linh Miêu tộc đó.
+Dialogue: 0,0:06:26.34,0:06:28.44,Default,,0,0,0,,Trong tôi có sức mạnh giống như Kanade?
+Dialogue: 0,0:06:29.60,0:06:31.68,Default,,0,0,0,,Chuyện cứ như trong mơ vậy.
+Dialogue: 0,0:06:31.68,0:06:33.53,Default,,0,0,0,,Rein thật sự không biết sao?
+Dialogue: 0,0:06:33.91,0:06:34.58,Default,,0,0,0,,Ừ.
+Dialogue: 0,0:06:35.03,0:06:39.49,Default,,0,0,0,,Quả nhiên ở quê của tôi cũng chưa từng có\Nthuần thú sư nào lập khế ước với tộc mạnh nhất,
+Dialogue: 0,0:06:39.49,0:06:41.59,Default,,0,0,0,,và khi nãy thì nói chung là tôi đã cố hết sức...
+Dialogue: 0,0:06:41.59,0:06:43.26,Default,,0,0,0,,Vậy à, vậy à?
+Dialogue: 0,0:06:43.92,0:06:44.75,Default,,0,0,0,,Này nhé.
+Dialogue: 0,0:06:44.75,0:06:47.08,Default,,0,0,0,,Lúc Rein cố bảo vệ tôi khi nãy ấy,
+Dialogue: 0,0:06:47.08,0:06:49.45,Default,,0,0,0,,tôi đã cảm thấy vui vô cùng đó.
+Dialogue: 0,0:06:50.12,0:06:51.09,Default,,0,0,0,,Chuyện đó thì...
+Dialogue: 0,0:06:51.59,0:06:52.68,Default,,0,0,0,,đương nhiên rồi.
+Dialogue: 0,0:06:53.25,0:06:54.22,Default,,0,0,0,,Được rồi!
+Dialogue: 0,0:06:54.22,0:06:56.81,Default,,0,0,0,,Vậy mau chóng làm việc thôi!
+Dialogue: 0,0:06:56.81,0:06:58.35,Default,,0,0,0,,Tôi sẽ cố gắng đó!
+Dialogue: 0,0:06:58.91,0:07:01.19,Default,,0,0,0,,Dẫu nghĩ là như vậy...
+Dialogue: 0,0:07:01.87,0:07:03.40,Default,,0,0,0,,Nhưng tại sao, tại sao...
+Dialogue: 0,0:07:03.40,0:07:06.16,Default,,0,0,0,,Tại sao lại thu thập thảo dược chứ?
+Dialogue: 0,0:07:06.16,0:07:08.16,Default,,0,0,0,,Mạo hiểm giả mà!?
+Dialogue: 0,0:07:08.16,0:07:10.32,Default,,0,0,0,,Lấy được thanh kiếm truyền thuyết,
+Dialogue: 0,0:07:10.32,0:07:12.76,Default,,0,0,0,,hay là giải cứu công chúa bị bắt chẳng hạn,
+Dialogue: 0,0:07:12.80,0:07:14.41,Default,,0,0,0,,ủy thác như thế đâu hả!?
+Dialogue: 0,0:07:14.41,0:07:16.60,Default,,0,0,0,,Vì tôi vẫn còn là mạo hiểm giả bậc F thấp nhất,
+Dialogue: 0,0:07:16.60,0:07:18.46,Default,,0,0,0,,nên chỉ nhận được ủy thác đơn giản thôi.
+Dialogue: 0,0:07:19.14,0:07:22.29,Default,,0,0,0,,Mà làm tốt ủy thác như thế này\Nđể tích lũy kinh nghiệm đi.
+Dialogue: 0,0:07:24.59,0:07:25.25,Default,,0,0,0,,Vậy à.
+Dialogue: 0,0:07:25.83,0:07:26.47,Default,,0,0,0,,Tôi biết rồi.
+Dialogue: 0,0:07:26.99,0:07:28.17,Default,,0,0,0,,Tôi sẽ cố gắng.
+Dialogue: 0,0:07:28.17,0:07:29.58,Default,,0,0,0,,Cố gắng nhổ cỏ!
+Dialogue: 0,0:07:29.58,0:07:30.47,Default,,0,0,0,,Tốt!
+Dialogue: 0,0:07:30.47,0:07:32.47,Default,,0,0,0,,Thu thập về tốt lắm.
+Dialogue: 0,0:07:32.47,0:07:33.33,Default,,0,0,0,,Cảm ơn bọn mày.
+Dialogue: 0,0:07:33.33,0:07:34.40,Default,,0,0,0,,Ủy thác hoàn thành.
+Dialogue: 0,0:07:36.35,0:07:36.95,Default,,0,0,0,,Gì!?
+Dialogue: 0,0:07:36.95,0:07:39.28,Default,,0,0,0,,Lại làm chuyện đó hả~nya!?
+Dialogue: 0,0:07:40.85,0:07:42.25,Default,,0,0,0,,Ăn gian.
+Dialogue: 0,0:07:42.25,0:07:44.72,Default,,0,0,0,,Vì bản thân tôi cũng là Sứ ma của Rein,
+Dialogue: 0,0:07:44.72,0:07:46.61,Default,,0,0,0,,nên muốn cố gắng vì Rein, ấy vậy mà...
+Dialogue: 0,0:07:48.66,0:07:49.41,Default,,0,0,0,,Nya!
+Dialogue: 0,0:07:49.41,0:07:52.08,Default,,0,0,0,,Khế ước tạm thời còn bày đặt phách lối!
+Dialogue: 0,0:07:53.07,0:07:55.13,Default,,0,0,0,,Mà trước mắt cũng hoàn thành\Nủy thác của hội rồi.
+Dialogue: 0,0:07:55.13,0:07:56.60,Default,,0,0,0,,Về hội để báo cáo...
+Dialogue: 0,0:07:57.03,0:07:57.75,Default,,0,0,0,,Khoan đã!
+Dialogue: 0,0:07:58.77,0:07:59.37,Default,,0,0,0,,Kanade?
+Dialogue: 0,0:07:59.37,0:08:01.55,Default,,0,0,0,,Đằng kia đang xảy ra vụ ồn ào.
+Dialogue: 0,0:08:01.55,0:08:03.99,Default,,0,0,0,,Nghe như là tiếng quát tháo.
+Dialogue: 0,0:08:04.46,0:08:06.01,Default,,0,0,0,,Đây là... tiếng hét?
+Dialogue: 0,0:08:06.35,0:08:07.05,Default,,0,0,0,,Đi xem thử thôi!
+Dialogue: 0,0:08:10.06,0:08:13.35,Default,,0,0,0,,Hộ vệ mà chạy mất dép rồi,\Nxui quá nhỉ ông già.
+Dialogue: 0,0:08:13.35,0:08:14.69,Default,,0,0,0,,Đám đó,
+Dialogue: 0,0:08:14.69,0:08:18.47,Default,,0,0,0,,khi biết bọn tao là Nanh Đen\Nthì đã hoảng loạn chạy mất tiêu luôn.
+Dialogue: 0,0:08:18.47,0:08:19.81,Default,,0,0,0,,Thấy sao hả?
+Dialogue: 0,0:08:20.21,0:08:24.28,Default,,0,0,0,,Cảm giác bị phản bội bởi\Nmạo hiểm giả mình thuê thế nào?
+Dialogue: 0,0:08:24.96,0:08:26.45,Default,,0,0,0,,Nanh Đen?
+Dialogue: 0,0:08:26.45,0:08:28.31,Default,,0,0,0,,Tôi từng nghe qua lúc đi phiêu lưu.
+Dialogue: 0,0:08:28.72,0:08:31.43,Default,,0,0,0,,Băng đạo tặc quy mô lớn có hơn 100 người đấy.
+Dialogue: 0,0:08:31.43,0:08:35.54,Default,,0,0,0,,Tàn ác vô đạo,\Nliên tục làm chuyện xấu xa ở chỗ này chỗ kia.
+Dialogue: 0,0:08:36.18,0:08:37.54,Default,,0,0,0,,Đối thủ nguy hiểm đó.
+Dialogue: 0,0:08:37.54,0:08:39.00,Default,,0,0,0,,Đi gọi người đến cứu không?
+Dialogue: 0,0:08:39.50,0:08:40.00,Default,,0,0,0,,Không.
+Dialogue: 0,0:08:40.44,0:08:42.58,Default,,0,0,0,,- Làm ơn, chỉ riêng cái mạng già này...\N- Có vẻ không có thời gian cho chuyện đó.
+Dialogue: 0,0:08:43.55,0:08:47.09,Default,,0,0,0,,Bọn này chỉ lấy hàng hóa thôi,\Nchả có việc gì với lão cả.
+Dialogue: 0,0:08:47.09,0:08:50.09,Default,,0,0,0,,Lão tưởng bọn này sẽ nói thế sao?
+Dialogue: 0,0:08:50.22,0:08:51.62,Default,,0,0,0,,K-Không thể nào...
+Dialogue: 0,0:08:52.52,0:08:53.96,Default,,0,0,0,,Chúng ta làm gì đó thôi.
+Dialogue: 0,0:08:54.86,0:08:56.68,Default,,0,0,0,,Tôi muốn cứu người kia.
+Dialogue: 0,0:09:00.69,0:09:01.67,Default,,0,0,0,,Nya...
+Dialogue: 0,0:09:01.67,0:09:03.86,Default,,0,0,0,,Không hổ danh chủ nhân của tôi.
+Dialogue: 0,0:09:05.62,0:09:07.46,Default,,0,0,0,,Tôi sẽ lao vào giữa bọn chúng,
+Dialogue: 0,0:09:07.46,0:09:09.33,Default,,0,0,0,,còn Kanade bảo vệ ông lão kia.
+Dialogue: 0,0:09:11.11,0:09:11.78,Default,,0,0,0,,Hiểu rồi!
+Dialogue: 0,0:09:12.19,0:09:12.90,Default,,0,0,0,,Đi thôi!
+Dialogue: 0,0:09:14.57,0:09:15.66,Default,,0,0,0,,Gì chứ?
+Dialogue: 0,0:09:21.45,0:09:22.96,Default,,0,0,0,,Ông có sao không?
+Dialogue: 0,0:09:24.03,0:09:24.58,Default,,0,0,0,,Đến đây nào.
+Dialogue: 0,0:09:24.58,0:09:25.97,Default,,0,0,0,,Gì chứ thằng nhãi này!
+Dialogue: 0,0:09:25.97,0:09:26.78,Default,,0,0,0,,A!!!
+Dialogue: 0,0:09:26.78,0:09:28.28,Default,,0,0,0,,Đập cho mày chết!
+Dialogue: 0,0:09:28.81,0:09:30.66,Default,,0,0,0,,Nếu thú nhận thật lòng thì...
+Dialogue: 0,0:09:31.18,0:09:32.88,Default,,0,0,0,,tôi đã cảm thấy bất an.
+Dialogue: 0,0:09:33.88,0:09:38.26,Default,,0,0,0,,Rein có tài năng mà phủ định cả\Nthường thức về thuần thú sư.
+Dialogue: 0,0:09:38.26,0:09:40.44,Default,,0,0,0,,Không những lập khế ước với tôi,
+Dialogue: 0,0:09:40.44,0:09:42.81,Default,,0,0,0,,mà còn có được sức mạnh của Linh Miêu tộc.
+Dialogue: 0,0:09:43.55,0:09:45.40,Default,,0,0,0,,Việc đã lập khế ước với Rein,
+Dialogue: 0,0:09:45.40,0:09:47.79,Default,,0,0,0,,tôi không bao giờ nghĩ rằng mình sai lầm.
+Dialogue: 0,0:09:48.61,0:09:49.30,Default,,0,0,0,,Nhưng mà...
+Dialogue: 0,0:09:49.91,0:09:54.84,Default,,0,0,0,,Liệu cơ thể đột nhiên có được\Nsức mạnh, có bị ảnh hưởng không?
+Dialogue: 0,0:09:54.84,0:09:58.33,Default,,0,0,0,,Liệu trái tim có cuồng say sức mạnh không?
+Dialogue: 0,0:09:58.98,0:10:01.66,Default,,0,0,0,,Liệu có tự hủy hoại mất bản thân không?
+Dialogue: 0,0:10:02.71,0:10:04.49,Default,,0,0,0,,Mặc dù là mệnh lệnh chủ nhân,
+Dialogue: 0,0:10:04.49,0:10:08.38,Default,,0,0,0,,nhưng quả nhiên mình lên phía trước\Nchiến đấu chẳng phải tốt hơn sao?
+Dialogue: 0,0:10:18.13,0:10:19.51,Default,,0,0,0,,Tuyệt thật~nya.
+Dialogue: 0,0:10:21.11,0:10:24.57,Default,,0,0,0,,Lo lắng của mình chỉ là sợ hãi vô cớ thôi.
+Dialogue: 0,0:10:28.62,0:10:31.80,Default,,0,0,0,,Mình không thể rời mắt khỏi\Nbóng dáng chiến đấu của Rein.
+Dialogue: 0,0:10:33.62,0:10:34.67,Default,,0,0,0,,Tại sao vậy chứ?
+Dialogue: 0,0:10:38.28,0:10:40.09,Default,,0,0,0,,Tim mình đập rộn ràng!
+Dialogue: 0,0:10:43.15,0:10:43.96,Default,,0,0,0,,Phù...
+Dialogue: 0,0:10:43.96,0:10:45.11,Default,,0,0,0,,Thế này là xong à?
+Dialogue: 0,0:10:45.47,0:10:46.23,Default,,0,0,0,,Kanade.
+Dialogue: 0,0:10:46.23,0:10:47.73,Default,,0,0,0,,Phía đó ổn không?
+Dialogue: 0,0:10:49.24,0:10:50.14,Default,,0,0,0,,Hể!?
+Dialogue: 0,0:10:51.36,0:10:53.71,Default,,0,0,0,,Ông lão không bị thương chỗ nào hết!
+Dialogue: 0,0:10:53.71,0:10:55.00,Default,,0,0,0,,Thế thì tốt quá.
+Dialogue: 0,0:10:56.47,0:10:57.67,Default,,0,0,0,,Mặt đỏ lên rồi kìa.
+Dialogue: 0,0:10:57.67,0:10:58.92,Default,,0,0,0,,Quả nhiên bị thương...
+Dialogue: 0,0:10:58.92,0:11:00.07,Default,,0,0,0,,Không phải, không phải!
+Dialogue: 0,0:11:00.07,0:11:01.36,Default,,0,0,0,,Không có gì hết~nya!?
+Dialogue: 0,0:11:01.36,0:11:03.91,Default,,0,0,0,,Quan trọng hơn, tuyệt vời thật đó Rein.
+Dialogue: 0,0:11:03.91,0:11:05.81,Default,,0,0,0,,Không có vũ khí mà\Nhạ gục tên này đến tên khác!
+Dialogue: 0,0:11:06.84,0:11:07.31,Default,,0,0,0,,À...
+Dialogue: 0,0:11:07.75,0:11:09.20,Default,,0,0,0,,Là vì tôi đã được huấn luyện thể thuật...
+Dialogue: 0,0:11:09.20,0:11:13.27,Default,,0,0,0,,để không bất cẩn làm động vật\Nbị thương bằng vũ khí lúc thuần hóa chúng.
+Dialogue: 0,0:11:13.67,0:11:14.30,Default,,0,0,0,,Hể?
+Dialogue: 0,0:11:14.30,0:11:15.24,Default,,0,0,0,,Vậy sao?
+Dialogue: 0,0:11:15.24,0:11:16.35,Default,,0,0,0,,Ưm...
+Dialogue: 0,0:11:16.35,0:11:19.94,Default,,0,0,0,,Cảm ơn hai đứa đã cứu lão lúc nguy hiểm.
+Dialogue: 0,0:11:20.28,0:11:22.16,Default,,0,0,0,,Không, thật may khi ông vẫn an toàn.
+Dialogue: 0,0:11:22.58,0:11:24.83,Default,,0,0,0,,Nhưng thương nhân\Nmà không có hộ vệ đi theo,
+Dialogue: 0,0:11:24.83,0:11:26.42,Default,,0,0,0,,chẳng phải hơi nguy hiểm sao ạ?
+Dialogue: 0,0:11:26.82,0:11:27.66,Default,,0,0,0,,Không.
+Dialogue: 0,0:11:27.66,0:11:31.80,Default,,0,0,0,,Lão có thuê nhưng lại\Nbỏ chạy mất khi gặp bất lợi.
+Dialogue: 0,0:11:31.80,0:11:33.53,Default,,0,0,0,,Bọn họ kinh khủng thật.
+Dialogue: 0,0:11:33.53,0:11:34.00,Default,,0,0,0,,Nya...
+Dialogue: 0,0:11:34.00,0:11:36.18,Default,,0,0,0,,Chuyện đó thôi được rồi.
+Dialogue: 0,0:11:36.62,0:11:37.90,Default,,0,0,0,,Quan trọng hơn chuyện đó,
+Dialogue: 0,0:11:37.90,0:11:41.96,Default,,0,0,0,,lão lo lắng Nanh Đen sẽ báo thù\Ncho đồng bọn bị đánh gục hơn.
+Dialogue: 0,0:11:41.96,0:11:43.76,Default,,0,0,0,,Hai đứa mau chạy thoát đi.
+Dialogue: 0,0:11:43.76,0:11:47.24,Default,,0,0,0,,Người chống lại bọn chúng sẽ bị giết hết.
+Dialogue: 0,0:11:47.24,0:11:49.69,Default,,0,0,0,,Băng đảng nguy hiểm đến thế à?
+Dialogue: 0,0:11:51.83,0:11:53.85,Default,,0,0,0,,Vậy bắt giữ toàn bộ thôi.
+Dialogue: 0,0:11:53.85,0:11:54.73,Default,,0,0,0,,Hể!?
+Dialogue: 0,0:11:55.24,0:11:57.19,Default,,0,0,0,,Chờ đã Rein!
+Dialogue: 0,0:11:59.61,0:12:00.34,Default,,0,0,0,,Nè!
+Dialogue: 0,0:12:00.34,0:12:02.07,Default,,0,0,0,,Thật sự ta sẽ bắt chúng sao?
+Dialogue: 0,0:12:02.07,0:12:04.66,Default,,0,0,0,,Nếu là băng đảng hung bạo và thù dai,
+Dialogue: 0,0:12:04.66,0:12:07.03,Default,,0,0,0,,thì dù chúng ta có chạy đi nữa\Nthì người thương nhân đó,
+Dialogue: 0,0:12:07.03,0:12:10.41,Default,,0,0,0,,hoặc có khi là mọi người\Ntrong thị trấn sẽ trở thành người bị hại thay.
+Dialogue: 0,0:12:11.04,0:12:12.58,Default,,0,0,0,,Thế thì sao bỏ mặc được đúng không?
+Dialogue: 0,0:12:12.58,0:12:16.19,Default,,0,0,0,,Nhưng đối phương là\Nbăng đạo tặc hơn 100 người đó.
+Dialogue: 0,0:12:16.19,0:12:17.99,Default,,0,0,0,,Chẳng phải quá sức sao?
+Dialogue: 0,0:12:17.99,0:12:19.55,Default,,0,0,0,,Cũng không hẳn là thế.
+Dialogue: 0,0:12:19.55,0:12:21.51,Default,,0,0,0,,Tôi cũng có suy tính qua rồi.
+Dialogue: 0,0:12:21.92,0:12:22.79,Default,,0,0,0,,Nya?
+Dialogue: 0,0:12:26.28,0:12:28.43,Default,,0,0,0,,Có vẻ đằng kia chắc chắn là hang ổ rồi.
+Dialogue: 0,0:12:28.90,0:12:29.74,Default,,0,0,0,,Cảm ơn mày nhé.
+Dialogue: 0,0:12:31.35,0:12:31.89,Default,,0,0,0,,Được rồi!
+Dialogue: 0,0:12:31.89,0:12:33.15,Default,,0,0,0,,Đây là kế hoạch...
+Dialogue: 0,0:12:33.15,0:12:33.65,Default,,0,0,0,,Kanade?
+Dialogue: 0,0:12:35.47,0:12:37.92,Default,,0,0,0,,Tôi muốn tự tìm ra hang ổ của chúng,
+Dialogue: 0,0:12:37.92,0:12:40.87,Default,,0,0,0,,vậy mà lại bị động vật vượt qua lần nữa.
+Dialogue: 0,0:12:40.87,0:12:43.54,Default,,0,0,0,,Tôi là Sứ ma của Rein,
+Dialogue: 0,0:12:43.54,0:12:45.58,Default,,0,0,0,,ấy vậy mà hoàn toàn vô tích sự!
+Dialogue: 0,0:12:45.58,0:12:47.77,Default,,0,0,0,,K-Không có chuyện đó đâu mà.
+Dialogue: 0,0:12:47.77,0:12:49.54,Default,,0,0,0,,A... Phát hiện chú kiến.
+Dialogue: 0,0:12:49.95,0:12:52.57,Default,,0,0,0,,Có Kanade ở bên cạnh\Nthật sự giúp tôi nhiều lắm.
+Dialogue: 0,0:12:54.14,0:12:55.34,Default,,0,0,0,,Tôi đùa thôi.
+Dialogue: 0,0:12:55.34,0:12:56.61,Default,,0,0,0,,À mà Rein.
+Dialogue: 0,0:12:56.61,0:12:58.24,Default,,0,0,0,,Suy tính mà Rein nói khi nãy ấy.
+Dialogue: 0,0:12:58.24,0:12:58.86,Default,,0,0,0,,À.
+Dialogue: 0,0:12:58.86,0:13:00.65,Default,,0,0,0,,Khi nãy tôi đã lập khế ước tạm thời.
+Dialogue: 0,0:13:01.59,0:13:02.88,Default,,0,0,0,,Sử dụng con này này.
+Dialogue: 0,0:13:02.88,0:13:03.80,Default,,0,0,0,,Ong?
+Dialogue: 0,0:13:04.53,0:13:08.09,Default,,0,0,0,,Con ong này là cá thể đặc biệt\Nđược gọi là "Ong bá tước".
+Dialogue: 0,0:13:08.09,0:13:09.65,Default,,0,0,0,,Sở hữu độc tê liệt,
+Dialogue: 0,0:13:09.65,0:13:12.01,Default,,0,0,0,,nếu bị chích thì không thể di chuyển nửa ngày.
+Dialogue: 0,0:13:12.01,0:13:12.76,Default,,0,0,0,,Ể?
+Dialogue: 0,0:13:12.76,0:13:13.62,Default,,0,0,0,,Tuyệt vời!
+Dialogue: 0,0:13:13.62,0:13:15.18,Default,,0,0,0,,Mà không phải!
+Dialogue: 0,0:13:15.63,0:13:17.30,Default,,0,0,0,,Ong là côn trùng mà,
+Dialogue: 0,0:13:17.30,0:13:19.53,Default,,0,0,0,,tại sao Rein sai khiến được vậy?
+Dialogue: 0,0:13:19.53,0:13:20.82,Default,,0,0,0,,À, về chuyện đó thì...
+Dialogue: 0,0:13:21.28,0:13:23.16,Default,,0,0,0,,Có biết thuần côn trùng sư không?
+Dialogue: 0,0:13:23.65,0:13:25.12,Default,,0,0,0,,Côn trùng sư?
+Dialogue: 0,0:13:25.59,0:13:27.30,Default,,0,0,0,,Là nhánh phụ của thuần thú sư,
+Dialogue: 0,0:13:27.30,0:13:29.19,Default,,0,0,0,,nghề nghiệp có thể sai khiến côn trùng.
+Dialogue: 0,0:13:29.58,0:13:33.21,Default,,0,0,0,,Tôi từng một thời gian\Nluyện tập nó ở quê nhà đấy.
+Dialogue: 0,0:13:33.21,0:13:35.58,Default,,0,0,0,,Mà mặc dù vẫn chưa thuần thục.
+Dialogue: 0,0:13:36.39,0:13:38.13,Default,,0,0,0,,Đủ kinh rồi đó.
+Dialogue: 0,0:13:38.13,0:13:40.96,Default,,0,0,0,,Có thể sử dụng nghề thứ hai luôn sao.
+Dialogue: 0,0:13:40.96,0:13:44.29,Default,,0,0,0,,Hễ mà nhắc đến Rein\Nthì toàn là chuyện kinh ngạc thôi.
+Dialogue: 0,0:13:44.29,0:13:45.56,Default,,0,0,0,,Vậy sao?
+Dialogue: 0,0:13:46.54,0:13:47.48,Default,,0,0,0,,Vì lí do như thế,
+Dialogue: 0,0:13:47.48,0:13:49.77,Default,,0,0,0,,tôi sẽ sử dụng con ong này với bọn chúng.
+Dialogue: 0,0:13:50.24,0:13:53.36,Default,,0,0,0,,Vậy nên Kanade quay về thị trấn,\Ngọi viện trợ đến được không?
+Dialogue: 0,0:13:53.36,0:13:54.30,Default,,0,0,0,,Rõ rồi!
+Dialogue: 0,0:13:54.30,0:13:55.44,Default,,0,0,0,,Hể!?
+Dialogue: 0,0:13:55.44,0:13:56.49,Default,,0,0,0,,Xùy...
+Dialogue: 0,0:13:58.64,0:13:59.55,Default,,0,0,0,,Rein này!
+Dialogue: 0,0:13:59.55,0:14:02.49,Default,,0,0,0,,Từ nãy đến giờ toàn nhận\Nviệc nguy hiểm cho bản thân.
+Dialogue: 0,0:14:03.26,0:14:06.33,Default,,0,0,0,,Tôi thật sự có giúp ích\Nvới tư cách Sứ ma không thế?
+Dialogue: 0,0:14:06.33,0:14:07.47,Default,,0,0,0,,Kanade.
+Dialogue: 0,0:14:07.47,0:14:08.66,Default,,0,0,0,,Khi nãy tôi cũng nói rồi.
+Dialogue: 0,0:14:09.07,0:14:09.94,Default,,0,0,0,,Không sao đâu.
+Dialogue: 0,0:14:09.94,0:14:11.19,Default,,0,0,0,,Tôi chỉ nói thế thôi.
+Dialogue: 0,0:14:11.19,0:14:12.62,Default,,0,0,0,,Ơ mà, viện trợ nghĩa là...
+Dialogue: 0,0:14:13.16,0:14:15.13,Default,,0,0,0,,Trong trường hợp bắt giữ hơn 100 người,
+Dialogue: 0,0:14:15.13,0:14:19.89,Default,,0,0,0,,thì cần kha khá người, nên tôi muốn\NKanade dẫn mạo hiểm giả hay kị sĩ đoàn đến.
+Dialogue: 0,0:14:19.89,0:14:20.71,Default,,0,0,0,,Kị sĩ đoàn?
+Dialogue: 0,0:14:21.36,0:14:23.34,Default,,0,0,0,,Nhóm người bảo vệ\Nthành phố hay thị trấn khắp nơi,
+Dialogue: 0,0:14:23.34,0:14:25.05,Default,,0,0,0,,một tổ chức do đất nước vận hành đấy.
+Dialogue: 0,0:14:25.55,0:14:28.30,Default,,0,0,0,,Nếu đối phương là đạo tặc,\Nthì tôi chắc chắn họ sẽ đến.
+Dialogue: 0,0:14:28.30,0:14:29.07,Default,,0,0,0,,Ừm!
+Dialogue: 0,0:14:29.07,0:14:30.06,Default,,0,0,0,,Tôi biết rồi.
+Dialogue: 0,0:14:30.66,0:14:31.50,Default,,0,0,0,,Nhưng mà, nhưng mà.
+Dialogue: 0,0:14:31.50,0:14:32.76,Default,,0,0,0,,Cẩn thận nhé.
+Dialogue: 0,0:14:32.76,0:14:35.26,Default,,0,0,0,,Tôi nghĩ nếu là Rein thì sẽ ổn, nhưng mà...
+Dialogue: 0,0:14:35.86,0:14:37.91,Default,,0,0,0,,Nếu trở nên nguy hiểm thì tôi sẽ bỏ chạy ngay.
+Dialogue: 0,0:14:37.91,0:14:38.73,Default,,0,0,0,,Hứa đấy.
+Dialogue: 0,0:14:39.08,0:14:39.81,Default,,0,0,0,,Ừm!
+Dialogue: 0,0:14:39.81,0:14:42.45,Default,,0,0,0,,Tôi sẽ dẫn viện trợ quay lại ngay!
+Dialogue: 0,0:14:44.29,0:14:44.86,Default,,0,0,0,,A!
+Dialogue: 0,0:14:44.86,0:14:46.24,Default,,0,0,0,,Đã tập hợp đến rồi à.
+Dialogue: 0,0:14:57.18,0:14:57.87,Default,,0,0,0,,Tốt.
+Dialogue: 0,0:14:57.87,0:14:59.46,Default,,0,0,0,,Vậy thì...
+Dialogue: 0,0:15:05.50,0:15:06.38,Default,,0,0,0,,Đuổi theo?
+Dialogue: 0,0:15:06.88,0:15:09.22,Default,,0,0,0,,Có vẻ bằng cách nào đó chạy thoát được rồi.
+Dialogue: 0,0:15:10.65,0:15:12.18,Default,,0,0,0,,Đúng xui xẻo mà.
+Dialogue: 0,0:15:13.25,0:15:18.25,Default,,0,0,0,,Định sẽ kiếm chút đỉnh và giết thời gian\Ntrước khi chinh phục "Khu rừng lạc lối"...
+Dialogue: 0,0:15:18.25,0:15:20.98,Default,,0,0,0,,nên đã thử chấp nhận ủy thác\Nkhông có khả năng thất bại,
+Dialogue: 0,0:15:21.83,0:15:25.34,Default,,0,0,0,,vậy mà lại gặp phải cảnh\Nbỏ chạy khỏi băng đạo tặc rác rưởi.
+Dialogue: 0,0:15:26.68,0:15:27.98,Default,,0,0,0,,Nếu thành ra thế này...
+Dialogue: 0,0:15:27.98,0:15:29.57,Default,,0,0,0,,thì thà đi xung quanh chào hỏi
+Dialogue: 0,0:15:29.57,0:15:32.87,Default,,0,0,0,,cùng với Arios và Argus\Ntrước khi xuất phát còn tốt hơn.
+Dialogue: 0,0:15:33.52,0:15:37.45,Default,,0,0,0,,Chẳng phải Lin đã nói rằng\Nchuyện như thế phiền phức sao?
+Dialogue: 0,0:15:37.45,0:15:38.73,Default,,0,0,0,,Tất nhiên rồi.
+Dialogue: 0,0:15:38.73,0:15:40.77,Default,,0,0,0,,Ngay từ đầu, tại sao tổ đội Anh hùng
+Dialogue: 0,0:15:40.77,0:15:44.76,Default,,0,0,0,,lại phải thăm dò thái độ của đám người\Nmà còn chả phải là hoàng tộc chứ.
+Dialogue: 0,0:15:45.20,0:15:46.09,Default,,0,0,0,,Nhưng mà.
+Dialogue: 0,0:15:46.63,0:15:48.54,Default,,0,0,0,,Bây giờ có chuyện quan trọng hơn!
+Dialogue: 0,0:15:49.01,0:15:50.70,Default,,0,0,0,,Anh! Là anh đó!
+Dialogue: 0,0:15:50.70,0:15:53.77,Default,,0,0,0,,Bảo vệ pháp sư hay thần quan\Nsử dụng ma pháp như chúng tôi,
+Dialogue: 0,0:15:53.77,0:15:56.39,Default,,0,0,0,,câu kéo thời gian sử dụng\Nma pháp là căn bản đúng không?
+Dialogue: 0,0:15:56.78,0:15:58.81,Default,,0,0,0,,Gì mà cong đuôi chạy trước hả!?
+Dialogue: 0,0:15:59.35,0:16:00.50,Default,,0,0,0,,Phải rồi đó.
+Dialogue: 0,0:16:00.50,0:16:02.50,Default,,0,0,0,,Mặc dù chỉ là tạm thời,
+Dialogue: 0,0:16:02.50,0:16:04.50,Default,,0,0,0,,nhưng anh đã được thuê đàng hoàng đấy.
+Dialogue: 0,0:16:04.92,0:16:05.65,Default,,0,0,0,,Không!
+Dialogue: 0,0:16:05.65,0:16:06.98,Default,,0,0,0,,Tôi đã nói trước rồi mà!
+Dialogue: 0,0:16:06.98,0:16:08.80,Default,,0,0,0,,Đã nói tôi là thuần thú sư,
+Dialogue: 0,0:16:08.80,0:16:10.90,Default,,0,0,0,,vốn không phù hợp với chiến đấu rồi.
+Dialogue: 0,0:16:10.90,0:16:11.84,Default,,0,0,0,,Hả!?
+Dialogue: 0,0:16:11.84,0:16:13.95,Default,,0,0,0,,Dám bật lại nữa hả?
+Dialogue: 0,0:16:13.95,0:16:18.02,Default,,0,0,0,,Đến cả thằng Rein vô tích sự ấy\Ncòn chiến đấu ở tiền tuyến, vậy mà...
+Dialogue: 0,0:16:18.02,0:16:19.83,Default,,0,0,0,,T-Tôi có biết chuyện đó đâu!
+Dialogue: 0,0:16:20.30,0:16:24.30,Default,,0,0,0,,Vậy chuyện bỏ bê việc\Nđiều tra xung quanh thì tại sao hả?
+Dialogue: 0,0:16:24.75,0:16:29.59,Default,,0,0,0,,Bộ anh nghĩ cỡ một con sóc\Nthế kia có thể cảnh giác mọi hướng à?
+Dialogue: 0,0:16:29.60,0:16:30.76,Default,,0,0,0,,Phải rồi đó!
+Dialogue: 0,0:16:30.76,0:16:33.59,Default,,0,0,0,,Thuần hóa 10 hay 20 con\Nchẳng phải đã tốt rồi sao!?
+Dialogue: 0,0:16:33.59,0:16:35.68,Default,,0,0,0,,Tính trốn việc hả, cái thằng rác rưởi này!
+Dialogue: 0,0:16:36.82,0:16:38.12,Default,,0,0,0,,Cô nói cái gì vậy?
+Dialogue: 0,0:16:38.86,0:16:40.24,Default,,0,0,0,,Thế quái nào làm được chứ!
+Dialogue: 0,0:16:40.24,0:16:41.02,Default,,0,0,0,,Cái chuyện đó đấy!
+Dialogue: 0,0:16:41.69,0:16:44.93,Default,,0,0,0,,Bình thường còn không\Nthuần hóa được hai, chứ nói gì đến mười con.
+Dialogue: 0,0:16:45.55,0:16:47.85,Default,,0,0,0,,Động vật mà thuần thú sư có thể thuần hóa,
+Dialogue: 0,0:16:47.85,0:16:50.27,Default,,0,0,0,,căn bản chỉ có đúng một con thôi.
+Dialogue: 0,0:16:50.27,0:16:52.76,Default,,0,0,0,,Nếu sai khiến đồng thời nhiều con,
+Dialogue: 0,0:16:52.76,0:16:54.93,Default,,0,0,0,,thì thần kinh sẽ bị nướng khét bởi gánh nặng.
+Dialogue: 0,0:16:55.74,0:16:57.82,Default,,0,0,0,,Vậy mà mấy người không hề biết chuyện đó,
+Dialogue: 0,0:16:57.82,0:17:00.57,Default,,0,0,0,,từ nãy đến giờ toàn nói một cách vô lý!
+Dialogue: 0,0:17:01.92,0:17:03.54,Default,,0,0,0,,Nghĩa là sao chứ?
+Dialogue: 0,0:17:03.54,0:17:08.75,Default,,0,0,0,,Vậy nó, người đã sai khiến vài chục\Ncon động vật với vẻ mặt dửng dưng...
+Dialogue: 0,0:17:08.75,0:17:10.42,Default,,0,0,0,,thì là gì chứ!?
+Dialogue: 0,0:17:11.74,0:17:12.53,Default,,0,0,0,,À...
+Dialogue: 0,0:17:12.53,0:17:13.68,Default,,0,0,0,,Hiểu rồi.
+Dialogue: 0,0:17:14.22,0:17:16.83,Default,,0,0,0,,Anh đã nói dối cho sự bất tài của mình.
+Dialogue: 0,0:17:17.13,0:17:17.63,Default,,0,0,0,,Hả?
+Dialogue: 0,0:17:18.02,0:17:18.85,Default,,0,0,0,,Nè.
+Dialogue: 0,0:17:19.42,0:17:22.88,Default,,0,0,0,,Việc tổ đội anh hùng chúng tôi đã thất bại,
+Dialogue: 0,0:17:22.88,0:17:25.11,Default,,0,0,0,,không thể để người khác biết được.
+Dialogue: 0,0:17:26.06,0:17:27.86,Default,,0,0,0,,Vậy nên vụ việc lần này,
+Dialogue: 0,0:17:27.86,0:17:31.56,Default,,0,0,0,,anh đã tự ý nhận một mình và thất bại.
+Dialogue: 0,0:17:31.56,0:17:32.62,Default,,0,0,0,,Phải không nhỉ?
+Dialogue: 0,0:17:32.62,0:17:34.86,Default,,0,0,0,,V-Vậy thì danh tiếng của tôi sẽ...
+Dialogue: 0,0:17:35.93,0:17:38.29,Default,,0,0,0,,Tôi có thể sử dụng hơn một ngàn ma pháp.
+Dialogue: 0,0:17:38.88,0:17:42.38,Default,,0,0,0,,Còn Nina có thuật trị liệu\Nhồi sinh được người chết.
+Dialogue: 0,0:17:43.04,0:17:47.47,Default,,0,0,0,,Không biết anh chết đi sống lại\Nbao nhiêu lần mới chịu hiểu nhỉ?
+Dialogue: 0,0:17:47.75,0:17:48.84,Default,,0,0,0,,T-Tôi hiểu rồi!
+Dialogue: 0,0:17:49.30,0:17:50.84,Default,,0,0,0,,Tôi hiểu rồi!!
+Dialogue: 0,0:17:51.69,0:17:53.66,Default,,0,0,0,,Xúi quẩy quá mà.
+Dialogue: 0,0:17:53.66,0:17:55.10,Default,,0,0,0,,Thật sự đó.
+Dialogue: 0,0:17:55.10,0:17:57.10,Default,,0,0,0,,Toàn nói điều kì lạ.
+Dialogue: 0,0:17:57.10,0:17:59.14,Default,,0,0,0,,Theo cách nói đó thì hệt như Rein...
+Dialogue: 0,0:17:59.14,0:17:59.93,Default,,0,0,0,,A!
+Dialogue: 0,0:17:59.93,0:18:02.38,Default,,0,0,0,,Nói chuyện với thằng vô dụng mệt quá đi.
+Dialogue: 0,0:18:02.38,0:18:03.90,Default,,0,0,0,,Mau chóng quay về thôi.
+Dialogue: 0,0:18:04.29,0:18:05.41,Default,,0,0,0,,Phải rồi nhỉ.
+Dialogue: 0,0:18:05.41,0:18:07.65,Default,,0,0,0,,Nhóm Arios chắc cũng sắp quay lại rồi.
+Dialogue: 0,0:18:08.43,0:18:09.19,Default,,0,0,0,,Hưm!
+Dialogue: 0,0:18:09.19,0:18:11.11,Default,,0,0,0,,Thứ nói dối tào lao.
+Dialogue: 0,0:18:11.54,0:18:16.07,Default,,0,0,0,,Làm quái gì có chuyện thằng Rein\Nnhãi nhép đó ưu tú hơn người được chứ.
+Dialogue: 0,0:18:17.01,0:18:18.40,Default,,0,0,0,,Cơ thể tê liệt...
+Dialogue: 0,0:18:18.40,0:18:20.29,Default,,0,0,0,,Không cử động được...
+Dialogue: 0,0:18:21.73,0:18:23.28,Default,,0,0,0,,Có vẻ suôn sẻ rồi nhỉ.
+Dialogue: 0,0:18:24.50,0:18:25.78,Default,,0,0,0,,Vất vả rồi.
+Dialogue: 0,0:18:25.78,0:18:26.87,Default,,0,0,0,,Cảm ơn nhá.
+Dialogue: 0,0:18:29.84,0:18:31.20,Default,,0,0,0,,Rein!
+Dialogue: 0,0:18:31.20,0:18:32.63,Default,,0,0,0,,Tôi dẫn đến rồi nè!
+Dialogue: 0,0:18:34.26,0:18:36.29,Default,,0,0,0,,Sự việc tôi đã nghe từ cô bé này rồi.
+Dialogue: 0,0:18:36.85,0:18:39.44,Default,,0,0,0,,Làm đối thủ với Nanh Đen, cậu kinh thật đó.
+Dialogue: 0,0:18:39.44,0:18:42.30,Default,,0,0,0,,Anh trai lúc ở hội cũng kinh quá mà.
+Dialogue: 0,0:18:42.30,0:18:44.77,Default,,0,0,0,,Mà chuyện ở đây giao cho bọn tôi.
+Dialogue: 0,0:18:45.11,0:18:46.77,Default,,0,0,0,,Cảm ơn nhiều, đỡ cho tôi quá.
+Dialogue: 0,0:18:46.77,0:18:47.39,Default,,0,0,0,,Hửm?
+Dialogue: 0,0:18:48.07,0:18:50.11,Default,,0,0,0,,Nhìn mới thấy,\Ntoàn mạo hiểm giả không vậy?
+Dialogue: 0,0:18:50.11,0:18:52.96,Default,,0,0,0,,Nếu là bọn kị sĩ đoàn thì không đến đâu.
+Dialogue: 0,0:18:52.96,0:18:55.84,Default,,0,0,0,,Bảo rằng cỡ phường trộm cắp này\Nthì không có rảnh để ra mặt.
+Dialogue: 0,0:18:55.84,0:18:58.16,Default,,0,0,0,,Mà còn lại cứ để cho bọn tôi.
+Dialogue: 0,0:18:58.16,0:18:59.95,Default,,0,0,0,,Cậu vất vả rồi, thong thả nghỉ ngơi đi.
+Dialogue: 0,0:19:04.97,0:19:05.96,Default,,0,0,0,,Cảm ơn nhé.
+Dialogue: 0,0:19:05.96,0:19:07.96,Default,,0,0,0,,Đã khẩn trương gọi mọi người đến.
+Dialogue: 0,0:19:07.96,0:19:08.89,Default,,0,0,0,,Mệt lắm phải không?
+Dialogue: 0,0:19:08.89,0:19:09.83,Default,,0,0,0,,Không.
+Dialogue: 0,0:19:09.83,0:19:10.84,Default,,0,0,0,,Bình thường mà.
+Dialogue: 0,0:19:11.73,0:19:14.05,Default,,0,0,0,,Thật tốt khi giúp ích được cho Rien.
+Dialogue: 0,0:19:14.05,0:19:14.90,Default,,0,0,0,,Ừ.
+Dialogue: 0,0:19:15.20,0:19:16.51,Default,,0,0,0,,Vậy là giải quyết xong một vụ.
+Dialogue: 0,0:19:18.17,0:19:19.30,Default,,0,0,0,,Âm thanh này là gì chứ?
+Dialogue: 0,0:19:19.30,0:19:20.24,Default,,0,0,0,,Rein!
+Dialogue: 0,0:19:20.24,0:19:21.47,Default,,0,0,0,,Dấu hiệu này tồi tệ lắm đó.
+Dialogue: 0,0:19:36.48,0:19:37.81,Default,,0,0,0,,Không thể nào!?
+Dialogue: 0,0:19:37.81,0:19:39.51,Default,,0,0,0,,"Vua thằn lằn" ư!?
+Dialogue: 0,0:19:39.95,0:19:42.32,Default,,0,0,0,,Ma vật sánh ngang bậc C tại sao lại...
+Dialogue: 0,0:19:43.76,0:19:46.59,Default,,0,0,0,,Bọn tao đã thuần hóa để cho lúc đấy!
+Dialogue: 0,0:19:46.59,0:19:47.44,Default,,0,0,0,,Này!
+Dialogue: 0,0:19:47.44,0:19:48.55,Default,,0,0,0,,Giết bọn nó...
+Dialogue: 0,0:19:53.97,0:19:55.48,Default,,0,0,0,,Gay thật, chúng đang mất kiểm soát.
+Dialogue: 0,0:19:57.54,0:19:58.25,Default,,0,0,0,,Rein!
+Dialogue: 0,0:19:58.25,0:19:59.17,Default,,0,0,0,,Ừ!
+Dialogue: 0,0:20:02.67,0:20:04.52,Default,,0,0,0,,Gây sát thương cho vua thằn lằn ư!?
+Dialogue: 0,0:20:04.52,0:20:07.01,Default,,0,0,0,,Vẫn chưa xong đâu!
+Dialogue: 0,0:20:08.10,0:20:09.92,Default,,0,0,0,,Nya~!!!
+Dialogue: 0,0:20:11.65,0:20:13.14,Default,,0,0,0,,Kinh thật.
+Dialogue: 0,0:20:13.74,0:20:15.82,Default,,0,0,0,,Hãy đưa đám đạo tặc ra bên ngoài hang động!
+Dialogue: 0,0:20:16.30,0:20:17.49,Default,,0,0,0,,K-Không, nhưng mà...
+Dialogue: 0,0:20:18.40,0:20:19.23,Default,,0,0,0,,Không sao đâu.
+Dialogue: 0,0:20:19.76,0:20:21.20,Default,,0,0,0,,Bọn tôi sẽ làm gì đó.
+Dialogue: 0,0:20:22.51,0:20:23.16,Default,,0,0,0,,Hiểu rồi.
+Dialogue: 0,0:20:23.16,0:20:24.32,Default,,0,0,0,,Mọi người khẩn trương!
+Dialogue: 0,0:20:24.32,0:20:25.04,Default,,0,0,0,,Ừ!!
+Dialogue: 0,0:20:25.49,0:20:27.04,Default,,0,0,0,,Đừng có mà chết đấy!
+Dialogue: 0,0:20:27.04,0:20:28.46,Default,,0,0,0,,Đằng này, nhanh chân lên!
+Dialogue: 0,0:20:28.46,0:20:29.79,Default,,0,0,0,,Gặp sau nhá!
+Dialogue: 0,0:20:29.79,0:20:32.46,Default,,0,0,0,,Nếu là mình trước đây thì thế nào nhỉ?
+Dialogue: 0,0:20:33.66,0:20:36.00,Default,,0,0,0,,Nếu là mình hồi còn đi chung với nhóm Arios,
+Dialogue: 0,0:20:36.00,0:20:38.43,Default,,0,0,0,,chắc chắn họ đã cho rằng\Nmình không thể làm gì được.
+Dialogue: 0,0:20:39.79,0:20:40.51,Default,,0,0,0,,Nhưng mà.
+Dialogue: 0,0:20:41.01,0:20:42.21,Default,,0,0,0,,Bây giờ thì khác.
+Dialogue: 0,0:20:48.23,0:20:49.29,Default,,0,0,0,,Mình có Kanade.
+Dialogue: 0,0:20:54.27,0:20:55.94,Default,,0,0,0,,Nếu là cùng với Kanade thì...
+Dialogue: 0,0:21:02.67,0:21:04.40,Default,,0,0,0,,Từ sau khi chúng ta chạy ra ngoài,
+Dialogue: 0,0:21:04.40,0:21:06.67,Default,,0,0,0,,thời gian đã trôi qua khá lâu rồi.
+Dialogue: 0,0:21:06.67,0:21:07.69,Default,,0,0,0,,Ừa.
+Dialogue: 0,0:21:07.69,0:21:10.27,Default,,0,0,0,,Với số lượng vua thằn lằn nhiều thế kia,
+Dialogue: 0,0:21:10.27,0:21:12.09,Default,,0,0,0,,nếu suy nghĩ bình thường thì...
+Dialogue: 0,0:21:12.09,0:21:13.36,Default,,0,0,0,,A!
+Dialogue: 0,0:21:23.72,0:21:25.27,Default,,0,0,0,,Kinh thật đó anh trai!
+Dialogue: 0,0:21:25.27,0:21:26.22,Default,,0,0,0,,Chị gái nữa đó!
+Dialogue: 0,0:21:26.22,0:21:27.70,Default,,0,0,0,,Quả không hổ danh tộc mạnh nhất!
+Dialogue: 0,0:21:29.14,0:21:30.45,Default,,0,0,0,,Kinh thật đó!
+Dialogue: 0,0:21:30.80,0:21:32.19,Default,,0,0,0,,Mọi người thừa nhận tôi...
+Dialogue: 0,0:21:32.93,0:21:37.23,Default,,0,0,0,,Thừa nhận một người đã bị đuổi khỏi\Ntổ đội Anh hùng vì không được tích sự gì.
+Dialogue: 0,0:21:43.40,0:21:46.38,Default,,0,0,0,,Chủng tộc mạnh nhất gì đó, Sứ ma gì đó...
+Dialogue: 0,0:21:46.38,0:21:48.29,Default,,0,0,0,,Những chuyện đó không hề liên quan.
+Dialogue: 0,0:21:49.79,0:21:51.58,Default,,0,0,0,,Cảm ơn Kanade.
+Dialogue: 0,0:21:53.50,0:21:54.81,Default,,0,0,0,,Nếu là cùng với Kanade,
+Dialogue: 0,0:21:55.82,0:21:58.13,Default,,0,0,0,,thì tôi cảm thấy mình như\Ncó thể làm được bất cứ mọi chuyện.
+Dialogue: 0,0:21:59.20,0:22:00.39,Default,,0,0,0,,Rein...
+Dialogue: 0,0:22:01.94,0:22:02.55,Default,,0,0,0,,Ừm!
