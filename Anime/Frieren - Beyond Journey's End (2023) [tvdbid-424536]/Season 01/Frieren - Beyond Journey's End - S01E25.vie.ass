@@ -1,0 +1,333 @@
+[Script Info]
+; This is an Advanced Sub Station Alpha v4+ script.
+Title:
+ScriptType: v4.00+
+PlayDepth: 0
+ScaledBorderAndShadow: Yes
+PlayResX: 1920
+PlayResY: 1080
+
+[V4+ Styles]
+Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
+Style: Default,Noto Sans,80.0,&H00FFFFFF,&H000000FF,&H00002208,&H00000000,-1,0,0,0,100,100,0,0,1,3.0,2.0,2,0,0,65,1
+
+[Events]
+Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
+Dialogue: 0,0:00:01.96,0:00:04.46,Default,,0,0,0,,Do hiện tại chưa đủ thông tin...
+Dialogue: 0,0:00:05.23,0:00:07.73,Default,,0,0,0,,nên hãy mặc định là nó không có tinh thần đi.
+Dialogue: 0,0:00:08.63,0:00:11.36,Default,,0,0,0,,Và nếu thế thì sẽ phải\Nthắng bằng sức mạnh.
+Dialogue: 0,0:00:13.00,0:00:13.90,Default,,0,0,0,,Liệu có thể không?
+Dialogue: 0,0:00:14.73,0:00:16.30,Default,,0,0,0,,Chịu. Không biết.
+Dialogue: 0,0:00:21.00,0:00:23.03,Default,,0,0,0,,Dạ, nếu vậy...
+Dialogue: 0,0:00:24.23,0:00:28.13,Default,,0,0,0,,có lẽ con có thể giết sư phụ Frieren đấy ạ.
+Dialogue: 0,0:00:30.83,0:00:31.63,Default,,0,0,0,,Thế à?
+Dialogue: 0,0:00:32.30,0:00:33.10,Default,,0,0,0,,Vâng.
+Dialogue: 0,0:00:41.86,0:00:42.76,Default,,0,0,0,,Vậy thì...
+Dialogue: 0,0:00:43.06,0:00:44.53,Default,,0,0,0,,xây dựng chiến lược thôi.
+Dialogue: 0,0:00:54.26,0:00:58.06,Default,,0,0,0,,Em tựa như cơn gió
+Dialogue: 0,0:00:58.06,0:01:02.12,Default,,0,0,0,,Khi nhắm mắt lại lúc hoàng hôn…
+Dialogue: 0,0:01:02.74,0:01:08.09,Default,,0,0,0,,Không biết em đang nghĩ gì nhỉ?
+Dialogue: 0,0:01:13.19,0:01:16.89,Default,,0,0,0,,Khi mí mắt em mở
+Dialogue: 0,0:01:16.89,0:01:21.04,Default,,0,0,0,,Đôi mắt em long lanh tựa thủy tinh
+Dialogue: 0,0:01:21.51,0:01:28.14,Default,,0,0,0,,Có mùi thoang thoảng của nắng vàng
+Dialogue: 0,0:01:34.26,0:01:39.51,Default,,0,0,0,,Trời hãy nắng lên đi, hoa ơi hãy nở đi
+Dialogue: 0,0:01:39.51,0:01:43.64,Default,,0,0,0,,Nở đi rồi đổ tại nắng vàng
+Dialogue: 0,0:01:43.64,0:01:48.06,Default,,0,0,0,,Dù có mưa thì khi trời tạnh…
+Dialogue: 0,0:01:48.06,0:01:52.51,Default,,0,0,0,,ánh nắng cũng sẽ trang hoàng cho em
+Dialogue: 0,0:01:53.11,0:01:58.43,Default,,0,0,0,,Nhịp tim của tôi ơi, hãy lặng xuống đi
+Dialogue: 0,0:01:58.43,0:02:02.49,Default,,0,0,0,,Chúng ta như ngọn gió nắng vàng
+Dialogue: 0,0:02:02.49,0:02:06.89,Default,,0,0,0,,Bay qua cả những áng mây đó
+Dialogue: 0,0:02:06.89,0:02:11.64,Default,,0,0,0,,Bay xa, xa mãi
+Dialogue: 0,0:02:14.98,0:02:17.99,Default,,0,0,0,,(Tập 25: Kẽ hở chí mạng)
+Dialogue: 0,0:02:21.16,0:02:23.00,Default,,0,0,0,,Vậy thì để xác nhận lại.
+Dialogue: 0,0:02:23.50,0:02:25.76,Default,,0,0,0,,Nếu bản sao có tinh thần...
+Dialogue: 0,0:02:26.06,0:02:28.26,Default,,0,0,0,,thì Ehre sẽ dùng phép tinh thần...
+Dialogue: 0,0:02:28.50,0:02:30.53,Default,,0,0,0,,đánh xuyên qua lớp phòng thủ tinh thần của tôi...
+Dialogue: 0,0:02:30.73,0:02:32.80,Default,,0,0,0,,rồi Fern sẽ ra đòn kết liễu nhỉ?
+Dialogue: 0,0:02:33.10,0:02:33.64,Default,,0,0,0,,Vâng.
+Dialogue: 0,0:02:33.88,0:02:35.30,Default,,0,0,0,,Khoan, "vâng" luôn á?
+Dialogue: 0,0:02:39.36,0:02:40.16,Default,,0,0,0,,Dünste.
+Dialogue: 0,0:02:48.90,0:02:49.86,Default,,0,0,0,,Ehre đâu?
+Dialogue: 0,0:02:51.63,0:02:53.93,Default,,0,0,0,,Bị bản sao của Sense tấn công...
+Dialogue: 0,0:02:54.30,0:02:55.53,Default,,0,0,0,,và phải đào thoát rồi.
+Dialogue: 0,0:02:57.44,0:02:58.50,Default,,0,0,0,,Vậy à.
+Dialogue: 0,0:02:59.16,0:02:59.96,Default,,0,0,0,,Còn Blei?
+Dialogue: 0,0:03:03.23,0:03:08.86,Default,,0,0,0,,Nhờ cậu ấy ở lại cản đường\Nmà tôi mới có thể chạy thoát.
+Dialogue: 0,0:03:08.96,0:03:11.06,Default,,0,0,0,,Mong là cậu ấy cũng có thể thoát ra an toàn.
+Dialogue: 0,0:03:19.86,0:03:21.66,Default,,0,0,0,,Đừng lo cho tôi. Đi đi!
+Dialogue: 0,0:03:27.13,0:03:27.94,Default,,0,0,0,,Nhưng...
+Dialogue: 0,0:03:28.18,0:03:30.60,Default,,0,0,0,,Còn hơn là không có ai đỗ!
+Dialogue: 0,0:03:37.60,0:03:38.93,Default,,0,0,0,,Tôi có thông tin.
+Dialogue: 0,0:03:40.00,0:03:41.26,Default,,0,0,0,,Có muốn hợp tác không?
+Dialogue: 0,0:03:43.20,0:03:45.90,Default,,0,0,0,,Ta đã nói vậy ngay từ đầu mà.
+Dialogue: 0,0:03:48.13,0:03:50.03,Default,,0,0,0,,Ở đây ai biết trị liệu không?
+Dialogue: 0,0:03:51.40,0:03:52.93,Default,,0,0,0,,Tôi có mang kinh thánh.
+Dialogue: 0,0:03:53.30,0:03:55.30,Default,,0,0,0,,Có thể dùng phép trị liệu đơn giản.
+Dialogue: 0,0:03:56.20,0:03:57.00,Default,,0,0,0,,Nhờ cô.
+Dialogue: 0,0:04:04.43,0:04:05.23,Default,,0,0,0,,Ra vậy.
+Dialogue: 0,0:04:05.93,0:04:08.00,Default,,0,0,0,,Bản thể không có tinh thần nhỉ.
+Dialogue: 0,0:04:08.76,0:04:09.56,Default,,0,0,0,,Vâng.
+Dialogue: 0,0:04:09.83,0:04:14.96,Default,,0,0,0,,Theo Ehre, nó chỉ bắt chước hoạt động\Ncủa tinh thần...
+Dialogue: 0,0:04:15.36,0:04:17.46,Default,,0,0,0,,chứ bản thân thì không có thứ đó.
+Dialogue: 0,0:04:18.83,0:04:21.50,Default,,0,0,0,,Vậy là không còn cách nào dễ\Nđể hạ nó rồi.
+Dialogue: 0,0:04:22.83,0:04:25.20,Default,,0,0,0,,Phải dựa vào đó mà xây dựng chiến lược.
+Dialogue: 0,0:04:26.43,0:04:28.16,Default,,0,0,0,,Nhưng mà, Frieren.
+Dialogue: 0,0:04:28.93,0:04:31.40,Default,,0,0,0,,Vẫn còn quá nhiều ẩn số.
+Dialogue: 0,0:04:32.43,0:04:34.00,Default,,0,0,0,,Vấn đề lớn nhất là...
+Dialogue: 0,0:04:34.36,0:04:37.53,Default,,0,0,0,,chân tướng của kẻ đã tạo ra những bản sao này.
+Dialogue: 0,0:04:38.53,0:04:41.53,Default,,0,0,0,,Phải biết thì chúng ta mới làm gì được.
+Dialogue: 0,0:04:42.53,0:04:46.56,Default,,0,0,0,,Đặc biệt là cái bản sao đó\Nthật sự không có điểm yếu nào hay sao ?
+Dialogue: 0,0:04:47.60,0:04:50.50,Default,,0,0,0,,Nếu bản sao đó thực sự có thực lực\Nnhư Frieren...
+Dialogue: 0,0:04:50.86,0:04:52.26,Default,,0,0,0,,thì chắc chắn sẽ có thương vong.
+Dialogue: 0,0:04:54.63,0:04:56.20,Default,,0,0,0,,Tôi không trả lời đâu.
+Dialogue: 0,0:04:56.83,0:04:57.63,Default,,0,0,0,,Hẳn rồi nhỉ.
+Dialogue: 0,0:04:58.73,0:05:00.43,Default,,0,0,0,,Nó không có điểm yếu đâu.
+Dialogue: 0,0:05:01.63,0:05:03.66,Default,,0,0,0,,Kẻ điều khiển bản sao...
+Dialogue: 0,0:05:04.26,0:05:06.90,Default,,0,0,0,,là một con quái vật từ thời thần thoại,\Ntên là Spiegel.
+Dialogue: 0,0:05:07.93,0:05:08.73,Default,,0,0,0,,Lawine...
+Dialogue: 0,0:05:09.03,0:05:10.46,Default,,0,0,0,,Sao cô biết?
+Dialogue: 0,0:05:11.16,0:05:12.70,Default,,0,0,0,,Anh hai của tôi...
+Dialogue: 0,0:05:13.10,0:05:15.04,Default,,0,0,0,,là một người trong đội thám hiểm...
+Dialogue: 0,0:05:15.13,0:05:18.56,Default,,0,0,0,,được hiệp hội phép thuật lục địa gửi đến\Nđể chinh phục lăng mộ của Vua Tàn Tích.
+Dialogue: 0,0:05:19.90,0:05:21.70,Default,,0,0,0,,Vậy là các cô có thông tin à.
+Dialogue: 0,0:05:22.70,0:05:24.56,Default,,0,0,0,,Thảo nào mà đi xa được đến vậy.
+Dialogue: 0,0:05:26.94,0:05:29.66,Default,,0,0,0,,Nhưng mà chẳng hợp lý chút nào.
+Dialogue: 0,0:05:30.66,0:05:35.40,Default,,0,0,0,,Nếu đã định hợp tác\Nthì đúng ra nên làm ngay từ đầu với bọn tôi chứ.
+Dialogue: 0,0:05:36.10,0:05:38.70,Default,,0,0,0,,Do bầu không khí lúc đó\Nhơi khó để hợp tác.
+Dialogue: 0,0:05:39.53,0:05:42.56,Default,,0,0,0,,Nhóm của Frieren thì thấy khó chịu\Nnên đi trước luôn rồi.
+Dialogue: 0,0:05:43.50,0:05:44.84,Default,,0,0,0,,Và ông chú là dạng...
+Dialogue: 0,0:05:44.84,0:05:48.20,Default,,0,0,0,,nếu luật không quy định thì sẵn sàng\Nbỏ mặc đồng đội đúng không?
+Dialogue: 0,0:05:50.73,0:05:52.33,Default,,0,0,0,,Sao có thể dễ dàng hợp tác được.
+Dialogue: 0,0:05:54.00,0:05:55.60,Default,,0,0,0,,Có vẻ bị ghét nhỉ.
+Dialogue: 0,0:05:56.10,0:05:58.10,Default,,0,0,0,,Ừ thì tôi là một ông chú.
+Dialogue: 0,0:05:58.93,0:06:01.36,Default,,0,0,0,,Nhưng bị nói thẳng cho vào mặt\Nthì cũng hơi...
+Dialogue: 0,0:06:02.40,0:06:04.36,Default,,0,0,0,,Chắc là cậu nên xin lỗi đi.
+Dialogue: 0,0:06:04.63,0:06:06.03,Default,,0,0,0,,Xin lỗi nhé, ông chú.
+Dialogue: 0,0:06:09.20,0:06:11.46,Default,,0,0,0,,Theo kết quả quan sát của đội thám hiểm...
+Dialogue: 0,0:06:11.96,0:06:16.80,Default,,0,0,0,,Spiegel đang ở trong bảo khố\Nđằng sau cánh cửa đó.
+Dialogue: 0,0:06:17.96,0:06:22.00,Default,,0,0,0,,Bản thể chỉ là một con quái vật yếu\Nkhông có khả năng tấn công.
+Dialogue: 0,0:06:23.53,0:06:26.43,Default,,0,0,0,,Khi tiêu diệt nó, toàn bộ bản sao\Nsẽ biến mất.
+Dialogue: 0,0:06:27.90,0:06:30.86,Default,,0,0,0,,Rất khớp với kết quả cảm nhận ma lực\Ncủa bọn ta.
+Dialogue: 0,0:06:32.93,0:06:35.16,Default,,0,0,0,,Bản thể ở đằng sau cánh cửa.
+Dialogue: 0,0:06:35.70,0:06:39.73,Default,,0,0,0,,Nhưng mà cánh cửa đó\Nđang bị đặt một phong ấn rất mạnh.
+Dialogue: 0,0:06:40.70,0:06:42.73,Default,,0,0,0,,Tôi có thể khẳng định điều đó.
+Dialogue: 0,0:06:43.46,0:06:45.60,Default,,0,0,0,,Đó là do bản sao của tôi.
+Dialogue: 0,0:06:47.14,0:06:50.38,Default,,0,0,0,,Phép dùng tính mạng để phong ấn bảo khố.
+Dialogue: 0,0:06:51.40,0:06:54.73,Default,,0,0,0,,Là một phép phong ấn cực mạnh\Ntrong các phép dân gian.
+Dialogue: 0,0:06:55.73,0:06:58.66,Default,,0,0,0,,Cánh cổng đó sẽ chỉ mở ra\Nkhi người dùng phép chết.
+Dialogue: 0,0:07:00.53,0:07:03.66,Default,,0,0,0,,Thật ra có thể đục tường\Nđể né cánh cửa...
+Dialogue: 0,0:07:04.43,0:07:06.26,Default,,0,0,0,,nhưng chắc hẳn cách đó cũng đã bị chặn.
+Dialogue: 0,0:07:09.13,0:07:11.96,Default,,0,0,0,,Dù sao đi nữa, để đánh được Spiegel...
+Dialogue: 0,0:07:12.26,0:07:15.80,Default,,0,0,0,,thì phải hạ được bản sao đó nhỉ?
+Dialogue: 0,0:07:17.26,0:07:19.20,Default,,0,0,0,,Nếu định hạ nó thì nên nhanh lên.
+Dialogue: 0,0:07:20.18,0:07:21.67,Default,,0,0,0,,Ý cô là sao?
+Dialogue: 0,0:07:22.10,0:07:27.03,Default,,0,0,0,,Spiegel có thể tạo ra bản sao\Ncủa tất cả những người ở trong hầm ngục.
+Dialogue: 0,0:07:28.06,0:07:33.36,Default,,0,0,0,,Và những bản sao đó, theo thời gian\Nsẽ có xu hướng tập trung tại nơi sâu nhất.
+Dialogue: 0,0:07:36.00,0:07:37.56,Default,,0,0,0,,Đội thám hiểm hồi đó...
+Dialogue: 0,0:07:37.90,0:07:41.16,Default,,0,0,0,,ngoài đội của anh hai tôi\Nthì hầu hết đều bị giết.
+Dialogue: 0,0:07:44.06,0:07:47.76,Default,,0,0,0,,Nơi xấu nhất cũng chính là chỗ này.
+Dialogue: 0,0:07:54.43,0:07:55.53,Default,,0,0,0,,Hiểu rồi.
+Dialogue: 0,0:07:56.63,0:07:57.43,Default,,0,0,0,,Dạ...
+Dialogue: 0,0:07:58.23,0:08:02.24,Default,,0,0,0,,Tinh thần của bản sao\Nsẽ bắt chước giống hệt bản thể nhỉ?
+Dialogue: 0,0:08:02.74,0:08:03.38,Default,,0,0,0,,Vậy thì...
+Dialogue: 0,0:08:03.96,0:08:07.60,Default,,0,0,0,,điểm yếu phát sinh trong thói quen\Ncũng giống hệt bản thể chăng?
+Dialogue: 0,0:08:08.33,0:08:09.16,Default,,0,0,0,,Rất có thể.
+Dialogue: 0,0:08:11.46,0:08:14.66,Default,,0,0,0,,Vậy thì quả nhiên có thể làm gì đó đấy.
+Dialogue: 0,0:08:15.63,0:08:17.30,Default,,0,0,0,,Điểm yếu đó là gì vậy?
+Dialogue: 0,0:08:21.20,0:08:22.00,Default,,0,0,0,,Sư phụ Frieren.
+Dialogue: 0,0:08:22.98,0:08:25.48,Default,,0,0,0,,Người có thể ra bức tường đó đứng\Nđược không ạ?
+Dialogue: 0,0:08:26.33,0:08:26.94,Default,,0,0,0,,Được.
+Dialogue: 0,0:08:46.53,0:08:47.33,Default,,0,0,0,,Đây là...
+Dialogue: 0,0:08:48.73,0:08:49.60,Default,,0,0,0,,Lẽ nào...
+Dialogue: 0,0:08:50.33,0:08:51.76,Default,,0,0,0,,Thật không thể tin được.
+Dialogue: 0,0:08:52.43,0:08:53.60,Default,,0,0,0,,Mọi người nhận ra chứ?
+Dialogue: 0,0:08:55.03,0:08:56.16,Default,,0,0,0,,Có gì hả?
+Dialogue: 0,0:08:56.43,0:08:57.26,Default,,0,0,0,,Chịu.
+Dialogue: 0,0:08:57.76,0:09:01.50,Default,,0,0,0,,Đây đúng là kẽ hở chí mạng\Ncủa Frieren.
+Dialogue: 0,0:09:02.26,0:09:05.06,Default,,0,0,0,,Sao trong lúc giao đấu\Nta lại không nhận ra nhỉ?
+Dialogue: 0,0:09:07.04,0:09:07.76,Default,,0,0,0,,Không.
+Dialogue: 0,0:09:08.26,0:09:11.96,Default,,0,0,0,,Chính vì định kiến là không thể\Nnên ta mới không nhận ra.
+Dialogue: 0,0:09:13.88,0:09:16.00,Default,,0,0,0,,Khoảnh khắc phép được bắn,
+Dialogue: 0,0:09:16.00,0:09:19.20,Default,,0,0,0,,cảm nhận ma lực của cô ấy\Nđã bị gián đoạn trong giây lát.
+Dialogue: 0,0:09:19.90,0:09:23.00,Default,,0,0,0,,Chẳng phải đó là lỗi phổ thông\Ncủa pháp sư học việc sao?
+Dialogue: 0,0:09:23.50,0:09:25.50,Default,,0,0,0,,Từ hồi xưa tôi đã kém khoản đó.
+Dialogue: 0,0:09:26.23,0:09:29.30,Default,,0,0,0,,Nếu người tự biết\Nthì tại sao không nói gì hết?
+Dialogue: 0,0:09:30.08,0:09:32.02,Default,,0,0,0,,Tại vì xấu hổ lắm.
+Dialogue: 0,0:09:32.26,0:09:34.30,Default,,0,0,0,,Giờ là lúc để nói như thế sao?
+Dialogue: 0,0:09:35.55,0:09:39.66,Default,,0,0,0,,Nhưng các kỹ năng khác\Nthì vẫn quá phi thường.
+Dialogue: 0,0:09:40.93,0:09:44.82,Default,,0,0,0,,Chẳng có mấy pháp sư\Ntận dụng được kẽ hở đó đâu.
+Dialogue: 0,0:09:45.28,0:09:47.76,Default,,0,0,0,,Dù sao đi nữa, họp bàn chiến lược nào.
+Dialogue: 0,0:10:10.90,0:10:13.54,Default,,0,0,0,,Nếu xử lý được bản sao của Frieren...
+Dialogue: 0,0:10:13.73,0:10:16.50,Default,,0,0,0,,Sư phụ Frieren, trông người vui nhỉ?
+Dialogue: 0,0:10:17.76,0:10:18.48,Default,,0,0,0,,Ừm.
+Dialogue: 0,0:10:27.73,0:10:29.10,Default,,0,0,0,,Nó đứng yên một chỗ rồi nhỉ.
+Dialogue: 0,0:10:30.03,0:10:30.83,Default,,0,0,0,,Vậy thì...
+Dialogue: 0,0:10:30.96,0:10:33.66,Default,,0,0,0,,Eisen hãy tấn công từ bên hông\Nvà thu hút sự chú ý của nó.
+Dialogue: 0,0:10:35.23,0:10:36.66,Default,,0,0,0,,Frieren hãy bắn phép yểm trợ.
+Dialogue: 0,0:10:37.36,0:10:38.16,Default,,0,0,0,,Còn Heiter?
+Dialogue: 0,0:10:38.60,0:10:40.56,Default,,0,0,0,,Hôm nay bị xỉn nên không dùng được.
+Dialogue: 0,0:10:42.48,0:10:43.48,Default,,0,0,0,,Chết luôn rồi.
+Dialogue: 0,0:11:03.70,0:11:08.63,Default,,0,0,0,,Làm ta nhớ lại mình cũng hay ngồi bàn bạc thế này\Nkhi hạ trùm hầm ngục.
+Dialogue: 0,0:11:31.92,0:11:32.90,Default,,0,0,0,,Được rồi.
+Dialogue: 0,0:11:33.30,0:11:34.93,Default,,0,0,0,,Vậy thì bắt đầu chinh phục nhé.
+Dialogue: 0,0:11:36.60,0:11:37.76,Default,,0,0,0,,Liệu thắng được không?
+Dialogue: 0,0:11:38.60,0:11:39.40,Default,,0,0,0,,Yên tâm.
+Dialogue: 0,0:11:40.06,0:11:43.03,Default,,0,0,0,,Không có hầm ngục nào là không thể chinh phục.
+Dialogue: 0,0:11:44.13,0:11:49.50,Default,,0,0,0,,Tôi là pháp sư của tổ đội\Nđã chinh phục nhiều hầm ngục nhất trong lịch sử đấy.
+Dialogue: 0,0:11:53.20,0:11:56.63,Default,,0,0,0,,Đội chinh phục bản sao của Frieren...
+Dialogue: 0,0:11:56.63,0:11:59.44,Default,,0,0,0,,thật sự chỉ cần hai cô thôi sao?
+Dialogue: 0,0:12:00.43,0:12:03.90,Default,,0,0,0,,Càng ít người thì càng dễ đoán\Nhành động của đối phương.
+Dialogue: 0,0:12:06.06,0:12:09.63,Default,,0,0,0,,Đúng là nếu tất cả cùng đánh\Nthì gần như chắc chắn sẽ thắng...
+Dialogue: 0,0:12:10.26,0:12:12.30,Default,,0,0,0,,nhưng e rằng quá nửa sẽ mất mạng.
+Dialogue: 0,0:12:13.60,0:12:16.63,Default,,0,0,0,,Có thể còn chẳng kịp dùng Golem tẩu thoát ấy chứ.
+Dialogue: 0,0:12:17.70,0:12:18.50,Default,,0,0,0,,Hơn nữa...
+Dialogue: 0,0:12:19.50,0:12:24.00,Default,,0,0,0,,việc chặn những bản sao khác đang tập trung về đây\Ncũng quan trọng nhỉ.
+Dialogue: 0,0:12:29.16,0:12:32.50,Default,,0,0,0,,Vì nếu bị kẹp vào thế gọng kìm\Nthì chúng ta tiêu mà.
+Dialogue: 0,0:12:34.20,0:12:35.73,Default,,0,0,0,,Được rồi, cứ theo kế hoạch.
+Dialogue: 0,0:12:36.36,0:12:37.16,Default,,0,0,0,,Ừ.
+Dialogue: 0,0:12:37.53,0:12:38.96,Default,,0,0,0,,Chúc may mắn.
+Dialogue: 0,0:12:42.34,0:12:43.46,Default,,0,0,0,,Nào, mở ra đi.
+Dialogue: 0,0:13:03.80,0:13:04.60,Default,,0,0,0,,Giờ thì...
+Dialogue: 0,0:13:05.83,0:13:09.46,Default,,0,0,0,,nói chuyện xem ai ghét đối thủ nào\Ntrong số này đi.
+Dialogue: 0,0:13:35.36,0:13:36.20,Default,,0,0,0,,Judradjim.
+Dialogue: 0,0:13:41.56,0:13:44.26,Default,,0,0,0,,Nó hành động đúng như sư phụ Frieren dự đoán.
+Dialogue: 0,0:14:01.02,0:14:02.28,Default,,0,0,0,,Vollzanbel.
+Dialogue: 0,0:14:04.70,0:14:06.26,Default,,0,0,0,,Cảm nhận ma lực đã bị gián đoạn.
+Dialogue: 0,0:14:07.13,0:14:10.53,Default,,0,0,0,,Bản sao đang cảnh giác với Fern,\Nngười vừa tận dụng kẽ hở đó để trốn.
+Dialogue: 0,0:14:12.43,0:14:15.83,Default,,0,0,0,,Nhưng trước mặt là một đối thủ\Nvới khả năng tương đương...
+Dialogue: 0,0:14:16.24,0:14:19.26,Default,,0,0,0,,nên sẽ khó mà có thời gian\Ntìm ra Fern.
+Dialogue: 0,0:14:20.83,0:14:25.73,Default,,0,0,0,,Bởi vì... mình là người\Nhiểu nỗi sợ của mình nhất mà.
+Dialogue: 0,0:14:30.86,0:14:31.80,Default,,0,0,0,,Đừng lo.
+Dialogue: 0,0:14:32.53,0:14:37.20,Default,,0,0,0,,Một khi Fern đã hoàn toàn ẩn mình\Nthì ta cũng không dễ cảm nhận ra.
+Dialogue: 0,0:14:38.00,0:14:42.40,Default,,0,0,0,,Nhưng dùng phép Zoltraak để tấn công\Nliệu có ổn thật không ạ?
+Dialogue: 0,0:14:43.10,0:14:45.86,Default,,0,0,0,,Nó là phép thi triển nhanh nhất mà.
+Dialogue: 0,0:14:47.53,0:14:52.30,Default,,0,0,0,,Hơn nữa, đối với yêu tinh\Nthì Zoltraak vẫn là phép khá mới...
+Dialogue: 0,0:14:52.93,0:14:57.00,Default,,0,0,0,,nên chưa đủ thời gian để hình thành\Nphản xạ phòng vệ một cách vô thức.
+Dialogue: 0,0:14:58.02,0:15:03.33,Default,,0,0,0,,Để đối phó thì dù ngắn\Nvẫn sẽ cần thời gian suy nghĩ.
+Dialogue: 0,0:15:04.13,0:15:06.53,Default,,0,0,0,,Cho dù thời gian đó rất ngắn đi nữa.
+Dialogue: 0,0:15:07.80,0:15:09.06,Default,,0,0,0,,Nhưng Fern thì khác.
+Dialogue: 0,0:15:10.70,0:15:15.23,Default,,0,0,0,,Đối với Fern, từ khi sinh ra, Zoltraak đã tồn tại\Nnhư một thứ đương nhiên.
+Dialogue: 0,0:15:15.86,0:15:19.16,Default,,0,0,0,,Cơ thể con đã được khắc sâu\Ncăn nguyên của phép thuật.
+Dialogue: 0,0:15:22.13,0:15:24.83,Default,,0,0,0,,Zoltraak của Fern có thể giết được ta.
+Dialogue: 0,0:15:26.10,0:15:28.20,Default,,0,0,0,,Cứ dồn hết ma lực vào cú bắn đó thôi.
+Dialogue: 0,0:15:46.03,0:15:46.86,Default,,0,0,0,,Frieren.
+Dialogue: 0,0:15:48.06,0:15:50.06,Default,,0,0,0,,Chắc hẳn ngươi ghét ta đúng không?
+Dialogue: 0,0:15:51.03,0:15:52.76,Default,,0,0,0,,Tại sao lại đến đây?
+Dialogue: 0,0:15:53.63,0:15:57.23,Default,,0,0,0,,Nói thật, ta cứ tưởng\Nsẽ không bao giờ gặp lại ngươi nữa chứ.
+Dialogue: 0,0:15:58.90,0:16:01.30,Default,,0,0,0,,Tôi đến để đưa di thư của sư phụ.
+Dialogue: 0,0:16:03.63,0:16:04.96,Default,,0,0,0,,50 năm đã trôi qua.
+Dialogue: 0,0:16:06.43,0:16:07.23,Default,,0,0,0,,Ra vậy.
+Dialogue: 0,0:16:07.70,0:16:09.00,Default,,0,0,0,,Flamme chết rồi à?
+Dialogue: 0,0:16:10.76,0:16:11.93,Default,,0,0,0,,Người không buồn sao?
+Dialogue: 0,0:16:13.06,0:16:14.76,Default,,0,0,0,,Là một đệ tử ta đào tạo lúc cao hứng thôi mà.
+Dialogue: 0,0:16:21.73,0:16:23.26,Default,,0,0,0,,Cứ như một bản báo cáo vậy.
+Dialogue: 0,0:16:24.20,0:16:25.63,Default,,0,0,0,,Nó viết gì vậy?
+Dialogue: 0,0:16:26.63,0:16:31.10,Default,,0,0,0,,Dường như hoàng đế đã phê chuẩn\Ncho việc nghiên cứu phép thuật được mở rộng ra toàn dân.
+Dialogue: 0,0:16:32.80,0:16:34.72,Default,,0,0,0,,Bấy lâu nay, trong văn hóa nhân loại...
+Dialogue: 0,0:16:34.86,0:16:37.53,Default,,0,0,0,,phép thuật vẫn được coi là kỹ thuật của quỷ...
+Dialogue: 0,0:16:38.16,0:16:41.16,Default,,0,0,0,,và việc nghiên cứu vẫn được coi là cấm kỵ.
+Dialogue: 0,0:16:42.23,0:16:43.93,Default,,0,0,0,,Flamme đã tác động vào việc này.
+Dialogue: 0,0:16:44.53,0:16:49.46,Default,,0,0,0,,Con bé đã tham gia vào việc\Nđào tạo thứ gọi là các pháp sư hoàng gia.
+Dialogue: 0,0:16:51.20,0:16:54.76,Default,,0,0,0,,Và giờ nó muốn ta tiếp quản.
+Dialogue: 0,0:16:56.98,0:16:58.96,Default,,0,0,0,,Đúng là một con bé tham lam.
+Dialogue: 0,0:17:00.48,0:17:03.93,Default,,0,0,0,,Cho phép toàn dân nghiên cứu phép thuật\Nđã là một thành tựu lớn...
+Dialogue: 0,0:17:04.73,0:17:06.26,Default,,0,0,0,,vậy mà còn mong muốn hơn thế.
+Dialogue: 0,0:17:07.25,0:17:09.30,Default,,0,0,0,,Đó là chuyện lớn sao?
+Dialogue: 0,0:17:10.23,0:17:16.66,Default,,0,0,0,,Là chuyện đế quốc lớn nhất lục địa\Nbắt đầu nghiên cứu phép thuật và áp dụng vào quân sự đấy.
+Dialogue: 0,0:17:17.76,0:17:20.00,Default,,0,0,0,,Các nước xung quanh sẽ không ngồi yên.
+Dialogue: 0,0:17:20.53,0:17:21.86,Default,,0,0,0,,Chỉ vài chục năm nữa,
+Dialogue: 0,0:17:22.36,0:17:24.50,Default,,0,0,0,,phép thuật sẽ phủ khắp lục địa.
+Dialogue: 0,0:17:26.13,0:17:29.50,Default,,0,0,0,,Một thời đại mà mọi con người\Nđều dùng được phép thuật sẽ đến.
+Dialogue: 0,0:17:30.96,0:17:32.66,Default,,0,0,0,,Trong tương lai không xa,
+Dialogue: 0,0:17:33.20,0:17:36.83,Default,,0,0,0,,nhân loại sẽ có được sức mạnh\Nđể chống lại quân quỷ vương.
+Dialogue: 0,0:17:37.52,0:17:38.32,Default,,0,0,0,,Vậy à.
+Dialogue: 0,0:17:38.32,0:17:40.64,Default,,0,0,0,,Đúng là chuyện rất to lớn nhỉ.
+Dialogue: 0,0:17:41.53,0:17:42.64,Default,,0,0,0,,Quả thực là vậy.
+Dialogue: 0,0:17:45.80,0:17:46.60,Default,,0,0,0,,Nhưng mà...
+Dialogue: 0,0:17:47.40,0:17:49.63,Default,,0,0,0,,đó không phải là điều ta mong muốn.
+Dialogue: 0,0:17:50.96,0:17:52.66,Default,,0,0,0,,Về đi, Frieren.
+Dialogue: 0,0:17:53.56,0:17:56.03,Default,,0,0,0,,Ta sẽ không tiếp nhận di thư này.
+Dialogue: 0,0:17:56.56,0:17:57.83,Default,,0,0,0,,Thật sự khó chịu.
+Dialogue: 0,0:18:00.16,0:18:02.46,Default,,0,0,0,,Thời đại mà mọi người đều dùng được phép thuật?
+Dialogue: 0,0:18:03.70,0:18:05.66,Default,,0,0,0,,Phép thuật vốn là thứ đặc biệt.
+Dialogue: 0,0:18:06.90,0:18:09.50,Default,,0,0,0,,Ta không định dạy cho cả những kẻ không có tài.
+Dialogue: 0,0:18:10.90,0:18:12.56,Default,,0,0,0,,Đưa ta một thứ như thế này...
+Dialogue: 0,0:18:13.26,0:18:15.72,Default,,0,0,0,,Cho đến cuối cùng, ta và Flamme\Ncũng chẳng thể hiểu nhau.
+Dialogue: 0,0:18:17.10,0:18:20.04,Default,,0,0,0,,Đúng là một đứa đệ tử\Nđào tạo lúc cao hứng.
+Dialogue: 0,0:18:20.80,0:18:21.70,Default,,0,0,0,,Sư phụ...
+Dialogue: 0,0:18:22.56,0:18:26.50,Default,,0,0,0,,nói rằng chắc hẳn Serie sẽ nổi giận\Nvà xé di thư.
+Dialogue: 0,0:18:29.46,0:18:31.76,Default,,0,0,0,,Dù vậy, người vẫn muốn truyền đạt.
+Dialogue: 0,0:18:32.56,0:18:34.28,Default,,0,0,0,,Rằng giấc mơ đã thành hiện thực.
+Dialogue: 0,0:18:34.84,0:18:36.56,Default,,0,0,0,,Đúng là khó hiểu thật.
+Dialogue: 0,0:18:41.30,0:18:42.63,Default,,0,0,0,,Thôi, tôi đi đây.
+Dialogue: 0,0:18:43.73,0:18:45.80,Default,,0,0,0,,Chắc sẽ không gặp lại nữa đâu.
+Dialogue: 0,0:18:46.40,0:18:47.20,Default,,0,0,0,,Frieren.
+Dialogue: 0,0:18:49.54,0:18:51.64,Default,,0,0,0,,Trước đó thì đi bộ cùng ta chút được không?
+Dialogue: 0,0:18:52.43,0:18:55.43,Default,,0,0,0,,Đằng nào thì chúng ta\Ncũng có rất nhiều thời gian mà.
+Dialogue: 0,0:18:59.86,0:19:04.03,Default,,0,0,0,,Thời đại mà mọi người đều dùng được phép thuật\Nlà giấc mơ của Flamme.
+Dialogue: 0,0:19:06.03,0:19:07.16,Default,,0,0,0,,Đối với con bé thì...
+Dialogue: 0,0:19:07.70,0:19:09.40,Default,,0,0,0,,việc phục vụ nhân loại...
+Dialogue: 0,0:19:09.90,0:19:11.76,Default,,0,0,0,,hay giành lấy sức mạnh\Nchống lại quân quỷ vương...
+Dialogue: 0,0:19:13.16,0:19:15.10,Default,,0,0,0,,chắc hẳn nó chẳng hề quan tâm.
+Dialogue: 0,0:19:20.46,0:19:22.90,Default,,0,0,0,,Ngươi biết phép mà con bé thích\Nlà gì không?
+Dialogue: 0,0:19:24.46,0:19:25.96,Default,,0,0,0,,Là phép tạo ra cánh đồng hoa.
+Dialogue: 0,0:19:27.90,0:19:30.76,Default,,0,0,0,,Một phép vớ vẩn và vô dụng.
+Dialogue: 0,0:19:36.46,0:19:38.80,Default,,0,0,0,,Con bé thật sự yêu phép thuật.
+Dialogue: 0,0:19:39.73,0:19:45.20,Default,,0,0,0,,Nó thật sự ước rằng\Nmọi người trên thế giới có thể dùng những phép như thế.
+Dialogue: 0,0:19:47.12,0:19:48.66,Default,,0,0,0,,Đúng là khó chịu thật.
+Dialogue: 0,0:19:49.90,0:19:52.26,Default,,0,0,0,,Cứ như một giấc mơ đáng yêu\Ncủa một bé gái vậy.
+Dialogue: 0,0:19:53.33,0:19:55.60,Default,,0,0,0,,Nhưng thật sự thì đúng là vậy.
+Dialogue: 0,0:19:57.63,0:20:03.76,Default,,0,0,0,,Đó là một câu chuyện cổ tích\Nmà nó liên tục kể với ta từ hồi nó còn thấp hơn ta rất nhiều.
+Dialogue: 0,0:20:05.90,0:20:07.13,Default,,0,0,0,,Nói thật, ta đã nghĩ...
+Dialogue: 0,0:20:07.80,0:20:09.60,Default,,0,0,0,,thời đại đó còn quá xa vời...
+Dialogue: 0,0:20:10.43,0:20:13.20,Default,,0,0,0,,và con bé sẽ không bao giờ\Nthực hiện được.
+Dialogue: 0,0:20:16.90,0:20:21.60,Default,,0,0,0,,Đối với ta, cuộc đời của con bé\Nngắn ngủi như không hề tồn tại...
+Dialogue: 0,0:20:22.04,0:20:24.70,Default,,0,0,0,,nhưng lại trở thành nền tảng của\Nphép thuật nhân loại.
+Dialogue: 0,0:20:26.00,0:20:28.83,Default,,0,0,0,,Sư phụ luôn quyết định rất nhanh.
+Dialogue: 0,0:20:29.80,0:20:32.20,Default,,0,0,0,,Cứ như đang bị cái gì đó\Nthúc giục vậy.
+Dialogue: 0,0:20:34.63,0:20:36.33,Default,,0,0,0,,Con người có thọ mệnh.
+Dialogue: 0,0:20:37.03,0:20:39.40,Default,,0,0,0,,Luôn ở gần cái chết hơn chúng ta rất nhiều.
+Dialogue: 0,0:20:41.43,0:20:42.33,Default,,0,0,0,,Trong đời...
+Dialogue: 0,0:20:42.96,0:20:46.13,Default,,0,0,0,,có nhiều lúc chúng ta phải đưa ra\Nquyết định trọng đại...
+Dialogue: 0,0:20:46.80,0:20:50.13,Default,,0,0,0,,Nhưng với những đứa trẻ đó\Nthì chúng không thể trì hoãn được.
+Dialogue: 0,0:20:52.22,0:20:55.93,Default,,0,0,0,,Với chúng ta thì cứ để 1-200 năm sau\Ncũng được
+Dialogue: 0,0:20:57.13,0:21:00.53,Default,,0,0,0,,Thậm chí bỏ đó cả ngàn năm\Nthì cũng chẳng sao.
+Dialogue: 0,0:21:02.40,0:21:05.70,Default,,0,0,0,,Thời gian của chúng ta gần như vô hạn mà.
+Dialogue: 0,0:21:08.43,0:21:09.23,Default,,0,0,0,,Frieren.
+Dialogue: 0,0:21:10.10,0:21:15.00,Default,,0,0,0,,Để xây dựng được một thứ giống như nền văn minh,\Ncon người đã tốn rất nhiều năm.
+Dialogue: 0,0:21:16.50,0:21:19.33,Default,,0,0,0,,Nhưng từ giờ, thời đại sẽ\Nthay đổi rất nhanh đấy.
+Dialogue: 0,0:21:23.06,0:21:24.23,Default,,0,0,0,,Chỉ trong 1000 năm.
+Dialogue: 0,0:21:26.23,0:21:28.73,Default,,0,0,0,,Chỉ 1000 năm nữa,\Nthời đại của con người sẽ đến.
+Dialogue: 0,0:21:34.66,0:21:36.80,Default,,0,0,0,,Chúng ta sẽ bị con người vượt qua.
+Dialogue: 0,0:21:43.56,0:21:46.50,Default,,0,0,0,,Đừng quên rèn luyện nhé, Frieren.
+Dialogue: 0,0:21:58.26,0:22:00.40,Default,,0,0,0,,Nếu có kẻ nào đó giết được ngươi...
+Dialogue: 0,0:22:01.26,0:22:02.36,Default,,0,0,0,,thì đó là quỷ vương...
+Dialogue: 0,0:22:05.33,0:22:06.90,Default,,0,0,0,,hoặc là một pháp sư con người.
+Dialogue: 0,0:22:12.06,0:22:14.46,Default,,0,0,0,,Tôi rất mong đợi đấy, Serie.
+Dialogue: 0,0:22:16.60,0:22:17.46,Default,,0,0,0,,Sắp tới đây,
+Dialogue: 0,0:22:18.26,0:22:22.90,Default,,0,0,0,,tôi sẽ được thấy rất nhiều pháp sư con người\Nvà đủ loại phép thuật nhỉ.
+Dialogue: 0,0:22:50.10,0:22:53.02,Default,,0,0,0,,And I'm alright (I'll be alright)
+Dialogue: 0,0:22:53.02,0:22:56.03,Default,,0,0,0,,Yeah, I hear you ( I care about you)
+Dialogue: 0,0:22:56.03,0:23:01.36,Default,,0,0,0,,Ngọn gió đang chơi đùa với mái tóc nay đã dài hơn của em
+Dialogue: 0,0:23:01.80,0:23:03.86,Default,,0,0,0,,Tất cả đều có ý nghĩa đấy
+Dialogue: 0,0:23:04.65,0:23:06.85,Default,,0,0,0,,Ngay cả những tháng ngày như đã dừng lại
+Dialogue: 0,0:23:07.83,0:23:13.38,Default,,0,0,0,,Đến giờ thì em đã hiểu ra rằng em đã bắt kịp với anh
+Dialogue: 0,0:23:13.87,0:23:17.40,Default,,0,0,0,,Thấy không? Những điều em không thể nhìn thấy…
+Dialogue: 0,0:23:17.40,0:23:20.40,Default,,0,0,0,,nếu không phải là đôi mắt đó…
+Dialogue: 0,0:23:20.40,0:23:25.00,Default,,0,0,0,,Tại sao nhỉ? Giờ chúng đang tuôn trào
+Dialogue: 0,0:23:25.00,0:23:31.39,Default,,0,0,0,,Em sẽ không đòi hỏi phải được gặp anh,\Nthế nên ít nhất…
+Dialogue: 0,0:23:31.39,0:23:37.08,Default,,0,0,0,,chỉ hôm nay thôi, hãy cho em được nhớ về quá khứ
+Dialogue: 0,0:23:37.08,0:23:43.13,Default,,0,0,0,,Thế nên nếu như có ngày ta gặp lại…
+Dialogue: 0,0:23:43.13,0:23:48.78,Default,,0,0,0,,thì không còn do dự, em sẽ chọn hiện tại
+Dialogue: 0,0:23:50.16,0:23:53.23,Default,,0,0,0,,Anytime, anywhere, yah (dù ở bất cứ đâu)
+Dialogue: 0,0:23:53.23,0:23:56.23,Default,,0,0,0,,Anytime, anywhere (hãy cho em thấy nụ cười của anh)
+Dialogue: 0,0:23:56.23,0:24:00.63,Default,,0,0,0,,I'll be there (hãy nhắm mắt lại, và em sẽ luôn ở đó)
+Dialogue: 0,0:24:00.63,0:24:03.50,Default,,0,0,0,,Dù không có gì là tuyệt đối…
+Dialogue: 0,0:24:03.50,0:24:06.42,Default,,0,0,0,,thì em vẫn sẽ luôn thấu hiểu
+Dialogue: 0,0:24:06.42,0:24:12.55,Default,,0,0,0,,Những giọt nước mắt đó sẽ ổn thôi,\Nvì bình minh nhất định sẽ đến
+Dialogue: 0,0:24:12.68,0:24:19.43,Default,,0,0,0,,I'm whispering our lullaby for you to come back home
+Dialogue: 0,0:24:20.23,0:24:22.69,Default,,0,0,0,,- Vậy thì kết thúc trước thôi nào.\N- Để hai người tệ nhất cùng chết một lúc nhỉ.
+Dialogue: 0,0:24:22.69,0:24:23.42,Default,,0,0,0,,Tuyệt vời quá.
+Dialogue: 0,0:24:23.42,0:24:25.56,Default,,0,0,0,,- Nhờ con nhé.\N- Sư phụ Frieren.
+Dialogue: 0,0:24:25.56,0:24:27.69,Default,,0,0,0,,- Vẫn trong dự đoán nhỉ.\N- Quả nhiên là phải làm vậy thôi.
+Dialogue: 0,0:24:27.69,0:24:31.68,Default,,0,0,0,,(Tập 26: Tầm cao của phép thuật)\NĐây chính là tầm cao của phép thuật.
