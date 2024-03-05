@@ -17,7 +17,7 @@ for sub_folder in ${SEARCH_DIRS[@]}; do
 		continue
 	fi
 	# Get all the MKV files in this dir and its subdirs
-	find "$sub_folder" -newer "$BASE_FOLDER/backup/AnimeSubtitles/last_extract_sub" -type f -name '*.mkv' | while read -r filename; do
+	find "$sub_folder" -type f -name '*.mkv' | while read -r filename; do
 		FILE_BASE_NAME=${filename%.*}
 		if [[ -f "${FILE_BASE_NAME}.vie.sup" ]] || [[ -f "${FILE_BASE_NAME}.vi.sup" ]] || [[ -f "${FILE_BASE_NAME}.vie.ass" ]] || [[ -f "${FILE_BASE_NAME}.vi.ass" ]] || [[ -f "${FILE_BASE_NAME}.vi.srt" ]] || [[ -f "${FILE_BASE_NAME}.vie.srt" ]]; then
 			continue
