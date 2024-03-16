@@ -1,4 +1,5 @@
 # Anime Subtitles - Vietnamese
+NEW -> https://git.linuxholic.com/boydaihungst/AnimeSubtitles
 
 <!--toc:start-->
 - [Anime Subtitles - Vietnamese](#anime-subtitles-vietnamese)
